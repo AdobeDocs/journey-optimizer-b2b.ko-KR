@@ -3,16 +3,16 @@ title: 여정 개요 대시보드
 description: 여정 개요 대시보드에서 제공하는 정보와 이를 통해 계정 여정 전략을 모니터링하고 관리하는 데 어떻게 도움이 되는지에 대해 알아봅니다.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # 여정 개요 대시보드
 
-이 대시보드는 참여를 포괄적으로 볼 수 있으며 시간에 따른 스냅샷 도넛 차트 및 트렌드를 보여 주는 선 차트를 통해 계정 및 개별 상호 작용에 대한 실시간 지표를 보여 줍니다. 참여 노력을 효과적으로 모니터링하고 전략화하는 데 도움이 됩니다.
+이 대시보드는 선택한 계정 여정에 대한 포괄적인 개요를 제공하며, 완료, 진행 중인 활동 및 시간에 따른 중단을 범주화하고 수량화하는 도넛 및 라인 차트를 사용하여 계정 진행 상황을 자세히 설명합니다. 이는 마케터가 주요 게재 및 참여 지표를 통해 이메일 및 SMS 채널의 효과를 평가하는 데 도움이 됩니다.
 
 ## 여정 상태
 
@@ -85,7 +85,3 @@ ht-degree: 0%
 * [!UICONTROL 시작 날짜]
 * [!UICONTROL 종료 날짜]
 * [!UICONTROL 여정의 일 수]
-
-전역 필터:
-
-날짜 필터

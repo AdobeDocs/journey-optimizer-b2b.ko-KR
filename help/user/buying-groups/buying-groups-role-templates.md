@@ -3,9 +3,9 @@ title: 그룹 역할 템플릿 구매 중
 description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
 1. 템플릿에 정의할 각 역할에 대한 규칙을 추가합니다.
 
-   현재 릴리스에는 6개의 역할 `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`이(가) 있습니다.
+* 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
 
-   ![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  현재 릴리스에는 6개의 역할 `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`이(가) 있습니다.
 
-   * 목록에서 역할을 선택합니다.
+![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * **[!UICONTROL 조건 추가]**&#x200B;를 클릭합니다.
+* 참여 점수를 계산하는 데 사용되는 역할에 대해 **[!UICONTROL 가중치]**&#x200B;를 설정합니다.
+
+  각 옵션의 값은 점수 계산에 대한 백분율로 변환됩니다. [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 및 [!UICONTROL Vital] = 100.
+
+  예를 들어, Vital, Important 및 Normal을 사용하는 역할이 있는 역할 템플릿은 100/240, 80/240, 60/240으로 변환됩니다.
+
+* **[!UICONTROL 자동 할당을 위한 조건 추가]** - 조건에 일치하는 구매 그룹에 자동 할당 구성원을 위한 조건을 추가하려면 이 확인란을 선택하십시오. 확인란을 선택하지 않으면 조건을 추가할 필요가 없습니다.
+
+* **[!UICONTROL 완결성 점수 필요]** - 완결성 점수를 계산하기 위한 요구 사항이 되도록 하려면 역할에 대해 이 확인란을 선택합니다. —>
+
+* **[!UICONTROL 조건 추가]**&#x200B;를 클릭합니다.
 
    * 조건 대화 상자에서 **[!UICONTROL 개인 특성]** 목록을 확장하고 역할과 일치하는 데 사용할 특성을 찾습니다. 오른쪽으로 드래그하여 필터 공간에 놓습니다.
 
@@ -77,19 +87,15 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
    * **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-   템플릿에 포함할 각 추가 역할에 대해 **[!UICONTROL 다른 역할 추가]**&#x200B;를 클릭하고 역할에 대해 일치시킬 하나 이상의 조건을 정의합니다.
+템플릿에 포함할 각 추가 역할에 대해 **[!UICONTROL 다른 역할 추가]**&#x200B;를 클릭하고 역할에 대해 일치시킬 하나 이상의 조건을 정의합니다.
 
-   ![여러 역할이 정의된 역할 템플릿](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![여러 역할이 정의된 역할 템플릿](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. 템플릿을 사용할 준비가 되면 오른쪽 상단의 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
 
    템플릿을 게시하면 해당 템플릿이 _Live_ 상태로 설정되며 솔루션 관심사에 연결할 수 있습니다. 역할 템플릿을 게시하려면 정의된 역할이 하나 이상 있어야 합니다.
 
    변경 사항이 _초안_ 상태로 자동 저장됩니다. 역할 템플릿을 게시할 준비가 되지 않은 경우 페이지 상단에 있는 왼쪽(뒤로) 화살표를 클릭하고 역할 템플릿 목록으로 돌아갑니다.
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## 초안 역할 템플릿 편집
 

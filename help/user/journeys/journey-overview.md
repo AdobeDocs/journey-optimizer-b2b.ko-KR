@@ -3,9 +3,9 @@ title: 계정 여정
 description: 계정 여정과 이를 만들고 관리하는 방법에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 이 표에는 이름 및 작성자별로 검색하는 기능이 포함되어 있습니다. 현재 정렬을 사용할 수 없습니다.
 
-오른쪽 상단의 열 아이콘을 클릭하고 확인란을 선택하거나 취소하여 표시된 테이블을 사용자 정의할 수 있습니다.
+오른쪽 상단의 _열_ 아이콘을 클릭하고 확인란을 선택하거나 선택을 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
 
 ![계정 여정 목록에 표시할 열을 선택하십시오](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ _[!UICONTROL 계정 여정]_ 목록에서 링크로 표시된 이름을 클릭�
 
 ![계정 여정 작업 공간](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-각 여정의 편집기 헤더에는 다음이 포함됩니다.
+각 계정 여정의 편집기 헤더에는 다음이 포함됩니다.
 
 * 여정 이름
 * 이름 편집 기능(_편집_ 아이콘)

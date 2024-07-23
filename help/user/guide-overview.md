@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: Adobe Journey Optimizer B2B 에디션 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Beta 프로그램에 참여하여 Adobe Journey Optimizer B2B 에디션 Beta 릴
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B 에디션 Beta 릴리스"}
 
->[!TAB 전자 메일 콘텐츠에 대한 AI 길잡이]
+>전자 메일 콘텐츠에 대한 [!TAB AI 길잡이]
 
 생성 AI를 기반으로 하는 Adobe Journey Optimizer B2B 에디션의 AI 어시스턴트를 통해 콘텐츠를 한 차원 높입니다. AI Assistant는 전체 이메일, 타겟팅된 텍스트 콘텐츠 및 대상자와 공감을 이루도록 특별히 맞춤화된 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 됩니다.
 
@@ -88,24 +88,25 @@ Beta 프로그램에 참여하여 Adobe Journey Optimizer B2B 에디션 Beta 릴
       <strong>구매 그룹</strong><br/><a href="./buying-groups/buying-groups-overview.md">구매 그룹 개요</a><br/><a href="./buying-groups/buying-groups-role-templates.md">역할 템플릿</a><br/><a href="./buying-groups/solution-interests.md">솔루션 관심 분야</a><br/><a href="./buying-groups/buying-groups-create.md">구매 그룹 만들기</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>콘텐츠 여정</strong><br/><a href="./content/email-authoring.md">이메일 작성</a><br/><a href="./content/ai-assistant-emails.md">이메일에 대한 AI 도우미</a><br/><a href="./content/sms-authoring.md">SMS 작성</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <strong>계정 여정</strong><br/><a href="./journeys/journey-overview.md">여정 개요</a><br/><a href="./journeys/journey-nodes.md">여정 노드</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">계정 여정 만들기</a>
     </td>
   </tr>
   <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>콘텐츠 여정</strong><br/><a href="./content/email-authoring.md">이메일 작성</a><br/><a href="./content/ai-assistant-emails.md">이메일에 대한 AI 도우미</a><br/><a href="./content/sms-authoring.md">SMS 작성</a>
+    </td>
         <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
-      <strong>계정 여정</strong><br/><a href="./journeys/journey-overview.md">여정 개요</a><br/><a href="./journeys/journey-nodes.md">여정 노드</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">계정 여정 만들기</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <strong>Assets</strong><br/><a href="./content/assets-overview.md">개요</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage 디자인 스튜디오</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
       <strong>인사이트</strong><br/><a href="./dashboards/buying-groups-dashboard.md">구매 그룹 대시보드</a><br/><a href="./dashboards/journeys-dashboard.md">여정 대시보드</a><br/><a href="./dashboards/engagement-dashboard.md">참여 대시보드</a>
     </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>통합</strong><br/><a href="./integrations/experience-manager-assets-integration.md">Adobe Experience Manager Assets</a>
-    </td>
-  </tr>
+
+</tr>
 </table>
 
 <!-- 

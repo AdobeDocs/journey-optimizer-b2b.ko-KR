@@ -3,9 +3,9 @@ title: SMS 작성
 description: 모바일 장치에서 고객에게 텍스트 메시지(SMS)를 보내는 방법과 SMS 편집기에서 텍스트 형식의 메시지를 개인화하고 미리 보는 방법에 대해 알아봅니다.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e0d9359560f31b3e66f593426c66e64d31044d54
+source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B 에디션을 사용하여 모바일 디바이스에�
 
 ## SMS 구성
 
-Adobe Journey Optimizer B2B 에디션은 SMS 서비스 공급자(또는 SMS 게이트웨이 공급자)를 통해 텍스트 메시지를 전송합니다. SMS 메시지를 만들기 전에 관리자 설정에서 서비스 공급자를 구성합니다.
+Adobe Journey Optimizer B2B 에디션은 SMS 서비스 공급자(또는 SMS 게이트웨이 공급자)를 통해 텍스트 메시지를 전송합니다. SMS 메시지를 만들기 전에 _관리자_ 설정에서 서비스 공급자를 구성하십시오.
 
 ### SMS 게이트웨이 서비스 공급자
 
@@ -162,26 +162,26 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
    개인화 토큰이 배치되면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장하고 기본 SMS 작성 작업 영역으로 돌아갑니다. 필요에 따라 토큰으로 메시지를 계속 편집할 수 있습니다.
 
-<!-- 1. **Add URLs to text message**.
+1. **문자 메시지에 URL 추가**.
 
-   After defining your content, you can add URLs to your message by clicking the _Link_ icon.
-   
-   You can add two types of URLs: 
+   콘텐츠를 정의한 후 _링크_ 아이콘을 클릭하여 메시지에 URL을 추가할 수 있습니다.
 
-   External URLs - This is ANY external URL that can be directly typed into/ pasted into the input text box
-   Adobe Marketo Engage Design Studio Landing Pages - Selecting this option, you will see a 'Landing Page picker' from which you can select any of the listed approved Landing Pages from Marketo Engage
+   이 작업을 수행하면 연결할 두 가지 유형의 URL 중 하나를 선택할 수 있는 대화 상자가 열립니다.
 
-   You can choose to 'shorten' either of these URLs by selecting the checkbox
-   Note that the URL shortening function, uses the Marketo subdomain for shortening
-   The shortened URL appears as a read-only field within the modal
-   You can optionally track clicks on the URL
-   You can also choose to include 'mkt_tok' for tracking activity against a user
-   Click on Add to save changes & add the chosen URL to the SMS message
--->
+   * **[!UICONTROL 외부 URL]** - 이 형식은 텍스트 상자에 입력하는 모든 외부 URL입니다.
+   * **[!UICONTROL 랜딩 페이지]** - Marketo Engage 인스턴스에서 승인된 Adobe Marketo Engage Design Studio 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오.
+
+   이 대화 상자에는 URL 링크에 대한 옵션도 포함되어 있습니다.
+
+   * **[!UICONTROL URL 단축]** - 이 확인란을 선택하여 추적에 필요한 URL을 _단축_&#x200B;합니다. 랜딩 페이지의 경우 단축된 URL에 Marketo Engage 하위 도메인을 사용합니다. 단축된 URL 형식의 샘플이 표시됩니다. 실제 URL은 SMS가 수신자에게 전송될 때 만들어집니다.
+
+   * **[!UICONTROL mkt_tok 포함]** - 이 확인란을 선택하여 사용자에 대한 활동을 추적합니다.
+
+   링크 옵션이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 변경 내용을 저장하고 SMS 메시지에 URL 링크를 추가합니다.
 
 ## SMS 속성 설정
 
-1. _[!UICONTROL SMS 속성]_ 섹션에서 메시지에 대해 **[!UICONTROL 이름]**(필수, 100cha\racter 최대값) 및 **[!UICONTROL 설명]**(선택 사항, 최대 300자)을 입력합니다.
+1. _[!UICONTROL SMS 속성]_ 섹션에서 메시지에 대해 **[!UICONTROL 이름]**(필수, 최대 100자)과 **[!UICONTROL 설명]**(선택 사항, 최대 300자)을 입력합니다.
 
    이러한 필드에는 Alpha, 숫자, 특수 문자가 허용됩니다. 다음 예약 문자는 **허용되지 않음**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` 및 `|`입니다.
 
@@ -198,32 +198,48 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
    ![작업 수행 - sms 보내기](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   받는 사람 번호는 항상 Marketo Engage의 `Lead.MainPhone` 필드에 매핑됩니다.
+   받는 사람 번호는 항상 Marketo Engage의 `Lead.mobilePhone` 필드에 매핑됩니다.
 
-<!-- ## Preview the text message content
+## 텍스트 메시지 콘텐츠 시뮬레이션
 
-When your message content is defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+메시지 콘텐츠가 정의된 경우 테스트 프로필을 사용하여 콘텐츠를 시뮬레이션(미리 보기)할 수 있습니다. 개인화된 콘텐츠를 삽입했다면 테스트 프로필 데이터를 이용해 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있다.
 
-1. Click **[!UICONTROL Simulate Content]** at the top of the SMS authoring workspace.
+>[!IMPORTANT]
+>
+>문자 메시지를 시뮬레이션하려면 먼저 SMS 메시지를 저장해야 합니다.
 
-1. From the _[!UICONTROL Simulate Content]_ page, click **[!UICONTROL Add People]**.
+1. SMS 작성 작업 영역의 상단에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다.
 
-1. Use the # page to manage the leads used for your test profile.
+1. _[!UICONTROL 콘텐츠 시뮬레이션]_ 페이지에서 **[!UICONTROL 사람 추가]**&#x200B;를 클릭합니다.
 
-   In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
+1. _콘텐츠 시뮬레이션_ 페이지를 사용하여 테스트 프로필에 사용되는 리드를 관리하십시오.
 
-   To search, enter the whole email address and click enter. The corresponding lead profile shows up for selection.
+   표시된 목록에서 Marketo Engage 리드 데이터베이스에서 가망 고객(한 번에 최대 10개의 가망 고객)을 검색하고 추가할 수 있습니다.
 
-   The preview updated to the personalization fields for the selected profile.
+   검색하려면 전체 전자 메일 주소를 입력하고 _Enter_&#x200B;를 누르십시오. 선택을 위해 해당 리드 프로파일이 표시됩니다.
 
-   All the added leads appear on the left rail of the 'Simulate Content' page
+   미리보기가 선택한 프로필의 개인화 필드로 업데이트됩니다.
 
-   You can manage this list by adding more people and deleting individual leads from the profile listing (it does not remove them from the database).
+   추가된 모든 리드가 왼쪽에 나타납니다.
 
-1. Simulate content for a lead.
+   더 많은 직원을 추가하고 프로필 목록에서 개별 리드를 삭제하여 이 목록을 관리할 수 있습니다(데이터베이스에서 제거되지 않음).
 
-   Select any of the leads listed on the left rail of the Simulate Content page and the SMS preview on the page updates for the corresponding lead.
+1. 선택한 리드에 대한 콘텐츠를 시뮬레이션합니다.
 
-   You can also select a lead from the 'drop-down' box above the preview space and the SMS preview on the page updates for the corresponding lead
+   왼쪽에 나열된 리드를 선택하고 해당 리드에 대한 페이지 업데이트의 SMS 미리보기를 선택합니다.
 
-1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click Close. -->
+   미리보기 공간 위의 선택기에서 리드를 선택하여 해당 리드에 대한 페이지의 SMS 미리보기를 업데이트할 수도 있습니다.
+
+1. _[!UICONTROL 콘텐츠 시뮬레이션]_ 페이지를 종료하고 SMS 작성 작업 공간으로 돌아가려면 오른쪽 상단의 **[!UICONTROL 닫기]**&#x200B;를 클릭합니다.
+
+## SMS 동의 관리
+
+수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하고 이러한 선택을 준수하는 것은 법적 요구 사항입니다. 이러한 규정을 준수하지 않으면 브랜드에 대한 법적 위험이 발생합니다. 또한 이 기능을 사용하면 원하지 않는 커뮤니케이션을 수신자에게 보내지 않아 메시지를 스팸으로 표시하고 명성을 손상시킬 수 있습니다.
+
+이 옵션을 제공하면 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. 모든 표준 옵트인 및 옵트아웃 키워드는 SMS 서비스 공급자에서 구성된 모든 사용자 지정 키워드와 지원됩니다. 구독을 취소하면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.
+
+Journey Optimizer B2B 에디션은 다음 논리를 사용하여 SMS 메시지에서 옵트아웃을 관리하는 기능을 제공합니다.
+
+* 기본적으로 잠재 고객이 사용자로부터 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 SMS 게재에서 제외됩니다
+
+* 다른 소스(예: AEP 또는 SMS 서비스 공급자)에서 발생한 이 잠재 고객 동의는 Journey Optimizer B2B 에디션으로 동기화됩니다. 현재 인스턴스 수준에서 리드당 단일 동의 상태만 지원합니다(&#39;John Doe&#39; 리드가 인스턴스의 모든 프로모션 SMS에 구독되거나 구독 취소됨). 현재 브랜드 수준/개별 구독 목록 수준 동의에 대한 이중 옵트인을 지원하지 않습니다.
