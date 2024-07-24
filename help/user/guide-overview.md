@@ -25,7 +25,7 @@ Beta 프로그램에 참여하여 Adobe Journey Optimizer B2B 에디션 Beta 릴
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B 에디션 Beta 릴리스"}
 
->전자 메일 콘텐츠에 대한 [!TAB AI 길잡이]
+>[!TAB 전자 메일 콘텐츠에 대한 AI 길잡이]
 
 생성 AI를 기반으로 하는 Adobe Journey Optimizer B2B 에디션의 AI 어시스턴트를 통해 콘텐츠를 한 차원 높입니다. AI Assistant는 전체 이메일, 타겟팅된 텍스트 콘텐츠 및 대상자와 공감을 이루도록 특별히 맞춤화된 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 됩니다.
 
