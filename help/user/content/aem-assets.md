@@ -2,10 +2,11 @@
 title: Experience Manager Assets 작업
 description: Adobe Journey Optimizer B2B Edition에서 콘텐츠를 작성할 때 연결된 AEM Assets 저장소에서 이미지 에셋을 사용하는 방법을 알아봅니다.
 feature: Assets, Content
-source-git-commit: 0bdf0da4db0cbfc781d16f1c50716b1fc8ea4db9
+exl-id: c6864981-209c-4123-8d3f-24deb07026a0
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ Adobe Experience Manager Assets as a Cloud Service B를 Adobe Journey Optimizer 
 
 * 새 콘텐츠를 만들 때는 대화 상자에서 `AEM Assets`을(를) **[!UICONTROL Image Source]** 항목으로 선택하십시오.
 
-  ![만들기 대화 상자에서 이미지 소스로 AEM Assets 선택](./assets/create-dialog-aem-assets.png){width="500"}
+  ![만들기 대화 상자에서 이미지 소스로 AEM Assets 선택](./assets/create-dialog-aem-assets.png){width="400"}
 
 * 기존 콘텐츠 리소스를 여는 경우 오른쪽의 _[!UICONTROL 본문]_ 패널에서 `AEM Assets`을(를) 선택합니다.
 

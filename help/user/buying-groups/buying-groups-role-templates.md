@@ -3,7 +3,7 @@ title: 그룹 역할 템플릿 구매 중
 description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -55,41 +55,41 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
 1. 템플릿에 정의할 각 역할에 대한 규칙을 추가합니다.
 
-* 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
+   * 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
 
-  현재 릴리스에는 6개의 역할 `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`이(가) 있습니다.
+     현재 릴리스에는 6개의 역할 `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`이(가) 있습니다.
 
-![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* 참여 점수를 계산하는 데 사용되는 역할에 대해 **[!UICONTROL 가중치]**&#x200B;를 설정합니다.
+   * 참여 점수를 계산하는 데 사용되는 역할에 대해 **[!UICONTROL 가중치]**&#x200B;를 설정합니다.
 
-  각 옵션의 값은 점수 계산에 대한 백분율로 변환됩니다. [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 및 [!UICONTROL Vital] = 100.
+     각 옵션의 값은 점수 계산에 대한 백분율로 변환됩니다. [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 및 [!UICONTROL Vital] = 100.
 
-  예를 들어, Vital, Important 및 Normal을 사용하는 역할이 있는 역할 템플릿은 100/240, 80/240, 60/240으로 변환됩니다.
+     예를 들어, Vital, Important 및 Normal을 사용하는 역할이 있는 역할 템플릿은 100/240, 80/240, 60/240으로 변환됩니다.
 
-* **[!UICONTROL 자동 할당을 위한 조건 추가]** - 조건에 일치하는 구매 그룹에 자동 할당 구성원을 위한 조건을 추가하려면 이 확인란을 선택하십시오. 확인란을 선택하지 않으면 조건을 추가할 필요가 없습니다.
+   * **[!UICONTROL 자동 할당을 위한 조건 추가]** - 조건에 일치하는 구매 그룹에 자동 할당 구성원을 위한 조건을 추가하려면 이 확인란을 선택하십시오. 확인란을 선택하지 않으면 조건을 추가할 필요가 없습니다.
 
-* **[!UICONTROL 완결성 점수 필요]** - 완결성 점수를 계산하기 위한 요구 사항이 되도록 하려면 역할에 대해 이 확인란을 선택합니다. —>
+   * **[!UICONTROL 완결성 점수 필요]** - 완결성 점수를 계산하기 위한 요구 사항이 되도록 하려면 역할에 대해 이 확인란을 선택합니다. —>
 
-* **[!UICONTROL 조건 추가]**&#x200B;를 클릭합니다.
+   * **[!UICONTROL 조건 추가]**&#x200B;를 클릭합니다.
 
-   * 조건 대화 상자에서 **[!UICONTROL 개인 특성]** 목록을 확장하고 역할과 일치하는 데 사용할 특성을 찾습니다. 오른쪽으로 드래그하여 필터 공간에 놓습니다.
+      * 조건 대화 상자에서 **[!UICONTROL 개인 특성]** 목록을 확장하고 역할과 일치하는 데 사용할 특성을 찾습니다. 오른쪽으로 드래그하여 필터 공간에 놓습니다.
 
-     ![역할 템플릿 조건 끌기 특성 추가](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![역할 템플릿 조건 끌기 특성 추가](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * 하나 이상의 값을 사용하여 일치하는 필터를 만들려면 특성을 사용합니다.
+      * 하나 이상의 값을 사용하여 일치하는 필터를 만들려면 특성을 사용합니다.
 
-     다음 예제에서는 Job 제목 속성을 사용하여 의사 결정자의 일치를 식별합니다. `Director` 또는 `Sr Director`(으)로 시작하는 제목의 모든 값은 조건에 대해 true로 평가됩니다.
+        다음 예제에서는 Job 제목 속성을 사용하여 의사 결정자의 일치를 식별합니다. `Director` 또는 `Sr Director`(으)로 시작하는 제목의 모든 값은 조건에 대해 true로 평가됩니다.
 
-     ![직함을 사용하는 역할 템플릿 조건 예](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+        ![직함을 사용하는 역할 템플릿 조건 예](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 필요한 경우 역할에 대한 일치 기준을 더 구체화하는 다른 속성 및 조건을 추가합니다.
+      * 필요한 경우 역할에 대한 일치 기준을 더 구체화하는 다른 속성 및 조건을 추가합니다.
 
-   * **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+      * **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-템플릿에 포함할 각 추가 역할에 대해 **[!UICONTROL 다른 역할 추가]**&#x200B;를 클릭하고 역할에 대해 일치시킬 하나 이상의 조건을 정의합니다.
+   템플릿에 포함할 각 추가 역할에 대해 **[!UICONTROL 다른 역할 추가]**&#x200B;를 클릭하고 역할에 대해 일치시킬 하나 이상의 조건을 정의합니다.
 
-![여러 역할이 정의된 역할 템플릿](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![여러 역할이 정의된 역할 템플릿](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. 템플릿을 사용할 준비가 되면 오른쪽 상단의 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
 

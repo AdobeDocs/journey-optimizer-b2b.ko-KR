@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B 에디션 설명서
-description: Adobe Journey Optimizer B2B 에디션 기능을 사용하는 방법에 대해 알아봅니다.
+description: 내장된 생성 AI 및 업계 최고 수준의 자동화를 사용하여 계정을 조정하고 그룹 여정을 구매하기 위해 Adobe Journey Optimizer B2B 에디션 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -19,21 +19,25 @@ ht-degree: 2%
 
 >[!BEGINTABS]
 
->[!TAB Beta 릴리스를 사용할 수 있습니다]
+>[!TAB AI 어시스턴트]
 
-Beta 프로그램에 참여하여 Adobe Journey Optimizer B2B 에디션 Beta 릴리스에 포함된 다양한 기능을 살펴보십시오.
+계정 기반 마케팅 개념을 빠르게 활용하여 팀의 전략을 극대화하도록 설계된 Journey Optimizer B2B 에디션 기능에 대해 알아보십시오.
 
-[!BADGE 자세히 알아보기]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B 에디션 Beta 릴리스"}
+[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="AI Assistant에 대해 알아보기"}
 
->[!TAB 전자 메일 콘텐츠에 대한 AI 길잡이]
-
-생성 AI를 기반으로 하는 Adobe Journey Optimizer B2B 에디션의 AI 어시스턴트를 통해 콘텐츠를 한 차원 높입니다. AI Assistant는 전체 이메일, 타겟팅된 텍스트 콘텐츠 및 대상자와 공감을 이루도록 특별히 맞춤화된 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 됩니다.
+생성 AI에서 제공하는 Adobe Journey Optimizer B2B Edition의 이메일 콘텐츠용 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. AI Assistant는 전체 이메일, 타겟팅된 텍스트 콘텐츠 및 대상자와 공감을 이루도록 특별히 맞춤화된 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 됩니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="이메일용 AI Assistant에 대해 알아보기"}
 
+>[!TAB 시각적 조각]
+
+재사용 가능한 구성 요소를 마케팅 팀원이 향상된 디자인 프로세스를 위해 이메일 콘텐츠를 어셈블하는 데 사용할 수 있는 사용자 지정 콘텐츠 블록으로 만듭니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="시각적 조각에 대해 알아보기"}
+
 >[!TAB 구매 그룹]
 
-기업 전체의 통합 B2B 데이터에서 구매 그룹을 생성하여 회사 오퍼링에 맞게 정렬하고 각 역할에 적합한 구성원을 정의, 식별 및 타겟팅하는 방법을 자동화하여 고객 여정에 가장 정확한 타겟팅을 확장할 수 있습니다.
+기업 전체의 통합 B2B 데이터에서 구매 그룹을 생성합니다. 각 역할에 적합한 구성원을 정의하고, 식별하고, 타기팅하는 방법을 자동화하여 고객 여정에 가장 정확한 타기팅을 확장할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="구매 그룹에 대해 알아보기"}
 
@@ -45,7 +49,7 @@ Beta 프로그램에 참여하여 Adobe Journey Optimizer B2B 에디션 Beta 릴
 
 >[!ENDTABS]
 
-## 기본 사항으로 시작
+## 기본 사항부터 시작
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -55,7 +59,7 @@ Beta 프로그램에 참여하여 Adobe Journey Optimizer B2B 에디션 Beta 릴
     </td>
       <td>
     <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
-    <div><strong>첫 번째 구매 그룹 만들기</strong><br/>Journey Optimizer B2B 에디션에서 첫 번째 구매 그룹을 만들어 연락처의 참여와 자격 부여 프로세스를 자동화합니다.</div>
+    <div><strong>첫 번째 구매 그룹 만들기</strong><br/>Journey Optimizer B2B 에디션에서 첫 번째 구매 그룹을 만들어 연락처 참여 및 자격 부여 프로세스를 자동화합니다.</div>
     </td>
     <td>
     <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
@@ -76,7 +80,7 @@ Beta 프로그램에 참여하여 Adobe Journey Optimizer B2B 에디션 Beta 릴
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>로그인 및 홈 페이지</strong><br/><a href="home-page.md#marketer---new-user">마케터 - 새 사용자</a><br/><a href="home-page.md#marketer---advanced-user">마케터 - 고급</a> <br/><a href="home-page.md#administrator---new-user">관리자 - 새 사용자</a> <br/><a href="home-page.md#administrator---advanced-user">관리자 - 고급</a>
+      <strong>시작</strong><br/><a href="home-page.md">로그인 및 홈페이지</a><br/><a href="./start/get-started.md">빠른 시작 지침</a> <br/><a href="./start/ai-assistant.md">AI 길잡이</a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ Beta 프로그램에 참여하여 Adobe Journey Optimizer B2B 에디션 Beta 릴
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>Assets</strong><br/><a href="./content/assets-overview.md">개요</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage 디자인 스튜디오</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>콘텐츠 관리</strong><br/><a href="./content/assets-overview.md">Assets 개요</a><br/><a href="./content/email-templates.md">전자 메일 템플릿</a><br/><a href="./content/fragments.md">시각적 조각</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>

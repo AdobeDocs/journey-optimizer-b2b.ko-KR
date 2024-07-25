@@ -1,10 +1,11 @@
 ---
 title: Journey Optimizer B2B 에디션 시작
 description: Journey Optimizer B2B 에디션의 새로운 사용자로서, 시작하는 데 필요한 주요 영역에 대해 알아보십시오.
-source-git-commit: f38dc43681d7c12f6ae5e69978e5950fd9526f4c
+exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 8%
 
 ---
 
@@ -16,15 +17,15 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
 >[!BEGINTABS]
 
->[!TAB 관리자의 빠른 시작]
+>[!TAB 관리자 빠른 시작]
 
 팀이 Adobe Journey Optimizer B2B 에디션 기능을 사용하기 전에 환경을 준비하는 데 필요한 몇 가지 단계가 있습니다. 데이터 엔지니어와 마케터가 Adobe Journey Optimizer B2B 에디션 작업을 시작할 수 있도록 다음 단계를 수행합니다.
 
-시스템 관리자는 샌드박스 관리 및 채널 구성을 위해 제품 프로필을 이해하고 권한을 할당해야 합니다. 또한 사용 가능한 제품 프로필에 대해 샌드박스를 설정하고 관리해야 합니다. 그런 다음 팀원을 제품 프로필에 할당할 수 있습니다. 이러한 기능은 Adobe Admin Console에 액세스할 수 있는 제품 관리자가 관리할 수 있습니다. [Adobe Admin Console에 대해 자세히 알아보기](https://helpx.adobe.com/enterprise/using/admin-console.html).
+시스템 관리자는 샌드박스 관리 및 채널 구성을 위해 제품 프로필을 이해하고 권한을 할당해야 합니다. 또한 사용 가능한 제품 프로필에 대해 샌드박스를 설정하고 관리해야 합니다. 그런 다음 팀원을 제품 프로필에 할당할 수 있습니다. 이러한 기능은 Adobe Admin Console에 액세스할 수 있는 제품 관리자가 관리할 수 있습니다. [Adobe Admin Console에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
-다음 페이지에서 액세스 관리에 대해 알아봅니다.
+다음 페이지에서 액세스 관리에 대해 알아보세요.
 
-1. **샌드박스를 만들고** 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
 
 1. **제품 프로필을 설정합니다**. 제품 프로필은 사용자가 인터페이스의 특정 기능이나 개체에 액세스할 수 있도록 하는 Adobe Experience Platform의 통합된 권한 세트입니다. [자세히 알아보기](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -36,7 +37,7 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
 1. 중앙 집중식 디지털 에셋 관리를 위해 Assets을 c Cloud Service으로 사용하는 팀에 대해 **Adobe Experience Manager Assets 사용을 구성하고 활성화**&#x200B;합니다. [자세히 알아보기](../admin/configure-aem-repositories.md)
 
->[!TAB 마케터의 빠른 시작]
+>[!TAB 마케터 빠른 시작]
 
 마케터나 _계정 여정 전문가_&#x200B;로서 여정을 디자인하고 콘텐츠를 제작할 책임이 있습니다. 시스템 관리자와 데이터 엔지니어가 환경을 준비하고 액세스 권한을 부여한 후 Adobe Journey Optimizer B2B 에디션 작업을 시작할 수 있습니다.
 
@@ -46,7 +47,7 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
 1. **구매 그룹 만들기**. 비즈니스 목표 및 목표를 달성하기 위한 주요 구성 요소를 정의하고 목표 계정 목록의 구성원을 식별하는 구매 그룹을 생성합니다. [자세히 알아보기](../buying-groups/buying-groups-overview.md)
 
-1. **자산 만들기 및 관리**. Adobe Experience Manager Assets은 메시지를 채우는 데 사용할 수 있는 자산의 단일 중앙 집중식 저장소입니다. [자세히 알아보기](../content/assets-overview.md)
+1. **자산 만들고 관리하기**. Adobe Experience Manager Assets은 메시지를 채우는 데 사용할 수 있는 자산의 단일 중앙 집중식 저장소입니다. [자세히 알아보기](../content/assets-overview.md)
 
 1. **개인화된 동적 전자 메일 템플릿을 추가**&#x200B;합니다. Journey Optimizer B2B 에디션 개인화 및 다이내믹 콘텐츠 기능을 활용하여 메시지를 대상에 맞게 조정하십시오. [자세히 알아보기](../content/email-templates.md)
 
