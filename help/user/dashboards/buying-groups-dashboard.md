@@ -3,9 +3,9 @@ title: 구매 그룹 개요 대시보드
 description: 구매 그룹 개요 대시보드와 마케팅 팀의 판매 핸드오프를 활성화하는 방법에 대해 알아봅니다.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 데이터에 참여하려면 오른쪽 상단의 작업 메뉴를 사용합니다.
 
-![아이콘을 클릭하여 작업 메뉴에 액세스합니다](./assets/buying-group-more-menu.png){width="400"}
+![아이콘을 클릭하여 작업 메뉴에 액세스합니다](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL 드릴스루]
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ![그래프 데이터에 대한 드릴스루](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-대시보드에 적용된 전역 필터는 이월되며 이 페이지에서 변경할 수 없습니다.
+대시보드에 적용된 전역 필터가 이월됩니다.
 
 오른쪽 상단의 작업 메뉴 아이콘을 클릭하고 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하여 [확장 데이터 및 인사이트 보기](#view-more)를 선택합니다.
 

@@ -3,9 +3,9 @@ title: 이메일 작성
 description: 계정 여정에 사용되는 개인화된 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ _[!UICONTROL 작업 수행]_ 여정을 추가하고 다음을 수행하면 계�
 1. _[!UICONTROL 사용자에 대한 작업]_&#x200B;에 대해 **[!UICONTROL 전자 메일 보내기]**&#x200B;를 선택하세요.
 1. _[!UICONTROL 전자 메일 원본]_&#x200B;에 대해 **[!UICONTROL 새 전자 메일 만들기]**&#x200B;를 선택하세요.
 
-   또는 `Select email from Adobe Marketo Engage` 옵션을 선택하여 Marketo Engage에서 미리 작성된 이메일 중 하나를 사용하고 계정 여정의 일부로 보낼 수도 있습니다.
+   또는 _[!UICONTROL Adobe Marketo Engage에서 전자 메일 선택]_ 옵션을 선택하여 Marketo Engage에서 미리 작성된 전자 메일 중 하나를 사용하고 이를 계정 여정의 일부로 보낼 수도 있습니다.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 
 1. 왼쪽 창에서 **[!UICONTROL 링크]** 탭을 선택하여 추적되는 콘텐츠의 모든 URL을 표시합니다.
 
-   필요한 경우 추적 유형 또는 레이블을 수정하고 태그를 추가할 수 있습니다.
+   _추적 유형_ 또는 _레이블_&#x200B;을 수정하고 필요한 경우 태그를 추가할 수 있습니다.
 
 필요한 경우 고급 메뉴에서 **[!UICONTROL 코드 편집기로 전환]**&#x200B;을 클릭하여 전자 메일을 추가로 개인화할 수 있습니다. 코드 편집기를 사용하면 추적 또는 사용자 지정 HTML 태그 추가와 같은 이메일 소스 코드를 편집할 수 있습니다.
 

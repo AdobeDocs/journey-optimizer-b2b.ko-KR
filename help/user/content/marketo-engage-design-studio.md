@@ -2,7 +2,8 @@
 title: Marketo Engage 에셋으로 작업
 description: Journey Optimizer B2B Edition에서 Marketo Engage Design Studio 자산 관리 통합을 사용하는 방법에 대해 알아봅니다.
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Assets 목록 페이지에서 Adobe Marketo Engage Design Studio에 이미지 �
 
 1. 하나 이상의 파일을 기존 파일 이름으로 업로드할 때 파일을 덮어쓰려면 **[!UICONTROL 기존 파일 덮어쓰기]** 확인란을 선택합니다.
 
-1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 추가를 클릭합니다]**.
 
 ## 에셋 삭제
 
@@ -95,7 +96,7 @@ Assets 목록 페이지에서 Adobe Marketo Engage Design Studio에 이미지 �
 
 _[!UICONTROL 자산 바꾸기]_ 대화 상자에서 대체 파일을 시스템에서 파일 상자로 끌어서 놓습니다. _[!UICONTROL 컴퓨터에서 파일 선택]_ 링크를 클릭하여 로컬 파일 시스템을 사용하여 파일을 선택할 수도 있습니다. 로컬 시스템에서 여러 파일을 선택하는 경우 선택한 첫 번째 파일이 교체에 사용됩니다.
 
-![자산 바꾸기 대화 상자](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![자산 바꾸기 대화 상자](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 계속하려면 **[!UICONTROL 바꾸기]**&#x200B;를 클릭하세요. **[!UICONTROL 취소]**&#x200B;를 클릭하여 프로세스를 중단할 수 있습니다.
 
@@ -157,7 +158,7 @@ _[!UICONTROL 자산 바꾸기]_ 대화 상자에서 대체 파일을 시스템�
 
    ![폴더 만들기 대화 상자](./assets/assets-create-folder-dialog.png){width="500"}
 
-1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 추가를 클릭합니다]**.
 
 ## 폴더 수준 작업 적용
 
@@ -177,7 +178,7 @@ _[!UICONTROL 자산 바꾸기]_ 대화 상자에서 대체 파일을 시스템�
 
    선택한 이미지의 파일 이름이 대화 상자에 표시됩니다. 에셋 파일 이름은 폴더 간에 고유해야 하며 이름의 파일이 이미 있는 경우 오류 메시지가 표시됩니다. 이름에는 최대 100자를 사용할 수 있으며 특수 문자(예: `;`, `:`, `\` 및 `|`)를 사용할 수 없습니다.
 
-1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 추가를 클릭합니다]**.
 
 +++
 
@@ -189,7 +190,7 @@ _[!UICONTROL 자산 바꾸기]_ 대화 상자에서 대체 파일을 시스템�
 
    폴더 이름은 고유해야 하며 최대 100자이며 `;`, `:`, `\`, `|`과(와) 같은 특수 문자를 포함할 수 없습니다.
 
-1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 추가를 클릭합니다]**.
 
 +++
 

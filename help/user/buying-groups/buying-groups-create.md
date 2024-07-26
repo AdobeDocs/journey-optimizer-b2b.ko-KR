@@ -3,7 +3,7 @@ title: 구매 그룹 만들기
 description: 구매 그룹을 만드는 방법에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 확인 대화 상자는 구매 그룹 프로세스에 대한 요약과 예상 완료 시간을 제공합니다. 프로세스를 확인하고 시작하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하세요.
 
-![구매 그룹 만들기 확인 대화 상자](./assets/buying-groups-create-confirm.png){width="425" zoomable="no"}
+![구매 그룹 만들기 확인 대화 상자](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
 사용자를 솔루션 관심 영역 탭으로 이동하고 솔루션 관심 영역에 대해 생성된 작업 수를 표시할 수 있습니다.
 

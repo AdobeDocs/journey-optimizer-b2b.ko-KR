@@ -3,16 +3,20 @@ title: 여정 개요 대시보드
 description: 여정 개요 대시보드에서 제공하는 정보와 이를 통해 계정 여정 전략을 모니터링하고 관리하는 데 어떻게 도움이 되는지에 대해 알아봅니다.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
+source-git-commit: 18e22383c9f9294d209f4c8a6f9f04f074881186
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
 # 여정 개요 대시보드
 
 이 대시보드는 선택한 계정 여정에 대한 포괄적인 개요를 제공하며, 완료, 진행 중인 활동 및 시간에 따른 중단을 범주화하고 수량화하는 도넛 및 라인 차트를 사용하여 계정 진행 상황을 자세히 설명합니다. 이는 마케터가 주요 게재 및 참여 지표를 통해 이메일 및 SMS 채널의 효과를 평가하는 데 도움이 됩니다.
+
+이 개요는 게시된 계정 여정에 대해 사용할 수 있으며, 차트와 표에 데이터를 채우는 데 약 4시간이 소요됩니다.
+
+![여정 개요](./assets/journey-overview.png){width="700" zoomable="yes"}
 
 ## 여정 상태
 
@@ -31,57 +35,41 @@ ht-degree: 0%
 
 ## 이메일 및 SMS 성능 표
 
-이 표에서는 이메일 및 SMS 채널의 효과를 자세히 살펴봅니다. 각 표에는 각 통신 접점의 영향을 평가하기 위한 게재 비율 및 클릭스루 비율과 같은 지표가 나와 있습니다.
+성능 표는 이메일 및 SMS 채널의 효과를 자세히 살펴볼 수 있습니다. 각 표에는 각 통신 접점의 영향을 평가하기 위한 게재 비율 및 클릭스루 비율과 같은 지표가 나와 있습니다.
 
 **[!UICONTROL 전자 메일 성능]** 테이블 열:
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of emails sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Open Rate`
-* `# opened / # delivered`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL 자산 이름]_ - 자산의 이름
+* _[!UICONTROL 전송됨]_ - 보낸 전자 메일 수
+* _[!UICONTROL 게재율]_ - 게재된 이메일 수를 보낸 횟수로 나눈 값입니다.
+* _[!UICONTROL 열람율]_ - 열람한 전자 메일 수를 게재된 숫자로 나눈 값입니다.
+* _[!UICONTROL 클릭스루 비율]_ - 클릭한 이메일 수를 게재된 숫자로 나눈 값입니다.
 
 **[!UICONTROL SMS 성능]** 테이블 열:
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of messages sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL 자산 이름]_ - 자산의 이름
+* _[!UICONTROL 보냄]_ - 보낸 SMS 메시지 수
+* _[!UICONTROL 게재율]_ - 게재된 SMS 메시지 수를 보낸 횟수로 나눈 값입니다.
+* _[!UICONTROL 클릭스루 비율]_ - 클릭한 SMS 메시지 수를 게재된 횟수로 나눈 값입니다.
+<!-- 
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
 
-현재 보기의 공유 가능한 PDF을 생성하려면 페이지의 오른쪽 상단 모서리에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하십시오. 데이터에 참여하려면 오른쪽 상단의 작업 메뉴를 사용합니다.
+## 향상된 상호 작용
 
-향상된 상호 작용:
+각 차트 또는 표의 오른쪽 상단에 있는 작업 아이콘(**...**)을 사용하여 데이터를 활용하십시오.
 
-오른쪽 상단의 작업 버튼을 사용하여 데이터를 보다 효과적으로 활용하십시오. 개별 그룹 상태에 대한 심층적인 분석을 위해 &#39;드릴스루&#39;를 선택하거나, 확장된 데이터 및 통찰력을 위해 &#39;자세히 보기&#39;를 선택합니다.
+### 드릴스루
 
-자세히 보기:
-각 위젯의 차트 및 데이터 테이블과 함께 팝업이 나타납니다.
-표 오른쪽 상단의 CSV 다운로드 버튼. 
+_[!UICONTROL 여정 상태]_ 그래프에서 개별 계정 상태를 자세히 분석하려면 **[!UICONTROL 드릴스루]**&#x200B;를 선택하십시오.
 
-드릴스루:
+![그래프 데이터에 대한 드릴스루](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+<!--
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
 
-적용된 글로벌 필터는 대시보드로 이전되며 이 페이지에서 변경할 수 없습니다.
-적용된 필터가 표시됩니다.
-사용할 수 있는 필터는 _계정 이름_&#x200B;뿐입니다.
+### 더 보기
 
-다운로드 대화 상자를 열려면 **[!UICONTROL 자세히 보기]**&#x200B;를 클릭하세요.
+확장 데이터 및 인사이트에 액세스하려면 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하세요. 표시되는 팝업은 데이터 분류를 제공합니다.
 
-오른쪽 위 모서리에 있는 버튼을 클릭하여 사용 가능한 열을 숨기거나 표시합니다.
+데이터를 다운로드하려면 오른쪽 상단의 **[!UICONTROL CSV 다운로드]**&#x200B;를 클릭하십시오.
 
-* [!UICONTROL 계정 이름]
-* [!UICONTROL 계정 ID]
-* [!UICONTROL 상태]
-* [!UICONTROL 지역]
-* [!UICONTROL 업계]
-* [!UICONTROL 시작 날짜]
-* [!UICONTROL 종료 날짜]
-* [!UICONTROL 여정의 일 수]
+![확장 데이터 보기](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}
