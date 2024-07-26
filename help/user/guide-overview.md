@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: 내장된 생성 AI 및 업계 최고 수준의 자동화를 사용하여 계정을 조정하고 그룹 여정을 구매하기 위해 Adobe Journey Optimizer B2B 에디션 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
+source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -73,6 +73,12 @@ ht-degree: 5%
     <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
     </tr>
 </table>
+
+## 개요 데모
+
+구매 그룹의 구성 요소를 살펴보고 계정 여정 작성의 기본 사항을 이해합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
 ## 설명서 살펴보기
 

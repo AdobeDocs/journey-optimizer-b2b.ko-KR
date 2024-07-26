@@ -3,7 +3,7 @@ title: 그룹 역할 템플릿 구매 중
 description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -69,7 +69,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
    * **[!UICONTROL 자동 할당을 위한 조건 추가]** - 조건에 일치하는 구매 그룹에 자동 할당 구성원을 위한 조건을 추가하려면 이 확인란을 선택하십시오. 확인란을 선택하지 않으면 조건을 추가할 필요가 없습니다.
 
-   * **[!UICONTROL 완결성 점수 필요]** - 완결성 점수를 계산하기 위한 요구 사항이 되도록 하려면 역할에 대해 이 확인란을 선택합니다. —>
+   * **[!UICONTROL 완결성 점수 필요]** - 완결성 점수를 계산하기 위한 요구 사항이 되도록 하려면 역할에 대해 이 확인란을 선택합니다.
 
    * **[!UICONTROL 조건 추가]**&#x200B;를 클릭합니다.
 

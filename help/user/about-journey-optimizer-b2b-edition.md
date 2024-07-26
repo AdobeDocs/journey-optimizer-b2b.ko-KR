@@ -1,7 +1,8 @@
 ---
 title: Adobe Journey Optimizer B2B 에디션 개요
 description: Adobe Journey Optimizer B2B Edition의 주요 기능, 사용 사례 및 아키텍처를 살펴보십시오.
-source-git-commit: b9fc31ed31cf05370f1370510d966b8151e14695
+exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Adobe Journey Optimizer B2B 에디션을 Marketo Engage 및 Adobe Journey Optimi
 
 Adobe Journey Optimizer B2B 에디션은 Adobe Experience Platform에서 _계정 대상_ 및 계정의 _사용자 대상_&#x200B;을 사용하여 Marketo Engage 내에서 실행되는 계정 여정을 실행합니다. Experience Platform은 항상 이 데이터에 대한 신뢰할 수 있는 소스이지만, Marketo Engage B2B 마케팅 인프라 내에서 계정 여정의 모든 실행 및 처리가 발생합니다. 오케스트레이션은 기존 Marketo Engage(Adobe Real-Time CDP B2B 에디션 소스 커넥터)에 의해 거의 실시간으로 데이터를 Experience Platform 상태로 다시 가져와 Marketo Engage에서 Experience Platform으로 데이터 변경 사항을 스트리밍합니다.
 
-![높은 수준의 데이터 아키텍처](./assets/high-level-data-architecture.png){width="600" zoomable="yes"}
+![높은 수준의 데이터 아키텍처](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 ### 구독 모델
 
@@ -41,4 +42,3 @@ Journey Optimizer B2B 에디션 구독은 Marketo Engage _munchkin_ 구독이 �
 Journey Optimizer B2B 에디션은 여정에 필요한 계정 세그먼트 및 관련 계정 사용자 세그먼트를 정의 및 실행하기 위해 Real-Time CDP 계정 세그먼테이션을 사용합니다. 게시된 여정이 실행되면 사용자 및 계정에 대한 데이터가 변경될 수 있으며, 여정과 상호 작용하는 사람들에 대한 데이터가 수집됩니다. Journey Optimizer B2B Edition은 Real-Time CDP B2B Edition용 Marketo Engage 소스 커넥터를 사용하여 데이터 변경 사항을 소스로 하는 Experience Platform 샌드박스로 다시 전달합니다.  이 데이터는 거의 실시간으로 AEP에 전달됩니다.
 
 Marketo Engage 소스 커넥터에서 지원하는 기존 데이터 유형(계정, 사람 및 기회)만 Real-Time CDP으로 다시 흐릅니다. 즉, 구매 그룹 데이터는 AEP로 흐르지 않고 대신 Journey Optimizer B2B 에디션 구독에서 사용하는 Marketo Engage 인스턴스에 있습니다.
-

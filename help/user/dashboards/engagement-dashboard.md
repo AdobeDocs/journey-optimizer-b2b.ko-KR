@@ -3,10 +3,10 @@ title: 참여 개요 대시보드
 description: 참여 개요 대시보드를 사용하여 참여 노력을 모니터링하는 방법에 대해 알아봅니다.
 feature: Dashboards, Engagement
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: bb14b15ae41f795f4e9adf0bb564770e152539fd
+source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 <!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
 
-## 계정/사람별 참여
+## 계정별 참여/사람별 참여
 
 도넛 차트는 계정 또는 사람을 참여 및 비참여 카테고리로 명확하게 나눕니다. 중앙 그림은 각 카테고리 내의 총 수를 나타내며 전체 참여를 한 눈에 파악할 수 있습니다.
 
 계정 및 사용자별 ![참여](assets/engagement-accounts-people.png){width="700" zoomable="yes"}
 
-## 시간 경과에 따른 계정/사용자별 참여
+## 시간이 지남에 따라 참여하는 계정/시간이 지남에 따라 참여하는 사람
 
 이 선 차트는 시간이 지남에 따라 계정 또는 직원의 참여 수준을 표시합니다. 타임스탬프가 지정된 가로 축과 함께 시각화된 &#39;참여&#39; 및 &#39;미참여&#39;에 대한 고유한 선을 사용하여 트렌드와 패턴을 정확하게 파악할 수 있습니다. 마우스를 라인 위로 가져가면 지정된 날짜에 대한 정확한 지표를 표시할 수 있습니다.
 
@@ -30,36 +30,31 @@ ht-degree: 1%
 
 ## 향상된 상호 작용
 
-오른쪽 상단 모서리의 작업 아이콘( **...** )을 사용하여 데이터를 활용하십시오.
+각 그래프의 오른쪽 위 모서리에 있는 작업 아이콘( **...** )을 사용하여 데이터를 활용하십시오.
 
-![참여 대시보드 데이터 - 작업 메뉴](assets/engagement-action-menu.png){width="400"}
+![참여 대시보드 데이터 - 작업 메뉴](assets/engagement-action-menu.png){width="300"}
 
 ### 더 보기
 
 **[!UICONTROL 자세히 보기]**: 모든 대시보드 보기의 경우 차트 및 계정/사용자별 참여 분석을 보여주는 표와 함께 팝업이 나타납니다.
 
-표 오른쪽 상단의 CSV 다운로드 버튼.
+확장 데이터를 복사하려면 오른쪽 상단의 **[!UICONTROL CSV 다운로드]**&#x200B;를 클릭합니다.
+
+### 드릴스루
+
+개별 그룹 상태를 자세히 분석하려면 **[!UICONTROL 드릴스루]**&#x200B;를 선택하십시오.
+
+대시보드에 적용된 전역 필터가 이 페이지로 이월됩니다.
+
+확장 데이터 및 인사이트를 보려면 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하세요. 차트에 따라 다음에 대한 확장 데이터가 있습니다.
+
+* [!UICONTROL 계정]
+* [!UICONTROL 사람]
+* [!UICONTROL 날짜]
+* [!UICONTROL 상태]
+* [!UICONTROL 참여]
+* [!UICONTROL 참여 안 함]
 <!-- 
-### Drill through
-
-Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual group statuses.
-
-The global filters applied to the dashboard are carried over to this page.
-
-The applied filters are displayed, but are not editable on this page. 
-The only available filters that are enabled are _Account Name_ or _Person Name_.
-
-To display or hide available columns, click **[!UICONTROL View more]** at the top-right corner:
-
-Click **[!UICONTROL View more]** to open the download dialog.
-
-Button on the top right corner to open a pop-up with the available column list:
-
-* [!UICONTROL Account]
-* [!UICONTROL Account name]
-* [!UICONTROL Account ID]
-* [!UICONTROL Status]
-* [!UICONTROL People engaged]
 * [!UICONTROL Engagement activities]
 * [!UICONTROL Last engagement date]
 * [!UICONTROL Region]
@@ -71,17 +66,14 @@ Button on the top right corner to open a pop-up with the available column list:
 * [!UICONTROL Email]
 --->
 
-### 필터
+### 데이터 필터링
 
-글로벌 필터: **[!UICONTROL 날짜]** 필터, 구매 그룹의 마지막 상태 변경 날짜를 반영합니다. 시작 날짜는 조정할 수 있습니다. 종료 일자는 기본적으로 현재 일자로 설정됩니다.
+* **데이터 필터** - 마지막 참여 날짜를 반영하는 _[!UICONTROL 날짜 필터]_&#x200B;을(를) 사용합니다. 시작 날짜는 조정할 수 있습니다. 종료 일자는 기본적으로 현재 일자로 설정됩니다.
 
-다음 속성 중 하나를 사용하여 디스플레이를 필터링할 수도 있습니다.
+* **특성 필터** - 다음 특성을 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭합니다.
 
-* 솔루션 관심 분야
-* 솔루션 관심 목록
-* 참여 유형
-* 참여 유형 목록
-* 계정 영역
-* 계정의 지역
-* 계정 산업
-* 계정의 업계
+   * 솔루션 관심도
+   * 참여 유형
+   * 지역
+   * 산업
+  <!-- * Account's Industry -->
