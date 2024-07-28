@@ -3,9 +3,9 @@ title: 자산
 description: Journey Optimizer B2B 에디션의 에셋 관리에 대해 알아봅니다.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Adobe Experience Manager Assets은 왼쪽 탐색 메뉴의 **[!UICONTROL Assets]
 
 ### 자산 소스 선택
 
-기본 Adobe Marketo Engage Design Studio와 함께 Experience Manager Assets as a Cloud Service 구독이 있는 경우 두 소스 중 하나에서 이미지 에셋을 선택할 수 있습니다. 이렇게 하려면 새 이메일, 이메일 템플릿 또는 시각적 조각을 만들 때 이미지 소스를 선택해야 합니다. 또는 콘텐츠를 편집할 때 이미지 소스를 선택할 수 있습니다. 선택 사항은 편집 경험에만 적용되며, 필요한 경우 이미지 소스를 변경하여 다른 라이브러리의 에셋에 액세스할 수 있습니다.
+기본 Adobe Marketo Engage Design Studio와 함께 Experience Manager Assets as a Cloud Service에 대한 구독이 있는 경우 두 소스 중 하나에서 이미지 에셋을 선택할 수 있습니다. 이렇게 하려면 새 이메일, 이메일 템플릿 또는 시각적 조각을 만들 때 이미지 소스를 선택해야 합니다. 또는 콘텐츠를 편집할 때 이미지 소스를 선택할 수 있습니다. 선택 사항은 편집 경험에만 적용되며, 필요한 경우 이미지 소스를 변경하여 다른 라이브러리의 에셋에 액세스할 수 있습니다.
 
-이메일 만들기
+_**콘텐츠 리소스 만들기**_ - 전자 메일, 전자 메일 템플릿 또는 조각을 만들 때 이미지 소스를 선택하려면 만들 때 대화 상자에서 **[!UICONTROL 이미지 소스]**&#x200B;를 설정하십시오.
 
-이메일 편집 - 시각적 편집기에서 이미지 에셋 소스를 선택하려면 캔버스 맨 위에 있는 **[!UICONTROL 이미지 소스 선택]** 선택기를 사용합니다.
+_**콘텐츠 리소스 편집**_ - 시각적 편집기에서 이미지 에셋 소스를 선택하려면 캔버스 맨 위에 있는 **[!UICONTROL 이미지 소스 선택]** 선택기를 사용하십시오.
 
 ### 콘텐츠에 자산 추가
 
