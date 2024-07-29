@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B 에디션에 대해 알아�
 source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -12,7 +12,7 @@ ht-degree: 9%
 # Journey Optimizer B2B 에디션 사용 안내서 {#user}
 
 + [Adobe Journey Optimizer B2B 에디션 설명서](guide-overview.md)
-+ {#get-started} 시작
++ 시작 {#get-started}
    + [Journey Optimizer B2B 에디션 개요](about-journey-optimizer-b2b-edition.md)
    + [로그인 및 홈 페이지](home-page.md)
    + [빠른 시작 지침](./start/get-started.md)
@@ -34,7 +34,7 @@ ht-degree: 9%
    + [이메일 작성을 위한 AI Assistant](./content/ai-assistant-emails.md)
    + [SMS 작성](./content/sms-authoring.md)
 + 콘텐츠 관리 {#content-management}
-   + Assets {#assets}
+   + 자산 {#assets}
       + [개요](./content/assets-overview.md)
       + [Marketo Engage 에셋으로 작업](./content/marketo-engage-design-studio.md)
       + [AEM Assets 이미지로 작업](./content/aem-assets.md)
