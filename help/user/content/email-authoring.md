@@ -3,9 +3,9 @@ title: 이메일 작성
 description: 계정 여정에 사용되는 개인화된 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -88,8 +88,8 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 
 1. 개인화 필드를 삽입하여 프로필 속성, 대상자 멤버십, 컨텍스트 속성 등에서 콘텐츠를 사용자 지정합니다.
 
-1. 조건부 규칙에 따라 다이내믹 콘텐츠를 추가하고 타겟팅된 프로필에 콘텐츠를 적용하려면 **[!UICONTROL 조건 콘텐츠 사용]**&#x200B;을 클릭하십시오.
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. 왼쪽 창에서 **[!UICONTROL 링크]** 탭을 선택하여 추적되는 콘텐츠의 모든 URL을 표시합니다.
 
    _추적 유형_ 또는 _레이블_&#x200B;을 수정하고 필요한 경우 태그를 추가할 수 있습니다.
