@@ -3,7 +3,7 @@ title: 구매 그룹 개요 대시보드
 description: 구매 그룹 개요 대시보드와 마케팅 팀의 판매 핸드오프를 활성화하는 방법에 대해 알아봅니다.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 1%

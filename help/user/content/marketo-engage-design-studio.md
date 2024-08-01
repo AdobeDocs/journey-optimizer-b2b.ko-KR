@@ -1,9 +1,9 @@
 ---
-title: Marketo Engage 에셋으로 작업
+title: Marketo Engage Assets 작업
 description: Journey Optimizer B2B Edition에서 Marketo Engage Design Studio 자산 관리 통합을 사용하는 방법에 대해 알아봅니다.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%

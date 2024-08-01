@@ -3,7 +3,7 @@ title: SMS 작성
 description: 모바일 장치에서 고객에게 텍스트 메시지(SMS)를 보내는 방법과 SMS 편집기에서 텍스트 형식의 메시지를 개인화하고 미리 보는 방법에 대해 알아봅니다.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # SMS 작성
 
-Adobe Journey Optimizer B2B 에디션을 사용하여 모바일 디바이스에서 고객에게 문자 메시지(SMS)를 보냅니다. SMS 편집기에서 텍스트 형식의 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
+Adobe Journey Optimizer B2B 에디션을 사용하여 모바일 디바이스에서 고객에게 문자 메시지(SMS)를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
 
 ## SMS 구성
 

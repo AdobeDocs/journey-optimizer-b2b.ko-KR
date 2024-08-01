@@ -2,7 +2,7 @@
 title: 로그인 및 홈 페이지
 description: Journey Optimizer B2B 에디션 앱에 액세스하고 홈 페이지 정보를 사용하는 방법에 대해 알아봅니다.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 13c25bf654c4cbc35589866d817de224065ab861
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

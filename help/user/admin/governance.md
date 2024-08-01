@@ -1,7 +1,8 @@
 ---
 title: 거버넌스 기능
 description: 현재 Journey Optimizer B2B 에디션에서 사용할 수 있는 거버넌스 기능에 대해 알아봅니다.
-source-git-commit: 1353defe804947617a4d7489592d380bf372c7df
+exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%

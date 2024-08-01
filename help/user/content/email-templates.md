@@ -3,7 +3,7 @@ title: 이메일 템플릿
 description: 계정 여정 이메일을 쉽고 효율적으로 작성하는 데 사용할 수 있는 이메일 템플릿을 만들고 편집하는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '2622'
 ht-degree: 0%

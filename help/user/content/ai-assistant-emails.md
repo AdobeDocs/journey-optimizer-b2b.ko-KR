@@ -3,7 +3,7 @@ title: 이메일 작성을 위한 AI Assistant
 description: AI Assistant를 사용하여 계정 여정에 사용되는 이메일 콘텐츠를 최적화하는 방법에 대해 알아봅니다.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%

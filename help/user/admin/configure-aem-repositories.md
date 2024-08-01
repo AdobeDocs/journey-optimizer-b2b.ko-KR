@@ -2,7 +2,8 @@
 title: Experience Manager 에셋 저장소 구성
 description: Journey Optimizer B2B 에디션 컨텐츠 작성에 사용할 Experience Manager Assets 저장소에 대한 연결을 구성하는 방법에 대해 알아봅니다.
 feature: Assets, Integrations
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Adobe Journey Optimizer B2B Edition은 Adobe Experience Manager Assetsas a Cloud
 
 Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Adobe Journey Optimizer B2B 에디션에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
 
-## 필요 조건
+## 전제 조건
 
 * AEM Headless Developer Console에서 원하는 환경에 대한 서비스 자격 증명을 생성합니다([자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
 * 연결에 필요한 인증서를 확보합니다. 가장 좋은 방법은 인증서가 만료되기 전에 최소 6개월 이상 남아 있는지 확인하는 것입니다. 인증서는 365일마다 만료됩니다.

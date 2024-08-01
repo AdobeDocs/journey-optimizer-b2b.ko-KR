@@ -3,7 +3,7 @@ title: 구매 그룹 만들기
 description: 구매 그룹을 만드는 방법에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%

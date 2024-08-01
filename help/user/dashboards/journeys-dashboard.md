@@ -3,7 +3,7 @@ title: 여정 개요 대시보드
 description: 여정 개요 대시보드에서 제공하는 정보와 이를 통해 계정 여정 전략을 모니터링하고 관리하는 데 어떻게 도움이 되는지에 대해 알아봅니다.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 18e22383c9f9294d209f4c8a6f9f04f074881186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%

@@ -2,7 +2,7 @@
 title: 계정 대상자
 description: 계정 대상과 계정 기반 여정을 활성화하는 방법에 대해 알아봅니다.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

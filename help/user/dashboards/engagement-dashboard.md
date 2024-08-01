@@ -3,7 +3,7 @@ title: 참여 개요 대시보드
 description: 참여 개요 대시보드를 사용하여 참여 노력을 모니터링하는 방법에 대해 알아봅니다.
 feature: Dashboards, Engagement
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 3%

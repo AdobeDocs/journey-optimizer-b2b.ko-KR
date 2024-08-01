@@ -2,10 +2,11 @@
 title: 영업 경고 이메일
 description: 계정 여정에 자동화된 판매 경고 이메일을 포함하는 방법을 알아봅니다.
 feature: Email Authoring, Content
-source-git-commit: 5361bad204136e4b7e4267c43b2c1a605c14cdd9
+exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '529'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 

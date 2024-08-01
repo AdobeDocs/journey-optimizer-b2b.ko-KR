@@ -3,7 +3,7 @@ title: 계정 여정
 description: 계정 여정과 이를 만들고 관리하는 방법에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 1%
