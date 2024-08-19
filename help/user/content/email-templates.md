@@ -3,10 +3,10 @@ title: 이메일 템플릿
 description: 계정 여정 이메일을 쉽고 효율적으로 작성하는 데 사용할 수 있는 이메일 템플릿을 만들고 편집하는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 0%
+source-wordcount: '2670'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,17 @@ _[!UICONTROL 서식 파일 디자인]_ 페이지가 열리고 서식 파일을 �
 
 ![전자 메일 서식 파일 디자인 시작 방법 선택](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### 처음부터 디자인
+### 처음부터 디자인 {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 템플릿의 콘텐츠 디자인을 시작할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 이메일 디자이너를 사용하여 이메일 콘텐츠의 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 초 내에 재사용 가능한 이메일 콘텐츠의 형태를 디자인할 수 있습니다.
 

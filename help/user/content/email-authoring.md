@@ -3,10 +3,10 @@ title: 이메일 작성
 description: 계정 여정에 사용되는 개인화된 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 2%
+source-wordcount: '1468'
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,37 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 >
 >생성형 AI에서 제공하는 Adobe Journey Optimizer B2B 에디션의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠를 생성하고, 대상자에게 반향을 일으키는 이미지에 대한 AI Assistant 권장 사항을 얻음으로써 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. [자세히 알아보기](./ai-assistant-emails.md)
 
-### 이메일을 처음부터 디자인
+### 이메일을 처음부터 디자인 {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 이메일 콘텐츠 디자인을 시작할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 랜딩 페이지의 콘텐츠 디자인을 시작할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 조각 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 조각의 콘텐츠 디자인을 시작할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 이메일 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 조각 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 1. Designer 홈페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
 
@@ -182,7 +212,7 @@ _샘플 또는 저장된 템플릿 중 하나를 사용하여 콘텐츠 작성�
 ## 이메일 확인 및 테스트 {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="콘텐츠 렌더링 방식 확인"
 >abstract="콘텐츠가 정의되면 콘텐츠를 미리 보고 사용 중인 채널에 대한 렌더링이 올바른지 확인할 수 있습니다."
 
