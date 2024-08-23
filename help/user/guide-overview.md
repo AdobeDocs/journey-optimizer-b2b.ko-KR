@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: 내장된 생성 AI 및 업계 최고 수준의 자동화를 사용하여 계정을 조정하고 그룹 여정을 구매하기 위해 Adobe Journey Optimizer B2B 에디션 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
+source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '422'
 ht-degree: 4%
 
 ---
@@ -18,13 +18,12 @@ ht-degree: 4%
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
+<!-- 
+>[!TAB LinkedIn Account Matched Audiences]
 
->[!TAB LinkedIn 계정 일치 대상]
+Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration.
 
-계정 일치 대상을 통해 LinkedIn 광고 대상을 생성하여 구매 그룹에서 빈 역할을 채우는 데 도움을 줍니다. 일련의 구매 그룹 필터를 정의하면 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. 이 기능은 Experience Platform 대상 을 활용하여 통합의 일부 측면을 관리합니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="linkedIn 계정 일치 대상자에 대해 알아보기"}
-
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Learn about LinkedIn Account Matched Audiences"} -->
 >[!TAB AI 어시스턴트]
 
 계정 기반 마케팅 개념을 빠르게 활용하여 팀의 전략을 극대화하도록 설계된 Journey Optimizer B2B 에디션 기능에 대해 알아보십시오.

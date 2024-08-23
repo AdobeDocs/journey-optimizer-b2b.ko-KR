@@ -1,7 +1,9 @@
 ---
 title: LinkedIn 계정 일치 대상
 description: linkedIn 계정을 연결하고 구매 그룹을 위한 데이터 흐름을 활성화하는 방법을 알아봅니다.
-source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
+hidefromtoc: true
+hide: true
+source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
