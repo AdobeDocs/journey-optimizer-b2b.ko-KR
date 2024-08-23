@@ -1,11 +1,9 @@
 ---
 title: LinkedIn 계정 일치 대상
 description: linkedIn 계정을 연결하고 구매 그룹을 위한 데이터 흐름을 활성화하는 방법을 알아봅니다.
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -25,15 +23,29 @@ Journey Optimizer B2B 버전에서 데이터 흐름을 시작하려면 Experienc
 
 1. Experience Platform에서 왼쪽 탐색의 **[!UICONTROL 연결]** > **[!UICONTROL 대상]**(으)로 이동한 다음 **[!UICONTROL 카탈로그]** 탭을 선택합니다.
 
-1. 카탈로그에서 **[!UICONTROL (회사) LinkedIn 일치 대상]** 커넥터를 찾은 다음 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+1. 카탈로그에서 **[!UICONTROL (회사) LinkedIn 일치 대상]** 커넥터를 찾습니다.
+
+   >[!TIP]
+   >
+   >검색 상자에 `LinkedIn`을(를) 입력하면 커넥터를 빠르게 찾을 수 있습니다.
+
+1. 커넥터 카드에서 _자세히_(**...**) 아이콘을 클릭하고 **[!UICONTROL 새 대상 구성]**&#x200B;을 선택합니다.
 
    ![(회사) LinkedIn 일치 대상 커넥터에 액세스](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. **[!UICONTROL 새 계정]** > **[!UICONTROL LinkedIn에 연결]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 새 계정]**&#x200B;을 선택하고 **[!UICONTROL 대상에 연결]**&#x200B;을 클릭합니다.
+
+   ![새 LinkedIn 계정 연결](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. linkedIn 자격 증명을 제공하고 로그인합니다.
 
-   linkedIn 계정이 대상으로 연결되어 있습니다.
+   인증 후 LinkedIn 계정은 Experience Platform에서 대상으로 연결됩니다.
+
+   ![계정 연결 확인이 표시됩니다](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >이 시점에서 **하지 않음** _[!UICONTROL 대상 세부 정보]_&#x200B;를 입력하십시오. 연결만 필요합니다.
 
 ## 계정 세부 정보 업데이트
 

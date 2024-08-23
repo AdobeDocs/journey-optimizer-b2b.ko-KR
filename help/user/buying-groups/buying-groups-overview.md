@@ -3,10 +3,10 @@ title: 구매 그룹
 description: 구매 그룹 및 해당 구성 요소에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -109,7 +109,7 @@ _[!UICONTROL 구매 그룹]_ 페이지는 탭으로 구성되어 있습니다.
 
 _[!UICONTROL 중요]_, _[!UICONTROL 중요]_, _[!UICONTROL 보통]_(으)로 가중치가 적용된 세 가지 역할이 있는 역할 템플릿이 다음과 같은 가중치가 적용된 백분율로 변환됩니다.
 
-| 역할 | 가중치 | 백엔드 값 | 값 계산 | 백분율 |
+| 역할 | 가중치 | 시스템 값 | 값 계산 | 백분율 |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | 의사 결정자 | 바이탈 | 10 | 100/240 | 41.67% |
