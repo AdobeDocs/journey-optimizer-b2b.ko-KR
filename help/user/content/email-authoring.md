@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 >
 >생성형 AI에서 제공하는 Adobe Journey Optimizer B2B 에디션의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠를 생성하고, 대상자에게 반향을 일으키는 이미지에 대한 AI Assistant 권장 사항을 얻음으로써 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. [자세히 알아보기](./ai-assistant-emails.md)
 
-### 이메일을 처음부터 디자인 {#design-from-scratch}
+### 이메일 콘텐츠 처음부터 만들기 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -214,7 +214,7 @@ _샘플 또는 저장된 템플릿 중 하나를 사용하여 콘텐츠 작성�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="콘텐츠 렌더링 방식 확인"
->abstract="콘텐츠가 정의되면 콘텐츠를 미리 보고 사용 중인 채널에 대한 렌더링이 올바른지 확인할 수 있습니다."
+>abstract="콘텐츠가 정의되면 미리 보고 사용 중인 채널에 대해 렌더링이 올바른지 확인할 수 있습니다."
 
 메시지 콘텐츠가 정의된 경우 테스트 프로필을 사용하여 콘텐츠를 미리 보고, 증명을 보내고, 인기 있는 데스크탑, 모바일 및 웹 기반 클라이언트에서 렌더링을 제어할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 표시되는 방식을 미리 볼 수 있습니다.
 

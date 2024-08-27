@@ -6,7 +6,7 @@ hide: true
 source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ Journey Optimizer B2B 버전에서 데이터 흐름을 시작하려면 Experienc
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
 >title="LinkedIn 대상 설정 필요"
->abstract="구매 그룹별로 필터링된 계정을 Linkedin 대상으로 전송하여 잠재적 구매 그룹 구성원과 교류합니다. 필터링된 계정의 10개 그룹에 대해 최대 10개의 데이터 흐름을 만들 수 있습니다. 이 기능을 시작하려면 먼저 Linkedin 대상을 추가합니다."
+>abstract="구매 그룹별로 필터링한 계정을 Linkedin 대상으로 보내 잠재적인 구매 그룹 멤버와 소통합니다. 10개의 필터링된 계정 그룹에 대해 최대 10개의 데이터 흐름을 생성할 수 있습니다. 이 기능을 시작하려면 먼저 Linkedin 대상을 추가하십시오."
 
 1. Experience Platform에서 왼쪽 탐색의 **[!UICONTROL 연결]** > **[!UICONTROL 대상]**(으)로 이동한 다음 **[!UICONTROL 카탈로그]** 탭을 선택합니다.
 
