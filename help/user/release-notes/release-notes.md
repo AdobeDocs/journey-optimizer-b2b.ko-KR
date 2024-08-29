@@ -1,12 +1,11 @@
 ---
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션의 최신 릴리스 노트
-hidefromtoc: true
-hide: true
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
+source-git-commit: b034c96da0b00f4976a832a6b01858180e189c8d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 10%
+source-wordcount: '152'
+ht-degree: 9%
 
 ---
 
@@ -16,9 +15,11 @@ Adobe Journey Optimizer B2B 에디션은 새로운 기능, 기존 기능 개선 
 
 Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platform]을(를) 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest){target="_blank"}를 참조하세요.
 
+권한, 성능 보호 및 제한 사항에 대한 개선 사항은 [제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
+
 ## 2024년 8월 릴리스 정보 {#Aug-2024}
 
-**릴리스 날짜**: 2024년 8월 22일
+**릴리스 날짜**: 2024년 8월 29일
 
 이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
