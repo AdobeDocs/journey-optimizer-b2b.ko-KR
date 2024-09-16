@@ -3,9 +3,9 @@ title: 이메일 템플릿
 description: 계정 여정 이메일을 쉽고 효율적으로 작성하는 데 사용할 수 있는 이메일 템플릿을 만들고 편집하는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '1817'
 ht-degree: 2%
 
 ---
@@ -48,46 +48,25 @@ _[!UICONTROL 서식 파일 디자인]_ 페이지가 열리고 서식 파일을 �
 
 ![전자 메일 서식 파일 디자인 시작 방법 선택](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### 처음부터 디자인 {#design-from-scratch}
+### 처음부터 디자인
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 템플릿의 콘텐츠 디자인을 시작할 수 있습니다."
+시각적 콘텐츠 편집기를 사용하여 이메일 콘텐츠 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 초 내에 재사용 가능한 이메일 콘텐츠의 형태를 디자인할 수 있습니다.
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="콘텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
-
-이메일 디자이너를 사용하여 이메일 콘텐츠의 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 초 내에 재사용 가능한 이메일 콘텐츠의 형태를 디자인할 수 있습니다.
+>[!NOTE]
+>
+>사용 가능한 디자인 도구는 [전자 메일 작성](./email-authoring.md)에 사용되는 도구와 같습니다. 차이점은 이 콘텐츠가 계정 여정 내의 여러 전송 이메일 노드에서 재사용할 수 있는 템플릿으로 저장된다는 것입니다.
 
 1. _[!UICONTROL 템플릿 디자인]_ 홈 페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
 
-1. 구성 요소를 캔버스로 드래그 앤 드롭하여 이메일의 구조적 레이아웃을 정의하여 콘텐츠 디자인을 시작합니다.
-
-   사용 가능한 디자인 도구는 [전자 메일 작성](./email-authoring.md)에 사용되는 도구와 같습니다. 차이점은 이 콘텐츠가 계정 여정 내의 여러 전송 이메일 노드에서 재사용할 수 있는 템플릿으로 저장된다는 것입니다.
+1. 템플릿에 [구조 및 콘텐츠 추가](#add-structure-and-content).
 
 ### 가져오기 HTML
 
-Adobe Journey Optimizer B2B 에디션을 사용하면 기존 HTML 콘텐츠를 가져와 이메일 템플릿을 디자인할 수 있습니다. 이 콘텐츠는 다음과 같을 수 있습니다.
+Adobe Journey Optimizer B2B 에디션을 사용하면 기존 HTML 콘텐츠를 가져와 이메일 템플릿을 디자인할 수 있습니다.
 
-* 통합 스타일시트가 있는 HTML 파일.
-* HTML 파일, 스타일 시트(.css) 및 이미지가 포함된 .zip 파일
+{{$include /help/_includes/content-design-import.md}}
 
-  >[!NOTE]
-  >
-  >.zip 파일 구조에는 제약 조건이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조와 일치해야 합니다.
-
-_HTML 내용이 포함된 파일을 가져오려면_
-
-1. _[!UICONTROL HTML 디자인]_ 홈 페이지에서 **[!UICONTROL 템플릿 가져오기]** 옵션을 선택합니다.
-
-1. HTML 내용이 들어 있는 HTML 또는 .zip 파일을 드래그 앤 드롭한 다음 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
-
-   HTML 콘텐츠를 업로드한 후에는 콘텐츠가 _호환성 모드_&#x200B;에 있습니다. 이 모드에서는 텍스트를 개인화하거나, 링크를 추가하거나, 콘텐츠에 에셋을 포함할 수 있습니다.
-
-1. 이메일 디자이너 콘텐츠 구성 요소를 사용하려면 **[!UICONTROL HTML 변환기]** 탭을 클릭하고 **[!UICONTROL 변환]**&#x200B;을 클릭합니다.
+![zip 파일에서 html 콘텐츠 가져오기](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -97,91 +76,21 @@ _HTML 내용이 포함된 파일을 가져오려면_
 
 ### 디자인 템플릿 선택
 
-_[!UICONTROL 템플릿 디자인]_ 홈 페이지에서 디자인 템플릿 선택 섹션을 사용하여 템플릿에서 콘텐츠를 빌드합니다. Journey Optimizer B2B 에디션 인스턴스에서 샘플 템플릿 또는 저장된 이메일 템플릿을 사용할 수 있습니다.
+{{$include /help/_includes/content-design-select-template.md}}
 
->[!BEGINTABS]
+## 구조 및 콘텐츠 추가 {#structure-content}
 
->[!TAB 저장된 템플릿]
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. **Structure** 구성 요소를 캔버스에 끌어다 놓아 템플릿의 콘텐츠 디자인을 시작합니다."
 
-_템플릿 디자인_ 홈 페이지에서 기본적으로 _샘플 템플릿_ 탭이 선택됩니다. 사용자 지정 템플릿을 사용하려면 **[!UICONTROL 저장된 템플릿]** 탭을 선택하십시오.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
-현재 샌드박스에서 만든 모든 이메일 템플릿 목록이 표시됩니다. _[!UICONTROL 이름]_, _[!UICONTROL 마지막 수정 날짜]_ 및 _[!UICONTROL 마지막 생성 날짜]_&#x200B;별로 정렬할 수 있습니다.
-
-![저장된 템플릿 선택](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-목록에서 원하는 템플릿을 선택합니다.
-
-선택 후 템플릿의 미리보기가 표시됩니다. 미리보기 모드에서 오른쪽 및 왼쪽 화살표를 사용하여 한 범주(선택에 따라 샘플 또는 저장됨)의 모든 템플릿 사이를 이동할 수 있습니다.
-
-![저장된 템플릿 미리 보기](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-표시와 사용할 항목이 일치하면 미리 보기 창의 오른쪽 상단에 있는 **[!UICONTROL 이 서식 파일 사용]**&#x200B;을 클릭합니다.
-
-이 작업은 콘텐츠를 시각적 콘텐츠 디자이너에 복사하며, 필요한 경우 콘텐츠를 편집할 수 있습니다.
-
->[!TAB 샘플 템플릿]
-
-Adobe Journey Optimizer B2B 에디션은 _기본 제공_&#x200B;된 이메일 템플릿을 제공합니다. 이 템플릿은 이메일 및 이메일 템플릿을 만드는 데 사용할 수 있습니다.
-
-![Adobe이 제공한 템플릿 선택](./assets/templates-design-samples.png){width="800" zoomable="yes"}
-
->[!ENDTABS]
-
-## 구조 및 콘텐츠 추가
-
-**[!UICONTROL 구성 요소]** 메뉴의 구조를 캔버스로 드래그 앤 드롭하여 전자 메일의 레이아웃을 정의하여 콘텐츠 디자인을 시작하십시오.
-
-필요한 만큼 구조를 추가하고 오른쪽의 요소 속성에서 해당 설정을 편집합니다.
-
-_[!UICONTROL n:n 열]_ 구성 요소를 선택하여 선택한 열 수(3개에서 10개 사이)를 정의합니다. 맨 아래에 있는 화살표를 이동하여 각 열의 너비를 정의합니다.
-
->[!NOTE]
->
->각 열 크기는 구조 구성 요소의 전체 너비의 10% 미만이 될 수 없습니다. 빈 열만 제거할 수 있습니다.
-
-**[!UICONTROL 내용]** 섹션을 확장하고 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다.
-
-
-
-오른쪽 패널의 _[!UICONTROL 설정]_ 또는 _[!UICONTROL 스타일]_ 탭을 사용하여 각 구성 요소를 추가로 사용자 지정할 수 있습니다. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다.
-
-### 레이어, 설정 및 스타일 탐색
-
-다음 예에서는 3개의 열로 구성된 구조 구성 요소 내에서 패딩 및 수직 정렬을 조정하는 단계를 간략하게 설명합니다.
-
-1. 이메일에서 직접 구조 구성 요소를 선택하거나 왼쪽 메뉴에서 사용할 수 있는 탐색 트리를 사용합니다.
-
-1. 도구 모음에서 **[!UICONTROL 열 선택]**&#x200B;을 클릭하고 편집할 열을 선택합니다.
-
-   ![n:n 열 구성 요소가 캔버스에 표시됨](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"}
-
-   구조 트리에서 선택할 수도 있습니다. 해당 열에 대해 편집 가능한 매개 변수가 _[!UICONTROL 스타일]_ 탭에 표시됩니다.
-
-1. **[!UICONTROL Alignment]**&#x200B;에서 _Top_, _Middle_ 또는 _Bottom_ 아이콘을 선택합니다.
-
-1. **[!UICONTROL 패딩]**&#x200B;에서 모든 면에 대한 패딩을 정의합니다.
-
-   패딩을 미세 조정하려면 **[!UICONTROL 각 면에 대해 다른 패딩을 선택하십시오]**. 동기화를 중단하려면 잠금 아이콘을 클릭합니다.
-
-1. 필요한 경우 다른 열의 정렬 및 패딩을 조정합니다.
-
-1. 변경 내용을 저장합니다.
-
-### 콘텐츠 개인화
-
-다음 예제에서는 리드/계정 속성과 시스템 토큰을 사용하여 템플릿 콘텐츠를 개인화하는 단계를 간략하게 설명합니다.
-
-1. 텍스트 구성 요소를 선택하고 도구 모음에서 _개인화 추가_ 아이콘을 클릭합니다.
-
-   ![개인 설정 아이콘을 클릭합니다](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   이 작업은 _Personalization 편집_ 대화 상자를 엽니다.
-
-1. **+** 또는 **...**&#x200B;을(를) 클릭하여 빈 공간에 토큰을 추가합니다.
-
-   ![토큰을 사용하여 개인화된 텍스트 만들기](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+{{$include /help/_includes/content-design-components.md}}
 
 ### 조각 추가
 
@@ -202,39 +111,29 @@ _[!UICONTROL n:n 열]_ 구성 요소를 선택하여 선택한 열 수(3개에�
 
    편집기는 이메일 구조의 섹션/요소 내에서 조각을 렌더링합니다.
 
-조각의 콘텐츠는 구조 내에서 동적으로 업데이트되어 이메일에 콘텐츠가 표시되는 방식을 시각적으로 렌더링합니다.
+조각의 콘텐츠는 구조 내에서 동적으로 업데이트되어 이메일에 콘텐츠가 표시되는 방식을 보여 줍니다.
 
-이메일 내의 전체 수평 레이아웃을 차지하도록 조각을 추가하려면 1:1 열 구조를 추가한 다음 조각을 끌어서 놓습니다.
+>[!TIP]
+>
+>이메일 내의 전체 수평 레이아웃을 차지하도록 조각을 추가하려면 1:1 열 구조를 추가한 다음 조각을 끌어서 놓습니다.
 
 전자 메일이 저장되면 요약에서 _[!UICONTROL 사용자]_ 탭을 선택하면 조각 세부 정보 페이지에 전자 메일이 표시됩니다. 이메일 템플릿에 추가된 조각은 템플릿 내에서 편집할 수 없습니다. 콘텐츠는 소스 조각에 의해 정의됩니다.
 
 ### 에셋 추가
 
-시각적 콘텐츠 편집기에서 왼쪽에 표시되는 _Assets_ 아이콘을 선택합니다.
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->기본 Adobe Marketo Engage Design Studio와 함께 Experience Manager Assets as a Cloud Service에 대한 구독이 있는 경우 템플릿 세부 정보 페이지에서 선택한 소스에서 이미지 에셋을 선택할 수 있습니다.
+### 레이어, 설정 및 스타일 탐색
 
-다음 예에서는 템플릿 콘텐츠에 자산을 추가하는 단계에 대해 간략히 설명합니다.
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. 에셋 라이브러리를 열려면 _Assets_ 아이콘을 클릭합니다.
+### 콘텐츠 개인화
 
-   에셋 선택기에서 소스 라이브러리에 저장된 에셋을 직접 선택할 수 있습니다.
+{{$include /help/_includes/content-design-personalization.md}}
 
-1. 이미지 자산을 구조 구성 요소로 끌어다 놓아 새 자산을 추가합니다.
+### 연결된 URL 추적 편집
 
-1. 캔버스에서 이미지 자산을 선택하여 바꾸고 이미지 소스 도구에서 **[!UICONTROL 자산 선택]**&#x200B;을 클릭합니다.
-
-   ![원본 라이브러리에서 자산 선택](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
-
-### URL 미리보기 및 편집
-
-1. 추적할 콘텐츠의 모든 URL을 표시하려면 왼쪽의 _[!UICONTROL 링크]_ 아이콘을 클릭합니다.
-
-1. 필요한 경우 _편집_(연필) 아이콘을 클릭하고 _추적 유형_ 또는 _레이블_&#x200B;을(를) 수정한 다음 링크에 대한 _태그_&#x200B;를 추가하십시오.
-
-템플릿 작업에 액세스하려면 ![자세히 클릭](./assets/visual-designer-links.png){width="500"}
+{{$include /help/_includes/content-design-links.md}}
 
 ### 옵션 보기
 

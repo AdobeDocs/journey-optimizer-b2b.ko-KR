@@ -3,10 +3,10 @@ title: 이메일 작성
 description: 계정 여정에 사용되는 개인화된 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 14%
+source-wordcount: '1221'
+ht-degree: 13%
 
 ---
 
@@ -65,121 +65,116 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 ### 이메일 콘텐츠 처음부터 만들기 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 이메일 콘텐츠 디자인을 시작할 수 있습니다."
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="구조 구성 요소 추가"
 >abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 랜딩 페이지의 콘텐츠 디자인을 시작할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 조각 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 조각의 콘텐츠 디자인을 시작할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="콘텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 이메일 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="콘텐츠 구성 요소 정보"
 >abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="콘텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 조각 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
+시각적 콘텐츠 편집기를 사용하여 이메일 콘텐츠 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 초 내에 재사용 가능한 이메일 콘텐츠의 형태를 디자인할 수 있습니다.
 
-1. Designer 홈페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
+1. _[!UICONTROL 템플릿 디자인]_ 홈 페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
 
-1. 콘텐츠 디자인을 시작하려면 **[!UICONTROL Structures]**&#x200B;에서 항목을 드래그하여 캔버스에 놓습니다.
+1. 전자 메일 메시지에 [구조 및 콘텐츠를 추가](#add-structure-and-content)합니다.
+1. 전자 메일 메시지에 [이미지 자산 추가](#add-assets).
+1. [전자 메일 콘텐츠 개인화](#personalize-content).
+1. [링크 검토 및 업데이트](#preview-and-edit-linked-urls).
 
-   각 구조 구성 요소에 대해 이 단계를 반복하여 전자 메일의 레이아웃을 구성합니다.
-
-1. _구조_&#x200B;에서 필요한 만큼 항목을 추가하고 오른쪽 창에서 각 항목의 설정을 편집합니다.
-
-   n:n 열 구성 요소를 선택하여 선택한 열 수(3개에서 10개 사이)를 정의합니다. 열 아래로 화살표를 이동하여 각 열의 너비를 정의할 수도 있습니다.
-
-   각 열 크기는 구조 구성 요소의 전체 너비의 10%보다 작을 수 없습니다. 빈 열만 제거할 수 있습니다.
-
-1. **[!UICONTROL 내용]** 섹션을 확장하고 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다.
-
-1. 필요한 경우 _[!UICONTROL 설정]_ 또는 _[!UICONTROL 스타일]_ 탭에서 각 구성 요소를 추가로 사용자 지정할 수 있습니다.
-
-   예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다.
-
-1. 에셋 선택기에서 Assets 라이브러리에 저장된 에셋을 직접 선택할 수 있습니다.
-
-   에셋이 포함된 폴더를 두 번 클릭합니다. 항목을 구조 구성 요소로 끌어다 놓습니다.
-
-1. 개인화 필드를 삽입하여 프로필 속성, 대상자 멤버십, 컨텍스트 속성 등에서 콘텐츠를 사용자 지정합니다.
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. 왼쪽 창에서 **[!UICONTROL 링크]** 탭을 선택하여 추적되는 콘텐츠의 모든 URL을 표시합니다.
-
-   _추적 유형_ 또는 _레이블_&#x200B;을 수정하고 필요한 경우 태그를 추가할 수 있습니다.
-
-필요한 경우 고급 메뉴에서 **[!UICONTROL 코드 편집기로 전환]**&#x200B;을 클릭하여 전자 메일을 추가로 개인화할 수 있습니다. 코드 편집기를 사용하면 추적 또는 사용자 지정 HTML 태그 추가와 같은 이메일 소스 코드를 편집할 수 있습니다.
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->코드 편집기로 전환한 후에는 이 전자 메일의 비주얼 디자이너로 되돌릴 수 없습니다.
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 콘텐츠가 완료되면 맨 위에 있는 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기를 선택할 수 있습니다.
 
-준비가 되면 저장 을 클릭합니다.
+내용이 만족스러우면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
 ### 기존 HTML 콘텐츠 가져오기
 
-가져온 콘텐츠는 다음과 같을 수 있습니다.
+{{$include /help/_includes/content-design-import.md}}
 
-* 통합 스타일시트가 있는 HTML 파일
-* HTML 파일, 스타일 시트(.css) 및 이미지 파일이 포함된 .zip 폴더
+![zip 파일에서 html 콘텐츠 가져오기](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->.zip 파일 구조에는 제약 조건이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조와 일치해야 합니다.
+>`<table>` 태그를 HTML 파일의 첫 번째 레이어로 사용하면 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
 
-_HTML 내용이 포함된 파일을 가져오려면_
-
-1. 이메일 Designer 홈 페이지에서 **[!UICONTROL HTML 가져오기]**&#x200B;를 선택합니다.
-
-1. HTML 내용이 들어 있는 HTML 또는 .zip 파일을 드래그 앤 드롭한 다음 [!UICONTROL 가져오기]를 클릭합니다.
-
-   HTML 콘텐츠 업로드가 완료되면 콘텐츠가 _호환성 모드_&#x200B;에 있습니다. 이 모드에서는 텍스트를 개인화하거나, 링크를 추가하거나, 콘텐츠에 에셋을 포함할 수 있습니다.
+시각적 이메일 편집기 도구를 사용하여 필요에 따라 가져온 콘텐츠를 개인화할 수 있습니다.
 
 ### 템플릿 선택
 
-다음 중에서 선택할 수 있습니다.
+{{$include /help/_includes/content-design-select-template.md}}
 
-* 샘플 템플릿. Journey Optimizer 인터페이스는 선택할 수 있는 20개의 기본 이메일 템플릿을 제공합니다.
+## 구조 및 콘텐츠 추가 {#structure-content}
 
-* 저장된 템플릿.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 이메일 콘텐츠 디자인을 시작할 수 있습니다."
 
-* _템플릿_ 메뉴를 사용하여 처음부터 만들거나 _[!UICONTROL 여정 템플릿으로 저장]_ 옵션을 사용하여 전자 메일에서 저장한 사용자 지정 템플릿입니다.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 이메일 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
-_샘플 또는 저장된 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작하려면:_
+{{$include /help/_includes/content-design-components.md}}
 
-1. 전자 메일 콘텐츠 편집 작업 영역에서 _전자 메일 Designer_&#x200B;에 액세스합니다.
+### 조각 추가
 
-   _[!UICONTROL 전자 메일 만들기]_ 페이지에서 기본적으로 **[!UICONTROL 샘플 템플릿]** 탭이 선택됩니다.
+시각적 콘텐츠 편집기에서 _조각_ 아이콘이 왼쪽에 표시됩니다. 다음 예제에서는 템플릿 콘텐츠에 조각을 추가하는 단계에 대해 간략히 설명합니다.
 
-1. 사용자 지정 템플릿을 사용하려면 **[!UICONTROL 저장된 템플릿]** 탭을 선택하십시오.
+1. 조각 목록을 열려면 _조각_ 아이콘을 클릭합니다.
 
-   현재 샌드박스에서 만든 모든 콘텐츠 템플릿 목록이 표시됩니다. 이름, 마지막 수정 날짜 또는 마지막 작성일로 정렬할 수 있습니다.
+   다음과 같은 작업을 수행할 수 있습니다.
 
-1. 목록에서 원하는 템플릿을 선택합니다.
+   * 목록을 정렬합니다.
+   * 목록을 검색 또는 필터링합니다.
+   * 썸네일 보기와 목록 보기 간에 전환합니다.
+   * 최근에 만들어진 조각을 반영하도록 목록을 새로 고칩니다.
 
-1. 카테고리를 선택한 후 오른쪽 및 왼쪽 화살표를 사용하여 해당 카테고리의 모든 템플릿(선택에 따라 샘플 또는 저장) 간을 탐색할 수 있습니다.
+   ![목록에서 조각 선택](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. 페이지 오른쪽 상단에서 **[!UICONTROL 이 템플릿 사용]**&#x200B;을 클릭합니다.
+1. 조각을 구조 구성 요소 자리 표시자로 끌어서 놓습니다.
 
-1. _전자 메일 Designer_&#x200B;에서 필요에 따라 콘텐츠를 편집합니다.
+   편집기는 이메일 구조의 섹션/요소 내에서 조각을 렌더링합니다.
+
+조각의 콘텐츠는 구조 내에서 동적으로 업데이트되어 이메일에 콘텐츠가 표시되는 방식을 보여 줍니다.
+
+>[!TIP]
+>
+>이메일 내의 전체 수평 레이아웃을 차지하도록 조각을 추가하려면 1:1 열 구조를 추가한 다음 조각을 끌어서 놓습니다.
+
+전자 메일이 저장되면 요약에서 _[!UICONTROL 사용자]_ 탭을 선택하면 조각 세부 정보 페이지에 전자 메일이 표시됩니다. 이메일 템플릿에 추가된 조각은 템플릿 내에서 편집할 수 없습니다. 콘텐츠는 소스 조각에 의해 정의됩니다.
+
+### 에셋 추가
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### 레이어, 설정 및 스타일 탐색
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### 콘텐츠 개인화
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### 연결된 URL 추적 편집
+
+{{$include /help/_includes/content-design-links.md}}
+
+### 옵션 보기
+
+시각적 이메일 편집기에서 사용할 수 있는 보기 및 콘텐츠 유효성 검사 옵션을 활용합니다.
+
+* 사전 설정된 확대/축소 옵션에서 콘텐츠를 확대/축소합니다.
+
+* 데스크탑, 모바일 또는 텍스트 전용/일반 텍스트에서 컨텐츠 보기를 전환합니다.
+   * 여러 장치에서 콘텐트 미리 보기를 위해 _눈_ 아이콘을 클릭합니다.
+   * 기본 제공 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
 
 ## 경고 확인
 
