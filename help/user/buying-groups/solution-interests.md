@@ -3,9 +3,9 @@ title: 솔루션 관심 분야
 description: 솔루션 관심사 및 구매 그룹 내에서 사용할 솔루션을 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # 솔루션 관심 분야
 
 구매 그룹을 생성하기 전에, 무엇을 판매하고 있고 누구를 타겟팅할지 알아야 합니다. 구매 그룹에 대한 솔루션 관심사를 추가할 수 있도록 마케팅 및 판매 전략을 조정해야 합니다.
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
 ## 솔루션 관심사 액세스 및 찾아보기
 
@@ -84,3 +86,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
    솔루션 관심사가 현재 계정 여정 또는 구매 그룹 작업에서 사용 중인 경우 작업을 수행하면 삭제할 수 없다는 것을 알리는 정보 대화 상자가 열립니다. [!UICONTROL 확인]을 클릭하여 삭제를 중단합니다.
 
 1. **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인하거나 _[!UICONTROL 취소]_&#x200B;를 클릭하여 프로세스를 중단할 수 있습니다.
+
+## 개요 비디오
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

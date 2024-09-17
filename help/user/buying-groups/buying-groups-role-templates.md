@@ -3,9 +3,9 @@ title: 그룹 역할 템플릿 구매
 description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # 그룹 역할 템플릿 구매 중
 
 B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다. 그 개인들은 조직 내에서 자신의 역할에 따라 의사결정 과정에 참여한다. 각 제품 제공 유형 또는 계정 사용 사례에 따라 이러한 역할 정의를 포함하는 구매 그룹 역할 템플릿을 만듭니다.
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
 ## 역할 템플릿 액세스 및 찾아보기
 
@@ -130,3 +132,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
    ![역할 우선 순위 변경](./assets/roles-template-delete.png){width="700"}
 
 1. 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 확인합니다.
+
+## 개요 비디오
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -3,10 +3,10 @@ title: 구매 그룹 만들기
 description: 구매 그룹을 만드는 방법에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 0%
    ![구매 그룹 만들기를 클릭합니다](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
 1. 각 페이지의 안내에 따라 **[!UICONTROL 다음]**&#x200B;을(를) 클릭하여 계속 진행하십시오.
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [방법 비디오 보기](#how-to-video)
 
 ## 지침 페이지
 
@@ -58,3 +60,7 @@ ht-degree: 0%
 Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
+
+## 방법 비디오
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)
