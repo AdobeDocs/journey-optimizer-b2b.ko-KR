@@ -6,7 +6,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer B2B 에디션을 사용하면 기존 HTML 콘텐츠를 �
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. **Structure** 구성 요소를 캔버스에 끌어다 놓아 템플릿의 콘텐츠 디자인을 시작합니다."
+>abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 템플릿에 대한 콘텐츠 디자인을 시작할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
