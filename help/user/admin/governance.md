@@ -2,9 +2,9 @@
 title: 거버넌스 기능
 description: 현재 Journey Optimizer B2B 에디션에서 사용할 수 있는 거버넌스 기능에 대해 알아봅니다.
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8c191cd86a9aa9e7094b7d3464b3179cfdb4789e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Journey Optimizer B2B 에디션을 통해 이메일 및 SMS 게재 사용 사례
 
 ## 아직 사용할 수 없음
 
-다음 거버넌스 기능은 아직 사용할 수 없지만 제품 로드맵에 포함되어 있습니다.
+다음 거버넌스 기능은 아직 사용할 수 없습니다.
 
 * 데이터 사용 레이블 적용 (DULE) / 사용 정책
 * 데이터 위생
