@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 <tbody>
 <tr>
 <td>
-<p>시각적 조각은 상태 라이프사이클을 사용하여 관리되며, 조각 상태에 따라 이메일 또는 이메일 템플릿에서 사용할 수 있는 여부 및 변경 사항이 결정됩니다. 이를 통해 판촉 및 커뮤니케이션 달력에 따라 재사용된 콘텐츠를 쉽게 관리할 수 있습니다. <a href="../content/fragments#fragment-status-and-lifecycle">자세히 알아보기</a>
+<p>시각적 조각은 상태 라이프사이클을 사용하여 관리되며, 조각 상태에 따라 이메일 또는 이메일 템플릿에서 사용할 수 있는 여부 및 변경 사항이 결정됩니다. 이를 통해 판촉 및 커뮤니케이션 달력에 따라 재사용된 콘텐츠를 쉽게 관리할 수 있습니다. <a href="../content/fragments.md#fragment-status-and-lifecycle">자세히 알아보기</a>
 </td>
 </tr>
 </tbody>
