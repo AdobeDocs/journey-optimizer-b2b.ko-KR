@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 192080e0cea6eb3deaea24ac89ec17113bc75af5
+source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 10%
+source-wordcount: '205'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 <tbody>
 <tr>
 <td>
-<p>계정 일치 대상을 통해 LinkedIn 광고 대상을 생성하여 구매 그룹에서 빈 역할을 채우는 데 도움을 줍니다. 일련의 구매 그룹 필터를 정의하면 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. 이 기능은 Experience Platform 대상 을 활용하여 통합의 일부 측면을 관리합니다. [자세히 알아보기](../data/linkedin-account-matched-audiences.md)</p>
+<p>계정 일치 대상을 통해 LinkedIn 광고 대상을 생성하여 구매 그룹에서 빈 역할을 채우는 데 도움을 줍니다. 일련의 구매 그룹 필터를 정의하면 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. 이 기능은 Experience Platform 대상 을 활용하여 통합의 일부 측면을 관리합니다. <a href="../data/linkedin-account-matched-audiences.md">자세히 알아보기</a>
 </td>
 </tr>
 </tbody>
@@ -47,22 +47,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 <tbody>
 <tr>
 <td>
-<p>시각적 조각은 상태 라이프사이클을 사용하여 관리되며, 조각 상태에 따라 이메일 또는 이메일 템플릿에서 사용할 수 있는 여부 및 변경 사항이 결정됩니다. 이를 통해 판촉 및 커뮤니케이션 달력에 따라 재사용된 콘텐츠를 쉽게 관리할 수 있습니다. [자세히 알아보기](../content/fragments.md#fragment-status-and-lifecycle)</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>시각적 조각의 상태 라이프사이클</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>시각적 조각은 상태 라이프사이클을 사용하여 관리되며, 조각 상태에 따라 이메일 또는 이메일 템플릿에서 사용할 수 있는 여부 및 변경 사항이 결정됩니다. 이를 통해 판촉 및 커뮤니케이션 달력에 따라 재사용된 콘텐츠를 쉽게 관리할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments#fragment-status-and-lifecycle)</p>
+<p>시각적 조각은 상태 라이프사이클을 사용하여 관리되며, 조각 상태에 따라 이메일 또는 이메일 템플릿에서 사용할 수 있는 여부 및 변경 사항이 결정됩니다. 이를 통해 판촉 및 커뮤니케이션 달력에 따라 재사용된 콘텐츠를 쉽게 관리할 수 있습니다. <a href="../content/fragments#fragment-status-and-lifecycle">자세히 알아보기</a>
 </td>
 </tr>
 </tbody>
