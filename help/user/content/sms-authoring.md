@@ -3,10 +3,10 @@ title: SMS 작성
 description: 모바일 장치에서 고객에게 텍스트 메시지(SMS)를 보내는 방법과 SMS 편집기에서 텍스트 형식의 메시지를 개인화하고 미리 보는 방법에 대해 알아봅니다.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
+source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 2%
+source-wordcount: '2041'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Journey Optimizer B2B 에디션은 SMS 서비스 공급자(또는 SMS 게�
 
 ### SMS 게이트웨이 서비스 공급자
 
-Adobe Journey Optimizer B2B 에디션은 현재 텍스트 메시지 서비스를 독립적으로 제공하는 서드파티 공급자와 통합됩니다. 텍스트 메시지에 대해 지원되는 공급자는 Sinch, Twilio 및 Infobip입니다.
+Adobe Journey Optimizer B2B edition은 현재 텍스트 메시지 서비스를 독립적으로 제공하는 서드파티 공급자와 통합됩니다. 텍스트 메시지에 대해 지원되는 공급자는 Sinch, Twilio 및 Infobip입니다.
 
-Adobe Journey Optimizer B2B 에디션에서 SMS 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 만들어 API 토큰 및 서비스 ID를 가져와야 합니다. Adobe Journey Optimizer B2B 에디션과 해당 공급자 간의 연결을 구성하는 데 이러한 자격 증명이 필요합니다.
+Adobe Journey Optimizer B2B edition에서 SMS 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 만들어 API 토큰 및 서비스 ID를 가져와야 합니다. Adobe Journey Optimizer B2B 에디션과 해당 공급자 간의 연결을 구성하는 데 이러한 자격 증명이 필요합니다.
 
 >[!IMPORTANT]
 >
@@ -34,13 +34,17 @@ Adobe Journey Optimizer B2B 에디션에서 SMS 채널을 구성하기 전에 �
 >
 >설명된 설정은 SMS 관리자 권한이 있는 사용자만 액세스할 수 있습니다.
 
-왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
+1. 왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 채널]**&#x200B;을 클릭합니다.
 
-![AMA API 자격 증명 구성에 액세스](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![SMS API 자격 증명 구성에 액세스](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-이 페이지에는 인스턴스에 사용 가능한 API 구성이 나열됩니다. SMS 서비스 공급자 또는 생성자가 표시된 API 자격 증명을 필터링할 수 있습니다.
+1. 탐색 패널에서 **[!UICONTROL API 자격 증명]**&#x200B;을 선택합니다.
 
-![필터 아이콘을 클릭하여 API 자격 증명 목록을 필터링합니다](./assets/config-sms-api-filter.png){width="500"}
+   이 페이지에는 인스턴스에 사용 가능한 API 구성이 나열됩니다.
+
+1. 필요한 경우 _필터_ 아이콘(![필터 표시 또는 숨기기 아이콘](../assets/do-not-localize/icon-filter.svg))을 클릭하고 옵션을 선택하여 SMS 서비스 공급자나 작성자가 구성한 API 자격 증명 목록을 표시합니다.
+
+   ![필터 아이콘을 클릭하여 API 자격 증명 목록을 세분화합니다](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ### SMS 서비스 공급자에 대한 새 API 자격 증명 만들기
 
@@ -70,7 +74,7 @@ _Adobe Journey Optimizer B2B 에디션을 사용하여 Sinch를 SMS 공급자로
 
 >[!TAB Twilio]
 
-_Adobe Journey Optimizer B2B 에디션을 사용하여 Twilio를 SMS 공급자로 구성하려면:_
+_Adobe Journey Optimizer B2B edition을 사용하여 Twilio를 SMS 공급자로 구성하려면:_
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 
@@ -128,58 +132,76 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 1. _[!UICONTROL 작업 수행]_ 패널 아래쪽에서 **[!UICONTROL SMS 만들기]**&#x200B;를 클릭합니다.
 
-1. 대화 상자에서 전자 메일의 고유한 **[!UICONTROL 이름]**&#x200B;과(와) **[!UICONTROL 제목 줄]**&#x200B;을(를) 입력합니다.
+1. 대화 상자에서 SMS 메시지의 고유한 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-   ![새 SMS 대화 상자 만들기](assets/create-new-sms.png){width="500"}
+   ![새 SMS 대화 상자 만들기](assets/create-new-sms.png){width="400"}
 
-## SMS 메시지 만들기
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+
+   _여정 콘텐츠 디자이너_&#x200B;가 열리고 메시지를 만들고 메시지를 보낼 SMS 속성을 설정할 수 있습니다.
+
+### SMS 메시지 만들기
 
 >[!IMPORTANT]
 >
 >**SMS 동의 관리**<br/>
-><br/>
+>
 >업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. 모든 표준 옵트인 및 옵트아웃 키워드가 지원되며 적용됩니다. 또한 SMS 서비스 공급자 계정에 대해 구성된 모든 사용자 지정 키워드가 지원되고 적용됩니다.
 
-1. **[!UICONTROL 메시지]** 필드에 보낼 텍스트를 입력하십시오.
+**[!UICONTROL 메시지]** 필드에 보낼 텍스트를 입력하십시오.
 
-   160자마다 하나의 SMS 메시지로 간주하여 최대 1600자의 메시지를 만들 수 있습니다.
+160자마다 하나의 SMS 메시지로 간주하여 최대 1600자의 메시지를 만들 수 있습니다.
 
-1. **문자 메시지를 개인화합니다**.
+![메시지에 토큰을 추가하려면 개인화 아이콘을 클릭합니다](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-   언제든지 텍스트 메시지를 작성하는 동안 텍스트 메시지 상자 오른쪽에 있는 _개인화_ 아이콘을 클릭합니다.
+#### 문자 메시지 개인화
 
-   ![메시지에 토큰을 추가하려면 개인화 아이콘을 클릭합니다](./assets/sms-message-personalize-icon.png){width="800" zoomable="yes"}
+1. 언제든지 텍스트 메시지를 작성하는 동안 텍스트 메시지 상자 오른쪽에 있는 _개인 설정_ 아이콘(![개인 설정 아이콘](../assets/do-not-localize/icon-personalize.svg))을 클릭합니다.
 
-   표시된 페이지에서는 Adobe Marketo Engage Lead 및 시스템 토큰에 액세스할 수 있습니다. 표준 및 사용자 지정 토큰이 모두 포함됩니다. 검색 창을 사용하여 필요한 토큰을 찾거나 폴더 트리를 탐색하여 리드/시스템 토큰을 찾아 선택할 수 있습니다.
+   표시된 페이지에서는 Adobe Marketo Engage Lead 및 시스템 토큰에 액세스할 수 있습니다. 표준 및 사용자 지정 토큰이 모두 포함됩니다. _검색_ 막대를 사용하여 필요한 토큰을 찾거나 폴더 트리를 탐색하여 리드/시스템 토큰을 찾아 선택할 수 있습니다.
 
-   메시지를 통해 토큰을 추가할 위치에 커서를 놓습니다. 토큰 옆에 있는 더하기(**+**) 기호를 클릭하여 토큰을 추가합니다. 대체 항목이 있는 토큰을 추가하려면(잠재 고객에 대해 해당 필드를 사용할 수 없는 경우 나타나는 기본값) 줄임표(**...** )를 클릭하고 **[!UICONTROL 대체 텍스트를 사용하여 삽입]**&#x200B;을 선택합니다.
+1. 메시지를 통해 토큰을 추가할 위치에 커서를 놓습니다.
+
+1. 토큰 옆에 있는 더하기(**+**) 기호를 클릭하여 토큰을 추가합니다.
+
+   대체 항목이 있는 토큰을 추가하려면( 잠재 고객에 대해 해당 필드를 사용할 수 없는 경우 나타나는 기본값) _자세히_ 아이콘(**...**)을 클릭하고 **[!UICONTROL 대체 텍스트를 사용하여 삽입]**&#x200B;을 선택합니다.
 
    ![토큰에 대한 대체 요소를 사용하려면 생략 부호를 클릭하세요](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
-   _[!UICONTROL 대체 값 입력]_ 대화 상자에서 대체 값으로 나타나는 텍스트를 입력한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. _[!UICONTROL 대체 값 입력]_ 대화 상자에서 대체 값으로 나타나는 텍스트를 입력한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
    ![토큰에 대한 대체 텍스트를 입력하십시오](./assets/sms-message-personalize-fallback-text.png){width="400"}
 
-   개인화 토큰이 배치되면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장하고 기본 SMS 작성 작업 영역으로 돌아갑니다. 필요에 따라 토큰으로 메시지를 계속 편집할 수 있습니다.
+1. 개인화 토큰이 배치되면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장하고 기본 SMS 작성 작업 영역으로 돌아갑니다.
 
-1. **문자 메시지에 URL 추가**.
+   필요에 따라 토큰으로 메시지를 계속 편집할 수 있습니다.
 
-   콘텐츠를 정의한 후 _링크_ 아이콘을 클릭하여 메시지에 URL을 추가할 수 있습니다.
+#### 텍스트 메시지에 링크(URL) 추가
 
-   이 작업을 수행하면 연결할 두 가지 유형의 URL 중 하나를 선택할 수 있는 대화 상자가 열립니다.
+1. 메시지 텍스트를 입력한 후 텍스트 메시지 상자 오른쪽에 있는 _링크_ 아이콘(![링크 아이콘](../assets/do-not-localize/icon-link.svg))을 클릭합니다.
+
+1. 대화 상자에서 연결할 URL 유형을 선택합니다.
+
+   * **[!UICONTROL 랜딩 페이지]** - Marketo Engage 인스턴스에서 승인된 Adobe Marketo Engage Design Studio 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오. 작업 영역을 선택한 다음 랜딩 페이지를 선택합니다.
 
    * **[!UICONTROL 외부 URL]** - 이 형식은 텍스트 상자에 입력하는 모든 외부 URL입니다.
-   * **[!UICONTROL 랜딩 페이지]** - Marketo Engage 인스턴스에서 승인된 Adobe Marketo Engage Design Studio 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오.
 
-   이 대화 상자에는 URL 링크에 대한 옵션도 포함되어 있습니다.
+1. 랜딩 페이지를 사용하도록 선택하는 경우 추적 옵션을 설정합니다.
 
-   * **[!UICONTROL URL 단축]** - 이 확인란을 선택하여 추적에 필요한 URL을 _단축_&#x200B;합니다. 랜딩 페이지의 경우 단축된 URL에 Marketo Engage 하위 도메인을 사용합니다. 단축된 URL 형식의 샘플이 표시됩니다. 실제 URL은 SMS가 수신자에게 전송될 때 만들어집니다.
+   * **[!UICONTROL 추적 사용]** - 이 확인란을 선택하여 추적을 사용하도록 설정합니다. 이렇게 하려면 URL을 _단축_&#x200B;해야 합니다. 랜딩 페이지의 경우 단축된 URL에 Marketo Engage 하위 도메인을 사용합니다. 단축된 URL 형식의 샘플이 표시됩니다. 실제 URL은 SMS가 수신자에게 전송될 때 만들어집니다.
 
    * **[!UICONTROL mkt_tok 포함]** - 이 확인란을 선택하여 사용자에 대한 활동을 추적합니다.
 
-   링크 옵션이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 변경 내용을 저장하고 SMS 메시지에 URL 링크를 추가합니다.
+     >[!NOTE]
+     >
+     >추적을 허용하지만 _[!UICONTROL mkt_tok 포함]_&#x200B;을 사용하지 않도록 설정하는 경우 리디렉션 후 대상 URL에 `mkt_tok` 쿼리 문자열 매개 변수가 포함되지 않습니다. 이 매개 변수는 Marketo Engage 랜딩 페이지 및 Munchkin에서 개인 활동 추적을 확인하는 데 사용됩니다(예: 개인이 이메일에서 가입 해지하는 경우). 매개 변수로 인해 웹 사이트에서 문제가 발생하지 않는 한 이 옵션을 비활성화하지 마십시오.<br/>
+     >웹 사이트에서 Munchkin 추적 코드를 사용하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}를 참조하세요.
 
-## SMS 속성 설정
+   ![SMS 메시지에 링크 대화 상자 추가](./assets/sms-add-link-dialog.png){width="470"}
+
+1. 링크 옵션이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 변경 내용을 저장하고 SMS 메시지에 URL 링크를 추가합니다.
+
+### SMS 속성 설정
 
 1. _[!UICONTROL SMS 속성]_ 섹션에서 메시지에 대해 **[!UICONTROL 이름]**(필수, 최대 100자)과 **[!UICONTROL 설명]**(선택 사항, 최대 300자)을 입력합니다.
 
@@ -200,12 +222,12 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
    받는 사람 번호는 항상 Marketo Engage의 `Lead.mobilePhone` 필드에 매핑됩니다.
 
-## 문자 메시지 내용 시뮬레이션 {#preview-test}
+### 문자 메시지 내용 시뮬레이션 {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="콘텐츠 렌더링 방식 확인"
->abstract="콘텐츠가 정의되면 미리 보고 사용 중인 채널에 대해 렌더링이 올바른지 확인할 수 있습니다."
+>abstract="콘텐츠가 정의되면 콘텐츠를 미리 보고 사용 중인 채널에 대한 렌더링을 확인할 수 있습니다."
 
 메시지 콘텐츠가 정의된 경우 테스트 프로필을 사용하여 콘텐츠를 시뮬레이션(미리 보기)할 수 있습니다. 개인화된 콘텐츠를 삽입했다면 테스트 프로필 데이터를 이용해 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있다.
 
@@ -231,7 +253,7 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 1. 선택한 리드에 대한 콘텐츠를 시뮬레이션합니다.
 
-   왼쪽에 나열된 리드를 선택하고 해당 리드에 대한 페이지 업데이트의 SMS 미리보기를 선택합니다.
+   왼쪽에 나열된 잠재 고객 중 하나를 선택합니다. 페이지의 SMS 미리보기가 선택한 리드에 대해 업데이트됩니다.
 
    미리보기 공간 위의 선택기에서 리드를 선택하여 해당 리드에 대한 페이지의 SMS 미리보기를 업데이트할 수도 있습니다.
 
@@ -243,7 +265,7 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 이 옵션을 제공하면 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. 모든 표준 옵트인 및 옵트아웃 키워드는 SMS 서비스 공급자에서 구성된 모든 사용자 지정 키워드와 지원됩니다. 구독을 취소하면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.
 
-Journey Optimizer B2B 에디션은 다음 논리를 사용하여 SMS 메시지에서 옵트아웃을 관리하는 기능을 제공합니다.
+Journey Optimizer B2B edition은 다음 논리를 사용하여 SMS 메시지에서 옵트아웃을 관리하는 기능을 제공합니다.
 
 * 기본적으로 잠재 고객이 사용자로부터 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 SMS 게재에서 제외됩니다
 
