@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B 에디션에 대해 알아�
 source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 39%
+ht-degree: 43%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 39%
 + [Adobe Journey Optimizer B2B 에디션 설명서](guide-overview.md)
 + [릴리스 정보](./release-notes/release-notes.md)
 + 시작 {#get-started}
-   + [Journey Optimizer B2B 에디션 개요](about-journey-optimizer-b2b-edition.md)
+   + [Journey Optimizer B2B edition 개요](about-journey-optimizer-b2b-edition.md)
    + [로그인 및 홈 페이지](home-page.md)
    + [빠른 시작 지침](./start/get-started.md)
    + [AI Assistant 사용](./start/ai-assistant.md)
