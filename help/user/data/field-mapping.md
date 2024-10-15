@@ -2,7 +2,7 @@
 title: XDM 필드
 description: Adobe Experience Platform 및 Journey Optimizer B2B edition 간에 동기화된 기본 속성 필드를 검토합니다.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 13%
@@ -59,7 +59,7 @@ ht-degree: 13%
 | `accountBillingAddress.region` | 지역 | 주소 영역 | 문자열 | 청구지 주소의 지역, 국가 또는 지역 부분입니다. |
 | `accountBillingAddress.state` | 주/도 | 주/도 | 문자열 | 청구 주소의 주 이름입니다. 자유 형식의 필드입니다. |
 | `accountBillingAddress.street1` | 도로 1 | 도로 1 | 문자열 | 일반적으로 아파트 번호, 거리 번호 및 거리 이름을 포함하는 청구 주소의 기본 거리 수준 정보입니다. |
-| `accountName` | 이름 | 이름 | **필수 필드** <br/>문자열 | 회사 이름. 이 필드에는 최대 255자가 허용됩니다. |
+| `accountName` | 이름 | 이름 | 문자열 | **필수 필드** <br/>회사 이름. 이 필드에는 최대 255자가 허용됩니다. |
 | `accountOrganization.annualRevenue.amount` | 연간 수익 | 연간 수익 | 숫자 | 조직의 예상 연간 매출액. |
 | `accountOrganization.industry` | 산업 | 산업 | 문자열 | 그 산업은 조직에 기인했다. 자유 형식의 필드이므로 쿼리에 대해 구조화된 값을 사용하거나 `xdm:classifier` 속성을 사용하는 것이 좋습니다. |
 | `accountOrganization.logoUrl` | 로고 Url | 로고 Url | 문자열 | 계정과 연결된 소셜 네트워크 프로필 이미지를 요청할 URL을 생성하기 위해 Salesforce 인스턴스의 URL과 결합할 경로(예: `https://yourInstance.salesforce.com/`). 생성된 URL은 계정에 대한 소셜 네트워크 프로필 이미지에 대한 HTTP 리디렉션(코드 302)을 반환합니다. |
