@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
+source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '420'
 ht-degree: 8%
 
 ---
@@ -32,7 +32,8 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 <tbody>
 <tr>
 <td>
-<p>향상된 _central assets 라이브러리_를 사용하면 Design Studio 작업 영역에서 Marketo Engage 인스턴스의 모든 이미지 에셋을 사용할 수 있습니다. Journey Optimizer B2B edition의 Marketo Engage 에셋을 편집하고 작업을 삭제 및 이동할 수 없는 내장 보호 기능이 있습니다. 이러한 보호를 통해 소스 에셋(Marketo Engage Design Studio)을 유지 관리하는 동시에 Journey Optimizer B2B edition에서 원활한 읽기 및 재사용이 가능합니다. <a href="../content/marketo-engage-design-studio.md">자세히 알아보기</a>
+<p>향상된 <i>중앙 자산 라이브러리</i>를 사용하면 Design Studio 작업 영역에서 Marketo Engage 인스턴스의 모든 이미지 자산을 사용할 수 있습니다. Journey Optimizer B2B edition의 Marketo Engage 에셋을 편집하고 작업을 삭제 및 이동할 수 없는 내장 보호 기능이 있습니다. 이러한 보호를 통해 소스 에셋(Marketo Engage Design Studio)을 유지 관리하는 동시에 Journey Optimizer B2B edition에서 원활한 읽기 및 재사용이 가능합니다. </p>
+<p>Journey Optimizer B2B edition에서만 사용되는 에셋의 경우 특정 작업 영역에서 전체 에셋 관리 기능을 제공합니다. <a href="../content/marketo-engage-design-studio.md">자세히 알아보기</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer B2B edition 앱의 홈 페이지에는 마케터 또는 관리자를 위해 가장 최근에 액세스한 에셋 목록을 제공하는 _[!UICONTROL Recently accessed]_ 섹션이 포함되어 있습니다. 이 목록을 사용하면 일련의 에셋 페이지를 탐색하고 검색하지 않고도 최근에 작업한 에셋으로 직접 이동할 수 있습니다. 마지막 세션에서 추가로 수정해야 하는 에셋을 결정할 수 있도록 수정과 관련된 추가 정보를 제공합니다. 이메일 에셋의 경우 이메일 에셋이 사용되는 계정 여정을 표시합니다. <a href="../home-page.md">자세히 알아보기</a>
+<p>이제 Journey Optimizer B2B edition 앱의 홈 페이지에는 마케터 또는 관리자를 위해 가장 최근에 액세스한 자산 목록을 제공하는 <i>[!UICONTROL Recently accessed]</i> 섹션이 포함됩니다. 이 목록을 사용하면 일련의 에셋 페이지를 탐색하고 검색하지 않고도 최근에 작업한 에셋으로 직접 이동할 수 있습니다. 마지막 세션에서 추가로 수정해야 하는 에셋을 결정할 수 있도록 수정과 관련된 추가 정보를 제공합니다. 이메일 에셋의 경우 이메일 에셋이 사용되는 계정 여정을 표시합니다. <a href="../home-page.md">자세히 알아보기</a>
 </td>
 </tr>
 </tbody>
