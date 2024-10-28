@@ -1,11 +1,11 @@
 ---
 title: 구매 그룹
-description: 구매 그룹 및 해당 구성 요소에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 구매 그룹을 통해 계정 목록의 구성원을 식별하고 타겟팅하여 마케팅 효과를 높이는 방법을 알아봅니다.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1208'
 ht-degree: 5%
 
 ---
