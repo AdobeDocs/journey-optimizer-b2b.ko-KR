@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: 내장된 생성 AI 및 업계 최고 수준의 자동화를 사용하여 계정을 조정하고 그룹 여정을 구매하기 위해 Adobe Journey Optimizer B2B edition 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 7%
 
 ---
 
@@ -13,13 +13,25 @@ ht-degree: 9%
 
 ## 새로운 기능
 
-다음은 Journey Optimizer B2B 에디션 제품 및 설명서의 최신 개선 사항 샘플입니다.
+다음은 Journey Optimizer B2B edition 제품 및 설명서의 최신 개선 사항 샘플입니다.
 
 >[!BEGINTABS]
 
+>[!TAB 조건부 콘텐츠]
+
+조건부 콘텐츠를 사용하여 조건부 규칙에 따라 이메일 콘텐츠를 조정합니다. 프로필 속성 또는 컨텍스트 이벤트를 사용하여 규칙을 정의합니다. 규칙 빌더에서 조건부 규칙을 만들어 계정 여정 간에 재사용할 수 있도록 저장할 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/conditional-content.md" tooltip="조건부 콘텐츠에 대해 알아보기"}
+
+>[!TAB 사람 작업 - 목록에서 추가/제거]
+
+계정 여정에서 _목록에 추가_ 작업 노드를 사용하여 Marketo Engage 정적 목록에 사용자를 추가하십시오. 이러한 목록을 통해 특정 대상의 용도를 변경하고 타겟팅할 수 있는 유연성을 확보할 수 있습니다. 목록을 작성한 다음 주변에 캠페인을 만들거나 기존 캠페인에 사용자를 직접 추가할 수 있습니다. 또한 _목록에서 제거_ 작업을 사용하여 계정 여정 진행에 따라 Marketo Engage에서 타깃팅을 구체화하고 변경할 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="목록에 추가 및 목록에서 제거에 대해 알아보기"}
+
 >[!TAB 중앙 자산 라이브러리]
 
-Design Studio 작업 공간에서 Marketo Engage 인스턴스의 모든 이미지 에셋을 사용합니다. 내장 가드레일을 통해 Journey Optimizer B2B edition의 Marketo Engage 에셋을 편집할 수 없습니다. 이러한 보호를 통해 Marketo Engage 소스 자산이 유지되고 Journey Optimizer B2B edition에서 원활한 읽기 및 재사용이 가능합니다. Journey Optimizer B2B edition에서만 사용되는 에셋의 경우 특정 작업 영역에서 전체 에셋 관리 기능을 제공합니다.
+Design Studio 작업 공간에서 Marketo Engage 인스턴스의 이미지 에셋을 사용합니다. 내장 가드레일을 통해 Journey Optimizer B2B edition의 Marketo Engage 에셋을 편집할 수 없습니다. 이러한 보호를 통해 Marketo Engage 소스 자산이 유지되고 Journey Optimizer B2B edition에서 원활한 읽기 및 재사용이 가능합니다. Journey Optimizer B2B edition에서만 사용되는 에셋의 경우 특정 작업 영역에서 전체 에셋 관리 기능을 제공합니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="중앙 자산 관리에 대해 알아보기"}
 
@@ -38,12 +50,6 @@ Design Studio 작업 공간에서 Marketo Engage 인스턴스의 모든 이미�
 생성 AI를 기반으로 하는 Adobe Journey Optimizer B2B edition의 이메일 콘텐츠용 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. AI Assistant는 전체 이메일, 타겟팅된 텍스트 콘텐츠 및 대상자와 공감을 이루도록 특별히 맞춤화된 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 됩니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="이메일용 AI Assistant에 대해 알아보기"}
-
->[!TAB 시각적 조각]
-
-재사용 가능한 구성 요소를 마케팅 팀원이 향상된 디자인 프로세스를 위해 이메일 콘텐츠를 어셈블하는 데 사용할 수 있는 사용자 지정 콘텐츠 블록으로 만듭니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="시각적 조각에 대해 알아보기"}
 
 >[!ENDTABS]
 
@@ -104,12 +110,12 @@ Design Studio 작업 공간에서 Marketo Engage 인스턴스의 모든 이미�
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="컨텐츠 작성"><br/>
-      <strong>콘텐츠 여정</strong><br/><a href="./content/email-authoring.md">이메일 작성</a><br/><a href="./content/ai-assistant-emails.md">이메일에 대한 AI 도우미</a><br/><a href="./content/sms-authoring.md">SMS 작성</a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="여정 컨텐츠"><br/>
+      <strong>여정 콘텐츠</strong><br/><a href="./content/email-authoring.md">이메일 작성</a><br/><a href="./content/ai-assistant-emails.md">이메일에 대한 AI 도우미</a><br/><a href="./content/sales-alert-email.md">판매 경고 이메일</a><br/><a href="./content/sms-authoring.md">SMS 작성</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="컨텐츠 자산"><br/>
-      <strong>콘텐츠 관리</strong><br/><a href="./content/assets-overview.md">Assets 개요</a><br/><a href="./content/email-templates.md">전자 메일 템플릿</a><br/><a href="./content/fragments.md">시각적 조각</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="콘텐츠 관리"><br/>
+      <strong>콘텐츠 관리</strong><br/><a href="./content/assets-overview.md">Assets 개요</a><br/><a href="./content/email-templates.md">전자 메일 템플릿</a><br/><a href="./content/fragments.md">시각적 조각</a><br/><a href="./content/conditional-content.md">조건부 콘텐츠</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="인사이트 및 대시보드"><br/>
@@ -126,7 +132,7 @@ Design Studio 작업 공간에서 Marketo Engage 인스턴스의 모든 이미�
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko" target="_blank">설명서</a> - <a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
 </td></tr>
 <tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home" target="_blank">설명서</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">개발자 자습서</a>

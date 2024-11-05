@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B 에디션 설명서
 user-guide-description: Adobe Journey Optimizer B2B 에디션에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 93b21240182843543dc439ba2844ab8c3c3b6013
+source-git-commit: 2fad420eb5d0511acff5509a424b9ed100cdb151
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 44%
+source-wordcount: '154'
+ht-degree: 41%
 
 ---
 
@@ -31,17 +31,23 @@ ht-degree: 44%
    + [개요](./journeys/journey-overview.md)
    + [계정 여정 노드](./journeys/journey-nodes.md)
 + 여정 컨텐츠 {#journey-content}
-   + [이메일 작성](./content/email-authoring.md)
-   + [이메일 작성을 위한 AI Assistant](./content/ai-assistant-emails.md)
-   + [영업 경고 이메일](./content/sales-alert-email.md)
+   + 이메일 채널 {#email-channel}
+      + [이메일 작성](./content/email-authoring.md)
+      + [이메일 작성을 위한 AI Assistant](./content/ai-assistant-emails.md)
+      + [관리 템플릿](./content/email-authoring-governance.md)
+      + [영업 경고 이메일](./content/sales-alert-email.md)
    + [SMS 작성](./content/sms-authoring.md)
 + 콘텐츠 관리 {#content-management}
    + 자산 {#assets}
       + [개요](./content/assets-overview.md)
       + [Marketo Engage 에셋으로 작업](./content/marketo-engage-design-studio.md)
       + [AEM Assets 이미지로 작업](./content/aem-assets.md)
-   + [템플릿](./content/email-templates.md)
+   + 템플릿{#templates}
+      + [이메일 템플릿 관리](./content/email-templates.md)
+      + [이메일 템플릿 작성](./content/email-template-authoring.md)
+      + [콘텐츠 거버넌스](./content/template-content-governance.md)
    + [조각](./content/fragments.md)
+   + [조건부 콘텐츠](./content/conditional-content.md)
 + 인사이트 대시보드 {#dashboards}
    + [지능형 대시보드](./dashboards/intelligent-dashboard.md)
    + [구매 그룹](./dashboards/buying-groups-dashboard.md)
@@ -49,5 +55,8 @@ ht-degree: 44%
    + [여정 개요](./dashboards/journeys-dashboard.md)
 + 관리 {#admin}
    + [사용자 관리](./admin/user-management.md)
+   + 채널 {#channels}
+      + [이메일 구성](./admin/configure-channels-emails.md)
+      + [SMS 구성](./admin/configure-channels-sms.md)
    + [AEM Assets 저장소 구성](./admin/configure-aem-repositories.md)
    + [거버넌스](./admin/governance.md)

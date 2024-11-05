@@ -1,9 +1,9 @@
 ---
 title: 콘텐츠 작성 - 구성 요소
 description: 콘텐츠 작성에 구성 요소 및 콘텐츠 요소 사용에 대한 재사용 섹션
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,12 @@ ht-degree: 0%
 
    ![콘텐츠 요소를 캔버스로 드래그하고 설정을 조정하십시오](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. 필요한 경우 _[!UICONTROL 설정]_ 또는 _[!UICONTROL 스타일]_ 탭에서 각 구성 요소를 추가로 사용자 지정할 수 있습니다.
 
    예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다.
 
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
+1. 조건부 콘텐츠를 추가하고 조건부 규칙에 따라 타겟팅된 프로필로 콘텐츠를 조정하려면 콘텐츠 구성 요소를 선택하고 구성 요소 도구 모음에서 **[!UICONTROL 조건부 콘텐츠 활성화]** 아이콘을 클릭합니다.
+
+   자세한 내용은 [_조건부 콘텐츠_](../user/content/conditional-content.md)&#x200B;를 참조하세요.
