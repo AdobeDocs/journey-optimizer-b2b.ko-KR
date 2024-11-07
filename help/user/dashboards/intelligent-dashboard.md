@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: f27b0247be252a655e7fb68ee637efdabea959fc
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 3%
+ht-degree: 60%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="구매 그룹 단계"
->abstract="이 차트는 관리 페이지에서 설정된 전환 규칙을 기반으로 여러 단계에서 구매 그룹 진행에 대한 개요를 제공합니다. 첫 번째 막대는 선택한 일정의 마지막 일자의 구매 그룹 수와 비교하여 선택한 일정의 첫 번째 일자의 특정 단계에 있는 구매 그룹 수를 나타냅니다."
+>abstract="이 차트는 관리자 페이지에 설정된 전환 규칙에 따라 다양한 단계에 걸친 구매 그룹 진행의 개요를 제공해 줍니다. 첫 막대는 선택된 시간대의 첫날 특정 단계의 구매 그룹 수를 선택된 기간의 마지막 날 구매 그룹 수와 비교하여 나타내어 줍니다."
 
 구매 그룹 단계 섹션에 대한 자세한 내용/예를 설명하는 자리 표시자 텍스트입니다.
 
@@ -27,30 +27,30 @@ ht-degree: 3%
 
 구매 그룹 하이라이트 섹션 개요를 위한 자리 표시자
 
-### 계약별 상위 5개 구매 그룹 {#top-5-by-engagement}
+### 참여별 상위 5개 구매 그룹 {#top-5-by-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
->title="계약별 상위 5개 구매 그룹"
->abstract="정규화된 참여 점수를 기반으로 한 상위 참여 구매 그룹."
+>title="참여별 상위 5개 구매 그룹"
+>abstract="표준화된 참여 점수를 바탕으로, 가장 참여도가 높은 구매 그룹입니다."
 
 참여 섹션별 상위 5개 구매 그룹에 대한 세부 정보/예를 설명하는 자리 표시자 텍스트입니다.
 
-### 상위 5개의 고속 구매 그룹 {#top-5-by-velocity}
+### 속도 상위 5개 구매 그룹 {#top-5-by-velocity}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_velocity"
->title="상위 5개의 고속 구매 그룹"
->abstract="구매 그룹은 단계를 진행하는 속도에 따라 다릅니다."
+>title="속도 상위 5개 구매 그룹"
+>abstract="각 단계를 거치는 속도를 바탕으로 한 구매 그룹입니다."
 
 상위 5개 고속 구매 그룹 섹션에 대한 자세한 내용/예를 설명하는 자리 표시자 텍스트입니다.
 
-### 침체된 상위 5개 구매 그룹 {#top-5-stagnant}
+### 정체된 상위 5개 구매 그룹 {#top-5-stagnant}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_stagnant"
->title="침체된 상위 5개 구매 그룹"
->abstract="높은 완성도 점수에도 불구하고 단계를 밟아 진행되지 않는 정체된 매수층들이다."
+>title="정체된 상위 5개 구매 그룹"
+>abstract="완성도 점수가 높음에도 단계가 진행되지 않는 정체된 구매 그룹입니다."
 
 상위 5개의 정체된 구매 그룹 섹션에 대한 자세한 내용/예를 설명하는 자리 표시자 텍스트입니다.
 
@@ -59,7 +59,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_surge"
 >title="계정 급증"
->abstract="선택한 기간 내에 참여 모멘텀이 크게 변경된 계정입니다."
+>abstract="선택된 시간대 내 참여 모멘텀에 상당한 변화가 발생한 계정입니다."
 
 계정 서지 섹션에 대한 자세한 내용/예를 설명하는 자리 표시자 텍스트입니다.
 
@@ -72,25 +72,25 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
 >title="급증하는 계정"
->abstract="선택한 시간대에서 참여 모멘텀이 크게 증가한 계정 "
+>abstract="선택된 시간대에서 참여 모멘텀에 상당한 증가가 발생한 계정입니다. "
 
 급증 계정 섹션에 대한 자세한 내용/예를 설명하는 자리 표시자 텍스트입니다.
 
-### 위험 상태의 계정 {#at-risk-accounts}
+### 위험 계정 {#at-risk-accounts}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_at_risk"
->title="위험 상태의 계정"
->abstract="선택한 시간대에서 참여 모멘텀이 크게 감소한 계정."
+>title="위험 계정"
+>abstract="선택된 시간대에서 참여 모멘텀에 상당한 감소가 발생한 계정입니다."
 
 위험 계정 섹션에 대한 자세한 내용/예를 설명하는 자리 표시자 텍스트입니다.
 
-## 연락처 적용 범위 {#contact-coverage}
+## 연락처 범위 {#contact-coverage}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_coverage"
->title="연락처 적용 범위"
->abstract="솔루션 관심사와 관련된 특정 역할을 가진 연락처 수를 표시합니다. 역할 및 솔루션 관심사 할당은 구매 그룹 템플릿을 기반으로 합니다."
+>title="연락처 범위"
+>abstract="솔루션 관심 분야와 연관된 특정 역할이 있는 연락처 수를 표시합니다. 역할 및 솔루션 관심 분야 할당은 구매 그룹 템플릿을 바탕으로 합니다."
 
 연락처 범위 섹션에 대한 자세한 내용/예를 설명하는 자리 표시자 텍스트입니다.
 
@@ -99,6 +99,6 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="연락처 중복"
->abstract="여러 솔루션 관심사와 연결된 결과 둘 이상의 구매 그룹에 속하는 연락처 목록입니다."
+>abstract="여러 솔루션 관심 분야와 연관되어 두 개 이상의 구매 그룹에 속해 있는 연락처 목록입니다."
 
 연락처 겹치기 섹션에 대한 자세한 내용/예를 설명하는 자리 표시자 텍스트입니다.
