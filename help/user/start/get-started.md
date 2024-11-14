@@ -2,7 +2,7 @@
 title: Journey Optimizer B2B edition 시작
 description: Journey Optimizer B2B 에디션의 새로운 사용자로 시작하기 위한 주요 영역에 대해 알아봅니다.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: ed736c7366ad3fa5c4023947b1c3c4cef7097e2e
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 10%
@@ -37,9 +37,9 @@ Adobe Journey Optimizer B2B edition에서 다루고자 하는 기능 및 도구�
 
 1. Marketo Engage에서 **전자 메일 게재를 구성**&#x200B;하여 팀이 계정 여정에서 전자 메일 콘텐츠를 보낼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **SMS 서비스 구성**. 텍스트 메시지 서비스를 독립적으로 제공하는 지원되는 타사 SMS 공급자 중 하나를 설정하고 Adobe Journey Optimizer B2B edition에서 계정 자격 증명을 구성합니다. [자세히 알아보기](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **SMS 서비스 구성**. 텍스트 메시지 서비스를 독립적으로 제공하는 지원되는 타사 SMS 공급자 중 하나를 설정하고 Adobe Journey Optimizer B2B edition에서 계정 자격 증명을 구성합니다. [자세히 알아보기](../admin/configure-channels-sms.md)
 
-1. 중앙 집중식 디지털 에셋 관리를 위해 Assets을 c Cloud Service으로 사용하는 팀에 대해 **Adobe Experience Manager Assets 사용을 구성하고 활성화**&#x200B;합니다. [자세히 알아보기](../admin/configure-aem-repositories.md)
+1. 중앙 집중식 디지털 에셋 관리를 위해 Assetsas a Cloud Service 을 사용하는 팀에 대해 **Adobe Experience Manager Assets을 구성하고 사용할 수 있도록 설정**. [자세히 알아보기](../admin/configure-aem-repositories.md)
 
 >[!TAB 마케터 빠른 시작]
 

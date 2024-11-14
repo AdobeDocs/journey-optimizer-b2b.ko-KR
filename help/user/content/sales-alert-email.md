@@ -3,9 +3,9 @@ title: 영업 경고 이메일
 description: 계정 여정에 자동화된 판매 경고 이메일을 포함하는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 _영업 경고 이메일_&#x200B;은(는) 영업 그룹에 대한 구매 중지 신호를 보냅니다. 이메일에는 구매 그룹 요약, 구매 그룹 구성원 및 해당 활동에 대한 정보가 포함되어 있습니다.
 
 마케터는 계정 여정에서 판매 경고 이메일 노드를 구성하여 판매 팀에 특정 구매 그룹에 대한 여정 완료를 알릴 수 있습니다. 노드 내에서 영업 팀의 이메일 주소 또는 계정 집합에 도달하는 배포 별칭을 지정할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>조직의 허용 목록에 추가하다가 업데이트되어 E-메일이 전송될 수 있도록 하십시오. 자세한 내용은 [추적 및 전자 메일 게재용 프로토콜](../start/email-protocols.md)을 참조하세요.
 
 ## 이메일 콘텐츠
 
