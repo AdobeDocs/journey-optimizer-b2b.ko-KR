@@ -1,19 +1,19 @@
 ---
 title: 사용자 관리
-description: Journey Optimizer B2B 에디션 제품 프로필에 팀원을 할당하는 방법을 알아봅니다.
+description: Journey Optimizer B2B edition 제품 프로필에 팀원을 할당하는 방법을 알아봅니다.
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8335e47021df16d0e423c9cc270bf8a6e23834fc
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 3%
+source-wordcount: '1166'
+ht-degree: 2%
 
 ---
 
 # 사용자 관리
 
-프로비저닝이 완료되고 샌드박스가 바인딩되면 다음 단계를 완료하여 팀과 사용자에게 Adobe Journey Optimizer B2B 에디션 액세스 권한을 제공하십시오.
+프로비저닝이 완료되고 샌드박스가 바인딩되면 다음 단계를 완료하여 팀과 사용자에게 Adobe Journey Optimizer B2B edition 액세스를 제공합니다.
 
 1. Admin Console에서 [Marketo Engage 제품 프로필을 만듭니다](#marketo-engage-profile)(새 Marketo Engage 인스턴스만 해당).
 1. Admin Console에서 [사용자 그룹을 만듭니다](#create-user-group).
@@ -56,7 +56,15 @@ Admin Console을 사용하여 Admin Console 내의 사용자를 관리하려면 
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자에 대한 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)를 참조하십시오.
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자에 대한 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+
+>[!BEGINSHADEBOX]
+
+Marketo Engage 제품 프로필에 사용자를 추가하면 이후에 Marketo Engage 구독의 기본 작업 영역 내에서 _표준 사용자_ 역할에 추가됩니다. 이 역할은 해당 작업 영역의 Marketo Engage에 대한 모든 _표준 사용자_ 권한을 부여합니다. 현재 모든 Journey Optimizer B2B edition 사용자는 Marketo Engage 사용자여야 합니다. Marketo Engage 관리자는 _표준 사용자_ 역할에 대한 권한을 업데이트하거나 보다 제한적인 권한이 있는 다른 Marketo Engage 사용자 역할로 사용자를 이동하여 액세스를 제한할 수 있습니다.
+
+Marketo Engage 내에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -78,7 +86,7 @@ Admin Console을 사용하여 Admin Console 내의 사용자를 관리하려면 
 
 사용자 그룹은 공유 권한 집합이 부여된 사용자 컬렉션입니다. 사용자 그룹의 사용자를 추가하거나 제거할 수 있습니다. 그룹 내의 사용자가 변경되는 동안 그룹 권한은 동일하게 유지됩니다.
 
-사용자 그룹을 사용하여 권한을 관리하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하십시오.
+사용자 그룹을 사용하여 권한을 관리하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/user-groups.html){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -111,11 +119,11 @@ Admin Console을 사용하여 Admin Console 내의 사용자를 관리하려면 
 
 ## AEP 권한에서 역할 만들기 {#create-role}
 
-권한은 제품 프로필에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 Journey Optimizer B2B 에디션의 다양한 기능 또는 개체를 나타내는 여정 또는 구매 그룹과 같은 기능에 따라 수집됩니다.
+권한은 제품 프로필에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 Journey Optimizer B2B edition의 다양한 기능 또는 개체를 나타내는 여정 또는 구매 그룹과 같은 기능 아래에 수집됩니다.
 
 Adobe Experience Platform의 _권한_ 영역에서 관리자는 사용자 역할과 액세스 정책을 정의하여 제품 응용 프로그램 내의 기능 및 개체에 대한 액세스 권한을 관리할 수 있습니다. 이 앱에서는 역할을 만들고 관리하며, 이러한 역할에 대해 원하는 리소스 권한을 할당할 수 있습니다. 또한 권한을 사용하여 레이블, 샌드박스 및 특정 역할과 연관된 사용자를 관리할 수 있습니다.
 
-자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)를 참조하십시오.
+자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
