@@ -4,10 +4,10 @@ description: Journey Optimizer B2B edition 제품 프로필에 팀원을 할당�
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 8335e47021df16d0e423c9cc270bf8a6e23834fc
+source-git-commit: 97a9932a8a2a1c7a37dcc110b59cee70a61b5763
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 2%
+source-wordcount: '1055'
+ht-degree: 3%
 
 ---
 
@@ -57,14 +57,14 @@ Admin Console을 사용하여 Admin Console 내의 사용자를 관리하려면 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
 사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자에 대한 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
-
+<!--
 >[!BEGINSHADEBOX]
 
-Marketo Engage 제품 프로필에 사용자를 추가하면 이후에 Marketo Engage 구독의 기본 작업 영역 내에서 _표준 사용자_ 역할에 추가됩니다. 이 역할은 해당 작업 영역의 Marketo Engage에 대한 모든 _표준 사용자_ 권한을 부여합니다. 현재 모든 Journey Optimizer B2B edition 사용자는 Marketo Engage 사용자여야 합니다. Marketo Engage 관리자는 _표준 사용자_ 역할에 대한 권한을 업데이트하거나 보다 제한적인 권한이 있는 다른 Marketo Engage 사용자 역할로 사용자를 이동하여 액세스를 제한할 수 있습니다.
+When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
 
-Marketo Engage 내에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
+For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
 
->[!ENDSHADEBOX]
+>[!ENDSHADEBOX]-->
 
 >[!NOTE]
 >
