@@ -2,10 +2,11 @@
 title: 조건부 콘텐츠
 description: 계정 여정에 대한 이메일 콘텐츠를 작성할 때 콘텐츠 변형을 만들고 조건부 규칙을 적용하는 방법에 대해 알아봅니다.
 feature: Email Authoring, Content
-source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="조건부 콘텐츠"
->abstract="조건부 규칙을 사용하여 여러 콘텐츠 구성 요소 변형을 만듭니다. 메시지를 보낼 때 어느 조건도 충족되지 않으면 기본 변형의 콘텐츠가 표시됩니다."
+>abstract="조건부 규칙을 사용하여 여러 콘텐츠 구성 요소 변형을 만듭니다. 메시지를 전송할 때 다음 조건 중 어느 것도 충족되지 않으면 기본 변형의 콘텐츠가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
@@ -105,7 +106,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditions_rule_editor"
 >title="조건 만들기"
->abstract="속성과 컨텍스트 이벤트를 결합하여 이메일 메시지에 표시할 콘텐츠 변형을 결정하는 규칙을 만듭니다."
+>abstract="속성과 상황별 이벤트를 결합하여 이메일 메시지에 표시할 콘텐츠 변형을 결정하는 규칙을 작성합니다."
 
 구성 요소 변형에 대한 조건을 선택하는 경우 이메일 디자이너에서 조건부 규칙 빌더에 액세스할 수 있습니다.
 
