@@ -3,9 +3,9 @@ title: 솔루션 관심 분야
 description: 솔루션 관심사 및 구매 그룹 내에서 사용할 솔루션을 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 솔루션 관심사 액세스 및 찾아보기
 
-1. Adobe Experience Platform 홈페이지에서 Adobe Journey Optimizer B2B 에디션을 클릭합니다.
+1. Adobe Experience Platform 홈페이지에서 Adobe Journey Optimizer B2B edition 를 클릭합니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 구매 그룹]**&#x200B;을 클릭합니다.
 
@@ -48,13 +48,21 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 1. **[!UICONTROL 역할 템플릿]**&#x200B;을(를) 선택하십시오(필수).
 
-   선택기를 클릭하고 표시된 목록에서 라이브 역할 템플릿을 선택합니다. 하나의 라이브 역할 템플릿만 솔루션 관심사에 연결할 수 있습니다.
+   **[!UICONTROL 역할 템플릿 선택]**&#x200B;을 클릭하고 대화 상자의 목록에서 라이브 역할 템플릿을 선택합니다. 하나의 라이브 역할 템플릿만 솔루션 관심사에 연결할 수 있습니다. 선택한 역할 템플릿이 표시되는 _[!UICONTROL 솔루션 관심 항목 만들기]_ 페이지로 돌아가려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   ![솔루션 관심 영역 탭](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![솔루션 관심에 역할 템플릿 추가](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. 구매 그룹 단계 진행률(선택 사항)을 사용하려면 **[!UICONTROL 구매 그룹 단계 모델]**&#x200B;을 선택하세요.
+
+   계정 진행 상태를 추적하기 위해 구매 그룹 단계를 사용하는 방법에 대한 자세한 내용은 [구매 그룹 단계](./buying-group-stages.md)를 참조하세요.
+
+1. **[!UICONTROL 기존 구매 그룹 업데이트]** 설정을 사용합니다(선택 사항).
+
+   이 옵션이 활성화되면 솔루션 관심사와 쌍을 이루는 모든 기존 구매 그룹이 24시간 동기화 주기를 통해 업데이트됩니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-   새 솔루션 관심사가 솔루션 관심사에 표시됩니다.
+   새 솔루션 관심사가 _[!UICONTROL 솔루션 관심사]_ 목록에 표시됩니다.
 
 ## 솔루션 관심 항목 편집
 
@@ -68,6 +76,10 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
    ![솔루션 관심 영역 추가 메뉴](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. 필요한 경우 이름(필수 및 고유)과 설명(선택 사항)을 업데이트합니다.
+
+1. 필요한 경우 구매 그룹 단계 진행을 추적할 **[!UICONTROL 구매 그룹 단계 모델]**&#x200B;을(를) 선택하십시오.
+
+   매출에 대한 여정 진행률을 추적하기 위해 구매 그룹 단계를 사용하는 방법에 대한 자세한 내용은 [구매 그룹 단계](./buying-group-stages.md)를 참조하십시오.
 
 1. 필요한 경우 **[!UICONTROL 기존 구매 그룹 업데이트]** 설정을 변경하십시오.
 
