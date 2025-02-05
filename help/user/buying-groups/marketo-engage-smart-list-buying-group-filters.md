@@ -1,0 +1,57 @@
+---
+title: Market Engage의 구매 그룹 필터
+description: Marketo Engage 스마트 목록에서 필터를 정의하는 구매 그룹 멤버십을 사용하는 방법에 대해 알아봅니다.
+feature: Buying Groups
+source-git-commit: 2c01fed7e50a48b268e0b6aceb4634bdfc895866
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 0%
+
+---
+
+# Market Engage의 구매 그룹 필터
+
+마케터는 Journey Optimizer B2B edition의 구매 그룹에 속하는 사람들을 위해 Marketo Engage에서 캠페인을 억제하려는 경우가 있습니다. 구매 그룹과 연관된 가망 고객에 대한 정보를 사용하여 Marketo Engage에서 가망 고객 채점 워크플로우에 알릴 수도 있습니다. For example:
+
+* 이 주연 그룹이 구매 그룹의 일부입니까?
+* 구매 그룹이 완료되어 참여 중입니까?
+
+이러한 조건이 참인 경우 점수가 더 높은 팀을 이끌 수 있습니다. 그렇지 않은 경우 마케팅 적격 리드(MQL)로 표시하지 않도록 선택할 수 있습니다.
+
+Journey Optimizer B2B edition에 연결된 Marketo Engage 인스턴스에서는 스마트 목록의 _[!UICONTROL 구매 그룹 구성원]_ 필터를 사용하여 캠페인 전략에 따라 이러한 리드를 식별할 수 있습니다.
+
+1. [Marketo Engage에서 스마트 목록 만들기](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}를 수행한 후 **[!UICONTROL 스마트 목록]** 탭을 선택하여 필터 편집기를 엽니다.
+
+1. 오른쪽의 필터 목록에서 목록을 아래로 스크롤하고 **[!UICONTROL 특수 필터]** 폴더를 확장합니다.
+
+1. **[!UICONTROL 구매 그룹 구성원]** 필터를 클릭하고 필터 정의 영역으로 끌어서 놓습니다.
+
+   ![스마트 목록에 구매 그룹 구성원 필터 추가](./assets/me-member-of-buying-group-filter-add.png){width="700" zoomable="yes"}
+
+1. _[!UICONTROL 구매 그룹의 구성원]_ 옵션을 **[!UICONTROL true]** 또는 **[!UICONTROL false]**(으)로 설정하십시오.
+
+   이 제한은 정의에 필요합니다.
+
+1. (선택 사항) Smart List에 대한 가망 고객을 식별하는 방법에 따라 다른 구매 그룹 관련 제약 조건을 필터에 추가합니다.
+
+   * 필터 카드의 오른쪽 상단에서 **[!UICONTROL 제한 추가]**&#x200B;를 클릭합니다.
+
+     ![다른 제약 조건 선택](./assets/me-member-of-buying-group-filter-add-constraint.png){width="700" zoomable="yes"}
+
+   * _완전성 점수_ 또는 _솔루션 관심사_&#x200B;와 같이 추가할 제약 조건을 선택하십시오.
+
+   * 일치에 사용할 평가를 설정합니다. 점수에 대해 정확히 일치하는 항목 또는 입력한 숫자의 위 또는 아래 범위를 사용할 수 있습니다.
+
+     Journey Optimizer B2B edition에 정의된 솔루션 관심사와 같은 개별 항목의 경우 목록에 대해 하나 이상의 항목을 선택할 수 있습니다.
+
+     ![목록에서 제약 조건의 값을 선택하십시오](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
+
+     첫 번째 선택기를 선택하고 선택기를 다시 클릭하여 _[!UICONTROL 다중 값 선택기]_ 대화 상자를 엽니다.
+
+     ![제약 조건에 대한 여러 값을 선택하십시오](./assets/me-member-of-buying-group-filter-constraint-multiple-value.png){width="500" zoomable="yes"}
+
+     나머지 항목을 오른쪽으로 이동하고 제한에 사용할 항목 목록이 있으면 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+
+   * 이러한 작업을 반복하여 필요한 제한 수를 추가합니다.
+
+   ![여러 제약 조건을 가진 구매 그룹 구성원 필터](./assets/me-member-of-buying-group-filter-constraints-complete.png){width="600" zoomable="yes"}

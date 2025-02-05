@@ -3,10 +3,10 @@ title: 그룹 역할 템플릿 구매
 description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
+source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 1%
 
 ---
 
@@ -61,6 +61,14 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
 템플릿을 만들면 작업공간에서 열리고 역할을 정의하라는 메시지가 표시됩니다. 기본적으로 첫 번째 역할 카드가 표시됩니다.
 
+템플릿에 대해 정의하는 각 역할은 필터 집합 또는 _조건_&#x200B;을 사용하여 역할에 할당된 구성원을 결정합니다. 다음 필터 유형을 사용하여 역할에 대한 조건을 정의합니다.
+
+| 유형 | 조건 |
+| ---- | --------- |
+| 개인 속성 | <li>이메일 주소 <li>잘못된 이메일 <li>이메일 일시 중단됨 <li>팩스 번호 <li>이름 <li>상태 영역 유추 <li>직위 <li>성 <li>가운데 이름 <li>휴대폰 번호 <li>전화번호 <li>우편번호 <li>주/도 <li>주소 삭제 <li>구독 취소 이유 |
+| 특수 필터 | <li>목록 구성원 |
+| 의도 데이터 | 범주 의도 <li>제품 의도 <li>키워드 의도<br/>[의도 데이터에 대해 알아보기](../admin/intent-data.md). |
+
 1. 첫 번째 역할 카드의 경우 역할 속성을 정의합니다.
 
    * 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
@@ -102,6 +110,16 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 1. 템플릿에 포함할 각 추가 역할에 대해 **[!UICONTROL 다른 역할 추가]**&#x200B;를 클릭하고 1단계와 2단계를 반복하여 역할을 정의합니다.
 
    ![여러 역할이 정의된 역할 템플릿](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX &quot;Marketo Engage 목록 구성원&quot;]
+
+Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버십을 확인하여 잠재 고객이 중복 이메일을 받지 않고 동시에 여러 전자 메일 스트림의 구성원이 아닌지 확인합니다. Journey Optimizer B2B에서 Marketo Engage 템플릿을 위한 조건으로 그룹 목록 멤버십을 확인하여 구매 그룹 멤버십 및 여정 활동의 중복을 제거할 수 있습니다.
+
+목록 멤버십을 역할 조건으로 사용하려면 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 목록의 멤버]** 조건을 필터 공간으로 끌어서 놓습니다. 그런 다음 필터 정의를 완료하여 하나 이상의 Marketo Engage 목록에서 멤버십을 평가합니다.
+
+![Marketo Engage 목록 멤버십에 대한 역할 템플릿 조건](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
 
 변경 사항이 _초안_ 상태로 자동 저장됩니다. 역할 템플릿을 게시할 준비가 되지 않은 경우 페이지 상단의 왼쪽(뒤로) 화살표를 클릭하고 _[!UICONTROL 역할 템플릿]_ 목록으로 돌아갑니다.
 

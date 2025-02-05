@@ -4,11 +4,12 @@ description: 마케팅 팀이 캠페인을 지원할 웹 페이지를 작성하�
 feature: Setup, Content
 hide: true
 hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: a04e069d12f1599eb3d53840704d01ced05ba4fb
+source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 49%
+source-wordcount: '249'
+ht-degree: 47%
 
 ---
 

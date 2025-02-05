@@ -1,18 +1,18 @@
 ---
 title: 조각
-description: Adobe Journey Optimizer B2B 에디션에서 이메일 및 이메일 템플릿에 대한 재사용 가능한 구성 요소로 시각적 콘텐츠 조각을 만들고 사용하는 방법에 대해 알아봅니다.
+description: 시각적 컨텐츠 조각을 Adobe Journey Optimizer B2B edition에서 이메일 및 이메일 템플릿에 대한 재사용 가능한 구성 요소로 만들고 사용하는 방법에 대해 알아봅니다.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2679'
 ht-degree: 3%
 
 ---
 
 # 조각
 
-조각은 Adobe Journey Optimizer B2B 에디션의 하나 이상의 이메일 및 이메일 템플릿에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 일반적으로 미리 만들어 이메일 또는 이메일 템플릿에 신속하게 삽입할 수 있는 콘텐츠 블록(텍스트, 이미지 또는 둘 다)입니다. 이 기능을 사용하면 마케팅 팀원이 이메일 콘텐츠를 취합하여 디자인 프로세스를 개선하는 데 사용할 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. 일반적인 사용 사례로는 이메일, 이벤트 초대 배너 및 시즌 인사말을 위한 머리글/바닥글 콘텐츠 블록이 있습니다.
+조각은 Adobe Journey Optimizer B2B edition에서 하나 이상의 이메일 및 이메일 템플릿에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 일반적으로 미리 만들어 이메일 또는 이메일 템플릿에 신속하게 삽입할 수 있는 콘텐츠 블록(텍스트, 이미지 또는 둘 다)입니다. 이 기능을 사용하면 마케팅 팀원이 이메일 콘텐츠를 취합하여 디자인 프로세스를 개선하는 데 사용할 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. 일반적인 사용 사례로는 이메일, 이벤트 초대 배너 및 시즌 인사말을 위한 머리글/바닥글 콘텐츠 블록이 있습니다.
 
 워크플로우에서 조각을 최대한 활용하려면 다음 작업을 수행하십시오.
 
@@ -21,11 +21,11 @@ ht-degree: 3%
 
 ## 시각적 조각
 
-시각적 조각은 여러 이메일 또는 이메일 템플릿에서 재사용할 수 있는 시각적 콘텐츠 편집기를 사용하여 빌드된 사전 정의된 시각적 블록입니다. Journey Optimizer B2B 에디션 및 이 설명서의 현재 범위는 시각적 조각으로만 제공됩니다. 표현식 기반 조각은 Journey Optimizer B2B 버전에서 아직 지원되지 않습니다.
+시각적 조각은 여러 이메일 또는 이메일 템플릿에서 재사용할 수 있는 시각적 콘텐츠 편집기를 사용하여 빌드된 사전 정의된 시각적 블록입니다. Journey Optimizer B2B edition의 현재 범위와 이 설명서는 시각적 조각에만 해당됩니다. 표현식 기반 조각은 Journey Optimizer B2B edition에서 아직 지원되지 않습니다.
 
 ## 조각 액세스 및 관리
 
-Adobe Journey Optimizer B2B 에디션의 시각적 조각에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]**&#x200B;을 클릭합니다. 이 작업을 수행하면 테이블에 나열된 인스턴스에서 만든 모든 조각이 포함된 목록 페이지가 열립니다.
+Adobe Journey Optimizer B2B edition에서 시각적 조각에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]**&#x200B;을 클릭하십시오. 이 작업을 수행하면 테이블에 나열된 인스턴스에서 만든 모든 조각이 포함된 목록 페이지가 열립니다.
 
 ![조각 라이브러리에 액세스](./assets/fragments-list.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer B2B 에디션의 시각적 조각에 액세스하려면 
 
 >[!IMPORTANT]
 >
->조각 상태는 Journey Optimizer B2B 에디션 8월 릴리스에 도입되었습니다. 이 릴리스 이전에 만든 모든 조각은 전자 메일 또는 템플릿에서 사용되더라도 _초안_ 상태입니다. 이러한 조각을 변경하는 경우 변경 사항을 전파하려면 조각을 게시해야 합니다.
+>조각 상태는 Journey Optimizer B2B edition 8월 릴리스에 도입되었습니다. 이 릴리스 이전에 만든 모든 조각은 전자 메일 또는 템플릿에서 사용되더라도 _초안_ 상태입니다. 이러한 조각을 변경하는 경우 변경 사항을 전파하려면 조각을 게시해야 합니다.
 
 ### 조각 목록 필터링
 
@@ -63,7 +63,7 @@ Adobe Journey Optimizer B2B 에디션의 시각적 조각에 액세스하려면 
 
 ## 조각 만들기
 
-오른쪽 상단의 **[!UICONTROL 조각 만들기]**&#x200B;를 클릭하여 Journey Optimizer B2B 버전에서 새 시각적 조각을 만들 수 있습니다.
+오른쪽 상단의 **[!UICONTROL 조각 만들기]**&#x200B;를 클릭하여 Journey Optimizer B2B edition에서 새 시각적 조각을 만들 수 있습니다.
 
 1. _[!UICONTROL 조각 만들기]_ 대화 상자에서 유용한 **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**(선택 사항)을 입력하십시오.
 
@@ -141,13 +141,13 @@ Adobe Journey Optimizer B2B 에디션의 시각적 조각에 액세스하려면 
 
 ## 참조에서 사용하는 조각 보기
 
-조각 세부 사항 페이지에서 **[!UICONTROL 사용한 사람]** 탭을 클릭하여 이메일, 이메일 템플릿 및 조각에서 Journey Optimizer B2B 에디션 내에서 현재 조각이 사용되는 위치에 대한 세부 사항을 확인합니다.
+조각 세부 정보 페이지에서 **[!UICONTROL 사용한 사람]** 탭을 클릭하여 이메일, 이메일 템플릿 및 조각에서 Journey Optimizer B2B edition 내에서 현재 조각이 사용되는 위치에 대한 세부 정보를 봅니다.
 
 >[!IMPORTANT]
 >
 >현재 이메일 또는 이메일 템플릿에서 사용 중인 모든 조각은 삭제할 수 없습니다.
 
-_전자 메일_ 또는 _전자 메일 템플릿_ 범주에 따라 참조가 표시됩니다. Journey Optimizer B2B 에디션의 이메일은 계정 여정 내에 임베드되고 작성되므로 조각을 사용하는 이메일의 상위 여정이 참조에 표시됩니다.
+_전자 메일_ 또는 _전자 메일 템플릿_ 범주에 따라 참조가 표시됩니다. Journey Optimizer B2B edition의 이메일은 계정 여정 내에 임베드되고 작성되므로 조각을 사용하는 이메일의 상위 여정이 참조에 표시됩니다.
 
 ![조각에 대한 참조에서 사용됨](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
@@ -216,7 +216,7 @@ _전자 메일_ 또는 _전자 메일 템플릿_ 범주에 따라 참조가 표�
 
 1. 콘텐츠를 업데이트하려면 오른쪽 상단의 **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭하십시오.
 
-   대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 클릭하여 비주얼 디자이너에서 초안 버전을 엽니다. 필요한 경우 [이미지 소스](./assets-overview.md#choose-an-asset-source)를 변경할 수 있습니다.
+   대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 클릭하여 비주얼 디자이너에서 초안 버전을 엽니다.
 
    ![초안 버전 만들기 대화 상자](./assets/fragments-create-draft-version.png){width="300"}
 

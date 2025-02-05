@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: 내장된 생성 AI 및 업계 최고 수준의 자동화를 사용하여 계정을 조정하고 그룹 여정을 구매하기 위해 Adobe Journey Optimizer B2B edition 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 7%
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 계정 여정에서 _목록에 추가_ 작업 노드를 사용하여 Marketo Engage 정적 목록에 사용자를 추가하십시오. 이러한 목록을 통해 특정 대상의 용도를 변경하고 타겟팅할 수 있는 유연성을 확보할 수 있습니다. 목록을 작성한 다음 주변에 캠페인을 만들거나 기존 캠페인에 사용자를 직접 추가할 수 있습니다. 또한 _목록에서 제거_ 작업을 사용하여 계정 여정 진행에 따라 Marketo Engage에서 타깃팅을 구체화하고 변경할 수 있습니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="목록에 추가 및 목록에서 제거에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="목록에 추가 및 목록에서 제거에 대해 알아보기"}
 
 >[!TAB 중앙 자산 라이브러리]
 

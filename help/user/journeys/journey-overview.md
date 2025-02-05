@@ -3,9 +3,9 @@ title: 계정 여정
 description: 계정 여정과 이를 만들고 관리하는 방법에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,13 @@ ht-degree: 1%
 
 # 계정 여정
 
+이메일, SMS, 이벤트 등에 걸쳐 자동화된 참여를 사용하여 각 구매 그룹 및 구매 그룹 구성원에 맞게 조정된 여정을 작성하고 실행합니다. 계정 여정을 사용하면 수요 생성 및 구매 그룹 자격을 간소화하고 고객 확보, 상향 판매/교차 판매 및 유지 프로그램에 대한 보다 적합한 수요를 창출할 수 있습니다.
+
 여정 이메일, SMS 등을 포함하는 판매 주도 참여를 정의하여 인바운드 마케팅과 각 구매 그룹 구성원에 대한 아웃바운드 판매 활동을 조정합니다.
 
 ## 계정 여정 액세스 및 찾아보기
 
-1. Adobe Experience Platform 홈페이지에서 Adobe Journey Optimizer B2B 에디션을 클릭합니다.
+1. Adobe Experience Platform 홈페이지에서 Adobe Journey Optimizer B2B edition 를 클릭합니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다.
 
@@ -86,33 +88,17 @@ _[!UICONTROL 계정 여정]_ 목록에서 링크로 표시된 이름을 클릭�
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-### 여정에 대한 계정 대상자 추가
-
-계정 여정은 항상 여정에 입력을 추가할 수 있는 계정 대상자로 시작합니다.
-
-1. **[!UICONTROL 계정 대상]** 노드를 클릭하여 오른쪽에 노드 속성을 표시합니다.
-
-   ![계정 대상자 노드](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. **[!UICONTROL 계정 대상자 추가]**&#x200B;를 클릭합니다.
-
-   _[!UICONTROL 대상 추가]_&#x200B;를 클릭하여 이전에 선택한 대상 세그먼트를 선택할 수 있습니다.
-
-1. 새 대상 세그먼트를 만들려면 왼쪽 탐색에서 **[!UICONTROL 계정 대상]**&#x200B;을 선택합니다.
-
-1. **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭하고 [세그먼테이션 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}에 설명된 단계를 따릅니다.
-
 ### 여정 빌딩 블록
 
-_여정 캔버스_&#x200B;는 여정 디자이너의 중앙 영역입니다. 이 영역에서 여정 노드를 추가하고 구성할 수 있습니다. 노드를 클릭하여 캔버스 오른쪽에 있는 속성 창을 열고 디자인에 따라 설정합니다.
+_여정 맵_&#x200B;은(는) 여정 디자이너의 중앙 영역입니다. 이 영역에서 여정 노드를 추가하고 구성할 수 있습니다. 노드를 클릭하여 캔버스 오른쪽에 있는 속성 창을 열고 디자인에 따라 설정합니다. 계정 여정은 항상 여정에 입력을 추가할 수 있는 [계정 대상 노드](./account-audience-nodes.md)(으)로 시작합니다.
 
-다음 노드 유형 중 하나를 사용하여 여정을 작성할 수 있습니다.
+계정 여정을 만들고 대상을 추가한 후 노드를 사용하여 여정을 빌드합니다. 여정 맵에서는 다음 노드 유형을 사용하여 다단계 B2B 마케팅 사용 사례를 빌드하여 계정 여정을 구성할 수 있는 캔버스를 제공합니다.
 
-* [이벤트 수신](journey-nodes.md#listen-for-an-event)
-* [조치 취하기](journey-nodes.md#take-an-action)
-* [경로 분할](journey-nodes.md#split-paths)
-* [대기](journey-nodes.md#wait)
-* [경로 병합](journey-nodes.md#merge-paths)
+* [조치 취하기](./action-nodes.md)
+* [이벤트 수신](./listen-for-event-nodes.md)
+* [경로 분할](./split-merge-paths-nodes.md)
+* [대기](./wait-nodes.md)
+* [경로 병합](./split-merge-paths-nodes.md)
 
 ### 가드레일
 
@@ -134,7 +120,7 @@ _여정 캔버스_&#x200B;는 여정 디자이너의 중앙 영역입니다. 이
 
 1. 여정 편집기로 이동합니다.
 
-1. 오른쪽의 노드 속성에서 _삭제_(휴지통) 아이콘을 클릭합니다.
+1. 오른쪽의 노드 속성에서 _삭제_( ![삭제 아이콘](../assets/do-not-localize/icon-delete.svg)) 아이콘을 클릭합니다.
 
 1. 구성 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
@@ -142,7 +128,7 @@ _여정 캔버스_&#x200B;는 여정 디자이너의 중앙 영역입니다. 이
 
 1. 여정 편집기로 이동합니다.
 
-1. 경로에서 더하기( **+**) 아이콘을 클릭하고 분할 경로 노드를 추가합니다.
+1. 경로에서 더하기(**+**) 아이콘을 클릭하고 [분할 경로 노드](./split-merge-paths-nodes.md#split-paths)를 추가합니다.
 
 1. 오른쪽의 노드 속성에서 **[!UICONTROL 계정]**&#x200B;을(를) 선택합니다.
 
@@ -150,9 +136,9 @@ _여정 캔버스_&#x200B;는 여정 디자이너의 중앙 영역입니다. 이
 
    여정에서 만들어진 각 경로에서 속성에 새 경로 카드가 나타납니다.
 
-1. 여정에서 경로 중 하나로 이동한 다음 더하기 아이콘을 사용하여 작업 또는 이벤트 노드를 이 경로에 추가합니다.
+1. 여정의 경로 중 하나로 이동한 다음 더하기 아이콘을 사용하여 [action](./action-nodes.md) 또는 [event](./listen-for-event-nodes.md) 노드를 이 경로에 추가하십시오.
 
-1. 분할 경로 노드를 선택하여 오른쪽의 속성을 엽니다.
+1. [분할 경로](./split-merge-paths-nodes.md) 노드를 선택하여 오른쪽의 속성을 엽니다.
 
    노드가 있는 경로는 삭제할 수 없습니다.
 
@@ -181,3 +167,7 @@ _여정 캔버스_&#x200B;는 여정 디자이너의 중앙 영역입니다. 이
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    여정을 게시할 준비가 되면 _[!UICONTROL Publish]_&#x200B;을(를) 클릭하면 이러한 설정을 검토할 수 있습니다.
+
+### Publish an 계정 여정
+
+

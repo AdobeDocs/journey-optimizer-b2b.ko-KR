@@ -3,9 +3,9 @@ title: 구매 그룹
 description: Journey Optimizer B2B edition의 구매 그룹을 통해 계정 목록의 구성원을 식별하고 타겟팅하여 마케팅 효과를 높이는 방법을 알아봅니다.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -77,7 +77,7 @@ _[!UICONTROL 구매 그룹]_ 페이지는 탭으로 구성되어 있습니다.
 
 ## 구매 그룹 세부 정보
 
-구매 그룹에 대한 세부 정보에 액세스하려면 _[!UICONTROL 찾아보기]_ 탭에서 구매 그룹 이름을 클릭합니다.
+구매 그룹에 대한 세부 정보에 액세스하려면 _[!UICONTROL 찾아보기]_ 탭에서 구매 그룹 이름을 클릭합니다. [자세히 알아보기](./buying-group-details.md)
 
 ![그룹 세부 정보 구매](assets/buying-group-details.png){width="600" zoomable="yes"}
 

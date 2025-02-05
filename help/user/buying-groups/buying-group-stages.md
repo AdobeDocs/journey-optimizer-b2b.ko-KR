@@ -2,9 +2,10 @@
 title: 구매 그룹 단계
 description: 구매 그룹 단계에 대해 알아보고 판매 목표에 따른 여정 진행률을 추적하기 위해 그룹 단계를 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
-source-git-commit: 42d73cd2c1ead771205e5fdf188088fce7ca6f21
+exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2250'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 구매 그룹 단계는 기회를 고객으로 전환함에 있어 구매 그룹의 진행 상황을 추적하기 위해 설계되었습니다. 이 기능을 사용하여 구매 그룹 진행률을 추적하고 구매 그룹 구성원에 대한 다음 최적 작업을 식별합니다.
 
-단일 스테이징 모델 내에서 여러 스테이지를 정의하고 여러 스테이지와 각 스테이지 간의 전환 흐름을 정의합니다. 라이프사이클 진입을 위해 하나 이상의 단계가 지정됩니다. 이 모델에서는 A 단계에서 B, C 또는 D 단계로의 전환과 같이 한 단계에서 다른 단계로의 전환을 지정할 수 있는 비선형 진행도 가능합니다. 구매 또는 체결된 계약과 같이 하나의 단계가 성공 단계로 지정될 것을 요구한다. 다른 공급업체의 경쟁 솔루션 구매 또는 계약 거부와 같이 다른 단계가 실패 단계로 지정되는 것은 선택 사항입니다.<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+단일 스테이징 모델 내에서 여러 스테이지를 정의하고 여러 스테이지와 각 스테이지 간의 전환 흐름을 정의합니다. 라이프사이클 진입을 위해 하나 이상의 단계가 지정됩니다. 이 모델에서는 A 단계에서 B, C 또는 D 단계로의 전환과 같이 한 단계에서 다른 단계로의 전환을 지정할 수 있는 비선형 진행도 가능합니다. 구매 또는 체결된 계약과 같이 하나의 단계가 성공 단계로 지정될 것을 요구한다. 다른 공급업체의 경쟁 솔루션 구입 또는 계약 거부와 같이 다른 단계가 실패 단계로 지정되는 것은 선택 사항입니다. 이는 구매 그룹이 판매 기회를 완료하거나 기회를 고객으로 전환하는 관점에서 진행되는 방식을 보여 주는 [지능형 대시보드](../dashboards/intelligent-dashboard.md)를 통해 이루어집니다.
 
 ![그룹 단계 구매 예제](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
