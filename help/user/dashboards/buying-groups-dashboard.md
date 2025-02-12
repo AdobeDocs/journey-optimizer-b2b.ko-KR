@@ -3,87 +3,94 @@ title: 구매 그룹 개요 대시보드
 description: 구매 그룹 개요 대시보드와 마케팅 팀의 판매 핸드오프를 활성화하는 방법에 대해 알아봅니다.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '584'
+ht-degree: 3%
 
 ---
 
 # 구매 그룹 개요 대시보드
 
-구매 그룹 개요 대시보드는 B2B 판매 전달 프로세스를 위해 설계되었습니다. 이를 통해 마케팅 팀은 _준비_ 구매 그룹 및 해당 멤버와 필수 데이터를 영업팀에 공유하여 실행할 수 있습니다. 이 프로세스를 통해 마케팅에서 영업으로 간편하게 전환할 수 있습니다.
+구매 그룹에 대한 개요 대시보드는 B2B 판매 전달 프로세스를 위해 설계되었습니다. 이를 통해 마케팅 팀은 _준비_ 구매 그룹 및 해당 멤버와 필수 데이터를 영업팀에 공유하여 실행할 수 있습니다. 이 프로세스를 통해 마케팅에서 영업으로 간편하게 전환할 수 있습니다.
 
 판매 핸드오프는 다음과 같습니다.
 
-* **데이터 전달**: 마케팅은 _준비_ 대상 데이터를 식별하고 CSV 형식으로 영업부에 액세스할 수 있도록 합니다. 
+* **데이터 전달**: 마케팅은 _준비_ 대상 데이터를 식별하며 CSV 형식으로 영업에 액세스할 수 있도록 합니다. 
 * **판매 수락**: 판매에서 수동으로 _준비_ 대상을 파이프라인에 통합합니다.
 
-## 구매 그룹 상태
-
-구매 그룹 상태 보기를 통해 구매 그룹의 진행 상황에 대한 통찰력을 얻으십시오. 이 시각화는 지정된 기간 내의 가장 최근 상태 업데이트로 분류된 구매 그룹의 분포를 보여 줍니다.
+이 대시보드에 액세스하려면 왼쪽 탐색에서 **[!UICONTROL 계정]**&#x200B;을 확장한 다음 **[!UICONTROL 구매 그룹]**&#x200B;을 선택하십시오. 기본적으로 표시되지 않으면 **[!UICONTROL 개요]** 탭을 선택하십시오.
 
 ![구매 그룹 개요](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+<!--
+## Buying Group Status
 
-**[!UICONTROL 상태]**(y축): 다양한 단계를 통해 구매 그룹의 여정을 추적합니다.
-**[!UICONTROL 구매 그룹 수]**(x축): 각 상태의 구매 그룹 수를 수량화하여 단계 상태 및 활동에 대한 명확한 지표를 제공합니다.
-<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
+Gain insights into your buying groups' progression with the Buying Group Status view. This visualization showcases the distribution of your buying groups categorized by their most recent status update within a specified time frame.
 
-### 데이터 필터링
+![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 
-* **데이터 필터** - 구매 그룹의 마지막 상태 변경 날짜를 반영하는 _[!UICONTROL 날짜 필터]_&#x200B;을(를) 사용합니다. 시작 날짜는 조정할 수 있습니다. 종료 일자는 기본적으로 현재 일자로 설정됩니다.
+**[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
+**[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
 
-  ![날짜 범위별로 구매 그룹 상태 데이터 필터링](./assets//buying-group-status-filter-date.png){width="400"}
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-* **특성 필터** - 다음 특성을 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭합니다.
+## 구매 그룹 완료 점수 분포
 
-   * 솔루션 관심 분야
-   * 상태
-   * 구매 그룹 상태
-   * 계정 영역
-   * 계정 산업
-  <!-- * Account's Industry -->
+이 시각화는 완료 점수를 기반으로 구매 그룹의 분포를 보여 주며, 4개의 개별 점수 밴드로 분류됩니다. 중앙 그림은 총 구매 그룹 수를 나타내며 전반적인 진행에 대한 빠른 스냅샷을 제공합니다. 세분화된 색상은 각 점수범위 내 구매군 비중을 나타내므로 완급추세를 한눈에 파악할 수 있다.
 
-  ![특성별 구매 그룹 상태 데이터 필터링](./assets/buying-group-status-drill-through-filters.png){width="500"}
+자세한 정보를 보려면 오른쪽 상단의 **..** 메뉴 아이콘을 클릭합니다.
+
+![구매 그룹 완료 점수 시각화](./assets/buying-group-completion-score-chart.png){width="500"}
+
+## 구매 그룹 참여 점수 분포
+
+이 시각화는 참여 점수를 기반으로 한 구매 그룹의 분포를 보여 주며 4개의 개별 점수 밴드로 분류됩니다. 중앙 그림은 총 구매 그룹 수를 나타내며 전반적인 진행에 대한 빠른 스냅샷을 제공합니다. 세분화된 색상은 각 점수범위 내 구매군 비중을 나타내므로 완급추세를 한눈에 파악할 수 있다.
+
+자세한 정보를 보려면 오른쪽 상단의 **..** 메뉴 아이콘을 클릭합니다.
+
+![구매 그룹 참여 점수 시각화](./assets/buying-group-completion-score-chart.png){width="500"}
+
+## 솔루션 관심 분야별 구매 그룹
+
+이 시각화는 솔루션 관심사별 구매 그룹 분포를 보여 주며, 어떤 솔루션이 가장 많은 관심을 유발하는지 식별하는 데 도움이 됩니다. 각 막대는 특정 솔루션을 나타내며, 해당 길이는 해당 관심사와 연관된 구매 그룹의 수를 나타냅니다. 이 막대 차트는 솔루션 수요 트렌드를 명확하고 즉시 파악할 수 있게 해 줍니다.
+
+자세한 정보를 보려면 오른쪽 상단의 **..** 메뉴 아이콘을 클릭합니다. **드릴스루** 또는 **자세히 보기**&#x200B;를 선택하십시오.
+
+![구매 그룹 참여 점수 시각화](./assets/buying-group-by-solution-interest-chart.png){width="500"}
+
+## 데이터 필터링
+
+다음 특성 중 하나를 사용하여 표시된 데이터를 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
+
+* 현재 단계
+* 산업
+* 지역
+* 솔루션 관심도
+
+![특성별로 표시된 데이터를 필터링합니다](./assets/buying-group-overview-filters.png){width="500"}
+
+데이터를 필터링하는 데 사용할 각 특성의 값을 선택하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
 ## 데이터 활용
 
-데이터에 참여하려면 오른쪽 상단의 작업 메뉴를 사용합니다.
-
-![아이콘을 클릭하여 작업 메뉴에 액세스합니다](./assets/buying-group-more-menu.png){width="300"}
+데이터에 참여하려면 각 차트의 오른쪽 상단에 있는 _자세히_(**...**) 메뉴를 사용하십시오.
 
 ### [!UICONTROL 드릴스루]
 
-개별 그룹 상태를 자세히 분석하려면 **[!UICONTROL 드릴스루]**&#x200B;를 선택하십시오.
+개별 그룹 점수 또는 분포를 자세히 분석하려면 **[!UICONTROL 드릴스루]**&#x200B;를 선택하십시오.
 
-![그래프 데이터에 대한 드릴스루](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
+![그래프 데이터에 액세스하기 위해 드릴스루](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
-대시보드에 적용된 전역 필터가 이월됩니다.
+대시보드에 적용된 전역 필터가 이월됩니다. 드릴스루 보기에 대해 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하여 [특성 필터를 변경](#filter-the-data)합니다.
 
-오른쪽 상단의 작업 메뉴 아이콘을 클릭하고 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하여 [확장 데이터 및 인사이트 보기](#view-more)를 선택합니다.
+오른쪽 상단의 _자세히_(**...**) 메뉴를 클릭하고 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하여 [확장 데이터 보기](#view-more)를 선택할 수 있습니다.
 
 ### [!UICONTROL 자세히 보기]
 
-확장 데이터 및 인사이트를 보려면 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하세요. 표시되는 팝업에는 구매 그룹 상태의 분류를 보여 주는 차트와 테이블이 포함됩니다.
+확장된 데이터와 통찰력을 보려면 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하세요.
 
-* [!UICONTROL 계정 ID ]
-* [!UICONTROL 계정 이름]
-* [!UICONTROL 계정 지역]
-* [!UICONTROL 계정 업계]
-* [!UICONTROL 그룹 이름 구매]
-* [!UICONTROL 솔루션 관심]
-* [!UICONTROL 상태]
-* [!UICONTROL 참여 점수]
-* [!UICONTROL 완성도 점수]
-* [!UICONTROL 구성원 역할]
-* [!UICONTROL 구성원 등록/만든 날짜]
-* [!UICONTROL 개인 ID]
-* [!UICONTROL 이름]
-* [!UICONTROL 이메일]
-* [!UICONTROL Title]
-* [!UICONTROL 인바운드 참여 활동 수]
-* [!UICONTROL 마지막 참여 날짜]
+![확장 데이터 보기](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
 
-![확장 데이터 보기](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
+표시되는 팝업에는 구매 그룹 분포의 분류를 보여 주는 차트 및 테이블이 포함됩니다.
 
-데이터를 다운로드하려면 오른쪽 상단의 **[!UICONTROL CSV 다운로드]**&#x200B;를 클릭하십시오.
+데이터를 다운로드하려면 데이터 테이블 오른쪽 상단의 **[!UICONTROL CSV 다운로드]**&#x200B;를 클릭합니다. 개요 대시보드로 돌아가려면 **[!UICONTROL 닫기]**&#x200B;를 클릭합니다.

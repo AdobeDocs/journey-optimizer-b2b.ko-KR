@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B 에디션 설명서
 user-guide-description: Adobe Journey Optimizer B2B 에디션에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
+source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 37%
+source-wordcount: '221'
+ht-degree: 35%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 37%
    + [AI Assistant 사용](./start/ai-assistant.md)
 + 계정 여정 {#account-journeys}
    + [개요](./journeys/journey-overview.md)
+   + [여정 세부 정보](./journeys/journey-details.md)
    + [여정 노드](./journeys/journey-nodes.md)
    + 여정 노드 {#journey-nodes}
       + [계정 대상자](./journeys/account-audience-nodes.md)
@@ -48,14 +49,15 @@ ht-degree: 37%
       + [LinkedIn 계정 일치 대상](./data/linkedin-account-matched-audiences.md)
       + [Market Engage의 구매 그룹 필터](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + [계정 목록](./accounts/account-lists.md)
+   + [계정 세부 정보](./accounts/account-details.md)
    + [XDM 필드](./data/field-mapping.md)
 + 콘텐츠 관리 {#content-management}
    + 자산 {#assets}
       + [개요](./content/assets-overview.md)
-      + Marketo Engage 에셋 {#marketo-engage-dam}
-         + [Marketo Engage 에셋으로 작업](./content/marketo-engage-design-studio.md)
+      + Marketo Engage 자산 {#marketo-engage-dam}
+         + [Marketo Engage 에셋 작업](./content/marketo-engage-design-studio.md)
          + [Adobe Express를 사용하여 이미지 편집](./content/image-edit-adobe-express.md)
-      + [이미지 에셋 Experience Manager](./content/aem-assets.md)
+      + [Experience Manager 이미지 자산](./content/aem-assets.md)
    + 템플릿 {#templates}
       + [콘텐츠 거버넌스](./content/template-content-governance.md)
       + 전자 메일 템플릿 {#email-templates}
@@ -70,10 +72,9 @@ ht-degree: 37%
    + [조건부 콘텐츠](./content/conditional-content.md)
 + 인사이트 대시보드 {#dashboards}
    + [지능형 대시보드](./dashboards/intelligent-dashboard.md)
-   + [계정 세부 정보](./accounts/account-details.md)
-   + [구매 그룹 개요](./dashboards/buying-groups-dashboard.md)
    + [참여 개요](./dashboards/engagement-dashboard.md)
-   + [여정 개요](./dashboards/journeys-dashboard.md)
+   + [구매 그룹 개요](./dashboards/buying-groups-dashboard.md)
+   + [계정 여정 개요](./dashboards/journeys-dashboard.md)
 + 관리 {#admin}
    + [사용자 관리](./admin/user-management.md)
    + [의도 데이터](./admin/intent-data.md)

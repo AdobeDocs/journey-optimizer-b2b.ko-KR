@@ -2,7 +2,8 @@
 title: 구매 그룹 세부 정보
 description: Journey Optimizer B2B edition의 구매 그룹에 대한 자세한 정보 및 생성 AI 요약에 액세스하는 방법에 대해 알아봅니다.
 feature: Buying Groups
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: f14301dc-d605-4ed2-8867-6a49675019de
+source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
@@ -11,7 +12,7 @@ ht-degree: 5%
 
 # 구매 그룹 세부 정보
 
-Journey Optimizer B2B edition의 어디에서든 구매 그룹 이름을 클릭하면 구매 그룹 세부 사항이 표시됩니다. 이 정보는 생성 AI 요약을 포함하여 구매 그룹에 대한 유용한 정보를 제공합니다.
+Journey Optimizer B2B edition의 어디에서든 구매 그룹 이름을 클릭하면 구매 그룹 세부 사항이 표시됩니다. 이 개요는 생성 AI 요약을 포함하여 구매 그룹에 대한 유용한 정보를 제공합니다.
 
 ![구매 그룹 세부 정보에 액세스](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
