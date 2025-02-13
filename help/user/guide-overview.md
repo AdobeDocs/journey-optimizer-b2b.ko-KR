@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: 내장된 생성 AI 및 업계 최고 수준의 자동화를 사용하여 계정을 조정하고 그룹 여정을 구매하기 위해 Adobe Journey Optimizer B2B edition 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '616'
 ht-degree: 7%
 
 ---
@@ -17,39 +17,37 @@ ht-degree: 7%
 
 >[!BEGINTABS]
 
+>[!TAB 지능형 인사이트 대시보드]
+
+새로운 지능형 대시보드를 사용하면 여러 단계에서 구매 그룹 자격의 진행 상황을 확인할 수 있습니다. 어떤 구매 그룹이 빠르게 움직이고 어떤 구매 그룹이 정체되어 있는지 알면 필요에 따라 여정을 큐레이션할 수 있습니다. 또한 구매 그룹 및 계정 수준에서 세부 정보를 확인할 수 있으며, 이를 통해 고객 참여에 대한 컨텍스트 및 내역 데이터를 더 많이 제공할 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="지능형 대시보드에 대해 알아보기"}
+
+>[!TAB Adobe Express 이미지 편집]
+
+Adobe Express 빠른 작업 을 사용하여 자르기, 크기 조정, 배경 제거 및 형식 변환으로 콘텐츠를 터치할 수 있습니다. 직관적인 Adobe Express UI가 내장되어 있어 이미지 에셋을 빠르게 세부 조정할 수 있습니다.
+
+Adobe Express Enterprise 라이센스를 통해 전체 Adobe Express 기능을 활용할 수 있습니다. 이러한 기능을 사용하여 이미지를 연마하고 개선하는 동시에 브랜드 지침을 준수하고 콘텐츠 공급망의 장애물을 제거합니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Express을 사용한 이미지 편집 방법에 대해 알아보기"}
+
+>[!TAB AEP 이벤트 전달]
+
+이제 관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있습니다. 이러한 구성을 통해 마케터는 AEP 경험 이벤트에 반응하는 계정 여정을 만들 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="여정 오케스트레이션에 사용되는 AEP 이벤트 정의에 대해 알아봅니다"}
+
+>[!TAB 스마트 목록의 그룹 필터를 구입하는 중]
+
+이제 Marketo Engage에서 구매 그룹 필터를 사용하여 스마트 목록을 보고 만들 수 있습니다. 이러한 필터를 사용하면 Journey Optimizer B2B edition 내의 계정 여정에서 Marketo Engage 캠페인 및 프로그램 전반의 구매 그룹 구성원을 제외하거나 포함할 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Marketo Engage 스마트 목록에 사용되는 그룹 필터 구매에 대해 알아보기"}
+
 >[!TAB 조건부 콘텐츠]
 
 조건부 콘텐츠를 사용하여 조건부 규칙에 따라 이메일 콘텐츠를 조정합니다. 프로필 속성 또는 컨텍스트 이벤트를 사용하여 규칙을 정의합니다. 규칙 빌더에서 조건부 규칙을 만들어 계정 여정 간에 재사용할 수 있도록 저장할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/conditional-content.md" tooltip="조건부 콘텐츠에 대해 알아보기"}
-
->[!TAB 사람 작업 - 목록에서 추가/제거]
-
-계정 여정에서 _목록에 추가_ 작업 노드를 사용하여 Marketo Engage 정적 목록에 사용자를 추가하십시오. 이러한 목록을 통해 특정 대상의 용도를 변경하고 타겟팅할 수 있는 유연성을 확보할 수 있습니다. 목록을 작성한 다음 주변에 캠페인을 만들거나 기존 캠페인에 사용자를 직접 추가할 수 있습니다. 또한 _목록에서 제거_ 작업을 사용하여 계정 여정 진행에 따라 Marketo Engage에서 타깃팅을 구체화하고 변경할 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="목록에 추가 및 목록에서 제거에 대해 알아보기"}
-
->[!TAB 중앙 자산 라이브러리]
-
-Design Studio 작업 공간에서 Marketo Engage 인스턴스의 이미지 에셋을 사용합니다. 내장 가드레일을 통해 Journey Optimizer B2B edition의 Marketo Engage 에셋을 편집할 수 없습니다. 이러한 보호를 통해 Marketo Engage 소스 자산이 유지되고 Journey Optimizer B2B edition에서 원활한 읽기 및 재사용이 가능합니다. Journey Optimizer B2B edition에서만 사용되는 에셋의 경우 특정 작업 영역에서 전체 에셋 관리 기능을 제공합니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="중앙 자산 관리에 대해 알아보기"}
-
->[!TAB LinkedIn 계정 일치 대상]
-
-계정 일치 대상을 통해 LinkedIn 광고 대상을 생성하여 구매 그룹에서 빈 역할을 채우는 데 도움을 줍니다. 일련의 구매 그룹 필터를 정의하면 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. 이 기능은 Experience Platform 대상 을 활용하여 통합의 일부 측면을 관리합니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="linkedIn 계정 일치 대상자에 대해 알아보기"}
-
->[!TAB AI 어시스턴트]
-
-계정 기반 마케팅 개념을 빠르게 활용하여 팀의 전략을 극대화하도록 설계된 Journey Optimizer B2B edition 기능에 대해 알아보십시오.
-
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="AI Assistant에 대해 알아보기"}
-
-생성 AI를 기반으로 하는 Adobe Journey Optimizer B2B edition의 이메일 콘텐츠용 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. AI Assistant는 전체 이메일, 타겟팅된 텍스트 콘텐츠 및 대상자와 공감을 이루도록 특별히 맞춤화된 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 됩니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="이메일용 AI Assistant에 대해 알아보기"}
 
 >[!ENDTABS]
 
@@ -119,7 +117,7 @@ Design Studio 작업 공간에서 Marketo Engage 인스턴스의 이미지 에�
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="인사이트 및 대시보드"><br/>
-      <strong>인사이트</strong><br/><a href="./dashboards/buying-groups-dashboard.md">구매 그룹 대시보드</a><br/><a href="./dashboards/journeys-dashboard.md">여정 대시보드</a><br/><a href="./dashboards/engagement-dashboard.md">참여 대시보드</a>
+      <strong>인사이트</strong><br/><a href="./dashboards/intelligent-dashboard.md">지능형 대시보드</a><br/><a href="./dashboards/engagement-dashboard.md">참여 대시보드</a><br/><a href="./dashboards/buying-groups-dashboard.md">구매 그룹 대시보드</a><br/><a href="./dashboards/journeys-dashboard.md">여정 대시보드</a>
     </td>
 
 </tr>
@@ -134,7 +132,7 @@ Design Studio 작업 공간에서 Marketo Engage 인스턴스의 이미지 에�
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
 </td></tr>
-<tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
+<tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home" target="_blank">설명서</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">개발자 자습서</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/marketo/using/home" target="_blank">사용자 설명서</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">개발자 설명서</a>
