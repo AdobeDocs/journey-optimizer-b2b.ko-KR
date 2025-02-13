@@ -2,9 +2,10 @@
 title: 이벤트 수신
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 이벤트 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 3%
 # 이벤트 수신
 
 이벤트가 발생할 때 대상을 계정 여정의 다음 단계로 이동하려면 _이벤트 수신_ 노드를 추가하십시오.
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
 >[!NOTE]
 >
@@ -82,13 +85,13 @@ ht-degree: 3%
 
 ### Marketo Engage 이벤트 수신
 
-연결된 Marketo Engage 인스턴스에 웹 페이지가 만들어져 있는 경우 Marketo Engage 웹 페이지에 대한 방문/방문 없음뿐만 아니라 작성되지 않거나 작성되지 않은 Marketo Engage 양식에 따라 이벤트를 트리거할 수 있습니다.
+연결된 Marketo Engage 인스턴스에 웹 페이지가 만들어져 있는 경우 채워지지 않았거나 채워지지 않은 Marketo Engage 양식은 물론 Marketo Engage 웹 페이지에 대한 방문/방문 없음에 따라 이벤트를 트리거할 수 있습니다.
 
 1. 여정 편집기에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
 
 1. 오른쪽의 노드 속성에서 이벤트 유형으로 **[!UICONTROL 사람]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL 사람 Marketo Engage 선택]** 선택기의 화살표를 클릭하고 메뉴를 **[!UICONTROL 이벤트]** 섹션으로 스크롤합니다.
+1. **[!UICONTROL 사람 이벤트 선택]** 선택기의 화살표를 클릭하고 메뉴를 **[!UICONTROL Marketo Engage]** 섹션으로 스크롤합니다.
 
 1. Market Engage 활동 유형을 선택합니다.
 
@@ -175,5 +178,6 @@ _여정에 경험 이벤트를 포함하려면:_
 
    ![여정 이벤트 노드 - 시간 제한 경로 설정](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## 개요 비디오
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

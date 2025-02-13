@@ -2,9 +2,10 @@
 title: 작업 수행
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 작업 수행 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
-source-git-commit: ac7d498de05a492751bc40682467c3a76d74d912
+exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 0%
 # 조치 취하기
 
 계정 여정에서 _[!UICONTROL 작업 수행]_ 노드를 추가하여 전자 메일 보내기, 점수 변경, 구매 그룹에 할당 등의 작업을 실행할 수 있습니다. 작업은 일반적으로 이벤트나 이전 작업과 같은 일종의 트리거 결과로 발생하려는 작업입니다.
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
 ## 계정 작업
 
@@ -61,10 +64,10 @@ ht-degree: 0%
 | | [!UICONTROL 구매 그룹에서 제거] | 솔루션 관심 항목 선택 |
 | | [!UICONTROL 전자 메일 보내기] | 새 전자 메일 만들기<br/>Marketo Engage에서 전자 메일 선택 |
 | | [!UICONTROL SMS 보내기] | SMS 만들기 |
-| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL 목록에 추가] | Marketo Engage 작업 영역<br/>목록 이름 선택 |
-| | [!UICONTROL Marketo Engage 요청 캠페인에 추가] | Marketo Engage 작업 영역 선택<br/>요청 캠페인 선택 |
+| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL 목록에 추가] | Marketo Engage 작업 공간<br/>목록 이름 선택 |
+| | [!UICONTROL Marketo Engage 요청 캠페인에 추가] | Marketo Engage 작업 공간 선택<br/>요청 캠페인 선택 |
 | | [!UICONTROL Marketo Engage에서 사람 파티션 변경] | 새 파티션 |
-| | [!UICONTROL 목록에서 제거] | Marketo Engage 작업 영역<br/>목록 이름 선택 |
+| | [!UICONTROL 목록에서 제거] | Marketo Engage 작업 공간<br/>목록 이름 선택 |
 
 ### 사용자 기반 작업 추가
 
@@ -162,7 +165,7 @@ _기존 대상자를 사용하려면:_
 
 +++[!UICONTROL 전자 메일 보내기]
 
-이 작업을 사용하여 이메일을 보냅니다. 비주얼 디자이너에서 이메일 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다([이메일 작성](../content/email-authoring.md) 참조). [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}에서 메일을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
+이 작업을 사용하여 이메일을 보냅니다. 비주얼 디자이너에서 이메일 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다([이메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일을 보낼 수도 있습니다](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
 
 ![작업 수행 - 전자 메일 보내기](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -178,7 +181,7 @@ _기존 대상자를 사용하려면:_
 
 ### Marketo Engage 작업
 
-사용자 기반 Marketo Engage은 Journey Optimizer B2B edition의 계정 기반 마케팅 오케스트레이션과 Marketo Engage의 리드 기반 마케팅 노력을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십, 사용자 파티션 및 캠페인 요청을 조정합니다.
+Marketo Engage 사용자 기반은 Journey Optimizer B2B edition에서의 계정 기반 마케팅 오케스트레이션과 Marketo Engage에서의 리드 기반 마케팅 활동을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십, 사용자 파티션 및 캠페인 요청을 조정합니다.
 
 +++[!UICONTROL 목록에 추가]
 
@@ -192,7 +195,7 @@ Marketo Engage의 [스마트 목록](https://experienceleague.adobe.com/en/docs/
 
 +++[!UICONTROL Marketo 요청 캠페인에 추가]
 
-Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하려면 이 작업을 사용하십시오.
+이 작업을 사용하여 Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스에서 작업 영역을 선택합니다. 그런 다음 요청 캠페인 이름을 선택합니다.
 
@@ -202,9 +205,9 @@ Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/en/docs/
 
 +++[!UICONTROL Marketo Engage에서 사람 파티션 변경]
 
-Marketo Engage에서 [개인 파티션](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"}을(를) 변경하려면 이 작업을 사용하십시오.
+이 작업을 사용하여 Marketo Engage에서 [개인 파티션](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"}을(를) 변경합니다.
 
-![동작 수행 - Marketo Engage에서 사람 파티션 변경](./assets/node-action-change-people-partition-options.png){width="300"}
+![동작 수행 - Marketo Engage에서 사용자 파티션 변경](./assets/node-action-change-people-partition-options.png){width="300"}
 
 +++
 
@@ -217,3 +220,7 @@ Marketo Engage의 [스마트 목록](https://experienceleague.adobe.com/en/docs/
 개인 프로필이 스마트 목록의 멤버가 아닌 경우 작업이 무시됩니다.
 
 +++
+
+## 개요 비디오
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
