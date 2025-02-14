@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ _지능형 대시보드_&#x200B;에 액세스하려면 왼쪽 탐색에서 **[!U
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="구매 그룹 단계"
->abstract="이 차트는 구성된 전환 규칙을 기반으로 여러 단계에서 구매 그룹 진행에 대한 개요를 제공합니다. 첫 막대는 선택된 시간대의 첫날 특정 단계의 구매 그룹 수를 선택된 기간의 마지막 날 구매 그룹 수와 비교하여 나타내어 줍니다."
+>abstract="이 차트는 구성된 전환 규칙에 따라 다양한 단계에서 구매 그룹 진행의 개요를 제공합니다. 첫 막대는 선택된 시간대의 첫날 특정 단계의 구매 그룹 수를 선택된 기간의 마지막 날 구매 그룹 수와 비교하여 나타내어 줍니다."
 
 _[!UICONTROL 구매 그룹 단계]_ 차트는 여러 단계 간의 구매 그룹 진행에 대한 개요를 제공합니다([관리자가 설정한 전환 규칙에 따라](../buying-groups/buying-group-stages.md)).
 
@@ -238,7 +238,7 @@ _[!UICONTROL 연락처 범위]_ 섹션에는 솔루션 관심 분야와 관련�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="연락처 중복"
->abstract="여러 솔루션 관심사와 연결된 결과 둘 이상의 구매 그룹에 속하는 연락처 목록입니다."
+>abstract="여러 솔루션 관심 분야와 연관되어 두 개 이상의 구매 그룹에 속해 있는 연락처 목록입니다."
 
 _[!UICONTROL 연락처 겹치기]_ 섹션에는 여러 솔루션 관심 분야와 연결된 결과 둘 이상의 구매 그룹에 속하는 연락처 목록이 표시됩니다.
 
