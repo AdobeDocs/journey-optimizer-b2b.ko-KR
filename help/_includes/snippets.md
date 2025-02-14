@@ -1,9 +1,9 @@
 ---
 title: 스니펫
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 ## 의도 데이터 구성 {#intent-data-note}
 
 >[!NOTE]
->의도 데이터는 Journey Optimizer B2B edition 인스턴스에 대해 구성될 때 페이지에 포함될 수도 있습니다. 의도 검색 모델 및 키워드 제출 방법에 대한 자세한 내용은 [의도 데이터](../user/admin/intent-data.md)를 참조하십시오.
 >
+>의도 데이터는 Journey Optimizer B2B edition 인스턴스에 대해 구성될 때 페이지에 포함됩니다. Intent Detection 모델 및 키워드, 제품 및 범주를 제출하는 방법에 대한 자세한 내용은 [Intent Data](../user/admin/intent-data.md)를 참조하십시오.
 
 ## AEM assets 라이선싱 참고 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service 및 Dynamic Media 라이센스는 통합을 위한 필수 사항입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인해야 합니다.<br/>
->계약 및 구성에 따라 Adobe Experience Manager Assetsas a Cloud Service 는 시각적 콘텐츠를 디자인할 때 Adobe Journey Optimizer B2B edition에서 직접 액세스할 수 있습니다.
+>AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인해야 합니다.<br/>
+>계약 및 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
 
 ## 콘텐츠 작성 - 구성 요소 - 구조 단계 {#structures-step}
 

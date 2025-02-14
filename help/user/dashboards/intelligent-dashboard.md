@@ -3,10 +3,10 @@ title: 지능형 대시보드
 description: 구매 그룹 및 계정 지표에 대한 포괄적인 보기를 제공하는 지능형 대시보드에 대해 알아봅니다
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 18%
+source-wordcount: '1568'
+ht-degree: 14%
 
 ---
 
@@ -30,13 +30,17 @@ _지능형 대시보드_&#x200B;에 액세스하려면 왼쪽 탐색에서 **[!U
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="구매 그룹 단계"
->abstract="이 차트는 구성된 전환 규칙에 따라 다양한 단계에서 구매 그룹 진행의 개요를 제공합니다. 첫 막대는 선택된 시간대의 첫날 특정 단계의 구매 그룹 수를 선택된 기간의 마지막 날 구매 그룹 수와 비교하여 나타내어 줍니다."
+>abstract="이 차트는 구성된 전환 규칙에 따라 다양한 단계에서 구매 그룹 진행의 개요를 제공합니다. 첫 번째 막대는 선택한 시간대의 마지막 일자와 비교하여 선택한 시간대의 첫 번째 일자에 특정 단계에 있는 구매 그룹의 수를 나타냅니다."
 
 _[!UICONTROL 구매 그룹 단계]_ 차트는 여러 단계 간의 구매 그룹 진행에 대한 개요를 제공합니다([관리자가 설정한 전환 규칙에 따라](../buying-groups/buying-group-stages.md)).
 
+>[!NOTE]
+>
+>구매 그룹 단계를 사용할 수 있으려면 구매 그룹 단계를 구성해야 합니다. 단계 및 구매 그룹의 단계를 정의하고 활성화하는 방법에 대한 자세한 내용은 [구매 그룹 단계](../buying-groups/buying-group-stages.md)를 참조하십시오.
+
 ![구매 그룹 단계 데이터 시각화](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-이 차트는 가장 최근에 게시된 버전의 구매 그룹 단계 모델에서 구매 그룹 단계를 사용합니다. 각 단계는 두 개의 막대로 반사됩니다. 첫 번째 막대는 선택한 일정의 첫 번째 일자에 있는 구매 그룹의 수를 나타냅니다. 그리고 두 번째(비교)는 시간대의 마지막 날짜에 대한 구매 그룹 수입니다. 각 막대에 마우스를 가져다 대면 각 단계의 구매 그룹 수를 볼 수 있습니다.
+이 차트는 가장 최근에 게시된 버전의 구매 그룹 단계 모델에서 구매 그룹 단계를 사용합니다. 각 단계마다 두 개의 막대가 있습니다. 첫 번째 막대는 선택한 일정의 첫 번째 일자에 있는 구매 그룹의 수를 나타냅니다. 그리고 두 번째(비교)는 시간대의 마지막 날짜에 대한 구매 그룹 수입니다. 각 막대에 마우스를 가져다 대면 각 단계의 구매 그룹 수를 볼 수 있습니다.
 
 ![자세한 숫자를 보려면 표시줄에 마우스를 가져다 대세요](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
@@ -104,6 +108,8 @@ _[!UICONTROL 구매 그룹 하이라이트]_ 섹션은 세 행으로 구성되�
    * 각 행의 데이터는 제품 이름, 제품 의도 강도 및 의도 강도별 상위 키워드 등의 열로 구성됩니다.
    * 카테고리, 제품 및 키워드에 대한 정렬 순서는 높음에서 낮음 입니다. 각 유형 중 하나 이상에 동일한 의도 강도가 있는 경우 알파벳 순서를 사용합니다.
 
+  {{intent-data-note}}
+
 _구매 그룹 하이라이트_ 패널의 오른쪽 상단에서 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하여 구매 그룹 목록 페이지로 이동합니다.
 
 ### 속성 필터 {#attribute-filter-bg-highlights}
@@ -130,6 +136,10 @@ _구매 그룹 하이라이트_ 패널의 오른쪽 상단에서 **[!UICONTROL �
 >abstract="선택된 시간대 내 참여 모멘텀에 상당한 변화가 발생한 계정입니다."
 
 _[!UICONTROL 급증하는 계정]_ 섹션에는 선택한 기간 내에 참여 모멘텀이 크게 변경된 계정의 시각화가 표시됩니다.
+
+>[!NOTE]
+>
+>계정 급증 데이터는 계정 여정 또는 구매 그룹을 통해 계정 대상의 Journey Optimizer B2B edition에서 수집한 계정으로 제한됩니다.
 
 ![계정 서지 데이터 시각화](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -171,6 +181,10 @@ _[!UICONTROL 급증하는 계정]_ 섹션에는 선택한 기간 내에 참여 �
 
 _[!UICONTROL 구매 그룹 하이라이트]_ 섹션은 두 행으로 구성되어 조직에 관심 있는 계정에 대한 정보를 표시합니다.
 
+>[!NOTE]
+>
+>계정 강조 표시 데이터는 계정 여정 또는 구매 그룹을 통해 계정 대상의 Journey Optimizer B2B edition에서 수집한 계정으로 제한됩니다.
+
 ![계정 하이라이트](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **계정 급증** - 이 행에는 선택한 기간 동안 참여 모멘텀이 크게 증가한 계정이 표시됩니다.
@@ -187,6 +201,8 @@ _[!UICONTROL 구매 그룹 하이라이트]_ 섹션은 두 행으로 구성되�
    * 세부 정보 팝업은 맨 위에 의도 수준이 있는 범주 이름을 표시합니다.
    * 각 행의 데이터는 제품 이름, 제품 의도 강도 및 의도 강도별 상위 키워드 등의 열로 구성됩니다.
    * 카테고리, 제품 및 키워드에 대한 정렬 순서는 높음에서 낮음 입니다. 각 유형 중 하나 이상에 동일한 의도 강도가 있는 경우 알파벳 순서를 사용합니다.
+
+  {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -213,6 +229,10 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 >abstract="솔루션 관심 분야와 연관된 특정 역할이 있는 연락처 수를 표시합니다. 역할 및 솔루션 관심 분야 할당은 구매 그룹 템플릿을 바탕으로 합니다."
 
 _[!UICONTROL 연락처 범위]_ 섹션에는 솔루션 관심 분야와 관련된 특정 역할을 가진 연락처 수의 시각화가 표시됩니다. 역할 및 솔루션 관심 분야 할당은 구매 그룹 템플릿을 바탕으로 합니다.
+
+>[!NOTE]
+>
+>연락처 범위 데이터는 Journey Optimizer B2B edition 인스턴스에서 생성된 구매 그룹을 기반으로 합니다.
 
 ![계정 서지 데이터 시각화](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -241,6 +261,10 @@ _[!UICONTROL 연락처 범위]_ 섹션에는 솔루션 관심 분야와 관련�
 >abstract="여러 솔루션 관심 분야와 연관되어 두 개 이상의 구매 그룹에 속해 있는 연락처 목록입니다."
 
 _[!UICONTROL 연락처 겹치기]_ 섹션에는 여러 솔루션 관심 분야와 연결된 결과 둘 이상의 구매 그룹에 속하는 연락처 목록이 표시됩니다.
+
+>[!NOTE]
+>
+>연락처 중복 데이터는 Journey Optimizer B2B edition 인스턴스에서 생성되는 구매 그룹을 기반으로 합니다.
 
 ![연락처 중복 표](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 
