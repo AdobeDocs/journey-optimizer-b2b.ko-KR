@@ -4,9 +4,9 @@ description: Journey Optimizer B2B edition 제품 프로필에 팀원을 할당�
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1351'
 ht-degree: 1%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 1%
 프로비저닝이 완료되고 샌드박스가 바인딩되면 다음 단계를 완료하여 팀과 사용자에게 Adobe Journey Optimizer B2B edition 액세스를 제공합니다.
 
 1. Admin Console에서 [Marketo Engage 제품 프로필을 만듭니다](#marketo-engage-profile)(새 Marketo Engage 인스턴스만 해당).
-1. Admin Console에서 [사용자 그룹을 만듭니다](#create-user-group).
+1. Admin Console에서 [사용자 그룹 만들기](#create-user-group).
 1. Journey Optimizer B2B edition 권한을 사용하여 [기본 제공 역할을 편집](#edit-roles) 또는 [사용자 지정 역할을 만들기](#create-a-custom-role)합니다.
 1. 역할에 [사용자 추가](#add-users) 또는 [그룹](#add-user-groups-to-a-role).
 
-관리자는 Adobe 제품 라이선스 및 사용자를 관리하고 관리하는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html) 페이지를 참조하세요.
+관리자는 Adobe 제품 라이선스와 사용자를 관리하고 관리하는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서는 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html) 페이지를 참조하세요.
 
 ## Admin Console 액세스
 
-Admin Console을 사용하여 Admin Console 내의 사용자를 관리하려면 먼저 팀에 액세스하고 적절한 권한을 보유할 수 있어야 합니다.
+Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Admin Console에 액세스하고 적절한 권한을 보유할 수 있는지 확인해야 합니다.
 
 1. 시스템 관리자는 온보딩 프로세스의 일부로 Adobe에서 여러 개의 이메일을 수신해야 합니다.
 
@@ -32,7 +32,7 @@ Admin Console을 사용하여 Admin Console 내의 사용자를 관리하려면 
 
 1. 시작 이메일의 **[!UICONTROL 시작하기]** 링크를 클릭하여 Admin Console으로 이동합니다.
 
-   전자 메일을 찾을 수 없는 경우 Admin Console에 대한 브라우저를 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 직접 여십시오.
+   이메일을 찾을 수 없는 경우 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 Admin Console으로 직접 브라우저를 엽니다.
 
 1. Adobe ID을 사용하여 로그인합니다.
 
@@ -66,9 +66,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 >[!ENDSHADEBOX]-->
 
->[!NOTE]
->
->Admin Console 시스템 관리자 또는 Marketo Engage 제품 관리자가 이러한 단계를 수행할 수 있습니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Marketo Engage 제품 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에 로그인합니다.
 
@@ -88,9 +86,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 사용자 그룹을 사용하여 권한을 관리하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/user-groups.html){target="_blank"}를 참조하십시오.
 
->[!NOTE]
->
->Admin Console 시스템 관리자는 다음 단계를 수행할 수 있습니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에 로그인합니다.
 
@@ -119,11 +115,9 @@ For more information about managing these permissions within Marketo Engage, see
 
 ## 그룹에 사용자 추가
 
->[!NOTE]
->
->Admin Console 시스템 관리자는 다음 단계를 수행할 수 있습니다.
+사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하십시오.
 
-Admin Console 관리에 대한 자세한 내용은 사용자 설명서의 [Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하십시오.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 제품 관리자는 다음 단계를 수행할 수 있습니다. 제품 관리자는 해당 조직에 이미 존재하는 사용자만 추가할 수 있습니다.
 
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com)(으)로 이동합니다.
 
@@ -149,7 +143,7 @@ Admin Console 관리에 대한 자세한 내용은 사용자 설명서의 [Admin
 
 Adobe Experience Platform의 _권한_ 영역에서 관리자는 사용자 역할과 액세스 정책을 정의하여 제품 응용 프로그램 내의 기능 및 개체에 대한 액세스 권한을 관리할 수 있습니다. 이 앱에서는 역할을 만들고 관리하며, 이러한 역할에 대해 원하는 리소스 권한을 할당할 수 있습니다. 또한 권한을 사용하여 특정 역할과 연관된 샌드박스 및 사용자를 관리할 수 있습니다.
 
-Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서의 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
+Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
 <!-- 
 ### B2B product permissions
 
@@ -224,9 +218,7 @@ _To change the permissions for a role:_
 
 ### 역할에 사용자 추가
 
->[!NOTE]
->
->Admin Console 시스템 관리자는 다음 단계를 수행할 수 있습니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. 역할 세부 정보를 열고 **[!UICONTROL 사용자]** 탭을 선택합니다.
 
@@ -248,11 +240,9 @@ _To change the permissions for a role:_
 
 ### 역할에 사용자 그룹 추가
 
->[!NOTE]
->
->Admin Console 시스템 관리자는 다음 단계를 수행할 수 있습니다.
+사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하십시오.
 
-Admin Console 관리에 대한 자세한 내용은 사용자 설명서의 [Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하십시오.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. 역할 세부 정보를 열고 **[!UICONTROL 사용자 그룹]** 탭을 선택합니다.
 
@@ -274,9 +264,7 @@ Admin Console 관리에 대한 자세한 내용은 사용자 설명서의 [Admin
 
 ## 사용자 정의 역할 만들기
 
->[!NOTE]
->
->Admin Console 시스템 관리자는 다음 단계를 수행할 수 있습니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 역할]**&#x200B;을(를) 선택하고 **[!UICONTROL 역할 만들기]**&#x200B;를 선택합니다.
 
@@ -318,6 +306,6 @@ Admin Console 관리에 대한 자세한 내용은 사용자 설명서의 [Admin
 
    ![Experience Platform - 새 역할에 대한 프로필 추가](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-1. Admin Console에서 이전에 생성한 사용자 그룹 옆의 확인란을 선택합니다.
+1. 이전에 Admin Console에서 만든 사용자 그룹 옆의 확인란을 선택합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
