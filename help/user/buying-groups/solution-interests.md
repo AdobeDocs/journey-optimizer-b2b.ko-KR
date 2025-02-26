@@ -3,7 +3,7 @@ title: 솔루션 관심 분야
 description: 솔루션 관심사 및 구매 그룹 내에서 사용할 솔루션을 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![솔루션 관심 영역 탭](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   탭에는 모든 기존 솔루션 관심사에 대한 인벤토리 목록이 제공됩니다. 열 형식으로 다음 정보를 제공합니다. _[!UICONTROL 이름]_, _[!UICONTROL 역할 템플릿]_, _[!UICONTROL 그룹 만들기 작업 구매]_, _[!UICONTROL 마지막으로 업데이트됨]_, _[!UICONTROL 업데이트됨]_, _[!UICONTROL 생성됨]_ 및 _[!UICONTROL 생성됨]_
+   탭에는 모든 기존 솔루션 관심사에 대한 인벤토리 목록이 제공됩니다. 열 형식에는 다음 정보가 표시됩니다. _[!UICONTROL 이름]_, _[!UICONTROL 역할 템플릿]_, _[!UICONTROL 그룹 만들기 작업 구매]_, _[!UICONTROL 마지막으로 업데이트됨]_, _[!UICONTROL 업데이트됨]_, _[!UICONTROL 생성됨]_ 및 _[!UICONTROL 생성됨]_
 
    이 목록은 기본적으로 _[!UICONTROL 마지막 업데이트 날짜]_ 열을 기준으로 정렬됩니다. 내림차순과 오름차순 간에 정렬을 전환하려면 헤더에서 열 제목을 클릭합니다.
 
@@ -58,7 +58,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 1. **[!UICONTROL 기존 구매 그룹 업데이트]** 설정을 사용합니다(선택 사항).
 
-   이 옵션이 활성화되면 솔루션 관심사와 쌍을 이루는 모든 기존 구매 그룹이 24시간 동기화 주기를 통해 업데이트됩니다.
+   이 옵션이 활성화되면 솔루션 관심사와 쌍을 이루는 모든 기존 구매 그룹이 7일 동기화 주기를 통해 업데이트됩니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
