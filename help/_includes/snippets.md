@@ -1,9 +1,9 @@
 ---
 title: 스니펫
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->의도 데이터는 Journey Optimizer B2B edition 인스턴스에 대해 구성될 때 페이지에 포함됩니다. Intent Detection 모델 및 키워드, 제품 및 범주를 제출하는 방법에 대한 자세한 내용은 [Intent Data](../user/admin/intent-data.md)를 참조하십시오.
+>의도 데이터는 Journey Optimizer B2B edition 인스턴스에 대해 구성될 때 포함됩니다. 또한 하나 이상의 게시된 여정 **또는**&#x200B;이(가) 구매 그룹을 만들어야 합니다. Intent Detection 모델 및 키워드, 제품 및 범주를 제출하는 방법에 대한 자세한 내용은 [Intent Data](../user/admin/intent-data.md)를 참조하십시오.
 
 ## AEM assets 라이선싱 참고 {#aem-assets-licensing-note}
 
