@@ -2,16 +2,17 @@
 title: Experience Platform 이벤트 구성
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 대기 노드 유형에 대해 알아봅니다.
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
 # Experience Platform 이벤트 정의 구성
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 여정](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)에 반응하는 계정 이벤트를 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. AEP 이벤트 정의를 만들고 게시합니다.
 
@@ -38,6 +39,8 @@ ht-degree: 0%
 조직 목표를 충족하기 위해 이벤트 정의를 만들고 관리할 때는 다음 사항에 유의하십시오.
 
 * Journey Optimizer B2B edition은 최대 50개의 이벤트 정의를 지원합니다.
+
+* 계정 여정은 웹 AEP 또는 HTTP API와 같은 AEP 스트리밍 기능을 사용하여 수집되는 SDK Experience 이벤트를 수신할 수 있습니다.
 
 * 하나의 AEP 이벤트 정의만 결합된 스키마와 이벤트 유형 집합을 사용할 수 있습니다. 스키마(예: `My Schema`)와 이벤트 유형(예: `Web Webpagedetails Page Views`)을 사용하여 이벤트 정의를 만들 때 다른 이벤트 정의에서는 `My Schema`과(와) `Web Webpagedetails Page Views`의 조합을 사용할 수 없습니다.
 
@@ -73,7 +76,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 | -------------------- | ----------- |
 | 초안 | 이벤트 정의를 생성하면 초안 상태가 됩니다. 계정 여정에 사용하기 위해 게시하기 전까지는 이 상태로 유지됩니다. 사용 가능한 작업: <br/><ul><li>모든 세부 정보 편집<li>게시<li>삭제 |
 | 게시일 | 이벤트 정의를 게시하면 계정 여정에서 사용할 수 있습니다. 세부 사항을 수정할 수 없습니다. 사용 가능한 작업: <br/><ul><li>_이벤트 수신_ 여정 노드에서 사용 가능<li>초안 버전 만들기<li>삭제(사용하지 않는 경우) |
-| 게시됨(초안 포함) | 게시된 이벤트 정의에서 초안을 만들 때 게시된 버전은 계정 여정에서 사용할 수 있으며 초안 버전을 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되고 아직 실행되지 않은 계정 여정에 대해 이벤트 정의가 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>모든 세부 정보 편집<li>Publish 초안 버전<li>초안 버전 삭제<li>삭제(사용하지 않는 경우) |
+| 게시됨(초안 포함) | 게시된 이벤트 정의에서 초안을 만들 때 게시된 버전은 계정 여정에서 사용할 수 있으며 초안 버전을 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되고 아직 실행되지 않은 계정 여정에 대해 이벤트 정의가 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>모든 세부 정보 편집<li>초안 버전 게시<li>초안 버전 삭제<li>삭제(사용하지 않는 경우) |
 
 ![조각 상태 주기](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
    ![새 초안 이벤트 정의가 페이지에 나열됩니다.](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## Publish 이벤트 정의
+## 이벤트 정의 게시
 
 초안 이벤트 정의가 완료되어 필요에 맞게 수정된 경우 이를 게시하여 계정 여정에서 사용할 수 있도록 할 수 있습니다. 이벤트 정의가 게시된 후 변경해야 하는 경우 초안 버전을 만들 수 있습니다. 단, 스키마를 변경할 수 없으며 이벤트 유형 및 필드만 추가할 수 있습니다(삭제할 수 없음).
 
@@ -149,11 +152,11 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
    필요한 경우 게시하기 전에 설정을 검토하십시오. 요구 사항에 맞지 않으면 [초안을 편집](#edit-an-event-definition)할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-1. 확인 대화 상자에서 **[!UICONTROL Publish]**&#x200B;을 클릭합니다.
+1. 확인 대화 상자에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-   ![Publish 이벤트 대화 상자](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![이벤트 게시 대화 상자](./assets/configuration-events-publish-dialog.png){width="300"}
 
    이벤트 정의의 상태가 _게시됨_(으)로 변경되며 이제 [계정 여정에서 사용할 수 있습니다](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -189,9 +192,9 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
    변경 사항은 자동으로 초안에 저장됩니다.
 
-1. 이벤트 정의가 조건을 충족하고 계정 여정 사용에 사용하려면 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. 이벤트 정의가 조건을 충족하고 계정 여정에서 사용할 수 있도록 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-1. 확인 대화 상자에서 **[!UICONTROL Publish]**&#x200B;을 클릭합니다.
+1. 확인 대화 상자에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
    이벤트 정의의 상태가 _게시됨_(으)로 변경되며 이제 계정 여정에서 사용할 수 있습니다.
 
@@ -221,11 +224,11 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
    변경 사항은 자동으로 초안에 저장됩니다.
 
-1. 초안 이벤트 정의가 조건을 충족하고 계정 여정에서 사용할 현재 게시된 버전을 바꾸려면 **[!UICONTROL Publish 초안]**&#x200B;을 클릭합니다.
+1. 초안 이벤트 정의가 조건을 충족하고 계정 여정에서 사용할 현재 게시된 버전을 바꾸려면 **[!UICONTROL 초안 게시]**&#x200B;를 클릭합니다.
 
-1. 확인 대화 상자에서 **[!UICONTROL Publish]**&#x200B;을 클릭합니다.
+1. 확인 대화 상자에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-   ![Publish 초안 대화 상자](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![초안 대화 상자 게시](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    초안 버전을 게시하면 현재 게시된 버전이 대체되고 이미 사용 중이지만 아직 실행되지 않은 계정 여정에 대해 이벤트 정의가 업데이트됩니다.
 
@@ -243,11 +246,11 @@ _게시됨(초안 포함)_ 이벤트 정의를 열면 기본적으로 _[!UICONTR
 
    변경 사항은 자동으로 초안에 저장됩니다.
 
-1. 초안 이벤트 정의가 조건을 충족하고 계정 여정에서 사용할 현재 게시된 버전을 바꾸려면 **[!UICONTROL Publish 초안]**&#x200B;을 클릭합니다.
+1. 초안 이벤트 정의가 조건을 충족하고 계정 여정에서 사용할 현재 게시된 버전을 바꾸려면 **[!UICONTROL 초안 게시]**&#x200B;를 클릭합니다.
 
-1. 확인 대화 상자에서 **[!UICONTROL Publish]**&#x200B;을 클릭합니다.
+1. 확인 대화 상자에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-   ![Publish 초안 대화 상자](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![초안 대화 상자 게시](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    초안 버전을 게시하면 현재 게시된 버전이 대체되고 이미 사용 중이지만 아직 실행되지 않은 계정 여정에 대해 이벤트 정의가 업데이트됩니다.
 
