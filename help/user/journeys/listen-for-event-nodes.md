@@ -3,9 +3,9 @@ title: 이벤트 수신
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 이벤트 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1373'
 ht-degree: 3%
 
 ---
@@ -118,11 +118,13 @@ ht-degree: 3%
 
 ### 경험 이벤트 수신
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 여정](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)에 반응하는 계정 이벤트를 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
 
-1. [AEP 이벤트 정의를 만들고 게시](../admin/configure-aep-events.md)합니다.
+1. [AEP 이벤트 정의를 만들고 게시](../admin/configure-aep-events.md).
 
 2. 계정 여정에서 _이벤트 수신_ 노드를 추가하고 사용자 기반 이벤트에 대한 Experience Platform 이벤트 정의를 선택합니다.
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 보기](../admin/configure-aep-events.md#overview-video)
 
 _여정에 경험 이벤트를 포함하려면:_
 
@@ -162,7 +164,7 @@ _여정에 경험 이벤트를 포함하려면:_
 
 1. 여정의 나머지 노드를 완료하고 [게시](./journey-overview.md)하십시오.
 
-   여정이 라이브(게시)되고 _이벤트 수신_ 노드에 도달하면 AEP 경험 이벤트 수신이 시작됩니다.
+   여정이 라이브(게시)되고 _이벤트 수신_ 노드에 도달하면 AEP Experience Events 수신을 시작합니다.
 
 ## 이벤트 노드에 시간 초과 추가
 

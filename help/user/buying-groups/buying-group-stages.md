@@ -3,9 +3,9 @@ title: 구매 그룹 단계
 description: 구매 그룹 단계에 대해 알아보고 판매 목표에 따른 여정 진행률을 추적하기 위해 그룹 단계를 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 단일 스테이징 모델 내에서 여러 스테이지를 정의하고 여러 스테이지와 각 스테이지 간의 전환 흐름을 정의합니다. 라이프사이클 진입을 위해 하나 이상의 단계가 지정됩니다. 이 모델에서는 A 단계에서 B, C 또는 D 단계로의 전환과 같이 한 단계에서 다른 단계로의 전환을 지정할 수 있는 비선형 진행도 가능합니다. 구매 또는 체결된 계약과 같이 하나의 단계가 성공 단계로 지정될 것을 요구한다. 다른 공급업체의 경쟁 솔루션 구입 또는 계약 거부와 같이 다른 단계가 실패 단계로 지정되는 것은 선택 사항입니다. 이는 구매 그룹이 판매 기회를 완료하거나 기회를 고객으로 전환하는 관점에서 진행되는 방식을 보여 주는 [지능형 대시보드](../dashboards/intelligent-dashboard.md)를 통해 이루어집니다.
 
 ![그룹 단계 구매 예제](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 보기](#overview-video)
 
 ## 구매 그룹 단계 모델을 정의합니다.
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
    _[!UICONTROL 취소]_&#x200B;를 클릭하여 대화 상자를 닫고 변경 없이 모델 세부 정보 페이지로 돌아갈 수도 있습니다.
 
-## Publish 구매 그룹 단계 모델
+## 구매 그룹 단계 모델 게시
 
 유효성 검사 오류가 없는 경우 모델을 게시할 수 있습니다. 게시되면 _Live_ 상태로 변경되며 계정 여정에서 구매 그룹 단계를 진행하는 데 사용할 수 있습니다.
 
@@ -171,9 +173,9 @@ ht-degree: 0%
 
    개정이 필요한 경우 모델 단계를 편집합니다.
 
-1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-1. 확인 대화 상자에서 **[!UICONTROL Publish]**&#x200B;을 클릭합니다.
+1. 확인 대화 상자에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
    모델 세부 정보 페이지로 돌아가면 모델이 _[!UICONTROL Live]_(으)로 지정됩니다. 왼쪽 상단의 _뒤로_ 화살표를 클릭하여 _[!UICONTROL 단계]_ 탭 페이지로 돌아갑니다.
 
@@ -345,3 +347,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
    ![여정 노드 - 계정에서 이벤트를 수신](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. 다른 변경 내용을 계속 적용하고 여정을 저장합니다.
+
+## 개요 비디오
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

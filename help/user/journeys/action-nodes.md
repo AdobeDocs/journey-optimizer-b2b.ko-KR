@@ -3,9 +3,9 @@ title: 작업 수행
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 작업 수행 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 ![작업 수행 - 외부 고객 대상에 추가](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
 이 사람 기반 작업을 선택하면 새 외부 대상을 만들거나 기존 외부 대상에서 선택할 수 있습니다. 기존 대상의 경우 Journey Optimizer B2B edition에서만 만든 외부 고객 대상 중에서 선택할 수 있습니다. 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 Experience Platform 설명서에서 [새 대상 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} 및 [활성화 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}를 참조하십시오.
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [유료 미디어 오케스트레이션에 대한 비디오 개요 보기](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
 _외부 대상자를 만들려면:_
 

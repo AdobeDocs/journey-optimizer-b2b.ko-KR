@@ -2,17 +2,22 @@
 title: Experience Platform 이벤트 구성
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 대기 노드 유형에 대해 알아봅니다.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
 # Experience Platform 이벤트 정의 구성
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)에 반응하는 계정 여정을 만들 수 있습니다.
+
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 보기](#overview-video)
+
+계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. AEP 이벤트 정의를 만들고 게시합니다.
 
@@ -273,3 +278,7 @@ _게시됨(초안 포함)_ 이벤트 정의를 열면 기본적으로 _[!UICONTR
 1. 확인 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
    ![이벤트 정의 삭제 확인](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## 개요 비디오
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
