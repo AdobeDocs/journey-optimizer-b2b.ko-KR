@@ -3,14 +3,14 @@ title: 작업 수행
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 작업 수행 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 조치 취하기
+# 액션 취하기
 
 계정 여정에서 _[!UICONTROL 작업 수행]_ 노드를 추가하여 전자 메일 보내기, 점수 변경, 구매 그룹에 할당 등의 작업을 실행할 수 있습니다. 작업은 일반적으로 이벤트나 이전 작업과 같은 일종의 트리거 결과로 발생하려는 작업입니다.
 
@@ -56,12 +56,12 @@ ht-degree: 0%
 
 | 컨텍스트 | 작업 | 제한 |
 | ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 외부 고객 대상에 추가] | 외부 고객 대상 선택 |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 외부 고객 대상에 추가] | 외부 고객 대상자 선택 |
 | | [!UICONTROL 구매 그룹에 할당] | 솔루션 관심 항목 선택<br/>역할 선택 |
 | | [!UICONTROL 데이터 값 변경] | 사용자 특성 선택<br/>새 값 설정 |
 | | [!UICONTROL 점수 변경] | 점수 이름<br/>점수 변경 |
 | | [!UICONTROL 즐거운 인물] | 유형<br/>설명 |
-| | [!UICONTROL 구매 그룹에서 제거] | 솔루션 관심 항목 선택 |
+| | [!UICONTROL 구매 그룹에서 제거] | 솔루션 관심 분야 선택 |
 | | [!UICONTROL 전자 메일 보내기] | 새 전자 메일 만들기<br/>Marketo Engage에서 전자 메일 선택 |
 | | [!UICONTROL SMS 보내기] | SMS 만들기 |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL 목록에 추가] | Marketo Engage 작업 공간<br/>목록 이름 선택 |
@@ -183,7 +183,7 @@ _기존 대상자를 사용하려면:_
 
 ### Marketo Engage 작업
 
-Marketo Engage 사용자 기반은 Journey Optimizer B2B edition에서의 계정 기반 마케팅 오케스트레이션과 Marketo Engage에서의 리드 기반 마케팅 활동을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십, 사용자 파티션 및 캠페인 요청을 조정합니다.
+Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의 계정 기반 마케팅 오케스트레이션과 Marketo Engage에서의 리드 기반 마케팅 노력을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십, 사용자 파티션 및 캠페인 요청을 조정합니다.
 
 +++[!UICONTROL 목록에 추가]
 

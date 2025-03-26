@@ -1,12 +1,13 @@
 ---
 title: 계정 목록
 description: 계정 목록과 마케터가 계정 여정을 통해 계정을 타깃팅하는 데 이 목록을 사용하는 방법에 대해 알아봅니다.
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 계정 목록은 마케터가 타깃팅된 여정 오케스트레이션에 사용할 수 있는 명명된 계정의 컬렉션입니다. 계정 목록은 업종, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 대상으로 할 수 있습니다. 계정 목록에는 두 가지 유형이 있습니다.
 
 * **정적** - 정적 계정 목록이 있는 경우 계정을 추가할 때만 목록이 변경됩니다. 필터 세트를 적용하여 현재 계정 데이터를 기준으로 목록을 채워 수동으로 계정을 추가하거나 계정 여정을 통해 계정을 추가 및 제거할 수 있습니다.
-* **동적** - 동적 계정 목록을 사용하여 목록을 자동으로 조정하기 위한 필터 집합을 정의합니다. 시스템은 이 필터 세트를 사용하여 계정 정보의 변경에 따라 계정을 추가하고 제거합니다. 이 목록 관리는 [Real-time Customer Data Platform의 대상 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)와 비슷합니다.
+* **동적** - 동적 계정 목록을 사용하여 목록을 자동으로 조정하기 위한 필터 집합을 정의합니다. 시스템은 이 필터 세트를 사용하여 계정 정보의 변경에 따라 계정을 추가하고 제거합니다. 이 목록 관리는 [실시간 고객 데이터 플랫폼의 대상 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)와 비슷합니다.
 
 계정 목록이 _Live_(게시됨) 상태인 경우 계정 여정에서 사용할 수 있습니다.
 
@@ -30,7 +31,7 @@ ht-degree: 0%
 
    표시된 _[!UICONTROL 계정 목록]_ 페이지에 다음 열이 포함되어 있습니다.
 
-   * [!UICONTROL 이름](자세한 내용을 보려면 계정 목록 이름 클릭)
+   * [!UICONTROL 이름]&#x200B;(자세한 내용을 보려면 계정 목록 이름 클릭)
    * [!UICONTROL 상태]
    * [!UICONTROL 유형]
    * [!UICONTROL 마지막으로 업데이트한 날짜]
@@ -140,7 +141,7 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-## Publish an 계정 목록
+## 계정 목록 게시
 
 필터 세트가 완료되는 즉시 계정 목록 게시를 진행할 수 있습니다.
 
@@ -148,11 +149,11 @@ ht-degree: 0%
 
 >[!TAB 정적 계정 목록]
 
-1. 오른쪽 상단의 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-   ![오른쪽 상단의 Publish 클릭](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![오른쪽 상단의 게시를 클릭합니다](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Publish 정적 계정 목록]_ 대화 상자에서 **[!UICONTROL Publish]**&#x200B;을(를) 클릭하여 확인합니다.
+1. _[!UICONTROL 정적 계정 목록 게시]_ 대화 상자에서 **[!UICONTROL 게시]**&#x200B;를 클릭하여 확인합니다.
 
    ![정적 계정 목록에 대한 게시 확인](./assets/account-lists-static-publish-confirm.png){width="400"}
 
@@ -162,11 +163,11 @@ ht-degree: 0%
 
 필터 세트가 완료되는 즉시 동적 계정 목록 게시를 진행할 수 있습니다. 계정 목록이 라이브 상태이면 계정 대상자 여정 노드에서 선택할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-   ![오른쪽 상단의 Publish 클릭](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![오른쪽 상단의 게시를 클릭합니다](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Publish 동적 계정 목록]_ 대화 상자에서 **[!UICONTROL Publish]**&#x200B;을(를) 클릭하여 확인합니다.
+1. _[!UICONTROL 동적 계정 목록 게시]_ 대화 상자에서 **[!UICONTROL 게시]**&#x200B;를 클릭하여 확인합니다.
 
    ![동적 계정 목록에 대한 게시 확인](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 

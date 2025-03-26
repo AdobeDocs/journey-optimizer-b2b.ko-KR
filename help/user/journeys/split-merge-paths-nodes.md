@@ -3,9 +3,9 @@ title: 경로 분할 및 병합
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 분할 경로 및 병합 경로 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
+source-git-commit: bc264c94ff870733ee433a317bbbd885a30fc259
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1587'
 ht-degree: 2%
 
 ---
@@ -52,8 +52,8 @@ _people 노드별 분할 경로는 어떻게 작동합니까?_
 
 | 노드 컨텍스트 | 경로 조건 | 설명 |
 | ------------ | --------------- | ----------- |
-| [계정](#add-a-split-path-by-account-node) | 계정 속성 | 다음을 포함한 계정 프로필의 속성: <li>연간 수익</li><li>구/군/시</li><li>국가</li><li>직원 규모</li><li>산업</li><li>이름</li><li>SIC 코드</li><li>주/도</li> |
-| | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 있음] | 계정에는 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이 있거나 없습니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li> |
+| [계정](#add-a-split-path-by-account-node) | 계정 속성 | 다음을 포함한 계정 프로필의 속성: <li>연간 수익</li><li>구/군/시</li><li>국가</li><li>직원 규모</li><li>업종</li><li>이름</li><li>SIC 코드</li><li>주/도</li> |
+| | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 있음] | 계정에 구매 그룹의 구성원이 있거나 없습니다. 다음 기준 중 하나 이상에 대해서도 평가할 수 있습니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li> |
 | [사용자](#add-a-split-path-by-people-node) > [!UICONTROL 사용자 특성만] | [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>구/군/시</li><li>국가</li><li>생년월일</li><li>이메일 주소</li><li>잘못된 이메일</li><li>이메일 일시 중단됨</li><li>이름</li><li>상태 영역 유추</li><li>직위</li><li>성</li><li>휴대폰 번호</li><li>전화번호</li><li>우편번호</li><li>주/도</li><li>주소 삭제</li><li>구독 취소 이유</li> |
 | | [!UICONTROL 활동 기록] > [!UICONTROL 전자 메일] | 여정과 연계된 이메일 활동: <li>[!UICONTROL 전자 메일에서 링크를 클릭함]</li><li>이메일 열림</li><li>게재됨 이메일</li><li>이(가) 이메일을 보냈습니다.</li> 이러한 조건은 여정 앞부분에서 선택한 이메일 메시지를 사용하여 평가됩니다. |
 | | [!UICONTROL 활동 기록] > [!UICONTROL 데이터 값 변경됨] | 선택한 개인 속성의 경우 값이 변경되었습니다. 이러한 변경 유형은 다음과 같습니다. <li>새 값</li><li>이전 값</li><li>이유</li><li>소스</li><li>활동 날짜</li><li>최소. 횟수</li> |
@@ -61,6 +61,20 @@ _people 노드별 분할 경로는 어떻게 작동합니까?_
 | | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>역할</li> |
 | | [!UICONTROL 특수 필터] > [!UICONTROL 목록의 구성원] | 해당 사용자는 하나 이상의 Marketo Engage 목록에 속하거나 속하지 않습니다. |
 | [사용자](#add-a-split-path-by-people-node) > [!UICONTROL Account-person 특성만] | 계정 속성의 역할 | 계정에서 역할이 할당되었거나 할당되지 않았습니다. 선택적 제한: <li>역할 이름 입력</li> |
+
+<!-- 
+
+Add back for next release:
+
+Accounts:
+
+| | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won</li><li>Last activity date</li><li>Person source<li>Name</li><li>Next step</li><li>Probability<li>Quantity<li>Stage</li><li>Type |
+
+People:
+
+| | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities associated with the journey: <li>[!UICONTROL Clicked link in SMS]</li><li>[!UICONTROL SMS Bounced]</li>These conditions are evaluated using a selected SMS message from earlier in the journey.  |
+
+-->
 
 ### 계정 노드별 분할 경로 추가
 
