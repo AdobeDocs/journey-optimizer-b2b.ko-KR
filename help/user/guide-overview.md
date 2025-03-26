@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: 내장된 생성 AI 및 업계 최고 수준의 자동화를 사용하여 계정을 조정하고 그룹 여정을 구매하기 위해 Adobe Journey Optimizer B2B edition 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 7%
 
 ---
@@ -30,6 +30,12 @@ Adobe Express 빠른 작업 을 사용하여 자르기, 크기 조정, 배경 �
 Adobe Express Enterprise 라이센스를 통해 전체 Adobe Express 기능을 활용할 수 있습니다. 이러한 기능을 사용하여 이미지를 연마하고 개선하는 동시에 브랜드 지침을 준수하고 콘텐츠 공급망의 장애물을 제거합니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Express을 사용한 이미지 편집 방법에 대해 알아보기"}
+
+>[!TAB 조각 사용자 지정 가능 필드]
+
+콘텐츠 디자이너는 조각의 구성 요소에 대한 매개 변수를 편집 가능한 것으로 지정할 수 있습니다. 이를 통해 이메일 또는 템플릿 작성자는 해당 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 지정 플래그는 이미지, 텍스트 및 단추 시각적 구성 요소로 제한됩니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="콘텐츠 조각의 사용자 정의 필드에 대해 알아보기"}
 
 >[!TAB AEP 이벤트 전달]
 

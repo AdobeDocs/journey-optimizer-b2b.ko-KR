@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1601'
 ht-degree: 9%
 
 ---
@@ -17,7 +17,21 @@ Journey Optimizer B2B edition은 기본적으로 [!DNL Adobe Experience Platform
 
 자격, 성능 보호 및 제한 사항에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
-## 2025년 1월 릴리스 정보 {#Jan-2025}
+## 2025.2 릴리스 노트
+
+**릴리스 날짜**: 2025년 3월 11일
+
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+
+| 유형 | 항목 | 설명 |
+| ---- | ---- | ----------- |
+| 새로운 기능 | 사용자 정의 가능한 필드 - 콘텐츠 조각 | 콘텐츠 조각 디자이너는 조각의 구성 요소에 대한 매개 변수를 편집 가능한 것으로 지정할 수 있습니다. 이를 통해 이메일 또는 템플릿 작성자는 해당 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 지정 플래그는 이미지, 텍스트 및 단추 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-custom-fields">자세히 알아보기</a> |
+| 새로운 기능 | B2B 기본 제공 역할 및 제품 권한 | 이제 Experience Platform에는 B2B 제품 기능에 대한 액세스를 관리하는 데 사용할 수 있는 기본 역할 세트가 포함되어 있습니다. <a href="../admin/user-management.md#b2b-built-in-roles">자세히 알아보기</a> <br/>이제 관리자는 Adobe Experience Platform에서 Journey Optimizer B2B edition 제품 권한을 포함하도록 사용자 지정 역할을 정의할 수 있습니다.  <a href="../admin/user-management.md#b2b-product-permissions">자세히 알아보기</a> |
+| 개선 사항 | 4개의 추가 샘플 이메일 템플릿 | 이제 샘플 이메일 템플릿 라이브러리에는 재참여, 알림, 육성 및 피드백 콘텐츠 예제 등의 4가지 SecurFinancial 템플릿이 포함되어 있습니다 |
+
+
+
+## 2025.1 릴리스 정보 {#Jan-2025}
 
 **릴리스 날짜**: 2025년 2월 6일
 
@@ -46,7 +60,7 @@ Journey Optimizer B2B edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 새로운 기능 | 이메일 템플릿의 조건부 콘텐츠 | 계정 및 리드 수준에서 수신자 행동 및 프로필 특성을 기반으로 이메일 콘텐츠를 개인화합니다. <p>이메일 디자이너에서 계정 여정에 대한 이메일을 작성할 때 조건부 규칙을 사용하여 콘텐츠 구성 요소에 대한 여러 변형을 정의합니다. <a href="../content/conditional-content.md">자세히 알아보기</a> |
+| 새로운 기능 | 이메일 템플릿의 조건부 콘텐츠 | 계정 및 리드 수준에서 수신자 행동 및 프로필 특성을 기반으로 이메일 콘텐츠를 개인화합니다. <p>이메일 시각적 디자인 공간에서 계정 여정에 대한 이메일을 작성할 때 조건부 규칙을 사용하여 콘텐츠 구성 요소에 대한 여러 변형을 정의합니다. <a href="../content/conditional-content.md">자세히 알아보기</a> |
 | 새로운 기능 | _목록에 추가_ 및 _목록에서 제거_&#x200B;여정의 사람 작업 | 계정 및 리드 수준에서 수신자 행동 및 프로필 특성을 기반으로 이메일 콘텐츠를 개인화합니다. <a href="../journeys/action-nodes.md">자세히 알아보기</a> |
 | 새로운 기능 | 콘텐츠 거버넌스 및 구성 요소 잠금 | 승인된 콘텐츠 디자인을 준수하려면 콘텐츠 거버넌스 기능을 사용하여 이메일 템플릿 콘텐츠 구성 요소를 잠급니다. 이메일 템플릿에서 콘텐츠 거버넌스를 활성화하면 마케터는 허용된 요소만 변경하여 콘텐츠 전략에 맞게 콘텐츠를 조정할 수 있습니다. <a href="../content/template-content-governance.md">자세히 알아보기</a> |
 | 새로운 기능 | 구매 그룹 단계 | 사용자 정의 구매 그룹 스테이징 모델을 정의하고 게시하면 구매 그룹 라이프사이클 단계 간의 구매 그룹 진행률을 추적할 수 있습니다. 구매 그룹 구성원을 위한 다음 최적 작업을 식별하려면 다음 단계를 사용하십시오. 단계 진행률을 결정하고 변경 사항을 기반으로 작업을 트리거하는 전환 규칙 및 여정 노드를 구성합니다. <a href="../buying-groups/buying-group-stages.md">자세히 알아보기</a> |
