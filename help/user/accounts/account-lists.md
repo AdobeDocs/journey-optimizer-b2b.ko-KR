@@ -1,14 +1,11 @@
 ---
 title: 계정 목록
 description: 계정 목록과 마케터가 계정 여정을 통해 계정을 타깃팅하는 데 이 목록을 사용하는 방법에 대해 알아봅니다.
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 0%
+source-wordcount: '1632'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +20,7 @@ ht-degree: 0%
 
 ## 계정 목록 액세스 및 찾아보기
 
-1. Adobe Experience Platform 홈페이지에서 Adobe Journey Optimizer B2B edition 를 클릭합니다.
+1. Adobe Experience Platform 홈 페이지에서 Adobe Journey Optimizer B2B 에디션을 클릭합니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 계정]**&#x200B;을 확장하고 **[!UICONTROL 계정 목록]**&#x200B;을 클릭합니다.
 
@@ -37,13 +34,13 @@ ht-degree: 0%
    * [!UICONTROL 마지막으로 업데이트한 날짜]
    * [!UICONTROL 마지막으로 업데이트한 사람]
    * [!UICONTROL 만든 날짜]
-   * [!UICONTROL 만든 사람]
+   * [!UICONTROL 생성자]
 
 이 표에는 이름별로 검색하는 기능이 포함되어 있습니다. 현재 정렬 기능을 사용할 수 없습니다.
 
 오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하고 확인란을 선택하거나 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
 
-![계정 여정 목록에 표시할 열을 선택하십시오](./assets/account-lists-list-columns.png){width="300"}
+![계정 여정 목록에 표시할 열 선택](./assets/account-lists-list-columns.png){width="300"}
 
 계정 목록에 대한 설명을 보려면 이름 옆에 있는 _정보_ 아이콘을 클릭합니다.
 

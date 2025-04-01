@@ -2,10 +2,11 @@
 title: 계정 여정 만들기 및 게시
 description: 계정 여정을 만들고 게시하는 방법에 대해 알아봅니다.
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ## 계정 여정 만들기
 
-1. 왼쪽 탐색에서 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다.
+1. 왼쪽 탐색 영역에서 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다.
 
 1. 페이지 오른쪽 상단에서 **[!UICONTROL 계정 여정 만들기]**&#x200B;를 클릭합니다.
 
@@ -33,8 +34,8 @@ _여정 맵_&#x200B;은(는) 여정 디자이너의 중앙 영역입니다. 이 
 
 계정 여정을 만들고 대상을 추가한 후 노드를 사용하여 여정을 빌드합니다. 여정 맵에서는 다음 노드 유형을 사용하여 다단계 B2B 마케팅 사용 사례를 빌드하여 계정 여정을 구성할 수 있는 캔버스를 제공합니다.
 
-* [조치 취하기](./action-nodes.md)
-* [이벤트 수신](./listen-for-event-nodes.md)
+* [액션 취하기](./action-nodes.md)
+* [이벤트 듣기](./listen-for-event-nodes.md)
 * [경로 분할](./split-merge-paths-nodes.md)
 * [대기](./wait-nodes.md)
 * [경로 병합](./split-merge-paths-nodes.md)
@@ -109,7 +110,7 @@ _여정 맵_&#x200B;은(는) 여정 디자이너의 중앙 영역입니다. 이 
 
 ## 계정 여정 게시
 
-계정 여정에 오류가 없는 경우 게시할 수 있습니다.
+차단기 오류가 없는 경우 여정을 게시할 수 있습니다. 게시되면 여정 상태가 _진행 중_&#x200B;으로 변경됩니다. 여정에 오류가 있으면 _[!UICONTROL 게시]_ 단추가 콘텐츠 정보로 흐리게 표시됩니다. `Resolve errors before publishing`.
 
 1. 여정 맵의 오른쪽 상단에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
