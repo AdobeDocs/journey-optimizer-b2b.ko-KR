@@ -3,14 +3,14 @@ title: 그룹 역할 템플릿 구매
 description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
+source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 1%
+source-wordcount: '1128'
+ht-degree: 4%
 
 ---
 
-# 그룹 역할 템플릿 구매 중
+# 구매 그룹 역할 템플릿
 
 B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다. 그 개인들은 조직 내에서 자신의 역할에 따라 의사결정 과정에 참여한다. 각 제품 제공 유형 또는 계정 사용 사례에 따라 이러한 역할 정의를 포함하는 구매 그룹 역할 템플릿을 만듭니다.
 
@@ -18,7 +18,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
 ## 역할 템플릿 액세스 및 찾아보기
 
-1. Adobe Experience Platform 홈페이지에서 Adobe Journey Optimizer B2B edition 를 클릭합니다.
+1. Adobe Experience Platform 홈 페이지에서 Adobe Journey Optimizer B2B 에디션을 클릭합니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 구매 그룹]**&#x200B;을 클릭합니다.
 
@@ -31,10 +31,10 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
    * [!UICONTROL 이름]
    * [!UICONTROL 상태]
    * [!UICONTROL 만든 날짜]
-   * [!UICONTROL 만든 사람]
+   * [!UICONTROL 생성자]
    * [!UICONTROL 마지막 업데이트]
    * [!UICONTROL 마지막으로 업데이트한 사람]
-   * [!UICONTROL 게시 날짜]
+   * [!UICONTROL 게시일]
    * [!UICONTROL 게시자]
 
    이 목록은 기본적으로 _[!UICONTROL 마지막 업데이트]_ 열을 기준으로 정렬됩니다.
@@ -66,7 +66,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 | 유형 | 조건 |
 | ---- | --------- |
 | 개인 속성 | <li>이메일 주소 <li>잘못된 이메일 <li>이메일 일시 중단됨 <li>팩스 번호 <li>이름 <li>상태 영역 유추 <li>직위 <li>성 <li>가운데 이름 <li>휴대폰 번호 <li>전화번호 <li>우편번호 <li>주/도 <li>주소 삭제 <li>구독 취소 이유 |
-| 특수 필터 | <li>목록 구성원 |
+| 특수 필터 | <li>목록 구성원 <li>프로그램 구성원 |
 | 의도 데이터 | 범주 의도 <li>제품 의도 <li>키워드 의도<br/>[의도 데이터에 대해 알아보기](../admin/intent-data.md). |
 
 1. 첫 번째 역할 카드의 경우 역할 속성을 정의합니다.
@@ -113,7 +113,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
 >[!BEGINSHADEBOX &quot;Marketo Engage 목록 구성원&quot;]
 
-Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버십을 확인하여 잠재 고객이 중복 이메일을 받지 않고 동시에 여러 전자 메일 스트림의 구성원이 아닌지 확인합니다. Journey Optimizer B2B에서 Marketo Engage 템플릿을 위한 조건으로 그룹 목록 멤버십을 확인하여 구매 그룹 멤버십 및 여정 활동의 중복을 제거할 수 있습니다.
+Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버십을 확인하여 리드가 중복 이메일을 받지 않고 동시에 여러 이메일 스트림의 멤버가 아닌지 확인합니다. Journey Optimizer B2B에서 역할 템플릿에 대한 조건으로 Marketo Engage 목록 멤버십을 확인하여 구매 그룹 멤버십 및 여정 활동의 중복을 제거할 수 있습니다.
 
 목록 멤버십을 역할 조건으로 사용하려면 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 목록의 멤버]** 조건을 필터 공간으로 끌어서 놓습니다. 그런 다음 필터 정의를 완료하여 하나 이상의 Marketo Engage 목록에서 멤버십을 평가합니다.
 
@@ -123,9 +123,9 @@ Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버�
 
 변경 사항이 _초안_ 상태로 자동 저장됩니다. 역할 템플릿을 게시할 준비가 되지 않은 경우 페이지 상단의 왼쪽(뒤로) 화살표를 클릭하고 _[!UICONTROL 역할 템플릿]_ 목록으로 돌아갑니다.
 
-### Publish 역할 템플릿
+### 역할 템플릿 게시
 
-템플릿을 사용할 준비가 되면 오른쪽 상단의 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+템플릿을 사용할 준비가 되었으면 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
 템플릿을 게시하면 상태가 _Live_ 상태로 설정되고 솔루션 관심사와 연결할 수 있습니다. 역할 템플릿을 게시하려면 정의된 역할이 하나 이상 있어야 합니다.
 
