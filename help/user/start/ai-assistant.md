@@ -1,19 +1,19 @@
 ---
-title: AI Assistant 사용
-description: AI Assistant를 통해 Journey Optimizer B2B 에디션 기능을 최대한 활용하는 방법을 살펴볼 수 있습니다.
+title: AI 어시스턴트 사용
+description: AI Assistant를 통해 Journey Optimizer B2B edition 기능을 최대한 활용하는 방법을 살펴볼 수 있습니다.
 feature: AI Assistant
 level: Beginner
-badgeBeta: label="Beta" type="informative" tooltip="Beta 기능"
-source-git-commit: 3d20c8e8b9e5b8bc37274fc170edec80e142ad8e
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+source-git-commit: e3ae3508db551cbd495be3108d555b936e2982a3
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
-# AI Assistant 사용
+# AI 어시스턴트 사용
 
-Journey Optimizer B2B 에디션에서 AI Assistant는 계정 기반 마케팅 개념을 이해하고 Journey Optimizer B2B 에디션 기능<!-- get operational insights for your specific environment -->을(를) 빠르게 탐색하고 학습하는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Experience Cloud 전체의 여러 제품에서도 사용할 수 있습니다.
+Journey Optimizer B2B edition에서 AI Assistant는 계정 기반 마케팅 개념을 이해하고 Journey Optimizer B2B edition 기능을 빠르게 탐색하고 학습하는 데 사용할 수 있는 사용자 인터페이스 기능입니다<!-- get operational insights for your specific environment -->. Adobe Experience Cloud 전체의 여러 제품에서도 사용할 수 있습니다.
 
 AI Assistant에 액세스하려면 헤더에서 아이콘을 클릭합니다. AI Assistant가 오른쪽 패널에서 열립니다.
 
@@ -21,13 +21,13 @@ AI Assistant에 액세스하려면 헤더에서 아이콘을 클릭합니다. AI
 
 >[!IMPORTANT]
 >
->AI Assistant를 사용하려면 Adobe Experience Cloud 생성 AI 사용 지침에 대한 동의가 필요합니다. 이 계약 및 사용 지침에 대한 자세한 내용은 [Adobe Experience Cloud Generative AI 사용 지침](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)을 참조하세요.
+>AI Assistant를 사용하려면 Adobe Experience Cloud 생성 AI 사용 지침에 대한 동의가 필요합니다. 이 계약 및 사용 지침에 대한 자세한 내용은 [Adobe Experience Cloud Generative AI 사용 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)을 참조하세요.
 
-Adobe Journey Optimizer B2B 에디션에서 AI Assistant는 다음과 같은 사용 사례를 지원합니다.
+Adobe Journey Optimizer B2B edition에서 AI Assistant는 다음과 같은 사용 사례를 지원합니다.
 
 * **제품 정보**(Beta)
 
-  제품 지식 질문은 Adobe Journey Optimizer의 측면과 관련된 Journey Optimizer B2B 에디션 개념에 대한 것입니다. 제품 지식 질문에 대한 몇 가지 예는 다음과 같습니다.
+  제품 지식 질문은 Adobe Journey Optimizer의 측면과 관련된 Journey Optimizer B2B edition 개념에 대한 것입니다. 제품 지식 질문에 대한 몇 가지 예는 다음과 같습니다.
 
    * SMS 공급자 계정을 설정하려면 어떻게 해야 합니까?
    * 계정 여정 시 이메일을 보내려면 어떻게 해야 합니까?
