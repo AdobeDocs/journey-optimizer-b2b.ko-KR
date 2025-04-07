@@ -2,31 +2,30 @@
 title: 랜딩 페이지
 description: 랜딩 페이지와 이를 만들고 관리하여 계정 여정 및 캠페인을 지원하는 방법에 대해 알아봅니다.
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2188'
 ht-degree: 2%
 
 ---
 
 # 랜딩 페이지
 
-랜딩 페이지는 연락처와 고객이 이메일, SMS 메시지 또는 디지털 위치에서 연결된 항목을 클릭한 후 직접 연락할 수 있는 독립 실행형 웹 페이지입니다. 이 페이지들을 계정 여정에 통합하여 잠재 고객과 고객이 웹에서 메시지를 보고 계정 여정에서 진행하도록 할 수 있습니다. 랜딩 페이지 Designer에서 랜딩 페이지를 만들고, 개인화하고, 미리 볼 수 있습니다.
+랜딩 페이지는 연락처와 고객이 이메일, SMS 메시지 또는 디지털 위치에서 연결된 항목을 클릭한 후 직접 연락할 수 있는 독립 실행형 웹 페이지입니다. 이 페이지들을 계정 여정에 통합하여 잠재 고객과 고객이 웹에서 메시지를 보고 계정 여정에서 진행하도록 할 수 있습니다. 랜딩 페이지 시각적 디자인 공간에서 랜딩 페이지를 만들고, 개인화하고, 미리 볼 수 있습니다.
 
 고객이 특정 링크를 클릭할 때 정의된 웹 페이지로 안내하려면 Journey Optimizer B2B edition에서 랜딩 페이지를 만듭니다.
 
 * 페이지 만들기
 * 랜딩 페이지 디자인 및 콘텐츠 작성
 * 페이지 테스트
-* 페이지 Publish
+* 페이지 게시
 * 여정 컨텐츠의 페이지 링크
 
 예를 들어 랜딩 페이지를 만들고 디자인하여 사용자를 온라인 정보로 안내할 수 있습니다. 페이지에는 커뮤니케이션 수신을 옵트인하거나 옵트아웃할 수 있는 양식이 포함될 수 있습니다. 또는 뉴스레터와 같은 반복되는 커뮤니케이션에 가입할 수 있습니다.
 
-비주얼 디자이너에서 랜딩 페이지를 만들고, 개인화하고, 미리 볼 수 있습니다.
+시각적 디자인 공간에서 랜딩 페이지를 만들고, 개인화하고, 미리 볼 수 있습니다.
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ Adobe Journey Optimizer B2B edition의 랜딩 페이지에 액세스하려면 �
 
 | 상태 | 설명 |
 | -------------------- | ----------- |
-| 초안 | 랜딩 페이지를 만들 때 초안 상태입니다. 이 상태는 시각적 콘텐츠를 정의하거나 편집할 때 호스팅되는 페이지로 게시할 때까지 이 상태로 유지됩니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>비주얼 디자이너에서 편집<li>게시<li>복제<li>삭제 |
+| 초안 | 랜딩 페이지를 만들 때 초안 상태입니다. 이 상태는 시각적 콘텐츠를 정의하거나 편집할 때 호스팅되는 페이지로 게시할 때까지 이 상태로 유지됩니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>시각적 디자인 공간에서 편집<li>게시<li>복제<li>삭제 |
 | 게시일 | 랜딩 페이지를 게시하면 Journey Optimizer B2B edition 인스턴스에서 호스팅되며 이메일 또는 SMS 메시지 콘텐츠에서 연결할 수 있습니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가<li>초안 버전 만들기<li>복제<li>삭제 |
-| 초안과 함께 게시됨 | 게시된 랜딩 페이지에서 초안을 만들면 게시된 버전이 유지되고 비주얼 디자이너에서 초안 콘텐츠를 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되고 호스팅된 페이지에서 콘텐츠가 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가<li>비주얼 디자이너에서 초안 버전 편집<li>Publish 초안 버전<li>복제<li>삭제(두 버전 모두 삭제)<li>초안 삭제(게시됨으로 돌아가기) |
+| 초안과 함께 게시됨 | 게시된 랜딩 페이지에서 초안을 만들면 게시된 버전이 유지되고 시각적 디자인 공간에서 초안 콘텐츠를 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되고 호스팅된 페이지에서 콘텐츠가 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가<li>시각적 디자인 공간에서 초안 버전 편집<li>초안 버전 게시<li>복제<li>삭제(두 버전 모두 삭제)<li>초안 삭제(게시된 상태로 돌아가기) |
 
 ![랜딩 페이지 상태 주기](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -90,7 +89,7 @@ Adobe Journey Optimizer B2B edition의 랜딩 페이지에 액세스하려면 �
 
    ![랜딩 페이지 디자인 시작 방법 선택](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   랜딩 페이지 디자인을 시작하는 데 사용할 메서드를 선택한 후 비주얼 디자이너를 사용하여 [페이지를 디자인](./landing-page-design.md)합니다.
+   랜딩 페이지 디자인을 시작하는 데 사용할 메서드를 선택한 후 시각적 디자인 공간을 사용하여 [페이지를 디자인](./landing-page-design.md)합니다.
 
 ### 처음부터 디자인
 
@@ -100,7 +99,7 @@ Adobe Journey Optimizer B2B edition의 랜딩 페이지에 액세스하려면 �
 
 1. 페이지에 [구조 및 콘텐츠 추가](./landing-page-design.md#add-structure-and-content).
 
-### 가져오기 HTML
+### HTML 가져오기
 
 Adobe Journey Optimizer B2B edition을 사용하면 기존 HTML 콘텐츠를 가져와서 랜딩 페이지를 디자인할 수 있습니다.
 
@@ -112,7 +111,7 @@ Adobe Journey Optimizer B2B edition을 사용하면 기존 HTML 콘텐츠를 가
 >
 >`<table>` 태그를 HTML 파일의 첫 번째 레이어로 사용하면 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
 
-비주얼 디자이너를 사용하여 필요에 따라 가져온 콘텐츠를 개인화할 수 있습니다.
+필요에 따라 시각적 디자인 공간을 사용하여 가져온 콘텐츠를 개인화할 수 있습니다.
 
 ### 저장된 템플릿 선택
 
@@ -142,7 +141,7 @@ _기본 랜딩 페이지 만들기_ 홈 페이지에서 기본적으로 _샘플 
 
 표시와 사용할 항목이 일치하면 미리 보기 창의 오른쪽 상단에 있는 **[!UICONTROL 이 서식 파일 사용]**&#x200B;을 클릭합니다.
 
-이 작업은 콘텐츠를 시각적 콘텐츠 디자이너에 복사하며, 필요한 경우 콘텐츠를 편집할 수 있습니다.
+이 작업은 콘텐츠를 필요에 따라 편집할 수 있는 시각적 디자인 공간으로 복사합니다.
 
 >[!TAB 샘플 템플릿]
 
@@ -177,9 +176,9 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
    ![초안 상태의 랜딩 페이지에 대한 세부 정보](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. 비주얼 디자이너의 콘텐츠를 변경하려면 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭하세요.
+1. 시각적 디자인 공간에서 콘텐츠를 변경하려면 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭하세요.
 
-   필요에 따라 비주얼 디자이너 도구를 사용합니다.
+   필요에 따라 시각적 디자인 도구를 사용합니다.
 
    * [구조 및 콘텐츠 추가](./landing-page-design.md#add-structure-and-content)
    * [Assets 추가](./landing-page-design.md#add-assets)
@@ -189,7 +188,7 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
-1. 페이지가 조건에 맞는 경우 표시할 수 있도록 하려면 **[!UICONTROL Publish]**&#x200B;을 클릭하세요.
+1. 페이지가 조건에 맞는 경우 표시할 수 있도록 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
 >[!TAB 게시됨]
 
@@ -203,11 +202,11 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
 1. 콘텐츠를 업데이트하려면 오른쪽의 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭하세요.
 
-   대화 상자에서 **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭하여 비주얼 디자이너에서 초안 버전을 엽니다.
+   대화 상자에서 **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭하여 시각적 디자인 공간에서 초안 버전을 엽니다.
 
    ![초안 버전 만들기 대화 상자](./assets/landing-page-create-draft-version.png){width="300"}
 
-   필요에 따라 비주얼 디자이너 도구를 사용합니다.
+   필요에 따라 시각적 디자인 도구를 사용합니다.
 
    * [구조 및 콘텐츠 추가](./landing-page-design.md#add-structure-and-content)
    * [Assets 추가](./landing-page-design.md#add-assets)
@@ -217,7 +216,7 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
-1. 초안 랜딩 페이지가 조건을 충족하고 게시된 페이지에서 변경 사항을 사용할 수 있게 하려면 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. 초안 랜딩 페이지가 조건을 충족하고 게시된 페이지에서 변경 사항을 사용할 수 있게 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
    초안 버전을 게시하면 현재 게시된 버전이 대체되고 페이지 URL에 대한 콘텐츠가 업데이트됩니다.
 
@@ -229,7 +228,7 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
 콘텐츠를 업데이트하려면:
 
-1. 오른쪽 상단의 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다. 필요에 따라 비주얼 디자이너 도구를 사용합니다.
+1. 오른쪽 상단의 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다. 필요에 따라 시각적 디자인 도구를 사용합니다.
 
    * [구조 및 콘텐츠 추가](./landing-page-design.md#add-structure-and-content)
    * [Assets 추가](./landing-page-design.md#add-assets)
@@ -239,7 +238,7 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
-1. 초안 페이지가 조건을 충족하고 변경 사항을 사용하려면 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. 초안 페이지가 조건을 충족하고 변경 사항을 사용할 수 있게 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
    초안 버전을 게시하면 현재 게시된 버전이 대체되고 호스팅된 페이지에서 콘텐츠가 업데이트됩니다.
 
@@ -259,7 +258,7 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
    * `Placeholder links are present in the landing page body`: 자리 표시자를 올바른 링크로 바꾸는 것을 잊지 마십시오.
 
-   * `Text version of HTML is empty`: HTML 내용을 표시할 수 없을 때 사용되는 페이지 본문의 텍스트 버전을 정의하는 것을 잊지 마십시오.
+   * `Text version of HTML is empty`: 페이지 본문의 텍스트 버전을 정의해야 합니다. 텍스트 버전은 HTML 콘텐츠를 표시할 수 없을 때 사용됩니다.
 
    * `Empty link is present in page body`: 페이지의 모든 링크가 올바른지 확인하십시오.
 
@@ -292,3 +291,33 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 이 작업을 수행하면 확인 대화 상자가 열립니다. **[!UICONTROL 취소]**&#x200B;를 클릭하여 프로세스를 중단하거나 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인할 수 있습니다.
 
 ![랜딩 페이지 삭제 대화 상자](./assets/landing-page-delete-dialog.png){width="400"}
+
+## 랜딩 페이지 링크
+
+이메일, 조각 및 페이지 컨텐츠를 만드는 마케터 또는 Designer은 Journey Optimizer B2B edition 인스턴스에 만든 게시된(라이브) 랜딩 페이지에 대한 링크를 포함할 수 있습니다.
+
+1. 조각, 이메일, 랜딩 페이지 또는 템플릿에 대한 시각적 디자인 공간에서 작업할 때 링크의 텍스트 일부, 버튼 구성 요소 또는 이미지 구성 요소를 선택합니다.
+
+   **[!UICONTROL 링크]** 옵션이 오른쪽 패널에 표시됩니다.
+
+1. **[!UICONTROL Type]** 옵션에 대해 **[!UICONTROL 랜딩 페이지]**&#x200B;을(를) 선택하십시오.
+
+   ![랜딩 페이지에 대한 링크 옵션](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. **[!UICONTROL 랜딩 페이지]** 옵션의 경우 _페이지 선택_ 아이콘(![링크 표시 아이콘](/help/assets/do-not-localize/icon-landing-page-select.svg))을 클릭합니다.
+
+1. 랜딩 페이지 선택 대화 상자에서 **[!UICONTROL 랜딩 페이지 소스]**&#x200B;를 **[!UICONTROL Journey Optimizer B2B edition]**(으)로 설정하고 게시된 페이지 목록에서 랜딩 페이지에 대한 확인란을 선택한 다음 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
+
+   ![랜딩 페이지에 대한 링크 옵션](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Target]** 옵션의 경우 링크 대상 동작을 선택하십시오.
+
+   * **[!UICONTROL 없음]** - 브라우저 기본 동작을 사용하여 링크를 엽니다.
+   * **[!UICONTROL Blank]** - 새 창 또는 탭에서 링크를 엽니다.
+   * **[!UICONTROL 자체]** - 같은 프레임에서 링크를 엽니다.
+   * **[!UICONTROL 상위]** - 상위 프레임에서 링크를 엽니다.
+   * **[!UICONTROL 위쪽]** - 창의 전체 본문에서 링크를 엽니다.
+
+1. (텍스트 링크만 해당) 연결된 텍스트에 밑줄을 적용하려면 **[!UICONTROL 밑줄 링크]** 확인란을 선택합니다.
+
+   오른쪽 패널에서 **[!UICONTROL 스타일]** 탭을 선택하여 링크 색상을 포함하여 링크 텍스트에 대한 추가 스타일을 설정할 수 있습니다.

@@ -3,10 +3,10 @@ title: 이메일 작성
 description: 계정 여정에 사용되는 개인화된 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 12%
+source-wordcount: '1297'
+ht-degree: 11%
 
 ---
 
@@ -144,6 +144,10 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 ### 콘텐츠 개인화
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>계정 여정에 대해 _[!UICONTROL 내 토큰]_&#x200B;이 정의된 경우 전자 메일 콘텐츠에 대해 이러한 여정 관련 토큰을 사용할 수도 있습니다. 자세한 내용은 [전자 메일 개인화를 위한 사용자 지정 토큰](./personalization-my-tokens.md)을 참조하세요.
 
 ### 연결된 URL 추적 편집
 

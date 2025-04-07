@@ -3,9 +3,9 @@ title: SMS 작성
 description: 모바일 장치에서 고객에게 텍스트 메시지(SMS)를 보내는 방법과 SMS 편집기에서 텍스트 형식의 메시지를 개인화하고 미리 보는 방법에 대해 알아봅니다.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -78,19 +78,19 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 1. 대화 상자에서 연결할 URL 유형을 선택합니다.
 
-   * **[!UICONTROL 랜딩 페이지]** - Marketo Engage 인스턴스에서 승인된 Adobe Marketo Engage Design Studio 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오. 작업 영역을 선택한 다음 랜딩 페이지를 선택합니다.
+   * **[!UICONTROL 랜딩 페이지]** - Marketo Engage 인스턴스에서 승인된 Adobe Marketo Engage 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오. 작업 영역을 선택한 다음 랜딩 페이지를 선택합니다.
 
    * **[!UICONTROL 외부 URL]** - 이 형식은 텍스트 상자에 입력하는 모든 외부 URL입니다.
 
 1. 랜딩 페이지를 사용하도록 선택하는 경우 추적 옵션을 설정합니다.
 
-   * **[!UICONTROL 추적 사용]** - 이 확인란을 선택하여 추적을 사용하도록 설정합니다. 이렇게 하려면 URL을 _단축_&#x200B;해야 합니다. 랜딩 페이지의 경우 단축된 URL에 Marketo Engage 하위 도메인을 사용합니다. 단축된 URL 형식의 샘플이 표시됩니다. 실제 URL은 SMS가 수신자에게 전송될 때 만들어집니다.
+   * **[!UICONTROL 추적 사용]** - 이 확인란을 선택하여 추적을 사용하도록 설정합니다. 이렇게 하려면 URL을 _단축_&#x200B;해야 합니다. 랜딩 페이지의 경우, 단축된 URL에 Marketo Engage 하위 도메인을 사용합니다. 단축된 URL 형식의 샘플이 표시됩니다. 실제 URL은 SMS가 수신자에게 전송될 때 만들어집니다.
 
    * **[!UICONTROL mkt_tok 포함]** - 이 확인란을 선택하여 사용자에 대한 활동을 추적합니다.
 
      >[!NOTE]
      >
-     >추적을 허용하지만 _[!UICONTROL mkt_tok 포함]_&#x200B;을 사용하지 않도록 설정하는 경우 리디렉션 후 대상 URL에 `mkt_tok` 쿼리 문자열 매개 변수가 포함되지 않습니다. 이 매개 변수는 Marketo Engage 랜딩 페이지 및 Munchkin에서 개인 활동 추적을 확인하는 데 사용됩니다(예: 개인이 이메일에서 가입 해지하는 경우). 매개 변수로 인해 웹 사이트에서 문제가 발생하지 않는 한 이 옵션을 비활성화하지 마십시오.<br/>
+     >추적을 허용하지만 _[!UICONTROL mkt_tok 포함]_&#x200B;을 사용하지 않도록 설정하는 경우 리디렉션 후 대상 URL에 `mkt_tok` 쿼리 문자열 매개 변수가 포함되지 않습니다. 이 매개 변수는 Marketo Engage 랜딩 페이지 및 Munchkin에서 개인 활동 추적을 보장하기 위해 사용합니다(예: 개인이 이메일에서 가입 해지하는 경우). 매개 변수로 인해 웹 사이트에서 문제가 발생하지 않는 한 이 옵션을 비활성화하지 마십시오.<br/>
      >웹 사이트에서 Munchkin 추적 코드를 사용하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}를 참조하세요.
 
    ![SMS 메시지에 링크 대화 상자 추가](./assets/sms-add-link-dialog.png){width="470"}
@@ -137,7 +137,7 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 1. _콘텐츠 시뮬레이션_ 페이지를 사용하여 테스트 프로필에 사용되는 리드를 관리하십시오.
 
-   표시된 목록에서 Marketo Engage 리드 데이터베이스에서 가망 고객(한 번에 최대 10개의 가망 고객)을 검색하고 추가할 수 있습니다.
+   표시된 목록에서 Marketo Engage 리드 데이터베이스에서 리드를 검색하고 추가할 수 있습니다(한 번에 최대 10개의 리드).
 
    검색하려면 전체 전자 메일 주소를 입력하고 _Enter_&#x200B;를 누르십시오. 선택을 위해 해당 리드 프로파일이 표시됩니다.
 
@@ -165,4 +165,4 @@ Journey Optimizer B2B edition은 다음 논리를 사용하여 SMS 메시지에�
 
 * 기본적으로 잠재 고객이 사용자로부터 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 SMS 게재에서 제외됩니다
 
-* 다른 소스(예: AEP 또는 SMS 서비스 공급자)에서 발생한 이 잠재 고객 동의는 Journey Optimizer B2B edition에 동기화됩니다. 현재 인스턴스 수준에서 리드당 단일 동의 상태만 지원합니다(&#39;John Doe&#39; 리드가 인스턴스의 모든 프로모션 SMS에 구독되거나 구독 취소됨). 현재 브랜드 수준/개별 구독 목록 수준 동의에 대한 이중 옵트인을 지원하지 않습니다.
+* 다른 소스(예: AEP 또는 SMS 서비스 공급자)에서 전송된 이 잠재 고객 동의는 Journey Optimizer B2B edition에 동기화됩니다. 현재 인스턴스 수준에서 리드당 단일 동의 상태만 지원합니다(&#39;John Doe&#39; 리드가 인스턴스의 모든 프로모션 SMS에 구독되거나 구독 취소됨). 현재 브랜드 수준/개별 구독 목록 수준 동의에 대한 이중 옵트인을 지원하지 않습니다.

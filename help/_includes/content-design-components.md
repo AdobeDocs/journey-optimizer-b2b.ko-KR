@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠 작성 - 구성 요소
 description: 콘텐츠 작성에 구성 요소 및 콘텐츠 요소 사용에 대한 재사용 섹션
-source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

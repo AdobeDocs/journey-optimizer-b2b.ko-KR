@@ -3,10 +3,10 @@ title: 구매 그룹 단계
 description: 구매 그룹 단계에 대해 알아보고 판매 목표에 따른 여정 진행률을 추적하기 위해 그룹 단계를 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
-ht-degree: 0%
+source-wordcount: '2344'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![그룹 단계 구매 예제](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
-![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 보기](#overview-video)
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 개요 보기](#overview-video)
 
 ## 구매 그룹 단계 모델을 정의합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 구매 그룹 단계 모델이 _초안_ 상태에 있는 한 단계 및 전환 규칙을 편집할 수 있습니다.
 
-도면 모델을 보려면 다음을 수행합니다.
+_초안 모델을 보려면:_
 
 1. 왼쪽 탐색에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**(으)로 이동합니다.
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## 구매 그룹 단계 모델을 삭제합니다.
+
+구매 그룹 단계 모델이 초안 또는 게시됨 상태일 때 삭제할 수 있습니다. 게시된 경우(라이브) 솔루션 관심사와 연결되어 있지 않은 경우에만 삭제할 수 있습니다.
+
+1. 왼쪽 탐색에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**(으)로 이동합니다.
+
+1. _구매 그룹_ 페이지에서 **[!UICONTROL 단계]** 탭을 선택합니다.
+
+1. 단계 모델 이름 옆의 _자세히_ 메뉴 아이콘(**...**)을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+
+   ![구매 그룹 단계 모델 추가 메뉴](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 확인합니다.
 
 ## 계정 여정에서 모델 사용
 

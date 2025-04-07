@@ -3,9 +3,9 @@ title: 이메일 템플릿
 description: 계정 여정 이메일을 쉽고 효율적으로 작성하는 데 사용되는 이메일 템플릿을 관리하고 만드는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Journey Optimizer B2B edition에서 전자 메일 템플릿에 액세스�
 
 ![전자 메일 템플릿 라이브러리에 액세스하고 이름 및 날짜별로 필터링합니다](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-오른쪽 상단의 _표 사용자 지정_ 아이콘을 클릭하여 표에 표시할 열을 사용자 지정합니다. 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+오른쪽 상단의 _표 사용자 지정_ 아이콘(![표 사용자 지정 아이콘](../assets/do-not-localize/icon-column-settings.svg))을 클릭하여 표에 표시할 열을 사용자 지정합니다. 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
 표시된 템플릿 목록에서 다음 섹션에 설명된 작업을 수행할 수 있습니다.
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer B2B edition에서 전자 메일 템플릿에 액세스�
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-_[!UICONTROL 서식 파일 디자인]_ 페이지가 열리고 서식 파일을 만들기 위한 여러 옵션이 제공됩니다. _[!UICONTROL 처음부터 디자인]_, _[!UICONTROL HTML 가져오기]_ 또는 _[!UICONTROL 디자인 서식 파일 선택]_.
+_[!UICONTROL 템플릿 디자인]_ 페이지가 열리고 템플릿을 만들기 위한 여러 옵션이 제공됩니다. _[!UICONTROL 처음부터 디자인]_, _[!UICONTROL HTML 가져오기]_ 또는 _[!UICONTROL 디자인 템플릿 선택]_.
 
 ![전자 메일 서식 파일 디자인 시작 방법 선택](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
@@ -56,7 +56,7 @@ _[!UICONTROL 서식 파일 디자인]_ 페이지가 열리고 서식 파일을 �
 
 1. 템플릿에 [구조 및 콘텐츠 추가](./email-authoring.md#add-structure-and-content).
 
-### 가져오기 HTML
+### HTML 가져오기
 
 Adobe Journey Optimizer B2B edition을 사용하면 기존 HTML 콘텐츠를 가져와 이메일 템플릿을 디자인할 수 있습니다.
 
