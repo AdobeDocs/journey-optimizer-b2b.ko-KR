@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
+source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 90%
 
 ---
@@ -26,7 +26,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 새로운 기능 | 계정 목록 | 이제 산업, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 타겟팅하기 위해 정적 또는 동적 계정 목록을 만들 수 있습니다. <a href="../accounts/account-lists.md">자세히 알아보기</a> |
-| 새로운 기능 | 계정 여정에 대한 내 토큰 | 이제 계정 여정에 고유한 값을 사용하여 사용자 지정 토큰 세트를 정의할 수 있습니다. 이 사용자 지정 토큰 집합을 _내 토큰_&#x200B;이라고 하며 이러한 사용자 지정 토큰은 여정 전자 메일을 작성할 때 개인화용입니다. |
+| 새로운 기능 | 계정 여정에 대한 내 토큰 | 이제 계정 여정에 고유한 값을 사용하여 사용자 지정 토큰 세트를 정의할 수 있습니다. 이 사용자 지정 토큰 집합을 _내 토큰_&#x200B;이라고 하며 이러한 사용자 지정 토큰은 여정 전자 메일을 작성할 때 개인화용입니다. <a href="../content/personalization-my-tokens.md">자세히 알아보기</a> |
 | 새로운 기능 | 구매 그룹 단계 삭제 | 구매 그룹 단계 모델이 초안 또는 게시됨 상태일 때 삭제할 수 있습니다. 게시된 경우(라이브) 솔루션 관심사와 연결되어 있지 않은 경우에만 삭제할 수 있습니다. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">자세히 알아보기</a> |
 | 개선 사항 | 여정 노드 카운트 | 노드 수준에서 여정 멤버십 카운트에 대한 가시성이 개선되었습니다. 이 정보를 사용하여 여정 내 계정 진행률을 검증합니다. |
 
