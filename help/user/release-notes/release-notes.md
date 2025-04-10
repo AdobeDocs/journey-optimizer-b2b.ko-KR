@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
+source-git-commit: 775cecb2aa4e305ba9a80ba0655e5e854ddf69e2
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 90%
+source-wordcount: '1863'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 | 새로운 기능 | 계정 목록 | 이제 산업, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 타겟팅하기 위해 정적 또는 동적 계정 목록을 만들 수 있습니다. <a href="../accounts/account-lists.md">자세히 알아보기</a> |
 | 새로운 기능 | 계정 여정에 대한 내 토큰 | 이제 계정 여정에 고유한 값을 사용하여 사용자 지정 토큰 세트를 정의할 수 있습니다. 이 사용자 지정 토큰 집합을 _내 토큰_&#x200B;이라고 하며 이러한 사용자 지정 토큰은 여정 전자 메일을 작성할 때 개인화용입니다. <a href="../content/personalization-my-tokens.md">자세히 알아보기</a> |
 | 새로운 기능 | 구매 그룹 단계 삭제 | 구매 그룹 단계 모델이 초안 또는 게시됨 상태일 때 삭제할 수 있습니다. 게시된 경우(라이브) 솔루션 관심사와 연결되어 있지 않은 경우에만 삭제할 수 있습니다. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">자세히 알아보기</a> |
-| 개선 사항 | 여정 노드 카운트 | 노드 수준에서 여정 멤버십 카운트에 대한 가시성이 개선되었습니다. 이 정보를 사용하여 여정 내 계정 진행률을 검증합니다. |
+| 개선 사항 | 여정 노드 카운트 | 노드 수준에서 게시된 여정 멤버십 카운트에 대한 가시성이 개선되었습니다. _여정 맵_&#x200B;에서 노드는 _[!UICONTROL 입력한 총 계정 수]_&#x200B;를 표시합니다. 및 작업 노드를 선택하면 오른쪽의 세부 정보에 _[!UICONTROL 아직 작업되지 않은 계정]_&#x200B;도 포함됩니다. _이벤트 수신_ 노드에 대한 세부 정보에는 _[!UICONTROL 이 단계의 계정]_&#x200B;이 포함됩니다. 이 정보를 사용하여 라이브, 완료 및 중단된 여정의 계정 진행률을 확인합니다. |
 
 ## 2025.2 릴리스 정보
 
@@ -38,7 +38,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 새로운 기능 | 사용자 정의 가능 필드 - 콘텐츠 조각 | 콘텐츠 조각 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이렇게 하면 이메일 또는 템플릿 작성자가 자신의 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-custom-fields">자세히 알아보기</a> |
+| 새로운 기능 | 사용자 정의 가능 필드 - 콘텐츠 조각 | 콘텐츠 조각 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이렇게 하면 이메일 또는 템플릿 작성자가 자신의 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-fragment-customization">자세히 알아보기</a> |
 | 새로운 기능 | B2B 기본 제공 역할 및 제품 권한 | 이제 Experience Platform에는 B2B 제품 기능에 대한 액세스 권한을 관리하는 데 사용할 수 있는 기본 제공 역할 세트가 포함됩니다. <a href="../admin/user-management.md#b2b-built-in-roles">자세히 알아보기</a> <br/>이제 관리자는 Adobe Experience Platform에서 Journey Optimizer B2B 에디션 제품 권한을 포함하도록 사용자 정의 역할을 정의할 수 있습니다. <a href="../admin/user-management.md#b2b-product-permissions">자세히 알아보기</a> |
 | 새로운 기능 | 여정 복제 유형 | 계정 여정을 복제할 때 Journey Optimizer B2B edition에서 만든 이메일 및 SMS 메시지를 제외하고 노드 세부 정보를 포함할 수 있습니다. 또는 노드 세부 정보 및 설정 없이 구조 및 경로 흐름의 뼈대 복사본을 만들 수 있습니다. <a href="../journeys/journey-overview.md#duplicate-journey">자세히 알아보기</a> |
 | 개선 사항 | 4가지 추가 샘플 이메일 템플릿 | 이제 샘플 이메일 템플릿 라이브러리에는 재참여, 정보 제공, 육성 및 피드백 콘텐츠 예시를 위한 4가지 SecurFinancial 템플릿이 포함됩니다. |
