@@ -1,38 +1,38 @@
 ---
 title: 로그인 및 홈 페이지
-description: Journey Optimizer B2B edition 앱에 액세스하고 홈 페이지 정보를 사용하는 방법을 알아봅니다.
+description: Journey Optimizer B2B 에디션 앱에 액세스하고 홈 페이지 정보를 사용하는 방법을 알아봅니다.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
+source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 6%
+source-wordcount: '452'
+ht-degree: 96%
 
 ---
 
 # 로그인 및 홈 페이지
 
-Adobe Journey Optimizer B2B 에디션을 사용하면 빌트인된 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하고, 마케팅 적격 구매 그룹을 사용하여 특정 오퍼에 대한 수요를 극대화할 수 있습니다.
+Adobe Journey Optimizer B2B 에디션을 사용하면 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하고, 마케팅 적격 구매 그룹을 사용하여 특정 오퍼에 대한 수요를 극대화할 수 있습니다.
 
 <!-- Requirements?
 -->
-[!DNL Adobe Journey Optimizer B2B Edition]에 액세스하려면 Adobe ID을 사용하여 Adobe Experience Cloud에 연결한 다음 [!DNL Journey Optimizer B2B Edition]을(를) 선택하십시오.
+[!DNL Adobe Journey Optimizer B2B Edition]에 액세스하려면 Adobe ID로 Adobe Experience Cloud에 접속하고 [!DNL Journey Optimizer B2B Edition]을 선택합니다.
 
-![Adobe Experience Platform 앱](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![Adobe Experience Platform 앱](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
 
-Adobe Experience Platform에 로그인하고 Adobe Journey Optimizer B2B edition 앱을 선택하면 홈 페이지가 표시됩니다. 이 페이지에서는 관련 모듈에 대한 <!-- refined insights and--> 빠른 액세스 형식으로 Journey Optimizer B2B 이니셔티브의 현재 상태에 대한 개요를 제공합니다. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+Adobe Experience Platform에 로그인하고 Adobe Journey Optimizer B2B 에디션 앱을 선택하면 홈 페이지가 표시됩니다. 이 페이지에서는 관련 모듈에 대한<!-- refined insights and--> 바로 가기를 통해 Journey Optimizer B2B 이니셔티브의 현재 상태에 대한 개요를 제공합니다. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Journey Optimizer B2B edition 홈 페이지](./assets/home-page.png){width="800" zoomable="yes"}
+![Journey Optimizer B2B edition 홈 페이지](./assets/home-page.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
 
-Journey Optimizer B2B edition에는 _**마케터**_ 및 _**관리자**_&#x200B;라는 두 개의 기본 사용자 가상 사용자가 있습니다. 각 성향에는 다양한 성숙 단계(신규 또는 고급)를 위한 특정 홈 페이지가 있습니다. 페이지 콘텐츠는 각 담당자가 정보 측면에서 필요한 사항과 다음에 취해야 할 작업을 기반으로 합니다.
+Journey Optimizer B2B 에디션에는 두 가지 주요 사용자 페르소나, 즉 _**마케터**_&#x200B;와 _**관리자**_&#x200B;가 있습니다. 각 페르소나는 성숙도 단계(신규 또는 고급)에 따라 특정 홈 페이지를 갖습니다. 페이지 내용은 각 페르소나가 필요로 하는 정보와 취해야 할 다음 조치를 기반으로 구성됩니다.
 
-* **마케터 - 새 사용자** — 새 사용자에 대한 _마케터_ 홈 페이지는 새 사용자가 Journey Optimizer B2B 및 해당 기능에 익숙해지는 데 도움이 됩니다. 여기에는 새로운 마케터가 시스템의 뉘앙스를 이해하고 B2B 마케팅 전략 및 이니셔티브를 개발하는 데 효율적이 될 수 있도록 온보딩 연습을 얻을 수 있는 안내식 연습이 포함되어 있습니다.
-* **마케터 - 고급 사용자** — 고급 마케터의 _마케터_ 홈 페이지에서는 이니셔티브의 현재 진행 상황과 특정 작업 및 관련 섹션에 대한 빠른 액세스와 함께 수행할 다음 최적 작업에 대한 자세한 정보를 얻을 수 있습니다.
-* **관리자 - 새 사용자** — 새 관리자의 _관리자_ 홈 페이지에서는 새 관리자가 Journey Optimizer B2B edition 및 해당 기능에 익숙해질 수 있도록 지원합니다. 새로운 관리자가 시스템의 뉘앙스를 이해하고 B2B 마케팅 전략 및 이니셔티브를 개발하는 데 효율적이 될 수 있는 단계별 온보딩 여정을 얻을 수 있는 안내식 설명이 포함되어 있습니다.
-* **관리자 - 고급 사용자** — 고급 관리자의 _관리자_ 홈 페이지에서는 인스턴스의 현재 상태와 마케터에게 보다 효율적이고 효과적인 작업을 제공하기 위해 수행할 수 있는 특정 작업에 대한 자세한 정보를 얻을 수 있습니다.
+* **마케터 - 신규 사용자** -- 신규 사용자용 _마케터_ 홈 페이지는 신규 사용자가 Journey Optimizer B2B와 그 기능에 익숙해지는 데 도움이 됩니다. 여기에는 신규 마케터가 시스템의 미묘한 차이점을 이해하고 B2B 마케팅 전략과 이니셔티브를 효율적으로 개발할 수 있도록 온보딩 과정을 안내하는 가이드가 포함되어 있습니다.
+* **마케터 - 고급 사용자** -- 고급 마케터용 _마케터_ 홈 페이지는 이니셔티브의 현재 진행 상황과 특정 액션 및 다음으로 취해야 할 최선의 다음 조치에 대한 정보를 보다 자세히 얻는 데 도움이 되며 관련 섹션에 빠르게 액세스할 수 있도록 도와줍니다.
+* **관리자 - 신규 사용자** -- 신규 관리자용 _관리자_ 홈 페이지는 신규 관리자가 Journey Optimizer B2B 에디션과 그 기능에 익숙해지는 데 도움이 됩니다. 여기에는 신규 관리자가 시스템의 미묘한 차이점을 이해하고 B2B 마케팅 전략과 이니셔티브를 효율적으로 개발할 수 있도록 단계별 온보딩 과정을 안내하는 가이드가 포함되어 있습니다.
+* **관리자 - 고급 사용자** -- 고급 관리자용 _관리자_ 홈 페이지는 고급 관리자가 인스턴스의 현재 상태에 대한 자세한 정보와, 마케터가 인스턴스를 보다 효율적이고 효과적으로 사용할 수 있도록 하기 위해 취해야 하는 특정 조치에 대한 정보를 얻는 데 도움이 됩니다.
 
-_[!UICONTROL 최근에 액세스함]_ 섹션은 마케터 또는 관리자를 위해 가장 최근에 액세스한 자산 목록을 제공합니다. 이 목록을 사용하면 일련의 에셋 페이지를 탐색하고 검색하지 않고도 최근에 작업한 에셋으로 바로 이동할 수 있습니다.
+_[!UICONTROL 최근에 액세스한 항목]_ 섹션에서는 마케터 또는 관리자가 가장 최근에 액세스한 자산 목록을 제공합니다. 이 목록을 사용하면 일련의 자산 페이지를 탐색하거나 검색하지 않고도 최근에 작업한 자산으로 바로 이동할 수 있습니다.
 
-이 페이지에는 사용자가 필요한 특정 질문이나 주제에 대한 빠른 정보를 얻을 수 있는 [AI Assistant](./start/ai-assistant.md)에 대한 액세스 권한도 포함되어 있습니다.<!-- and to obtain specific recommendations for their challenges or objectives-->
+이 페이지에서는 사용자가 필요한 특정 질문이나 주제에 대한 정보를 빠르게 얻는 데 도움이 되는 [AI 어시스턴트](./ai-assistant/ai-assistant-overview.md)에 액세스할 수도 있습니다.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
