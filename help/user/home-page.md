@@ -4,8 +4,8 @@ description: Journey Optimizer B2B 에디션 앱에 액세스하고 홈 페이�
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 96%
+source-wordcount: '444'
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Adobe Journey Optimizer B2B 에디션을 사용하면 기본 제공 생성형 AI
 -->
 [!DNL Adobe Journey Optimizer B2B Edition]에 액세스하려면 Adobe ID로 Adobe Experience Cloud에 접속하고 [!DNL Journey Optimizer B2B Edition]을 선택합니다.
 
-![Adobe Experience Platform 앱](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Adobe Experience Platform 앱](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 Adobe Experience Platform에 로그인하고 Adobe Journey Optimizer B2B 에디션 앱을 선택하면 홈 페이지가 표시됩니다. 이 페이지에서는 관련 모듈에 대한<!-- refined insights and--> 바로 가기를 통해 Journey Optimizer B2B 이니셔티브의 현재 상태에 대한 개요를 제공합니다. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Journey Optimizer B2B edition 홈 페이지](./assets/home-page.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Journey Optimizer B2B 에디션 홈 페이지](./assets/home-page.png){width="800" zoomable="yes"}
 
 Journey Optimizer B2B 에디션에는 두 가지 주요 사용자 페르소나, 즉 _**마케터**_&#x200B;와 _**관리자**_&#x200B;가 있습니다. 각 페르소나는 성숙도 단계(신규 또는 고급)에 따라 특정 홈 페이지를 갖습니다. 페이지 내용은 각 페르소나가 필요로 하는 정보와 취해야 할 다음 조치를 기반으로 구성됩니다.
 

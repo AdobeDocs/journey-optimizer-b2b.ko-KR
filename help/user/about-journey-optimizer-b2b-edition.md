@@ -4,8 +4,8 @@ description: Adobe Journey Optimizer B2B 에디션의 주요 기능, 사용 사�
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 97%
+source-wordcount: '811'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Adobe Journey Optimizer B2B 에디션을 표준 Marketo Engage와 Adobe Journey 
 
 Adobe Journey Optimizer B2B 에디션은 Adobe Experience Platform의 _계정 대상자_&#x200B;와 _사람 대상자_&#x200B;를 사용하여 Marketo Engage 내에서 실행되는 계정 여정을 구동합니다. Experience Platform은 항상 이러한 데이터의 최종 소스이지만 계정 여정의 모든 실행과 처리는 Marketo Engage B2B 마케팅 인프라 내에서 이루어집니다. 오케스트레이션은 기존 Marketo Engage - Adobe Real-Time CDP B2B 에디션 소스 커넥터를 통해 거의 실시간으로 데이터를 Experience Platform으로 다시 가져오며, 이를 통해 Marketo Engage에서 Experience Platform으로 데이터 변경 사항이 스트리밍됩니다.
 
-![높은 수준의 데이터 아키텍처](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}{width=&quot;500&quot; zoomable=&quot;yes&quot;}
+![고차원의 데이터 아키텍처](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->성능 보호 및 정적 제한에 대해 라이선스 자격 및 해당 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}{target=&quot;_blank&quot;}을 확인하세요.
+>성능 가드레일과 정적 제한 사항에 대한 라이선스 권한과 해당 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 확인하십시오.
 
 ### 구독 모델
 
