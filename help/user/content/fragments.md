@@ -3,10 +3,10 @@ title: 조각
 description: 시각적 컨텐츠 조각을 Adobe Journey Optimizer B2B edition에서 이메일 및 이메일 템플릿에 대한 재사용 가능한 구성 요소로 만들고 사용하는 방법에 대해 알아봅니다.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '2624'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer B2B edition에서 시각적 조각에 액세스하려면
 
 ### 조각 상태 및 라이프사이클
 
-조각 상태는 이메일 또는 이메일 템플릿에서 사용할 수 있는 가용성과 해당 조각에 적용할 수 있는 변경 사항을 결정합니다.
+조각 상태는 이메일이나 이메일 템플릿에서 조각을 사용할 수 있는지 여부와 조각에 적용할 수 있는 변경 사항을 결정합니다.
 
 | 상태 | 설명 |
 | -------------------- | ----------- |
@@ -93,7 +93,7 @@ Adobe Journey Optimizer B2B edition에서 시각적 조각에 액세스하려면
    * [Assets 추가](./fragment-authoring.md#add-assets)
    * [레이어, 설정 및 스타일 탐색](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [콘텐츠 개인화](./fragment-authoring.md#personalize-content)
-   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-custom-fields)
+   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-fragment-customization)
    * [연결된 URL 추적 편집](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. 언제든지 **[!UICONTROL 저장]**&#x200B;을 클릭하여 초안 조각을 저장합니다.
@@ -173,7 +173,7 @@ _전자 메일_ 또는 _전자 메일 템플릿_ 범주에 따라 참조가 표�
    * [Assets 추가](./fragment-authoring.md#add-assets)
    * [레이어, 설정 및 스타일 탐색](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [콘텐츠 개인화](./fragment-authoring.md#personalize-content)
-   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-custom-fields)
+   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-fragment-customization)
    * [연결된 URL 추적 편집](./fragment-authoring.md#edit-linked-url-tracking)
 
    조각 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
@@ -202,7 +202,7 @@ _전자 메일_ 또는 _전자 메일 템플릿_ 범주에 따라 참조가 표�
    * [Assets 추가](./fragment-authoring.md#add-assets)
    * [레이어, 설정 및 스타일 탐색](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [콘텐츠 개인화](./fragment-authoring.md#personalize-content)
-   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-custom-fields)
+   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-fragment-customization)
    * [연결된 URL 추적 편집](./fragment-authoring.md#edit-linked-url-tracking)
 
    조각 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
@@ -231,7 +231,7 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
    * [Assets 추가](./fragment-authoring.md#add-assets)
    * [레이어, 설정 및 스타일 탐색](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [콘텐츠 개인화](./fragment-authoring.md#personalize-content)
-   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-custom-fields)
+   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-fragment-customization)
    * [연결된 URL 추적 편집](./fragment-authoring.md#edit-linked-url-tracking)
 
    조각 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
