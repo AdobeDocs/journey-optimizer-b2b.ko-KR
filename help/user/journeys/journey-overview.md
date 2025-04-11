@@ -21,7 +21,7 @@ ht-degree: 30%
 
 ## 여정 시작
 
-계정 여정을 시작하려면 다음을 수행합니다.
+계정 여정을 시작하려면 다음 작업을 수행하십시오.
 
 1. [여정을 만듭니다](./create-publish-journey.md#create-an-account-journey).
 1. 여정 맵에 [노드를 추가](./create-publish-journey.md#add-a-node)하고 [여정 흐름을 정의](./create-publish-journey.md#add-and-delete-a-path)합니다.
