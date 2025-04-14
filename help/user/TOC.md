@@ -3,8 +3,8 @@ user-guide-title: Journey Optimizer B2B 에디션 설명서
 user-guide-description: Adobe Journey Optimizer B2B 에디션에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 73%
+source-wordcount: '249'
+ht-degree: 91%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 73%
 
 + [Adobe Journey Optimizer B2B 에디션 설명서](guide-overview.md)
 + [릴리스 정보](./release-notes/release-notes.md)
-+ {#get-started} 시작
++ 시작 {#get-started}
    + [Journey Optimizer B2B 에디션 개요](about-journey-optimizer-b2b-edition.md)
    + [로그인 및 홈 페이지](home-page.md)
    + [빠른 시작 가이드](./start/get-started.md)
@@ -23,18 +23,18 @@ ht-degree: 73%
    + [AI Assistant 액세스 활성화](./ai-assistant/enable-ai-assistant-access.md)
    + [질문 지침](./ai-assistant/question-guidance.md)
    + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
-+ 계정 여정 {#account-여정}
++ 계정 여정 {#account-journeys}
    + [개요](./journeys/journey-overview.md)
    + [여정 생성 및 게시](./journeys/create-publish-journey.md)
    + [여정 노드](./journeys/journey-nodes.md)
-   + 여정 노드 {#여정-노드}
+   + 여정 노드 {#journey-nodes}
       + [계정 대상자](./journeys/account-audience-nodes.md)
       + [액션 취하기](./journeys/action-nodes.md)
       + [이벤트 듣기](./journeys/listen-for-event-nodes.md)
       + [경로 분할 및 병합](./journeys/split-merge-paths-nodes.md)
       + [대기](./journeys/wait-nodes.md)
    + [여정 세부 정보](./journeys/journey-details.md)
-+ 여정 컨텐츠 {#여정-컨텐츠}
++ 여정 콘텐츠 {#journey-content}
    + 이메일 채널 {#email-channel}
       + [이메일 작성](./content/email-authoring.md)
       + [이메일 작성을 위한 AI 어시스턴트](./content/ai-assistant-emails.md)
@@ -58,7 +58,7 @@ ht-degree: 73%
    + [계정 세부 정보](./accounts/account-details.md)
    + [XDM 필드](./data/field-mapping.md)
 + 콘텐츠 관리 {#content-management}
-   + Assets {#assets}
+   + 자산 {#assets}
       + [개요](./content/assets-overview.md)
       + Marketo Engage 자산 {#marketo-engage-dam}
          + [Marketo Engage 자산 작업](./content/marketo-engage-design-studio.md)
