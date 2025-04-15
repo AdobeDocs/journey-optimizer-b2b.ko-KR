@@ -3,7 +3,7 @@ title: 이메일 구성
 description: Marketo Engage에 구성된 이메일 설정에 액세스하고 검토하는 방법을 알아봅니다.
 feature: Setup
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
+source-git-commit: 3b4e4742a1913bed2b284f36be92f77b18383e0e
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 이메일 구성
 
-Adobe Journey Optimizer B2B edition은 Market Engage의 채널 기능 및 이벤트 추적을 활용합니다. 관리자는 마케터에게 채널 제공을 활성화하기 위해 게재 및 추적 구성이 제대로 되어 있는지 확인해야 합니다. Marketo Engage을 통한 전자 메일 배달 및 추적에 필요한 프로토콜에 대한 자세한 내용은 [추적 및 전자 메일 배달에 필요한 프로토콜](../start/email-protocols.md)을 참조하세요.
+Adobe Journey Optimizer B2B edition은 Marketo Engage의 채널 기능 및 이벤트 추적을 활용합니다. 관리자는 마케터에게 채널 제공을 활성화하기 위해 게재 및 추적 구성이 제대로 되어 있는지 확인해야 합니다. Marketo Engage을 통한 전자 메일 배달 및 추적에 필요한 프로토콜에 대한 자세한 내용은 [추적 및 전자 메일 배달에 필요한 프로토콜](../start/email-protocols.md)을 참조하세요.
 
 ## 게재 설정
 
@@ -36,11 +36,11 @@ Adobe Journey Optimizer B2B edition은 Market Engage의 채널 기능 및 이벤
 
 * **[!UICONTROL 보낸 사람 레이블]** - 표시된 전자 메일 보낸 사람 주소의 이름입니다.
 
-* **[!UICONTROL 구독 취소 HTML]** - 받는 사람에게 구독 취소 작업을 설명하기 위해 비작동 전자 메일에 표시되는 HTML(지원되는 전자 메일 클라이언트의 경우)입니다. 이 텍스트와 링크는 맨 아래에 추가됩니다.
+* **[!UICONTROL HTML 구독 취소]** - 수신자에게 구독 취소 작업을 설명하기 위해 비작동 전자 메일에 표시되는 HTML(지원되는 전자 메일 클라이언트의 경우)입니다. 이 텍스트와 링크는 맨 아래에 추가됩니다.
 
 * **[!UICONTROL 구독 취소 텍스트]** - 수신자에게 구독 취소 작업을 설명하기 위해 비작동 전자 메일에 표시되는 일반 텍스트입니다. 이 텍스트와 링크는 맨 아래에 추가됩니다.
 
-* HTML **[!UICONTROL 웹 페이지로 보기]** - _웹 페이지로 보기_&#x200B;에 사용되는 HTML(지원되는 전자 메일 클라이언트의 경우)로서, 브라우저에서 전자 메일을 표시하는 링크를 제공합니다.
+* **[!UICONTROL 웹 페이지로 보기 HTML]** - 브라우저에서 전자 메일을 표시하는 링크를 제공하는 _웹 페이지로 보기_&#x200B;에 사용되는 HTML(지원되는 전자 메일 클라이언트의 경우)입니다.
 
 * **[!UICONTROL 웹 페이지로 보기]** - _웹 페이지로 보기_&#x200B;에 사용되는 일반 텍스트로서, 브라우저에서 전자 메일을 표시하는 링크를 제공합니다.
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer B2B edition은 Market Engage의 채널 기능 및 이벤
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition 및 연결된 Marketo Engage 인스턴스에서 여러 브랜드를 마케팅 중이며 각각 고유한 브랜드 추적 링크를 갖게 하려는 경우 추가 브랜드 도메인을 추가할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
+>Journey Optimizer B2B edition 및 연결된 Marketo Engage 인스턴스에서 여러 브랜드를 마케팅 중이며 각각 고유한 브랜드 추적 링크를 보유하고자 하는 경우 추가 브랜딩 도메인을 추가할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
 
 ### [!UICONTROL 사용자 지정 헤더 옵션] {#custom-header-options}
 
@@ -82,11 +82,11 @@ _[!UICONTROL 엄격한 전송 보안]_&#x200B;을 사용하도록 설정하면 �
 
 ## SPF/DKIM
 
-SPF(Sender Policy Framework) 및 DKIM(Domain Keys Identified Mail)을 DNS 설정에 통합하여 이메일 게재 속도를 개선합니다. 이러한 기술은 수신자에게 이메일이 스팸이 아님을 보장합니다. 수신자의 스팸 필터가 이메일을 거부하지 않도록 하려면 도메인에 대해 SPF 및 DKIM이 설정되어 있는지 확인하십시오.
+DNS 설정에 SPF(Sender Policy Framework) 및 DKIM(Domain Keys Identified Mail)를 통합하여 이메일 게재 속도를 개선합니다. 이러한 기술은 수신자에게 이메일이 스팸이 아님을 보장합니다. 수신자의 스팸 필터가 이메일을 거부하지 않도록 하려면 도메인에 대해 SPF 및 DKIM이 설정되어 있는지 확인하십시오.
 
 현재 설정을 검토하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동하세요. 탐색 패널의 _[!UICONTROL 전자 메일]_&#x200B;에서 **[!UICONTROL SPF/DKIM]**&#x200B;을(를) 선택합니다.
 
-![SPF/DKIM 구성에 액세스](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
+![SPF/DKIM 구성 액세스](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
 설정은 Journey Optimizer B2B edition에서 읽기 전용입니다. 연결된 Marketo Engage 인스턴스의 구성 옵션에 액세스하려면 오른쪽 상단의 **[!UICONTROL 설정 편집]**&#x200B;을 클릭하십시오.
 
@@ -108,9 +108,9 @@ DNS 항목에 이미 SPF 레코드가 있는 경우 다음을 추가합니다.
 
 ### DKIM 설정
 
-DKIM은 이메일 수신기에서 이메일 메시지 발신자의 유효성을 검사하는 데 사용되는 인증 프로토콜입니다. 수신자는 메시지가 위조가 아님을 확신할 수 있으므로 종종 받은 편지함으로 이메일을 배달하는 기능이 향상됩니다.
+DKIM은 이메일 수신자가 이메일 메시지 발신자의 유효성을 검사하는 데 사용하는 인증 프로토콜입니다. 수신자는 메시지가 위조가 아님을 확신할 수 있으므로 종종 받은 편지함으로 이메일을 배달하는 기능이 향상됩니다.
 
-DNS 레코드의 공개 키와 연결된 Marketo Engage 인스턴스에서 활성화된 전송 도메인을 사용하면 보내는 메시지에 사용자 지정 DKIM 서명이 사용됩니다. 사용자 지정 DKIM 서명에는 전송된 각 이메일이 있는 암호화된 디지털 서명이 포함됩니다. 그러면 수신자는 보내는 도메인의 DNS에서 _공개 키_&#x200B;를 조회하여 디지털 서명을 해독할 수 있습니다. 이메일의 키가 DNS 레코드의 키와 일치하면 수신 메일 서버가 Marketo Engage을 통해 보낸 이메일을 수락할 가능성이 높습니다.
+DNS 레코드의 공개 키와 연결된 Marketo Engage 인스턴스에서 활성화된 전송 도메인을 사용하면 보내는 메시지에 사용자 지정 DKIM 서명이 사용됩니다. 사용자 지정 DKIM 서명에는 전송된 각 이메일이 있는 암호화된 디지털 서명이 포함됩니다. 그러면 수신자는 보내는 도메인의 DNS에서 _공개 키_&#x200B;를 조회하여 디지털 서명을 해독할 수 있습니다. 이메일의 키가 DNS 레코드의 키와 일치하는 경우 수신 메일 서버는 Marketo Engage을 통해 전송된 이메일을 수락할 가능성이 높습니다.
 
 전자 메일 게재를 위한 사용자 지정 DKIM 서명 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}를 참조하세요.
 
@@ -118,7 +118,7 @@ DNS 레코드의 공개 키와 연결된 Marketo Engage 인스턴스에서 활�
 
 이메일 봇 활동은 이메일 열기 및 클릭 데이터를 잘못 부풀릴 수 있습니다.
 
-Marketo Engage은 보트 활동을 확인하는 데 두 가지 방법을 사용합니다.
+Marketo Engage에서는 보트 활동을 확인하는 두 가지 방법을 사용합니다.
 
 * **IAB(Interactive Advertising Bureau) 목록과 일치** - IAB UA/IP(사용자 에이전트/IP 주소) 목록에 있는 모든 활동과 일치하는 활동이 봇으로 표시됩니다.
 
