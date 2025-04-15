@@ -2,9 +2,9 @@
 title: XDM 필드
 description: Adobe Experience Platform 및 Journey Optimizer B2B edition 간에 동기화된 기본 속성 필드를 검토합니다.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
+source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1342'
 ht-degree: 12%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 12%
 
 | [속성](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `b2b.companyName` | 회사 이름 | 회사 이름 | 문자열 | 사업가와 연계된 회사의 이름. |
-| `b2b.companyWebsite` | 회사 웹 사이트 | 웹 사이트 | 문자열 | 사업가와 연계된 회사의 웹 사이트. |
 | `b2b.isMarketingSuspended` | 마케팅 중단 표시기 | 마케팅 중단 | 부울 | 값은 사용자에 대한 마케팅이 일시 중단되었는지 여부를 나타냅니다. |
 | `b2b.marketingSuspendedCause` | 마케팅 중단 사유 | 마케팅 중단 사유 | 문자열 | 사용자에 대해 마케팅이 일시 중단된 경우 이 속성은 그 이유를 제공합니다. |
 | `b2b.personStatus` | 개인 상태 | 잠재 고객 상태 | 문자열 | 개인의 현재 마케팅/판매 상태를 기록하는 필드. |
@@ -101,5 +99,5 @@ ht-degree: 12%
 | `opportunityName` | 기회 이름 | 영업 기회 이름 | 문자열 | 영업 기회에 대한 예상 주문 또는 회사명과 같은 제목이나 설명적인 이름. |
 | `opportunityQuantity` | 영업 기회 수량 | 영업 기회 수량 | 문자열 | 영업 기회에 대한 관련 제품 목록의 모든 제품에 대한 모든 수량 필드 값의 합계. |
 | `opportunityStage` | 영업 기회 단계 | 영업 기회 단계 | 문자열 | 영업 단계에서 영업 팀이 수주하는 데 도움을 줄 수 있습니다. |
-| `opportunityType` | 영업 기회 유형 | 영업 기회 유형 | 문자열 | 영업 기회에 할당된 형식(예: _Existing Business _ 또는 _새 비즈니스_) |
+| `opportunityType` | 영업 기회 유형 | 영업 기회 유형 | 문자열 | 영업 기회에 할당된 형식(예: _기존 비즈니스_ 또는 _새 비즈니스_) |
 | `probabilityPercentage` | 확률 백분율 | 영업 기회 확률 백분율 | 문자열 | 백분율로 표시된 영업 기회 종료 가능성. |
