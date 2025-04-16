@@ -3,10 +3,10 @@ title: 그룹 역할 템플릿 구매
 description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에 대해 알아봅니다.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 4%
+source-wordcount: '1115'
+ht-degree: 3%
 
 ---
 
@@ -17,8 +17,6 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
 ## 역할 템플릿 액세스 및 찾아보기
-
-1. Adobe Experience Platform 홈 페이지에서 Adobe Journey Optimizer B2B 에디션을 클릭합니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 구매 그룹]**&#x200B;을 클릭합니다.
 

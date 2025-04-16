@@ -3,10 +3,10 @@ title: 계정 여정
 description: 계정 여정에 대해 알아보고 이를 만들고 관리하는 방법을 알아봅니다.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 30%
+source-wordcount: '1009'
+ht-degree: 29%
 
 ---
 
@@ -29,22 +29,20 @@ ht-degree: 30%
 
 ## 계정 여정 액세스 및 탐색
 
-1. Adobe Experience Platform 홈 페이지에서 Adobe Journey Optimizer B2B 에디션을 클릭합니다.
+왼쪽 탐색 영역에서 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다.
 
-1. 왼쪽 탐색 영역에서 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다.
+![계정 여정 액세스](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![계정 여정 액세스](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+표시되는 여정 페이지에는 다음과 같은 열이 포함됩니다.
 
-   표시되는 여정 페이지에는 다음과 같은 열이 포함됩니다.
-
-   * [!UICONTROL 이름]&#x200B;(편집할 여정을 열려면 이름을 클릭)
-   * [!UICONTROL 상태]
-   * [!UICONTROL 설명]
-   * [!UICONTROL 생성자]
-   * [!UICONTROL 마지막 업데이트일]
-   * [!UICONTROL 마지막으로 업데이트한 사람]
-   * [!UICONTROL 게시일]
-   * [!UICONTROL 게시자]
+* [!UICONTROL 이름]&#x200B;(편집할 여정을 열려면 이름을 클릭)
+* [!UICONTROL 상태]
+* [!UICONTROL 설명]
+* [!UICONTROL 생성자]
+* [!UICONTROL 마지막 업데이트일]
+* [!UICONTROL 마지막으로 업데이트한 사람]
+* [!UICONTROL 게시일]
+* [!UICONTROL 게시자]
 
 맨 위에 있는 _검색_ 도구를 사용하여 이름별로 여정을 찾습니다. 열 머리글을 클릭하여 _[!UICONTROL 상태]_&#x200B;별로 목록을 정렬할 수 있습니다.
 

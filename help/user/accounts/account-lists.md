@@ -2,10 +2,10 @@
 title: 계정 목록
 description: 계정 목록과 마케터가 계정 여정을 통해 계정을 타깃팅하는 데 이 목록을 사용하는 방법에 대해 알아봅니다.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 2%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,21 +20,19 @@ ht-degree: 2%
 
 ## 계정 목록 액세스 및 찾아보기
 
-1. Adobe Experience Platform 홈 페이지에서 Adobe Journey Optimizer B2B 에디션을 클릭합니다.
+왼쪽 탐색에서 **[!UICONTROL 계정]**&#x200B;을 확장하고 **[!UICONTROL 계정 목록]**&#x200B;을 클릭합니다.
 
-1. 왼쪽 탐색에서 **[!UICONTROL 계정]**&#x200B;을 확장하고 **[!UICONTROL 계정 목록]**&#x200B;을 클릭합니다.
+![계정 여정 액세스](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![계정 여정 액세스](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+표시된 _[!UICONTROL 계정 목록]_ 페이지에 다음 열이 포함되어 있습니다.
 
-   표시된 _[!UICONTROL 계정 목록]_ 페이지에 다음 열이 포함되어 있습니다.
-
-   * [!UICONTROL 이름]&#x200B;(자세한 내용을 보려면 계정 목록 이름 클릭)
-   * [!UICONTROL 상태]
-   * [!UICONTROL 유형]
-   * [!UICONTROL 마지막으로 업데이트한 날짜]
-   * [!UICONTROL 마지막으로 업데이트한 사람]
-   * [!UICONTROL 만든 날짜]
-   * [!UICONTROL 생성자]
+* [!UICONTROL 이름]&#x200B;(자세한 내용을 보려면 계정 목록 이름 클릭)
+* [!UICONTROL 상태]
+* [!UICONTROL 유형]
+* [!UICONTROL 마지막으로 업데이트한 날짜]
+* [!UICONTROL 마지막으로 업데이트한 사람]
+* [!UICONTROL 만든 날짜]
+* [!UICONTROL 생성자]
 
 이 표에는 이름별로 검색하는 기능이 포함되어 있습니다. 현재 정렬 기능을 사용할 수 없습니다.
 
@@ -42,7 +40,7 @@ ht-degree: 2%
 
 ![계정 여정 목록에 표시할 열 선택](./assets/account-lists-list-columns.png){width="300"}
 
-계정 목록에 대한 설명을 보려면 이름 옆에 있는 _정보_ 아이콘을 클릭합니다.
+계정 목록에 대한 설명을 보려면 이름 옆에 있는 _정보_( ![정보 아이콘](../assets/do-not-localize/icon-info.svg)) 아이콘을 클릭합니다.
 
 ## 계정 목록 만들기
 

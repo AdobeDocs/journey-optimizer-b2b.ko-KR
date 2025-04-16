@@ -3,10 +3,10 @@ title: 구매 그룹 만들기
 description: 필요한 구성 요소를 사용하여 구매 그룹을 만드는 방법을 알아봅니다.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 2%
 
 ---
 
@@ -14,8 +14,6 @@ ht-degree: 1%
 # 구매 그룹 만들기
 
 구매 그룹이 만들어지면 [솔루션 관심 분야](./solution-interests.md)를 통해 계정 여정에서 사용할 수 있습니다.
-
-1. Adobe Experience Platform 홈페이지에서 Adobe Journey Optimizer B2B 에디션을 클릭합니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 구매 그룹]**&#x200B;을 클릭합니다.
 
@@ -61,6 +59,6 @@ Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
 
-## 방법 비디오
+## 사용 방법 비디오
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

@@ -3,10 +3,10 @@ title: 솔루션 관심 분야
 description: 솔루션 관심사 및 구매 그룹 내에서 사용할 솔루션을 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 0%
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
 ## 솔루션 관심사 액세스 및 찾아보기
-
-1. Adobe Experience Platform 홈페이지에서 Adobe Journey Optimizer B2B edition 를 클릭합니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 구매 그룹]**&#x200B;을 클릭합니다.
 
