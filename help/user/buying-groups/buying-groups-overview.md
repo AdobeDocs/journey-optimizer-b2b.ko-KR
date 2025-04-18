@@ -62,8 +62,8 @@ _[!UICONTROL 구매 그룹]_ 페이지는 탭으로 구성되어 있습니다.
 | 탭 | 설명 |
 | --- | ----------- |
 | [!UICONTROL 개요] | 이 탭은 기본값이며 [구매 그룹 대시보드](../dashboards/buying-groups-dashboard.md)를 표시합니다. |
-| [!UICONTROL 찾아보기] | 이 탭은 다음 활동을 지원합니다. <ul><li>기존 구매 그룹 목록 보기 </li><li>구매 그룹 이름별로 검색 </li><li>솔루션 관심 분야별로 필터링 </li><li>구매 그룹 세부 정보 자세히 살펴보기 </li><li>구매 그룹을 생성합니다. </li></ul> |
-| [!UICONTROL 솔루션 관심 분야] | 이 탭은 다음 활동을 지원합니다. <ul><li>기존 구매 그룹 목록 보기 </li><li>구매 그룹 이름별로 검색 </li><li>솔루션 관심 분야 속성 액세스 및 편집 </li><li>솔루션 관심 분야 만들기 </li><li>솔루션 관심 분야 삭제 </li><li>구매 그룹 작업 보기 및 삭제 </li></ul> |
+| [!UICONTROL 찾아보기] | 이 탭은 다음 활동을 지원합니다. <ul><li>기존 구매 그룹 목록 보기. </li><li>구매 그룹 이름별로 검색. </li><li>솔루션 관심 분야별로 필터링. </li><li>구매 그룹 세부 정보 자세히 살펴보기. </li><li>구매 그룹 만들기. </li></ul> |
+| [!UICONTROL 솔루션 관심 분야] | 이 탭은 다음 활동을 지원합니다. <ul><li>기존 구매 그룹 목록 보기. </li><li>구매 그룹 이름별로 검색 </li><li>솔루션 관심 분야 속성 액세스 및 편집 </li><li>솔루션 관심 분야 만들기 </li><li>솔루션 관심 분야 삭제 </li><li>구매 그룹 작업 보기 및 삭제 </li></ul> |
 | [!UICONTROL 역할 템플릿] | 이 탭은 다음 활동을 지원합니다. <ul><li>기존 역할 템플릿 목록 보기 </li><li>역할 템플릿 이름별로 검색 </li><li>역할 템플릿 속성 및 조건 액세스 및 편집 </li><li>역할 템플릿 만들기 </li><li>역할 템플릿 삭제 </li></ul> |
 | [!UICONTROL 단계] | 이 탭은 다음 활동을 지원합니다. <ul><li>기존 구매 그룹 단계 모델 보기 </li><li>구매 그룹 단계 모델 초안 액세스 및 편집 </li><li>구매 그룹 단계 모델 만들기 </li></ul> |
 
@@ -138,7 +138,7 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 
 >[!NOTE]
 >
->참여 점수 활동은 사용자에 대한 Marketo Engage [활동 로그](https://experienceleague.adobe.com/ko/docs/ marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}에 기록됩니다.
+>참여 점수 활동은 사용자에 대한 Marketo Engage [활동 로그](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}에 기록됩니다.
 
 +++
 
