@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 775cecb2aa4e305ba9a80ba0655e5e854ddf69e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 87%
 
 Adobe Journey Optimizer B2B 에디션은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다.
 
-Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/ko/docs/ experience-platform/release-notes/latest){target="_blank"}를 참조하십시오.
+Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest){target="_blank"}를 참조하십시오.
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
 ## 2025.3 릴리스 정보
 
-**릴리스 일자**: 2025년 4월 1일 수요일
+**릴리스 일자**: 2025년 4월 1일
 
 이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 새로운 기능 | 계정 목록 | 이제 산업, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 타겟팅하기 위해 정적 또는 동적 계정 목록을 만들 수 있습니다. <a href="../accounts/account-lists.md">자세히 알아보기</a> |
-| 새로운 기능 | 계정 여정에 대한 내 토큰 | 이제 계정 여정에 고유한 값을 사용하여 사용자 지정 토큰 세트를 정의할 수 있습니다. 이 사용자 지정 토큰 집합을 _내 토큰_&#x200B;이라고 하며 이러한 사용자 지정 토큰은 여정 전자 메일을 작성할 때 개인화용입니다. <a href="../content/personalization-my-tokens.md">자세히 알아보기</a> |
-| 새로운 기능 | 구매 그룹 단계 삭제 | 구매 그룹 단계 모델이 초안 또는 게시됨 상태일 때 삭제할 수 있습니다. 게시된 경우(라이브) 솔루션 관심사와 연결되어 있지 않은 경우에만 삭제할 수 있습니다. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">자세히 알아보기</a> |
-| 개선 사항 | 여정 노드 카운트 | 노드 수준에서 게시된 여정 멤버십 카운트에 대한 가시성이 개선되었습니다. _여정 맵_&#x200B;에서 노드는 _[!UICONTROL 입력한 총 계정 수]_&#x200B;를 표시합니다. 및 작업 노드를 선택하면 오른쪽의 세부 정보에 _[!UICONTROL 아직 작업되지 않은 계정]_&#x200B;도 포함됩니다. _이벤트 수신_ 노드에 대한 세부 정보에는 _[!UICONTROL 이 단계의 계정]_&#x200B;이 포함됩니다. 이 정보를 사용하여 라이브, 완료 및 중단된 여정의 계정 진행률을 확인합니다. |
+| 새로운 기능 | 계정 목록 | 이제 업계, 위치 또는 회사 규모와 같은 정의된 기준에 따라 지정된 계정을 타기팅하기 위해 정적 또는 동적 계정 목록을 만들 수 있습니다. <a href="../accounts/account-lists.md">자세히 알아보기</a> |
+| 새로운 기능 | 계정 여정을 위한 내 토큰 | 이제 계정 여정에 특정한 값을 가진 사용자 정의 토큰 세트를 정의할 수 있습니다. 이 사용자 정의 토큰 세트는 _내 토큰_&#x200B;이라고 하며, 이러한 사용자 정의 토큰은 여정 이메일을 작성할 때 개인화하는 데 사용됩니다. <a href="../content/personalization-my-tokens.md">자세히 알아보기</a> |
+| 새로운 기능 | 구매 그룹 단계 삭제 | 구매 그룹 단계 모델이 초안 또는 게시된 상태일 때 삭제할 수 있습니다. 게시된(진행 중) 경우 솔루션 관심 분야와 연관되지 않은 경우에만 삭제할 수 있습니다. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">자세히 알아보기</a> |
+| 개선 사항 | 여정 노드 수 | 노드 수준에서 게시된 여정 멤버십 수에 대한 가시성이 향상되었습니다. _여정 맵_&#x200B;에서 노드는 _[!UICONTROL 입력한 총 계정]_&#x200B;을 표시합니다. 노드를 선택하고 실행하면 오른쪽에 있는 세부 정보에는 _[!UICONTROL 아직 실행되지 않은 계정]_&#x200B;도 포함됩니다. _이벤트 수신_&#x200B;을 위한 자세한 내용에는 _[!UICONTROL 이 단계의 계정]_&#x200B;이 포함됩니다. 이 정보를 사용하여 진행 중인 여정, 완료된 여정, 중단된 여정의 계정 진행 상황을 확인합니다. |
 
 ## 2025.2 릴리스 정보
 
@@ -40,7 +40,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 | ---- | ---- | ----------- |
 | 새로운 기능 | 사용자 정의 가능 필드 - 콘텐츠 조각 | 콘텐츠 조각 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이렇게 하면 이메일 또는 템플릿 작성자가 자신의 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-fragment-customization">자세히 알아보기</a> |
 | 새로운 기능 | B2B 기본 제공 역할 및 제품 권한 | 이제 Experience Platform에는 B2B 제품 기능에 대한 액세스 권한을 관리하는 데 사용할 수 있는 기본 제공 역할 세트가 포함됩니다. <a href="../admin/user-management.md#b2b-built-in-roles">자세히 알아보기</a> <br/>이제 관리자는 Adobe Experience Platform에서 Journey Optimizer B2B 에디션 제품 권한을 포함하도록 사용자 정의 역할을 정의할 수 있습니다. <a href="../admin/user-management.md#b2b-product-permissions">자세히 알아보기</a> |
-| 새로운 기능 | 여정 복제 유형 | 계정 여정을 복제할 때 Journey Optimizer B2B edition에서 만든 이메일 및 SMS 메시지를 제외하고 노드 세부 정보를 포함할 수 있습니다. 또는 노드 세부 정보 및 설정 없이 구조 및 경로 흐름의 뼈대 복사본을 만들 수 있습니다. <a href="../journeys/journey-overview.md#duplicate-journey">자세히 알아보기</a> |
+| 새로운 기능 | 여정 복제 유형 | 계정 여정을 복제할 때 Journey Optimizer B2B 에디션에서 생성된 이메일 및 SMS 메시지를 제외한 노드 세부 정보를 포함할 수 있습니다. 대안으로, 노드 세부 정보 및 설정 없이 구조와 경로 흐름의 스켈레톤 복사본을 만들 수 있습니다. <a href="../journeys/journey-overview.md#duplicate-journey">자세히 알아보기</a> |
 | 개선 사항 | 4가지 추가 샘플 이메일 템플릿 | 이제 샘플 이메일 템플릿 라이브러리에는 재참여, 정보 제공, 육성 및 피드백 콘텐츠 예시를 위한 4가지 SecurFinancial 템플릿이 포함됩니다. |
 
 ## 2025.1 릴리스 정보 {#Jan-2025}
@@ -75,7 +75,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 | 새로운 기능 | 이메일 템플릿의 조건부 콘텐츠 | 수신자의 행동 및 프로필 특성에 따라 계정 및 리드 수준에서 이메일 콘텐츠를 개인화할 수 있습니다. <p>이메일 시각적 디자인 공간에서 계정 여정에 대한 이메일을 작성할 때 조건부 규칙을 사용하면 모든 콘텐츠 구성 요소에 대한 여러 개의 변형을 정의할 수 있습니다. <a href="../content/conditional-content.md">자세히 알아보기</a> |
 | 새로운 기능 | _목록에 추가_ 및 _목록에서 제거_ 여정 사용자 액션 | 수신자의 행동 및 프로필 특성에 따라 계정 및 리드 수준에서 이메일 콘텐츠를 개인화할 수 있습니다. <a href="../journeys/action-nodes.md">자세히 알아보기</a> |
 | 새로운 기능 | 콘텐츠 거버넌스 및 구성 요소 잠금 | 승인된 콘텐츠 디자인을 준수하기 위해 콘텐츠 거버넌스 기능을 사용하여 이메일 템플릿 콘텐츠 구성 요소를 잠글 수 있습니다. 이메일 템플릿에서 콘텐츠 거버넌스를 활성화하면 마케터가 콘텐츠 전략에 맞게 허용된 요소만 변경할 수 있습니다. <a href="../content/template-content-governance.md">자세히 알아보기</a> |
-| 새로운 기능 | 구매 그룹 단계 | 사용자 정의 구매 그룹 스테이징 모델을 정의하고 게시하면 구매 그룹 라이프사이클 단계를 통해 구매 그룹 진행 상황을 추적할 수 있습니다. 이러한 단계를 사용하여 구매 그룹 멤버를 위해 다음으로 취할 가장 좋은 조치를 식별할 수 있습니다. 변경 사항에 따라 단계 진행을 결정하고 액션을 트리거하는 전환 규칙과 여정 노드를 구성하십시오. <a href="../buying-groups/buying-group-stages.md">자세히 알아보기</a> |
+| 새로운 기능 | 구매 그룹 단계 | 사용자 정의 구매 그룹 스테이징 모델을 정의하고 게시하면 구매 그룹 라이프사이클 단계를 통해 구매 그룹 진행 상황을 추적할 수 있습니다. 이러한 단계를 사용하여 구매 그룹 멤버를 위해 다음으로 취할 가장 좋은 액션을 식별할 수 있습니다. 변경 사항에 따라 단계 진행을 결정하고 액션을 트리거하는 전환 규칙과 여정 노드를 구성하십시오. <a href="../buying-groups/buying-group-stages.md">자세히 알아보기</a> |
 | 개선 사항 | 새로운 기본 이메일 템플릿 | 이제 샘플 템플릿 라이브러리에 B2B 마케터를 위해 디자인된 추가 이메일 템플릿이 포함됩니다. 이들 샘플 템플릿을 시작점으로 삼아 나만의 브랜딩과 메시지를 추가해 보십시오. <a href="../content/email-templates.md#select-a-design-template">자세히 알아보기</a> |
 | 개선 사항 | 사용자 정의 필드를 개인 속성으로 사용 | Experience Platform의 계정 대상자 스키마에 사용자 정의 개인 필드를 정의한 경우 이들 필드를 조건에서 개인 속성으로 사용할 수도 있습니다. 다음에서 사용자 정의 속성을 사용할 수 있습니다. <li>역할 템플릿 <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">자세히 알아보기</a></li><li>사용자 여정별 경로 분할 노드 <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">자세히 알아보기</a></li> |
 | 개선 사항 | 이메일 채널 설정 | 이제 Journey Optimizer B2B 에디션 인터페이스에서 이메일 설정을 볼 수 있습니다. 빠르게 현재 구성을 검토할 수 있으며, 관리자는 _[!UICONTROL 설정 편집]_&#x200B;을 클릭하여 Marketo Engage의 설정으로 직접 이동한 다음 조직의 요구 사항에 맞게 업데이트할 수 있습니다. <a href="../admin/configure-channels-emails.md">자세히 알아보기</a> |

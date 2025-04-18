@@ -3,7 +3,7 @@ title: Adobe Journey Optimizer B2B 에디션 개요
 description: Adobe Journey Optimizer B2B 에디션의 주요 기능, 사용 사례 및 아키텍처를 살펴봅니다.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
 ht-degree: 100%
 

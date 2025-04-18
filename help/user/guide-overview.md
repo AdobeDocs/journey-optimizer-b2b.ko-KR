@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B 에디션 설명서
 description: Adobe Journey Optimizer B2B 에디션 기능을 사용하여 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능�
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="시작하기"><br/>
-      <strong>시작하기</strong><br/><a href="home-page.md">로그인 및 홈 페이지</a><br/><a href="./start/get-started.md">빠른 시작 가이드</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI 어시스턴트</a>
+      <strong>시작하기</strong><br/><a href="home-page.md">로그인 및 홈 페이지</a><br/><a href="./start/get-started.md">빠른 시작 안내서</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI 어시스턴트</a>
     </td>
     <!--
     <td>
@@ -133,15 +133,15 @@ Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B 에디션</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/ journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/ experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
+<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/ experience-platform/rtcdp/home" target="_blank">설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/ platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">개발자 튜토리얼</a>
+<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home" target="_blank">설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">개발자 튜토리얼</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/ marketo/using/home" target="_blank">사용자 설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/ marketo-developer/marketo/home" target="_blank">개발자 설명서</a>
+<a href="https://experienceleague.adobe.com/ko/docs/marketo/using/home" target="_blank">사용자 설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/home" target="_blank">개발자 설명서</a>
 </td>
 </tr></table>
 

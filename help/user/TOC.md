@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B 에디션 설명서
 user-guide-description: Adobe Journey Optimizer B2B 에디션에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 91%
 + 시작 {#get-started}
    + [Journey Optimizer B2B 에디션 개요](about-journey-optimizer-b2b-edition.md)
    + [로그인 및 홈 페이지](home-page.md)
-   + [빠른 시작 가이드](./start/get-started.md)
+   + [빠른 시작 안내서](./start/get-started.md)
    + [추적 및 이메일 프로토콜](./start/email-protocols.md)
-+ AI Assistant {#ai-assistant}
++ AI 어시스턴트 {#ai-assistant}
    + [개요](./ai-assistant/ai-assistant-overview.md)
-   + [AI Assistant 액세스 활성화](./ai-assistant/enable-ai-assistant-access.md)
+   + [AI 어시스턴트 액세스 활성](./ai-assistant/enable-ai-assistant-access.md)
    + [질문 지침](./ai-assistant/question-guidance.md)
    + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
 + 계정 여정 {#account-journeys}
@@ -40,7 +40,7 @@ ht-degree: 91%
       + [이메일 작성을 위한 AI 어시스턴트](./content/ai-assistant-emails.md)
       + [제어되는 템플릿](./content/email-authoring-governance.md)
       + [판매 알림 이메일](./content/sales-alert-email.md)
-   + [사용자 지정 개인화 토큰](./content/personalization-my-tokens.md)
+   + [사용자 정의 개인화 토큰](./content/personalization-my-tokens.md)
    + [SMS 작성](./content/sms-authoring.md)
 + 계정 {#accounts}
    + [대상자](./audiences/account-audience-overview.md)
