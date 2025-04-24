@@ -4,9 +4,9 @@ description: Journey Optimizer B2B 에디션의 구매 그룹이 계정 목록�
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1782'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ Journey Optimizer B2B 에디션에서 판매 팀이 판매를 담당하는 솔�
 
 1. 구매 그룹을 만듭니다.
 
-   * [솔루션 관심 항목](./solution-interests.md) 및 [역할 템플릿](./buying-groups-role-templates.md) 정의
-   * [구매 그룹을 만들고](./buying-groups-create.md#create-buying-groups) [구매 그룹 단계를 할당합니다](./buying-group-stages.md).
+   * [솔루션 관심 분야](./solution-interests.md) 및 [역할 템플릿](./buying-groups-role-templates.md) 정의
+   * [구매 그룹을 생성](./buying-groups-create.md#create-buying-groups)하고 [구매 그룹 단계](./buying-group-stages.md)를 할당합니다.
 
 1. 누락된 사람을 식별합니다.
 
@@ -51,7 +51,7 @@ Journey Optimizer B2B 에디션에서 판매 팀이 판매를 담당하는 솔�
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. 구매 그룹 계정 여정을 사용합니다.
+1. 귀하의 계정 여정에 구매 그룹을 사용합니다.
 
 ## 구매 그룹 및 구성 요소 보기
 
@@ -138,7 +138,7 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 
 >[!NOTE]
 >
->참여 점수 활동은 사용자에 대한 Marketo Engage [활동 로그](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}에 기록됩니다.
+>참여 점수 활동은 Marketo Engage [활동 로그에 개인별](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}로 기록됩니다.
 
 +++
 

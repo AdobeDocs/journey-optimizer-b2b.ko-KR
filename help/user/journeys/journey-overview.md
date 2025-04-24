@@ -4,7 +4,7 @@ description: 계정 여정에 대해 알아보고 이를 만들고 관리하는 
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1009'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 표시되는 여정 페이지에는 다음과 같은 열이 포함됩니다.
 
-* [!UICONTROL 이름]&#x200B;(이름을 클릭하면 편집할 여정이 열림)
+* [!UICONTROL 이름] (이름을 클릭하면 편집할 여정이 열림)
 * [!UICONTROL 상태]
 * [!UICONTROL 설명]
 * [!UICONTROL 생성자]
