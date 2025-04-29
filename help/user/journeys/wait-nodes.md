@@ -2,7 +2,8 @@
 title: 대기 노드
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 대기 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 _계정 여정에 대한 대기 노드를 정의하려면_
 
-1. 여정 편집기로 이동합니다.
+1. 여정 맵으로 이동합니다.
 
 1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 대기]**&#x200B;를 선택합니다.
 

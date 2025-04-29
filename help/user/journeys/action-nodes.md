@@ -3,9 +3,9 @@ title: 작업 수행
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 작업 수행 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1240'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 ### 계정 기반 작업 추가
 
-1. 여정 편집기로 이동합니다.
+1. 여정 맵으로 이동합니다.
 
 1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 작업 수행]**&#x200B;을 선택합니다.
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 ### 사용자 기반 작업 추가
 
-1. 여정 편집기로 이동합니다.
+1. 여정 맵으로 이동합니다.
 
 1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 작업 수행]**&#x200B;을 선택합니다.
 
@@ -112,6 +112,10 @@ _외부 대상자를 만들려면:_
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
    시스템이 새 대상을 만들고 확인 메시지를 표시합니다. 그런 다음 계속 진행하여 노드 작업의 기존 대상자로 사용할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >Journey Optimizer B2B edition에서 새 외부 고객 대상을 만들면 더미 레코드(`test@email.com`)로 시드됩니다. 이 레코드는 첫 번째 실제 프로필이 여정에서 외부 대상에 추가되자마자 덮어쓰여집니다.
 
 _기존 대상자를 사용하려면:_
 
@@ -167,7 +171,7 @@ _기존 대상자를 사용하려면:_
 
 +++[!UICONTROL 전자 메일 보내기]
 
-이 작업을 사용하여 이메일을 보냅니다. 비주얼 디자이너에서 이메일 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다([이메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일을 보낼 수도 있습니다](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
+이 작업을 사용하여 이메일을 보냅니다. 비주얼 디자이너에서 이메일 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다([이메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
 
 ![작업 수행 - 전자 메일 보내기](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -207,7 +211,7 @@ Marketo Engage의 [스마트 목록](https://experienceleague.adobe.com/en/docs/
 
 +++[!UICONTROL Marketo Engage에서 사람 파티션 변경]
 
-이 작업을 사용하여 Marketo Engage에서 [개인 파티션](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"}을(를) 변경합니다.
+이 작업을 사용하여 Marketo Engage에서 [개인 파티션](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"}을(를) 변경할 수 있습니다.
 
 ![동작 수행 - Marketo Engage에서 사용자 파티션 변경](./assets/node-action-change-people-partition-options.png){width="300"}
 

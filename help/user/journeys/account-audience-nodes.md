@@ -3,16 +3,16 @@ title: 계정 대상 노드
 description: Journey Optimizer B2B edition에서 계정 여정에 대한 입력을 정의하는 데 사용할 수 있는 계정 대상 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 5%
 
 ---
 
 # 계정 대상자 여정 노드
 
-여정 대상 노드는 계정의 입력 계정 대상(Adobe Experience Platform에서 만들고 관리됨)을 정의합니다. [계정 여정을 만듭니다](./journey-overview.md#create-an-account-journey). 항상 여정 입력을 정의하는 _계정 대상자_ 노드로 시작합니다.
+여정 대상 노드는 계정에 대한 입력 계정을 정의합니다. [계정 여정을 만듭니다](./journey-overview.md#create-an-account-journey). 항상 여정 입력을 정의하는 _계정 대상자_ 노드로 시작합니다.
 
 이 노드에 사용할 수 있는 두 가지 유형의 입력이 있습니다.
 
@@ -47,9 +47,9 @@ _노드의 대상자를 설정하려면:_
 
 _대상 세그먼트를 만들려면:_
 
-1. 왼쪽 탐색에서 **[!UICONTROL 계정]** > **[!UICONTROL 대상]**&#x200B;을 선택합니다.
+1. 왼쪽 탐색 영역에서 **[!UICONTROL 계정]** > **[!UICONTROL 대상자]**&#x200B;를 선택합니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
 
    ![대상 세그먼트 만들기](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
