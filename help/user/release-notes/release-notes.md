@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 92%
+source-wordcount: '2004'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 | ---- | ---- | ----------- |
 | 기능 | 계정 목록 | 이제 업계, 위치 또는 회사 규모와 같은 정의된 기준에 따라 지정된 계정을 타기팅하기 위해 정적 또는 동적 계정 목록을 만들 수 있습니다. <a href="../accounts/account-lists.md">자세히 알아보기</a> |
 | 기능 | 계정 목록 여정 오케스트레이션 | 여정 작업 노드를 사용하여 정적 계정 목록에 대한 계정을 추가하고 제거합니다. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">자세히 알아보기</a> |
-| 개선 사항 | Marketo Engage에서 여정 멤버십 필터링 | 여정 대상에 대해 Adobe Journey Optimizer B2B edition 계정 목록을 사용한 다음 Marketo Engage 스마트 목록에서 _계정 목록의 구성원_ 필터를 사용하십시오. &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list>자세히 알아보기</a> |
+| 개선 사항 | Marketo Engage에서 여정 멤버십 필터링 | 여정 대상에 대해 Adobe Journey Optimizer B2B edition 계정 목록을 사용한 다음 Marketo Engage 스마트 목록에서 _계정 목록의 구성원_ 필터를 사용하십시오. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">자세히 알아보기</a> |
 | 기능 | 비활성 필터 | 이메일 비활성, 흥미로운 순간, 데이터 값 변경, 방문한 웹 페이지 등 Marketo Engage 캠페인 및 프로그램 내의 비활성 상태를 기반으로 여정을 오케스트레이션합니다. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">자세히 알아보기</a> |
 | 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 연결된 방문한 웹 페이지의 활동을 기반으로 여정을 조정합니다. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">자세히 알아보기</a> |
 
