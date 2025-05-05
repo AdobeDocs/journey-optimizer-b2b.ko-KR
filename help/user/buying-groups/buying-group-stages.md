@@ -364,4 +364,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448701/?learn=on&captions=kor)

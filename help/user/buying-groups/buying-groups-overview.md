@@ -204,4 +204,4 @@ _[!UICONTROL 매우 중요]_, _[!UICONTROL 중요]_, _[!UICONTROL 보통]_&#x200
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452942/?learn=on&captions=kor)

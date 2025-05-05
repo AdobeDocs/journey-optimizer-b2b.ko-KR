@@ -101,4 +101,4 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450120/?learn=on&captions=kor)

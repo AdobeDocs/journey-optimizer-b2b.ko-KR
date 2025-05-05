@@ -163,4 +163,4 @@ Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453308/?learn=on&captions=kor)
