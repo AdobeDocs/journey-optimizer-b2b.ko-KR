@@ -66,4 +66,4 @@ Journey Optimizer B2B Edition에서 AI Assistant를 쿼리하기 위한 다음 �
 
 ## 다음 단계
 
-워크플로 중에 AI Assistant 기능을 사용하는 방법에 대한 자세한 내용은 Journey Optimizer B2B Edition](./use-ai-assistant.md)에서 AI Assistant 사용을 참조하십시오[.
+워크플로 중에 AI Assistant 기능을 사용하는 방법에 대한 자세한 내용은 Journey Optimizer B2B Edition[&#128279;](./use-ai-assistant.md)에서 AI Assistant 사용을 참조하십시오.

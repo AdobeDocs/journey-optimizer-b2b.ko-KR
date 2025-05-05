@@ -21,7 +21,7 @@ ht-degree: 1%
 
 * **애플리케이션 액세스:** Adobe Systems Journey Optimizer B2B Edition에서 AI Assistant에 액세스할 수 있습니다.
 
-* **권한:** 권한 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) 를 [사용하여 조직의 AI Assistant에 대한 액세스 권한을 부여하거나 취소합니다. AI Assistant를 사용하려면 지정된 사용자가 AI Assistant 활성화 및 **운영 Insights 보기 권한으로**&#x200B;구성된 역할에 속해야 합니다&#x200B;**.**
+* **권한:** 권한 UI[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) 를 사용하여 조직의 AI Assistant에 대한 액세스 권한을 부여하거나 취소합니다. AI Assistant를 사용하려면 지정된 사용자가 AI Assistant 활성화 및 **운영 Insights 보기 권한으로**&#x200B;구성된 역할에 속해야 합니다&#x200B;**.**
 
 관리자는 다음 작업을 수행할 수 있습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ![AI Assistant 권한 할당](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-권한 UI를 사용하여 Journey Optimizer B2B Edition에서 AI Assistant를 사용할 수 있는 권한을 부여합니다. Experience Platform 및 기타 Experience Cloud 애플리케이션에서 AI Assistant에 액세스하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서를](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access) 참조하십시오[.
+권한 UI를 사용하여 Journey Optimizer B2B Edition에서 AI Assistant를 사용할 수 있는 권한을 부여합니다. Experience Platform 및 기타 Experience Cloud 애플리케이션에서 AI Assistant에 액세스하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서를[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access) 참조하십시오.
 
 사용자 사용자에게 필요한 권한이 있는 경우 사용 중인 애플리케이션 상단 헤더에 있는 AI Assistant 아이콘을 선택하여 _AI Assistant_ 에 액세스할 수 있습니다.
 
