@@ -53,4 +53,4 @@ _대상 세그먼트를 만들려면:_
 
    ![대상 세그먼트 만들기](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. [세그먼테이션 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}에 설명된 단계를 따릅니다.
+1. [세그먼테이션 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}에 설명된 단계를 따릅니다.

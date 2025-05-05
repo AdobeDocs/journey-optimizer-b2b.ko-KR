@@ -26,7 +26,7 @@ _[!UICONTROL 작업 수행]_ 여정을 추가하고 다음을 수행하면 계�
 
    >[!NOTE]
    >
-   >이메일을 처음 만드는 경우 이메일 채널이 Adobe Marketo Engage 내에서 구성되었는지 확인하십시오. 자세한 내용은 Marketo Engage 설명서에서 [전자 메일 배달 가능성 확인](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)을 참조하세요.
+   >이메일을 처음 만드는 경우 이메일 채널이 Adobe Marketo Engage 내에서 구성되었는지 확인하십시오. 자세한 내용은 Marketo Engage 설명서에서 [전자 메일 배달 가능성 확인](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)을 참조하세요.
 
    ![작업 수행 - 전자 메일 보내기](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

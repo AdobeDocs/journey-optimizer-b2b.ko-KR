@@ -76,9 +76,9 @@ _운영 인사이트_&#x200B;는 AI Assistant가 메타데이터 개체(특성, 
 
 현재 AI Assistant의 범위는 다음과 같습니다.
 
-* [제품 지식](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge): AI Assistant는 Real-Time Customer Data Platform 및 Adobe Journey Optimizer B2B edition에 대한 제품 지식 질문에 답변할 수 있습니다.
+* [제품 지식](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home#product-knowledge): AI Assistant는 Real-Time Customer Data Platform 및 Adobe Journey Optimizer B2B edition에 대한 제품 지식 질문에 답변할 수 있습니다.
 
-* [운영 인사이트](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights): 특성, 계정 대상, 데이터 흐름, 데이터 세트, 대상, 계정 여정, 스키마, 소스, 구매 그룹 템플릿 및 솔루션 관심 사항과 같은 데이터 개체에 대한 운영 인사이트에 대해 AI Assistant에 질문할 수 있습니다.
+* [운영 인사이트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home#operational-insights): 특성, 계정 대상, 데이터 흐름, 데이터 세트, 대상, 계정 여정, 스키마, 소스, 구매 그룹 템플릿 및 솔루션 관심 사항과 같은 데이터 개체에 대한 운영 인사이트에 대해 AI Assistant에 질문할 수 있습니다.
 
 ### 개인 정보, 보안 및 거버넌스
 
@@ -90,7 +90,7 @@ Journey Optimizer B2B edition의 AI Assistant는 개인정보 보호, 보안 및
 
 * AI Assistant와 상호 작용하려면 명시적인 권한이 있어야 합니다.
 
-   * 관리자는 [권한 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) 및 [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse)을 사용하여 권한을 설정할 수 있습니다.
+   * 관리자는 [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions) 및 [Admin Console](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/browse)을 사용하여 권한을 설정할 수 있습니다.
 
    * 권한은 세분화되며 샌드박스 관리자는 다양한 질문 카테고리(AI Assistant를 통한 제품 지식 기반 질문 또는 운영 통찰력에 대한 질문)를 물을 수 있는 사용자를 구성할 수 있습니다.
 

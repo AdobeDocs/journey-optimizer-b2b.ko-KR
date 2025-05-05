@@ -118,7 +118,7 @@ ht-degree: 8%
 
 ### 경험 이벤트 수신
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent)에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. [AEP 이벤트 정의를 만들고 게시](../admin/configure-aep-events.md).
 
