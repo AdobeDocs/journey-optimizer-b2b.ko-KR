@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B 에디션 설명서
 description: Adobe Journey Optimizer B2B 에디션 기능을 사용하여 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -13,33 +13,33 @@ ht-degree: 65%
 
 ## 새로운 기능
 
-다음은 Journey Optimizer B2B edition 애플리케이션 및 설명서의 최신 추가 사항 및 개선 사항 샘플입니다.
+다음은 Journey Optimizer B2B 에디션 애플리케이션과 설명서의 최신 추가 및 개선 사항에 대한 샘플링입니다.
 
 >[!BEGINTABS]
 
 >[!TAB 계정 목록]
 
-마케터가 타깃팅된 여정 오케스트레이션에 사용할 수 있는 명명된 계정의 컬렉션인 계정 목록을 만듭니다. 계정 목록은 업종, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 대상으로 할 수 있습니다.
+마케터가 타기팅된 여정 오케스트레이션에 대해 사용할 수 있는 지정된 계정의 컬렉션인 계정 목록을 만듭니다. 계정 목록은 업계, 위치 또는 회사 규모와 같은 정의된 기준에 따라 지정된 계정을 타기팅할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="계정 목록에 대해 알아보기"}
 
->[!TAB 스마트 목록의 계정 목록 필터]
+>[!TAB 스마트 목록에 대한 계정 목록 필터]
 
-이제 계정 목록 필터를 사용하여 Marketo Engage 스마트 목록을 필터링할 수 있습니다. 이 필터를 사용하면 Journey Optimizer B2B edition 내의 계정 여정에서 Marketo Engage 캠페인 및 프로그램 전반에 걸쳐 계정 목록 구성원을 제외하거나 포함할 수 있습니다.
+이제 계정 목록 필터를 사용하여 Marketo Engage 스마트 목록을 필터링할 수 있습니다. 이러한 필터를 사용하면 Journey Optimizer B2B 에디션의 계정 여정의 Marketo Engage 캠페인 및 프로그램에서 계정 목록 멤버를 제외하거나 포함할 수 있습니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Marketo Engage 스마트 목록에 사용되는 계정 목록 필터에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Marketo Engage 스마트 목록에서 사용되는 계정 목록 필터에 대해 알아보기"}
 
->[!TAB 비활성 내역 필터]
+>[!TAB 비활동 기록 필터]
 
-이메일, 즐거운 순간, 데이터 값 변경 및 방문한 웹 페이지를 포함한 Marketo Engage 캠페인 및 프로그램 내의 비활동을 기반으로 여정을 진행합니다.
+이메일, 즐거운 순간, 데이터 가치 변화, 방문한 웹 페이지 등을 포함하여 Marketo Engage 캠페인과 프로그램 내의 비활동에 따라 진행되는 여정입니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="비활성 내역 필터에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="비활동 기록 필터에 대해 알아보기"}
 
 >[!TAB 여정 복제]
 
-계정 여정 구조를 복제하여 수동 오류를 최소화하고 일관된 설정, 흐름 및 경로를 보장합니다. 복제된 여정에서 콘텐츠 또는 작업을 조정하여 더 크고 복잡한 캠페인을 더 쉽게 관리할 수 있습니다&#x200B;.
+계정 여정 구조를 복제하여 수동 오류를 최소화하고 설정, 흐름 및 경로의 일관성을 보장합니다. 복제된 여정에서 콘텐츠나 작업을 조정하여 규모가 크고 복잡한 캠페인을 더 쉽게 관리할 수 있습니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-여정" tooltip="여정 복제에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="여정 복제에 대해 알아보기"}
 
 >[!TAB 지능형 인사이트 대시보드]
 
@@ -51,13 +51,13 @@ ht-degree: 65%
 
 Adobe Express 빠른 작업을 사용하면 자르기, 크기 조정, 배경 제거, 형식 변환 등의 액션으로 콘텐츠를 수정할 수 있습니다. 직관적인 기본 제공 Adobe Express UI로 이미지 자산을 빠르게 미세 조정할 수 있습니다.
 
-Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능을 활용할 수 있습니다. 이러한 기능을 사용하여 브랜드 지침을 준수하면서 이미지를 다듬고 개선하고 콘텐츠 공급망의 장애물을 제거할 수 있습니다.
+Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능을 활용할 수 있습니다. 이러한 기능을 사용하면 브랜드 지침을 준수하면서 이미지를 다듬고 개선하며 콘텐츠 공급망의 장애물을 제거할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Express를 사용한 이미지 편집에 대해 알아보기"}
 
 >[!TAB 조각 사용자 정의 가능 필드]
 
-콘텐츠 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이 구성을 통해 이메일 또는 템플릿 작성자는 해당 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다.
+콘텐츠 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이 구성을 통해 이메일 또는 템플릿 작성자가 자신의 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="콘텐츠 조각을 위한 사용자 정의 필드에 대해 알아보기"}
 
@@ -139,7 +139,7 @@ Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B 에디션</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
