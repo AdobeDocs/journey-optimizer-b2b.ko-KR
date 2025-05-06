@@ -3,7 +3,7 @@ title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2004'
 ht-degree: 100%
 
