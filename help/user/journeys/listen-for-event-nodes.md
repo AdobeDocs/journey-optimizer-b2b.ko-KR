@@ -182,4 +182,4 @@ _여정에 경험 이벤트를 포함하려면:_
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443241/?learn=on&captions=kor)
