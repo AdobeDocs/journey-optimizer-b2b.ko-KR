@@ -2,9 +2,9 @@
 title: XDM 필드
 description: Adobe Experience Platform 및 Journey Optimizer B2B edition 간에 동기화된 기본 속성 필드를 검토합니다.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1346'
 ht-degree: 12%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 12%
 
 >[!TIP]
 >
->[Experience Platform XDM 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/relationship-b2b)에 설명된 대로 XDM 비즈니스 계정 사용자 관계 클래스를 사용하여 다대다 관계에서 XDM 비즈니스 사용자 및 XDM 비즈니스 계정 클래스를 모델링할 수 있습니다.
+>[Experience Platform XDM 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}에 설명된 대로 XDM 비즈니스 계정 사용자 관계 클래스를 사용하여 다대다 관계에서 XDM 비즈니스 사용자 및 XDM 비즈니스 계정 클래스를 모델링할 수 있습니다.
 
 ## XDM 비즈니스 계정 사용자 관계 속성
 
-| [속성](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
+| [속성](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `personRoles` | 개인 역할 | 역할 | 문자열 배열 | 계정의 사용자와 연결된 역할의 배열(예: `owner, accountant, designer`). |
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 >
 >`workEmail.Address` 특성이 필요합니다. 계정 대상자 구성원의 경우 비어 있는 경우 해당 사람은 수집되지 않으며 대상자를 참조하는 계정 여정 및 구매 그룹에서 생략됩니다.
 
-| [속성](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
+| [속성](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `b2b.isMarketingSuspended` | 마케팅 중단 표시기 | 마케팅 중단 | 부울 | 값은 사용자에 대한 마케팅이 일시 중단되었는지 여부를 나타냅니다. |
 | `b2b.marketingSuspendedCause` | 마케팅 중단 사유 | 마케팅 중단 사유 | 문자열 | 사용자에 대해 마케팅이 일시 중단된 경우 이 속성은 그 이유를 제공합니다. |
@@ -59,7 +59,7 @@ ht-degree: 12%
 >
 >`accountName` 특성이 필요합니다. 계정 대상의 계정이 비어 있는 경우 해당 계정은 수집되지 않으며 대상을 참조하는 계정 여정 및 구매 그룹에서 생략됩니다.
 
-| [속성](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
+| [속성](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md){target="_blank"} | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `accountBillingAddress.city` | 구/군/시 | 구/군/시 | 문자열 | 청구 주소에 사용되는 도시 이름. |
 | `accountBillingAddress.country` | 국가 | 국가 | 문자열 | 청구 주소에 사용되는 정부 관리 영역의 이름. `xdm:countryCode`이(가) 아닌 모든 언어의 국가 이름을 사용할 수 있는 자유 형식의 필드입니다. |
@@ -79,9 +79,9 @@ ht-degree: 12%
 
 ## XDM 비즈니스 영업 기회 속성
 
-또한 영업 기회 데이터는 [여기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field)에 설명된 대로 다대일 관계를 통해 XDM 비즈니스 계정 클래스와 연결할 수 있는 XDM 비즈니스 영업 기회 클래스에 특성으로 저장됩니다.
+또한 영업 기회 데이터는 [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}에 설명된 대로 다대일 관계를 통해 XDM 비즈니스 계정 클래스와 연결할 수 있는 XDM 비즈니스 영업 기회 클래스에 특성으로 저장됩니다.
 
-| [속성](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
+| [속성](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | 표시 이름 | Journey Optimizer B2B 표시 이름 | 데이터 유형 | 설명 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `expectedCloseDate` | 예상 종료일 | 예상 영업 기회 종료일 | 문자열 | 영업 기회의 예상 종료일. |
 | `expectedRevenue.amount` | 예상 수익 | 총 영업 기회 예상 수익 | 문자열 | 금액 및 확률에 따라 계산된 매출액. |

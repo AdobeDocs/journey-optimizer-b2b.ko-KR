@@ -1,26 +1,26 @@
 ---
-title: Experience Manager 에셋 저장소 구성
+title: Experience Manager 자산 저장소 구성
 description: Journey Optimizer B2B edition 컨텐츠 작성에 사용할 Experience Manager Assets 저장소에 대한 연결을 구성하는 방법에 대해 알아봅니다.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# Experience Manager 에셋 저장소 구성
+# Experience Manager 자산 저장소 구성
 
-Adobe Journey Optimizer B2B edition은 Adobe Experience Manager Assetsas a Cloud Service 과 통합되어 계정 여정 내에서 이메일과 같은 에셋을 사용하는 것 이상을 허용합니다. Experience Manager Assets과 정보를 교환하여 투명성을 보장합니다. 이 기능을 사용하려면 Experience Assets Adobe에 대한 연결을 구성하십시오.
+Adobe Journey Optimizer B2B edition은 Adobe Experience Manager Assets as a Cloud Service과 통합되므로 계정 여정 내에서 이메일과 같은 에셋을 사용하는 것 이상을 허용합니다. Experience Manager Assets과 정보를 교환하여 투명성을 보장합니다. 이 기능을 사용하려면 Adobe Experience Assets에 대한 연결을 구성하십시오.
 
-Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Adobe Journey Optimizer B2B edition에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
+Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Adobe Journey Optimizer B2B edition에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
 
 {{aem-assets-licensing-note}}
 
-## 전제 조건
+## 사전 요구 사항
 
-* AEM Headless Developer Console에서 원하는 환경에 대한 서비스 자격 증명을 생성합니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
+* AEM Headless Developer Console에서 원하는 환경에 대한 서비스 자격 증명을 생성합니다([자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * 연결에 필요한 인증서를 확보합니다. 가장 좋은 방법은 인증서가 만료되기 전에 최소 6개월 이상 남아 있는지 확인하는 것입니다. 인증서는 365일마다 만료됩니다.
 * Adobe Journey Optimizer B2B edition은 한 번에 하나의 디지털 에셋 관리 소스에 대한 액세스를 지원합니다. 전환하기 전에 Adobe Experience Manager에서 필요한 자산을 사용할 수 있는지 확인하십시오.
 
@@ -62,7 +62,7 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
    구성된 저장소는 선택 패널 아래의 표에 표시됩니다. 3-4단계를 반복하여 다른 저장소를 추가할 수 있습니다.
 
-   ![구성된 AEM 자산 저장소를 검토합니다](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
+   ![구성된 AEM 자산 저장소 검토](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
 저장소 구성을 마치면 팀원은 콘텐츠를 작성할 때 Adobe Experience Manager Assets을 선택할 수 있습니다.
 
@@ -76,7 +76,7 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B edition은 Experience Manager 에셋과 통신하여 사용 정보를 제공합니다. 신뢰할 수 있는 사용 데이터를 동기화하고 데이터 불일치를 방지하기 위해 연결이 활성 상태를 유지해야 합니다. 관리자 사용자는 인앱 알림을 통해 만료 예정인 인증서에 대한 알림을 받게 됩니다. 또한 관리자 영역의 Assets 하위 섹션 - 디지털 에셋 관리에 대한 만료일을 확인할 수도 있습니다.
+>Adobe Journey Optimizer B2B edition은 Experience Manager assets와 통신하여 사용 정보를 제공합니다. 신뢰할 수 있는 사용 데이터를 동기화하고 데이터 불일치를 방지하기 위해 연결이 활성 상태를 유지해야 합니다. 관리자 사용자는 인앱 알림을 통해 만료 예정인 인증서에 대한 알림을 받게 됩니다. 또한 관리자 영역의 Assets 하위 섹션 - 디지털 에셋 관리에 대한 만료일을 확인할 수도 있습니다.
 
 1. 디지털 자산 관리 페이지에서 구성된 저장소 목록을 찾습니다.
 
@@ -84,7 +84,7 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 1. 인증서 파일의 줄임표(**...**) 아이콘을 클릭하여 해당 파일에 대한 작업 옵션을 표시합니다.
 
-   ![AEM 에셋 저장소 인증서에 대한 옵션 메뉴에 액세스](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
+   ![AEM 자산 저장소 인증서에 대한 옵션 메뉴에 액세스](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL 바꾸기]**&#x200B;를 선택하여 파일 업로드 대화 상자를 엽니다.
 
@@ -106,7 +106,7 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 1. **[!UICONTROL 보기]**&#x200B;를 선택하세요.
 
-   ![연결된 AEM 에셋 저장소에 대한 인증서 JSON 파일 보기](./assets/configuration-assets-aem-view-cert.png){width="600"}
+   ![연결된 AEM 자산 저장소의 인증서 JSON 파일 보기](./assets/configuration-assets-aem-view-cert.png){width="600"}
 
 1. 저장소 구성 페이지로 돌아가려면 **[!UICONTROL 닫기]**&#x200B;를 클릭하십시오.
 

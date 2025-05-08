@@ -1,19 +1,19 @@
 ---
-title: LinkedIn 계정 일치 대상
+title: LinkedIn 계정 일치 대상자
 description: LinkedIn 계정을 연결하고 구매 그룹을 위한 데이터 흐름을 활성화하는 방법에 대해 알아봅니다.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
-# LinkedIn 계정 일치 대상
+# LinkedIn 계정 일치 대상자
 
-Journey Optimizer B2B edition은 Account Matched Audiences를 통해 LinkedIn 광고 대상을 생성하는 기능을 제공하며, 구매 그룹에서 빈 역할을 채울 수 있도록 설계되었습니다. 구매 그룹 필터 세트를 정의하여 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. 이 기능은 Experience Platform 대상 을 활용하여 통합의 몇 가지 측면을 관리합니다. 데이터 흐름은 10개로 제한됩니다.
+Journey Optimizer B2B edition은 Account Matched Audiences를 통해 LinkedIn 광고 대상을 생성하는 기능을 제공하며, 구매 그룹에서 빈 역할을 채울 수 있도록 설계되었습니다. 구매 그룹 필터 세트를 정의하여 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. 이 기능은 Experience Platform 대상을 활용하여 통합의 일부 요소를 관리합니다. 데이터 흐름은 10개로 제한됩니다.
 
-Journey Optimizer B2B edition에서 데이터 흐름을 시작하려면 Experience Platform 애플리케이션에 LinkedIn Campaign Manager 계정이 구성된 [(회사) LinkedIn 일치하는 대상 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin#connect)의 인스턴스가 하나 이상 있어야 합니다.
+Journey Optimizer B2B edition에서 데이터 흐름을 시작하려면 Experience Platform 애플리케이션에 LinkedIn Campaign Manager 계정이 구성된 [(회사) LinkedIn 일치하는 대상 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}의 인스턴스가 하나 이상 있어야 합니다.
 
 ## 새 LinkedIn 계정 연결 구성 {#linkedin-destination-setup}
 
@@ -70,7 +70,7 @@ LinkedIn 계정의 이름 및 설명은 Journey Optimizer B2B edition의 구매 
 >
 >이미 데이터 흐름이 10개인 경우 다른 데이터 흐름을 만들 수 없습니다. 최대 수준인 경우 Experience Platform B2B edition에서 새 항목을 만들기 전에 Journey Optimizer에서 하나를 삭제하십시오.
 
-1. Journey Optimizer B2B edition에서 왼쪽 탐색 영역에 있는 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**(으)로 이동합니다.
+1. Journey Optimizer B2B 에디션의 왼쪽 탐색 영역에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**&#x200B;으로 이동합니다.
 
 1. **[!UICONTROL 찾아보기]** 탭을 선택합니다.
 
@@ -96,7 +96,7 @@ LinkedIn 계정의 이름 및 설명은 Journey Optimizer B2B edition의 구매 
 
    ![구매 그룹에 따라 계정 대상자 필터링을 지정합니다](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
-   **[!UICONTROL 참여 점수]**&#x200B;의 경우 연산자 `Between`은(는) 백분율 범위와 함께 포괄적입니다. 예를 들어, 5.1과 5는 모두 _사이_ 5와 6입니다.
+   **[!UICONTROL 참여 점수]**&#x200B;의 경우 `Between` 연산자와 백분율 범위가 포함됩니다. 예를 들어 5.1과 5는 모두 5와 6 _사이_&#x200B;입니다.
 
    빈 조건은 `Is Any`과(와) 같이 처리됩니다.
 
@@ -116,4 +116,4 @@ LinkedIn 계정의 이름 및 설명은 Journey Optimizer B2B edition의 구매 
 
 LinkedIn 광고 대상과 같은 유료 미디어 채널을 통해 계정 구성원과 협력하여 고객을 확보하고, 육성하고, 영업 자격을 부여할 수 있습니다. 계정 여정에서 _작업 수행_ 노드를 사용하여 다른 계정 구성원에 가장 적합한 외부 채널을 통해 계정의 주요 구성원과 참여를 자동화합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448679/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

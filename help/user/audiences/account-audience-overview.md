@@ -2,8 +2,8 @@
 title: 계정 대상자
 description: 계정 대상자에 대해 알아보고 계정 대상자가 계정 기반 여정을 어떻게 활성화하는지 알아봅니다.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 대상자는 유사한 행동 및/또는 특성을 공유하는 사용자 집합입니다. Journey Optimizer B2B 에디션은 Adobe Real-Time Customer Data Platform B2B 및 B2P 에디션에서 제공되는 계정 세분화 기능을 사용합니다. 계정 세분화를 통해 사용자는 시스템 내 모든 B2B 엔티티의 데이터를 활용하여 계정 대상자를 생성할 수 있습니다. 이러한 계정 대상자는 Journey Optimizer B2B 에디션 계정 여정에 대한 입력 역할을 하며 원활한 활성화 및 개인화 기능을 용이하게 합니다.
 
-[Adobe Experience Platform 세분화 서비스 설명서](https://experienceleague.adobe.com/ko/docs/ experience-platform/segmentation/types/account-audiences)에서 계정 대상자와 이를 정의하는 방법에 대해 자세히 알아보십시오.
+[Adobe Experience Platform 세분화 서비스 설명서](https://experienceleague.adobe.com/ko/docs/ experience-platform/segmentation/types/account-audiences){target="_blank"}에서 계정 대상자와 이를 정의하는 방법에 대해 자세히 알아보십시오.
 
 ## 계정 대상자 워크플로
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B 에디션을 사용하면 왼쪽 탐색 영역에서 직�
 
 ## 계정 대상자 만들기
 
-계정 세분화를 통해 계정 대상자를 정의합니다. Journey Optimizer B2B 에디션 애플리케이션 내에서 직접 계정 세분화를 만들 수도 있고, [세그먼트 빌더 UI](https://experienceleague.adobe.com/ko/docs/ experience-platform/segmentation/ui/segment-builder)를 사용할 수도 있습니다. 다음은 Journey Optimizer B2B 에디션에서 계정 세분화를 만드는 데 사용할 수 있는 단계입니다.
+계정 세분화를 통해 계정 대상자를 정의합니다. Journey Optimizer B2B 에디션 애플리케이션 내에서 직접 계정 세분화를 만들 수도 있고, [세그먼트 빌더 UI](https://experienceleague.adobe.com/ko/docs/ experience-platform/segmentation/ui/segment-builder){target="_blank"}를 사용할 수도 있습니다. 다음은 Journey Optimizer B2B 에디션에서 계정 세분화를 만드는 데 사용할 수 있는 단계입니다.
 
 1. 왼쪽 탐색 영역에서 **[!UICONTROL 계정]** > **[!UICONTROL 대상자]**&#x200B;를 선택합니다.
 

@@ -3,8 +3,8 @@ title: 자산
 description: Journey Optimizer B2B 에디션의 자산 관리에 대해 알아봅니다.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Adobe Experience Manager Assets를 사용하여 마케팅과 크리에이티브 
 
 Adobe Journey Optimizer B2B 에디션은 Adobe Experience Manager Assets as a Cloud Service에 연결하여 중앙 집중식으로 자산을 관리하고, 이를 통해 크리에이티브 시스템을 확장하며 디지털 자산을 통합하여 경험을 제공할 수 있습니다. Adobe Experience Manager Assets as a Cloud Service는 효율적인 디지털 자산 관리 및 Dynamic Media 작업을 위한 사용하기 쉬운 클라우드 솔루션을 제공합니다. 여기에는 인공 지능과 머신 러닝을 비롯한 고급 기능이 완벽하게 통합되어 있습니다.
 
-[Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/ko/docs/ experience-manager-cloud-service/content/assets/overview)에서 자세히 알아보십시오.
+[Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/ko/docs/ experience-manager-cloud-service/content/assets/overview){target="_blank"}에서 자세히 알아보십시오.
 
 {{aem-assets-licensing-note}}
 

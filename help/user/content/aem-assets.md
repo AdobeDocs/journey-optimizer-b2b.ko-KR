@@ -3,26 +3,26 @@ title: Experience Manager Assets 작업
 description: Adobe Journey Optimizer B2B edition에서 콘텐츠를 작성할 때 연결된 AEM Assets 저장소의 이미지 에셋을 사용하는 방법에 대해 알아봅니다.
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Experience Manager 에셋으로 작업
+# Experience Manager 에셋 작업
 
-Adobe Journey Optimizer B2B edition과 Adobe Experience Manager Assets as a Cloud Service 자산을 통합하면 마케팅 콘텐츠에서 디지털 자산을 쉽게 검색하고 액세스할 수 있습니다. 콘텐츠를 작성할 때 왼쪽 탐색 메뉴의 _Experience Manager Assets_ 항목에서 에셋에 액세스할 수 있으며 계정 여정에 대한 이메일 콘텐츠를 작성할 때 액세스할 수 있습니다.
+Adobe Experience Manager Assets as a Cloud Service이 Adobe Journey Optimizer B2B edition과 통합되면 마케팅 콘텐츠에서 사용할 디지털 에셋을 쉽게 검색하고 액세스할 수 있습니다. 콘텐츠를 작성할 때 왼쪽 탐색 메뉴의 _Experience Manager Assets_ 항목에서 에셋에 액세스할 수 있으며 계정 여정에 대한 이메일 콘텐츠를 작성할 때 액세스할 수 있습니다.
 
 {{aem-assets-licensing-note}}
 
-이러한 디지털 에셋을 사용하는 경우 Assetsas a Cloud Service 의 최신 변경 사항이 연결된 참조를 통해 라이브 이메일 캠페인에 자동으로 전파됩니다. Adobe Experience Manager Assetsas a Cloud Service 에서 이미지가 삭제되면 이메일에 이미지가 깨진 참조로 나타납니다. 현재 계정 여정 내에서 사용되는 에셋이 수정되거나 삭제되면 여정 작성자에게 이미지 변경 사항과 이미지를 사용하는 여정 목록에 대한 알림이 표시됩니다. 에셋에 대한 모든 변경 작업은 Adobe Experience Manager Assets 중앙 저장소에서 수행해야 합니다.
+이러한 디지털 에셋을 사용하는 경우 Assets as a Cloud Service의 최신 변경 사항은 연결된 참조를 통해 라이브 이메일 캠페인에 자동으로 전파됩니다. Adobe Experience Manager Assets as a Cloud Service에서 이미지가 삭제되면 이메일에 손상된 참조가 함께 표시됩니다. 현재 계정 여정 내에서 사용되는 에셋이 수정되거나 삭제되면 여정 작성자에게 이미지 변경 사항과 이미지를 사용하는 여정 목록에 대한 알림이 표시됩니다. 에셋에 대한 모든 변경 작업은 Adobe Experience Manager Assets 중앙 저장소에서 수행해야 합니다.
 
 환경에 [Assets 저장소 연결](../admin/configure-aem-repositories.md)이 하나 이상 있는 경우 콘텐츠 작성자는 전자 메일, 전자 메일 템플릿 또는 시각적 조각을 만들 때 AEM Assets을 에셋의 소스로 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->관리자는 Assets에 액세스해야 하는 사용자를 Assets 소비자 사용자 또는/및 Assets 사용자 제품 프로필에 추가해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>관리자는 Assets에 액세스해야 하는 사용자를 Assets 소비자 사용자 또는/및 Assets 사용자 제품 프로필에 추가해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets 이미지 액세스
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer B2B edition과 Adobe Experience Manager Assets as a Clou
 
 >[!NOTE]
 >
->현재 Adobe Journey Optimizer B2B edition에서는 Adobe Experience Manager Assets의 이미지 자산만 지원됩니다. 에셋에 대한 변경은 Adobe Experience Manager Assets 중앙 저장소에서 수행해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>현재 Adobe Journey Optimizer B2B edition에서는 Adobe Experience Manager Assets의 이미지 자산만 지원됩니다. 에셋에 대한 변경은 Adobe Experience Manager Assets 중앙 저장소에서 수행해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 표시된 저장소 변경
 

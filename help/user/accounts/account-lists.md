@@ -2,7 +2,7 @@
 title: 계정 목록
 description: 계정 목록과 마케터가 계정 여정을 통해 계정을 타깃팅하는 데 이 목록을 사용하는 방법에 대해 알아봅니다.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1339'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 여정 오케스트레이션에 사용할 수 있는 명명된 계정의 컬렉션입니다. 계정 목록은 업종, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 대상으로 할 수 있습니다. 계정 목록에는 두 가지 유형이 있습니다.
 
 * **정적** - 정적 계정 목록이 있는 경우 계정을 추가할 때만 목록이 변경됩니다. 필터 세트를 적용하여 현재 계정 데이터를 기준으로 목록을 채워 수동으로 계정을 추가하거나 계정 여정을 통해 계정을 추가 및 제거할 수 있습니다.
-* **동적** - 동적 계정 목록을 사용하여 목록을 자동으로 조정하기 위한 필터 집합을 정의합니다. 시스템은 이 필터 세트를 사용하여 계정 정보의 변경에 따라 계정을 추가하고 제거합니다. 이 목록 관리는 [실시간 고객 데이터 플랫폼의 대상 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/segmentation/b2b)와 비슷합니다.
+* **동적** - 동적 계정 목록을 사용하여 목록을 자동으로 조정하기 위한 필터 집합을 정의합니다. 시스템은 이 필터 세트를 사용하여 계정 정보의 변경에 따라 계정을 추가하고 제거합니다. 이 목록 관리는 [실시간 고객 데이터 플랫폼의 대상 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}와 비슷합니다.
 
 계정 목록이 _Live_(게시됨) 상태인 경우 [계정 여정 및 Marketo Engage 프로그램에서 사용](./account-lists-journeys.md)할 수 있습니다.
 

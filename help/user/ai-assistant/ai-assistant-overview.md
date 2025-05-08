@@ -3,16 +3,17 @@ title: Journey Optimizer B2B edition의 AI 지원
 description: 플레이스홀더
 feature: AI Assistant
 level: Beginner
-source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
+exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1241'
 ht-degree: 4%
 
 ---
 
 # Journey Optimizer B2B edition의 AI 지원
 
-Journey Optimizer B2B edition의 AI 도우미는 Adobe Experience Platform의 [AI 도우미](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)와 동일한 기술 기반에서 만들어집니다. Adobe Journey Optimizer B2B edition에서 워크플로를 가속화하는 데 사용할 수 있는 대화형 경험입니다. AI Assistant를 사용하여 제품 기능을 보다 깊이 이해하고, 문제를 해결하거나, 정보를 검색하고, Journey Optimizer B2B edition에 대한 운영 통찰력을 찾을 수 있습니다.
+Journey Optimizer B2B edition의 AI 도우미는 Adobe Experience Platform의 [AI 도우미](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}와 동일한 기술 기반에서 만들어집니다. Adobe Journey Optimizer B2B edition에서 워크플로를 가속화하는 데 사용할 수 있는 대화형 경험입니다. AI Assistant를 사용하여 제품 기능을 보다 깊이 이해하고, 문제를 해결하거나, 정보를 검색하고, Journey Optimizer B2B edition에 대한 운영 통찰력을 찾을 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -22,13 +23,13 @@ Journey Optimizer B2B edition의 AI 도우미는 Adobe Experience Platform의 [A
 
 ![사용자 계약의 첫 페이지입니다.](./assets/user-agreement-1.png)
 
-![사용자 계약의 마지막 페이지.](./assets/user-agreement-2.png)
+![사용자 계약의 마지막 페이지입니다.](./assets/user-agreement-2.png)
 
 +++
 
 ## Journey Optimizer B2B edition의 AI Assistant 기능
 
-제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터의 내부 표현이며, 지정된 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 웹인 _&#x200B;**_지식 그래프_**&#x200B;_&#x200B;라고도 합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
+제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터의 내부 표현이며, 지정된 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 웹인 _**_지식 그래프_**_&#x200B;라고도 합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
 
 * Experience League 설명서입니다.
 * 스키마, 필드, 대상 및 여정 등 운영 객체
@@ -58,8 +59,8 @@ _운영 인사이트_&#x200B;는 AI Assistant가 메타데이터 개체(특성, 
 | 도메인 | 지원되는 메타데이터 | 지원되지 않는 메타데이터 |
 | --- | --- | --- |
 | 속성/필드 | <li>속성 이름 검색 <li>속성 - 스키마 관계 <li>속성 - 데이터 세트 관계 <li>속성 - 대상 관계 <li>속성 - 대상 관계 | <li>Attribute 클래스 <li>감사 <li>사용 중단 상태 <li>레이블 <li>속성에 저장된 값 |
-| 계정 대상 <br><br>**_참고:_**&#x200B;AJO B2B AI Assistant는 계정 대상에 대한 대상 질문에만 답할 수 있으며 Experience Platform AI Assistant는 개인 대상에 대한 질문에만 답할 수 있습니다 | <li>대상자 수 <li>대상자 유형(스트리밍 또는 일괄 처리) <li>생성/수정 날짜 <li>활성화 상태 <li>구성원 수 <li>중복 대상자 <li>이름 및 ID 검색 | <li>대상자 중복 <li>대상자 활성화 <li>감사 <li>만들기/수정 <li>레이블 <li>멤버 자격 트렌드 |
-| 데이터 흐름 | <li>데이터 흐름 카운트 <li>데이터 흐름 상태 <li>데이터 흐름 - 데이터 세트 관계 <li>데이터 흐름 - 원본 관계 | <li>생성/수정 <li>데이터 흐름 일괄 처리 관계 <li>프로필 개수 수집 |
+| 계정 대상 <br><br>**_참고:_**AJO B2B AI Assistant는 계정 대상에 대한 대상 질문에만 답할 수 있으며 Experience Platform AI Assistant는 개인 대상에 대한 질문에만 답할 수 있습니다 | <li>대상자 수 <li>대상자 유형(스트리밍 또는 일괄 처리) <li>생성/수정 날짜 <li>활성화 상태 <li>구성원 수 <li>중복 대상자 <li>이름 및 ID 검색 | <li>대상자 중복 <li>대상자 활성화 <li>감사 <li>만들기/수정 <li>레이블 <li>멤버 자격 트렌드 |
+| 데이터 흐름 | <li>데이터 흐름 카운트 <li>데이터 흐름 상태 <li>데이터 흐름 - 데이터 세트 관계 <li>데이터 흐름 - 소스 관계 | <li>생성/수정 <li>데이터 흐름 일괄 처리 관계 <li>프로필 개수 수집 |
 | 데이터 세트 | <li>데이터 세트 수 <li>프로필 활성화 상태 <li>생성/수정 날짜 <li>데이터 세트 - 스키마 관계 <li>데이터 세트 - 대상 관계 <li>데이터 세트 - 속성 관계 <li>데이터 세트 - 데이터 흐름 관계 <li>이름 검색 <li>이름 및 ID 검색 | <li>감사 <li>제작자 <li>데이터 세트 - 일괄 처리 관계 <li>데이터 세트 생성/수정 <li>데이터 세트 크기 <li>프로필 수 <li>행 수 <li>값 검색 |
 | 대상 | <li>구성된 대상 카운트 <li>대상 - 대상 관계 <li>대상 속성 관계 | <li>계정 설정 <li>계정 자격 증명 정보 <li>고유 프로필 활성화됨 |
 | 여정(계정 여정) | <li>계수 <li>이름 및 ID 검색 <li>여정 상태 <li>생성/수정 날짜 | <li>속성 - 여정 관계 감사 <li>생성/수정 <li>제작자 |
@@ -76,9 +77,9 @@ _운영 인사이트_&#x200B;는 AI Assistant가 메타데이터 개체(특성, 
 
 현재 AI Assistant의 범위는 다음과 같습니다.
 
-* [제품 지식](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home#product-knowledge): AI Assistant는 Real-Time Customer Data Platform 및 Adobe Journey Optimizer B2B edition에 대한 제품 지식 질문에 답변할 수 있습니다.
+* **제품 지식**: AI Assistant는 Real-Time Customer Data Platform 및 Adobe Journey Optimizer B2B edition에 대한 제품 지식 질문에 답변할 수 있습니다.
 
-* [운영 인사이트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home#operational-insights): 특성, 계정 대상, 데이터 흐름, 데이터 세트, 대상, 계정 여정, 스키마, 소스, 구매 그룹 템플릿 및 솔루션 관심 사항과 같은 데이터 개체에 대한 운영 인사이트에 대해 AI Assistant에 질문할 수 있습니다.
+* **운영 인사이트**: 특성, 계정 대상, 데이터 흐름, 데이터 세트, 대상, 계정 여정, 스키마, 소스, 구매 그룹 템플릿 및 솔루션 관심 사항과 같은 데이터 개체에 대한 운영 인사이트에 대해 AI Assistant에 질문할 수 있습니다.
 
 ### 개인 정보, 보안 및 거버넌스
 
@@ -90,7 +91,7 @@ Journey Optimizer B2B edition의 AI Assistant는 개인정보 보호, 보안 및
 
 * AI Assistant와 상호 작용하려면 명시적인 권한이 있어야 합니다.
 
-   * 관리자는 [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions) 및 [Admin Console](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/browse)을 사용하여 권한을 설정할 수 있습니다.
+   * 관리자는 [권한 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} 및 [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}을 사용하여 권한을 설정할 수 있습니다.
 
    * 권한은 세분화되며 샌드박스 관리자는 다양한 질문 카테고리(AI Assistant를 통한 제품 지식 기반 질문 또는 운영 통찰력에 대한 질문)를 물을 수 있는 사용자를 구성할 수 있습니다.
 
@@ -124,6 +125,6 @@ AI 어시스턴트는 개인정보를 교육 목적으로 활용하지 않습니
 
 AI Assistant에 대한 일반적인 이해로 워크플로우 동안 AI Assistant를 활성화하고 사용하십시오. 자세한 내용은 다음 설명서를 참조하십시오.
 
-* [AI Assistant 액세스 활성화](./enable-ai-assistant-access.md)
+* [AI 어시스턴트 액세스 활성](./enable-ai-assistant-access.md)
 * [질문 지침](./question-guidance.md)
 * [AI 어시스턴트 사용](./use-ai-assistant.md)

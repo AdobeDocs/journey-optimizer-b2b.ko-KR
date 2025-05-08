@@ -3,10 +3,10 @@ title: 이메일 작성
 description: 계정 여정에 사용되는 개인화된 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ _[!UICONTROL 작업 수행]_ 여정을 추가하고 다음을 수행하면 계�
 
    >[!NOTE]
    >
-   >이메일을 처음 만드는 경우 이메일 채널이 Adobe Marketo Engage 내에서 구성되었는지 확인하십시오. 자세한 내용은 Marketo Engage 설명서에서 [전자 메일 배달 가능성 확인](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)을 참조하세요.
+   >이메일을 처음 만드는 경우 이메일 채널이 Adobe Marketo Engage 내에서 구성되었는지 확인하십시오. 자세한 내용은 Marketo Engage 설명서에서 [전자 메일 배달 가능성 확인](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}을 참조하세요.
 
    ![작업 수행 - 전자 메일 보내기](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

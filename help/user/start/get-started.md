@@ -2,10 +2,10 @@
 title: Journey Optimizer B2B 에디션 시작하기
 description: Journey Optimizer B2B 에디션의 새로운 사용자로 시작하기 위한 주요 영역에 대해 알아봅니다.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
 >[!TIP]
 >
->또한 성능 가드레일과 정적 제한 사항에 대한 라이선스 권한과 해당 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 확인하십시오.
+>또한 라이선스 자격 및 해당 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}에서 성능 보호 및 정적 제한에 대해 확인하십시오.
 
 >[!BEGINTABS]
 
@@ -29,13 +29,13 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
 다음 페이지에서 액세스 관리에 대해 알아보십시오.
 
-1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **제품 프로필 설정**. 제품 프로필은 사용자가 인터페이스의 특정 기능이나 오브젝트에 액세스할 수 있도록 허용하는 Adobe Experience Platform의 단 권한 세트입니다. [자세히 알아보기](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. 샌드박스를 포함하여 제품 프로필에 **사용자 권한을 설정**&#x200B;하고 팀원을 다른 제품 프로필에 할당하여 액세스 권한을 부여합니다. 이 작업은 Admin Console에서 수행할 수 있습니다. [자세히 알아보기](../admin/user-management.md#create-a-user-group)
 
-1. Marketo Engage에서 **이메일 게재를 구성**&#x200B;하여 팀이 계정 여정에서 이메일 콘텐츠를 전송할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. Marketo Engage에서 **이메일 게재를 구성**&#x200B;하여 팀이 계정 여정에서 이메일 콘텐츠를 전송할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **SMS 서비스 구성**. 텍스트 메시지 서비스를 독립적으로 제공하는 지원되는 서드파티 SMS 제공업체 중 하나를 설정하고 Adobe Journey Optimizer B2B 에디션에서 계정 자격 증명을 구성합니다. [자세히 알아보기](../admin/configure-channels-sms.md)
 
