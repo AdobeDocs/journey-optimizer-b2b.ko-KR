@@ -3,9 +3,9 @@ title: Journey Optimizer B2B 에디션 시작하기
 description: Journey Optimizer B2B 에디션의 새로운 사용자로 시작하기 위한 주요 영역에 대해 알아봅니다.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
 >[!TIP]
 >
->또한 라이선스 자격 및 해당 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}에서 성능 보호 및 정적 제한에 대해 확인하십시오.
+>또한 성능 가드레일과 정적 제한 사항에 대한 라이선스 권한과 해당 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 확인하십시오.
 
 >[!BEGINTABS]
 
