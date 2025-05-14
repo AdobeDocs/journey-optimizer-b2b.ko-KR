@@ -3,10 +3,10 @@ title: 조건부 콘텐츠
 description: 계정 여정에 대한 이메일 콘텐츠를 작성할 때 콘텐츠 변형을 만들고 조건부 규칙을 적용하는 방법에 대해 알아봅니다.
 feature: Email Authoring, Content
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 1351880505fcf656f94dc5d9e383337d83faeff4
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 10%
+source-wordcount: '1305'
+ht-degree: 11%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 조건부 콘텐츠를 사용하면 조건부 규칙에 따라 이메일 콘텐츠를 조정할 수 있습니다. 이러한 규칙은 프로필 속성 또는 컨텍스트 이벤트를 사용하여 정의됩니다. 규칙 빌더에서 조건부 규칙을 만들고, 이를 저장하여 계정 여정 전반에서 재사용할 수 있습니다.
 
-이메일 메시지에 조건부 콘텐츠를 추가하기 위해 Adobe Journey Optimizer에서는 _조건_ 라이브러리에 저장된 조건부 규칙을 적용할 수 있습니다. [계정 여정 내에서 전자 메일을 작성](./email-authoring.md)할 때 전자 메일 디자인 공간 내에 조건부 규칙을 적용합니다.
+이메일 메시지에 조건부 콘텐츠를 추가하기 위해 Adobe Journey Optimizer에서는 _조건_ 라이브러리에 저장된 조건부 규칙을 적용할 수 있습니다. [계정 여정에 대한 전자 메일 콘텐츠를 작성](./email-authoring.md)할 때 전자 메일 디자인 공간 내에 조건부 규칙을 적용합니다.
 
 ## 이메일에 조건부 콘텐츠 추가 {#email-content}
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 
    구성 요소는 조건부 구성 요소로 활성화되었음을 나타내기 위해 주황색으로 표시됩니다. **[!UICONTROL 조건부 콘텐츠]** 창의 왼쪽에 _기본 변형_ 및 _Variant - 1이 표시됩니다.
 
-   ![텍스트 구성 요소에 대해 조건부 콘텐츠 사용](./assets/conditions-enable.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![텍스트 구성 요소에 조건부 콘텐츠 사용](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    선택하고 활성화한 원래 컨텐츠는 기본값이며, 정의한 변형에 대해 충족되지 않은 조건부 규칙이 없을 때 적용됩니다.
 
@@ -42,13 +42,13 @@ ht-degree: 10%
 
 1. 첫 번째 변형(_변형 - 1_) 위로 마우스를 가져간 후 _조건 선택_ 아이콘(![조건 아이콘](../assets/do-not-localize/icon-select-condition.svg))을 클릭합니다.
 
-   ![variant에 대한 조건 선택](./assets/conditions-variant-select.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![변형에 대한 조건 선택](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    _[!UICONTROL 조건 선택]_ 대화 상자가 열리고 조건 라이브러리가 표시됩니다.
 
    원하는 조건에 대한 세부 정보를 보려면 _추가 메뉴_ 아이콘(**...**)을 클릭하고 **[!UICONTROL 정보 보기]**&#x200B;를 선택하십시오.
 
-   ![조건 라이브러리 액세스 조건 세부 정보](assets/conditions-select-dialog.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![조건 라이브러리 액세스 조건 세부 정보](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
    필요한 조건이 없으면 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭하여 [조건부 규칙을 만듭니다](#create-condition).
 
@@ -56,23 +56,23 @@ ht-degree: 10%
 
    변형에 대한 _추가 메뉴_ 아이콘(**...**)을 클릭하고 **[!UICONTROL 조건 보기]**&#x200B;를 선택하여 연결된 조건을 검토할 수 있습니다.
 
-   ![변형과 관련된 조건 보기](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![변형과 관련된 조건 보기](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    팝업을 닫으려면 오른쪽 상단의 X 를 클릭합니다.
 
-   ![연결된 조건에 대한 세부 정보 보기](./assets/conditions-info-popup.png){width="500"}{width=&quot;500&quot;}
+   ![연결된 조건에 대한 세부 정보 보기](./assets/conditions-info-popup.png){width="500"}
 
 1. 가독성을 높이려면 변형에 대한 _추가 메뉴_ 아이콘(**...**)을 클릭하고 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 변형의 이름을 바꾸십시오.
 
    변형 및 해당 의도를 식별하는 데 도움이 되는 변형의 의미 있는 이름을 입력합니다.
 
-   ![변형 이름 바꾸기](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![변형 이름 바꾸기](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. 왼쪽 창에서 변형을 선택한 상태에서 조건이 true일 때 구성 요소가 이메일 메시지에 표시되는 방식을 변경합니다.
 
    이 예에서 텍스트 구성 요소에 대한 변형은 수신자 지역에 따라 다른 설명을 사용합니다.
 
-   ![변형에 대한 구성 요소 변경](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![변형에 대한 구성 요소 변경](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. 필요한 경우 **[!UICONTROL 변형 추가]**&#x200B;를 클릭하여 다른 변형을 정의합니다.
 
@@ -136,13 +136,13 @@ ht-degree: 10%
    * **[!UICONTROL 사용자 조건]** - 사용자 특성 및 컨텍스트 이벤트를 사용하여 조건부 규칙을 만들려면 이 유형을 선택하십시오.
    * **[!UICONTROL 계정 조건]** - 계정 특성을 사용하여 조건부 규칙을 만들려면 이 형식을 선택하십시오.
 
-   ![만들 조건 유형 선택](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![만들 조건 유형 선택](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. 필요에 따라 조건부 규칙을 만듭니다.
 
    규칙에 포함할 각 속성 또는 이벤트에 대해 항목을 규칙 캔버스로 드래그하여 놓습니다. 필터를 확장하고 표현식을 완료합니다.
 
-   ![평가할 식을 완료합니다](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![평가할 식을 완료합니다](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    필터를 두 개 이상 포함하는 경우 **[!UICONTROL 필터 논리]**&#x200B;를 설정하십시오.
 
@@ -153,7 +153,7 @@ ht-degree: 10%
 
    다른 중복 조건을 만드는 대신 재사용할 수 있도록 조직의 다른 사용자가 도움을 받을 수 있도록 의미 있는 이름과 유용한 설명을 사용하십시오.
 
-   ![조건부 규칙의 이름과 설명을 추가합니다](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![조건부 규칙의 이름과 설명을 추가합니다](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. 조건부 규칙이 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
@@ -167,7 +167,7 @@ ht-degree: 10%
 
    규칙 복제본이 규칙 빌더에서 열립니다. 중복을 빌드할 규칙의 시작점으로 사용합니다.
 
-   ![중복 규칙을 사용하여 필요한 규칙을 만드십시오](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![중복 규칙을 사용하여 필요한 규칙을 만드십시오](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. 규칙 빌더에서 필요한 항목에 따라 조건을 변경, 추가 또는 삭제합니다.
 

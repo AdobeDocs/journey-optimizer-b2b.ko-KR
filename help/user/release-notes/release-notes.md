@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
+workflow-type: tm+mt
+source-wordcount: '2030'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,8 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 | 기능 | 계정 목록 여정 오케스트레이션 | 여정 작업 노드를 사용하여 정적 계정 목록에 계정을 추가하거나 제거할 수 있습니다. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">자세히 알아보기</a> |
 | 개선 사항 | Marketo Engage에서 여정 멤버십 필터링 | 여정 대상자에 Adobe Journey Optimizer B2B Edition 계정 목록을 사용한 다음 Marketo Engage 스마트 목록에서 _계정 목록 멤버_ 필터를 적용합니다. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">자세히 알아보기</a> |
 | 기능 | 비활동 필터 | 이메일 비활동, 즐거운 순간, 데이터 가치 변화, 방문한 웹 페이지 등을 포함하여 Marketo Engage 캠페인과 프로그램 내의 비활동에 따라 조율되는 여정입니다. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">자세히 알아보기</a> |
-| 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 관련된 웹 페이지의 방문 활동을 기반으로 여정을 조율합니다. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">자세히 알아보기</a> |
+| 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 연결된 방문한 웹 페이지에 대한 활동을 기반으로 여정을 오케스트레이션할 수 있습니다. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">자세히 알아보기</a> |
+| 개선 사항 | 이메일 목록 | 활성 및 초안 이메일의 전체 목록을 보고, 관련 계정 여정 전반에서 검색하고, 검토하고, 업데이트합니다. <a href="../content/emails-list.md">자세히 알아보기</a> |
 
 ## 2025.3 릴리스 정보
 
@@ -52,7 +53,7 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 사용자 정의 가능 필드 - 콘텐츠 조각 | 콘텐츠 조각 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이렇게 하면 이메일 또는 템플릿 작성자가 자신의 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-fragment-customization">자세히 알아보기</a> |
+| 기능 | 사용자 정의 가능 필드 - 콘텐츠 조각 | 콘텐츠 조각 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이 기능을 사용하면 이메일 또는 템플릿 작성자는 해당 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-fragment-customization">자세히 알아보기</a> |
 | 기능 | B2B 기본 제공 역할 및 제품 권한 | 이제 Experience Platform에는 B2B 제품 기능에 대한 액세스 권한을 관리하는 데 사용할 수 있는 기본 제공 역할 세트가 포함됩니다. <a href="../admin/user-management.md#b2b-built-in-roles">자세히 알아보기</a> <br/>이제 관리자는 Adobe Experience Platform에서 Journey Optimizer B2B 에디션 제품 권한을 포함하도록 사용자 정의 역할을 정의할 수 있습니다. <a href="../admin/user-management.md#b2b-product-permissions">자세히 알아보기</a> |
 | 기능 | 여정 복제 유형 | 계정 여정을 복제할 때 Journey Optimizer B2B 에디션에서 생성된 이메일 및 SMS 메시지를 제외한 노드 세부 정보를 포함할 수 있습니다. 대안으로, 노드 세부 정보 및 설정 없이 구조와 경로 흐름의 스켈레톤 복사본을 만들 수 있습니다. <a href="../journeys/journey-overview.md#duplicate-journey">자세히 알아보기</a> |
 | 개선 사항 | 4가지 추가 샘플 이메일 템플릿 | 이제 샘플 이메일 템플릿 라이브러리에는 재참여, 정보 제공, 육성 및 피드백 콘텐츠 예시를 위한 4가지 SecurFinancial 템플릿이 포함됩니다. |

@@ -1,52 +1,24 @@
 ---
-title: 이메일 작성
-description: 계정 여정에 사용되는 개인화된 이메일 콘텐츠를 만드는 방법을 알아봅니다.
+title: 이메일 메시지 작성
+description: Adobe Journey Optimizer B2B에서 이메일 콘텐츠를 만드는 방법을 알아봅니다. 템플릿, HTML 가져오기 및 AI 기반 도구를 사용하여 이메일 커뮤니케이션을 개인화하고 최적화합니다.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 12%
+source-wordcount: '949'
+ht-degree: 15%
 
 ---
 
-# 이메일 작성
+# 이메일 메시지 작성
 
-Adobe Journey Optimizer B2B edition을 사용하여 고객에게 이메일 메시지를 보냅니다. 비주얼 디자이너에서 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
-
-## 계정 여정에 이메일 작업 추가
-
-_[!UICONTROL 작업 수행]_ 여정을 추가하고 다음을 수행하면 계정 노드에서 전자 메일 게재를 설정할 수 있습니다.
-
-1. _[!UICONTROL Action on]_ 대상에 대해 **[!UICONTROL 사람]**&#x200B;을 선택하세요.
-1. _[!UICONTROL 사용자에 대한 작업]_&#x200B;에 대해 **[!UICONTROL 전자 메일 보내기]**&#x200B;를 선택하세요.
-1. _[!UICONTROL 전자 메일 원본]_&#x200B;에 대해 **[!UICONTROL 새 전자 메일 만들기]**&#x200B;를 선택하세요.
-
-   또는 _[!UICONTROL Adobe Marketo Engage에서 전자 메일 선택]_ 옵션을 선택하여 Marketo Engage에서 미리 작성된 전자 메일 중 하나를 사용하여 계정 여정의 일부로 보낼 수도 있습니다.
-
-   >[!NOTE]
-   >
-   >이메일을 처음 만드는 경우 이메일 채널이 Adobe Marketo Engage 내에서 구성되었는지 확인하십시오. 자세한 내용은 Marketo Engage 설명서에서 [전자 메일 배달 가능성 확인](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}을 참조하세요.
-
-   ![작업 수행 - 전자 메일 보내기](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. _[!UICONTROL 작업 수행]_ 패널 아래쪽에서 **[!UICONTROL 전자 메일 만들기]**&#x200B;를 클릭합니다.
-
-1. 대화 상자에서 전자 메일의 고유한 **[!UICONTROL 이름]**&#x200B;과(와) **[!UICONTROL 제목 줄]**&#x200B;을(를) 입력합니다.
-
-   ![새 전자 메일 대화 상자 만들기](assets/create-new-email.png){width="400"}
-
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
-
-   전자 메일 콘텐츠 페이지의 _[!UICONTROL 전자 메일 속성]_ 섹션에서 _[!UICONTROL 전자 메일을 통해]_ 및 _[!UICONTROL 주소에 회신]_ 필드가 이미 구성되어 있습니다. _[!UICONTROL 보낸 사람 이름]_ 및 _[!UICONTROL 설명]_(선택 사항) 필드에 값을 입력할 수 있습니다.
-
-## 이메일 콘텐츠 만들기
+[여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가](./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
 
 _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL 전자 메일 콘텐츠 추가]**&#x200B;를 클릭합니다.
 
 ![전자 메일 콘텐츠 추가 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
 
-이 작업은 이메일 Designer을 시작하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
+이 작업은 이메일 디자인 도구를 실행하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
 
 * 이메일 Designer 인터페이스를 사용하여 [이메일을 처음부터 디자인하기](#design-your-email-from-scratch).
 
@@ -62,7 +34,7 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 >
 >생성형 AI에서 제공하는 Adobe Journey Optimizer B2B edition의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠를 생성하고, 대상자에게 반향을 일으키는 이미지에 대한 AI Assistant 권장 사항을 얻음으로써 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. [자세히 알아보기](./ai-assistant-emails.md)
 
-### 이메일 콘텐츠 처음부터 만들기 {#design-from-scratch}
+## 이메일 콘텐츠 처음부터 만들기 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -93,7 +65,7 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 
 내용이 만족스러우면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
-### 기존 HTML 콘텐츠 가져오기
+## 기존 HTML 콘텐츠 가져오기
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 
 시각적 이메일 편집기 도구를 사용하여 필요에 따라 가져온 콘텐츠를 개인화할 수 있습니다.
 
-### 템플릿 선택
+## 템플릿 선택
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -165,7 +137,7 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 
 ### 추가 옵션
 
-전자 메일 디자이너 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 다음 작업을 수행할 수 있습니다.
+전자 메일 디자인 영역 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 다음 작업을 수행할 수 있습니다.
 
 템플릿 작업에 액세스하려면 ![자세히 클릭](./assets/email-designer-more-menu.png){width="500"}
 
@@ -174,34 +146,6 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 * **[!UICONTROL 디자인 변경]** - _전자 메일 디자인_ 페이지로 돌아가기. 여기에서 다른 템플릿을 선택하여 디자인 프로세스를 다시 시작하거나, 검정색 캔버스에 컨텐츠를 처음부터 디자인하도록 선택할 수 있습니다.\
 * **[!UICONTROL 콘텐츠 템플릿으로 저장]** - 여러 전자 메일 또는 전자 메일 템플릿에서 재사용할 수 있도록 전자 메일 본문을 전자 메일 템플릿으로 저장합니다. 템플릿의 이름과 설명을 입력하고 저장한 이메일 템플릿 목록에 저장합니다.
 * **[!UICONTROL HTML 내보내기]** - zip 파일로 패키지된 HTML 형식의 로컬 시스템에 시각적 캔버스의 콘텐츠를 다운로드합니다.
-
-## 경고 확인
-
-이메일 메시지 콘텐츠를 디자인할 때 주요 설정이 없을 때 인터페이스(페이지 오른쪽 상단)에 경고가 표시됩니다.
-
-이 단추가 표시되지 않으면 발견된 문제가 없습니다.
-
-두 가지 유형의 경고를 감지할 수 있습니다.
-
-* 권장 사항 및 모범 사례를 참조하는 **_경고_**:
-
-   * `The opt-out link is not present in the email body`: 이메일 본문에 구독 취소 링크를 추가하는 것이 좋습니다.
-
-     >[!NOTE]
-     >
-     >마케팅 스타일 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요하지 않습니다.
-
-   * `Text version of HTML is empty`: HTML 콘텐츠를 표시할 수 없을 때 사용되는 전자 메일 본문의 텍스트 버전을 정의하는 것을 잊지 마십시오.
-
-   * `Empty link is present in email body`: 전자 메일의 모든 링크가 올바른지 확인하십시오.
-
-   * `Email size has exceeded the limit of 100KB`: 최적의 배달을 위해 전자 메일의 크기가 100KB를 초과하지 않도록 하십시오.
-
-* 여정/캠페인을 테스트하거나 활성화하지 못하는 **_오류_**(예:
-
-   * `The subject line is missing`: 전자 메일 제목 줄은 필수입니다.
-
-   * `The email version of the message is empty`: 이 오류는 전자 메일 콘텐츠가 구성되지 않은 경우에 표시됩니다.
 
 ## 이메일 확인 및 테스트 {#preview-test}
 

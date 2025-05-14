@@ -3,7 +3,7 @@ title: 조각
 description: 시각적 컨텐츠 조각을 Adobe Journey Optimizer B2B edition에서 이메일 및 이메일 템플릿에 대한 재사용 가능한 구성 요소로 만들고 사용하는 방법에 대해 알아봅니다.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 2%
@@ -45,31 +45,31 @@ Adobe Journey Optimizer B2B edition에서 시각적 조각에 액세스하려면
 | 게시일 | 조각을 게시하면 이메일 또는 이메일 템플릿에서 사용할 수 있습니다. 게시된 조각 콘텐츠는 비주얼 디자이너에서 수정할 수 없습니다. 사용 가능한 작업: <br/><ul><li>설명 편집<li>이메일 또는 템플릿에 추가<li>초안 버전 만들기<li>복제<li>삭제(사용하지 않는 경우) |
 | 초안과 함께 게시됨 | 게시된 조각에서 초안을 만들 때 게시된 버전은 이메일 또는 이메일 템플릿에서 사용할 수 있으며 비주얼 디자이너에서 초안 콘텐츠를 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되며 콘텐츠는 사용 중인 이메일 및 이메일 템플릿에서 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>설명 편집<li>이메일 또는 템플릿에 추가<li>비주얼 디자이너에서 초안 버전 편집<li>초안 버전 게시<li>복제<li>삭제(사용하지 않는 경우) |
 
-![조각 상태 라이프사이클](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![조각 상태 주기](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->조각 상태는 Journey Optimizer B2B Edition 8월 릴리스에서 도입되었습니다. 이 릴리스 이전에 만들어진 모든 조각은 초안&#x200B;_상태(_&#x200B;이메일이나 템플릿 내에서 사용되는 경우 균일)입니다. 이러한 프래그먼트를 변경하는 경우 프래그먼트를 게시 하여 변경 사항을 전파해야 합니다.
+>조각 상태는 Journey Optimizer B2B edition 8월 릴리스에 도입되었습니다. 이 릴리스 이전에 만든 모든 조각은 전자 메일 또는 템플릿에서 사용되더라도 _초안_ 상태입니다. 이러한 조각을 변경하는 경우 변경 사항을 전파하려면 조각을 게시해야 합니다.
 
 ### 조각 목록 필터링
 
-이름으로 조각을 검색하려면 검색 막대에 일치하는 텍스트 문자열을 입력합니다. _사용 가능한 필터 옵션을 표시하고 지정된 기준에 따라 표시된 항목을 필터링하도록 설정을 변경하려면 필터링_ 아이콘(![필터 보기 또는 숨기기 아이콘](../assets/do-not-localize/icon-filter.svg))을 클릭합니다.
+이름별로 조각을 검색하려면 검색 막대에 일치 항목 텍스트 문자열을 입력합니다. _필터_ 아이콘(![필터 표시 또는 숨기기 아이콘](../assets/do-not-localize/icon-filter.svg) )을 클릭하여 사용 가능한 필터 옵션을 표시하고 설정을 변경하여 지정된 조건에 따라 표시된 항목을 필터링합니다.
 
 ![표시된 조각 필터링](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-### 열 표시 사용자 지정
+### 열 표시 사용자 정의
 
-오른쪽 상단에 있는 테이블&#x200B;_사용자 지정 아이콘( ![테이블 사용자 지정 아이콘](../assets/do-not-localize/icon-column-settings.svg) )을 클릭하여_&#x200B;테이블에 표시할 열을 사용자 지정합니다.
+오른쪽 상단의 _표 사용자 지정_ 아이콘(![표 사용자 지정 아이콘](../assets/do-not-localize/icon-column-settings.svg))을 클릭하여 표에 표시할 열을 사용자 지정합니다.
 
-대화 상자에서 표시할 열을 선택하고 적용(Apply **)을 클릭합니다**.
+대화 상자에서 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-![표시할 열을 선택합니다](./assets/fragments-customize-table-dialog.png){width="300"}
+![표시할 열 선택](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## 조각 만들기
 
-오른쪽 상단의 조각&#x200B;**만들기 클릭하여** Journey Optimizer B2B Edition에서 새 시각적 조각을 만들 수 있습니다.
+오른쪽 상단의 **[!UICONTROL 조각 만들기]**&#x200B;를 클릭하여 Journey Optimizer B2B edition에서 새 시각적 조각을 만들 수 있습니다.
 
-1. _[!UICONTROL 조각]_ 만들기 대화 상자에서 유용한 **[!UICONTROL 이름과]** **[!UICONTROL 설명]**(선택 사항)을 입력합니다.
+1. _[!UICONTROL 조각 만들기]_ 대화 상자에서 유용한 **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**(선택 사항)을 입력하십시오.
 
    조각 요구 사항:
 
@@ -161,22 +161,22 @@ _전자 메일_ 또는 _전자 메일 템플릿_ 범주에 따라 참조가 표�
 
    오른쪽에 조각 세부 사항이 있는 시각적 콘텐츠의 미리보기가 표시됩니다.
 
-1. 이름 및 설명과 같은 세부 정보를 수정합니다.
+1. 이름, 설명 등 세부 사항을 수정합니다.
 
-   ![초안 상태의 frament에 대한 세부 사항](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![초안 상태의 인터페이스에 대한 세부 정보](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. 비주얼 디자이너에서 컨텐츠 내용을 변경하려면 조각&#x200B;**편집을 클릭합니다**.
+1. 비주얼 디자이너에서 콘텐츠를 변경하려면 **[!UICONTROL 조각 편집]**&#x200B;을 클릭하세요.
 
    필요에 따라 비주얼 디자이너 도구를 사용합니다.
 
    * [구조 및 콘텐츠 추가](./fragment-authoring.md#add-structure-and-content)
    * [Assets 추가](./fragment-authoring.md#add-assets)
    * [레이어, 설정 및 스타일 탐색](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [컨텐츠 개인화](./fragment-authoring.md#personalize-content)
-   * [사용자 지정 필드 활성화](./fragment-authoring.md#enable-fragment-customization)
+   * [콘텐츠 개인화](./fragment-authoring.md#personalize-content)
+   * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-fragment-customization)
    * [연결된 URL 추적 편집](./fragment-authoring.md#edit-linked-url-tracking)
 
-   저장&#x200B;**를 클릭하거나**&#x200B;[!UICONTROL &amp; 닫&#x200B;]&#x200B;**기를 저장**&#x200B;조각 세부 사항으로 돌아갑니다.
+   조각 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
 1. 조각이 조건을 충족하고 전자 메일 또는 전자 메일 템플릿에서 사용할 수 있도록 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
@@ -234,9 +234,9 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
    * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-fragment-customization)
    * [연결된 URL 추적 편집](./fragment-authoring.md#edit-linked-url-tracking)
 
-   저장&#x200B;**를 클릭하거나**&#x200B;[!UICONTROL &amp; 닫&#x200B;]&#x200B;**기를 저장**&#x200B;조각 세부 사항으로 돌아갑니다.
+   조각 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
-1. 초안 조각이 기준을 충족하고 이메일 또는 이메일 템플릿 에서 변경 사항을 사용할 수 있도록 하려면 Publish(게시)**를 클릭합니다**.
+1. 초안 조각이 조건에 맞고 변경 사항을 전자 메일 또는 전자 메일 템플릿에 사용할 수 있게 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
    초안 버전을 게시하면 현재 게시된 버전이 대체되며 콘텐츠는 이미 사용 중인 이메일 및 이메일 템플릿에서 업데이트됩니다.
 
@@ -265,29 +265,29 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 1. 조각에 포함할 다른 요소를 선택합니다.
 
-   Shift 또는 Control 버튼 키를 누른 상태에서 여러 구조를 선택합니다.
+   Shift 또는 Control 단추를 눌러 여러 구조를 선택합니다.
 
    서로 인접한 구조만 선택할 수 있으며 인터페이스에서는 인접하지 않은 요소를 선택할 수 없습니다.
 
-1. 컨텐츠를 선택한 상태에서 오른쪽 상단의 만들기&#x200B;**아이콘을 클릭합니다**.
+1. 콘텐츠를 선택한 상태에서 오른쪽 상단의 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-1. 대화상자에서 조각에 대한 유용한 이름과 설명을 입력합니다. 그런 다음 만들기&#x200B;**클릭합니다**.
+1. 대화 상자에서 조각에 대한 유용한 이름과 설명을 입력합니다. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-   그러면 새 조각이 조각&#x200B;_목록 페이지 에 표시되며_&#x200B;이메일 및 이메일 템플릿 내에서도 사용할 수 있습니다.
+   그런 다음 새 조각이 _조각_ 목록 페이지에 표시되고 전자 메일 및 전자 메일 템플릿에서도 사용할 수 있습니다.
 
 ## 이메일 또는 템플릿 콘텐츠에 시각적 조각 추가
 
-조각은 재사용할 수 있도록 설계되었으며 이메일 및 이메일 템플릿 작성을 위해 삽입할 수 있습니다. 이메일이나 템플릿 하나에 최대 30개의 조각을 추가할 수 있습니다. 조각은 한 수준까지만 중첩될 수 있습니다.
+조각은 재사용을 위해 설계되었으며 이메일 및 이메일 템플릿 작성에 삽입할 수 있습니다. 이메일 또는 템플릿에 최대 30개의 조각을 추가할 수 있습니다. 조각은 한 수준까지만 중첩할 수 있습니다.
 
 >[!BEGINTABS]
 
->[!TAB 이메일에 조각 추가]
+>[!TAB 전자 메일에 조각 추가]
 
-1. Account Journeys(계정 여정)**로**&#x200B;이동하여 기존 여정을 열거나 새 여정을 만듭니다.
+1. **[!UICONTROL 계정 여정]**(으)로 이동하여 기존 여정을 열거나 새 여정을 만드십시오.
 
-1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_&#x200B;노드](./email-authoring.md#add-an-email-action-in-an-account-journey)를 만듭니다.
+1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
 
-1. [&#128279;](./email-authoring.md#create-the-email-content) 노드에 대한 전자 메일 콘텐츠를 만들거나 편집합니다.
+1. ](./email-authoring.md) 노드에 대한 [전자 메일 콘텐츠를 만들거나 편집합니다.
 
 1. **[!UICONTROL 구성 요소]** 메뉴에서 항목을 끌어다 놓아 조각에 대한 _구조_&#x200B;을(를) 제공하세요.
 
@@ -319,19 +319,19 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 1. 새 템플릿을 만들거나 기존 전자 메일 템플릿을 열고 **[!UICONTROL 전자 메일 템플릿 편집]**&#x200B;을 클릭합니다.
 
-1. [구성 요소] 메뉴에서 항목을 **[!UICONTROL 드래그하여 놓아 조각의 구조를&#x200B;_제공합니다_.]**
+1. **[!UICONTROL 구성 요소]** 메뉴에서 항목을 끌어다 놓아 조각에 대한 _구조_&#x200B;을(를) 제공하세요.
 
-1. 조각 목록을 열려면 조각&#x200B;_아이콘을 클릭합니다_.
+1. 조각 목록을 열려면 _조각_ 아이콘을 클릭합니다.
 
    다음과 같은 작업을 수행할 수 있습니다.
    * 목록을 정렬합니다.
-   * 목록을 검색, 검색 및 필터링합니다.
+   * 목록을 검색 및 필터링합니다.
    * 카드(썸네일)와 목록 보기 간에 전환합니다.
-   * 목록을 새로 고침하여 최근에 만든 조각을 반영합니다.
+   * 최근에 만들어진 조각을 반영하도록 목록을 새로 고칩니다.
 
-   ![비주얼 디자이너에서 조각 Search](./assets/fragments-list-designer-search.png){width="600"}
+   ![시각적 디자이너에서 조각을 검색합니다](./assets/fragments-list-designer-search.png){width="600"}
 
-1. 조각 중 하나를 구조 구성 요소 자리 표시자로 끌어다 놓습니다.
+1. 조각을 구조 구성 요소 자리 표시자로 끌어서 놓습니다.
 
    편집기는 이메일 템플릿 구조의 섹션/요소 내에서 조각을 렌더링합니다.
 
@@ -349,7 +349,7 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 ## 이메일 및 템플릿 작성 중 조각 작업
 
-조각이 이메일 또는 이메일 템플릿에 추가되면 조각 컨텐츠는 이메일 또는 템플릿 내에서 편집할 수 없습니다. 그러나 다음 작업을 적용할 수 있습니다.
+이메일 또는 이메일 템플릿에 조각을 추가하면 이메일 또는 템플릿 내에서 조각 콘텐츠를 편집할 수 없습니다. 하지만 다음 작업을 적용할 수 있습니다.
 
 * **[!UICONTROL 삭제]** - 이 작업은 현재 전자 메일 또는 전자 메일 템플릿 콘텐츠에서 조각을 제거합니다(조각 소스는 영향을 받지 않음).
 * **[!UICONTROL 새로 고침]** - 이 작업은 현재 전자 메일 또는 전자 메일 템플릿의 조각 콘텐츠를 새로 고칩니다. 새로 고침은 이메일 또는 이메일 템플릿에 추가한 후 조각에 대한 최근 편집 내용을 반영하려는 경우에 유용합니다.

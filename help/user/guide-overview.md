@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: Adobe Journey Optimizer B2B 에디션 기능을 사용하여 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8afe00f0ff4fd5a2046ca4c21114eaa1c654a793
+source-git-commit: 5d16e14a87aabb87fab9f06ea597ca671c66b7e3
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능�
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="여정 콘텐츠"><br/>
-      <strong>여정 콘텐츠</strong><br/><a href="./content/email-authoring.md">이메일 작성</a><br/><a href="./content/ai-assistant-emails.md">이메일을 위한 AI 어시스턴트</a><br/><a href="./content/sales-alert-email.md">판매 알림 이메일</a><br/><a href="./content/sms-authoring.md">SMS 작성</a>
+      <strong>여정 콘텐츠</strong><br/><a href="./content/add-email.md">전자 메일 채널</a><br/><a href="./content/ai-assistant-emails.md">전자 메일을 위한 AI 도우미</a><br/><a href="./content/sales-alert-email.md">판매 알림 전자 메일</a><br/><a href="./content/sms-authoring.md">SMS 채널</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="콘텐츠 관리"><br/>
@@ -139,7 +139,7 @@ Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B 에디션</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>

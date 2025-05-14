@@ -1,16 +1,16 @@
 ---
-title: 이메일 구성
+title: 이메일 채널 구성
 description: Marketo Engage에 구성된 이메일 설정에 액세스하고 검토하는 방법을 알아봅니다.
 feature: Setup
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 3b4e4742a1913bed2b284f36be92f77b18383e0e
+source-git-commit: 35a384a848678921f10f3ad1358adec2aa017bf8
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
 
-# 이메일 구성
+# 이메일 채널 구성
 
 Adobe Journey Optimizer B2B edition은 Marketo Engage의 채널 기능 및 이벤트 추적을 활용합니다. 관리자는 마케터에게 채널 제공을 활성화하기 위해 게재 및 추적 구성이 제대로 되어 있는지 확인해야 합니다. Marketo Engage을 통한 전자 메일 배달 및 추적에 필요한 프로토콜에 대한 자세한 내용은 [추적 및 전자 메일 배달에 필요한 프로토콜](../start/email-protocols.md)을 참조하세요.
 
@@ -50,11 +50,11 @@ Adobe Journey Optimizer B2B edition은 Marketo Engage의 채널 기능 및 이�
 
 ![브랜딩 도메인 설정에 액세스](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-이 설정은 하나 이상의 Marketo Engage 작업 공간에 대한 주 도메인을 정의합니다. 새 이메일은 이 도메인을 기본값으로 사용하지만 마케터는 이메일을 기준으로 이 도메인을 재정의할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
+이 설정은 하나 이상의 Marketo Engage 작업 공간에 대한 주 도메인을 정의합니다. 새 이메일은 이 도메인을 기본값으로 사용하지만 마케터는 이메일을 기준으로 이 도메인을 재정의할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition 및 연결된 Marketo Engage 인스턴스에서 여러 브랜드를 마케팅 중이며 각각 고유한 브랜드 추적 링크를 보유하고자 하는 경우 추가 브랜딩 도메인을 추가할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
+>Journey Optimizer B2B edition 및 연결된 Marketo Engage 인스턴스에서 여러 브랜드를 마케팅 중이며 각각 고유한 브랜드 추적 링크를 보유하고자 하는 경우 추가 브랜딩 도메인을 추가할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
 
 ### [!UICONTROL 사용자 지정 헤더 옵션] {#custom-header-options}
 
@@ -78,7 +78,7 @@ _[!UICONTROL 엄격한 전송 보안]_&#x200B;을 사용하도록 설정하면 �
 >
 >Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
 
-통신 제한 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}를 참조하세요.
+통신 제한 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}를 참조하세요.
 
 ## SPF/DKIM
 
@@ -145,4 +145,4 @@ Marketo Engage에서는 보트 활동을 확인하는 두 가지 방법을 사�
 >
 >Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
 
-보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.
+보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.

@@ -3,16 +3,16 @@ title: 이메일 작성을 위한 AI Assistant
 description: AI Assistant를 사용하여 계정 여정에 사용되는 이메일 콘텐츠를 최적화하는 방법에 대해 알아봅니다.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
-# 이메일 작성을 위한 AI Assistant
+# 이메일 작성을 위한 AI 어시스턴트
 
-마케팅 산업의 경쟁력이 높아짐에 따라 브랜드는 효과적인 콘텐츠를 빠르고 효율적으로 생성할 수 있는 효율적인 방법을 모색하고 있습니다. Adobe Journey Optimizer B2B Edition의 이메일 작성을 위한 AI Assistant는 Adobe의 AI 기반 콘텐츠 생성 기능으로, 마케터가 전문적이고 브랜드 일관된 이메일 콘텐츠를 만드는 방식을 혁신합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성합니다. AI Assistant를 사용하면 이메일 마케팅 캠페인을 직관적이고, 단순하며, 간편한 방법으로 만들고 실행할 수 있습니다. 워크플로우에 이 기능을 추가하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 얻을 수 있습니다.
+마케팅 산업의 경쟁력이 높아짐에 따라 브랜드는 효과적인 콘텐츠를 빠르고 효율적으로 생성할 수 있는 효율적인 방법을 모색하고 있습니다. Adobe Journey Optimizer B2B edition의 이메일 작성을 위한 AI Assistant는 Adobe의 AI 기반 콘텐츠 생성 기능으로, 마케터가 전문적이고 브랜드 일관된 이메일 콘텐츠를 만드는 방식을 혁신합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성합니다. AI Assistant를 사용하면 이메일 마케팅 캠페인을 직관적이고, 단순하며, 간편한 방법으로 만들고 실행할 수 있습니다. 워크플로우에 이 기능을 추가하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 얻을 수 있습니다.
 
 이 새로운 기능은 프롬프트 기반 텍스트 생성, 전체 이메일 생성 및 이메일 구조 내 콘텐츠 생성을 제공합니다. 이미지는 생성되지 않지만 모델에 대한 입력 브랜드 에셋의 이미지 카탈로그 내에서 권장됩니다. 또한 이 기능을 사용하여 열람률에 영향을 줄 수 있는 최적의 제목 줄과 사전 헤더를 생성할 수 있습니다.
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ## 지침 및 제한 사항
 
-이메일 콘텐츠 생성을 위한 Adobe Journey Optimizer B2B 에디션에서 AI Assistant를 시작하기 전에 다음 지침을 검토하십시오.
+이메일 콘텐츠 생성을 위해 Adobe Journey Optimizer B2B edition에서 AI Assistant를 시작하기 전에 다음 지침을 검토하십시오.
 
 * 정의하는 마케팅 목표/프롬프트는 생성된 콘텐츠 품질을 결정하는 주요 요소입니다. GenAI 모델이 정확하게 해석될 수 있도록 잘 정의된 프롬프트를 사용하십시오.
 * 브랜드 에셋을 업로드하여 브랜드 콘텐츠에 정확한 정보를 얻습니다. 이러한 에셋이 없으면 콘텐츠는 공개적으로 사용할 수 있는 정보를 기반으로 합니다.
    * 업로드된 에셋은 PDF, JPEG, PNG 또는 ZIP 파일(지원되는 파일 형식 포함) 형식일 수 있습니다.
    * 업로드된 브랜드 에셋의 최대 크기는 50MB입니다. 파일이 커지거나 이미지가 대량으로 표시될 수 있지만 처리 시간은 늘어납니다.
-* Adobe Journey Optimizer B2B 에디션에서 작성된 이메일 템플릿, 바람직하게는 내장 또는 샘플 템플릿, 브랜드별 템플릿, 또는 사용자 지정 템플릿을 사용하여 이메일 콘텐츠를 만듭니다. 최대 8~10개의 이미지가 포함된 이메일 템플릿이 권장됩니다.
+* Adobe Journey Optimizer B2B edition 작성 이메일 템플릿, 바람직하게는 기본 제공 또는 샘플 템플릿, 브랜드별 템플릿, 또는 사용자 지정 템플릿을 사용하여 이메일 콘텐츠를 만듭니다. 최대 8~10개의 이미지가 포함된 이메일 템플릿이 권장됩니다.
 * 생성된 변형에 대해 축소판 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고해야 합니다.
 * AI Assistant 사용 시 [Adobe 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)이 적용됩니다.
 
-Adobe Journey Optimizer B2B Edition for email content generation의 AI Assistant에는 다음 제한 사항이 적용됩니다.
+이메일 콘텐츠 생성을 위해 Adobe Journey Optimizer B2B edition의 AI Assistant에는 다음과 같은 제한이 적용됩니다.
 
 * 영어는 유일하게 지원되는 언어입니다.
 * 이메일 채널에서만 사용할 수 있습니다.
@@ -53,7 +53,7 @@ Adobe Journey Optimizer B2B Edition for email content generation의 AI Assistant
 
 ## 구매 그룹 역할
 
-Adobe Journey Optimizer B2B 에디션은 5개의 표준 B2B 구매 그룹 역할을 즉시 제공합니다. 각 구매 그룹 역할에는 고유한 메시지 초점이 있습니다.
+Adobe Journey Optimizer B2B edition은 5개의 표준 B2B 구매 그룹 역할을 즉시 제공합니다. 각 구매 그룹 역할에는 고유한 메시지 초점이 있습니다.
 
 | 역할 | 메시징 포커스 |
 | ---- | --------------- |
@@ -67,7 +67,7 @@ Adobe Journey Optimizer B2B 에디션은 5개의 표준 B2B 구매 그룹 역할
 
 ## AI Assistant를 사용하여 이메일 속성 생성
 
-계정 여정에 [전자 메일 작업을 추가](./email-authoring.md#add-an-email-action-in-an-account-journey)하면 전자 메일을 보내는 데 사용되는 전자 메일 속성 집합을 정의합니다. AI 도우미는 이메일 **제목 줄** 및 **사전 머리글**&#x200B;에 대한 권장 콘텐츠를 생성하여 더 나은 이메일 참여를 달성할 수 있습니다.
+계정 여정에 [전자 메일 작업을 추가](./add-email.md#add-an-email-action-node-in-a-journey)하면 전자 메일을 보내는 데 사용되는 전자 메일 속성 집합을 정의합니다. AI 도우미는 이메일 **제목 줄** 및 **사전 머리글**&#x200B;에 대한 권장 콘텐츠를 생성하여 더 나은 이메일 참여를 달성할 수 있습니다.
 
 1. 계정 여정에서 이메일을 만들거나 여정 노드에서 기존 이메일을 엽니다.
 
@@ -201,7 +201,7 @@ Adobe Journey Optimizer B2B 에디션은 5개의 표준 B2B 구매 그룹 역할
 
 ## AI Assistant를 사용하여 이메일 본문 콘텐츠 생성
 
-[이메일을 만들고 개인화한 후](./email-authoring.md#create-the-email-content)에는 생성 AI에서 제공하는 Adobe Journey Optimizer B2B Edition의 AI Assistant를 사용하여 이메일 본문 콘텐츠를 한 단계 높이십시오.
+[이메일을 만들고 개인화한](./email-authoring.md) 후에는 생성 AI에서 제공하는 Adobe Journey Optimizer B2B edition의 AI Assistant를 사용하여 이메일 본문 콘텐츠를 다음 수준으로 높이십시오.
 
 이메일 디자이너에서 AI 어시스턴트는 전체 이메일 본문, 타겟팅된 텍스트 콘텐츠 및 대상자와 공감하는 이미지에 대한 권장 사항을 생성하여 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. 이메일 캠페인의 이러한 최적화는 더 나은 참여를 생성하도록 설계되었습니다.
 
