@@ -2,17 +2,18 @@
 title: Marketo Engage Assets 작업
 description: Journey Optimizer B2B edition에서 Marketo Engage Design Studio 에셋 관리 통합을 사용하는 방법에 대해 알아봅니다.
 feature: Assets, Content
+role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Marketo Engage 에셋으로 작업
+# Marketo Engage 자산 작업
 
-Marketo Engage 디자인 스튜디오는 Journey Optimizer B2B edition의 기본 에셋 소스이며, 사용 가능한 에셋을 쉽게 관리하고 사용하여 계정 여정을 지원하는 콘텐츠를 디자인할 수 있습니다.
+Marketo Engage Design Studio는 Journey Optimizer B2B edition의 기본 에셋 소스이며 사용 가능한 에셋을 쉽게 관리하고 사용하여 계정 여정을 지원하는 콘텐츠를 디자인할 수 있습니다.
 
 Marketo Engage에서 마케팅 조직은 작업 공간을 사용하여 콘텐츠 에셋을 구성하고 팀이 올바른 에셋에 액세스할 수 있도록 지원합니다. 잘 정의된 작업 공간은 제품 오퍼링의 포트폴리오가 많거나 다른 지역에 대한 마케팅에 대한 요구 사항이 다르며 전 세계적으로 운영되는 대기업에 특히 유용합니다.
 
@@ -25,7 +26,7 @@ Marketo Engage에서 마케팅 조직은 작업 공간을 사용하여 콘텐츠
 * [이동](#create-a-folder)
 * [Adobe Express으로 편집](./image-edit-adobe-express.md)
 
-Marketo Engage 작업 공간에 있는 Assets은 이메일, 이메일 템플릿 및 조각에서 사용할 수 있도록 읽기 전용 액세스로 제한됩니다. 이러한 작업 영역에 새 에셋을 추가하고 에셋의 사본을 다운로드할 수 있습니다.
+Marketo Engage 작업 공간에 있는 Assets은 이메일, 이메일 템플릿 및 조각에 사용하기 위해 읽기 전용 액세스로 제한됩니다. 이러한 작업 영역에 새 에셋을 추가하고 에셋의 사본을 다운로드할 수 있습니다.
 
 ## 에셋 검색 및 액세스
 

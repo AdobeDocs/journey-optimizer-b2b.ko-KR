@@ -1,13 +1,13 @@
 ---
 title: 추적 및 이메일 게재를 위한 프로토콜
 description: Marketo Engage에서 추적 및 이메일 채널 기능을 위해 Journey Optimizer B2B 에디션에서 사용할 프로토콜을 구성하는 방법에 대해 알아봅니다.
-feature: Setup
+feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 4ba1beb7f252c94379f984b32d8f581ee57038e3
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '1798'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -65,7 +65,7 @@ CNAME `[YourEmailCNAME].[YourDomain].com`의 `[MktoTrackingLink]`
 
 ### SSL 인증서 프로비전
 
-SSL 인증서 프로비전 프로세스를 시작하려면 [Adobe 지원 센터](https://experienceleague.adobe.com/home?lang=ko&amp;support-tab=home#support){target="_blank"}에 문의하십시오.
+SSL 인증서 프로비저닝 프로세스를 시작하려면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}에 문의하십시오.
 
 이 프로세스를 완료하는 데 영업일 기준 최대 3일이 소요될 수 있습니다.
 
@@ -96,7 +96,7 @@ SSL 인증서 프로비전 프로세스를 시작하려면 [Adobe 지원 센터]
 
    `[DKIMDomain2]`: 호스트 레코드는 `[HostRecord2]`이고 TXT 값은 `[TXTValue2]`입니다.
 
-   Marketo Engage 문서의 `HostRecord`지침`TXTValue`[에 따라 각 DDIM 도메인에 대해 ](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature) 및 {target="_blank"}를 복사합니다. Journey Optimizer B2B 에디션에서 도메인을 확인할 수 있습니다([SPF/DKIM](../admin/configure-channels-emails.md#spfdkim) 참조).
+   Marketo Engage 설명서의 [지침](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}을(를) 수행한 후 각 DKIM 도메인에 대한 `HostRecord` 및 `TXTValue`을(를) 복사합니다. Journey Optimizer B2B 에디션에서 도메인을 확인할 수 있습니다([SPF/DKIM](../admin/configure-channels-emails.md#spfdkim) 참조).
 
 ## DMARC 설정
 
@@ -169,7 +169,7 @@ DMARC 레코드에는 _DMARC 태그_&#x200B;라는 여러 구성 요소가 있�
 | `adkim` | 선택 사항입니다 | 엄격한(`s`) 또는 완화된(`r`) 정렬을 지정합니다. 완화된 정렬은 도메인이 DKIM 서명에 사용되고 `From:` 주소의 하위 도메인이 될 수 있음을 의미합니다. 엄격한 정렬은 도메인이 DKIM 서명에 사용되고 `From:` 주소에 사용된 도메인과 정확히 일치해야 함을 의미합니다. | `adkim=r` | `r` |
 | `aspf` | 선택 사항입니다 | 엄격하거나(`s`) 완화될(`r`) 수 있습니다. 완화 모드는 반환 경로 도메인이 `From:` 주소의 하위 도메인이 될 수 있음을 의미합니다. 엄격 모드는 반환 경로 도메인이 `From:` 주소와 정확히 일치해야 함을 의미합니다. | `aspf=r` | `r` |
 
-DMARC 및 모든 옵션에 대한 자세한 내용은 [https://dmarc.org/](https://dmarc.org/){target="_blank"}를 참조하십시오.
+DMARC 및 모든 옵션에 대한 자세한 내용은 [https://dmarc.org/](https://dmarc.org/){target="_blank"}을(를) 참조하십시오.
 
 ### Marketo Engage를 위한 DMARC 구현
 
@@ -179,7 +179,7 @@ DMARC에는 두 가지 유형의 정렬이 있습니다.
 
   DKIM 정렬은 발신자가 도메인에서 메일을 보낼 권한이 있는지 확인하고 이메일 전송 중에 콘텐츠가 변경되지 않았는지 확인합니다. DKIM에 정렬된 DMARC를 구현하려면:
 
-   * 메시지의 MAIL FROM 도메인에 대한 DKIM을 설정합니다. Marketo Engage 문서의 [지침](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}을 사용합니다.
+   * 메시지의 MAIL FROM 도메인에 대한 DKIM을 설정합니다. Marketo Engage 설명서의 [지침](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}을 사용하십시오.
 
    * DKIM MAIL FROM 도메인에 대해 DMARC를 구성합니다.
 
@@ -202,11 +202,11 @@ DMARC에는 두 가지 유형의 정렬이 있습니다.
 
 ### 전용 IP 및 공유 풀
 
-Marketo Engage를 통해 전용 IP로 메일을 보내고 브랜드 return-path를 구현하지 않았거나 구현했는지 확실하지 않은 경우 [Adobe 지원 센터](https://experienceleague.adobe.com/home?lang=ko&amp;support-tab=home#support){target="_blank"}를 통해 티켓을 개설하십시오.
+전용 IP를 통해 Marketo Engage을 통해 메일을 보내고 브랜드 반환 경로를 구현하지 않은 경우(또는 반환 경로가 있는지 확실하지 않은 경우) [Adobe 지원](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}에서 티켓을 엽니다.
 
 신뢰할 수 있는 IP는 월 75,000건 미만을 보내는 저용량 사용자를 위해 예약된 공유 IP 풀로, 전용 IP에 적합하지 않습니다. 이러한 사용자는 모범 사례 요구 사항도 충족해야 합니다.
 
-* Marketo Engage를 통해 공유 IP 풀을 사용하여 메일을 보내는 경우, [신뢰할 수 있는 IP 전송 범위 프로그램을 신청하여](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"} 신뢰할 수 있는 IP에 적합한지 확인할 수 있습니다. Marketo Engage의 신뢰할 수 있는 IP에서 보내는 경우 브랜드 return-path가 포함됩니다. 이 프로그램에 승인되면 Adobe 지원 센터에 연락하여 브랜드 return-path를 설정합니다.
+* 공유 IP 풀을 사용하여 Marketo Engage을 통해 메일을 보내는 경우 [신뢰할 수 있는 IP 전송 범위 프로그램에 적용](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}하여 신뢰할 수 있는 IP에 대한 자격이 있는지 확인할 수 있습니다. Marketo Engage의 신뢰할 수 있는 IP에서 보내는 경우 브랜드 return-path가 포함됩니다. 이 프로그램에 승인되면 Adobe 지원 센터에 연락하여 브랜드 return-path를 설정합니다.
 
 * 한 달에 10만 개 이상의 메시지를 보내고 공유 IP를 사용하여 Marketo Engage를 통해 이메일을 보내려는 경우 Adobe 계정 팀(계정 관리자)에 문의하여 전용 IP를 구매하십시오.
 
@@ -220,11 +220,11 @@ MX 레코드를 사용하면 이메일을 보내는 도메인으로 메일을 �
 
 <!-- ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
 
 ## 아웃바운드 IP 주소 블록
 

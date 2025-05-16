@@ -2,8 +2,9 @@
 title: 구매 그룹 개요 대시보드
 description: 구매 그룹 개요 대시보드와 마케팅 팀의 판매 핸드오프를 활성화하는 방법에 대해 알아봅니다.
 feature: Dashboards, Buying Groups
+role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 3%
@@ -63,9 +64,9 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 다음 특성 중 하나를 사용하여 표시된 데이터를 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
 
 * 현재 단계
-* 산업
+* 업종
 * 지역
-* 솔루션 관심도
+* 솔루션 관심 분야
 
 ![특성별로 표시된 데이터를 필터링합니다](./assets/buying-group-overview-filters.png){width="500"}
 

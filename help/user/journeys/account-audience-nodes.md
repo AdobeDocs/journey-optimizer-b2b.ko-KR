@@ -1,9 +1,10 @@
 ---
 title: 계정 대상 노드
 description: Journey Optimizer B2B edition에서 계정 여정에 대한 입력을 정의하는 데 사용할 수 있는 계정 대상 노드 유형에 대해 알아봅니다.
-feature: Account Journeys
+feature: Account Journeys, Audiences, Account Lists
+role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 5%
@@ -53,4 +54,4 @@ _대상 세그먼트를 만들려면:_
 
    ![대상 세그먼트 만들기](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. [세그먼테이션 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}에 설명된 단계를 따릅니다.
+1. [세그먼테이션 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}에 설명된 단계를 따릅니다.

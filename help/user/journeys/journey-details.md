@@ -2,8 +2,9 @@
 title: 여정 세부 사항
 description: 여정 세부 사항 페이지에서 제공하는 정보 및 게시된 계정 여정을 모니터링하고 관리하는 데 도움이 되는 방법에 대해 알아봅니다.
 feature: Dashboards, Account Journeys
+role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 계정 세부 정보
 description: Journey Optimizer B2B edition의 계정에 대한 자세한 정보 및 생성 AI 요약에 액세스하는 방법에 대해 알아봅니다.
 feature: Account Insights
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+role: User
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 9%
@@ -27,7 +29,7 @@ Journey Optimizer B2B edition의 아무 곳에서나 계정 이름을 클릭하�
 
 * 계정 이름
 * 계정의 사용자 수
-* 산업
+* 업종
 * 기회 열기
 * 계정이 현재 사용 중인 가장 최근 계정 여정 3개(이름을 클릭하여 여정 세부 정보를 엽니다.)
 * 참여 상위 구매 그룹에 대한 정보가 포함된 계정의 생성 AI 요약입니다.
@@ -50,7 +52,7 @@ _[!UICONTROL 연락처 범위]_ 섹션에는 솔루션 관심사와 관련된 �
 
 다음 특성을 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
 
-* 솔루션 관심도
+* 솔루션 관심 분야
 * 기간
 
 ## 연락처 중복
@@ -62,17 +64,17 @@ _[!UICONTROL 연락처 겹치기]_ 섹션에는 여러 솔루션 관심 분야�
 * 이름
 * 직위
 * 계정
-* 솔루션 관심도
+* 솔루션 관심 분야
 
 연락처 이름 옆의 _정보_( ![정보 아이콘](../assets/do-not-localize/icon-info.svg) )을 클릭하여 다음 세부 정보가 포함된 표를 표시합니다.
 
 * 구매 그룹(구매 그룹 세부 정보를 열려면 이름을 클릭하십시오.)
 * 역할
-* 솔루션 관심도
+* 솔루션 관심 분야
 * 제품 의도(구성된 경우)
 * 제품
 
 다음 특성을 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
 
-* 솔루션 관심도
+* 솔루션 관심 분야
 * 역할

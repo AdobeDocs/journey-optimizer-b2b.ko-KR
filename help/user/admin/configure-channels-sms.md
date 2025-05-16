@@ -1,8 +1,10 @@
 ---
 title: SMS 구성
 description: Journey Optimizer B2B edition SMS 메시지에서 사용할 수 있도록 지원되는 SMS 공급자에 대한 연결을 구성하는 방법을 알아봅니다.
-feature: Setup
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+feature: Setup, Channels
+role: Admin
+exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -21,7 +23,7 @@ Adobe Journey Optimizer B2B edition에서 SMS 채널을 구성하기 전에 이�
 
 >[!IMPORTANT]
 >
->문자 메시지 서비스 사용은 해당 공급자의 추가 약관이 적용됩니다. 타사 솔루션인 Sinch, Twilio 및 Infobip은 통합을 통해 Adobe Journey Optimizer B2B edition 사용자가 사용할 수 있습니다. Adobe은 서드파티 제품을 제어하지 않으며 책임지지 않습니다. 문자 메시지 서비스(SMS)와 관련된 문제 또는 지원 요청은 공급자에게 문의하십시오.
+>문자 메시지 서비스 사용은 해당 공급자의 추가 약관이 적용됩니다. 타사 솔루션인 Sinch, Twilio 및 Infobip은 통합을 통해 Adobe Journey Optimizer B2B edition 사용자가 사용할 수 있습니다. Adobe은 서드파티 제품을 제어하지 않으며 이에 대해 책임을 지지 않습니다. 문자 메시지 서비스(SMS)와 관련된 문제 또는 지원 요청은 공급자에게 문의하십시오.
 
 ## 기존 SMS API 구성 확인
 

@@ -2,8 +2,9 @@
 title: 솔루션 관심 분야
 description: 솔루션 관심사 및 구매 그룹 내에서 사용할 솔루션을 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 1%
@@ -101,4 +102,4 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3450120/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

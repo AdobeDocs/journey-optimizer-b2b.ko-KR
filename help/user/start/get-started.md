@@ -1,9 +1,10 @@
 ---
 title: Journey Optimizer B2B 에디션 시작하기
 description: Journey Optimizer B2B 에디션의 새로운 사용자로 시작하기 위한 주요 영역에 대해 알아봅니다.
+role: Admin, User
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 100%
 

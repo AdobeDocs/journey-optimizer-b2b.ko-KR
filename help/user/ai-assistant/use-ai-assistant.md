@@ -2,9 +2,10 @@
 title: AI 어시스턴트 사용
 description: AI Assistant를 통해 Journey Optimizer B2B edition 기능을 최대한 활용하는 방법을 살펴볼 수 있습니다.
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 62dc7d43f77b2c84b9e0aa27146a7924ee8d7b35
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -17,7 +18,7 @@ Journey Optimizer B2B edition에서 AI Assistant는 제품 개념을 이해하�
 
 >[!IMPORTANT]
 >
->AI Assistant를 사용하려면 Adobe Experience Cloud 생성 AI 사용 지침에 대한 동의가 필요합니다. 이 계약 및 사용 지침에 대한 자세한 내용은 [Adobe Experience Cloud Generative AI 사용 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)을 참조하세요.
+>AI Assistant를 사용하려면 Adobe Experience Cloud 생성 AI 사용 지침에 대한 동의가 필요합니다. 이 계약 및 사용 지침에 대한 자세한 내용은 [Adobe Experience Cloud Generative AI 사용 지침](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)을 참조하세요.
 
 AI Assistant에 액세스하려면 헤더에서 아이콘을 클릭합니다. AI Assistant가 오른쪽 패널에서 열립니다.
 

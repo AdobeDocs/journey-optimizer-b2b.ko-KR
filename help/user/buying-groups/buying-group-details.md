@@ -1,12 +1,13 @@
 ---
 title: 구매 그룹 세부 정보
 description: Journey Optimizer B2B edition의 구매 그룹에 대한 자세한 정보 및 생성 AI 요약에 액세스하는 방법에 대해 알아봅니다.
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -44,12 +45,12 @@ Journey Optimizer B2B edition의 어디에서든 구매 그룹 이름을 클릭�
 
 * 계정 이름(계정 세부 정보를 열려면 이름을 클릭하십시오.)
 * 계정의 사용자 수
-* 산업
+* 업종
 * 기회 열기
 * 계정이 현재 사용 중인 최신 세 개의 계정 여정(이름을 클릭하여 여정 세부 정보를 엽니다.)
 * 계정의 생성 AI 요약
 
-## 구매 그룹 구성원
+## 구매 그룹 멤버
 
 ![그룹 구성원 구매](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
@@ -68,7 +69,7 @@ _[!UICONTROL 구매 그룹 구성원]_ 섹션에는 구매 그룹 구성원을 �
 다음 구성원 정보에 액세스하려면 **[!UICONTROL 세부 정보 보기]**&#x200B;를 클릭하십시오.
 
 * 생성 AI 요약
-* 마지막 흥미로운 순간
+* 마지막 “흥미로운 순간”
 * 가장 최근 활동(2개)
 * 잠재 고객이 멤버인 기타 구매 그룹(가장 최근에 추가된 구매 그룹을 기준으로 3개 구매 그룹으로 제한).
 * 이메일 주소

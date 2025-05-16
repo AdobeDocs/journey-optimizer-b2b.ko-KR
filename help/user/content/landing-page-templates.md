@@ -1,12 +1,13 @@
 ---
 title: 랜딩 페이지 템플릿
 description: 마케팅 팀이 계정 여정 및 캠페인을 지원하는 새 페이지를 만드는 데 사용할 수 있는 랜딩 페이지 템플릿을 만드는 방법을 알아봅니다.
-feature: Content
+feature: Landing Pages, Templates, Content
+role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 0%

@@ -1,9 +1,10 @@
 ---
 title: 조각
 description: 시각적 컨텐츠 조각을 Adobe Journey Optimizer B2B edition에서 이메일 및 이메일 템플릿에 대한 재사용 가능한 구성 요소로 만들고 사용하는 방법에 대해 알아봅니다.
-feature: Content, Email Authoring
+feature: Fragments, Content
+role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 2%
@@ -285,9 +286,9 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 1. **[!UICONTROL 계정 여정]**(으)로 이동하여 기존 여정을 열거나 새 여정을 만드십시오.
 
-1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_&#x200B;노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
+1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
 
-1. [&#128279;](./email-authoring.md) 노드에 대한 전자 메일 콘텐츠를 만들거나 편집합니다.
+1. ](./email-authoring.md) 노드에 대한 [전자 메일 콘텐츠를 만들거나 편집합니다.
 
 1. **[!UICONTROL 구성 요소]** 메뉴에서 항목을 끌어다 놓아 조각에 대한 _구조_&#x200B;을(를) 제공하세요.
 

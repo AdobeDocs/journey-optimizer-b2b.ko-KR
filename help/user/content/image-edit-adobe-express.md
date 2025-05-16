@@ -1,9 +1,10 @@
 ---
 title: Adobe Express으로 이미지 편집
-description: Journey Optimizer B2B edition 작업 공간에서 Adobe Express을 사용하여 이미지를 편집하는 방법에 대해 알아봅니다.
-feature: Assets, Content
+description: Adobe Express을 사용하여 Journey Optimizer B2B edition 작업 공간에서 이미지를 편집하는 방법에 대해 알아봅니다.
+feature: Assets, Content, Integrations
+role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: cb8196a8bb33c326476ddc9d99103d5fea6d10bd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 >title="Adobe Express에서 이미지 편집"
 >abstract="Adobe Journey Optimizer B2B 에디션 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 속도를 높일 수 있습니다."
 
-Adobe Journey Optimizer B2B edition은 기본적으로 Adobe Express과 통합되며, 이를 통해 Adobe Express 이미지 편집 도구 세트에 액세스할 수 있습니다. 이러한 도구를 사용하여 연결된 Marketo Engage 에셋 저장소에 대해 Journey Optimizer B2B edition 작업 영역에 저장된 이미지를 수정할 수 있습니다. 통합은 다음과 같은 주요 이점을 제공합니다.
+Adobe Journey Optimizer B2B edition은 기본적으로 Adobe Express과 통합되므로 Adobe Express 이미지 편집 도구 세트에 액세스할 수 있습니다. 이러한 도구를 사용하여 연결된 Marketo Engage 에셋 저장소에 대해 Journey Optimizer B2B edition 작업 영역에 저장된 이미지를 수정할 수 있습니다. 통합은 다음과 같은 주요 이점을 제공합니다.
 
 * Journey Optimizer B2B edition에서 새 이미지 에셋을 편집하고 저장하여 콘텐츠 재사용을 개선했습니다.
 
@@ -27,7 +28,7 @@ Adobe Journey Optimizer B2B edition은 기본적으로 Adobe Express과 통합�
 >
 >Adobe Express 편집 기능에 대한 권한은 모든 Journey Optimizer B2B edition 구독에 포함됩니다.
 
-Adobe Express 기능은 PNG 및 JPEG 이미지 파일 형식을 지원합니다.
+Adobe Express 함수는 PNG 및 JPEG 이미지 파일 형식을 지원합니다.
 
 _이미지를 수정하려면:_
 
@@ -61,19 +62,19 @@ _이미지를 수정하려면:_
 
 ## Adobe Express Enterprise 라이선스
 
-Adobe Express에 대한 Enterprise 라이센스가 있는 경우 Express 편집기에 액세스하여 사용할 수 있습니다. 이러한 편집 기능에는 색상, 밝기, 선명도, 대비 및 자르기 등의 이미지 조정 작업이 포함됩니다. 또한 배경 제거, 개체 삽입 및 제거, 이미지의 일부 지우기 등의 _AI 매직_ 작업도 포함됩니다.
+Adobe Express에 대한 Enterprise 라이선스가 있는 경우 Express 편집기에 액세스하고 사용할 수 있습니다. 이러한 편집 기능에는 색상, 밝기, 선명도, 대비 및 자르기 등의 이미지 조정 작업이 포함됩니다. 또한 배경 제거, 개체 삽입 및 제거, 이미지의 일부 지우기 등의 _AI 매직_ 작업도 포함됩니다.
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition에서 이러한 전체 편집기 기능에 액세스하려면 동일한 IMS 조직에서 Adobe Express Enterprise 라이선스를 구입해야 합니다. IMS 조직의 개별 구성원은 Adobe Express 인스턴스에 할당된 라이선스가 필요합니다. 그렇지 않으면 Adobe Express 액세스가 Journey Optimizer B2B edition의 [Adobe Express 빠른 작업](#quick-actions-in-adobe-express)(으)로 제한됩니다.
+>Adobe Express B2B edition에서 이러한 전체 편집기 기능에 액세스하려면 동일한 IMS 조직에서 Journey Optimizer Enterprise 라이선스를 구매해야 합니다. IMS 조직의 개별 구성원은 Adobe Express 인스턴스에 할당된 라이선스가 필요합니다. 그렇지 않으면 Adobe Express 액세스가 Journey Optimizer B2B edition에서 [Adobe Express에 대한 빠른 작업](#quick-actions-in-adobe-express)으로 제한됩니다.
 
 ![Adobe Express 엔터프라이즈 편집기에서 이미지 열기](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express 사용 안내서](https://helpx.adobe.com/kr/express/user-guide.html){target="_blank"}에서 사용 가능한 편집 기능에 대한 자세한 정보를 제공합니다.
+사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/kr/express/user-guide.html){target="_blank"}를 참조하세요.
 
 ## Adobe Express의 빠른 작업
 
-Adobe Express Enterprise 라이센스가 없는 경우 Adobe Express 빠른 작업 편집기에 액세스할 수 있습니다.
+Adobe Express Enterprise 라이선스가 없는 경우 Adobe Express 빠른 작업 편집기에 액세스할 수 있습니다.
 
 1. Adobe Express 빠른 작업 편집기에서 이미지를 변경할 이미지 수정 기능을 선택합니다.
 
@@ -117,7 +118,7 @@ Adobe Express은 자동 배경 제거를 수행하여 이미지에서 기본 객
 
 ## 파일 형식 변환
 
-* **[!UICONTROL JPEG으로 변환]** - PNG 이미지의 경우 이미지를 JPEG 이미지 파일로 변환하여 작업 영역에 새 자산으로 저장할 수 있습니다.
+* **[!UICONTROL JPEG으로 변환]** - PNG 이미지의 경우 이미지를 JPEG 이미지 파일로 변환하고 작업 영역에 새 자산으로 저장할 수 있습니다.
 * **[!UICONTROL PNG로 변환]** - JPEG 이미지의 경우 이미지를 PNG 이미지 파일로 변환하여 작업 영역에 새 자산으로 저장할 수 있습니다.
 
 ![Adobe Express으로 편집- PNG로 변환](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}

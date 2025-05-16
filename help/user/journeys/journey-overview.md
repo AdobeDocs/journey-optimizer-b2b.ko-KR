@@ -2,9 +2,10 @@
 title: 계정 여정
 description: 계정 여정에 대해 알아보고 이를 만들고 관리하는 방법을 알아봅니다.
 feature: Account Journeys
+role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 100%
 
@@ -154,4 +155,4 @@ _계정 여정_ 목록에는 Journey Optimizer B2B 에디션 인스턴스의 모
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443214/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

@@ -2,8 +2,9 @@
 title: 이벤트 수신
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 이벤트 노드 유형에 대해 알아봅니다.
 feature: Account Journeys
+role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 8%
@@ -118,7 +119,7 @@ ht-degree: 8%
 
 ### 경험 이벤트 수신
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. [AEP 이벤트 정의를 만들고 게시](../admin/configure-aep-events.md).
 
@@ -182,4 +183,4 @@ _여정에 경험 이벤트를 포함하려면:_
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

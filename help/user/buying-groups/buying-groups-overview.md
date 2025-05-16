@@ -2,9 +2,10 @@
 title: 구매 그룹
 description: Journey Optimizer B2B 에디션의 구매 그룹이 계정 목록에 맞는 멤버를 식별하고 타기팅하여 마케팅 효과를 높이는 방법을 알아봅니다.
 feature: Buying Groups
+role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 100%
 
@@ -204,4 +205,4 @@ _[!UICONTROL 매우 중요]_, _[!UICONTROL 중요]_, _[!UICONTROL 보통]_&#x200
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3452942/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

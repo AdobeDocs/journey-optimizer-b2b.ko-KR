@@ -2,8 +2,9 @@
 title: 구매 그룹 단계
 description: 구매 그룹 단계에 대해 알아보고 판매 목표에 따른 여정 진행률을 추적하기 위해 그룹 단계를 정의하는 방법에 대해 알아봅니다.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 구매 그룹 단계 모델을 삭제합니다.
 
-구매 그룹 단계 모델이 초안 또는 게시됨 상태일 때 삭제할 수 있습니다. 게시된 경우(라이브) 솔루션 관심사와 연결되어 있지 않은 경우에만 삭제할 수 있습니다.
+구매 그룹 단계 모델이 초안 또는 게시된 상태일 때 삭제할 수 있습니다. 게시된 경우(라이브) 솔루션 관심사와 연결되어 있지 않은 경우에만 삭제할 수 있습니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**(으)로 이동합니다.
 
@@ -364,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3448701/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

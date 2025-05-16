@@ -1,10 +1,11 @@
 ---
 title: 랜딩 페이지
 description: 랜딩 페이지와 이를 만들고 관리하여 계정 여정 및 캠페인을 지원하는 방법에 대해 알아봅니다.
-feature: Content
+feature: Landing Pages, Content
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 2%

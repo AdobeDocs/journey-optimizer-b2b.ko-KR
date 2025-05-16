@@ -1,12 +1,13 @@
 ---
 title: 이메일 템플릿 작성
 description: 계정 여정 이메일에 사용하여 디자인을 쉽고 효율적으로 재사용할 수 있는 콘텐츠 이메일 템플릿을 작성하는 방법을 알아봅니다.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 

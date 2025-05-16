@@ -1,11 +1,13 @@
 ---
 title: 이메일 Personalization에 대한 사용자 지정 토큰
 description: 계정 여정에 대해 정의된 토큰 세트를 사용하여 이메일 콘텐츠의 개인화를 관리하는 방법을 알아봅니다.
-feature: Content, Email Authoring
-source-git-commit: 01c217c928ccb344eaebe471c7b7a8b930c68010
+feature: Personalization, Content, Email Authoring
+role: User
+exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

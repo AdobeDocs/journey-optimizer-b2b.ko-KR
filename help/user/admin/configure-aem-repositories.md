@@ -2,8 +2,9 @@
 title: Experience Manager 자산 저장소 구성
 description: Journey Optimizer B2B edition 컨텐츠 작성에 사용할 Experience Manager Assets 저장소에 대한 연결을 구성하는 방법에 대해 알아봅니다.
 feature: Assets, Integrations
+role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 Adobe Journey Optimizer B2B edition은 Adobe Experience Manager Assets as a Cloud Service과 통합되므로 계정 여정 내에서 이메일과 같은 에셋을 사용하는 것 이상을 허용합니다. Experience Manager Assets과 정보를 교환하여 투명성을 보장합니다. 이 기능을 사용하려면 Adobe Experience Assets에 대한 연결을 구성하십시오.
 
-Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Adobe Journey Optimizer B2B edition에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
+Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Adobe Journey Optimizer B2B edition에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
 
 {{aem-assets-licensing-note}}
 
 ## 사전 요구 사항
 
-* AEM Headless Developer Console에서 원하는 환경에 대한 서비스 자격 증명을 생성합니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* AEM Headless Developer Console에서 원하는 환경에 대한 서비스 자격 증명을 생성합니다([자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * 연결에 필요한 인증서를 확보합니다. 가장 좋은 방법은 인증서가 만료되기 전에 최소 6개월 이상 남아 있는지 확인하는 것입니다. 인증서는 365일마다 만료됩니다.
 * Adobe Journey Optimizer B2B edition은 한 번에 하나의 디지털 에셋 관리 소스에 대한 액세스를 지원합니다. 전환하기 전에 Adobe Experience Manager에서 필요한 자산을 사용할 수 있는지 확인하십시오.
 

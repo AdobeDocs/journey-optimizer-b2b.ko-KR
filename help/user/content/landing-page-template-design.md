@@ -1,13 +1,14 @@
 ---
 title: 랜딩 페이지 템플릿 디자인
 description: 마케터가 랜딩 페이지를 만들기 위해 재사용할 수 있는 랜딩 페이지 템플릿용 콘텐츠를 디자인하고 작성하는 방법을 알아봅니다.
-feature: Content
+feature: Templates, Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 

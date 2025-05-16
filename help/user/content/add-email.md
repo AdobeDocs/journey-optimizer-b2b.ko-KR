@@ -1,8 +1,10 @@
 ---
 title: 여정에 이메일 추가
 description: Adobe Journey Optimizer B2B에서 이메일 작업을 추가, 정의 및 최적화하는 방법에 대해 알아봅니다. 타겟팅된 이메일 커뮤니케이션으로 계정 여정을 향상시킵니다.
-feature: Email Authoring, Content
-source-git-commit: 6517a953692a56bd31c5b0f2fa5f15f40c6743b5
+feature: Email Authoring, Account Journeys
+role: User
+exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%

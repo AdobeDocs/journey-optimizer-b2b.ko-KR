@@ -2,8 +2,9 @@
 title: 계정 여정 만들기 및 게시
 description: 계정 여정을 만들고 게시하는 방법에 대해 알아봅니다.
 feature: Account Journeys
+role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -136,4 +137,4 @@ _여정 맵_&#x200B;은(는) 여정 디자이너의 중앙 영역입니다. 이 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443226/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

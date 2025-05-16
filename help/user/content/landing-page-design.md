@@ -1,13 +1,14 @@
 ---
 title: 랜딩 페이지 디자인
 description: 계정 여정 및 캠페인을 지원하는 랜딩 페이지의 콘텐츠를 디자인하고 작성하는 방법을 알아봅니다.
-feature: Content
+feature: Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 

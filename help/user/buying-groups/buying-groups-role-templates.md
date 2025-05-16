@@ -2,8 +2,9 @@
 title: 그룹 역할 템플릿 구매
 description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에 대해 알아봅니다.
 feature: Buying Groups
+role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 3%
@@ -163,4 +164,4 @@ Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3453308/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -1,9 +1,10 @@
 ---
 title: 이메일 채널 구성
 description: Marketo Engage에 구성된 이메일 설정에 액세스하고 검토하는 방법을 알아봅니다.
-feature: Setup
+feature: Setup, Channels
+role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 35a384a848678921f10f3ad1358adec2aa017bf8
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
@@ -50,11 +51,11 @@ Adobe Journey Optimizer B2B edition은 Marketo Engage의 채널 기능 및 이�
 
 ![브랜딩 도메인 설정에 액세스](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-이 설정은 하나 이상의 Marketo Engage 작업 공간에 대한 주 도메인을 정의합니다. 새 이메일은 이 도메인을 기본값으로 사용하지만 마케터는 이메일을 기준으로 이 도메인을 재정의할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
+이 설정은 하나 이상의 Marketo Engage 작업 공간에 대한 주 도메인을 정의합니다. 새 이메일은 이 도메인을 기본값으로 사용하지만 마케터는 이메일을 기준으로 이 도메인을 재정의할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition 및 연결된 Marketo Engage 인스턴스에서 여러 브랜드를 마케팅 중이며 각각 고유한 브랜드 추적 링크를 보유하고자 하는 경우 추가 브랜딩 도메인을 추가할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
+>Journey Optimizer B2B edition 및 연결된 Marketo Engage 인스턴스에서 여러 브랜드를 마케팅 중이며 각각 고유한 브랜드 추적 링크를 보유하고자 하는 경우 추가 브랜딩 도메인을 추가할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
 
 ### [!UICONTROL 사용자 지정 헤더 옵션] {#custom-header-options}
 
@@ -78,7 +79,7 @@ _[!UICONTROL 엄격한 전송 보안]_&#x200B;을 사용하도록 설정하면 �
 >
 >Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
 
-통신 제한 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}를 참조하세요.
+통신 제한 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}를 참조하세요.
 
 ## SPF/DKIM
 
@@ -145,4 +146,4 @@ Marketo Engage에서는 보트 활동을 확인하는 두 가지 방법을 사�
 >
 >Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
 
-보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.
+보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.

@@ -2,8 +2,9 @@
 title: 구매 그룹 만들기
 description: 필요한 구성 요소를 사용하여 구매 그룹을 만드는 방법을 알아봅니다.
 feature: Buying Groups
+role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 2%
@@ -61,4 +62,4 @@ Remove a member of the buying group. -->
 
 ## 사용 방법 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3451768/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

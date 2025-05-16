@@ -2,8 +2,9 @@
 title: 이메일 작성을 위한 AI Assistant
 description: AI Assistant를 사용하여 계정 여정에 사용되는 이메일 콘텐츠를 최적화하는 방법에 대해 알아봅니다.
 feature: AI Assistant, Email Authoring, Content
+role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -30,7 +31,7 @@ ht-degree: 0%
    * 업로드된 브랜드 에셋의 최대 크기는 50MB입니다. 파일이 커지거나 이미지가 대량으로 표시될 수 있지만 처리 시간은 늘어납니다.
 * Adobe Journey Optimizer B2B edition 작성 이메일 템플릿, 바람직하게는 기본 제공 또는 샘플 템플릿, 브랜드별 템플릿, 또는 사용자 지정 템플릿을 사용하여 이메일 콘텐츠를 만듭니다. 최대 8~10개의 이미지가 포함된 이메일 템플릿이 권장됩니다.
 * 생성된 변형에 대해 축소판 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고해야 합니다.
-* AI Assistant 사용 시 [Adobe 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)이 적용됩니다.
+* AI Assistant 사용 시 [Adobe 생성 AI 사용자 지침](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)이 적용됩니다.
 
 이메일 콘텐츠 생성을 위해 Adobe Journey Optimizer B2B edition의 AI Assistant에는 다음과 같은 제한이 적용됩니다.
 

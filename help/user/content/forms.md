@@ -1,10 +1,11 @@
 ---
 title: Forms
 description: 랜딩 페이지에 포함할 수 있는 재사용 가능한 양식을 만드는 방법을 알아봅니다.
-feature: Content
+feature: Forms, Content
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2350'
 ht-degree: 0%

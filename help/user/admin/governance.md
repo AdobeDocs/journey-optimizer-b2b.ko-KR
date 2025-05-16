@@ -1,8 +1,10 @@
 ---
 title: 거버넌스 기능
 description: 현재 Journey Optimizer B2B edition에서 사용할 수 있는 거버넌스 기능에 대해 알아봅니다.
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -15,7 +17,7 @@ Journey Optimizer B2B edition은 통합 Adobe Experience Platform 앱입니다. 
 
 ## 개인 정보 - GDPR
 
-Journey Optimizer B2B edition은 Privacy Service 및 Marketo Privacy Broker Service가 제공하는 기존 Marketo Engage GDPR 거버넌스 기능을 사용합니다.
+Journey Optimizer B2B edition은 Privacy Service 및 Marketo Privacy Broker Service에서 제공하는 기존 Marketo Engage GDPR 거버넌스 기능을 사용합니다.
 
 ## RBAC(역할 기반 액세스 제어)
 
@@ -23,7 +25,7 @@ Journey Optimizer B2B edition 및 Adobe Admin Console에 대한 액세스를 통
 
 ## 데이터 암호화
 
-**_사용하지 않는 데이터에 대한 암호화_** - Adobe Experience Platform에서 Journey Optimizer B2B edition으로 전송되는 모든 계정 및 개인 프로필 데이터는 Experience Platform에서 기존 규정 준수를 유지하기 위해 암호화됩니다. 여정 및 구매 그룹과 같은 Journey Optimizer B2B edition에서 시작된 모든 엔티티도 암호화됩니다.
+**_사용하지 않는 데이터에 대한 암호화_** - Adobe Experience Platform에서 Journey Optimizer B2B edition으로 전송되는 모든 계정 및 개인 프로필 데이터는 Experience Platform의 기존 규정 준수를 유지하기 위해 암호화됩니다. 여정 및 구매 그룹과 같은 Journey Optimizer B2B edition에서 시작된 모든 엔티티도 암호화됩니다.
 
 **_전송 중인 데이터에 대한 암호화_**(공용 네트워크를 통해) - 모든 Journey Optimizer B2B edition API 및 엔터티는 TLS 1.2를 사용하여 전송 중에 암호화됩니다.
 

@@ -1,12 +1,13 @@
 ---
 title: 랜딩 페이지 구성
 description: 마케팅 팀이 캠페인을 지원할 웹 페이지를 작성하고 게시할 수 있도록 랜딩 페이지 설정에 액세스하고 구성하는 방법을 알아봅니다.
-feature: Setup, Content
+feature: Setup, Landing Pages, Content
+role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 47%

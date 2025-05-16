@@ -1,12 +1,13 @@
 ---
 title: 조각 작성
 description: 이메일 및 템플릿 디자인에 재사용할 수 있는 콘텐츠 조각을 작성하여 효율성을 높이고 디자인 및 브랜딩 표준을 유지 관리하는 방법에 대해 알아봅니다.
-feature: Content
+feature: Fragments, Content Design Tools
+role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 17%
+source-wordcount: '373'
+ht-degree: 19%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 17%
 
 1. **[!UICONTROL 편집 사용]** 옵션 토글을 클릭하고 편집 가능한 필드를 설정합니다.
 
-   ![조각 이미지 구성 요소에 대해 편집 가능한 필드를 사용하도록 설정](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![조각 이미지 구성 요소에 대해 편집 가능한 필드를 사용하도록 설정](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
    구성 요소 유형 및 조각에 정의된 매개 변수에 따라 표시된 필드를 사용자 지정할 수 있습니다.
 
@@ -60,7 +61,7 @@ ht-degree: 17%
 
 1. 편집 가능한 모든 필드와 해당 기본값을 검토하려면 **[!UICONTROL 개요]**&#x200B;를 클릭하십시오.
 
-   ![편집 가능한 필드와 해당 기본값을 검토합니다](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![편집 가능한 필드와 해당 기본값을 검토합니다](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. 변경 내용을 저장합니다.
 

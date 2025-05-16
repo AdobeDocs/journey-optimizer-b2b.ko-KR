@@ -1,7 +1,10 @@
 ---
 title: 여정 및 프로그램에서 계정 목록 사용
 description: 여정에서 계정 목록 멤버십을 오케스트레이션하고, 계정 목록 멤버십을 기반으로 Marketo Engage 스마트 목록을 필터링하는 방법을 알아봅니다.
-source-git-commit: 0845bff023741ebf8aca448c65950beceae77cf1
+feature: Account Lists, Account Journeys
+role: User
+exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -38,7 +41,7 @@ ht-degree: 0%
 >
 >노드가 실행될 때 계정이 이미 목록에 있는 경우 작업이 무시됩니다.
 
-1. _&#x200B;**[!UICONTROL 계정]**&#x200B;에 대한_&#x200B;작업 옵션을 선택하십시오.
+1. ]_**[!UICONTROL 계정]**에 대한_[!UICONTROL &#x200B;작업 옵션을 선택하십시오.
 
 1. _[!UICONTROL 계정에 대한 작업]_&#x200B;의 경우 **[!UICONTROL 계정 목록에 추가]**&#x200B;를 선택하세요.
 
@@ -60,7 +63,7 @@ ht-degree: 0%
 >
 >계정이 제거가 예약된 목록에 없으면 작업이 무시됩니다.
 
-1. _&#x200B;**[!UICONTROL 계정]**&#x200B;에 대한_&#x200B;작업 옵션을 선택하십시오.
+1. ]_**[!UICONTROL 계정]**에 대한_[!UICONTROL &#x200B;작업 옵션을 선택하십시오.
 
 1. _[!UICONTROL 계정에 대한 작업]_&#x200B;의 경우 **[!UICONTROL 계정 목록에서 제거]**&#x200B;를 선택하세요.
 
@@ -74,7 +77,7 @@ ht-degree: 0%
 
 마케터는 Journey Optimizer B2B edition의 계정 목록에 포함된 사람에 대해 Marketo Engage의 프로그램을 표시하지 않을 수 있습니다.
 
-Journey Optimizer B2B edition에 연결된 Marketo Engage 인스턴스에서는 스마트 목록의 _[!UICONTROL 계정 목록 구성원]_ 필터를 사용하여 캠페인 전략에 따라 이러한 리드를 식별할 수 있습니다. 스마트 목록에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}를 참조하세요.
+Journey Optimizer B2B edition에 연결된 Marketo Engage 인스턴스에서는 스마트 목록의 _[!UICONTROL 계정 목록 구성원]_ 필터를 사용하여 캠페인 전략에 따라 이러한 리드를 식별할 수 있습니다. 스마트 목록에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}를 참조하세요.
 
 ### 스마트 목록에 필터 추가
 
@@ -92,11 +95,10 @@ Journey Optimizer B2B edition에 연결된 Marketo Engage 인스턴스에서는 
 
 1. 캠페인 흐름에서 **[!UICONTROL 목록에 추가]** 단계를 추가하고 Journey Optimizer B2B edition 계정 목록에서 사람을 채울 목록을 선택합니다.
 
-   흐름에 단계를 추가하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 _[스마트 캠페인에 흐름 단계 추가](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_&#x200B;를 참조하십시오.
+   흐름에 단계를 추가하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 _[스마트 캠페인에 흐름 단계 추가](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_&#x200B;를 참조하십시오.
 
 ### 구성원 검토
 
 흐름이 실행되면 목록에서 채워지는 사람 목록을 볼 수 있습니다. 목록을 열고 사람 탭을 선택합니다.
 
 ![계정 목록에서 채워진 Marketo Engage 캠페인 목록](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
-

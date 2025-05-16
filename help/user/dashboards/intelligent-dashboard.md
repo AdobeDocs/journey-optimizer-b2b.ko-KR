@@ -1,9 +1,10 @@
 ---
 title: 지능형 대시보드
 description: 구매 그룹 및 계정 지표에 대한 포괄적인 보기를 제공하는 지능형 대시보드에 대해 알아봅니다
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1688'
 ht-degree: 15%
@@ -129,7 +130,7 @@ _구매 그룹 하이라이트_ 패널의 오른쪽 상단에서 **[!UICONTROL �
 
 다음 특성 중 하나를 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_( ![편집 아이콘](../assets/do-not-localize/icon-filter.svg) ) 아이콘을 클릭하십시오.
 
-* 솔루션 관심도
+* 솔루션 관심 분야
 * 구매 그룹
 * 계정
 
@@ -168,8 +169,8 @@ _[!UICONTROL 급증하는 계정]_ 섹션에는 선택한 기간 내에 참여 �
 
 다음 특성 중 하나를 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_( ![편집 아이콘](../assets/do-not-localize/icon-filter.svg) ) 아이콘을 클릭하십시오.
 
-* 솔루션 관심도
-* 산업
+* 솔루션 관심 분야
+* 업종
 * 지역
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
@@ -223,7 +224,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 다음 특성을 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
 
-* 솔루션 관심도
+* 솔루션 관심 분야
 * 구매 그룹
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
@@ -261,7 +262,7 @@ _[!UICONTROL 연락처 범위]_ 섹션에는 솔루션 관심 분야와 관련�
 
 다음 특성을 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
 
-* 솔루션 관심도
+* 솔루션 관심 분야
 * 계정
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
@@ -285,7 +286,7 @@ _정보_( ![정보 아이콘](../assets/do-not-localize/icon-info.svg) )을 클�
 
 * 구매 그룹 이름(구매 그룹 세부 정보 페이지를 열려면 이름을 클릭하십시오.)
 * 역할
-* 솔루션 관심도
+* 솔루션 관심 분야
 * 제품 의도
 * 제품
 
@@ -295,7 +296,7 @@ _정보_( ![정보 아이콘](../assets/do-not-localize/icon-info.svg) )을 클�
 
 다음 특성을 사용하여 데이터 표시를 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
 
-* 솔루션 관심도
+* 솔루션 관심 분야
 * 역할
 * 계정
 

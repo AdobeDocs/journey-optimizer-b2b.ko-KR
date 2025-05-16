@@ -1,13 +1,14 @@
 ---
 title: 양식 디자인
 description: 비즈니스 리드 정보 수집에 사용되는 재사용 가능한 양식을 디자인하는 방법을 알아봅니다.
-feature: Content
+feature: Forms, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2054'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
