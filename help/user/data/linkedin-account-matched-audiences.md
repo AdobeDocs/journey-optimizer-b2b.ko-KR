@@ -15,7 +15,7 @@ ht-degree: 16%
 
 Journey Optimizer B2B edition은 Account Matched Audiences를 통해 LinkedIn 광고 대상을 생성하는 기능을 제공하며, 구매 그룹에서 빈 역할을 채울 수 있도록 설계되었습니다. 구매 그룹 필터 세트를 정의하여 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. 이 기능은 Experience Platform 대상을 활용하여 통합의 일부 요소를 관리합니다. 데이터 흐름은 10개로 제한됩니다.
 
-Journey Optimizer B2B edition에서 데이터 흐름을 시작하려면 Experience Platform 애플리케이션에 LinkedIn Campaign Manager 계정이 구성된 [(회사) LinkedIn 일치하는 대상 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}의 인스턴스가 하나 이상 있어야 합니다.
+Journey Optimizer B2B edition에서 데이터 흐름을 시작하려면 Experience Platform 애플리케이션에 LinkedIn Campaign Manager 계정이 구성된 [(회사) LinkedIn 일치하는 대상 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}의 인스턴스가 하나 이상 있어야 합니다.
 
 ## 새 LinkedIn 계정 연결 구성 {#linkedin-destination-setup}
 
@@ -118,4 +118,4 @@ LinkedIn 계정의 이름 및 설명은 Journey Optimizer B2B edition의 구매 
 
 LinkedIn 광고 대상과 같은 유료 미디어 채널을 통해 계정 구성원과 협력하여 고객을 확보하고, 육성하고, 영업 자격을 부여할 수 있습니다. 계정 여정에서 _작업 수행_ 노드를 사용하여 다른 계정 구성원에 가장 적합한 외부 채널을 통해 계정의 주요 구성원과 참여를 자동화합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448679/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

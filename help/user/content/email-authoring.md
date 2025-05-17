@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # 이메일 메시지 작성
 
-&lbrack;여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가&rbrack;(./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
+[여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가](./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
 
 _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL 전자 메일 콘텐츠 추가]**&#x200B;를 클릭합니다.
 

@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Journey Optimizer B2B edition에 연결된 Marketo Engage 인스턴스에서는 스마트 목록의 _[!UICONTROL 구매 그룹 구성원]_ 필터를 사용하여 캠페인 전략에 따라 이러한 리드를 식별할 수 있습니다.
 
-1. [Marketo Engage에서 스마트 목록을 만들기](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}한 후 **[!UICONTROL 스마트 목록]** 탭을 선택하여 필터 편집기를 엽니다.
+1. [Marketo Engage에서 스마트 목록을 만들기](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}한 후 **[!UICONTROL 스마트 목록]** 탭을 선택하여 필터 편집기를 엽니다.
 
 1. 오른쪽의 필터 목록에서 목록을 아래로 스크롤하고 **[!UICONTROL 특수 필터]** 폴더를 확장합니다.
 
