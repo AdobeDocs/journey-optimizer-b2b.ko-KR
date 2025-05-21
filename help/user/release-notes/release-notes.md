@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Adobe Journey Optimizer B2B 에디션 최신 릴리스 정보
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2030'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 | 기능 | 계정 목록 여정 오케스트레이션 | 여정 작업 노드를 사용하여 정적 계정 목록에 계정을 추가하거나 제거할 수 있습니다. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">자세히 알아보기</a> |
 | 개선 사항 | Marketo Engage에서 여정 멤버십 필터링 | 여정 대상자에 Adobe Journey Optimizer B2B Edition 계정 목록을 사용한 다음 Marketo Engage 스마트 목록에서 _계정 목록 멤버_ 필터를 적용합니다. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">자세히 알아보기</a> |
 | 기능 | 비활동 필터 | 이메일 비활동, 즐거운 순간, 데이터 가치 변화, 방문한 웹 페이지 등을 포함하여 Marketo Engage 캠페인과 프로그램 내의 비활동에 따라 조율되는 여정입니다. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">자세히 알아보기</a> |
-| 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 연결된 방문한 웹 페이지에 대한 활동을 기반으로 여정을 오케스트레이션할 수 있습니다. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">자세히 알아보기</a> |
-| 개선 사항 | 이메일 목록 | 활성 및 초안 이메일의 전체 목록을 보고, 관련 계정 여정 전반에서 검색하고, 검토하고, 업데이트합니다. <a href="../content/emails-list.md">자세히 알아보기</a> |
+| 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 관련된 방문한 웹 페이지의 활동을 기반으로 여정을 조율합니다. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">자세히 알아보기</a> |
+| 개선 사항 | 이메일 목록 | 활성 및 초안 이메일의 글로벌 목록을 조회하고, 연관된 계정 여정 전반에 걸쳐 이를 검색, 검토 및 업데이트합니다. <a href="../content/emails-list.md">자세히 알아보기</a> |
 
 ## 2025.3 릴리스 정보
 
@@ -53,8 +53,8 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 사용자 정의 가능 필드 - 콘텐츠 조각 | 콘텐츠 조각 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이 기능을 사용하면 이메일 또는 템플릿 작성자는 해당 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-fragment-customization">자세히 알아보기</a> |
-| 기능 | B2B 기본 제공 역할 및 제품 권한 | 이제 Experience Platform에는 B2B 제품 기능에 대한 액세스 권한을 관리하는 데 사용할 수 있는 기본 제공 역할 세트가 포함됩니다. <a href="../admin/user-management.md#b2b-built-in-roles">자세히 알아보기</a> <br/>이제 관리자는 Adobe Experience Platform에서 Journey Optimizer B2B 에디션 제품 권한을 포함하도록 사용자 정의 역할을 정의할 수 있습니다. <a href="../admin/user-management.md#b2b-product-permissions">자세히 알아보기</a> |
+| 기능 | 사용자 정의 가능 필드 - 콘텐츠 조각 | 콘텐츠 조각 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이 기능을 통해 이메일 또는 템플릿 작성자는 필요에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-fragment-customization">자세히 알아보기</a> |
+| 기능 | B2B 기본 제공 역할 및 제품 권한 | 이제 Experience Platform에는 B2B 제품 기능에 대한 액세스 권한을 관리하는 데 사용할 수 있는 기본 제공 역할 세트가 포함됩니다. <a href="../admin/user-management.md#b2b-built-in-roles">자세히 알아보기</a> <br/>이제 관리자는 Adobe Experience Platform에서 Journey Optimizer B2B 에디션 제품 권한을 포함하도록 사용자 정의 역할을 정의할 수 있습니다.  <a href="../admin/user-management.md#b2b-product-permissions">자세히 알아보기</a> |
 | 기능 | 여정 복제 유형 | 계정 여정을 복제할 때 Journey Optimizer B2B 에디션에서 생성된 이메일 및 SMS 메시지를 제외한 노드 세부 정보를 포함할 수 있습니다. 대안으로, 노드 세부 정보 및 설정 없이 구조와 경로 흐름의 스켈레톤 복사본을 만들 수 있습니다. <a href="../journeys/journey-overview.md#duplicate-journey">자세히 알아보기</a> |
 | 개선 사항 | 4가지 추가 샘플 이메일 템플릿 | 이제 샘플 이메일 템플릿 라이브러리에는 재참여, 정보 제공, 육성 및 피드백 콘텐츠 예시를 위한 4가지 SecurFinancial 템플릿이 포함됩니다. |
 
@@ -66,11 +66,11 @@ Journey Optimizer B2B 에디션은 기본적으로 [!DNL Adobe Experience Platfo
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 경험 이벤트 전달 | 관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있습니다. 이러한 구성을 통해 마케터는 AEP 경험 이벤트에 반응하는 계정 여정을 만들 수 있습니다. <a href="../admin/configure-aep-events.md">자세히 알아보기</a> |
+| 기능 | 경험 이벤트 전달 | 관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있습니다. 이러한 구성을 통해 마케터는 AEP 경험 이벤트에 반응하는 계정 여정을 만들 수 있습니다.  <a href="../admin/configure-aep-events.md">자세히 알아보기</a> |
 | 기능 | 유료 미디어 대상 | 계정 여정에서 알려진 사용자에게 유료 미디어 캠페인에 대한 자격을 제공하여 LinkedIn과 같은 광고 플랫폼에서 더 깊이 있게 참여할 수 있도록 합니다. 계정 여정에서 경로 분할 노드를 사용하여 특정 행동을 기준으로 계정 대상자를 세분화하고 추가 참여가 필요한 계정을 식별합니다. 그런 다음 지원되는 유료 미디어 대상에 대한 Real-Time CDP를 통해 해당 계정의 사용자를 외부 고객 대상자에 추가합니다. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">자세히 알아보기</a> |
 | 기능 | 지능형 대시보드 | AI 생성 인사이트를 통한 보다 지능적인 분석과 정확한 계정 우선순위 지정을 포함하여 구매 그룹의 계정 여정 진행 상황을 확인합니다. <a href="../dashboards/intelligent-dashboard.md">자세히 알아보기</a> |
-| 기능 | 구매 그룹 및 계정 세부 정보 | 구매 그룹 및 계정 수준에서 인사이트를 확인하여 고객과 소통을 시작할 때 더 많은 컨텍스트와 내역 데이터를 확보합니다.<p>구매 그룹 세부 정보에는 감지된 모든 자사 의도가 포함됩니다. <a href="../buying-groups/buying-group-details.md">자세히 알아보기</a><p>계정 세부 정보 계정은 참여 의도의 급증을 감지하여 강조 표시하므로 맞춤화된 판매 중심 참여가 준비된 계정에 대한 판매 알림을 보낼 수 있습니다. <a href="../accounts/account-details.md">자세히 알아보기</a> |
-| 기능 | 여정 개요 | 계정 여정에 액세스하면 개요 탭에서 활성 계정 여정에 대한 포괄적인 스냅샷을 제공합니다. 이 탭에서는 완료율 및 참여 활동을 범주화하고 정량화하여 보여 주는 원형 차트와 막대 차트를 활용하여 계정 진행 상황을 자세히 알려 줍니다. <a href="../dashboards/journeys-dashboard.md">자세히 알아보기</a> |
+| 기능 | 구매 그룹 및 계정 세부 정보 | 구매 그룹 및 계정 수준에서 인사이트를 확인하여 고객과 소통을 시작할 때 더 많은 컨텍스트와 내역 데이터를 확보합니다.<p>구매 그룹 세부 정보에는 감지된 모든 자사 의도가 포함됩니다. <a href="../buying-groups/buying-group-details.md">자세히 알아보기</a><p>계정 세부 정보 계정은 참여 의도의 급증을 감지하여 강조 표시하므로 맞춤화된 판매 중심 참여가 준비된 계정에 대한 판매 알림을 보낼 수 있습니다.  <a href="../accounts/account-details.md">자세히 알아보기</a> |
+| 기능 | 여정 개요 | 계정 여정에 액세스하면 개요 탭에서 활성 계정 여정에 대한 포괄적인 스냅샷을 제공합니다. 이 탭에서는 완료율 및 참여 활동을 범주화하고 정량화하여 보여 주는 원형 차트와 막대 차트를 활용하여 계정 진행 상황을 자세히 알려 줍니다.  <a href="../dashboards/journeys-dashboard.md">자세히 알아보기</a> |
 | 기능 | Adobe Express 이미지 편집 | Adobe Express 빠른 작업을 사용하면 이미지를 간단히 편집(자르기, 크기 조정 등)하여 콘텐츠를 더욱 세련되게 만들 수 있습니다. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">자세히 알아보기</a>  <p>보다 포괄적인 디자인 도구 세트를 제공하기 위해, 이 통합을 통해 Journey Optimizer B2B 에디션에서 전체 Adobe Express 라이선스를 사용할 수 있습니다. 이 설정을 사용하면 로컬 자산 작업 영역에서 전체 Adobe Express 사용자 인터페이스에 액세스할 수 있습니다. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">자세히 알아보기</a> |
 | 기능 | 구매 그룹 역할을 위한 의도 필터 | 의도 키워드를 제출하면 의도 감지 모델이 리드의 활동을 기반으로 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. <a href="../admin/intent-data.md">자세히 알아보기</a> <p>이 의도 데이터는 구매 그룹 역할 조건을 정의하는 데 사용할 수 있습니다. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">자세히 알아보기</a> |
 | 개선 사항 | 여정에서 Marketo Engage 이벤트 지원 | _이벤트 수신_ 여정 노드는 이제 사용자 수준에서 두 가지 Marketo Engage 이벤트, 즉 _웹 페이지 방문_ 및 _양식 작성_&#x200B;을 지원합니다. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">자세히 알아보기</a> |
