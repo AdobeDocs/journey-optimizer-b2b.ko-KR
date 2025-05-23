@@ -4,20 +4,20 @@ description: Adobe Journey Optimizer B2B에서 이메일 콘텐츠를 만드는 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '928'
 ht-degree: 15%
 
 ---
 
 # 이메일 메시지 작성
 
-&lbrack;여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가&rbrack;(./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
+[여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가](./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
 
-_[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL 전자 메일 콘텐츠 추가]**&#x200B;를 클릭합니다.
+오른쪽 패널의 _[!UICONTROL 세부 정보]_ 탭에서 **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
-![전자 메일 콘텐츠 추가 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
+![전자 메일 콘텐츠 편집 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
 
 이 작업은 이메일 디자인 도구를 실행하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
 
@@ -26,8 +26,6 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 * [파일 또는 .zip 폴더에서 기존 HTML 콘텐츠를 가져옵니다](#import-existing-html-content).
 
 * 기본 제공 또는 사용자 지정 전자 메일 서식 파일 목록에서 [기존 서식 파일을 선택하십시오](#select-a-template).
-
-표현식 편집기로 제목 줄을 구성하고 개인화하려면 _Personalization_ 아이콘을 클릭하고 Marketo Engage 토큰을 추가합니다.
 
 이메일 콘텐츠를 만들고 개인화한 후에는 유효성 검사 또는 나중에 사용하기 위해 콘텐츠를 내보낼 수 있습니다. 콘텐츠를 HTML 및 자산을 포함하는 .zip 파일로 저장하려면 **[!UICONTROL HTML 내보내기]**&#x200B;를 클릭합니다.
 
@@ -47,10 +45,9 @@ _[!UICONTROL 전자 메일]_ 미리 보기 패널 위쪽에 있는 **[!UICONTROL
 >title="콘텐츠 구성 요소 정보"
 >abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
-시각적 콘텐츠 편집기를 사용하여 이메일 콘텐츠 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 초 내에 재사용 가능한 이메일 콘텐츠의 형태를 디자인할 수 있습니다.
+시각적 콘텐츠 디자인 공간을 사용하여 이메일의 구조와 콘텐츠를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 초 내에 재사용 가능한 이메일 콘텐츠의 형태를 디자인할 수 있습니다.
 
 1. _[!UICONTROL 템플릿 디자인]_ 홈 페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
-
 1. 전자 메일 메시지에 [구조 및 콘텐츠를 추가](#add-structure-and-content)합니다.
 1. 전자 메일 메시지에 [이미지 자산 추가](#add-assets).
 1. [전자 메일 콘텐츠 개인화](#personalize-content).
