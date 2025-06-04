@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B 에디션 설명서
 description: Adobe Journey Optimizer B2B 에디션 기능을 사용하여 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 5d16e14a87aabb87fab9f06ea597ca671c66b7e3
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 100%
 다음은 Journey Optimizer B2B 에디션 애플리케이션과 설명서의 최신 추가 및 개선 사항에 대한 샘플링입니다.
 
 >[!BEGINTABS]
+
+>[!TAB GenStudio 전자 메일 환경]
+
+GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B edition과 통합하여 마케팅 효율성을 높이고 브랜드 일관성을 유지합니다. 이 통합을 통해 GenStudio AI 기반의 콘텐츠 제작과 Journey Optimizer B2B edition의 고급 오케스트레이션 기능을 결합할 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio 이메일 경험에 대해 알아보기"}
 
 >[!TAB 계정 목록]
 
@@ -54,12 +60,6 @@ Adobe Express 빠른 작업을 사용하면 자르기, 크기 조정, 배경 제
 Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능을 활용할 수 있습니다. 이러한 기능을 사용하면 브랜드 지침을 준수하면서 이미지를 다듬고 개선하며 콘텐츠 공급망의 장애물을 제거할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Express를 사용한 이미지 편집에 대해 알아보기"}
-
->[!TAB 조각 사용자 정의 가능 필드]
-
-콘텐츠 디자이너는 조각 내 구성 요소의 매개변수를 편집 가능한 것으로 지정할 수 있습니다. 이 구성을 통해 이메일 또는 템플릿 작성자가 자신의 요구 사항에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="콘텐츠 조각을 위한 사용자 정의 필드에 대해 알아보기"}
 
 >[!ENDTABS]
 
@@ -121,7 +121,7 @@ Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능�
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="여정 콘텐츠"><br/>
-      <strong>여정 콘텐츠</strong><br/><a href="./content/add-email.md">이메일 채널</a><br/><a href="./content/ai-assistant-emails.md">이메일용 AI 어시스턴트</a><br/><a href="./content/sales-alert-email.md">판매 알림 이메일</a><br/><a href="./content/sms-authoring.md">SMS 채널</a>
+      <strong>여정 콘텐츠</strong><br/><a href="./content/add-email.md">이메일 채널</a><br/><a href="./content/ai-assistant-emails.md">이메일에 대한 AI 도우미</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio 이메일 경험</a><br/><a href="./content/sales-alert-email.md">판매 경고 이메일</a><br/><a href="./content/sms-authoring.md">SMS 채널</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="콘텐츠 관리"><br/>
@@ -139,7 +139,7 @@ Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B 에디션</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>

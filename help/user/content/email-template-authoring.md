@@ -4,16 +4,16 @@ description: 계정 여정 이메일에 사용하여 디자인을 쉽고 효율�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 17%
+source-wordcount: '336'
+ht-degree: 16%
 
 ---
 
 # 이메일 템플릿 작성
 
-[전자 메일 템플릿을 만든](./email-templates.md#create-an-email-template) 후 비주얼 디자이너를 사용하여 전자 메일 템플릿의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
+[전자 메일 템플릿을 만든](./email-templates.md#create-an-email-template) 후 시각적 디자인 공간을 사용하여 전자 메일 템플릿의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
 
 ## 구조 및 콘텐츠 추가 {#structure-content}
 
@@ -45,7 +45,7 @@ ht-degree: 17%
 
 ### 콘텐츠 개인화
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### 연결된 URL 추적 편집
 
@@ -53,7 +53,7 @@ ht-degree: 17%
 
 ## 옵션 보기
 
-비주얼 디자이너에서 사용할 수 있는 보기 및 콘텐츠 유효성 검사 옵션을 활용합니다.
+시각적 디자인 공간에서 사용할 수 있는 보기 및 콘텐츠 유효성 검사 옵션을 활용합니다.
 
 * 사전 설정된 확대/축소 옵션에서 콘텐츠를 확대/축소합니다.
 
@@ -63,11 +63,11 @@ ht-degree: 17%
 
 ### 추가 옵션
 
-전자 메일 디자이너 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 다음 작업을 수행할 수 있습니다.
+전자 메일 디자인 영역 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 다음 작업을 수행할 수 있습니다.
 
 템플릿 작업에 액세스하려면 ![자세히 클릭](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL 템플릿 재설정]** - 비주얼 디자이너 캔버스를 빈 슬레이트로 지우고 빌드 콘텐츠를 다시 시작하려면 이 옵션을 클릭하십시오.
+* **[!UICONTROL 템플릿 재설정]** - 디자인 캔버스를 빈 슬레이트로 지우고 빌드 콘텐츠를 다시 시작하려면 이 옵션을 클릭합니다.
 * **[!UICONTROL 조각으로 저장]** - 여러 전자 메일 또는 전자 메일 템플릿에서 재사용할 조각으로 템플릿의 전체 또는 일부를 저장합니다. 조각의 이름과 설명을 입력하고 사용 가능한 조각 목록에 저장합니다.
 * **[!UICONTROL 디자인 변경]** - _템플릿 디자인_ 페이지로 돌아가기 여기에서 템플릿을 처음부터 디자인하거나 기존 템플릿을 사용하여 디자인 프로세스를 다시 시작할 수 있습니다.
 * **[!UICONTROL HTML 내보내기]** - zip 파일로 패키지된 HTML 형식의 로컬 시스템에 시각적 캔버스의 콘텐츠를 다운로드합니다.

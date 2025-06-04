@@ -4,9 +4,9 @@ description: 솔루션 관심사 및 구매 그룹 내에서 사용할 솔루션
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,13 @@ ht-degree: 1%
 
 1. _[!UICONTROL 구매 그룹]_ 페이지에서 **[!UICONTROL 솔루션 관심 항목]** 탭을 선택합니다.
 
+   탭에는 모든 기존 솔루션 관심사에 대한 인벤토리 목록이 제공됩니다. 열 형식에는 다음 정보가 표시됩니다. _[!UICONTROL 이름]_, _[!UICONTROL 역할 템플릿]_, _[!UICONTROL 구매 그룹 생성 작업]_, _[!UICONTROL 구매 그룹 업데이트]_, _[!UICONTROL 생성 날짜]_, _[!UICONTROL 작성자]_, _[!UICONTROL 마지막 업데이트]_ 및 _[!UICONTROL 마지막 업데이트 작성자]_,
+
+   이 목록은 기본적으로 _[!UICONTROL 마지막 업데이트]_ 열을 기준으로 정렬됩니다. 내림차순과 오름차순 간에 정렬을 전환하려면 헤더에서 열 제목을 클릭합니다.
+
+   목록 맨 위에 있는 _검색_ 도구에 텍스트를 입력하여 표시된 목록을 이름별로 필터링합니다.
+
    ![솔루션 관심 영역 탭](assets/solution-interest-tab.png){width="700" zoomable="yes"}
-
-   탭에는 모든 기존 솔루션 관심사에 대한 인벤토리 목록이 제공됩니다. 열 형식에는 다음 정보가 표시됩니다. _[!UICONTROL 이름]_, _[!UICONTROL 역할 템플릿]_, _[!UICONTROL 그룹 만들기 작업 구매]_, _[!UICONTROL 마지막으로 업데이트됨]_, _[!UICONTROL 업데이트됨]_, _[!UICONTROL 생성됨]_ 및 _[!UICONTROL 생성됨]_
-
-   이 목록은 기본적으로 _[!UICONTROL 마지막 업데이트 날짜]_ 열을 기준으로 정렬됩니다. 내림차순과 오름차순 간에 정렬을 전환하려면 헤더에서 열 제목을 클릭합니다.
 
 ## 구매 그룹 작업 보기 및 삭제
 
@@ -102,4 +104,4 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3450120/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
