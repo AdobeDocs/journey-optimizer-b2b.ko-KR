@@ -72,7 +72,7 @@ GenStudio for Performance Marketing은 가져온 이메일 HTML 내의 특정 �
 
 HTML 파일을 사용하여 GenStudio for Performance Marketing에서 템플릿을 만듭니다.
 
-HTML 템플릿을 Adobe GenStudio for Performance Marketing의 GenStudio에 업로드하는 방법에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서의 [템플릿 추가](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)를 참조하십시오.
+HTML 템플릿을 Adobe GenStudio for Performance Marketing의 GenStudio에 업로드하는 방법에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서의 [템플릿 추가](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)를 참조하십시오.
 
 내보낸 HTML을 템플릿으로 업로드하면 GenStudio for Performance Marketing에서 HTML 파일에서 인식된 필드가 있는지 검사합니다. 미리보기를 사용하여 템플릿 요소를 검토하고 인식된 필드 이름으로 제대로 식별했는지 확인합니다.
 
@@ -80,7 +80,7 @@ HTML 템플릿을 Adobe GenStudio for Performance Marketing의 GenStudio에 업�
 
 GenStudio for Performance Marketing에서 템플릿을 사용하여 여러 이메일 경험 변형을 만들고 저장합니다.
 
-브랜디드 이메일 경험 생성에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서에서 [이메일 경험 만들기](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)를 참조하십시오.
+브랜디드 이메일 경험 생성에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서에서 [이메일 경험 만들기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)를 참조하십시오.
 
 ## 생성된 이메일 경험을 Journey Optimizer B2B edition에 추가
 
