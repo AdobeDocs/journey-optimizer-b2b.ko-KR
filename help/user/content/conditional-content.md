@@ -4,10 +4,10 @@ description: 계정 여정에 대한 이메일 콘텐츠를 작성할 때 콘텐
 feature: Email Authoring, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 11%
+source-wordcount: '1247'
+ht-degree: 10%
 
 ---
 
@@ -108,20 +108,9 @@ ht-degree: 11%
 | -------------- | ------- | ----------- |
 | **계정** | 계정 속성 | 다음을 포함한 계정 프로필의 속성: <li>연간 수익</li><li>구/군/시</li><li>국가</li><li>직원 규모</li><li>업종</li><li>이름</li><li>SIC 코드</li><li>주/도</li> |
 | | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 있음] | 계정에 구매 그룹의 구성원이 있거나 없습니다. 다음 기준 중 하나 이상에 대해서도 평가할 수 있습니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li> |
-| | [!UICONTROL 특수 필터] > [!UICONTROL 기회가 있음] | 계정이 영업 기회와 관련되거나 관련되지 않습니다. 다음 영업 기회 속성 중 하나 이상에 대해서도 평가할 수 있습니다. <li>금액<li>종료 날짜<li>설명<li>예상 수익<li>회계 분기<li>회계 연도<li>예측 범주<li>예측 범주 이름<li>닫힘<li>성공</li><li>마지막 활동 날짜</li><li>개인 소스<li>이름</li><li>다음 단계</li><li>가능성<li>수량<li>단계</li><li>유형 |
 | **사용자** | [!UICONTROL 활동 기록] > [!UICONTROL 전자 메일] | 여정과 연계된 이메일 활동: <li>[!UICONTROL 전자 메일에서 링크를 클릭함]</li><li>이메일 열림</li><li>게재됨 이메일</li><li>이(가) 이메일을 보냈습니다.</li> 이러한 조건은 여정 앞부분에서 선택한 이메일 메시지를 사용하여 평가됩니다. |
 |  | [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>구/군/시</li><li>국가</li><li>생년월일</li><li>이메일 주소</li><li>잘못된 이메일</li><li>이메일 일시 중단됨</li><li>이름</li><li>상태 영역 유추</li><li>직위</li><li>성</li><li>휴대폰 번호</li><li>전화번호</li><li>우편번호</li><li>주/도</li><li>주소 삭제</li><li>구독 취소 이유</li> |
 | | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>역할</li> |
-
-<!-- 
-
-| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li> |
-| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone</li><li>Email</li><li>Web</li>|
-
-| | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
-| | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more Marketo Engage programs. |
-|  [People](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Role in account attributes | The person is or is not assigned a role in the account. Optional constraints: <li>Enter a role name</li> | 
--->
 
 ### 조건부 규칙 만들기 {#create-condition}
 
