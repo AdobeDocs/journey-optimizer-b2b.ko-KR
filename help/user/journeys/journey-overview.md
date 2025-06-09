@@ -1,13 +1,13 @@
 ---
 title: 계정 여정
-description: 계정 여정을 시작하고 계정 여정 목록을 사용하여 관리하는 방법을 알아봅니다.
+description: 계정 여정을 시작하고 계정 여정 목록을 사용하여 이를 관리하는 방법을 알아봅니다.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 86%
 
 ## 계정 여정 액세스 및 탐색
 
-왼쪽 탐색에서 **[!UICONTROL 계정 관리]**&#x200B;를 확장하고 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다.
+왼쪽 내비게이션에서 **[!UICONTROL 계정 관리]**&#x200B;를 펼치고 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다.
 
-목록 맨 위에 있는 _검색_ 도구에 텍스트를 입력하여 표시된 목록을 이름별로 필터링합니다.
+목록 상단의 _검색_ 도구에 텍스트를 입력하면 표시된 목록을 이름으로 필터링할 수 있습니다.
 
 ![계정 여정 목록 필터링](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-_[!UICONTROL 계정 여정]_ 목록 페이지에는 다음 열이 포함되어 있습니다.
+_[!UICONTROL 계정 여정]_ 목록 페이지에는 다음과 같은 열이 포함됩니다.
 
 * [!UICONTROL 이름] (이름을 클릭하면 편집할 여정이 열림)
 * [!UICONTROL 상태]
@@ -47,7 +47,7 @@ _[!UICONTROL 계정 여정]_ 목록 페이지에는 다음 열이 포함되어 �
 * [!UICONTROL 게시일]
 * [!UICONTROL 게시자]
 
-열 헤더를 클릭하면 _[!UICONTROL 상태]_ 별로 목록을 정렬할 수 있습니다.
+열 헤더를 클릭하면 _[!UICONTROL 상태]_&#x200B;별로 목록을 정렬할 수 있습니다.
 
 오른쪽 상단에 있는 _표 사용자 정의_(![표 사용자 정의](../assets/do-not-localize/icon-column-settings.svg)) 아이콘을 클릭하면 표에 표시되는 열을 사용자 정의할 수 있습니다. 대화 상자에서 확인란을 선택하거나 선택 취소하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
@@ -55,29 +55,29 @@ _[!UICONTROL 계정 여정]_ 목록 페이지에는 다음 열이 포함되어 �
 
 ## 계정 여정 구조
 
-_[!UICONTROL 계정 여정]_ 목록에서 이름(링크로 표시됨)을 클릭하면 세부 정보를 검토하고, 변경하고, 액션을 취할 수 있습니다.
+_[!UICONTROL 계정 여정]_&#x200B;목록에서 이름(링크로 표시됨)을 클릭하면 세부 정보를 검토하고, 변경하고, 액션을 취할 수 있습니다.
 
 ![계정 여정 작업 영역](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
 각 계정 여정 맵의 헤더에는 다음이 포함됩니다.
 
 * 여정 이름
-* 여정 이름에 대한 편집 도구(![편집 아이콘](../assets/do-not-localize/icon-edit.svg) _편집_ 아이콘)
+* 여정 이름 편집 도구 (![편집 아이콘](../assets/do-not-localize/icon-edit.svg) _편집_ 아이콘)
 * 여정 상태
 
 여정 상태는 적용하는 액션에 따라 변경될 수 있습니다. 여정의 상태에 따라 헤더 오른쪽의 특정 액션이 사용 가능하거나 사용 불가할 수 있습니다.
 
 | 상태 | 설명 | 사용 가능한 액션 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**초안**&#x200B;_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-an-account-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _&#x200B;**라이브**&#x200B;_ | 여정이 게시되면 여정 상태가 “초안”에서 “진행 중”으로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새 항목 닫기](#close-to-new-entries) <li>[중단](#abort-journey) |
-| _&#x200B;**새로운 참여 마감됨**&#x200B;_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
-| _&#x200B;**중단됨**&#x200B;_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _&#x200B;**완료됨**&#x200B;_ | 여정의 모든 계정이 여정을 완료하면 상태가 _Live_ 또는 _새 항목으로 닫힘_&#x200B;에서 _완료됨_(으)로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**초안**_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-an-account-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**라이브**_ | 여정이 게시되면 여정 상태가 “초안”에서 “진행 중”으로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
+| _**새로운 참여 마감됨**_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
+| _**중단됨**_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**완료됨**_ | 여정에 있는 모든 계정이 여정을 완료하면 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;에서 _완료됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
 
 ## 여정 관리
 
-_계정 여정_ 목록에는 Journey Optimizer B2B 에디션 인스턴스의 모든 여정이 포함됩니다.
+_계정 여정_ 목록에는 Journey Optimizer B2B Edition 인스턴스의 모든 여정이 포함됩니다.
 
 ### 여정 중단
 
@@ -85,7 +85,7 @@ _계정 여정_ 목록에는 Journey Optimizer B2B 에디션 인스턴스의 모
 
 >[!IMPORTANT]
 >
->계정 여정이 _다른 여정에 있는_&#x200B;다른 여정에 계정 추가&#x200B;_작업으로 작업 수행_ 노드에서 사용되는 경우 해당 여정에서 여정 블록을 중단합니다.
+>계정 여정이 _(다른) 여정에 계정 추가_ 액션이 있는 _액션 취하기_ 노드에서 다른 여정으로 사용될 때 여정을 중단하면 해당 여정에서 해당 액션이 차단됩니다.
 
 1. 여정 이름을 클릭하여 엽니다.
 
@@ -157,4 +157,4 @@ _계정 여정_ 목록에는 Journey Optimizer B2B 에디션 인스턴스의 모
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443214/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
