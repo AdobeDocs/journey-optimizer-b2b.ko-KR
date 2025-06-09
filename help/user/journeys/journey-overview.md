@@ -157,4 +157,4 @@ _계정 여정_ 목록에는 Journey Optimizer B2B Edition 인스턴스의 모�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443214/?learn=on&captions=kor)
