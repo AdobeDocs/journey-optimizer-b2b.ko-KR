@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능과 향상된 기능에 대해 알아보십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
-source-wordcount: '2190'
+source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
+workflow-type: ht
+source-wordcount: '2139'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,10 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | 사용자 정의 가능 필드 - 콘텐츠 조각 | 시각적 조각 디자인 과정에서 해당 조각의 구성 요소에 대한 매개변수를 “편집 가능”으로 지정할 수 있습니다. 이 기능을 통해 이메일 또는 템플릿 작성자는 필요에 맞는 사용자 정의 필드 값을 지정할 수 있습니다. 이 사용자 정의 플래그는 이미지, 텍스트 및 버튼 시각적 구성 요소로 제한됩니다. <a href="../content/fragment-authoring.md#enable-fragment-customization">자세히 알아보기</a> |
-| 기능 | B2B 기본 제공 역할 및 제품 권한 | 이제 Experience Platform에는 B2B 제품 기능에 대한 액세스 권한을 관리하는 데 사용할 수 있는 기본 제공 역할 세트가 포함됩니다. <a href="../admin/user-management.md#b2b-built-in-roles">자세히 알아보기</a> <br/>이제 관리자는 Adobe Experience Platform에서 Journey Optimizer B2B Edition 제품 권한을 포함하도록 사용자 정의 역할을 정의할 수 있습니다.  <a href="../admin/user-management.md#b2b-product-permissions">자세히 알아보기</a> |
 | 기능 | 여정 복제 유형 | 계정 여정을 복제할 때 Journey Optimizer B2B Edition에서 생성된 이메일 및 SMS 메시지를 제외한 노드 세부 정보를 포함할 수 있습니다. 대안으로, 노드 세부 정보 및 설정 없이 구조와 경로 흐름의 스켈레톤 복사본을 만들 수 있습니다. <a href="../journeys/journey-overview.md#duplicate-journey">자세히 알아보기</a> |
 | 개선 사항 | 4가지 추가 샘플 이메일 템플릿 | 이제 샘플 이메일 템플릿 라이브러리에는 재참여, 정보 제공, 육성 및 피드백 콘텐츠 예시를 위한 4가지 SecurFinancial 템플릿이 포함됩니다. |
+
+<!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->
 
 ## 2025.1 릴리스 정보 {#Jan-2025}
 
