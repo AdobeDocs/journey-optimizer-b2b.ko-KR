@@ -4,10 +4,10 @@ description: Journey Optimizer B2B edition 제품 프로필에 팀원을 할당�
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 1%
+source-wordcount: '738'
+ht-degree: 2%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 1%
 
 1. Admin Console에서 [Marketo Engage 제품 프로필을 만듭니다](#marketo-engage-profile)(새 Marketo Engage 인스턴스만 해당).
 1. Admin Console에서 [사용자 그룹 만들기](#create-user-group).
-1. Journey Optimizer B2B edition 권한을 사용하여 [기본 제공 역할을 편집](#edit-roles) 또는 [사용자 지정 역할을 만들기](#create-a-custom-role)합니다.
-1. 역할에 [사용자 추가](#add-users) 또는 [그룹](#add-user-groups-to-a-role).
+<!-- 1. [Edit built-in roles](#edit-roles) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions. 
+1. [Add users](#add-users) or [groups](#add-user-groups-to-a-role) to roles. -->
 
 관리자는 Adobe 제품 라이선스와 사용자를 관리하고 관리하는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서는 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html) 페이지를 참조하세요.
 
@@ -56,13 +56,13 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자를 위한 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자를 위한 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
 <!--
 >[!BEGINSHADEBOX]
 
 When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
 
-For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
+For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
 
 >[!ENDSHADEBOX]-->
 
@@ -137,175 +137,176 @@ For more information about managing these permissions within Marketo Engage, see
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 제품 권한에 대한 역할 편집 {#edit-roles}
+<!-- ## Edit roles for product permissions {#edit-roles}
 
-권한은 제품 프로필에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 Journey Optimizer B2B edition의 다양한 기능 또는 개체를 나타내는 여정 또는 구매 그룹과 같은 기능 아래에 수집됩니다.
+Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is gathered under a capability, such as journeys or buying groups, which represents the different functionalities or objects in Journey Optimizer B2B Edition.
 
-Adobe Experience Platform의 _권한_ 영역에서 관리자는 사용자 역할과 액세스 정책을 정의하여 제품 응용 프로그램 내의 기능 및 개체에 대한 액세스 권한을 관리할 수 있습니다. 이 앱에서는 역할을 만들고 관리하며, 이러한 역할에 대해 원하는 리소스 권한을 할당할 수 있습니다. 또한 권한을 사용하여 특정 역할과 연관된 샌드박스 및 사용자를 관리할 수 있습니다.
+The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
-Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
+For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
 
-### B2B 제품 권한
+### B2B product permissions
 
-Journey Optimizer B2B edition 기능에 대한 액세스를 제어하는 권한은 다음과 같습니다.
+The following permissions govern access to Journey Optimizer B2B Edition capabilities:
 
-| 카테고리 | 설명 | 권한 |
+| Category | Description | Permissions |
 | -------- | ----------- | ---------- |
-| B2B 계정 목록 | B2B 계정 목록에 대한 권한을 구성, 관리, 보기 및 게시합니다. 이러한 권한에는 계정 목록에서 계정 추가, 제거, 가져오기 및 삭제와 같은 작업이 포함됩니다. | <li>B2B 계정 목록 관리 |
-| B2B 관리 구성 | B2B 관리 구성에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 디지털 자산 관리 연결, 자산 저장소 및 이벤트가 포함됩니다. | <li>B2B 관리 구성 관리 |
-| B2B Assets | B2B 자산에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 이메일, SMS, 랜딩 페이지, 조각, 템플릿 및 이미지가 포함됩니다. | <li>B2B Assets 관리 <li>B2B 템플릿 관리 <li>B2B 조각 관리 |
-| B2B 구매 그룹 | B2B 구매 그룹에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 솔루션 관심 분야, 역할 템플릿 및 구매 그룹 상태가 포함됩니다. | <li>B2B 구매 그룹 관리 |
-| B2B 채널 구성 | B2B 채널 구성에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 통신 제한, API 자격 증명 및 보안 설정에 대한 설정이 포함됩니다. | <li>B2B 채널 구성 관리 |
-| B2B 대시보드 | B2B 대시보드에 대한 권한을 구성하고 봅니다. 이러한 권한에는 계정 참여, 구매 그룹 단계, 급증하는 계정 및 연락처 적용 범위가 포함됩니다. | <li>B2B 대시보드 관리 |
-| B2B 여정 | B2B 여정에 대한 관리, 보기 및 게시 권한을 구성합니다. 이러한 권한에는 계정 및 사용자 작업, 이벤트 리스너 및 분할 경로가 포함됩니다 | <li>B2B 여정 관리 |
+| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
+| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
+| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments|
+| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups |
+| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
+| B2B Dashboards |Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>Manage B2B Dashboards |
+| B2B Journeys | Configure manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths | <li>Manage B2B Journeys |
 
-### B2B 기본 제공 역할
+### B2B built-in roles
 
-조직에 Journey Optimizer B2B edition 제품이 프로비저닝되면 Experience Platform에는 제품 기능에 대한 액세스를 관리하는 데 사용할 수 있는 기본 제공(기본) 역할 세트가 포함됩니다.
+When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
-| 역할 | 권한 |
+| Role | Permissions |
 | ---- | ----------- |
-| B2B 여정 관리자 | <li>B2B 여정 관리 <li>B2B 구매 그룹 관리 <li>B2B 계정 목록 관리 <li>B2B 참여 대시보드 보기 <li>B2B 통찰력 대시보드 보기 |
-| B2B 채널 관리자 | <li>B2B Assets 관리 <li>B2B 템플릿 관리 <li>B2B 조각 관리 |
-| B2B 시스템 관리자 | <li>B2B 채널 구성 관리 <li>B2B 관리 구성 관리 |
-| B2B 영업 사용자 | <li>B2B 참여 대시보드 보기 |
+| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
+| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
+| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
+| B2B Sales User | <li>View B2B Engagement Dashboard |
 
-### 역할 권한 편집
+### Edit role permissions
 
-기본 제공 또는 사용자 지정 역할의 경우 언제든지 권한을 추가하거나 삭제할 것을 결정할 수 있습니다. 기본 또는 사용자 정의 역할을 수정하는 경우 해당 역할에 할당된 모든 사용자에게 영향을 줍니다.
+For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
 
-다음 예에서는 B2B 채널 관리자 역할에 할당된 사용자의 B2B 여정 리소스와 관련된 권한을 추가하려고 합니다. 이 변경 사항을 통해 해당 역할의 사용자는 계정 여정을 관리할 수도 있습니다.
+In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
 
 >[!NOTE]
 >
->Admin Console 시스템 관리자는 다음 단계를 수행할 수 있습니다.
+>An Admin Console system administrator can perform these steps.
 
-_역할에 대한 권한을 변경하려면:_
+_To change the permissions for a role:_
 
-1. [experience.adobe.com](https://experience.adobe.com/)&#x200B;(으)로 이동합니다.
+1. Go to [experience.adobe.com](https://experience.adobe.com/).
 
-1. _[!UICONTROL 빠른 액세스]_ 패널에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
 
    >[!NOTE]
    >
-   >_[!UICONTROL 권한]_&#x200B;이 표시되지 않으면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하고 사용 가능한 응용 프로그램에서 선택해야 할 수 있습니다.
+   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
 
-   ![Experience Platform - 액세스 권한](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-1. 왼쪽 탐색에서 **[!UICONTROL 역할]**&#x200B;을(를) 선택합니다.
+1. Select **[!UICONTROL Roles]** in the left navigation.
 
-1. **_B2B 채널 관리자_** 역할 이름을 클릭합니다.
+1. Click the **_B2B Channel Manager_** role name.
 
-1. 세부 정보 페이지에서 오른쪽 상단의 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. In the details page, click **[!UICONTROL Edit]** at the top right.
 
-   ![Experience Platform - 역할 편집](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   역할 편집기에서 _[!UICONTROL 리소스]_ 메뉴에 Experience Cloud - Platform 기반 응용 프로그램 제품에 적용되는 리소스 목록이 표시됩니다.
+   In the role editor, the _[!UICONTROL Resources]_ menu displays the list of resources that apply to the Experience Cloud - Platform powered applications products.
 
-   검색 도구에 _B2B_&#x200B;을(를) 입력하여 B2B 제품 권한 목록을 필터링할 수 있습니다.
+   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions. 
+   
+1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
 
-1. B2B 여정 리소스에 대한 _추가_ 아이콘(**+**)을 클릭합니다.
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - 역할 편집](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
 
-1. _[!UICONTROL B2B 여정]_ 권한 카드에서 **[!UICONTROL B2B 계정 여정 관리]**&#x200B;를 선택합니다.
+1. Click **[!UICONTROL Save]**.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - 역할 편집](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+1. Click **[!UICONTROL Close]** to return to the details page.
 
-1. 세부 정보 페이지로 돌아가려면 **[!UICONTROL 닫기]**&#x200B;를 클릭하십시오.
+### Add users to a role
 
-### 역할에 사용자 추가
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
+1. Open the role details and select the **[!UICONTROL Users]** tab.
 
-1. 역할 세부 정보를 열고 **[!UICONTROL 사용자]** 탭을 선택합니다.
+   This tab displays a list of all users assigned to the role.
 
-   이 탭에는 역할에 할당된 모든 사용자 목록이 표시됩니다.
+1. Click **[!UICONTROL Add users]**.
 
-1. **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   ![Experience Platform - add users to the role](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - 역할에 사용자 추가](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
+1. In the _[!UICONTROL Add users]_ dialog, locate and select the users that you want to add to the role.
 
-1. _[!UICONTROL 사용자 추가]_ 대화 상자에서 역할에 추가할 사용자를 찾아 선택합니다.
+   * You can use the Search tool to filter the list of users. 
 
-   * 검색 도구를 사용하여 사용자 목록을 필터링할 수 있습니다.
+   * Select the checkbox for each user.
 
-   * 각 사용자에 대한 확인란을 선택합니다.
+   ![Experience Platform - Add users dialog](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
 
-   ![Experience Platform - 사용자 추가 대화 상자](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
+1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
 
-1. 추가할 모든 사용자를 선택한 경우 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+### Add user groups to a role
 
-### 역할에 사용자 그룹 추가
+For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
 
-사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하십시오.
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
+1. Open the role details and select the **[!UICONTROL User groups]** tab.
 
-1. 역할 세부 정보를 열고 **[!UICONTROL 사용자 그룹]** 탭을 선택합니다.
+   This tab displays a list of all user groups assigned to the role. 
 
-   이 탭에는 역할에 할당된 모든 사용자 그룹 목록이 표시됩니다.
+1. Click **[!UICONTROL Add Groups]**.
 
-1. **[!UICONTROL 그룹 추가]**&#x200B;를 클릭합니다.
+   ![Experience Platform - add users to the role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - 역할에 사용자 추가](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+1. In the _[!UICONTROL Add groups]_ dialog, locate and select the groups that you want to add to the role.
 
-1. _[!UICONTROL 그룹 추가]_ 대화 상자에서 역할에 추가할 그룹을 찾아 선택합니다.
+   * You can use the Search tool to filter the list of user groups. 
 
-   * 검색 도구를 사용하여 사용자 그룹 목록을 필터링할 수 있습니다.
+   * Select the checkbox for each user group.
 
-   * 각 사용자 그룹에 대한 확인란을 선택합니다.
+   ![Experience Platform - Add groups dialog](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
-   ![Experience Platform - 그룹 추가 대화 상자](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
+1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
 
-1. 추가할 모든 사용자를 선택한 경우 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+## Create a custom role
 
-## 사용자 정의 역할 만들기
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
+1. Select **[!UICONTROL Roles]** in the left navigation and select **[!UICONTROL Create role]**.
 
-1. 왼쪽 탐색에서 **[!UICONTROL 역할]**&#x200B;을(를) 선택하고 **[!UICONTROL 역할 만들기]**&#x200B;를 선택합니다.
+1. In the _[!UICONTROL Create new role]_ dialog, enter a name for the role, such as _B2B Marketers_, and a description (optional).
 
-1. _[!UICONTROL 새 역할 만들기]_ 대화 상자에서 _B2B 마케터_&#x200B;와 같은 역할 이름과 설명(선택 사항)을 입력합니다.
+1. Click **[!UICONTROL Confirm]**.
 
-1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+1. Select your sandboxes.
 
-1. 샌드박스를 선택합니다.
+   ![Experience Platform - add sandboxes for the new role](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - 새 역할에 대한 샌드박스 추가](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+1. Add the profile permissions:
 
-1. 프로필 권한 추가:
+   * In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL Profile Management]** item and click the _Add_ (**+**) icon to add the attribute.
 
-   * 왼쪽의 _[!UICONTROL 리소스]_ 목록에서 **[!UICONTROL 프로필 관리]** 항목을 찾은 다음 _추가_(**+**) 아이콘을 클릭하여 특성을 추가합니다.
+   * For the attribute, add the following permissions:
+      * [!UICONTROL View segments]
+      * [!UICONTROL Manage segments]
+      * [!UICONTROL View profiles]
+      * [!UICONTROL Manage profiles]
+      * [!UICONTROL View B2B profile]
+      * [!UICONTROL Manage B2B profile]
 
-   * 속성에 대해 다음 권한을 추가합니다.
-      * [!UICONTROL 세그먼트 보기]
-      * [!UICONTROL 세그먼트 관리]
-      * [!UICONTROL 프로필 보기]
-      * [!UICONTROL 프로필 관리]
-      * [!UICONTROL B2B 프로필 보기]
-      * [!UICONTROL B2B 프로필 관리]
+   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - 새 역할에 대한 프로필 추가](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+1. Add B2B product permissions:
 
-1. B2B 제품 권한 추가:
+   Refer to the list of [B2B product permissions](#b2b-product-permissions) to determine which product capabilities that you want for the role.
 
-   역할에 대해 원하는 제품 기능을 확인하려면 [B2B 제품 권한](#b2b-product-permissions) 목록을 참조하세요.
+   In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL B2B]** items and click the _Add_ (**+**) icon to add each attribute that you want to enable for the role.
 
-   왼쪽의 _[!UICONTROL 리소스]_ 목록에서 **[!UICONTROL B2B]** 항목을 찾은 다음 _추가_(**+**) 아이콘을 클릭하여 역할에 사용할 각 특성을 추가합니다.
+   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions.
 
-   검색 도구에 _B2B_&#x200B;을(를) 입력하여 B2B 제품 권한 목록을 필터링할 수 있습니다.
+1. Click **[!UICONTROL Save]** at the top right.
 
-1. 오른쪽 상단의 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. Go to the role details and select the **[!UICONTROL User groups]** tab.
 
-1. 역할 세부 정보로 이동하여 **[!UICONTROL 사용자 그룹]** 탭을 선택합니다.
+1. Click **[!UICONTROL Add Groups]**.
 
-1. **[!UICONTROL 그룹 추가]**&#x200B;를 클릭합니다.
+   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - 새 역할에 대한 프로필 추가](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+1. Select the checkbox next to the user group that you created previously in the Admin Console.
 
-1. 이전에 Admin Console에서 만든 사용자 그룹 옆의 확인란을 선택합니다.
-
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Save]**.
+-->
