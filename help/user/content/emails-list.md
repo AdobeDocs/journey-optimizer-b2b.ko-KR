@@ -4,16 +4,16 @@ description: 이메일 목록을 사용하여 Adobe Journey Optimizer B2B editio
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 이메일
 
-[전자 메일을 만듭니다](./add-email.md). 여정 노드의 컨텍스트에 전자 메일을 추가합니다. 여정 맵 외부의 전자 메일로 작업하려면 _[!UICONTROL 전자 메일]_ 목록을 사용하여 전자 메일을 찾아 업데이트합니다. 이메일을 검토하거나 설정 및 콘텐츠를 업데이트할 수 있습니다.
+[전자 메일을 만듭니다](./add-email.md). 여정 노드의 컨텍스트에 전자 메일을 추가합니다. 여정 맵 외부의 전자 메일 콘텐츠로 작업하려면 _[!UICONTROL 전자 메일]_ 목록을 사용하여 전자 메일을 찾아 업데이트합니다. 이메일을 검토하거나 설정 및 콘텐츠를 업데이트할 수 있습니다.
 
 ## 이메일 액세스 및 관리
 
