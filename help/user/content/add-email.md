@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B에서 이메일 작업을 추가, 정�
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -33,59 +33,55 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 
    * Journey Optimizer B2B edition에서 기본적으로 전자 메일을 작성하려면 **[!UICONTROL 새 전자 메일 만들기]**&#x200B;를 선택하세요.
 
-     이 옵션을 사용하면 Journey Optimizer B2B edition에서 기본적으로 이메일 콘텐츠를 관리할 수 있습니다. **[!UICONTROL 전자 메일 만들기]**&#x200B;를 클릭하여 _새 전자 메일 만들기_ 대화 상자를 엽니다. 새 전자 메일 콘텐츠 자산 <!-- or duplicate an existing email content asset-->을(를) 만들 수 있습니다.
+     이 옵션을 사용하면 Journey Optimizer B2B edition에서 기본적으로 이메일 콘텐츠를 관리할 수 있습니다. **[!UICONTROL 전자 메일 만들기]**&#x200B;를 클릭하여 _새 전자 메일 만들기_ 대화 상자를 엽니다. 새 이메일 콘텐츠 에셋을 만들거나 기존 이메일 콘텐츠 에셋을 복제할 수 있습니다.
 
-     대화 상자에서 전자 메일의 고유한 **[!UICONTROL 이름]**&#x200B;과(와) **[!UICONTROL 제목 줄]**&#x200B;을 입력한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+     +++새 이메일
 
-     ![새 전자 메일 대화 상자 만들기 - 새 전자 메일](assets/create-new-email-no-duplicate.png){width="400"}
+     빈 캔버스 또는 전자 메일 템플릿을 사용하여 전자 메일을 만들려면 _[!UICONTROL 새 전자 메일]_ 옵션을 사용하십시오.
 
-     전자 메일 콘텐츠 페이지의 _[!UICONTROL 전자 메일 속성]_ 섹션에서 _[!UICONTROL 전자 메일을 통해]_ 및 _[!UICONTROL 주소에 회신]_ 필드가 이미 구성되어 있습니다. _[!UICONTROL 보낸 사람 이름]_ 및 _[!UICONTROL 설명]_(선택 사항) 필드에 값을 입력할 수 있습니다.
+      1. 대화 상자에서 **[!UICONTROL 새 메일]**&#x200B;을 선택합니다.
 
-     전자 메일 [설정](#define-the-email-settings)을(를) 정의하고 **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을(를) 클릭하여 [콘텐츠 디자인](./email-authoring.md)합니다.
+      1. 전자 메일의 고유한 **[!UICONTROL 이름]**&#x200B;과(와) **[!UICONTROL 제목 줄]**&#x200B;을(를) 입력하세요.
 
-     <!-- +++New email {#new-email}
-     When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
+         ![새 전자 메일 대화 상자 만들기 - 새 전자 메일](assets/create-new-email.png){width="400"}
 
-     1. In the dialog, choose **[!UICONTROL New email]**.
+      1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+         전자 메일 콘텐츠 페이지의 _[!UICONTROL 전자 메일 속성]_ 섹션에서 _[!UICONTROL 전자 메일을 통해]_ 및 _[!UICONTROL 주소에 회신]_ 필드가 이미 구성되어 있습니다. _[!UICONTROL 보낸 사람 이름]_ 및 _[!UICONTROL 설명]_(선택 사항) 필드에 값을 입력할 수 있습니다.
 
-        ![Create new email dialog - new email](assets/create-new-email.png){width="400"}
+      1. **[!UICONTROL 전자 메일 편집]**&#x200B;을 클릭하여 전자 메일 [설정](#define-the-email-settings)을(를) 정의하고 [콘텐츠](./email-authoring.md)을(를) 디자인합니다.
 
-     1. Click **[!UICONTROL Create]**.
++++
 
-       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+     +++기존 이메일 복제
 
-     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+     현재 여정 또는 다른 여정의 기존 전자 메일을 사용하여 전자 메일을 만들려면 _[!UICONTROL 기존 전자 메일 복제]_ 옵션을 사용하십시오. 여정 노드의 목표에 따라 복제된 이메일을 변경할 수 있습니다.
 
-     +++
+      1. _[!UICONTROL 새 전자 메일 만들기]_ 대화 상자에서 **[!UICONTROL 기존 전자 메일 복제]**&#x200B;를 선택합니다.
 
-     +++Duplicate existing email {#duplicate-email}
-     When you want to create an email using an existing email from the current journey or from another journey, use the Duplicate existing journey option. You can make changes to the duplicated email according to your objective for the journey node.
+      1. **[!UICONTROL 기존 이메일을 복제하려면]**&#x200B;에 대해 _선택_ 아이콘(![선택 아이콘](../assets/do-not-localize/icon-email-select.svg))을 클릭하고 복제하여 여정 노드에 사용할 이메일을 선택하십시오.
 
-     1. In the dialog, choose **[!UICONTROL Duplicate existing email]**.
+         전자 메일 이름과 일치하도록 검색 필드에 텍스트 문자열을 입력하여 전자 메일 목록을 필터링할 수 있습니다.
 
-     1. For **[!UICONTROL Existing email to duplicate]**, click the _Select email_ icon and select the email you want to duplicate and use for the journey node.
+         ![전자 메일 선택](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-      You can filter the list of emails by entering a text string in the search field to match the email name.
+         복제할 전자 메일의 확인란을 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-      ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+      1. 전자 메일의 고유한 **[!UICONTROL 이름]**&#x200B;과(와) **[!UICONTROL 제목 줄]**&#x200B;을(를) 입력하세요.
 
-      Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
+         ![새 전자 메일 대화 상자 만들기 - 기존 전자 메일 복제](assets/create-new-email-duplicate.png){width="400"}
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+      1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-        ![Create new email dialog - duplciate existing email](assets/create-new-email.png){width="400"}
+         전자 메일 콘텐츠 페이지의 _[!UICONTROL 전자 메일 속성]_ 섹션에서 _[!UICONTROL 전자 메일을 통해]_ 및 _[!UICONTROL 주소에 회신]_ 필드가 이미 구성되어 있습니다. _[!UICONTROL 보낸 사람 이름]_ 및 _[!UICONTROL 설명]_(선택 사항) 필드에 값을 입력할 수 있습니다.
 
-     1. Click **[!UICONTROL Create]**.
+      1. 필요한 경우 **[!UICONTROL 전자 메일 편집]**&#x200B;을 클릭하여 전자 메일 [설정](#define-the-email-settings) 및 [콘텐츠](./email-authoring.md)를 수정합니다.
 
-        In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
++++
 
-     1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
-
-     +++
-   —>
    * Marketo Engage에서 미리 작성된 이메일 중 하나를 사용하여 여정의 일부로 보내려면 **[!UICONTROL Adobe Marketo Engage에서 이메일 선택]**&#x200B;을(를) 선택하십시오.
+
+     연결된 Market Engage 인스턴스에서 두 개 이상의 작업 영역을 사용할 수 있는 경우 작업 영역을 선택합니다. 그런 다음 여정 노드에 보낼 승인된 이메일을 선택합니다.
 
      ![Marketo Engage 이메일 선택](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
