@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 91386eb001a8fdd31c2b35879cb47eefd99e97f5
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition은 지속적으로 새로운 기능, 기존 
 
 Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform]기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest){target="_blank"}를 참조하십시오.
 
-권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
+권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
 ## 2025.5 릴리스 정보
 
@@ -27,7 +27,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | GenStudio for Performance Marketing과 통합 | (제한 공개) 이제 GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Edition과 통합하여 마케팅 효율을 높이고 브랜드 일관성을 유지할 수 있습니다. 이 통합을 통해 GenStudio AI 기반 콘텐츠 생성과 Journey Optimizer B2B Edition의 고급 오케스트레이션 기능을 결합할 수 있습니다. [자세히 알아보기](../content/genstudio-email-workflow.md) |
-| 기능 | Litmus를 사용한 이메일 테스트 | 이제 [Litmus 계정](https://www.litmus.com/email-testing){target="_blank"}을 통해 Journey Optimizer B2B edition의 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 통합을 통해 이메일 콘텐츠가 멋진 것처럼 보이고 모든 이메일 받은 편지함에서 디자인된 대로 작동하도록 할 수 있습니다. [자세히 알아보기](../content/email-test-rendering.md) |
+| 기능 | Litmus를 통한 이메일 테스트 | [Litmus 계정](https://www.litmus.com/email-testing){target="_blank"}이 있으면 이제 Journey Optimizer B2B Edition의 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 통합 기능은 모든 이메일 받은 편지함에서 이메일 콘텐츠가 멋지게 보이고 디자인대로 작동하는지 확인하는 데 도움이 됩니다. [자세히 알아보기](../content/email-test-rendering.md) |
 | 개선 사항 | 이메일 복제 | 이제 여정 노드에 대한 이메일을 추가할 때 기존 이메일을 복제할 수 있습니다. 복제된 이메일의 설정 또는 콘텐츠를 수정하거나 그대로 유지합니다.  [자세히 알아보기](../content/add-email.md#add-an-email-to-your-journey) |
 | 개선 사항 | 이메일용 핸들바 토큰 형식 | 이메일 콘텐츠에 대한 개인화 토큰은 이제 핸들바 스크립팅과 완벽하게 호환되는 업데이트된 형식을 사용합니다. 이 형식은 공백을 제거하는 _카멜 표기법_ 또는 밑줄을 사용합니다. [자세히 알아보기](../content/email-authoring.md#content-authoring---personalization) |
 | 개선 사항 | 목록의 총 개수 표시 | _[!UICONTROL 솔루션 관심 분야]_ 및 _[!UICONTROL 계정 여정]_ 목록 페이지에서 검색 창 옆에 총 개수가 표시되어 가시성이 더욱 향상되었습니다. |
