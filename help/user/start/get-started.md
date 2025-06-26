@@ -1,20 +1,19 @@
 ---
-title: Journey Optimizer B2B 에디션 시작하기
-description: Journey Optimizer B2B 에디션의 새로운 사용자로 시작하기 위한 주요 영역에 대해 알아봅니다.
+title: 관리자 및 마케터를 위한 온보딩 지침
+description: Journey Optimizer B2B edition의 새로운 관리자 또는 사용자로서 온보딩 프로세스의 주요 영역에 대해 알아보십시오.
 role: Admin, User
+level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '664'
-ht-degree: 100%
+source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
+workflow-type: tm+mt
+source-wordcount: '685'
+ht-degree: 84%
 
 ---
 
-# Journey Optimizer B2B 에디션 시작하기
+# 온보딩 지침
 
-Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구는 팀 내 역할에 따라 달라집니다.
-
-조직에 따라 관리자는 여러 유형의 사용자를 정의하고 권한에 따라 특정 기능에 대한 액세스 권한을 부여할 수 있습니다.
+Adobe Journey Optimizer B2B edition에서 다루고자 하는 기능 및 도구는 팀 내에서 귀하의 역할에 따라 다릅니다. 조직에 따라 관리자는 여러 유형의 사용자를 정의하고 권한에 따라 특정 기능에 대한 액세스 권한을 부여할 수 있습니다.
 
 >[!TIP]
 >
@@ -22,15 +21,17 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
 >[!BEGINTABS]
 
->[!TAB 관리자 빠른 시작]
+>[!TAB 관리자]
 
 팀이 Adobe Journey Optimizer B2B 에디션 기능을 사용하기 전에 환경을 준비하기 위해 몇 가지 단계가 필요합니다. 데이터 엔지니어와 마케터가 Adobe Journey Optimizer B2B 에디션으로 작업을 시작할 수 있도록 다음 단계를 수행합니다.
 
-시스템 관리자는 샌드박스 관리 및 채널 구성을 위해 제품 프로필을 이해하고 권한을 할당해야 합니다. 또한 사용 가능한 제품 프로필에 대해 샌드박스를 설정하고 관리해야 합니다. 그런 다음 제품 프로필에 팀원을 할당할 수 있습니다. 이러한 기능은 Adobe Admin Console에 액세스할 수 있는 제품 관리자가 관리할 수 있습니다. [Adobe Admin Console에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/kr/enterprise/using/admin-console.html).
+시스템 관리자는 샌드박스 관리 및 채널 구성을 위해 제품 프로필을 이해하고 권한을 할당해야 합니다. 또한 사용 가능한 제품 프로필에 대해 샌드박스를 설정하고 관리해야 합니다. 그런 다음 제품 프로필에 팀원을 할당할 수 있습니다. Adobe Admin Console에 액세스할 수 있는 제품 관리자는 이러한 기능을 관리할 수 있습니다. [Adobe Admin Console에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/kr/enterprise/using/admin-console.html).
 
 다음 페이지에서 액세스 관리에 대해 알아보십시오.
 
 1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+
+1. **데이터 엔지니어와 협력하여** B2B 대상 및 프로필 활성화를 계획하고 구현합니다. 게시된 블루프린트를 검토하고 요구 사항에 따라 지침을 따르십시오. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **제품 프로필 설정**. 제품 프로필은 사용자가 인터페이스의 특정 기능이나 오브젝트에 액세스할 수 있도록 허용하는 Adobe Experience Platform의 단 권한 세트입니다. [자세히 알아보기](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -44,7 +45,7 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
 1. AEP 경험 이벤트를 수신하는 계정 여정을 만드는 팀을 위해 **Adobe Experience Platform(AEP) 경험 이벤트 정의를 설정**&#x200B;합니다. [자세히 알아보기](../admin/configure-aep-events.md)
 
->[!TAB 마케터 빠른 시작]
+>[!TAB 마케터]
 
 마케터 또는 _계정 여정 실무자_&#x200B;는 여정을 디자인하고 콘텐츠를 제작할 책임이 있습니다. 시스템 관리자와 데이터 엔지니어가 환경을 준비하고 액세스 권한을 부여한 후 Adobe Journey Optimizer B2B 에디션으로 작업을 시작할 수 있습니다.
 
@@ -66,7 +67,7 @@ Adobe Journey Optimizer B2B 에디션에서 다루고자 하는 기능과 도구
 
    * 기본 제공 채널 액션(이메일 및 SMS)을 사용하여 Journey Optimizer B2B 에디션에서 설계된 메시지를 전송합니다.
 
-   * 여정 디자이너에서 여러 단계의 사용 사례를 만들고 조건을 추가하며 개인화된 메시지를 보냅니다.
+   * 여정 맵에서 여러 단계 사용 사례를 빌드하고 조건을 추가하고 개인화된 메시지를 보냅니다.
 
 [자세히 알아보기](../journeys/journey-overview.md)
 
