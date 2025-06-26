@@ -31,7 +31,7 @@ Adobe Journey Optimizer B2B edition에서 다루고자 하는 기능 및 도구�
 
 1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **데이터 엔지니어와 협력하여** B2B 대상 및 프로필 활성화를 계획하고 구현합니다. 게시된 블루프린트를 검토하고 요구 사항에 따라 지침을 따르십시오. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **데이터 엔지니어와 협력하여** B2B 대상 및 프로필 활성화를 계획하고 구현합니다. 게시된 블루프린트를 검토하고 요구 사항에 따라 지침을 따르십시오. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **제품 프로필 설정**. 제품 프로필은 사용자가 인터페이스의 특정 기능이나 오브젝트에 액세스할 수 있도록 허용하는 Adobe Experience Platform의 단 권한 세트입니다. [자세히 알아보기](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
