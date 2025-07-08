@@ -4,18 +4,18 @@ description: Adobe Journey Optimizer B2B에서 이메일 콘텐츠를 만드는 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
+source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 15%
 
 ---
 
 # 이메일 메시지 작성
 
-&lbrack;여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가&rbrack;(./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
+[여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가](./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
 
-오른쪽 패널의 _[!UICONTROL 세부 정보]_ 탭에서 **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을 클릭합니다.
+오른쪽 패널의 **[!UICONTROL 세부 정보]** 탭에서 _[!UICONTROL 전자 메일 콘텐츠 편집]_&#x200B;을 클릭합니다.
 
 ![전자 메일 콘텐츠 편집 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
 
@@ -52,14 +52,13 @@ ht-degree: 15%
 1. 전자 메일 메시지에 [이미지 자산 추가](#add-assets).
 1. [전자 메일 콘텐츠 개인화](#personalize-content).
 1. [링크 검토 및 업데이트](#preview-and-edit-linked-urls).
+1. [이메일을 테스트합니다](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-콘텐츠가 완료되면 맨 위에 있는 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기를 선택할 수 있습니다.
 
 내용이 만족스러우면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
@@ -133,7 +132,7 @@ ht-degree: 15%
    * 여러 장치에서 콘텐츠를 미리 보려면 _보기_ 아이콘을 클릭하십시오.
    * 기본 제공 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
 
-### 추가 옵션
+## 추가 옵션
 
 전자 메일 디자인 영역 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 다음 작업을 수행할 수 있습니다.
 
@@ -145,15 +144,21 @@ ht-degree: 15%
 * **[!UICONTROL 콘텐츠 템플릿으로 저장]** - 여러 전자 메일 또는 전자 메일 템플릿에서 재사용할 수 있도록 전자 메일 본문을 전자 메일 템플릿으로 저장합니다. 템플릿의 이름과 설명을 입력하고 저장한 이메일 템플릿 목록에 저장합니다.
 * **[!UICONTROL HTML 내보내기]** - zip 파일로 패키지된 HTML 형식의 로컬 시스템에 시각적 캔버스의 콘텐츠를 다운로드합니다.
 
-## 이메일 확인 및 테스트 {#preview-test}
+## 이메일 확인 및 테스트 {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="콘텐츠 렌더링 방식 확인"
 >abstract="콘텐츠가 정의되면 미리 보고 사용 중인 채널에 대해 렌더링이 올바른지 확인할 수 있습니다."
 
-메시지 콘텐츠가 정의된 경우 테스트 프로필을 사용하여 콘텐츠를 미리 보고, 증명을 보내고, 인기 있는 데스크탑, 모바일 및 웹 기반 클라이언트에서 렌더링을 제어할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 표시되는 방식을 미리 볼 수 있습니다.
+메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고, 증명을 보내고, 데스크탑 및 모바일 종횡비로 렌더링을 검토할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 표시되는 방식을 미리 볼 수 있습니다.
 
-전자 메일 콘텐츠를 미리 보려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 테스트 프로필을 추가하여 테스트 프로필 데이터를 사용하여 메시지를 확인하세요.
+[전자 메일 콘텐츠를 미리 보려면](./email-simulate-content.md)하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하고 테스트 프로필을 선택하여 개인 프로필 데이터를 사용하여 메시지를 확인하세요.
 
 ![디자인을 확인하기 위해 전자 메일 콘텐츠 시뮬레이션](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+추가 도구에 액세스하여 이메일 콘텐츠를 확인하고 검토할 수 있습니다.
+
+* [증명 보내기](./email-simulate-content.md#send-proofs)
+* [이메일 클라이언트에서 렌더링 테스트](./email-test-rendering.md)
+<!-- * Generate a spam report -->

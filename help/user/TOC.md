@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: e0d7d23d57b3697d81ab108454d005a1c26a38af
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 96%
 
 ---
 
@@ -63,8 +63,10 @@ ht-degree: 100%
    + [XDM 필드](./data/field-mapping.md)
 + 콘텐츠 관리 {#content-management}
    + 이메일 {#emails}
-      + [이메일 콘텐츠 작업](./content/emails-list.md)
-      + [이메일 렌더링 테스트](./content/email-test-rendering.md)
+      + [전자 메일 콘텐츠로 작업](./content/emails-list.md)
+미리 보기 및 유효성 검사 {#preview}
+         + [콘텐츠 시뮬레이션](./content/email-simulate-content.md)
+         + [이메일 렌더링 테스트](./content/email-test-rendering.md)
    + 자산 {#assets}
       + [개요](./content/assets-overview.md)
       + Marketo Engage 자산 {#marketo-engage-dam}

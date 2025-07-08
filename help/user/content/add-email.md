@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B에서 이메일 작업을 추가, 정�
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
+source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 
       1. **[!UICONTROL 전자 메일 편집]**&#x200B;을 클릭하여 전자 메일 [설정](#define-the-email-settings)을(를) 정의하고 [콘텐츠](./email-authoring.md)을(를) 디자인합니다.
 
-     +++
++++
 
      +++기존 이메일 복제
 
@@ -77,7 +77,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 
       1. 필요한 경우 **[!UICONTROL 전자 메일 편집]**&#x200B;을 클릭하여 전자 메일 [설정](#define-the-email-settings) 및 [콘텐츠](./email-authoring.md)를 수정합니다.
 
-     +++
++++
 
    * Marketo Engage에서 미리 작성된 이메일 중 하나를 사용하여 여정의 일부로 보내려면 **[!UICONTROL Adobe Marketo Engage에서 이메일 선택]**&#x200B;을(를) 선택하십시오.
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 
 ## 이메일 설정 정의
 
-오른쪽의 _요약_ 패널에서 **[!UICONTROL 세부 정보]** 탭을 선택한 상태에서 맨 아래로 스크롤하여 전자 메일 옵션을 보고 설정합니다.
+오른쪽의 **[!UICONTROL 요약]** 패널에서 _세부 정보_ 탭을 선택한 상태에서 맨 아래로 스크롤하여 전자 메일 옵션을 보고 설정합니다.
 
 ![전자 메일 설정](./assets/email-summary-details-settings.png){width="600" zoomable="yes"}
 
@@ -129,6 +129,8 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 
 * 여정/캠페인을 테스트하거나 활성화하지 못하는 **_오류_**(예:
 
-   * `The subject line is missing`: 전자 메일 제목 줄은 필수입니다.
+   * `From name is empty`: 전자 메일 _보낸 사람_ 필드(필수)가 정의되지 않았습니다.
 
-   * `The email version of the message is empty`: 이 오류는 전자 메일 콘텐츠가 구성되지 않은 경우에 표시됩니다.
+   * `The subject line is missing`: 전자 메일 제목 줄(필수)이 정의되지 않았습니다.
+
+   * `The email version of the message is empty`: 전자 메일 콘텐츠가 정의되지 않았습니다.
