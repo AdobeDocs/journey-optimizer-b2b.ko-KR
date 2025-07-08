@@ -51,7 +51,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 
       1. **[!UICONTROL 전자 메일 편집]**&#x200B;을 클릭하여 전자 메일 [설정](#define-the-email-settings)을(를) 정의하고 [콘텐츠](./email-authoring.md)을(를) 디자인합니다.
 
-+++
+     +++
 
      +++기존 이메일 복제
 
@@ -77,7 +77,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 
       1. 필요한 경우 **[!UICONTROL 전자 메일 편집]**&#x200B;을 클릭하여 전자 메일 [설정](#define-the-email-settings) 및 [콘텐츠](./email-authoring.md)를 수정합니다.
 
-+++
+     +++
 
    * Marketo Engage에서 미리 작성된 이메일 중 하나를 사용하여 여정의 일부로 보내려면 **[!UICONTROL Adobe Marketo Engage에서 이메일 선택]**&#x200B;을(를) 선택하십시오.
 
