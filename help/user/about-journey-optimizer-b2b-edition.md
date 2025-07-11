@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B 에디션 개요
 description: Adobe Journey Optimizer B2B 에디션의 주요 기능, 사용 사례 및 아키텍처를 살펴봅니다.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B 에디션은 Adobe Experience Platform의 _계정 �
 
 >[!NOTE]
 >
->성능 가드레일과 정적 제한 사항에 대한 라이선스 권한과 해당 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 확인하십시오.
+>성능 보호 및 정적 제한에 대해 라이선스 권한 및 해당 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 확인하세요.
 
 ### 구독 모델
 
