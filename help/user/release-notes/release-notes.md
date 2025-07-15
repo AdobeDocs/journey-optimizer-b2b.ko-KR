@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능과 향상된 기능에 대해 알아보십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 91386eb001a8fdd31c2b35879cb47eefd99e97f5
-workflow-type: tm+mt
-source-wordcount: '2220'
+source-git-commit: 7e9396a7ac029c173fe3d9b0b1bab6b7c4521ee0
+workflow-type: ht
+source-wordcount: '2165'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | GenStudio for Performance Marketing과 통합 | (제한 공개) 이제 GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Edition과 통합하여 마케팅 효율을 높이고 브랜드 일관성을 유지할 수 있습니다. 이 통합을 통해 GenStudio AI 기반 콘텐츠 생성과 Journey Optimizer B2B Edition의 고급 오케스트레이션 기능을 결합할 수 있습니다. [자세히 알아보기](../content/genstudio-email-workflow.md) |
 | 기능 | Litmus를 통한 이메일 테스트 | [Litmus 계정](https://www.litmus.com/email-testing){target="_blank"}이 있으면 이제 Journey Optimizer B2B Edition의 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 통합 기능은 모든 이메일 받은 편지함에서 이메일 콘텐츠가 멋지게 보이고 디자인대로 작동하는지 확인하는 데 도움이 됩니다. [자세히 알아보기](../content/email-test-rendering.md) |
 | 개선 사항 | 이메일 복사 | 이제 여정 노드에 이메일을 추가할 때 기존 이메일을 복사하여 쓸 수 있습니다. 복사된 이메일의 설정이나 내용을 수정하거나 그대로 둘 수 있습니다.  [자세히 알아보기](../content/add-email.md#add-an-email-to-your-journey) |
 | 개선 사항 | 이메일용 핸들바 토큰 형식 | 이메일 콘텐츠에 대한 개인화 토큰은 이제 핸들바 스크립팅과 완벽하게 호환되는 업데이트된 형식을 사용합니다. 이 형식은 공백을 제거하는 _카멜 표기법_ 또는 밑줄을 사용합니다. [자세히 알아보기](../content/email-authoring.md#content-authoring---personalization) |
