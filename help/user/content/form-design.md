@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 양식 디자인
 
-[양식을 만들기](./landing-pages.md#create-a-landing-page)한 후 비주얼 디자인 공간에서 기본 기본 기본 양식 정의가 있는 초안이 열립니다. 오른쪽의 _[!UICONTROL 요약]_ 패널에서 **[!UICONTROL 양식 편집]**&#x200B;을 클릭하고 시각적 디자인 공간을 사용하여 양식 스타일 및 필드 구성 요소를 정의합니다.
+[양식을 만들기](./forms.md#create-forms)한 후 비주얼 디자인 공간에서 기본 기본 기본 양식 정의가 있는 초안이 열립니다. 오른쪽의 _[!UICONTROL 요약]_ 패널에서 **[!UICONTROL 양식 편집]**&#x200B;을 클릭하고 시각적 디자인 공간을 사용하여 양식 스타일 및 필드 구성 요소를 정의합니다.
 
 ![양식 라이브러리에 액세스](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -179,7 +179,7 @@ ht-degree: 1%
 
 새 양식에서는 스타일링에 기본 CSS를 사용합니다. CSS를 수정하여 스타일을 변경하려는 경우, CSS를 복사한 다음 이를 사용하여 양식의 사용자 지정 CSS를 정의할 수 있습니다.
 
-_양식에 대한 사용자 지정 CSS를 정의하려면_
+:_양식에 대한 사용자 지정 CSS를 정의하려면(_T)
 
 1. 오른쪽 패널에서 **[!UICONTROL CSS 보기]**&#x200B;를 클릭하여 CSS 코드를 검토합니다.
 

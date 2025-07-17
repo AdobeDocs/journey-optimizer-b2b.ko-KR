@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 설명서
 description: Adobe Journey Optimizer B2B Edition 기능을 사용하여 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 60%
 
 ---
 
@@ -23,43 +23,41 @@ GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Ed
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio 이메일 경험에 대해 알아보십시오"}
 
->[!TAB 계정 목록]
+>[!TAB 스팸 감지 보고]
 
-마케터가 타기팅된 여정 오케스트레이션에 대해 사용할 수 있는 지정된 계정의 컬렉션인 계정 목록을 만듭니다. 계정 목록은 업계, 위치 또는 회사 규모와 같은 정의된 기준에 따라 지정된 계정을 타기팅할 수 있습니다.
+새로운 스팸 보고서를 사용하면 스팸 필터를 방지하고 메시지가 대상 받은 편지함으로 배달되도록 할 수 있습니다. 이메일 디자인 공간에서 직접 _스팸 보고서_&#x200B;를 생성합니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="계정 목록에 대해 알아보십시오"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="스팸 탐지 보고에 대해 알아보기"}
 
->[!TAB 스마트 목록에 대한 계정 목록 필터]
+>[!TAB 계정 및 구매 그룹 작업]
 
-이제 계정 목록 필터를 사용하여 Marketo Engage 스마트 목록을 필터링할 수 있습니다. 이러한 필터를 사용하면 Journey Optimizer B2B Edition의 계정 여정의 Marketo Engage 캠페인 및 프로그램에서 계정 목록 멤버를 제외하거나 포함할 수 있습니다.
+적시에 의도적인 참여를 위해 계정 세부 정보 및 구매 그룹 세부 정보 페이지에서 직접 조치를 취하십시오.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Marketo Engage 스마트 목록에서 사용되는 계정 목록 필터에 대해 알아보십시오"}
+_전자 메일 보내기_ 작업을 사용하여 선택한 계정 담당자 또는 구매 그룹 구성원에게 승인된 Marketo Engage 전자 메일을 보냅니다.
 
->[!TAB 비활동 기록 필터]
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="계정 담당자에게 이메일 전송에 대해 알아보기"}
 
-이메일, 즐거운 순간, 데이터 가치 변화, 방문한 웹 페이지 등을 포함하여 Marketo Engage 캠페인과 프로그램 내의 비활동에 따라 진행되는 여정입니다.
+구매 그룹 세부 정보에서 작업에는 _새 구성원 할당_, _구성원 제거_ 및 _역할 편집_&#x200B;도 포함됩니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="비활동 기록 필터에 대해 알아보십시오"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="그룹 액션 구매에 대해 알아보기"}
 
->[!TAB 여정 복제]
+>[!TAB 사용자 지정 CSS 지원]
 
-계정 여정 구조를 복제하여 수동 오류를 최소화하고 설정, 흐름 및 경로의 일관성을 보장합니다. 복제된 여정에서 콘텐츠나 작업을 조정하여 규모가 크고 복잡한 캠페인을 더 쉽게 관리할 수 있습니다.
+이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 지정 CSS를 추가할 수 있습니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="여정 복제에 대해 알아보십시오"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="사용자 지정 CSS 사용에 대해 알아보기"}
 
->[!TAB 지능형 인사이트 대시보드]
+>[!TAB 의도 키워드 매핑]
 
-새로운 지능형 대시보드를 사용하면 구매 그룹 선별 진행 상황을 단계별로 확인할 수 있습니다. 어떤 구매 그룹이 빠르게 움직이고 어떤 구매 그룹이 침체되어 있는지 파악하여 필요에 따라 이들을 육성할 여정을 선별할 수 있습니다. 구매 그룹 및 계정 수준의 세부 정보도 제공하므로 고객 참여에 대한 추가 컨텍스트와 내역 데이터를 얻을 수 있습니다.
+이제 의도 감지 모델을 활성화하고 관리하기 위해 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="지능형 대시보드에 대해 알아보십시오"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/intent-data.md" tooltip="의도 키워드 매핑 구성에 대해 알아보기"}
 
->[!TAB Adobe Express 이미지 편집]
+>[!TAB Litmus로 전자 메일 테스트]
 
-Adobe Express 빠른 작업을 사용하면 자르기, 크기 조정, 배경 제거, 형식 변환 등의 액션으로 콘텐츠를 수정할 수 있습니다. 직관적인 기본 제공 Adobe Express UI로 이미지 자산을 빠르게 미세 조정할 수 있습니다.
+이제 Litmus 계정을 사용하여 Journey Optimizer B2B edition의 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 통합을 통해 이메일 콘텐츠가 멋진 것처럼 보이고 모든 이메일 받은 편지함에서 디자인된 대로 작동하도록 할 수 있습니다.
 
-Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능을 활용할 수 있습니다. 이러한 기능을 사용하면 브랜드 지침을 준수하면서 이미지를 다듬고 개선하며 콘텐츠 공급망의 장애물을 제거할 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Express를 사용한 이미지 편집에 대해 알아보십시오"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Litmus 이메일 테스트 통합에 대해 알아보기"}
 
 >[!ENDTABS]
 
@@ -139,7 +137,7 @@ Adobe Express Enterprise 라이선싱을 통해 Adobe Express의 모든 기능�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>

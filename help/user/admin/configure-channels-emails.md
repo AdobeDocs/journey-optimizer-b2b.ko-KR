@@ -4,9 +4,9 @@ description: Marketo Engage에 구성된 이메일 설정에 액세스하고 검
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Adobe Journey Optimizer B2B edition은 Marketo Engage의 채널 기능 및 이�
 
 ![브랜딩 도메인 설정에 액세스](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-이 설정은 하나 이상의 Marketo Engage 작업 공간에 대한 주 도메인을 정의합니다. 새 이메일은 이 도메인을 기본값으로 사용하지만 마케터는 이메일을 기준으로 이 도메인을 재정의할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
+이 설정은 연결된 Marketo Engage 인스턴스에서 하나 이상의 작업 공간에 대한 주 도메인을 정의합니다. 새 전자 메일은 이 도메인을 기본값으로 사용하지만 마케터는 [전자 메일을 기준으로 이 도메인을 재정의할 수 있습니다](../content/add-email.md#define-the-email-settings). 기본 브랜딩 도메인 정의에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition 및 연결된 Marketo Engage 인스턴스에서 여러 브랜드를 마케팅 중이며 각각 고유한 브랜드 추적 링크를 보유하고자 하는 경우 추가 브랜딩 도메인을 추가할 수 있습니다. 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
+>여러 브랜드를 마케팅하는 경우 각 브랜드에 고유한 브랜드 추적 링크를 제공하려는 경우 브랜딩 도메인을 추가할 수 있습니다. 여러 브랜딩 도메인을 추가하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
 
 ### [!UICONTROL 사용자 지정 헤더 옵션] {#custom-header-options}
 
@@ -79,7 +79,7 @@ _[!UICONTROL 엄격한 전송 보안]_&#x200B;을 사용하도록 설정하면 �
 >
 >Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
 
-통신 제한 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}를 참조하세요.
+통신 제한 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}를 참조하세요.
 
 ## SPF/DKIM
 
@@ -111,7 +111,7 @@ DNS 항목에 이미 SPF 레코드가 있는 경우 다음을 추가합니다.
 
 DKIM은 이메일 수신자가 이메일 메시지 발신자의 유효성을 검사하는 데 사용하는 인증 프로토콜입니다. 수신자는 메시지가 위조가 아님을 확신할 수 있으므로 종종 받은 편지함으로 이메일을 배달하는 기능이 향상됩니다.
 
-DNS 레코드의 공개 키와 연결된 Marketo Engage 인스턴스에서 활성화된 전송 도메인을 사용하면 보내는 메시지에 사용자 지정 DKIM 서명이 사용됩니다. 사용자 지정 DKIM 서명에는 전송된 각 이메일이 있는 암호화된 디지털 서명이 포함됩니다. 그러면 수신자는 보내는 도메인의 DNS에서 _공개 키_&#x200B;를 조회하여 디지털 서명을 해독할 수 있습니다. 이메일의 키가 DNS 레코드의 키와 일치하는 경우 수신 메일 서버는 Marketo Engage을 통해 전송된 이메일을 수락할 가능성이 높습니다.
+DNS 레코드에 공개 키가 있고 연결된 Marketo Engage 인스턴스에서 전송 도메인이 활성화된 경우 보내는 메시지에 사용자 지정 DKIM 서명이 사용됩니다. 사용자 지정 DKIM 서명에는 전송된 각 이메일이 있는 암호화된 디지털 서명이 포함됩니다. 그러면 수신자는 보내는 도메인의 DNS에서 _공개 키_&#x200B;를 조회하여 디지털 서명을 해독할 수 있습니다. 이메일의 키가 DNS 레코드의 키와 일치하는 경우 수신 메일 서버는 Marketo Engage을 통해 전송된 이메일을 수락할 가능성이 높습니다.
 
 전자 메일 게재를 위한 사용자 지정 DKIM 서명 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}를 참조하세요.
 
@@ -146,4 +146,4 @@ Marketo Engage에서는 보트 활동을 확인하는 두 가지 방법을 사�
 >
 >Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
 
-보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.
+보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.

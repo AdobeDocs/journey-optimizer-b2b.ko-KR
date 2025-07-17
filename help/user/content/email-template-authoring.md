@@ -4,10 +4,10 @@ description: 계정 여정 이메일에 사용하여 디자인을 쉽고 효율�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 16%
+source-wordcount: '421'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,16 @@ ht-degree: 16%
 >abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### 사용자 정의 CSS 추가
+
+이메일 템플릿 디자인 공간 내에 직접 사용자 지정 CSS를 추가할 수 있습니다. 사용자 지정 CSS를 사용하여 콘텐츠의 모양을 보다 유연하게 제어하고, 고급 및 특정 스타일을 적용할 수 있습니다. 이미지, 단추 및 텍스트와 같은 구성 요소를 포함하기 전에 이 최상위 수준의 스타일을 추가하는 것이 좋습니다.
+
+캔버스에 콘텐츠 구성 요소가 하나 이상 있는 경우 왼쪽 탐색 트리에서 **[!UICONTROL 본문]** 구성 요소를 선택하여 사용자 지정 CSS 편집기에 액세스합니다.
+
+![본문 스타일에 액세스](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### 조각 추가
 

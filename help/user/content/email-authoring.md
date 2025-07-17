@@ -4,16 +4,16 @@ description: Adobe Journey Optimizer B2B에서 이메일 콘텐츠를 만드는 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
+source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 15%
+source-wordcount: '1050'
+ht-degree: 14%
 
 ---
 
 # 이메일 메시지 작성
 
-&lbrack;여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가&rbrack;(./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
+[여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가](./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
 
 오른쪽 패널의 **[!UICONTROL 세부 정보]** 탭에서 _[!UICONTROL 전자 메일 콘텐츠 편집]_&#x200B;을 클릭합니다.
 
@@ -95,6 +95,20 @@ ht-degree: 15%
 >abstract="콘텐츠 구성 요소는 이메일 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### 사용자 정의 CSS 추가
+
+이메일 디자인 공간 내에 직접 사용자 지정 CSS를 추가할 수 있습니다. 사용자 지정 CSS를 사용하여 콘텐츠의 모양을 보다 유연하게 제어하고, 고급 및 특정 스타일을 적용할 수 있습니다. 이미지, 단추 및 텍스트와 같은 구성 요소를 포함하기 전에 이 최상위 수준의 스타일을 추가하는 것이 좋습니다.
+
+캔버스에 콘텐츠 구성 요소가 하나 이상 있는 경우 왼쪽 탐색 트리에서 **[!UICONTROL 본문]** 구성 요소를 선택하여 사용자 지정 CSS 편집기에 액세스합니다.
+
+>[!NOTE]
+>
+>전자 메일 메시지가 잠긴 콘텐츠가 있는 [템플릿을 사용하여 디자인된 경우](./template-content-governance.md), 사용자 지정 CSS를 콘텐츠에 추가할 수 없습니다. 단추 레이블이 **[!UICONTROL 사용자 지정 CSS 보기]**(으)로 변경되고 콘텐츠에 이미 있는 사용자 지정 CSS는 읽기 전용입니다.
+
+![본문 스타일에 액세스](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### 조각 추가
 

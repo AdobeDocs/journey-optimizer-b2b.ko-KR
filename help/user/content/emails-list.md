@@ -4,9 +4,9 @@ description: 이메일 목록을 사용하여 Adobe Journey Optimizer B2B editio
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,12 @@ Adobe Journey Optimizer B2B edition에서 전자 메일에 액세스하려면 �
 
 ![전자 메일 템플릿 라이브러리에 액세스하고 이름 및 날짜별로 필터링합니다](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## 이메일 편집
+## 이메일 열기 및 편집
 
 목록에서 이메일 이름을 클릭하여 엽니다. [전자 메일 설정](./add-email.md#define-the-email-settings)을 검토하고 변경할 수 있습니다. **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을 클릭하여 [콘텐츠를 업데이트](./email-authoring.md)합니다.
 
 페이지 오른쪽 상단에 [경고가 표시](./add-email.md#check-alerts)된 경우 을 클릭하여 경고 또는 오류를 검토하고 필요에 따라 항목을 해결하십시오.
 
 ![업데이트를 위한 전자 메일 열기](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+[_[!UICONTROL 콘텐츠 시뮬레이션]_](./email-simulate-content.md) 창에 액세스할 수도 있습니다. 이러한 도구를 사용하여 테스트 프로필을 사용하여 콘텐츠를 미리 보고, 증명을 보내고, 게재 가능성 및 이메일 클라이언트 렌더링에 대해 이메일을 테스트합니다.

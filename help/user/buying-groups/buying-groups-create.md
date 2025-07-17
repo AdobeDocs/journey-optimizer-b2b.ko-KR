@@ -1,13 +1,13 @@
 ---
 title: 구매 그룹 만들기
-description: 필요한 구성 요소를 사용하여 구매 그룹을 만드는 방법을 알아봅니다.
+description: 필수 구성 요소를 사용하여 구매 그룹을 만드는 방법을 알아봅니다.
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 3%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 2%
 
 ![구매 그룹 만들기 확인 대화 상자](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
-사용자를 솔루션 관심 영역 탭으로 이동하고 솔루션 관심 영역에 대해 생성된 작업 수를 표시할 수 있습니다.
+## 구매 그룹 생성 작업
 
-![구매 그룹 만들기를 클릭합니다](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+생성 작업은 계정 대상의 각 새 계정에 대해 자동으로 구매 그룹을 생성합니다. 각 솔루션 관심사에 대해 만들어진 만들기 작업 수를 표시하는 _[!UICONTROL 솔루션 관심사]_ 탭으로 이동할 수 있습니다. 만들기 작업 목록을 보려면 **[!UICONTROL 그룹 만들기 작업 구매]** 열의 숫자를 클릭하십시오.
+
+![솔루션 관심별로 그룹 작업 구매](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 
@@ -62,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## 사용 방법 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3451768/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

@@ -4,9 +4,10 @@ description: 이메일 콘텐츠를 미리 보고 테스트하여 콘텐츠와 �
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: c93a294d2e70f9a6c17be9ba9cc6994fb7944ebc
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,11 @@ _콘텐츠 시뮬레이션_ 기능을 사용하여 전자 메일 콘텐츠를 �
 
 ## 이메일 미리 보기 표시
 
-1. 전자 메일 디자인 공간<!-- or the email properties -->에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하세요.
+[전자 메일 디자인 스페이스](./email-authoring.md) 또는 _[!UICONTROL 전자 메일 목록에서 전자 메일을 열면]_&#x200B;요약[에서 렌더링 미리 보기에 액세스할 수 있습니다](./emails-list.md#edit-emails).
 
-   ![콘텐츠 시뮬레이션 클릭](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. 맨 위에 있는 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다.
+
+   ![콘텐츠 시뮬레이션 클릭](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >

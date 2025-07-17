@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능과 향상된 기능에 대해 알아보십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 99%
+source-wordcount: '2552'
+ht-degree: 87%
 
 ---
 
@@ -17,6 +17,34 @@ Adobe Journey Optimizer B2B Edition은 지속적으로 새로운 기능, 기존 
 Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform]기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest){target="_blank"}를 참조하십시오.
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
+<!-- hold for 2025.8 release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
+
+## 2025.6 릴리스 정보
+
+**배포 일자**: 2025년 7월 15일 수요일
+
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+
+| 유형 | 항목 | 설명 |
+| ---- | ---- | ----------- |
+| 기능 | GenStudio for Performance Marketing과 통합 | (제한 공개) 이제 GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Edition과 통합하여 마케팅 효율을 높이고 브랜드 일관성을 유지할 수 있습니다. 이 통합을 통해 GenStudio AI 기반 콘텐츠 생성과 Journey Optimizer B2B Edition의 고급 오케스트레이션 기능을 결합할 수 있습니다. [자세히 알아보기](../content/genstudio-email-workflow.md) |
+| 기능 | 스팸 감지 보고 | 스팸 필터를 방지하고 메시지가 대상 받은 편지함으로 배달되도록 하려면 전자 메일 디자인 공간에서 직접 _스팸 보고서_&#x200B;를 생성할 수 있습니다. [자세히 알아보기](../content/email-spam-report.md) |
+| 기능 | 개인 세부 정보 페이지 | 이제 Intelligent Dashboard, 구매 그룹 세부 정보 페이지 및 계정 세부 정보 페이지에 하이퍼링크로 표시될 때 개인의 이름을 클릭할 수 있습니다. 이 작업을 수행하면 연락처, 연락처 활동 및 상위 참여 구매 그룹에 대한 정보가 있는 관련 개인 세부 정보 페이지가 열립니다. [자세히 알아보기](../accounts/person-details.md) |
+| 기능 | 계정 및 구매 그룹 작업 | 적시에 의도적인 참여를 위해 계정 세부 정보 및 구매 그룹 세부 정보 페이지에서 직접 조치를 취하십시오. <li>_전자 메일 보내기_ 작업을 사용하여 선택한 계정 담당자 또는 구매 그룹 구성원에게 승인된 Marketo Engage 전자 메일을 보냅니다. [자세히 알아보기](../accounts/account-details.md#send-emails) <li>구매 그룹 세부 정보에서 작업에는 _새 구성원 할당_, _구성원 제거_ 및 _역할 편집_&#x200B;도 포함됩니다. [자세히 알아보기](../buying-groups/buying-group-details.md#members-tab) |
+| 기능 | 세부 정보 페이지에 대한 CRM 내 액세스 | 이제 Salesforce 또는 Microsoft Dynamics과 같은 CRM(고객 관계 관리) 도구의 계정, 연락처 및 잠재 고객에 대한 Journey Optimizer B2B edition 세부 정보 페이지로 직접 연결되는 링크를 구성할 수 있습니다. [자세히 알아보기](../accounts/crm-linking.md) |
+| 기능 | 콘텐츠 디자인을 위한 사용자 지정 CSS 지원 | 이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 지정 CSS를 추가할 수 있습니다. [자세히 알아보기](../content/design-custom-css.md) |
+| 기능 | 의도 키워드 매핑 구성 | 이제 의도 감지 모델을 활성화하고 관리하기 위해 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다. [자세히 알아보기](../admin/intent-data.md) |
+| 개선 사항 | 이메일 요약에서 콘텐츠 시뮬레이션 | 이제 전자 메일 목록에서 전자 메일을 열면 전자 메일 요약(세부 정보 및 속성)에서 _콘텐츠 시뮬레이션_ 도구에 액세스할 수 있습니다. 이 액세스는 이메일 디자인 공간에 추가됩니다. [자세히 알아보기](../content/email-simulate-content.md#display-the-email-preview) |
+| 개선 사항 | 역할 템플릿 목록에 대한 총 개수 표시 | _[!UICONTROL 역할 템플릿]_ 목록 페이지가 검색 창 옆에 총 개수를 표시하도록 향상되었습니다. |
+
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
+
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
 ## 2025.5 릴리스 정보
 

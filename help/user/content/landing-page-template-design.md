@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 21%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 21%
 >abstract="콘텐츠 구성 요소는 랜딩 페이지 템플릿의 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### 사용자 정의 CSS 추가
+
+랜딩 페이지 디자인 공간 내에 사용자 지정 CSS를 직접 추가할 수 있습니다. 사용자 지정 CSS를 사용하여 콘텐츠의 모양을 보다 유연하게 제어하고, 고급 및 특정 스타일을 적용할 수 있습니다. 이미지, 단추 및 텍스트와 같은 구성 요소를 포함하기 전에 이 최상위 수준의 스타일을 추가하는 것이 좋습니다.
+
+캔버스에 콘텐츠 구성 요소가 하나 이상 있는 경우 왼쪽 탐색 트리에서 **[!UICONTROL 본문]** 구성 요소를 선택하여 사용자 지정 CSS 편집기에 액세스합니다.
+
+![본문 스타일에 액세스](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### 에셋 추가
 

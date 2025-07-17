@@ -5,7 +5,7 @@ feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
 workflow-type: tm+mt
 source-wordcount: '2350'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Journey Optimizer B2B edition에서 재사용 가능한 양식을 작성하기 �
 
 ### 새 양식 추가
 
-_[!UICONTROL Forms]_ 목록 페이지의 오른쪽 상단에 있는 **[!UICONTROL 양식 만들기]**&#x200B;를 클릭하여 Journey Optimizer B2B edition에서 양식을 만들 수 있습니다.
+**[!UICONTROL Forms]** 목록 페이지의 오른쪽 상단에 있는 _[!UICONTROL 양식 만들기]_&#x200B;를 클릭하여 Journey Optimizer B2B edition에서 양식을 만들 수 있습니다.
 
 1. _[!UICONTROL 양식 만들기]_ 대화 상자에서 유용한 **[!UICONTROL 이름]**(필수)과 **[!UICONTROL 설명]**(선택 사항)을 입력하십시오.
 
@@ -232,7 +232,7 @@ _랜딩 페이지_ 또는 _랜딩 페이지 템플릿_ 범주에 따라 참조�
 
    오른쪽에 양식 세부 정보가 있는 양식 콘텐츠 미리보기가 표시됩니다.
 
-1. 양식 편집을 위한 초안 버전을 만들려면 오른쪽의 _[!UICONTROL 요약]_ 패널에서 **[!UICONTROL 양식 편집]**&#x200B;을(를) 클릭합니다.
+1. 양식 편집을 위한 초안 버전을 만들려면 오른쪽의 **[!UICONTROL 요약]** 패널에서 _[!UICONTROL 양식 편집]_&#x200B;을(를) 클릭합니다.
 
 1. 대화 상자에서 **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭하여 시각적 디자인 공간에서 초안 버전을 엽니다.
 
@@ -262,7 +262,7 @@ _랜딩 페이지_ 또는 _랜딩 페이지 템플릿_ 범주에 따라 참조�
 
    ![초안 버전에서 편집](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
-1. 오른쪽의 _[!UICONTROL 요약]_ 창에서 **[!UICONTROL 양식 편집]**&#x200B;을 클릭하고 필요에 따라 시각적 디자인 도구를 사용하십시오.
+1. 오른쪽의 **[!UICONTROL 요약]** 창에서 _[!UICONTROL 양식 편집]_&#x200B;을 클릭하고 필요에 따라 시각적 디자인 도구를 사용하십시오.
 
    * [필드 추가](./form-design.md#add-a-field)
    * [필드 스타일 변경](./form-design.md#change-field-styling)
