@@ -4,7 +4,7 @@ description: Journey Optimizer B2B 에디션의 구매 그룹이 계정 목록�
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 57%
@@ -114,8 +114,6 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 
 +++채점에 사용되는 활동
 
->[!BEGINSHADEBOX]
-
 | 활동 이름 | 설명 | 참여 유형 | 최대 일일 빈도 수 | 활동 가중치 |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL 웹 페이지 방문] | 구성원이 웹 페이지를 방문함 | 웹 | 20 | 40 |
@@ -153,9 +151,6 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 | [!UICONTROL 대화 흐름의 에이전트에 참여] | 멤버가 Dynamic Chat 대화 흐름의 에이전트와 함께 합니다. | 채팅 | 20 | 90 |
 | 대화 흐름에서 [!UICONTROL 채팅에서 링크를 클릭함] | 구성원이 Dynamic Chat 대화 흐름의 링크를 클릭합니다 | 채팅 | 20 | 90 |
 | [!UICONTROL SMS V2에서 링크 클릭] | 구성원이 SMS 메시지의 링크를 클릭합니다. | SMS | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -225,4 +220,4 @@ _[!UICONTROL 매우 중요]_, _[!UICONTROL 중요]_, _[!UICONTROL 보통]_&#x200
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3452942/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
