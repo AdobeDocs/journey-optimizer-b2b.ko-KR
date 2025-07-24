@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition 설명서
-description: Adobe Journey Optimizer B2B Edition 기능을 사용하여 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
+description: Adobe Journey Optimizer B2B Edition 기능을 사용하여 기본 제공되는 생성형 AI와 업계 최고 수준의 자동화를 통해 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,39 +23,39 @@ GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Ed
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio 이메일 경험에 대해 알아보십시오"}
 
->[!TAB 스팸 감지 보고]
+>[!TAB 스팸 탐지 보고]
 
-새로운 스팸 보고서를 사용하면 스팸 필터를 방지하고 메시지가 대상 받은 편지함으로 배달되도록 할 수 있습니다. 이메일 디자인 공간에서 직접 _스팸 보고서_&#x200B;를 생성합니다.
+새로운 스팸 보고서 기능을 통해 스팸 필터를 피하고 메시지가 대상자의 받은 편지함으로 전달되도록 할 수 있습니다. 이메일 디자인 공간에서 바로 _스팸 보고서_&#x200B;를 생성합니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="스팸 탐지 보고에 대해 알아보기"}
 
 >[!TAB 계정 및 구매 그룹 작업]
 
-적시에 의도적인 참여를 위해 계정 세부 정보 및 구매 그룹 세부 정보 페이지에서 직접 조치를 취하십시오.
+계정 상세 정보 및 구매 그룹 상세 정보 페이지에서 바로 작업을 수행하여 시기적절하고 의도적인 참여를 유도할 수 있습니다.
 
-_전자 메일 보내기_ 작업을 사용하여 선택한 계정 담당자 또는 구매 그룹 구성원에게 승인된 Marketo Engage 전자 메일을 보냅니다.
+_이메일 보내기_ 작업을 사용하여 승인된 Marketo Engage 이메일을 선택한 계정 연락처 또는 구매 그룹 멤버들에게 보낼 수 있습니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="계정 담당자에게 이메일 전송에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="계정 연락처에 이메일을 보내는 방법 알아보기"}
 
-구매 그룹 세부 정보에서 작업에는 _새 구성원 할당_, _구성원 제거_ 및 _역할 편집_&#x200B;도 포함됩니다.
+구매 그룹 세부 정보에서는 _새 멤버 할당_, _멤버 제거_, _역할 편집_ 등의 작업도 포함됩니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="그룹 액션 구매에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="구매 그룹 작업에 대해 알아보기"}
 
->[!TAB 사용자 지정 CSS 지원]
+>[!TAB 사용자 정의 CSS 지원]
 
-이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 지정 CSS를 추가할 수 있습니다.
+이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 정의 CSS를 추가할 수 있습니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="사용자 지정 CSS 사용에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="사용자 정의 CSS 사용에 대해 알아보기"}
 
 >[!TAB 의도 키워드 매핑]
 
-이제 의도 감지 모델을 활성화하고 관리하기 위해 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다.
+의도 감지 모델을 활성화하고 관리하려면 이제 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/intent-data.md" tooltip="의도 키워드 매핑 구성에 대해 알아보기"}
 
->[!TAB Litmus로 전자 메일 테스트]
+>[!TAB Litmus를 통한 이메일 테스트]
 
-이제 Litmus 계정을 사용하여 Journey Optimizer B2B edition의 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 통합을 통해 이메일 콘텐츠가 멋진 것처럼 보이고 모든 이메일 받은 편지함에서 디자인된 대로 작동하도록 할 수 있습니다.
+Litmus 계정이 있으면 이제 Journey Optimizer B2B Edition의 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 통합 기능은 모든 이메일 받은 편지함에서 이메일 콘텐츠가 멋지게 보이고 디자인대로 작동하는지 확인하는 데 도움이 됩니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Litmus 이메일 테스트 통합에 대해 알아보기"}
 
@@ -123,7 +123,7 @@ _전자 메일 보내기_ 작업을 사용하여 선택한 계정 담당자 또�
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="콘텐츠 관리"><br/>
-      <strong>콘텐츠 관리</strong><br/><a href="./content/assets-overview.md">에셋 개요</a><br/><a href="./content/email-templates.md">이메일 템플릿</a><br/><a href="./content/fragments.md">시각적 조각</a><br/><a href="./content/conditional-content.md">조건부 콘텐츠</a>
+      <strong>콘텐츠 관리</strong><br/><a href="./content/assets-overview.md">자산 개요</a><br/><a href="./content/email-templates.md">이메일 템플릿</a><br/><a href="./content/fragments.md">시각적 조각</a><br/><a href="./content/conditional-content.md">조건부 콘텐츠</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="인사이트 및 대시보드"><br/>
@@ -137,7 +137,7 @@ _전자 메일 보내기_ 작업을 사용하여 선택한 계정 담당자 또�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
-user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
+user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공되는 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,10 +59,10 @@ ht-degree: 95%
       + [개요](./accounts/account-lists.md)
       + [여정 및 프로그램에서 사용](./accounts/account-lists-journeys.md)
    + [XDM 필드](./data/field-mapping.md)
-   + 영업 경험 {#sales-experience}
+   + 판매 경험 {#sales-experience}
       + [계정 세부 정보](./accounts/account-details.md)
       + [구매 그룹 세부 정보](./buying-groups/buying-group-details.md)
-      + [개인 세부 정보](./accounts/person-details.md)
+      + [개인 정보](./accounts/person-details.md)
       + [CRM 연결](./accounts/crm-linking.md)
 + 콘텐츠 관리 {#content-management}
    + 이메일 {#emails}
@@ -95,7 +95,7 @@ ht-degree: 95%
       + [개요](./content/landing-pages.md)
       + [랜딩 페이지 디자인](./content/landing-page-design.md)
    + [조건부 콘텐츠](./content/conditional-content.md)
-   + [사용자 지정 CSS](./content/design-custom-css.md)
+   + [사용자 정의 CSS](./content/design-custom-css.md)
 + 인사이트 대시보드 {#dashboards}
    + [지능형 대시보드](./dashboards/intelligent-dashboard.md)
    + [참여 개요](./dashboards/engagement-dashboard.md)

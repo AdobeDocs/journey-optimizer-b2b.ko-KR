@@ -5,9 +5,9 @@ role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Journey Optimizer B2B Edition에서 다루고자 하는 기능과 도구�
 
 1. **데이터 엔지니어와 협력하여** B2B 대상자와 프로필 활성화를 계획하고 구현하십시오. 게시된 블루프린트를 검토하고 요구 사항에 맞게 지침을 따르십시오. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Marketo Engage 통합을 계획 및 구현**&#x200B;하여 사용자 지정 스키마, 프로필 및 계정 수집, 구매 그룹을 위한 개인화된 여정의 오케스트레이션을 통합합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Marketo Engage 통합 계획 및 구현**&#x200B;을 통해 사용자 정의 스키마를 통합하고, 프로필과 계정을 수집하고, 구매 그룹을 위한 개인화된 여정을 조율합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **제품 프로필 설정**. 제품 프로필은 사용자가 인터페이스의 특정 기능이나 오브젝트에 액세스할 수 있도록 허용하는 Adobe Experience Platform의 단 권한 세트입니다. [자세히 알아보기](../admin/user-management.md#create-the-marketo-engage-product-profile)
 

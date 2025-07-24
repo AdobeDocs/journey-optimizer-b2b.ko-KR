@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B Edition의 최신 기능과 향상된 �
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,21 +26,21 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 ## 2025.6 릴리스 정보
 
-**배포 일자**: 2025년 7월 15일 수요일
+**배포 일자**: 2025년 7월 15일
 
 이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | GenStudio for Performance Marketing과 통합 | (제한 공개) 이제 GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Edition과 통합하여 마케팅 효율을 높이고 브랜드 일관성을 유지할 수 있습니다. 이 통합을 통해 GenStudio AI 기반 콘텐츠 생성과 Journey Optimizer B2B Edition의 고급 오케스트레이션 기능을 결합할 수 있습니다. [자세히 알아보기](../content/genstudio-email-workflow.md) |
-| 기능 | 스팸 감지 보고 | 스팸 필터를 방지하고 메시지가 대상 받은 편지함으로 배달되도록 하려면 전자 메일 디자인 공간에서 직접 _스팸 보고서_&#x200B;를 생성할 수 있습니다. [자세히 알아보기](../content/email-spam-report.md) |
-| 기능 | 개인 세부 정보 페이지 | 이제 Intelligent Dashboard, 구매 그룹 세부 정보 페이지 및 계정 세부 정보 페이지에 하이퍼링크로 표시될 때 개인의 이름을 클릭할 수 있습니다. 이 작업을 수행하면 연락처, 연락처 활동 및 상위 참여 구매 그룹에 대한 정보가 있는 관련 개인 세부 정보 페이지가 열립니다. [자세히 알아보기](../accounts/person-details.md) |
-| 기능 | 계정 및 구매 그룹 작업 | 적시에 의도적인 참여를 위해 계정 세부 정보 및 구매 그룹 세부 정보 페이지에서 직접 조치를 취하십시오. <li>_전자 메일 보내기_ 작업을 사용하여 선택한 계정 담당자 또는 구매 그룹 구성원에게 승인된 Marketo Engage 전자 메일을 보냅니다. [자세히 알아보기](../accounts/account-details.md#send-emails) <li>구매 그룹 세부 정보에서 작업에는 _새 구성원 할당_, _구성원 제거_ 및 _역할 편집_&#x200B;도 포함됩니다. [자세히 알아보기](../buying-groups/buying-group-details.md#members-tab) |
-| 기능 | 세부 정보 페이지에 대한 CRM 내 액세스 | 이제 Salesforce 또는 Microsoft Dynamics과 같은 CRM(고객 관계 관리) 도구의 계정, 연락처 및 잠재 고객에 대한 Journey Optimizer B2B edition 세부 정보 페이지로 직접 연결되는 링크를 구성할 수 있습니다. [자세히 알아보기](../accounts/crm-linking.md) |
-| 기능 | 콘텐츠 디자인을 위한 사용자 지정 CSS 지원 | 이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 지정 CSS를 추가할 수 있습니다. [자세히 알아보기](../content/design-custom-css.md) |
-| 기능 | 의도 키워드 매핑 구성 | 이제 의도 감지 모델을 활성화하고 관리하기 위해 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다. [자세히 알아보기](../admin/intent-data.md) |
-| 개선 사항 | 이메일 요약에서 콘텐츠 시뮬레이션 | 이제 전자 메일 목록에서 전자 메일을 열면 전자 메일 요약(세부 정보 및 속성)에서 _콘텐츠 시뮬레이션_ 도구에 액세스할 수 있습니다. 이 액세스는 이메일 디자인 공간에 추가됩니다. [자세히 알아보기](../content/email-simulate-content.md#display-the-email-preview) |
-| 개선 사항 | 역할 템플릿 목록에 대한 총 개수 표시 | _[!UICONTROL 역할 템플릿]_ 목록 페이지가 검색 창 옆에 총 개수를 표시하도록 향상되었습니다. |
+| 기능 | 스팸 탐지 보고 | 스팸 필터를 피하고 메시지가 대상자의 받은 편지함으로 전달되도록 하려면 이메일 디자인 공간에서 바로 _스팸 보고서_&#x200B;를 생성할 수 있습니다. [자세히 알아보기](../content/email-spam-report.md) |
+| 기능 | 개인 정보 페이지 | 이제 지능형 대시보드, 구매 그룹 세부 정보 페이지 및 계정 세부 정보 페이지에 하이퍼링크로 표시되는 이름을 클릭할 수 있습니다. 이 작업을 통해 연결된 개인 정보 페이지가 열리며, 이 페이지에는 연락처 정보, 활동 및 가장 많이 참여한 구매 그룹에 대한 정보가 표시됩니다. [자세히 알아보기](../accounts/person-details.md) |
+| 기능 | 계정 및 구매 그룹 작업 | 계정 상세 정보 및 구매 그룹 상세 정보 페이지에서 바로 작업을 수행하여 시기적절하고 의도적인 참여를 유도할 수 있습니다. <li>_이메일 보내기_ 작업을 사용하여 승인된 Marketo Engage 이메일을 선택한 계정 연락처 또는 구매 그룹 멤버들에게 보낼 수 있습니다. [자세히 알아보기](../accounts/account-details.md#send-emails) <li>구매 그룹 세부 정보에서는 _새 멤버 할당_, _멤버 제거_, _역할 편집_ 등의 작업도 포함됩니다. [자세히 알아보기](../buying-groups/buying-group-details.md#members-tab) |
+| 기능 | CRM 내에서 세부 정보 페이지에 액세스 | 이제 Salesforce 또는 Microsoft Dynamics와 같은 고객 관계 관리(CRM) 도구에서 계정, 연락처 및 리드에 대한 Journey Optimizer B2B Edition 세부 정보 페이지로 직접 연결되는 링크를 구성할 수 있습니다. [자세히 알아보기](../accounts/crm-linking.md) |
+| 기능 | 콘텐츠 디자인을 위한 사용자 정의 CSS 지원 | 이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 정의 CSS를 추가할 수 있습니다. [자세히 알아보기](../content/design-custom-css.md) |
+| 기능 | 의도 키워드 매핑 구성 | 의도 감지 모델을 활성화하고 관리하려면 이제 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다. [자세히 알아보기](../admin/intent-data.md) |
+| 개선 사항 | 이메일 요약에서 콘텐츠 시뮬레이션 | 이제 이메일 목록에서 이메일을 열 때 이메일 요약(세부 정보 및 속성)에서 _콘텐츠 시뮬레이션_ 도구에 액세스할 수 있습니다. 이러한 접근 방식은 이메일 디자인 공간에 추가됩니다. [자세히 알아보기](../content/email-simulate-content.md#display-the-email-preview) |
+| 개선 사항 | 역할 템플릿 목록에 총 개수 표시 | _[!UICONTROL 역할 템플릿]_ 목록 페이지에 검색 창 옆에 총 개수 표시 기능이 추가되어 향상되었습니다. |
 
 <!-- The following capabilities are currently available only for a set of program participants (Beta):
 
@@ -55,7 +55,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | Litmus를 통한 이메일 테스트 | [Litmus Enterprise 계정](https://www.litmus.com/email-testing){target="_blank"}이 있으면 이제 Journey Optimizer B2B Edition의 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 통합 기능은 모든 이메일 받은 편지함에서 이메일 콘텐츠가 멋지게 보이고 디자인대로 작동하는지 확인하는 데 도움이 됩니다. [자세히 알아보기](../content/email-test-rendering.md) |
-| 개선 사항 | 이메일 복사 | 이제 여정 노드에 이메일을 추가할 때 기존 이메일을 복사하여 쓸 수 있습니다. 복사된 이메일의 설정이나 내용을 수정하거나 그대로 둘 수 있습니다.  [자세히 알아보기](../content/add-email.md#add-an-email-to-your-journey) |
+| 개선 사항 | 이메일 복사 | 이제 여정 노드에 이메일을 추가할 때 기존 이메일을 복사하여 쓸 수 있습니다. 복사된 이메일의 설정이나 내용을 수정하거나 그대로 둘 수 있습니다. [자세히 알아보기](../content/add-email.md#add-an-email-to-your-journey) |
 | 개선 사항 | 이메일용 핸들바 토큰 형식 | 이메일 콘텐츠에 대한 개인화 토큰은 이제 핸들바 스크립팅과 완벽하게 호환되는 업데이트된 형식을 사용합니다. 이 형식은 공백을 제거하는 _카멜 표기법_ 또는 밑줄을 사용합니다. [자세히 알아보기](../content/email-authoring.md#content-authoring---personalization) |
 | 개선 사항 | 목록의 총 개수 표시 | _[!UICONTROL 솔루션 관심 분야]_ 및 _[!UICONTROL 계정 여정]_ 목록 페이지에서 검색 창 옆에 총 개수가 표시되어 가시성이 더욱 향상되었습니다. |
 
@@ -109,11 +109,11 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 경험 이벤트 전달 | 관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있습니다. 이러한 구성을 통해 마케터는 AEP 경험 이벤트에 반응하는 계정 여정을 만들 수 있습니다.  <a href="../admin/configure-aep-events.md">자세히 알아보기</a> |
+| 기능 | 경험 이벤트 전달 | 관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있습니다. 이러한 구성을 통해 마케터는 AEP 경험 이벤트에 반응하는 계정 여정을 만들 수 있습니다. <a href="../admin/configure-aep-events.md">자세히 알아보기</a> |
 | 기능 | 유료 미디어 대상 | 계정 여정에서 알려진 사용자에게 유료 미디어 캠페인에 대한 자격을 제공하여 LinkedIn과 같은 광고 플랫폼에서 더 깊이 있게 참여할 수 있도록 합니다. 계정 여정에서 경로 분할 노드를 사용하여 특정 행동을 기준으로 계정 대상자를 세분화하고 추가 참여가 필요한 계정을 식별합니다. 그런 다음 지원되는 유료 미디어 대상에 대한 Real-Time CDP를 통해 해당 계정의 사용자를 외부 고객 대상자에 추가합니다. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">자세히 알아보기</a> |
 | 기능 | 지능형 대시보드 | AI 생성 인사이트를 통한 보다 지능적인 분석과 정확한 계정 우선순위 지정을 포함하여 구매 그룹의 계정 여정 진행 상황을 확인합니다. <a href="../dashboards/intelligent-dashboard.md">자세히 알아보기</a> |
-| 기능 | 구매 그룹 및 계정 세부 정보 | 구매 그룹 및 계정 수준에서 인사이트를 확인하여 고객과 소통을 시작할 때 더 많은 컨텍스트와 내역 데이터를 확보합니다.<p>구매 그룹 세부 정보에는 감지된 모든 자사 의도가 포함됩니다. <a href="../buying-groups/buying-group-details.md">자세히 알아보기</a><p>계정 세부 정보 계정은 참여 의도의 급증을 감지하여 강조 표시하므로 맞춤화된 판매 중심 참여가 준비된 계정에 대한 판매 알림을 보낼 수 있습니다.  <a href="../accounts/account-details.md">자세히 알아보기</a> |
-| 기능 | 여정 개요 | 계정 여정에 액세스하면 개요 탭에서 활성 계정 여정에 대한 포괄적인 스냅샷을 제공합니다. 이 탭에서는 완료율 및 참여 활동을 범주화하고 정량화하여 보여 주는 원형 차트와 막대 차트를 활용하여 계정 진행 상황을 자세히 알려 줍니다.  <a href="../dashboards/journeys-dashboard.md">자세히 알아보기</a> |
+| 기능 | 구매 그룹 및 계정 세부 정보 | 구매 그룹 및 계정 수준에서 인사이트를 확인하여 고객과 소통을 시작할 때 더 많은 컨텍스트와 내역 데이터를 확보합니다.<p>구매 그룹 세부 정보에는 감지된 모든 자사 의도가 포함됩니다. <a href="../buying-groups/buying-group-details.md">자세히 알아보기</a><p>계정 세부 정보 계정은 참여 의도의 급증을 감지하여 강조 표시하므로 맞춤화된 판매 중심 참여가 준비된 계정에 대한 판매 알림을 보낼 수 있습니다. <a href="../accounts/account-details.md">자세히 알아보기</a> |
+| 기능 | 여정 개요 | 계정 여정에 액세스하면 개요 탭에서 활성 계정 여정에 대한 포괄적인 스냅샷을 제공합니다. 이 탭에서는 완료율 및 참여 활동을 카테고리화하고 정량화하여 보여 주는 원형 차트와 막대 차트를 활용하여 계정 진행 상황을 자세히 알려 줍니다. <a href="../dashboards/journeys-dashboard.md">자세히 알아보기</a> |
 | 기능 | Adobe Express 이미지 편집 | Adobe Express 빠른 작업을 사용하면 이미지를 간단히 편집(자르기, 크기 조정 등)하여 콘텐츠를 더욱 세련되게 만들 수 있습니다. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">자세히 알아보기</a>  <p>보다 포괄적인 디자인 도구 세트를 제공하기 위해, 이 통합을 통해 Journey Optimizer B2B Edition에서 전체 Adobe Express 라이선스를 사용할 수 있습니다. 이 설정을 사용하면 로컬 자산 작업 영역에서 전체 Adobe Express 사용자 인터페이스에 액세스할 수 있습니다. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">자세히 알아보기</a> |
 | 기능 | 구매 그룹 역할을 위한 의도 필터 | 의도 키워드를 제출하면 의도 감지 모델이 리드의 활동을 기반으로 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. <a href="../admin/intent-data.md">자세히 알아보기</a> <p>이 의도 데이터는 구매 그룹 역할 조건을 정의하는 데 사용할 수 있습니다. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">자세히 알아보기</a> |
 | 개선 사항 | 여정에서 Marketo Engage 이벤트 지원 | _이벤트 수신_ 여정 노드는 이제 사용자 수준에서 두 가지 Marketo Engage 이벤트, 즉 _웹 페이지 방문_ 및 _양식 작성_&#x200B;을 지원합니다. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">자세히 알아보기</a> |
