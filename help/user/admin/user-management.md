@@ -4,10 +4,10 @@ description: Journey Optimizer B2B edition 제품 프로필에 팀원을 할당�
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
+source-git-commit: 8fd1bda4a0ccfa2abe84974f7e895825477a7299
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 2%
+source-wordcount: '1085'
+ht-degree: 1%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 2%
 
 1. Admin Console에서 [Marketo Engage 제품 프로필을 만듭니다](#marketo-engage-profile)(새 Marketo Engage 인스턴스만 해당).
 1. Admin Console에서 [사용자 그룹 만들기](#create-user-group).
-<!-- 1. [Edit built-in roles](#edit-roles) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions. 
-1. [Add users](#add-users) or [groups](#add-user-groups-to-a-role) to roles. -->
+<!-- 1. [Edit built-in roles](#edit-roles) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions. -->
+1. 역할에 [사용자 추가](#add-users) 또는 [그룹](#add-user-groups-to-a-role).
 
 관리자는 Adobe 제품 라이선스와 사용자를 관리하고 관리하는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서는 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html) 페이지를 참조하세요.
 
@@ -42,7 +42,7 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
    조직을 변경하려면 오른쪽 상단에서 조직 이름을 클릭하고 액세스가 필요한 조직을 선택합니다.
 
-1. 시스템 관리자인지 확인하려면 _[!UICONTROL 사용자]_ 카드에서 **[!UICONTROL 관리자]**&#x200B;를 선택하십시오.
+1. 시스템 관리자인지 확인하려면 **[!UICONTROL 사용자]** 카드에서 _[!UICONTROL 관리자]_&#x200B;를 선택하십시오.
 
    ![Admin Console 개요 - 관리자 클릭](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
@@ -56,15 +56,15 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자를 위한 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
-<!--
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자를 위한 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+
 >[!BEGINSHADEBOX]
 
-When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
+Marketo Engage 제품 프로필에 사용자를 추가하면 해당 사용자는 나중에 Marketo Engage 구독의 기본 작업 영역 내에서 _표준 사용자_ 역할에 추가됩니다. 이 역할은 해당 작업 영역의 Marketo Engage에 대한 모든 _표준 사용자_ 권한을 부여합니다. 현재 모든 Journey Optimizer B2B edition 사용자는 Marketo Engage 사용자여야 합니다. Marketo Engage 관리자는 _표준 사용자_ 역할에 대한 권한을 업데이트하거나 보다 제한적인 권한이 있는 다른 Marketo Engage 사용자 역할로 사용자를 이동하여 액세스를 제한할 수 있습니다.
 
-For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
 
->[!ENDSHADEBOX]-->
+>[!ENDSHADEBOX]
 
 ![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Marketo Engage 제품 관리자는 다음 단계를 수행할 수 있습니다.
 
@@ -143,7 +143,7 @@ Permissions are unitary rights that allow you to define the authorizations assig
 
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
-For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
+For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
 
 ### B2B product permissions
 
@@ -240,7 +240,7 @@ _To change the permissions for a role:_
 
 ### Add user groups to a role
 
-For information about user management, see [Admin Console users](https://helpx.adobe.com/kr/enterprise/using/user-groups.html) in the Admin Console documentation.
+For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
@@ -260,53 +260,52 @@ For information about user management, see [Admin Console users](https://helpx.a
 
    ![Experience Platform - Add groups dialog](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
+1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add. -->
 
-## Create a custom role
+## 사용자 정의 역할 만들기
 
-![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
 
-1. Select **[!UICONTROL Roles]** in the left navigation and select **[!UICONTROL Create role]**.
+1. 왼쪽 탐색에서 **[!UICONTROL 역할]**&#x200B;을(를) 선택하고 **[!UICONTROL 역할 만들기]**&#x200B;를 선택합니다.
 
-1. In the _[!UICONTROL Create new role]_ dialog, enter a name for the role, such as _B2B Marketers_, and a description (optional).
+1. _[!UICONTROL 새 역할 만들기]_ 대화 상자에서 _B2B 마케터_&#x200B;와 같은 역할 이름과 설명(선택 사항)을 입력합니다.
 
-1. Click **[!UICONTROL Confirm]**.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-1. Select your sandboxes.
+1. 샌드박스를 선택합니다.
 
-   ![Experience Platform - add sandboxes for the new role](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![Experience Platform - 새 역할에 대한 샌드박스 추가](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
-1. Add the profile permissions:
+1. 프로필 권한 추가:
 
-   * In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL Profile Management]** item and click the _Add_ (**+**) icon to add the attribute.
+   * 왼쪽의 _[!UICONTROL 리소스]_ 목록에서 **[!UICONTROL 프로필 관리]** 항목을 찾은 다음 _추가_(**+**) 아이콘을 클릭하여 특성을 추가합니다.
 
-   * For the attribute, add the following permissions:
-      * [!UICONTROL View segments]
-      * [!UICONTROL Manage segments]
-      * [!UICONTROL View profiles]
-      * [!UICONTROL Manage profiles]
-      * [!UICONTROL View B2B profile]
-      * [!UICONTROL Manage B2B profile]
+   * 속성에 대해 다음 권한을 추가합니다.
+      * [!UICONTROL 세그먼트 보기]
+      * [!UICONTROL 세그먼트 관리]
+      * [!UICONTROL 프로필 보기]
+      * [!UICONTROL 프로필 관리]
+      * [!UICONTROL B2B 프로필 보기]
+      * [!UICONTROL B2B 프로필 관리]
 
-   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+   ![Experience Platform - 새 역할에 대한 프로필 추가](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
-1. Add B2B product permissions:
+1. B2B 제품 권한 추가:
 
-   Refer to the list of [B2B product permissions](#b2b-product-permissions) to determine which product capabilities that you want for the role.
+   역할에 대해 원하는 제품 기능을 확인하려면 [B2B 제품 권한](#b2b-product-permissions) 목록을 참조하세요.
 
-   In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL B2B]** items and click the _Add_ (**+**) icon to add each attribute that you want to enable for the role.
+   왼쪽의 _[!UICONTROL 리소스]_ 목록에서 **[!UICONTROL B2B]** 항목을 찾은 다음 _추가_(**+**) 아이콘을 클릭하여 역할에 사용할 각 특성을 추가합니다.
 
-   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions.
+   검색 도구에 _B2B_&#x200B;을(를) 입력하여 B2B 제품 권한 목록을 필터링할 수 있습니다.
 
-1. Click **[!UICONTROL Save]** at the top right.
+1. 오른쪽 상단의 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-1. Go to the role details and select the **[!UICONTROL User groups]** tab.
+1. 역할 세부 정보로 이동하여 **[!UICONTROL 사용자 그룹]** 탭을 선택합니다.
 
-1. Click **[!UICONTROL Add Groups]**.
+1. **[!UICONTROL 그룹 추가]**&#x200B;를 클릭합니다.
 
-   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - 새 역할에 대한 프로필 추가](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-1. Select the checkbox next to the user group that you created previously in the Admin Console.
+1. 이전에 Admin Console에서 만든 사용자 그룹 옆의 확인란을 선택합니다.
 
-1. Click **[!UICONTROL Save]**.
--->
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
