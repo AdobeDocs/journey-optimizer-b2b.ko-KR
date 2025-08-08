@@ -1,20 +1,20 @@
 ---
 title: 콘텐츠 작성 - 탐색
 description: 콘텐츠 작성에 탐색 트리 사용에 대한 섹션 재사용
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # 콘텐츠 작성 - 탐색
 
-비주얼 디자이너에서 콘텐츠를 사용하여 작업할 때 _탐색_ 트리를 사용하여 레이어/컨테이너 및 요소에 액세스할 수 있습니다. _탐색_ 아이콘을 클릭하여 캔버스 왼쪽에 트리를 표시합니다.
+시각적 디자인 공간의 콘텐츠로 작업할 때 탐색 트리를 사용하여 구성 요소, 열 및 콘텐츠 요소에 액세스할 수 있습니다. 왼쪽의 _[!UICONTROL 탐색 트리]_ 아이콘(![탐색 트리 아이콘](../assets/do-not-localize/icon-navigation-tree.svg))을 클릭하여 트리를 표시합니다.
 
 ![콘텐츠 레이어 액세스](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-다음 예에서는 열로 구성된 구조 구성 요소 내에서 패딩 및 수직 정렬을 조정하는 단계를 간략하게 설명합니다.
+다음 예에서는 열이 있는 구조 구성 요소 내에서 패딩 및 세로 정렬을 조정하는 단계를 간략하게 설명합니다.
 
 1. 캔버스에서 구조 구성 요소의 열을 직접 선택하거나 왼쪽에 표시된 _탐색 트리_&#x200B;를 사용합니다.
 

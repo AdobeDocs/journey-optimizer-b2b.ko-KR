@@ -4,10 +4,10 @@ description: 이메일 및 템플릿 디자인에 재사용할 수 있는 콘텐
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 19%
+source-wordcount: '325'
+ht-degree: 7%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 [조각을 만들고](./fragments.md#create-fragments) 나면 시각적 편집기를 사용하여 조각의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
 
 ## 구조 및 콘텐츠 추가 {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 조각 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 조각의 콘텐츠 디자인을 시작할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="콘텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 조각 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 {{$include /help/_includes/content-design-components.md}}
 

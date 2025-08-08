@@ -4,16 +4,16 @@ description: Adobe Journey Optimizer B2B에서 이메일 콘텐츠를 만드는 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 14%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
 # 이메일 메시지 작성
 
-&lbrack;여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가&rbrack;(./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
+[여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가](./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
 
 오른쪽 패널의 **[!UICONTROL 세부 정보]** 탭에서 _[!UICONTROL 전자 메일 콘텐츠 편집]_&#x200B;을 클릭합니다.
 
@@ -34,16 +34,6 @@ ht-degree: 14%
 >생성형 AI에서 제공하는 Adobe Journey Optimizer B2B edition의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠를 생성하고, 대상자에게 반향을 일으키는 이미지에 대한 AI Assistant 권장 사항을 얻음으로써 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. [자세히 알아보기](./ai-assistant-emails.md)
 
 ## 이메일 콘텐츠 처음부터 만들기 {#design-from-scratch}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 랜딩 페이지의 콘텐츠 디자인을 시작할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="콘텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 시각적 콘텐츠 디자인 공간을 사용하여 이메일의 구조와 콘텐츠를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 초 내에 재사용 가능한 이메일 콘텐츠의 형태를 디자인할 수 있습니다.
 
@@ -83,16 +73,6 @@ ht-degree: 14%
 > 저장된 템플릿에는 하나 이상의 구성 요소에 적용되는 거버넌스(콘텐츠 잠금) 설정이 있을 수 있습니다. 비주얼 디자이너는 [관리되는 템플릿에서 전자 메일을 작성](./email-authoring-governance.md)할 때 잠긴 구성 요소에 대한 지침을 제공합니다.
 
 ## 구조 및 콘텐츠 추가 {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 이메일 콘텐츠 디자인을 시작할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="콘텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 이메일 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -159,11 +139,6 @@ ht-degree: 14%
 * **[!UICONTROL HTML 내보내기]** - zip 파일로 패키지된 HTML 형식의 로컬 시스템에 시각적 캔버스의 콘텐츠를 다운로드합니다.
 
 ## 이메일 확인 및 테스트 {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="콘텐츠 렌더링 방식 확인"
->abstract="콘텐츠가 정의되면 미리 보고 사용 중인 채널에 대해 렌더링이 올바른지 확인할 수 있습니다."
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고, 증명을 보내고, 데스크탑 및 모바일 종횡비로 렌더링을 검토할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 표시되는 방식을 미리 볼 수 있습니다.
 

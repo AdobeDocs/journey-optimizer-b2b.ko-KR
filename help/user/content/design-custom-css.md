@@ -1,9 +1,10 @@
 ---
 title: 콘텐츠에 대한 사용자 지정 CSS 추가
 description: 이메일 및 랜딩 페이지 콘텐츠에 사용자 지정 CSS를 추가하는 방법을 알아봅니다.
-feature: Email Authoring, Landing Pages, Content Design Tools
+feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
-source-git-commit: 9d753873ed24f10b5747ed64b7f85188dec52fa0
+exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -214,4 +215,3 @@ body {
   background: red !important;
   }
   ```
-

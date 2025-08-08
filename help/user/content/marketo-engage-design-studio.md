@@ -4,9 +4,9 @@ description: Journey Optimizer B2B edition에서 Marketo Engage Design Studio �
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Journey Optimizer B2B edition 작업 공간이 기본적으로 선택됩니다. 
 
 >[!IMPORTANT]
 >
->전자 메일, 전자 메일 템플릿 또는 조각 **에서 현재 _사용 중_인 에셋은 삭제할 수 없습니다**.
+>전자 메일, 전자 메일 템플릿 또는 조각 _에서 현재_&#x200B;사용 중&#x200B;**인 에셋은 삭제할 수 없습니다**.
 
 패널에 카테고리별 참조가 표시됩니다. _이메일_, _이메일 템플릿_ 또는 _조각_. Journey Optimizer B2B edition의 이메일은 여정 내에 임베드되고 작성되므로 자산을 사용하는 이메일의 상위 여정이 참조에 표시됩니다.
 
@@ -152,7 +152,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ 작업 영역에 있는 선택한 �
 
 1. 선택 배너에서 **[!UICONTROL 이동]**&#x200B;을 클릭합니다.
 
-   이 작업을 수행하면 선택한 자산의 이름이 나열되고 이러한 자산을 이동할 _대상_ 폴더를 선택할 수 있는 _[!UICONTROL Assets 이동]_ 대화 상자가 열립니다.
+   이 작업을 수행하면 선택한 자산의 이름이 나열되고 이러한 자산을 이동할 _[!UICONTROL 대상]_ 폴더를 선택할 수 있는 _Assets 이동_ 대화 상자가 열립니다.
 
 1. 폴더를 선택합니다.
 
@@ -280,7 +280,7 @@ Assets은 팀의 이메일, 이메일 템플릿 또는 시각적 콘텐츠 편�
 
 * 왼쪽 탐색에서 이미지 썸네일을 끌어서 놓습니다.
 
-* 캔버스에 이미지 구성 요소를 추가하고 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 _[!UICONTROL Adobe Marketo Engage에서 에셋 선택]_ 대화 상자를 엽니다.
+* 이미지 구성 요소를 캔버스에 추가하고 구성 요소에서 **[!UICONTROL Marketo Engage Assets]**&#x200B;을 클릭하여 _[!UICONTROL Adobe Marketo Engage에서 에셋 선택]_ 대화 상자를 엽니다.
 
   ![필터 및 검색 필드를 사용하여 필요한 자산을 찾습니다](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
-user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공되는 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+user-guide-description: 내장된 생성 AI 및 업계 최고 수준의 자동화를 사용하여 Adobe Journey Optimizer B2B edition을 사용하여 계정 및 구매 그룹 여정을 오케스트레이션하는 방법에 대해 알아봅니다.
+source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 88%
 
 ---
 
@@ -94,12 +94,15 @@ ht-degree: 100%
    + 랜딩 페이지 (Beta) {#landing-pages}
       + [개요](./content/landing-pages.md)
       + [랜딩 페이지 디자인](./content/landing-page-design.md)
+   + 콘텐츠 디자인 도구 {#content-design}
+      + [구조 구성 요소](./content/structure-components.md)
+      + [콘텐츠 구성 요소](./content/content-components.md)
+      + [사용자 정의 CSS](./content/design-custom-css.md)
    + 브랜드 (Beta) {#brands}
       + [개요](./content/brands-overview.md)
       + [관리 및 만들기](./content/brands-manage-create.md)
       + [브랜드 정렬](./content/brand-alignment.md)
    + [조건부 콘텐츠](./content/conditional-content.md)
-   + [사용자 정의 CSS](./content/design-custom-css.md)
 + 인사이트 대시보드 {#dashboards}
    + [지능형 대시보드](./dashboards/intelligent-dashboard.md)
    + [참여 개요](./dashboards/engagement-dashboard.md)

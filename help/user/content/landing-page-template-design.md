@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 18%
+source-wordcount: '345'
+ht-degree: 4%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 18%
 [랜딩 페이지 템플릿을 만들기](./landing-page-templates.md#create-a-landing-page-template)한 후에는 시각적 디자인 공간을 사용하여 페이지 템플릿의 구조 및 콘텐츠 구성 요소를 작성합니다.
 
 ## 구조 및 콘텐츠 추가 {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_template_structure"
->title="랜딩 페이지에 구조 구성 요소 추가"
->abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 끌어다 놓아 페이지 템플릿의 콘텐츠 디자인을 시작할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_template_content_components"
->title="랜딩 페이지용 콘텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 랜딩 페이지 템플릿의 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 {{$include /help/_includes/content-design-components.md}}
 

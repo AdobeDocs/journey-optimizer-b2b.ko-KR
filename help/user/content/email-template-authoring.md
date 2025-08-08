@@ -4,10 +4,10 @@ description: 계정 여정 이메일에 사용하여 디자인을 쉽고 효율�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 14%
+source-wordcount: '373'
+ht-degree: 3%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 14%
 [전자 메일 템플릿을 만든](./email-templates.md#create-an-email-template) 후 시각적 디자인 공간을 사용하여 전자 메일 템플릿의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
 
 ## 구조 및 콘텐츠 추가 {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 템플릿에 대한 콘텐츠 디자인을 시작할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="콘텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 {{$include /help/_includes/content-design-components.md}}
 

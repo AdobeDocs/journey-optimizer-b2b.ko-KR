@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠 작성 - 구성 요소
 description: 콘텐츠 작성에 구성 요소 및 콘텐츠 요소 사용에 대한 재사용 섹션
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    각 열 크기는 구조 구성 요소의 전체 너비의 10%보다 작을 수 없습니다. 빈 열만 제거할 수 있습니다.
 
-1. **[!UICONTROL 내용]** 섹션을 확장하고 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다.
+1. **[!UICONTROL 콘텐츠]** 섹션을 확장하고 하나 이상의 구조 구성 요소에 필요한 만큼 콘텐츠 구성 요소를 추가합니다.
 
    ![콘텐츠 요소를 캔버스로 드래그하고 설정을 조정하십시오](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
