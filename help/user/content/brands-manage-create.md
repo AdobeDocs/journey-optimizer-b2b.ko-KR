@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 98298c41981de45dfc5d0de430913729f3a92453
+exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -71,7 +72,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="브랜드 만들기"
->abstract="브랜드 이름을 입력하고 브랜드 지침 파일을 업로드합니다. 이 도구는 주요 세부 정보를 자동으로 추출하므로 브랜드 정체성을 보다 쉽게 유지할 수 있습니다."
+>abstract="브랜드 이름을 입력하고 브랜드 지침 파일을 업로드합니다. 이 도구는 주요 세부 정보를 자동으로 추출하여 브랜드 아이덴티티를 손쉽게 유지할 수 있도록 해 줍니다."
 
 브랜드 지침을 만들고 정의하려면 세부 정보를 입력하거나 자동 추출에 사용할 브랜드 지침 문서를 업로드할 수 있습니다.
 

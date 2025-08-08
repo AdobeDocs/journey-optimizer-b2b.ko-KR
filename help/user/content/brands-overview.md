@@ -7,24 +7,25 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
-# 컨텐츠 생성 및 일관성을 위해 브랜드 사용 {#brands}
+# 콘텐츠 생성 및 일관성을 위해 브랜드 사용 {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="브랜드 시작하기"
->abstract="자체 브랜드를 만들고 사용자 정의하여 고유한 시각적 및 언어적 정체성을 정의하는 동시에 브랜드 스타일 및 목소리와 일치하는 콘텐츠를 더 쉽게 생성할 수 있습니다."
+>abstract="고유한 시각적 및 언어적 정체성을 정의하고, 브랜드 스타일과 표현에 맞는 콘텐츠를 손쉽게 생성할 수 있도록 자체 브랜드를 만들고 맞춤화합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="브랜드 선택"
->abstract="모든 AI 생성 콘텐츠가 브랜드 사양 및 지침에 맞게 맞춤화되도록 하려면 브랜드를 선택하십시오."
+>abstract="브랜드를 선택하여 모든 AI 생성 콘텐츠가 브랜드의 사양과 지침에 맞게 조정되도록 합니다."
 
 브랜드는 _브랜드 정체성_&#x200B;을(를) 정의하는 데 도움이 되며 브랜드 정체성, 가치 및 메시지를 정확하게 나타내는 일관되고 효과적인 콘텐츠 생성을 보장하는 데 중요한 역할을 합니다. 잘 정의된 브랜드 스타일을 준수함으로써 조직은 채널과 터치포인트 전반에 걸쳐 통합적이고 인식 가능한 브랜드 존재감을 유지하고 타겟 대상자 간의 브랜드 인식, 신뢰 및 충성도를 강화할 수 있습니다.
 
@@ -99,4 +100,3 @@ ht-degree: 3%
    * 변경 내용을 적용하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
 >[!ENDSHADEBOX]
-

@@ -27,7 +27,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_account_string"
 >title="랜딩 페이지 계정 문자열"
->abstract="계정 문자열은 랜딩 페이지를 호스팅하는 Adobe Journey Optimizer B2B 에디션 인스턴스를 식별합니다."
+>abstract="계정 문자열은 랜딩 페이지를 호스팅하는 Adobe Journey Optimizer B2B Edition 인스턴스를 식별합니다."
 
 계정 문자열은 랜딩 페이지를 호스팅하는 Adobe Journey Optimizer B2B edition 인스턴스를 식별합니다. 시스템 팀이 DNS 항목을 추가하고 구성하는지 확인합니다.
 
@@ -49,7 +49,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_add_subdomain"
 >title="랜딩 페이지 하위 도메인 추가"
->abstract="최대 50개의 하위 도메인을 추가할 수 있습니다. Adobe Journey Optimizer B2B 에디션에 호스팅하려는 각 고유 브랜드 URL에 대해 새 하위 도메인을 설정합니다."
+>abstract="최대 50개의 하위 도메인을 추가할 수 있습니다. Adobe Journey Optimizer B2B Edition에 호스팅하려는 각 고유 브랜드 URL에 대해 새 하위 도메인을 설정합니다."
 
 ### 하위 도메인 세부 사항 {#configure-subdomain}
 

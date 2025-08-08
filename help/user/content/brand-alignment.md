@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 10%
+ht-degree: 17%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="브랜드 정렬 점수"
->abstract="브랜드 정렬 점수는 색상, 글꼴, 로고, 이미지 및 작성 스타일의 일관성을 보장하면서 콘텐츠가 브랜드 지침을 얼마나 준수하는지 측정합니다."
+>abstract="브랜드 정렬 점수는 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일에서의 일관성을 보장합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"
