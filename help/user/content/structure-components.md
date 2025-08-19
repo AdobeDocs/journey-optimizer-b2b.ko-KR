@@ -3,10 +3,11 @@ title: 구조 구성 요소
 description: 구조 구성 요소를 사용하여 이메일, 랜딩 페이지 및 시각적 조각 콘텐츠의 레이아웃을 정의하는 방법을 알아봅니다.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -14,22 +15,22 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
->title="구조 구성요소 정보"
->abstract="구조 구성 요소는 이메일 구조를 디자인하는 데 사용할 수 있는 레이아웃 요소입니다."
+>title="구조 구성 요소 정보"
+>abstract="구조 구성 요소는 이메일의 구조를 디자인하는 데 사용할 수 있는 레이아웃 요소입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
->title="구조 구성요소 정보"
+>title="구조 구성 요소 정보"
 >abstract="구조 구성 요소는 페이지의 구조를 디자인하는 데 사용할 수 있는 레이아웃 요소입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
->title="구조 구성요소 정보"
->abstract="CSstructure 구성 요소는 조각의 구조를 디자인하는 데 사용할 수 있는 레이아웃 요소입니다."
+>title="구조 구성 요소 정보"
+>abstract="구조 구성 요소는 조각의 구조를 디자인하는 데 사용할 수 있는 레이아웃 요소입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
->title="구조 구성요소 정보"
+>title="구조 구성 요소 정보"
 >abstract="구조 구성 요소는 템플릿의 구조를 디자인하는 데 사용할 수 있는 레이아웃 요소입니다."
 
 시각적 디자인 공간에서 _구조 구성 요소_&#x200B;를 사용하여 콘텐츠의 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠 레이아웃의 모양을 빠르게 정의할 수 있습니다. 각 구조 구성 요소는 가로 공간에 걸쳐 있으며 이를 스택하여 레이아웃을 세로로 작성할 수 있습니다. 각 구성 요소를 열로 나누어 필요한 각 콘텐츠 블록을 만듭니다.
@@ -152,7 +153,7 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 +++
 
-+++이익
++++여백
 
 {{styles-margin}}
 
@@ -222,7 +223,7 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 +++
 
-+++이익
++++여백
 
 {{styles-margin}}
 
