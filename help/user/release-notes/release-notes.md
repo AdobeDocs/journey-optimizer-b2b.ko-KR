@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능과 향상된 기능에 대해 알아보십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+workflow-type: tm+mt
+source-wordcount: '2780'
+ht-degree: 92%
 
 ---
 
@@ -17,12 +17,32 @@ Adobe Journey Optimizer B2B Edition은 지속적으로 새로운 기능, 기존 
 Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform]기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest){target="_blank"}를 참조하십시오.
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
-<!-- hold for 2025.8 release 
+
+<!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.8 릴리스 정보
+
+**배포 일자**: 2025년 8월 26일 수요일
+
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+
+| 유형 | 항목 | 설명 |
+| ---- | ---- | ----------- |
+| 기능 | 역할 템플릿 및 여정에 대한 개인 참여 점수 필터 | 이제 구매 그룹 및 분할 경로 여정 노드를 만드는 데 사용되는 역할 템플릿의 필터로 _개인 참여 점수_&#x200B;를 사용할 수 있습니다. |
+| 기능 | 구매 그룹 사용자 정의 역할 구성 | 이제 구매 그룹을 위한 사용자 정의 역할을 유연하게 구성할 수 있으므로 사용 사례에 맞는 역할을 정의할 수 있습니다. |
+| 기능 | 참여 점수 가중치 구성 | 이제 구매 그룹 참여 점수에 영향을 주는 활동에 가중치를 할당할 수 있습니다. 이 기능에는 자체 사용자 정의 점수 모델을 정의하고 참여 점수 계산에 영향을 주는 활성 모델을 변경하는 작업이 포함되어 있습니다. |
+| 개선 사항 | 조각에 대한 조건부 콘텐츠 | 이제 조건부 콘텐츠 도구를 사용하여 시각적 조각 디자인을 수행할 수 있습니다. |
+| 개선 사항 | 참여 점수 업데이트 | 구매 그룹 참여 점수 논리가 업데이트되어 점수를 정규화합니다. 또한 전체 구매 그룹에 대한 집단 참여 점수뿐만 아니라 구성원 수준 참여 점수로 작업할 수 있습니다. |
+| 개선 사항 | 활성 여정 가시성 - 각 노드의 계정 | 활성 계정 여정의 경우 여정의 각 계정 노드에 도달한 계정 목록에 액세스할 수 있습니다. |
+
+>[!NOTE]
+>
+>릴리스 변경 사항은 2025년 8월 26일에 배포로 시작되며 각 기능의 단계적 롤아웃이 제공됩니다. 기능 및 개선 사항에 대한 릴리스 날짜는 변경될 수 있습니다.
 
 ## 2025.6 릴리스 정보
 
