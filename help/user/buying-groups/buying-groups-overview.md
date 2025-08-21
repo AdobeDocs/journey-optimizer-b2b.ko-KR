@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: a2917ea8c389c35129a77d427528051be499addf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2170'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
 >title="참여 점수"
->abstract="참여 점수는 구매 그룹 구성원의 참여 수준을 결정합니다."
+>abstract="참여 점수는 구매 그룹 멤버의 참여 수준을 결정합니다."
 
 구매 그룹 참여 점수는 구매 그룹 멤버가 수행하는 활동을 기반으로 그들의 참여도를 판단하는 숫자입니다.
 
@@ -117,7 +117,7 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 * 각 활동의 일일 빈도 상한은 20회입니다. 구매 그룹의 멤버가 하루에 동일한 활동을 20회보다 많이 수행하는 경우, 해당 활동 수는 20회로 제한되며 더 이상 증가하지 않습니다.
 * 점수는 반올림되어 표시됩니다. 예를 들어 75.89999는 76으로 표시됩니다.
 
-+++채점에 사용된 활동
++++채점에 사용되는 활동
 
 | 활동 이름 | 설명 | 참여 유형 | 최대 일일 빈도 수 | 활동 가중치 |
 | --- | --- | --- | --- | --- |
@@ -170,7 +170,7 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 >title="참여 점수 가중치"
 >abstract="가중치를 사용하여 참여 점수 계산을 사용자 정의합니다."
 
-사용자는 _역할 템플릿_&#x200B;에 있는 각 역할에 [가중치](./buying-groups-role-templates.md)를 할당하여 역할에 서로 다른 가중치를 할당할 수 있습니다.
+사용자는 [역할 템플릿](./buying-groups-role-templates.md)에서 각 역할에 _가중치_&#x200B;를 설정하여 역할별로 서로 다른 가중치를 할당하고 참여 점수를 계산할 수 있습니다.
 
 ![역할 템플릿에서 각 역할에 대한 가중치 설정](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -230,4 +230,4 @@ _[!UICONTROL 매우 중요]_, _[!UICONTROL 중요]_, _[!UICONTROL 보통]_&#x200
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3452942/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
