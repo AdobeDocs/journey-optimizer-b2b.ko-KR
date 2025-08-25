@@ -4,36 +4,36 @@ description: Adobe Journey Optimizer B2B edition에서 콘텐츠를 작성할 �
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '559'
 ht-degree: 2%
 
 ---
 
 # Experience Manager 에셋 작업
 
-Adobe Experience Manager Assets as a Cloud Service이 Adobe Journey Optimizer B2B edition과 통합되면 마케팅 콘텐츠에서 사용할 디지털 에셋을 쉽게 검색하고 액세스할 수 있습니다. 콘텐츠를 작성할 때 왼쪽 탐색 메뉴의 _Experience Manager Assets_ 항목에서 에셋에 액세스할 수 있으며 계정 여정에 대한 이메일 콘텐츠를 작성할 때 액세스할 수 있습니다.
+[!DNL Adobe Experience Manager Assets as a Cloud Service]이(가) [!DNL Adobe Journey Optimizer B2B Edition]과(와) 통합되면 마케팅 콘텐츠에서 사용할 디지털 에셋을 쉽게 검색하고 액세스할 수 있습니다. 콘텐츠를 작성할 때 왼쪽 탐색 메뉴의 _[!UICONTROL Experience Manager Assets]_ 항목에서 에셋에 액세스할 수 있으며 계정 여정에 대한 이메일 콘텐츠를 작성할 때 액세스할 수 있습니다.
 
 {{aem-assets-licensing-note}}
 
-이러한 디지털 에셋을 사용하는 경우 Assets as a Cloud Service의 최신 변경 사항은 연결된 참조를 통해 라이브 이메일 캠페인에 자동으로 전파됩니다. Adobe Experience Manager Assets as a Cloud Service에서 이미지가 삭제되면 이메일에 손상된 참조가 함께 표시됩니다. 현재 계정 여정 내에서 사용되는 에셋이 수정되거나 삭제되면 여정 작성자에게 이미지 변경 사항과 이미지를 사용하는 여정 목록에 대한 알림이 표시됩니다. 에셋에 대한 모든 변경 작업은 Adobe Experience Manager Assets 중앙 저장소에서 수행해야 합니다.
+이러한 디지털 자산을 사용하는 경우 [!DNL Assets as a Cloud Service]의 최신 변경 내용이 연결된 참조를 통해 실시간 이메일 캠페인에 자동으로 전파됩니다. [!DNL Adobe Experience Manager Assets as a Cloud Service]에서 이미지가 삭제되면 이메일에 손상된 참조가 표시됩니다. 현재 계정 여정 내에서 사용되는 에셋이 수정되거나 삭제되면 여정 작성자에게 이미지 변경 사항과 이미지를 사용하는 여정 목록에 대한 알림이 표시됩니다. 자산에 대한 모든 변경 작업은 [!DNL Adobe Experience Manager Assets] 중앙 리포지토리에서 수행해야 합니다.
 
-환경에 [Assets 저장소 연결](../admin/configure-aem-repositories.md)이 하나 이상 있는 경우 콘텐츠 작성자는 전자 메일, 전자 메일 템플릿 또는 시각적 조각을 만들 때 AEM Assets을 에셋의 소스로 사용할 수 있습니다.
+환경에 [Assets 저장소 연결](../admin/configure-aem-repositories.md)이 하나 이상 있는 경우 콘텐츠 작성자는 전자 메일, 전자 메일 템플릿 또는 시각적 조각을 만들 때 [!DNL Experience Manager Assets]을(를) 에셋의 소스로 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->관리자는 Assets에 액세스해야 하는 사용자를 Assets 소비자 사용자 또는/및 Assets 사용자 제품 프로필에 추가해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>관리자는 Assets에 액세스해야 하는 사용자를 Assets 소비자 사용자 또는/및 Assets 사용자 제품 프로필에 추가해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets 이미지 액세스
 
-시각적 컨텐츠 편집기에서 왼쪽 사이드바의 _Experience Manager Assets_( ![Experience Manager Assets 아이콘](../../assets/do-not-localize/icon-assets-aem.svg)) 아이콘을 클릭합니다. 이렇게 하면 도구 패널이 선택한 저장소에서 사용 가능한 에셋 목록으로 변경됩니다.
+컨텐츠 디자인 공간에서 왼쪽 사이드바의 _[!UICONTROL Experience Manager Assets]_( ![Experience Manager Assets 아이콘](../../assets/do-not-localize/icon-assets-aem.svg)) 아이콘을 클릭합니다. 이렇게 하면 도구 패널이 선택한 저장소에서 사용 가능한 에셋 목록으로 변경됩니다.
 
 ![Assets 선택기 아이콘을 클릭하여 이미지 자산에 액세스합니다](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->현재 Adobe Journey Optimizer B2B edition에서는 Adobe Experience Manager Assets의 이미지 자산만 지원됩니다. 에셋에 대한 변경은 Adobe Experience Manager Assets 중앙 저장소에서 수행해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>현재 [!DNL Adobe Experience Manager Assets]에서는 [!DNL Adobe Journey Optimizer B2B Edition]의 이미지 자산만 지원됩니다. 자산에 대한 변경 작업은 [!DNL Adobe Experience Manager Assets] 중앙 리포지토리에서 수행해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 표시된 저장소 변경
 
@@ -63,7 +63,7 @@ Adobe Experience Manager Assets as a Cloud Service이 Adobe Journey Optimizer B2
 
    * 오른쪽 상단의 **[!UICONTROL 자산 관리]**&#x200B;를 클릭하여 다른 브라우저 탭에서 Assets 저장소를 열고 AEM Assets 관리 도구를 사용합니다.
 
-   * 표시를 **[!UICONTROL 목록 보기]**, **[!UICONTROL 눈금 보기]**, **[!UICONTROL 갤러리 보기]** 또는 **[!UICONTROL 폭포 보기]**(으)로 변경하려면 오른쪽 상단의 _보기 유형_ 선택기를 클릭하십시오.
+   * 표시를 _목록 보기_, **[!UICONTROL 눈금 보기]**, **[!UICONTROL 갤러리 보기]** 또는 **[!UICONTROL 폭포 보기]**(으)로 변경하려면 오른쪽 상단의 **[!UICONTROL 보기 유형]** 선택기를 클릭하십시오.
 
    * 오름차순과 내림차순 사이의 정렬 순서를 변경하려면 _정렬 순서_ 아이콘을 클릭하십시오.
 
