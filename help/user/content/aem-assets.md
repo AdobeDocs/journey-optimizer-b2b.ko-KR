@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->관리자는 Assets에 액세스해야 하는 사용자를 Assets 소비자 사용자 또는/및 Assets 사용자 제품 프로필에 추가해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>관리자는 Assets에 액세스해야 하는 사용자를 Assets 소비자 사용자 또는/및 Assets 사용자 제품 프로필에 추가해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets 이미지 액세스
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->현재 [!DNL Adobe Experience Manager Assets]에서는 [!DNL Adobe Journey Optimizer B2B Edition]의 이미지 자산만 지원됩니다. 자산에 대한 변경 작업은 [!DNL Adobe Experience Manager Assets] 중앙 리포지토리에서 수행해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>현재 [!DNL Adobe Experience Manager Assets]에서는 [!DNL Adobe Journey Optimizer B2B Edition]의 이미지 자산만 지원됩니다. 자산에 대한 변경 작업은 [!DNL Adobe Experience Manager Assets] 중앙 리포지토리에서 수행해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 표시된 저장소 변경
 
