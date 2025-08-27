@@ -4,9 +4,9 @@ description: 콘텐츠 구성 요소를 사용하여 이메일, 랜딩 페이지
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2844'
 ht-degree: 6%
 
 ---
@@ -200,10 +200,9 @@ ht-degree: 6%
 | ---- | ---- | ----- |
 | ![개인화 추가](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | 개인화 추가 | 개인화 편집기를 사용하여 구성 요소 콘텐츠에 개인화 토큰을 삽입합니다. [자세히 알아보기](./email-authoring.md#personalize-content) |
 | ![소스 코드 표시](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | 소스 코드 표시 | 읽기 전용 팝업에 구성 요소의 HTML 소스 코드를 표시합니다. <br/>![HTML 코드 표시](./assets/content-components-show-source-code.png){width="200"} |
-| ![조건부 콘텐츠 사용](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | 조건부 콘텐츠 활성화 | 구성 요소에 대해 조건부 변형을 활성화합니다. [자세히 알아보기](./conditional-content.md) |
+| ![조건부 콘텐츠 사용](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | 조건부 콘텐츠 활성화 | (이메일 및 조각) 구성 요소에 대해 조건부 변형을 활성화합니다. [자세히 알아보기](./conditional-content.md) |
 | ![복제](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | 복제 | 구성 요소의 복사본을 만들고 바로 아래에 추가합니다. |
 | ![삭제](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | 삭제 | 구성 요소를 제거합니다. |
-
 
 ## 디자인에 콘텐츠 구성 요소 추가
 

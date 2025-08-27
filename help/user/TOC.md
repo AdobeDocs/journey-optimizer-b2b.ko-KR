@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 96%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 100%
       + [개요](./buying-groups/buying-groups-overview.md)
       + [솔루션 관심 분야](./buying-groups/solution-interests.md)
       + [역할 템플릿](./buying-groups/buying-groups-role-templates.md)
+      + [기본 및 사용자 정의 역할](./buying-groups/default-custom-roles.md)
+      + [참여 점수](./buying-groups/engagement-scores.md)
       + [구매 그룹 단계](./buying-groups/buying-group-stages.md)
       + [구매 그룹 만들기](./buying-groups/buying-groups-create.md)
-      + [계정 목록 내보내기](./audiences/account-list-export.md)
+      + [계정 내보내기](./audiences/account-list-export.md)
       + [LinkedIn 계정 일치 대상자](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage의 구매 그룹 필터](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + 계정 목록 {#account-lists}
@@ -116,5 +118,6 @@ ht-degree: 100%
       + [SMS 구성](./admin/configure-channels-sms.md)
    + [AEM Assets 저장소 구성](./admin/configure-aem-repositories.md)
    + [AEP 이벤트 정의 구성](./admin/configure-aep-events.md)
+   + [참여 점수 가중치 구성](./admin/engagement-score-weighting.md)
    + [랜딩 페이지 설정](./admin/landing-page-settings.md)
    + [거버넌스](./admin/governance.md)

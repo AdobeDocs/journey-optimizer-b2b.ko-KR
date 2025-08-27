@@ -1,10 +1,10 @@
 ---
 title: 스니펫
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: f12042952864dfbc37b214351849a20578d1ed63
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 0%
+source-wordcount: '2375'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 팀에 문의하십시오.<br/>
->&#x200B;>계약 및 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
+>AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 팀에 문의하십시오.<br/>
+>>계약 및 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
 
 ## 콘텐츠 작성 - 구성 요소 - 구조 단계 {#structures-step}
 
@@ -262,3 +262,16 @@ _[!UICONTROL 이미지 업로드]_ 대화 상자에서 시스템의 파일을 �
 선택한 이미지의 파일 이름이 대화 상자에 표시됩니다. 에셋 파일 이름은 폴더 간에 고유해야 하며 이름의 파일이 이미 있는 경우 메시지가 표시됩니다. 이름에는 최대 100자를 사용할 수 있으며 특수 문자(예: `;`, `:`, `\` 및 `|`)를 사용할 수 없습니다.
 
 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
+
+## 참여 점수 활동 {#engagement-activities}
+
+| 활동 이름 | 설명 | 참여 유형 | 최대 일일 빈도 수 | 기본 모델 활동 가중치 |
+| --- | --- | --- | --- | --- |
+| [!UICONTROL 이벤트 참석] | 멤버가 이벤트에 참여함 | 이벤트 | 20 | 60 |
+| [!UICONTROL 이메일 클릭됨] | 멤버가 판매 이메일의 링크를 클릭함 | 이메일 | 20 | 30 |
+| [!UICONTROL 이메일 열림] | 멤버가 이메일을 열람함 | 이메일 | 20 | 30 |
+| [!UICONTROL 양식 작성됨] | 멤버가 웹 페이지에서 양식을 작성하고 제출함 | 웹 | 20 | 40 |
+| [!UICONTROL 즐거운 순간] | 멤버에게 “즐거운 순간”이 있음 | 선별 | 20 | 60 |
+| [!UICONTROL 링크 클릭 수] | 멤버가 웹 페이지의 링크를 클릭함 | 웹 | 20 | 40 |
+| [!UICONTROL 페이지 보기] | 구성원이 웹 페이지를 봅니다. | 웹 | 20 | 40 |
+| [!UICONTROL 이벤트에 등록] | 이벤트에 등록된 멤버 | 이벤트 | 20 | 60 |

@@ -1,23 +1,23 @@
 ---
 title: 조건부 콘텐츠
-description: 계정 여정에 대한 이메일 콘텐츠를 작성할 때 콘텐츠 변형을 만들고 조건부 규칙을 적용하는 방법에 대해 알아봅니다.
-feature: Email Authoring, Content
+description: 계정 여정에 대한 시각적 조각 및 이메일 콘텐츠를 작성할 때 콘텐츠 변형을 만들고 조건부 규칙을 적용하는 방법에 대해 알아봅니다.
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1259'
 ht-degree: 10%
 
 ---
 
 # 조건부 콘텐츠
 
-조건부 콘텐츠를 사용하면 조건부 규칙에 따라 이메일 콘텐츠를 조정할 수 있습니다. 이러한 규칙은 프로필 속성 또는 컨텍스트 이벤트를 사용하여 정의됩니다. 규칙 빌더에서 조건부 규칙을 만들고, 이를 저장하여 계정 여정 전반에서 재사용할 수 있습니다.
+조건부 콘텐츠를 사용하면 조건부 규칙에 따라 이메일 및 조각 콘텐츠를 조정할 수 있습니다. 이러한 규칙은 프로필 속성 또는 컨텍스트 이벤트를 사용하여 정의됩니다. 규칙 빌더에서 조건부 규칙을 만들고, 이를 저장하여 계정 여정 전반에서 재사용할 수 있습니다.
 
-이메일 메시지에 조건부 콘텐츠를 추가하기 위해 Adobe Journey Optimizer에서는 _조건_ 라이브러리에 저장된 조건부 규칙을 적용할 수 있습니다. [계정 여정에 대한 전자 메일 콘텐츠를 작성](./email-authoring.md)할 때 전자 메일 디자인 공간 내에 조건부 규칙을 적용합니다.
+조각 및 전자 메일 메시지에 조건부 콘텐츠를 추가하기 위해 Adobe Journey Optimizer에서는 _조건_ 라이브러리에 저장된 조건부 규칙을 적용할 수 있습니다. [계정 여정에 대한 전자 메일 콘텐츠](./email-authoring.md) 또는 [시각적 조각](./fragment-authoring.md)을 작성할 때 시각적 디자인 공간 내에 조건부 규칙을 적용합니다.
 
-## 이메일에 조건부 콘텐츠 추가 {#email-content}
+## 조건부 콘텐츠 추가 {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,15 +29,15 @@ ht-degree: 10%
 >title="조건부 콘텐츠"
 >abstract="라이브러리에 저장된 조건부 규칙을 사용하거나 새로 만듭니다."
 
-이메일 디자인 공간에서 계정 여정에 대한 이메일을 작성할 때 조건부 규칙을 사용하여 콘텐츠 구성 요소에 대한 여러 변형을 정의합니다.
+시각적 디자인 공간에서 조각 또는 이메일을 작성할 때 조건부 규칙을 사용하여 콘텐츠 구성 요소에 대한 여러 변형을 정의합니다.
 
 1. 콘텐츠 구성 요소를 선택하고 구성 요소 도구 모음에서 **[!UICONTROL 조건부 콘텐츠 활성화]** 아이콘을 클릭합니다.
 
-   구성 요소는 조건부 구성 요소로 활성화되었음을 나타내기 위해 주황색으로 표시됩니다. **[!UICONTROL 조건부 콘텐츠]** 창의 왼쪽에 _기본 변형_ 및 _Variant - 1이 표시됩니다.
+   구성 요소는 조건부 구성 요소로 활성화되었음을 나타내기 위해 주황색으로 표시됩니다. **[!UICONTROL 조건부 콘텐츠]** 창은 왼쪽에 _기본 변형_ 및 _변형 - 1_&#x200B;과 함께 표시됩니다.
 
    ![텍스트 구성 요소에 조건부 콘텐츠 사용](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
-   선택하고 활성화한 원래 컨텐츠는 기본값이며, 정의한 변형에 대해 충족되지 않은 조건부 규칙이 없을 때 적용됩니다.
+   선택하고 활성화한 원래 콘텐츠는 기본값이며 정의하는 변형에 대해 충족되는 조건부 규칙이 없을 때 적용됩니다.
 
    이 창에서는 조건부 규칙을 사용하여 선택한 콘텐츠 구성 요소에 대해 여러 변형을 정의할 수 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    ![조건 라이브러리 액세스 조건 세부 정보](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   필요한 조건이 없으면 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭하여 [조건부 규칙을 만듭니다](#create-condition).
+   필요한 조건이 없으면 [새로 만들기](#create-condition)를 클릭하여 **[!UICONTROL 조건부 규칙을 만듭니다]**.
 
 1. 조건부 규칙을 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭하여 변형과 연결합니다.
 
@@ -94,22 +94,20 @@ ht-degree: 10%
 ## 조건부 규칙
 
 조건부 규칙은 true 또는 false로 평가할 수 있는 조건부 표현식 세트입니다. 이러한 규칙을 사용하여 프로필 속성 또는 컨텍스트 이벤트와 같은 다양한 필터를 기반으로 이메일 메시지에 표시할 콘텐츠 변형을 결정할 수 있습니다.
-
-조건부 규칙은 조건 라이브러리에 저장되며, 여기서 조직의 여정 컨텐츠 간에 재사용할 수 있습니다.
-<!-- 
-
+규칙은 조건 라이브러리에 저장되며, 여기서 조직의 이메일 및 조각 콘텐츠를 재사용할 수 있습니다.
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### 조건 필터 {#condition-filters}
 
 | 조건 유형 | 필터 | 설명 |
 | -------------- | ------- | ----------- |
 | **계정** | 계정 속성 | 다음을 포함한 계정 프로필의 속성: <li>연간 수익</li><li>구/군/시</li><li>국가</li><li>직원 규모</li><li>업종</li><li>이름</li><li>SIC 코드</li><li>주/도</li> |
-| | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 있음] | 계정에 구매 그룹의 구성원이 있거나 없습니다. 다음 기준 중 하나 이상에 대해서도 평가할 수 있습니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li> |
+| | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 있음] | 계정에 구매 그룹의 구성원이 있거나 없습니다. 다음 기준 중 하나 이상에 대해 필터를 평가할 수도 있습니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li> |
 | **사용자** | [!UICONTROL 활동 기록] > [!UICONTROL 전자 메일] | 여정과 연계된 이메일 활동: <li>[!UICONTROL 전자 메일에서 링크를 클릭함]</li><li>이메일 열림</li><li>게재됨 이메일</li><li>이(가) 이메일을 보냈습니다.</li> 이러한 조건은 여정 앞부분에서 선택한 이메일 메시지를 사용하여 평가됩니다. |
-|  | [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>구/군/시</li><li>국가</li><li>생년월일</li><li>이메일 주소</li><li>잘못된 이메일</li><li>이메일 일시 중단됨</li><li>이름</li><li>상태 영역 유추</li><li>직위</li><li>성</li><li>휴대폰 번호</li><li>전화번호</li><li>우편번호</li><li>주/도</li><li>주소 삭제</li><li>구독 취소 이유</li> |
+|  | [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>구/군/시</li><li>국가</li><li>생년월일</li><li>이메일 주소</li><li>잘못된 이메일</li><li>이메일 일시 중단됨</li><li>이름</li><li>상태 영역 유추</li><li>직위</li><li>성</li><li>휴대폰 번호</li><li>전화번호</li><li>우편번호</li><li>주/도</li><li>구독 취소</li><li>구독 취소 이유</li> |
 | | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>역할</li> |
 
 ### 조건부 규칙 만들기 {#create-condition}

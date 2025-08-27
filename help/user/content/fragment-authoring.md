@@ -4,16 +4,16 @@ description: 이메일 및 템플릿 디자인에 재사용할 수 있는 콘텐
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 7%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
 # 조각 작성
 
-[조각을 만들고](./fragments.md#create-fragments) 나면 시각적 편집기를 사용하여 조각의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
+[조각을 만들고](./fragments.md#create-fragments) 나면 시각적 디자인 공간을 사용하여 조각의 구조 및 콘텐츠 구성 요소를 작성합니다.
 
 ## 구조 및 콘텐츠 추가 {#design-fragment}
 
@@ -30,6 +30,12 @@ ht-degree: 7%
 ## 콘텐츠 개인화
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## 조건부 콘텐츠
+
+규칙에 따라 타겟팅된 프로필에 콘텐츠를 적용하는 조건부 콘텐츠를 추가하려면 콘텐츠 구성 요소를 선택하고 구성 요소 도구 모음에서 **[!UICONTROL 조건부 콘텐츠 사용]** 단추를 클릭하십시오. 게시된 조각이 이메일 메시지에 포함된 경우, 조건부 규칙은 이메일 메시지에 렌더링되는 조건부 구성 요소의 변형을 결정합니다.
+
+자세한 내용은 [_조건부 콘텐츠_](./conditional-content.md)&#x200B;를 참조하세요.
 
 ## 조각 사용자 지정 활성화
 

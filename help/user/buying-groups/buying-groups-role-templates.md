@@ -4,16 +4,16 @@ description: 구매 그룹 구성 요소로 사용할 역할 템플릿 정의에
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
+source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 3%
 
 ---
 
 # 구매 그룹 역할 템플릿
 
-B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다. 그 개인들은 조직 내에서 자신의 역할에 따라 의사결정 과정에 참여한다. 각 제품 제공 유형 또는 계정 사용 사례에 따라 이러한 역할 정의를 포함하는 구매 그룹 역할 템플릿을 만듭니다.
+B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다. 그 개인들은 조직 내에서 자신의 역할에 따라 의사결정 과정에 참여한다. 각 제품 제공 유형 또는 계정 사용 사례에 따라 역할 정의 그룹을 포함하는 구매 그룹 역할 템플릿을 만듭니다.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
@@ -23,7 +23,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
 1. _[!UICONTROL 구매 그룹]_ 페이지에서 **[!UICONTROL 역할 템플릿]** 탭을 선택합니다.
 
-   ![역할 템플릿 탭](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![역할 템플릿 탭](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    탭에는 모든 기존 역할 템플릿의 인벤토리 목록이 제공되며 열 형식으로 다음 정보가 표시됩니다.
 
@@ -56,13 +56,13 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
 ### 템플릿 역할 추가
 
-템플릿을 만들면 작업공간에서 열리고 역할을 정의하라는 메시지가 표시됩니다. 기본적으로 첫 번째 역할 카드가 표시됩니다.
+템플릿을 만들면 작업공간에서 열리고 역할을 추가하라는 메시지가 표시됩니다. 기본적으로 첫 번째 역할 카드가 표시됩니다.
 
 템플릿에 대해 정의하는 각 역할은 필터 집합 또는 _조건_&#x200B;을 사용하여 역할에 할당된 구성원을 결정합니다. 다음 필터 유형을 사용하여 역할에 대한 조건을 정의합니다.
 
 | 유형 | 조건 |
 | ---- | --------- |
-| 개인 속성 | <li>이메일 주소 <li>잘못된 이메일 <li>이메일 일시 중단됨 <li>팩스 번호 <li>이름 <li>상태 영역 유추 <li>직위 <li>성 <li>가운데 이름 <li>휴대폰 번호 <li>전화번호 <li>우편번호 <li>주/도 <li>주소 삭제 <li>구독 취소 이유 |
+| 개인 속성 | <li>이메일 주소 <li>잘못된 이메일 <li>이메일 일시 중단됨 <li>팩스 번호 <li>이름 <li>상태 영역 유추 <li>직위 <li>성 <li>가운데 이름 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주/도 <li>구독 취소 <li>구독 취소 이유 |
 | 특수 필터 | <li>목록 구성원 <li>프로그램 구성원 |
 | 의도 데이터 | 범주 의도 <li>제품 의도 <li>키워드 의도<br/>[의도 데이터에 대해 알아보기](../admin/intent-data.md). |
 
@@ -70,7 +70,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
    * 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
 
-     현재 릴리스에는 6개의 역할 `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`이(가) 있습니다.
+     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. [역할&#x200B;_목록_&#x200B;에 정의된 ](./default-custom-roles.md#custom-roles)사용자 지정 역할도 목록에 포함됩니다.
 
      ![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -162,4 +162,4 @@ Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3453308/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
