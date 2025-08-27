@@ -30,7 +30,7 @@ ht-degree: 24%
 
 * **개인 참여 점수** - 개인 참여 점수는 개별 구매 그룹 구성원의 활동을 기반으로 합니다.
 
-  각 구매 그룹 구성원의 개인 참여 점수가 구매 그룹 세부 정보 페이지 [_[!UICONTROL 구성원&#x200B;]_탭](./buying-group-details.md#buying-group-members)에 표시됩니다. 이러한 점수는 상위 참여 구성원 및 겹치는 연락처 정보가 포함된 페이지 및 대시보드에도 표시됩니다.
+  각 구매 그룹 구성원의 개인 참여 점수가 구매 그룹 세부 정보 페이지 [_[!UICONTROL 구성원&#x200B;]_&#x200B;탭](./buying-group-details.md#buying-group-members)에 표시됩니다. 이러한 점수는 상위 참여 구성원 및 겹치는 연락처 정보가 포함된 페이지 및 대시보드에도 표시됩니다.
 
   ![가장 많이 참여하는 구매 그룹 구성원](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
