@@ -112,4 +112,4 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452942/?learn=on&captions=kor)
