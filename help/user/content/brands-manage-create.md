@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2053'
 ht-degree: 6%
 
 ---
@@ -148,7 +148,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 
    * **지침 및 제외 예제를 추가하거나 수정합니다**.
 
-     표시된 예제 타일에서 _편집_( ![편집 아이콘](../assets/do-not-localize/icon-edit.svg) )을 클릭하여 예제를 변경하거나 _삭제_( ![삭제 아이콘](../assets/do-not-localize/icon-delete.svg) ) 아이콘을 클릭하여 제거합니다.
+     표시된 예제 타일에서 _편집_( ![편집 아이콘](../assets/do-not-localize/icon-edit.svg)) 아이콘을 클릭하여 예제를 변경하거나 _삭제_( ![삭제 아이콘](../assets/do-not-localize/icon-delete.svg)) 아이콘을 클릭하여 제거합니다.
 
 1. 모든 항목을 정의했으면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

@@ -4,9 +4,9 @@ description: 시각적 컨텐츠 조각을 Adobe Journey Optimizer B2B edition�
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2624'
+source-wordcount: '2738'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,11 @@ ht-degree: 2%
 
 **시각적 조각**
 
-시각적 조각은 여러 이메일 또는 이메일 템플릿에서 재사용할 수 있는 시각적 콘텐츠 디자이너를 사용하여 빌드된 사전 정의된 시각적 블록입니다. Journey Optimizer B2B edition의 현재 범위와 이 설명서는 시각적 조각에만 해당됩니다. 표현식 기반 조각은 Journey Optimizer B2B edition에서 아직 지원되지 않습니다.
+시각적 조각은 여러 이메일 또는 이메일 템플릿에서 재사용할 수 있는 시각적 디자인 도구를 사용하여 빌드된 사전 정의된 시각적 블록입니다. Journey Optimizer B2B edition의 현재 범위와 이 설명서는 시각적 조각에만 해당됩니다.
+
+>[!NOTE]
+>
+>식 기반 조각은 [!DNL Journey Optimizer B2B Edition]에서 아직 지원되지 않습니다.
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ Adobe Journey Optimizer B2B edition에서 시각적 조각에 액세스하려면
 
 | 상태 | 설명 |
 | -------------------- | ----------- |
-| 초안 | 조각을 만들면 초안 상태가 됩니다. 이메일 또는 이메일 템플릿에 사용하기 위해 게시하기 전까지 시각적 콘텐츠를 정의하거나 편집할 때 이 상태로 유지됩니다. 사용 가능한 작업: <br/><ul><li>모든 세부 정보 편집<li>비주얼 디자이너에서 편집<li>게시<li>복제<li>삭제 |
-| 게시일 | 조각을 게시하면 이메일 또는 이메일 템플릿에서 사용할 수 있습니다. 게시된 조각 콘텐츠는 비주얼 디자이너에서 수정할 수 없습니다. 사용 가능한 작업: <br/><ul><li>설명 편집<li>이메일 또는 템플릿에 추가<li>초안 버전 만들기<li>복제<li>삭제(사용하지 않는 경우) |
-| 초안과 함께 게시됨 | 게시된 조각에서 초안을 만들 때 게시된 버전은 이메일 또는 이메일 템플릿에서 사용할 수 있으며 비주얼 디자이너에서 초안 콘텐츠를 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되며 콘텐츠는 사용 중인 이메일 및 이메일 템플릿에서 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>설명 편집<li>이메일 또는 템플릿에 추가<li>비주얼 디자이너에서 초안 버전 편집<li>초안 버전 게시<li>복제<li>삭제(사용하지 않는 경우) |
+| 초안 | 조각을 만들면 초안 상태가 됩니다. 이메일 또는 이메일 템플릿에 사용하기 위해 게시하기 전까지 시각적 디자인 공간을 정의하거나 편집할 때 이 상태로 유지됩니다. 사용 가능한 작업: <br/><ul><li>모든 세부 정보 편집<li>시각적 디자인 공간에서 편집<li>게시<li>복제<li>삭제 |
+| 게시일 | 조각을 게시하면 이메일 또는 이메일 템플릿에서 사용할 수 있습니다. 게시된 조각 콘텐츠는 시각적 디자인 공간에서 수정할 수 없습니다. 사용 가능한 작업: <br/><ul><li>설명 편집<li>이메일 또는 템플릿에 추가<li>초안 버전 만들기<li>복제<li>삭제(사용하지 않는 경우) |
+| 초안과 함께 게시됨 | 게시된 조각에서 초안을 만들 때 게시된 버전은 이메일 또는 이메일 템플릿에서 계속 사용할 수 있으며 시각적 디자인 공간에서 초안 콘텐츠를 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되며 콘텐츠는 사용 중인 이메일 및 이메일 템플릿에서 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>설명 편집<li>이메일 또는 템플릿에 추가<li>시각적 디자인 공간에서 초안 버전 편집<li>초안 버전 게시<li>복제<li>삭제(사용하지 않는 경우) |
 
 ![조각 상태 주기](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,7 +90,7 @@ Adobe Journey Optimizer B2B edition에서 시각적 조각에 액세스하려면
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-   비주얼 디자이너가 빈 캔버스로 열립니다.
+   시각적 디자인 공간이 빈 캔버스로 열립니다.
 
 1. 콘텐츠 디자인 도구를 사용하여 시각적 조각 콘텐츠를 만듭니다.
 
@@ -96,6 +100,18 @@ Adobe Journey Optimizer B2B edition에서 시각적 조각에 액세스하려면
    * [콘텐츠 개인화](./fragment-authoring.md#personalize-content)
    * [사용자 정의 필드 활성화](./fragment-authoring.md#enable-fragment-customization)
    * [연결된 URL 추적 편집](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. (선택 사항) 조각 콘텐츠에 [브랜드 테마](./brand-themes.md)를 적용하여 조각 작성 프로세스를 간소화하고 디자인이 정의된 표준에 부합하는지 확인합니다.
+
+   >[!NOTE]
+   >
+   >테마를 적용할 때 조각 호환성은 _테마 모드_&#x200B;에서 만든 전자 메일 및 전자 메일 템플릿으로 제한됩니다.
+
+   오른쪽의 _테마_( ![테마 아이콘](../assets/do-not-localize/icon-design-themes.svg) ) 아이콘을 클릭합니다.
+
+   ![조각 디자인 공간 - 테마 아이콘 선택됨](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   **[!UICONTROL 내 테마]** 탭에 나열된 사용자 지정 테마 중 하나를 선택하거나 **[!UICONTROL Adobe 테마]**&#x200B;를 선택하여 기본 테마를 사용할 수 있습니다. 목록 외부를 클릭하면 캔버스에 있는 모든 구성 요소의 스타일이 선택한 테마에 적용됩니다. 필요에 따라 색상 변형 간을 전환할 수 있습니다.
 
 1. 언제든지 **[!UICONTROL 저장]**&#x200B;을 클릭하여 초안 조각을 저장합니다.
 
@@ -166,9 +182,9 @@ _전자 메일_ 또는 _전자 메일 템플릿_ 범주에 따라 참조가 표�
 
    ![초안 상태의 인터페이스에 대한 세부 정보](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. 비주얼 디자이너에서 콘텐츠를 변경하려면 **[!UICONTROL 조각 편집]**&#x200B;을 클릭하세요.
+1. 시각적 디자인 공간에서 콘텐츠를 변경하려면 **[!UICONTROL 조각 편집]**&#x200B;을 클릭하세요.
 
-   필요에 따라 비주얼 디자이너 도구를 사용합니다.
+   필요에 따라 시각적 디자인 도구를 사용합니다.
 
    * [구조 및 콘텐츠 추가](./fragment-authoring.md#add-structure-and-content)
    * [Assets 추가](./fragment-authoring.md#add-assets)
@@ -193,11 +209,11 @@ _전자 메일_ 또는 _전자 메일 템플릿_ 범주에 따라 참조가 표�
 
 1. 콘텐츠를 업데이트하려면 오른쪽 상단의 **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭하십시오.
 
-   대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 클릭하여 비주얼 디자이너에서 초안 버전을 엽니다.
+   대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 클릭하여 시각적 디자인 공간에서 초안 버전을 엽니다.
 
    ![초안 버전 만들기 대화 상자](./assets/fragments-create-draft-version.png){width="300"}
 
-   필요에 따라 비주얼 디자이너 도구를 사용합니다.
+   필요에 따라 시각적 디자인 도구를 사용합니다.
 
    * [구조 및 콘텐츠 추가](./fragment-authoring.md#add-structure-and-content)
    * [Assets 추가](./fragment-authoring.md#add-assets)
@@ -226,7 +242,7 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 콘텐츠를 업데이트하려면:
 
-1. 오른쪽 상단의 **[!UICONTROL 조각 편집]**&#x200B;을 클릭합니다. 필요에 따라 비주얼 디자이너 도구를 사용합니다.
+1. 오른쪽 상단의 **[!UICONTROL 조각 편집]**&#x200B;을 클릭합니다. 필요에 따라 시각적 디자인 도구를 사용합니다.
 
    * [구조 및 콘텐츠 추가](./fragment-authoring.md#add-structure-and-content)
    * [Assets 추가](./fragment-authoring.md#add-assets)
@@ -286,9 +302,9 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 1. **[!UICONTROL 계정 여정]**(으)로 이동하여 기존 여정을 열거나 새 여정을 만드십시오.
 
-1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_&#x200B;노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
+1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
 
-1. [&#128279;](./email-authoring.md) 노드에 대한 전자 메일 콘텐츠를 만들거나 편집합니다.
+1. [ 노드에 대한 ](./email-authoring.md)전자 메일 콘텐츠를 만들거나 편집합니다.
 
 1. **[!UICONTROL 구성 요소]** 메뉴에서 항목을 끌어다 놓아 조각에 대한 _구조_&#x200B;을(를) 제공하세요.
 

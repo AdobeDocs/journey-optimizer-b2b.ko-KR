@@ -4,16 +4,16 @@ description: Adobe Journey Optimizer B2B에서 이메일 콘텐츠를 만드는 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 # 이메일 메시지 작성
 
-&lbrack;여정 작업 노드에 새 <!-- or duplicated --> 이메일 자산을 추가&rbrack;(./add-email.md)한 후 이메일 메시지의 콘텐츠를 정의할 수 있습니다.
+[여정 작업 노드에 전자 메일 자산을 추가](./add-email.md)한 후 전자 메일 메시지의 콘텐츠를 정의할 수 있습니다.
 
 오른쪽 패널의 **[!UICONTROL 세부 정보]** 탭에서 _[!UICONTROL 전자 메일 콘텐츠 편집]_&#x200B;을 클릭합니다.
 
@@ -38,17 +38,24 @@ ht-degree: 2%
 시각적 콘텐츠 디자인 공간을 사용하여 이메일의 구조와 콘텐츠를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 초 내에 재사용 가능한 이메일 콘텐츠의 형태를 디자인할 수 있습니다.
 
 1. _[!UICONTROL 템플릿 디자인]_ 홈 페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
-1. 전자 메일 메시지에 [구조 및 콘텐츠를 추가](#add-structure-and-content)합니다.
-1. 전자 메일 메시지에 [이미지 자산 추가](#add-assets).
-1. [전자 메일 콘텐츠 개인화](#personalize-content).
+
+1. _[!UICONTROL 전자 메일 만들기]_ 대화 상자에서 작성하려는 전자 메일 콘텐츠의 유형을 선택합니다.
+
+   * **[!UICONTROL 테마 사용]** - _테마 모드_&#x200B;에서 전자 메일을 만들려면 이 옵션을 선택하세요. 이 모드에서는 정의된 브랜드 테마를 사용하여 콘텐츠 작성 프로세스를 간소화하고 디자인이 정의된 표준에 맞게 조정되도록 할 수 있습니다.
+
+   * **[!UICONTROL 수동 스타일 지정]** - _수동 모드_&#x200B;에서 전자 메일을 만들려면 이 옵션을 선택하십시오. 이 모드에서는 빈 캔버스에 추가하는 모든 구조 및 콘텐츠 구성 요소의 스타일을 수동으로 설정합니다.
+
+1. 템플릿에 [구조 및 콘텐츠 추가](./email-authoring.md#add-structure-and-content).
+
 1. [링크 검토 및 업데이트](#preview-and-edit-linked-urls).
+
 1. [이메일을 테스트합니다](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 내용이 만족스러우면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
@@ -70,7 +77,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 저장된 템플릿에는 하나 이상의 구성 요소에 적용되는 거버넌스(콘텐츠 잠금) 설정이 있을 수 있습니다. 비주얼 디자이너는 [관리되는 템플릿에서 전자 메일을 작성](./email-authoring-governance.md)할 때 잠긴 구성 요소에 대한 지침을 제공합니다.
+> 저장된 템플릿에는 하나 이상의 구성 요소에 적용되는 거버넌스(콘텐츠 잠금) 설정이 있을 수 있습니다. [관리되는 템플릿에서 전자 메일을 작성](./email-authoring-governance.md)할 때 비주얼 디자인 스페이스에서 잠긴 구성 요소에 대한 지침을 제공합니다.
 
 ## 구조 및 콘텐츠 추가 {#structure-content}
 
@@ -78,7 +85,7 @@ ht-degree: 2%
 
 ### 사용자 정의 CSS 추가
 
-이메일 디자인 공간 내에 직접 사용자 지정 CSS를 추가할 수 있습니다. 사용자 지정 CSS를 사용하여 콘텐츠의 모양을 보다 유연하게 제어하고, 고급 및 특정 스타일을 적용할 수 있습니다. 이미지, 단추 및 텍스트와 같은 구성 요소를 포함하기 전에 이 최상위 수준의 스타일을 추가하는 것이 좋습니다.
+이메일 디자인 공간 내에 직접 사용자 지정 CSS를 추가할 수 있습니다. 사용자 지정 CSS를 사용하여 콘텐츠의 모양을 보다 유연하게 제어하고, 고급 및 특정 스타일을 적용할 수 있습니다. 이미지, 단추 및 텍스트와 같은 콘텐츠 구성 요소를 포함하기 전에 이 최상위 수준의 스타일을 추가하는 것이 좋습니다.
 
 캔버스에 콘텐츠 구성 요소가 하나 이상 있는 경우 왼쪽 탐색 트리에서 **[!UICONTROL 본문]** 구성 요소를 선택하여 사용자 지정 CSS 편집기에 액세스합니다.
 
@@ -91,6 +98,10 @@ ht-degree: 2%
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### 조각 추가
+
+>[!NOTE]
+>
+>전자 메일 콘텐츠의 _테마 모드_&#x200B;와(과) _수동 모드_ 간에 조각이 상호 호환되지 않습니다. 테마가 적용되는 전자 메일 콘텐츠에서 조각을 사용하려면 _테마 모드_&#x200B;에서도 조각을 만들어야 합니다.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -128,13 +139,13 @@ ht-degree: 2%
 
 ## 추가 옵션
 
-전자 메일 디자인 영역 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 다음 작업을 수행할 수 있습니다.
+시각적 디자인 스페이스 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 다음 작업을 수행할 수 있습니다.
 
 템플릿 작업에 액세스하려면 ![자세히 클릭](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL 전자 메일 재설정]** - 시각적 전자 메일 디자이너 캔버스를 빈 슬레이트로 지우고 콘텐츠 작성을 다시 시작하려면 이 옵션을 클릭합니다.
+* **[!UICONTROL 전자 메일 재설정]** - 전자 메일 디자인 캔버스를 빈 슬레이트로 지우고 콘텐츠 작성을 다시 시작하려면 이 옵션을 클릭하십시오.
 * **[!UICONTROL 조각으로 저장]** - 전자 메일의 전체 또는 일부를 조각으로 저장하여 여러 전자 메일 또는 전자 메일 템플릿에서 다시 사용할 수 있습니다. 조각의 이름과 설명을 입력하고 사용 가능한 조각 목록에 저장합니다.
-* **[!UICONTROL 디자인 변경]** - _전자 메일 디자인_ 페이지로 돌아가기. 여기에서 다른 템플릿을 선택하여 디자인 프로세스를 다시 시작하거나, 검정색 캔버스에 컨텐츠를 처음부터 디자인하도록 선택할 수 있습니다.\
+* **[!UICONTROL 디자인 변경]** - _전자 메일 디자인_ 페이지로 돌아가기. 여기에서 다른 템플릿을 선택하여 디자인 프로세스를 재시작할 수 있습니다. 빈 캔버스(_클래식 모드_)를 사용하거나 [브랜드 테마](./brand-themes.md)(_테마 모드_)를 사용하여 콘텐츠를 처음부터 디자인하도록 선택할 수도 있습니다.
 * **[!UICONTROL 콘텐츠 템플릿으로 저장]** - 여러 전자 메일 또는 전자 메일 템플릿에서 재사용할 수 있도록 전자 메일 본문을 전자 메일 템플릿으로 저장합니다. 템플릿의 이름과 설명을 입력하고 저장한 이메일 템플릿 목록에 저장합니다.
 * **[!UICONTROL HTML 내보내기]** - zip 파일로 패키지된 HTML 형식의 로컬 시스템에 시각적 캔버스의 콘텐츠를 다운로드합니다.
 

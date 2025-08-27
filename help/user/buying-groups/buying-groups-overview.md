@@ -4,9 +4,9 @@ description: Journey Optimizer B2B Edition의 구매 그룹이 계정 목록에 
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1194'
 ht-degree: 75%
 
 ---
@@ -20,7 +20,7 @@ B2B 판매 및 마케팅 활동에서 계정은 모든 전략의 핵심입니다
 
 계정 내에는 _구매 그룹_&#x200B;을 구성하는 하위 집합이 있을 수 있습니다. 이들은 궁극적으로 구매 결정을 내리는 사람들이므로 마케터의 특별한 관심이 필요하며, 이들에게는 해당 계정과 관련된 다른 사람들과는 다른 정보를 제공해야 할 수도 있습니다. 구매 그룹은 다양한 제품 라인이나 서비스를 담당하는 다양한 사람들로 구성될 수 있습니다. 예를 들어 사이버 보안 제품은 일반적으로 최고 정보 책임자 또는 최고 보안 책임자, 그리고 법무 부서 담당자의 구매 승인을 요구할 수 있습니다. 버그 추적 제품의 구매 그룹에는 일반적으로 엔지니어링 담당 부책임자와 IT 책임자가 포함됩니다.
 
-![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 개요 보기](#overview-video)
+![비디오 아이콘](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 개요 보기](#overview-video)
 
 ## 주요 구성 요소
 
@@ -112,4 +112,4 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3452942/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

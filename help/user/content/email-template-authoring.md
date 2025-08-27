@@ -4,9 +4,9 @@ description: 계정 여정 이메일에 사용하여 디자인을 쉽고 효율�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 3%
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### 조각 추가
+
+>[!NOTE]
+>
+>전자 메일 콘텐츠의 _테마 모드_&#x200B;와(과) _수동 모드_ 간에 조각이 상호 호환되지 않습니다. 테마가 적용되는 전자 메일 콘텐츠에서 조각을 사용하려면 _테마 모드_&#x200B;에서도 조각을 만들어야 합니다.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -69,5 +73,5 @@ ht-degree: 3%
 
 * **[!UICONTROL 템플릿 재설정]** - 디자인 캔버스를 빈 슬레이트로 지우고 빌드 콘텐츠를 다시 시작하려면 이 옵션을 클릭합니다.
 * **[!UICONTROL 조각으로 저장]** - 여러 전자 메일 또는 전자 메일 템플릿에서 재사용할 조각으로 템플릿의 전체 또는 일부를 저장합니다. 조각의 이름과 설명을 입력하고 사용 가능한 조각 목록에 저장합니다.
-* **[!UICONTROL 디자인 변경]** - _템플릿 디자인_ 페이지로 돌아가기 여기에서 템플릿을 처음부터 디자인하거나 기존 템플릿을 사용하여 디자인 프로세스를 다시 시작할 수 있습니다.
+* **[!UICONTROL 디자인 변경]** - _전자 메일 디자인_ 페이지로 돌아가기. 여기에서 다른 템플릿을 선택하여 디자인 프로세스를 재시작할 수 있습니다. 빈 캔버스(_클래식 모드_)를 사용하거나 [브랜드 테마](./brand-themes.md)(_테마 모드_)를 사용하여 콘텐츠를 처음부터 디자인하도록 선택할 수도 있습니다.
 * **[!UICONTROL HTML 내보내기]** - zip 파일로 패키지된 HTML 형식의 로컬 시스템에 시각적 캔버스의 콘텐츠를 다운로드합니다.
