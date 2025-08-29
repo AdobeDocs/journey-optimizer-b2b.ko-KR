@@ -3,18 +3,18 @@ title: Experience Platform 이벤트 구성
 description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 대기 노드 유형에 대해 알아봅니다.
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1779'
 ht-degree: 1%
 
 ---
 
 # Experience Platform 이벤트 정의 구성
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다.
+관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 개요 보기](#overview-video)
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >엔지니어링 팀과 조정하여 필요한 스키마가 정의되었는지 확인합니다. [XDM 스키마 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition){target="_blank"}는 조직의 사용 사례 요구 사항을 기반으로 데이터 엔지니어가 수행하는 복잡한 프로세스입니다.
+  >필요한 스키마가 정의되었는지 확인하려면 엔지니어링 팀과 조정하십시오. [XDM 스키마 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}는 조직의 사용 사례 요구 사항을 기반으로 데이터 엔지니어가 수행하는 복잡한 프로세스입니다.
 
 * **_이벤트 유형_** - XDM ExperienceEvent eventType(이벤트 정의당 최대 20개).
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![구성된 이벤트 정의에 액세스](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   표는 _[!UICONTROL 수정됨]_ 열을 기준으로 정렬되며 가장 최근에 업데이트된 정의가 기본적으로 맨 위에 있습니다.<!-- Click the column title to change between ascending and descending.-->
+   표는 _[!UICONTROL 수정됨]_ 열을 기준으로 정렬되며 맨 위에 가장 최근에 업데이트된 정의가 기본값으로 표시됩니다.<!-- Click the column title to change between ascending and descending.-->
 
 1. 이벤트 정의에 대한 세부 정보에 액세스하려면 이름을 클릭합니다.
 
@@ -80,9 +80,9 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
 | 상태 | 설명 |
 | -------------------- | ----------- |
-| 초안 | 이벤트 정의를 생성하면 초안 상태가 됩니다. 계정 여정에 사용하기 위해 게시하기 전까지는 이 상태로 유지됩니다. 사용 가능한 작업: <br/><ul><li>모든 세부 정보 편집<li>게시<li>삭제 |
-| 게시일 | 이벤트 정의를 게시하면 계정 여정에서 사용할 수 있습니다. 세부 사항을 수정할 수 없습니다. 사용 가능한 작업: <br/><ul><li>_이벤트 수신_ 여정 노드에서 사용 가능<li>초안 버전 만들기<li>삭제(사용하지 않는 경우) |
-| 게시됨 (초안 포함) | 게시된 이벤트 정의에서 초안을 만들 때 게시된 버전은 계정 여정에서 사용할 수 있으며 초안 버전을 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되고 아직 실행되지 않은 계정 여정에 대해 이벤트 정의가 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>모든 세부 정보 편집<li>초안 버전 게시<li>초안 버전 삭제<li>삭제(사용하지 않는 경우) |
+| 초안 | 이벤트 정의를 생성하면 초안 상태가 됩니다. 계정 여정에 사용하기 위해 게시하기 전까지는 이 상태로 유지됩니다. 사용 가능한 작업: <br/><li>모든 세부 정보 편집<li>게시<li>삭제 |
+| 게시일 | 이벤트 정의를 게시하면 계정 여정에서 사용할 수 있습니다. 세부 사항을 수정할 수 없습니다. 사용 가능한 작업: <br/><li>_이벤트 수신_ 여정 노드에서 사용 가능<li>초안 버전 만들기<li>삭제(사용하지 않는 경우) |
+| 게시됨 (초안 포함) | 게시된 이벤트 정의에서 초안을 만들 때 게시된 버전은 계정 여정에서 사용할 수 있으며 초안 버전을 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되고 아직 실행되지 않은 계정 여정에 대해 이벤트 정의가 업데이트됩니다. 사용 가능한 작업: <br/><li>모든 세부 정보 편집<li>초안 버전 게시<li>초안 버전 삭제<li>삭제(사용하지 않는 경우) |
 
 ![조각 상태 주기](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
 1. 이벤트 정의에 사용할 **[!UICONTROL 스키마]**&#x200B;을(를) 설정하십시오.
 
-   선택한 스키마에 따라 정의에 추가할 수 있는 필드가 결정되며, 이 필드는 계정 여정에서 _이벤트 수신_ 노드에 대한 제약 조건으로 사용할 수 있습니다.
+   선택하는 스키마에 따라 정의에 추가할 수 있는 필드가 결정됩니다. 추가한 필드는 계정 여정에서 _이벤트 수신_ 노드에 대한 제약 조건으로 사용할 수 있습니다.
 
    * **[!UICONTROL 스키마 선택]**&#x200B;을 클릭합니다.
    * 대화 상자의 경험 이벤트 기반 스키마 목록에서 스키마를 선택합니다.
@@ -116,7 +116,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
 1. 이벤트 정의에 사용할 **[!UICONTROL 이벤트 유형]**&#x200B;을(를) 선택하십시오.
 
-   선택한 [이벤트 유형](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}은(는) 계정 여정에서 _이벤트 수신_ 노드에 대한 제약 조건으로 사용할 수 있는 이벤트를 결정합니다.
+   선택한 [이벤트 유형](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}은(는) 계정 여정에서 _이벤트 수신_ 노드에 대한 제약 조건으로 사용할 수 있는 이벤트를 결정합니다.
 
    * **[!UICONTROL 이벤트 유형 선택]**&#x200B;을 클릭합니다.
    * 대화 상자에서 목록에서 이벤트 유형을 하나 이상 선택합니다(최대 20개).
@@ -146,7 +146,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
 ## 이벤트 정의 게시
 
-초안 이벤트 정의가 완료되어 필요에 맞게 수정된 경우 이를 게시하여 계정 여정에서 사용할 수 있도록 할 수 있습니다. 이벤트 정의가 게시된 후 변경해야 하는 경우 초안 버전을 만들 수 있습니다. 단, 스키마를 변경할 수 없으며 이벤트 유형 및 필드만 추가할 수 있습니다(삭제할 수 없음).
+초안 이벤트 정의가 완료되어 필요에 맞게 수정된 경우 이를 게시할 수 있습니다. 그러면 게시된 이벤트 정의를 계정 여정에서 사용할 수 있습니다. 이벤트 정의가 게시된 후 변경해야 하는 경우 초안 버전을 만들 수 있습니다. 단, 스키마를 변경할 수 없으며 이벤트 유형 및 필드만 추가할 수 있습니다(삭제할 수 없음).
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 구성]**&#x200B;을 선택합니다.
 
@@ -202,7 +202,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
 1. 확인 대화 상자에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-   이벤트 정의의 상태가 _게시됨_(으)로 변경되며 이제 계정 여정에서 사용할 수 있습니다.
+   이벤트 정의의 상태가 _게시됨_(으)로 변경되며, 이제 계정 여정에서 사용할 수 있습니다.
 
 >[!TAB 게시됨]
 
@@ -218,7 +218,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
 1. 이벤트 정의 이름을 클릭하여 엽니다.
 
-   _게시됨(초안 포함)_ 이벤트 정의의 경우 기본적으로 _[!UICONTROL 게시됨]_ 버전 탭이 선택됩니다.
+   _게시됨(초안 포함)_ 이벤트 정의의 경우 _[!UICONTROL 게시됨]_ 버전 탭이 기본값으로 선택됩니다.
 
 1. **[!UICONTROL 초안]** 버전 탭을 선택합니다.
 
@@ -240,7 +240,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
 >[!TAB 게시됨(초안 포함)]
 
-_게시됨(초안 포함)_ 이벤트 정의를 열면 기본적으로 _[!UICONTROL 게시됨]_ 버전 탭이 선택됩니다.
+_게시됨(초안 포함)_ 이벤트 정의를 열면 _[!UICONTROL 게시됨]_ 버전 탭이 기본값으로 선택됩니다.
 
 1. **[!UICONTROL 초안]** 버전 탭을 선택합니다.
 
@@ -282,4 +282,4 @@ _게시됨(초안 포함)_ 이벤트 정의를 열면 기본적으로 _[!UICONTR
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3448690/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

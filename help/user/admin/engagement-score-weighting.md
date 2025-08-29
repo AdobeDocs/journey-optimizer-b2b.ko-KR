@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 구매 그룹 참여 점수는 구매 그룹의 구성원에 대해 기록된 다양한 활동을 평가하여 참여 수준을 반영합니다. 사용자 정의 점수 가중치를 사용하면 마케팅 운영 팀은 참여에 가장 의미 있는 활동에 가중치를 적용하기 위한 자체 모델을 유연하게 정의할 수 있습니다. 사용자 지정 점수 책정 모델은 판매 프로세스에서 구매 의도를 가장 정확하게 나타내는 행동을 우선하여 파이프라인을 보다 정확하게 반영합니다.
 
-관리자는 조직에 대해 여러 개의 참여 점수 모델을 정의할 수 있지만, 한 번에 하나의 모델만 활성화할 수 있습니다. 포함할 활동 및 각 활동에 적용되는 가중치에 따라 점수 모델을 정의합니다.
+관리자는 조직에 대해 여러 개의 참여 점수 모델을 정의할 수 있지만, 한 번에 하나의 모델만 활성화할 수 있습니다. 각 참여 점수 책정 활동에 적용되는 가중치에 따라 점수 모델을 정의합니다.
 
 ## 참여 점수 가중치 모델에 액세스
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
    ![구성된 이벤트 정의에 액세스](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   표는 _[!UICONTROL 마지막으로 업데이트됨]_ 열을 기준으로 정렬되며, 맨 위에 기본적으로 가장 최근에 업데이트된 모델이 있으며, _[!UICONTROL 이름]_&#x200B;을 기준으로 검색하는 기능이 포함됩니다. 오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하고 열 확인란을 선택하거나 선택을 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
+   표에는 가장 최근에 업데이트된 모델이 맨 위에 표시되며(_[!UICONTROL 마지막으로 업데이트됨]_&#x200B;별로 정렬됨), _[!UICONTROL 이름]_&#x200B;별로 검색하는 기능이 포함되어 있습니다. 오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하고 열 확인란을 선택하거나 선택을 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
 
 참여 점수 가중치 목록에 표시할 ![열](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -78,11 +79,11 @@ ht-degree: 0%
 1. 각 가중치 밴드에 대해 필요에 따라 이름 또는 값을 조정합니다.
 
    * _[!UICONTROL 가중치 대역]_ 필드에서 이름을 변경합니다.
-   * 새 값을 입력하거나 **+** 또는 **-**&#x200B;을(를) 클릭하여 값을 늘리거나 줄이십시오.
+   * 새 값을 입력합니다. **&amp;plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
 
    ![참여 가중치 설정](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
-1. 필요한 경우 다른 가중치 밴드를 추가합니다.
+1. 필요한 경우 다른 가중치 대역을 추가합니다.
 
    목록 맨 아래에 있는 **[!UICONTROL + 가중치 밴드 추가]**&#x200B;를 클릭합니다. 이렇게 하면 목록 맨 아래에 빈 가중치 밴드가 삽입됩니다.
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 
 {{engagement-activities}}
 
-목록의 각 활동에 대해 각 활동 발생에 지정할 값을 설정합니다. 가중치 필드에서 아래쪽 화살표를 클릭하고 참여 가중치 설정에 정의된 가중치 대역을 선택합니다.
+목록의 각 활동에 대해 각 활동 발생에 지정할 값을 설정합니다. **[!UICONTROL 가중치]** 필드에서 아래쪽 화살표를 클릭하고 참여 가중치 설정에 정의된 가중치 대역을 선택합니다.
 
 ![활동 가중치 설정](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 
