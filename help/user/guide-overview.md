@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 설명서
 description: Adobe Journey Optimizer B2B Edition 기능을 사용하여 기본 제공되는 생성형 AI와 업계 최고 수준의 자동화를 통해 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 76%
 
 ---
 
@@ -17,29 +17,23 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
+>[!TAB 개인 참여 점수]
+
+이제 B2B 마케터는 개인 수준 참여 점수를 여정에 대한 분할 경로 또는 역할 템플릿의 필터로 사용하여 구매 그룹을 만들 수 있습니다. 이 점수 및 필터링을 통해 구매 그룹 구성원을 정확하게 타겟팅하여 진행 중인 참여를 개인화할 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="개인 참여 점수 및 필터링에 대해 알아보기"}
+
+>[!TAB 사용자 지정 구매 그룹 역할]
+
+B2B 마케팅 전략가는 이제 사용자 정의 구매 그룹 역할로 구매 그룹 정밀도를 확장할 수 있습니다. 기본 6개 이상의 사용자 정의 역할을 최대 20개까지 만들어 구매 그룹 간에 재사용합니다. 계정 여정 내에서 고유한 역할에 맞게 메시지를 맞춤화하고 구매 그룹 간의 관련성 및 참여를 개선합니다&#x200B;.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="사용자 정의 구매 그룹 역할에 대해 알아보기"}
+
 >[!TAB GenStudio 이메일 경험]
 
 GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Edition과 통합하여 마케팅 효율을 높이고 브랜드 일관성을 유지하십시오. 이 통합을 통해 GenStudio AI 기반 콘텐츠 생성과 Journey Optimizer B2B Edition의 고급 오케스트레이션 기능을 결합할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio 이메일 경험에 대해 알아보십시오"}
-
->[!TAB 스팸 탐지 보고]
-
-새로운 스팸 보고서 기능을 통해 스팸 필터를 피하고 메시지가 대상자의 받은 편지함으로 전달되도록 할 수 있습니다. 이메일 디자인 공간에서 바로 _스팸 보고서_&#x200B;를 생성합니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="스팸 탐지 보고에 대해 알아보기"}
-
->[!TAB 계정 및 구매 그룹 작업]
-
-계정 상세 정보 및 구매 그룹 상세 정보 페이지에서 바로 작업을 수행하여 시기적절하고 의도적인 참여를 유도할 수 있습니다.
-
-_이메일 보내기_ 작업을 사용하여 승인된 Marketo Engage 이메일을 선택한 계정 연락처 또는 구매 그룹 멤버들에게 보낼 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="계정 연락처에 이메일을 보내는 방법 알아보기"}
-
-구매 그룹 세부 정보에서는 _새 멤버 할당_, _멤버 제거_, _역할 편집_ 등의 작업도 포함됩니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="구매 그룹 작업에 대해 알아보기"}
 
 >[!TAB 사용자 정의 CSS 지원]
 
@@ -53,11 +47,11 @@ _이메일 보내기_ 작업을 사용하여 승인된 Marketo Engage 이메일�
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/intent-data.md" tooltip="의도 키워드 매핑 구성에 대해 알아보기"}
 
->[!TAB Litmus를 통한 이메일 테스트]
+>[!TAB 스팸 탐지 보고]
 
-Litmus 계정이 있으면 이제 Journey Optimizer B2B Edition의 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 통합 기능은 모든 이메일 받은 편지함에서 이메일 콘텐츠가 멋지게 보이고 디자인대로 작동하는지 확인하는 데 도움이 됩니다.
+새로운 스팸 보고서 기능을 통해 스팸 필터를 피하고 메시지가 대상자의 받은 편지함으로 전달되도록 할 수 있습니다. 이메일 디자인 공간에서 바로 _스팸 보고서_&#x200B;를 생성합니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Litmus 이메일 테스트 통합에 대해 알아보기"}
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="스팸 탐지 보고에 대해 알아보기"}
 
 >[!ENDTABS]
 
@@ -100,7 +94,7 @@ Litmus 계정이 있으면 이제 Journey Optimizer B2B Edition의 인기 있는
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="시작하기"><br/>
-      <strong>시작하기</strong><br/><a href="home-page.md">로그인 및 홈 페이지</a><br/><a href="./start/get-started.md">빠른 시작 안내서</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI 어시스턴트</a>
+      <strong>시작</strong><br/><a href="home-page.md">로그인 및 홈페이지</a><br/><a href="./start/get-started.md">온보딩 지침</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI 길잡이</a>
     </td>
     <!--
     <td>
@@ -113,7 +107,7 @@ Litmus 계정이 있으면 이제 Journey Optimizer B2B Edition의 인기 있는
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="계정 여정"><br/>
-      <strong>계정 여정</strong><br/><a href="./journeys/journey-overview.md">여정 개요</a><br/><a href="./journeys/journey-nodes.md">여정 노드</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">계정 여정 만들기</a>
+      <strong>계정 여정</strong><br/><a href="./journeys/journey-overview.md">여정 개요</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">계정 여정 만들기</a><br/><a href="./journeys/journey-nodes.md">여정 노드</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +131,7 @@ Litmus 계정이 있으면 이제 Journey Optimizer B2B Edition의 인기 있는
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
