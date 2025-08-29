@@ -27,7 +27,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 ## 2025.8 릴리스 정보
 
-**배포 일자**: 2025년 8월 26일 수요일
+**배포 일자**: 2025년 8월 26일
 
 이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
