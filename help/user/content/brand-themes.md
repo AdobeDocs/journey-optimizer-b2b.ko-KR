@@ -9,19 +9,20 @@ keywords: 이메일 테마, 재사용 가능성, 브랜드 정렬, 이메일 디
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9d8aa70c23ce85058a23bbe21c198d6e074923ac
+exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
+source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
 workflow-type: tm+mt
 source-wordcount: '3085'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 이메일 콘텐츠에 브랜드 테마 사용 {#email-brand-themes}
+# 이메일 콘텐츠에 브랜드 테마를 사용 {#email-brand-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="이메일 또는 이메일 템플릿에 브랜드 테마 적용"
->abstract="이메일 또는 이메일 템플릿에 대한 테마를 선택하여 브랜드 및 디자인에 맞는 특정 스타일을 적용합니다."
+>abstract="이메일 또는 이메일 템플릿의 테마를 선택하여 브랜드와 디자인에 맞는 특정 스타일을 빠르게 적용할 수 있습니다."
 
 테마를 사용하는 비기술 디자이너는 특정 브랜드 및 스타일에 맞게 조정할 수 있는 재사용 가능한 이메일 콘텐츠 디자인 지침을 만들 수 있습니다. 테마는 마케터가 시각적으로 호소력 있고 브랜드 일관성이 있는 이메일을 적은 노력으로 더 빠르고 활용할 수 있도록 하며, 고유한 디자인 요구에 대한 고급 사용자 지정 옵션을 제공합니다.
 
