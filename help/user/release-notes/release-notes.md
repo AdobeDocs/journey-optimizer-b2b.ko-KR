@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B Edition의 최신 기능과 향상된 �
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2787'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,16 +33,16 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 역할 템플릿 및 여정에 대한 사용자 참여 점수 필터 | 이제 구매 그룹 및 분할 경로 여정 노드를 만드는 데 사용되는 역할 템플릿의 필터로 _개인 참여 점수_&#x200B;를 사용할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| 기능 | 구매 그룹 사용자 정의 역할 구성 | 이제 구매 그룹을 위한 사용자 정의 역할을 유연하게 구성할 수 있으므로 사용 사례에 맞는 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/default-custom-roles.md) |
-| 기능 | 참여 점수 가중치 구성 | 이제 구매 그룹 참여 점수에 영향을 주는 활동에 가중치를 할당할 수 있습니다. 이 기능에는 자체 사용자 정의 점수 모델을 정의하고 참여 점수 계산에 영향을 주는 활성 모델을 변경하는 작업이 포함되어 있습니다. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
-| 개선 사항 | 조각용 조건부 콘텐츠 | 이제 조건부 콘텐츠 도구를 사용하여 시각적 조각 디자인을 수행할 수 있습니다. [자세히 알아보기](../content/conditional-content.md) |
-| 개선 사항 | 참여 점수 업데이트 | 점수 정규화를 위해 구매 그룹 참여 점수 논리가 업데이트되었습니다. 또한 전체 구매 그룹에 대한 집단 참여 점수뿐만 아니라 구성원 수준 참여 점수로 작업할 수 있습니다. [자세히 알아보기](../buying-groups/engagement-scores.md) |
+| 기능 | 역할 템플릿 및 여정에 대한 사용자 참여 점수 필터 | 이제 구매 그룹을 만들 때와 경로 분할 여정 노드에서 사용하는 역할 템플릿에서 _사용자 참여 점수_&#x200B;를 필터로 사용할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| 기능 | 구매 그룹 사용자 정의 역할 구성 | 이제 구매 그룹에 대한 사용자 정의 역할을 유연하게 구성할 수 있게 되어 사용 사례에 맞도록 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/default-custom-roles.md) |
+| 기능 | 참여 점수 가중치 구성 | 이제 구매 그룹 참여 점수에 영향을 주는 활동에 가중치를 할당할 수 있습니다. 이 기능은 사용자 정의 점수 모델을 정의하고 참여 점수 계산에 영향을 주는 활성 모델을 변경하는 기능을 포함합니다. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| 개선 사항 | 조각용 조건부 콘텐츠 | 시각적 조각 디자인에 대해 이제 조건부 콘텐츠 도구를 사용할 수 있습니다. [자세히 알아보기](../content/conditional-content.md) |
+| 개선 사항 | 참여 점수 업데이트 | 점수 정규화를 위해 구매 그룹 참여 점수 논리가 업데이트되었습니다. 또한 멤버 수준 참여 점수와 더불어 전체 구매 그룹에 대한 집단적 참여 점수도 활용할 수 있습니다. [자세히 알아보기](../buying-groups/engagement-scores.md) |
 | 개선 사항 | 활성 여정 가시성 - 각 노드의 계정 | 활성 계정 여정의 경우 여정에서 각 계정 노드에 도달한 계정 목록을 활용할 수 있습니다. |
 
 >[!NOTE]
 >
->릴리스 변경 사항은 2025년 8월 26일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 날짜는 변경될 수 있습니다.
+>릴리스 변경 사항은 2025년 8월 26일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 ## 2025.6 릴리스 정보
 

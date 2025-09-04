@@ -5,17 +5,17 @@ feature: Account Lists
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 계정 내보내기
 
-_계정 내보내기_ 기능을 사용하여 사용자가 정의한 필터링을 기준으로 모든 계정 또는 계정 집합을 내보냅니다. 내보내기 프로세스에서는 CSV 파일이 생성되며 저장된 파일의 URL이 펄스 알림으로 전송됩니다. 필요한 경우 이 기능을 사용하여 계정을 서드파티 플랫폼으로 이동할 수 있습니다.
+_계정 내보내기_ 기능을 사용하면 정의한 필터링에 따라 모든 계정이나 계정 세트를 내보낼 수 있습니다. 내보내기 프로세스에서는 CSV 파일이 생성되며 저장된 파일의 URL이 펄스 알림으로 전송됩니다. 필요한 경우 이 기능을 사용하여 계정을 서드파티 플랫폼으로 이동할 수 있습니다.
 
-1. Journey Optimizer B2B 에디션의 왼쪽 탐색 영역에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**&#x200B;으로 이동합니다.
+1. Journey Optimizer B2B Edition의 왼쪽 탐색 영역에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**&#x200B;으로 이동합니다.
 
 1. **[!UICONTROL 찾아보기]** 탭을 선택합니다.
 
