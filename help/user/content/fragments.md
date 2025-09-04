@@ -4,9 +4,9 @@ description: 시각적 컨텐츠 조각을 Adobe Journey Optimizer B2B edition�
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: f700f84c55d37ded9980a08286da05011345800c
+source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2736'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 **시각적 조각**
 
-시각적 조각은 여러 이메일 또는 이메일 템플릿에서 재사용할 수 있는 시각적 디자인 도구를 사용하여 빌드된 사전 정의된 시각적 블록입니다. Journey Optimizer B2B edition의 현재 범위와 이 설명서는 시각적 조각에만 해당됩니다.
+시각적 조각은 여러 이메일 또는 이메일 템플릿에서 재사용할 수 있는 시각적 디자인 도구를 사용하여 빌드된 사전 정의된 시각적 블록입니다. Journey Optimizer B2B edition의 현재 범위 및 이 설명서에는 시각적 조각만 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -302,7 +302,7 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 1. **[!UICONTROL 계정 여정]**(으)로 이동하여 기존 여정을 열거나 새 여정을 만드십시오.
 
-1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_&#x200B;노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
+1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
 
 1. [ 노드에 대한 ](./email-authoring.md)전자 메일 콘텐츠를 만들거나 편집합니다.
 
