@@ -4,7 +4,7 @@ description: 비즈니스 전략에 부합하는 채점 논리를 반영하도�
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -27,9 +27,11 @@ ht-degree: 0%
 
    ![구성된 이벤트 정의에 액세스](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   표에는 가장 최근에 업데이트된 모델이 맨 위에 표시되며(_[!UICONTROL 마지막으로 업데이트됨]_&#x200B;별로 정렬됨), _[!UICONTROL 이름]_&#x200B;별로 검색하는 기능이 포함되어 있습니다. 오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하고 열 확인란을 선택하거나 선택을 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
+   표에는 가장 최근에 업데이트된 모델이 맨 위에 표시되며(_[!UICONTROL 마지막으로 업데이트됨]_&#x200B;별로 정렬됨), _[!UICONTROL 이름]_&#x200B;별로 검색하는 기능이 포함되어 있습니다.
 
-참여 점수 가중치 목록에 표시할 ![열](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하고 열 확인란을 선택하거나 선택을 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
+
+   참여 점수 가중치 목록에 표시할 ![열](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. 참여 점수 모델에 대한 세부 정보에 액세스하려면 이름을 클릭합니다.
 
@@ -76,7 +78,7 @@ ht-degree: 0%
 1. 각 가중치 밴드에 대해 필요에 따라 이름 또는 값을 조정합니다.
 
    * _[!UICONTROL 가중치 대역]_ 필드에서 이름을 변경합니다.
-   * 새 값을 입력합니다. **&plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
+   * 새 값을 입력합니다. **&amp;plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
 
    ![참여 가중치 설정](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
