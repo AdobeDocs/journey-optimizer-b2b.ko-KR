@@ -1,13 +1,13 @@
 ---
 title: 계정 내보내기
-description: 구매 그룹 필터에 따라 계정 목록을 내보내는 방법을 알아봅니다.
-feature: Account Lists
+description: Journey Optimizer B2B edition에 구매 그룹 및 참여 점수 필터가 있는 서드파티 플랫폼을 위해 필터링된 계정 목록을 CSV로 내보냅니다.
+feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 91%
 
 ---
 

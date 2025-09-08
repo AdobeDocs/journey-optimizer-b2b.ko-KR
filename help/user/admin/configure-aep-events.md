@@ -1,20 +1,20 @@
 ---
 title: Experience Platform 이벤트 구성
-description: Journey Optimizer B2B edition 여정에서 사용할 Experience Platform 이벤트 정의를 구성하는 방법에 대해 알아봅니다.
+description: Experience Platform 이벤트 정의를 구성하여 고객 행동에 따라 Journey Optimizer B2B edition에서 실시간 계정 여정을 트리거합니다.
 feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 2cfe830608857206dacb23bb52e41f0b3953b39b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1778'
 ht-degree: 1%
 
 ---
 
 # Experience Platform 이벤트 정의 구성
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다.
+관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 개요 보기](#overview-video)
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >필요한 스키마가 정의되었는지 확인하려면 엔지니어링 팀과 조정하십시오. [XDM 스키마 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition){target="_blank"}는 조직의 사용 사례 요구 사항을 기반으로 데이터 엔지니어가 수행하는 복잡한 프로세스입니다.
+  >필요한 스키마가 정의되었는지 확인하려면 엔지니어링 팀과 조정하십시오. [XDM 스키마 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}는 조직의 사용 사례 요구 사항을 기반으로 데이터 엔지니어가 수행하는 복잡한 프로세스입니다.
 
 * **_이벤트 유형_** - XDM ExperienceEvent eventType(이벤트 정의당 최대 20개).
 
@@ -116,7 +116,7 @@ _[!UICONTROL 이벤트 정의]_ 목록에서 **[!UICONTROL 상태]** 열은 각 
 
 1. 이벤트 정의에 사용할 **[!UICONTROL 이벤트 유형]**&#x200B;을(를) 선택하십시오.
 
-   선택한 [이벤트 유형](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}은(는) 계정 여정에서 _이벤트 수신_ 노드에 대한 제약 조건으로 사용할 수 있는 이벤트를 결정합니다.
+   선택한 [이벤트 유형](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}은(는) 계정 여정에서 _이벤트 수신_ 노드에 대한 제약 조건으로 사용할 수 있는 이벤트를 결정합니다.
 
    * **[!UICONTROL 이벤트 유형 선택]**&#x200B;을 클릭합니다.
    * 대화 상자에서 목록에서 이벤트 유형을 하나 이상 선택합니다(최대 20개).
@@ -282,4 +282,4 @@ _게시됨(초안 포함)_ 이벤트 정의를 열면 _[!UICONTROL 게시됨]_ �
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3448690/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

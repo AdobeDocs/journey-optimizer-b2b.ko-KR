@@ -1,12 +1,12 @@
 ---
 title: Market Engage의 구매 그룹 필터
-description: Marketo Engage 스마트 목록에서 필터를 정의하기 위해 구매 그룹 멤버십을 사용하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition에서 캠페인 및 잠재 고객 점수를 최적화하기 위해 Marketo Engage 스마트 목록에서 그룹 멤버십을 구입하여 리드를 필터링합니다.
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Journey Optimizer B2B edition에 연결된 Marketo Engage 인스턴스에서는 스마트 목록의 _[!UICONTROL 구매 그룹 구성원]_ 필터를 사용하여 캠페인 전략에 따라 이러한 리드를 식별할 수 있습니다.
 
-1. [Marketo Engage에서 스마트 목록을 만들기](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}한 후 **[!UICONTROL 스마트 목록]** 탭을 선택하여 필터 편집기를 엽니다.
+1. [Marketo Engage에서 스마트 목록을 만들기](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}한 후 **[!UICONTROL 스마트 목록]** 탭을 선택하여 필터 편집기를 엽니다.
 
 1. 오른쪽의 필터 목록에서 목록을 아래로 스크롤하고 **[!UICONTROL 특수 필터]** 폴더를 확장합니다.
 

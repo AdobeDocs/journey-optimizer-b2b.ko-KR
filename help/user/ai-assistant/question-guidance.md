@@ -1,13 +1,13 @@
 ---
 title: AI Assistant에 대한 질문 지침
-description: Journey Optimizer B2B edition에서 AI Assistant에 대한 효과적인 질문을 작성하는 방법을 알아봅니다.
+description: Journey Optimizer B2B edition에서 최적의 응답을 얻을 수 있는 모범 사례, 예 및 구문 설명과 함께 효과적인 AI 지원 질문을 작성합니다.
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---

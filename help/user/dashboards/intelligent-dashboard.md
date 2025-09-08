@@ -1,13 +1,13 @@
 ---
 title: 지능형 대시보드
-description: 구매 그룹 및 계정 지표에 대한 포괄적인 보기를 제공하는 지능형 대시보드에 대해 알아봅니다
+description: Journey Optimizer B2B edition에서 참여 지표, 의도 감지 및 예측 분석을 사용하여 그룹 및 계정을 구입하기 위한 AI 기반 인사이트에 액세스합니다.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -153,7 +153,7 @@ _[!UICONTROL 급증하는 계정]_ 섹션에는 선택한 기간 내에 참여 �
 
 >[!NOTE]
 >
->계정 급증 데이터는 계정 여정 또는 구매 그룹을 통해 계정 대상의 Journey Optimizer B2B edition에서 수집하는 계정으로 제한됩니다.
+>계정 급증 데이터에는 Journey Optimizer B2B edition이 계정 여정 또는 구매 그룹을 통해 수집하는 계정만 포함됩니다.
 
 ![계정 서지 데이터 시각화](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -197,7 +197,7 @@ _[!UICONTROL 계정 하이라이트]_ 섹션은 두 행으로 구성되어 조�
 
 >[!NOTE]
 >
->계정 강조 표시 데이터는 계정 여정 또는 구매 그룹을 통해 계정 대상의 Journey Optimizer B2B edition에서 수집하는 계정으로 제한됩니다.
+>계정 강조 표시 데이터에는 Journey Optimizer B2B edition이 계정 여정 또는 구매 그룹을 통해 수집하는 계정만 포함됩니다.
 
 ![계정 하이라이트](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

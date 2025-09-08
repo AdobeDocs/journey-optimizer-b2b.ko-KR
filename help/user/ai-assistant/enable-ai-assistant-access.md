@@ -1,13 +1,13 @@
 ---
 title: AI Assistant 액세스 활성화
-description: Journey Optimizer B2B edition에서 AI Assistant를 활성화하는 방법을 알아봅니다.
+description: 권한 UI를 통해 사용자에게 AI Assistant 권한을 부여하여 Journey Optimizer B2B edition에서 액세스를 활성화합니다.
 feature: AI Assistant
 role: Admin
 level: Beginner
 exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
-source-git-commit: b1dbc1cab8b986d9daca9ec18f8ccb842f52e99c
+source-git-commit: ce6c6b26865f1e5b02b95f3700d79234fbf9f500
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '322'
 ht-degree: 3%
 
 ---
@@ -16,23 +16,23 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->권한 UI에서 AI Assistant에 대한 액세스 권한을 얻으려면 먼저 조직이 추가 법률 약관에 동의해야 한다는 팝업 메시지를 받은 경우 Adobe 계정 팀에 문의하여 이러한 약관에 대한 지침을 확인하십시오.
+>권한 UI에서 AI Assistant에 대한 액세스 권한을 얻으려면 먼저 조직이 추가 법률 약관에 동의해야 한다는 메시지가 표시되면 Adobe 계정 팀에 연락하여 지침을 얻으십시오.
 
 다음 매개 변수는 Journey Optimizer B2B edition에서 AI Assistant에 대한 액세스를 제어합니다.
 
 * **애플리케이션에 액세스:** Adobe Journey Optimizer B2B edition에서 AI Assistant에 액세스할 수 있습니다.
 
-* **권한:** [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 사용하여 조직의 AI Assistant에 대한 액세스 권한을 부여하거나 취소할 수 있습니다. AI Assistant를 사용하려면 지정된 사용자가 **AI Assistant 활성화** 및 **Operational Insights 보기** 권한으로 구성된 역할에 속해야 합니다.
+* **권한:** [권한 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 사용하여 조직의 AI Assistant에 대한 액세스 권한을 부여하거나 취소할 수 있습니다. AI Assistant를 사용하려면 지정된 사용자가 _[!UICONTROL AI Assistant 활성화]_ 및 _[!UICONTROL Operational Insights 보기]_ 권한으로 구성된 역할에 속해야 합니다.
 
 관리자는 다음과 같은 작업을 수행할 수 있습니다.
 
-* 지정된 역할에 **AI Assistant 사용** 권한을 추가하고 사용자를 해당 역할에 추가합니다. 이 권한은 사용자에게 조직의 AI Assistant에 대한 액세스 권한을 부여합니다.
+* 지정된 역할에 **[!UICONTROL AI Assistant 사용]** 권한을 추가하고 사용자를 해당 역할에 추가합니다. 이 권한은 조직의 사용자를 위해 AI Assistant에 대한 액세스 권한을 제공합니다.
 
-* 지정된 역할에 **View Operational Insights** 권한을 추가하고 해당 역할에 사용자를 추가하십시오. 이 권한을 통해 사용자는 AI Assistant Operational Insights 기능을 사용할 수 있습니다.
+* 지정된 역할에 **[!UICONTROL View Operational Insights]** 권한을 추가하고 해당 역할에 사용자를 추가하십시오. 이 권한을 통해 사용자는 AI Assistant Operational Insights 기능을 사용할 수 있습니다.
 
 ![AI 관리자 권한 할당](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-권한 UI를 사용하여 Journey Optimizer B2B edition에서 AI Assistant를 사용할 수 있는 권한을 부여합니다. Experience Platform 및 기타 Experience Cloud 애플리케이션에서 AI Assistant에 액세스하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access){target="_blank"}를 참조하십시오.
+권한 UI를 사용하여 Journey Optimizer B2B edition에서 AI Assistant를 사용할 수 있는 권한을 부여합니다. Experience Platform 및 기타 Experience Cloud 애플리케이션에서 AI Assistant에 액세스하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}를 참조하십시오.
 
 사용자에게 필요한 권한이 있는 경우 사용 중인 응용 프로그램의 상단 헤더에 있는 _AI Assistant_ 아이콘을 선택하여 AI Assistant에 액세스할 수 있습니다.
 

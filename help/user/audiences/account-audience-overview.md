@@ -1,13 +1,13 @@
 ---
 title: 계정 대상자
-description: 계정 대상자에 대해 알아보고 계정 대상자가 계정 기반 여정을 어떻게 활성화하는지 알아봅니다.
+description: Journey Optimizer B2B edition에서 특정 계정을 타깃팅하고 개인화된 계정 기반 여정을 활성화하기 위해 세분화를 사용하여 계정 대상을 구축할 수 있습니다.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '552'
-ht-degree: 100%
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: 솔루션 관심 분야
-description: 솔루션 관심사 및 구매 그룹 내에서 사용할 솔루션을 정의하는 방법에 대해 알아봅니다.
+description: 솔루션 관심사를 정의하여 Journey Optimizer B2B edition에서 대상 제품을 식별하고 역할 템플릿을 사용하여 구매 그룹을 자동으로 생성합니다.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 1. **[!UICONTROL 역할 템플릿]**&#x200B;을(를) 선택하십시오(필수).
 
-   **[!UICONTROL 역할 템플릿 선택]**&#x200B;을 클릭하고 대화 상자의 목록에서 라이브 역할 템플릿을 선택합니다. 하나의 라이브 역할 템플릿만 솔루션 관심사에 연결할 수 있습니다. 선택한 역할 템플릿이 표시되는 _[!UICONTROL 솔루션 관심 항목 만들기]_ 페이지로 돌아가려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+   **[!UICONTROL 역할 템플릿 선택]**&#x200B;을 클릭하고 대화 상자의 목록에서 라이브 역할 템플릿을 선택합니다. 하나의 라이브 역할 템플릿만 솔루션 관심사에 연결할 수 있습니다. 선택한 역할 템플릿이 표시되는 **[!UICONTROL 솔루션 관심 항목 만들기]** 페이지로 돌아가려면 _[!UICONTROL 저장]_&#x200B;을 클릭합니다.
 
    ![솔루션 관심에 역할 템플릿 추가](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -104,4 +104,4 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3450120/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

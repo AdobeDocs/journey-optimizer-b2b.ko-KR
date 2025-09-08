@@ -1,10 +1,10 @@
 ---
 title: 계정 목록
-description: 계정 목록과 마케터가 계정 여정을 통해 계정을 타깃팅하는 데 이 목록을 사용하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 타깃팅된 여정 오케스트레이션 및 계정 기반 마케팅을 위한 맞춤형 필터를 사용하여 정적 및 동적 계정 목록을 만듭니다.
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 여정 오케스트레이션에 사용할 수 있는 명명된 계정의 컬렉션입니다. 계정 목록은 업종, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 대상으로 할 수 있습니다. 계정 목록에는 두 가지 유형이 있습니다.
 
 * **정적** - 정적 계정 목록이 있는 경우 계정을 추가할 때만 목록이 변경됩니다. 필터 세트를 적용하여 현재 계정 데이터를 기준으로 목록을 채워 수동으로 계정을 추가하거나 계정 여정을 통해 계정을 추가 및 제거할 수 있습니다.
-* **동적** - 동적 계정 목록을 사용하여 목록을 자동으로 조정하기 위한 필터 집합을 정의합니다. 시스템은 이 필터 세트를 사용하여 계정 정보의 변경에 따라 계정을 추가하고 제거합니다. 이 목록 관리는 [실시간 고객 데이터 플랫폼의 대상 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}와 비슷합니다.
+* **동적** - 동적 계정 목록을 사용하여 목록을 자동으로 조정하기 위한 필터 집합을 정의합니다. 시스템은 이 필터 세트를 사용하여 계정 정보의 변경에 따라 계정을 추가하고 제거합니다. 이 목록 관리는 [실시간 고객 데이터 플랫폼의 대상 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}와 비슷합니다.
 
 계정 목록이 _Live_(게시됨) 상태인 경우 [계정 여정 및 Marketo Engage 프로그램에서 사용](./account-lists-journeys.md)할 수 있습니다.
 
@@ -24,7 +24,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
 >[!NOTE]
 >
->계정 목록은 Marketo Engage의 계정 데이터를 활용하여 계정 세그먼트와 목록을 만듭니다. 즉, Adobe Experience Platform의 계정 세그먼트가 Marketo Engage에 적극적으로 동기화되지 않는 경우 해당 Experience Platform 세그먼트의 계정을 Journey Optimizer B2B edition 계정 목록에서 사용할 수 없습니다. 따라서 Marketo Engage에 동기화되지 않은 Experience Platform 세그먼트의 모든 계정의 사용자는 개인 멤버십 수에 포함되지 않거나 트리거 이벤트에 카운트되지 않을 수 있습니다.
+>계정 목록은 Marketo Engage의 계정 데이터를 활용하여 계정 세그먼트와 목록을 만듭니다. 즉, Adobe Experience Platform의 계정 세그먼트가 Marketo Engage에 적극적으로 동기화되지 않는 경우 해당 Experience Platform 세그먼트의 계정을 Journey Optimizer B2B edition 계정 목록에서 사용할 수 없습니다. 그런 다음 Marketo Engage에 동기화된 Experience Platform 세그먼트의 계정의 사람만 개인 멤버십 수에 포함되고 이벤트가 트리거됩니다.
 
 ## 계정 목록 액세스 및 찾아보기
 

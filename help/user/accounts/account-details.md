@@ -1,12 +1,12 @@
 ---
 title: 계정 세부 정보
-description: Journey Optimizer B2B edition의 계정에 대한 자세한 정보 및 생성 AI 요약에 액세스하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 AI 요약, 의도 감지, 연락처 범위 분석 및 이메일 커뮤니케이션을 통해 계정 인사이트를 봅니다.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 5%
 
 ---

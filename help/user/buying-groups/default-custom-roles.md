@@ -1,12 +1,13 @@
 ---
 title: 기본 및 사용자 정의 역할
-description: 기본 및 사용자 지정 역할과 그룹 역할 템플릿을 구입할 때 사용할 사용자 지정 역할을 정의하는 방법에 대해 알아봅니다.
+description: 기본 및 사용자 지정 구매 그룹 역할 관리 - Journey Optimizer B2B edition에서 비즈니스 요구 사항에 대한 역할 정의를 만들고, 편집하고, 구성합니다.
 feature: Buying Groups
 role: User
-source-git-commit: f68d9ed7e1c64d95cba729eba7f11c5d95d0022f
+exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 2%
+source-wordcount: '312'
+ht-degree: 3%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: 참여 개요 대시보드
-description: 참여 개요 대시보드를 사용하여 참여 노력을 모니터링하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 대화형 차트 및 추세 분석을 통해 계정, 구매 그룹 및 사람에 대한 실시간 참여 지표를 모니터링합니다.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 6%
 
 ---
@@ -91,6 +91,6 @@ _참여 대시보드_&#x200B;에 액세스하려면 왼쪽 탐색에서 **[!UICO
 
 | 계정/구매 그룹/사람별 참여 | 계정/구매 그룹/시간이 지남에 따라 참여하는 사람 |
 | ----------------------------------------------- | -------------------------------------------------- | 
-| <li>참여 <li>참여 안 함 | <li>일자 <li>계정 / 구매 그룹 / 인력 (숫자) <li>참여/미참여 |
+| <li>참여 <li>참여 안 함 | <li>Date <li>계정 / 구매 그룹 / 인력 (숫자) <li>참여/미참여 |
 
 확장 데이터를 복사하려면 오른쪽 상단의 **[!UICONTROL CSV 다운로드]**&#x200B;를 클릭합니다.

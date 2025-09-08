@@ -1,15 +1,15 @@
 ---
 title: 구매 그룹에 대한 참여 점수
-description: 점수를 결정하는 계산 논리 및 활동 유형을 포함하여 구매 그룹 및 개인 참여 점수에 대해 알아봅니다.
-feature: Buying Groups
+description: Journey Optimizer B2B edition에서 가중 활동 및 역할 기반 계산을 사용하여 구매 그룹 및 개인 참여 점수를 추적합니다.
+feature: Buying Groups, Engagement
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 24%
+source-wordcount: '1251'
+ht-degree: 30%
 
 ---
-
 
 # 참여 점수 {#engagement-scores}
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 
 * **개인 참여 점수** - 개인 참여 점수는 개별 구매 그룹 구성원의 활동을 기반으로 합니다.
 
-  각 구매 그룹 구성원의 개인 참여 점수가 구매 그룹 세부 정보 페이지 [_[!UICONTROL 구성원&#x200B;]_&#x200B;탭](./buying-group-details.md#buying-group-members)에 표시됩니다. 이러한 점수는 상위 참여 구성원 및 겹치는 연락처 정보가 포함된 페이지 및 대시보드에도 표시됩니다.
+  각 구매 그룹 구성원의 개인 참여 점수가 구매 그룹 세부 정보 페이지 [_[!UICONTROL 구성원&#x200B;]_탭](./buying-group-details.md#buying-group-members)에 표시됩니다. 이러한 점수는 상위 참여 구성원 및 겹치는 연락처 정보가 포함된 페이지 및 대시보드에도 표시됩니다.
 
   ![가장 많이 참여하는 구매 그룹 구성원](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ ht-degree: 24%
 
 각 활동의 일일 빈도 상한은 20회입니다. 구매 그룹의 구성원이 하루에 동일한 활동을 20번 이상 수행하는 경우 활동에 대한 카운트는 20으로 제한됩니다.
 
-{{engagement-activities}}
+| 활동 이름 | 설명 | 참여 유형 | 최대 일일 빈도 수 | 기본 모델 활동 가중치 |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| 이벤트 참여 | 멤버가 이벤트에 참여함 | 이벤트 | 20 | 60 |
+| 이메일 클릭됨 | 멤버가 판매 이메일의 링크를 클릭함 | 이메일 | 20 | 30 |
+| 이메일 열림 | 멤버가 이메일을 열람함 | 이메일 | 20 | 30 |
+| 작성된 양식 | 멤버가 웹 페이지에서 양식을 작성하고 제출함 | 웹 | 20 | 40 |
+| 즐거운 순간 | 멤버에게 “즐거운 순간”이 있음 | 선별 | 20 | 60 |
+| 링크 클릭수 | 멤버가 웹 페이지의 링크를 클릭함 | 웹 | 20 | 40 |
+| 페이지 보기 횟수 | 구성원이 웹 페이지를 봅니다. | 웹 | 20 | 40 |
+| 이벤트 등록 | 이벤트에 등록된 멤버 | 이벤트 | 20 | 60 |
 
 <!-- old list
 

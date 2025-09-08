@@ -1,16 +1,17 @@
 ---
 title: 개인 세부 정보
-description: Journey Optimizer B2B edition에서 계정 또는 구매 그룹과 관련된 사람의 세부 정보 및 생성 AI 요약에 액세스하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 구매 그룹 구성원에 대한 AI 요약, 참여 점수, 활동 추적 및 의도 감지로 개인 인사이트를 봅니다.
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
-# 개인 세부 정보
+# 개인 정보
 
 Journey Optimizer B2B edition의 어디에서든 개인 이름을 클릭하면 개인 세부 정보 페이지가 표시됩니다. 이 페이지에는 강조 표시 및 의도 데이터(구성된 경우)의 생성 AI 요약을 포함하여 계정 또는 구매 그룹과 관련된 사람에 대한 유용한 정보가 포함되어 있습니다. <!-- There are also [actions](#person-actions) that you can execute for the person. -->
 

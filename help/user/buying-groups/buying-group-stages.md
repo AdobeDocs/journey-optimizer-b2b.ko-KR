@@ -1,10 +1,10 @@
 ---
 title: 구매 그룹 단계
-description: 구매 그룹 단계에 대해 알아보고 판매 목표에 따른 여정 진행률을 추적하기 위해 그룹 단계를 정의하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition에서 영업 기회부터 고객 전환까지의 판매 진행률을 추적하도록 구매 그룹 단계를 구성합니다.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -49,7 +49,7 @@ ht-degree: 1%
 
    ![모델의 이름과 설명을 추가하십시오.](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   이 대화 상자에서 _[!UICONTROL 취소]_&#x200B;를 클릭하면 _empty_ 상태로 _[!UICONTROL 단계]_ 탭으로 돌아갑니다.
+   이 대화 상자에서 _[!UICONTROL 취소]_&#x200B;를 클릭하면 _[!UICONTROL empty]_ 상태로 _단계_ 탭으로 돌아갑니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
@@ -128,7 +128,7 @@ ht-degree: 1%
 
 구매 그룹 단계 모델이 _초안_ 상태에 있는 한 단계 및 전환 규칙을 편집할 수 있습니다.
 
-_초안 모델을 보려면:_
+초안 모델을 보려면(_T):_
 
 1. 왼쪽 탐색에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**(으)로 이동합니다.
 
@@ -365,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3448701/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

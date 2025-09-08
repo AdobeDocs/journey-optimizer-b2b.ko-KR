@@ -1,12 +1,12 @@
 ---
 title: 구매 그룹 만들기
-description: 필수 구성 요소를 사용하여 구매 그룹을 만드는 방법을 알아봅니다.
+description: Journey Optimizer B2B edition에서 자동화된 마케팅을 위한 솔루션 관심 분야 및 계정 대상을 선택하여 구매 그룹을 만듭니다.
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '276'
 ht-degree: 3%
 
 ---
@@ -64,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## 사용 방법 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3451768/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

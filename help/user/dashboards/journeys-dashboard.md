@@ -1,12 +1,12 @@
 ---
 title: 계정 여정 개요 대시보드
-description: 여정 개요 대시보드에서 제공하는 정보와 이를 통해 계정 여정 전략을 모니터링하고 관리하는 데 어떻게 도움이 되는지에 대해 알아봅니다.
+description: Journey Optimizer B2B edition에서 완료율, 참여 지표 및 채널 효율성 분석을 사용하여 계정 여정 성과를 추적합니다.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---

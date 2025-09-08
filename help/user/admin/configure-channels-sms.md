@@ -1,12 +1,12 @@
 ---
 title: SMS 구성
-description: Journey Optimizer B2B edition SMS 메시지에서 사용할 수 있도록 지원되는 SMS 공급자에 대한 연결을 구성하는 방법을 알아봅니다.
+description: Sinch, Twilio 및 Infobip과 같은 SMS 공급자를 API 자격 증명과 연결하여 Journey Optimizer B2B edition 여정에서 텍스트 메시지를 사용할 수 있습니다.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Adobe Journey Optimizer B2B edition에서 SMS 채널을 구성하기 전에 이�
 
 >[!TAB Sinch]
 
-_Adobe Journey Optimizer B2B edition을 사용하여 Sinch를 SMS 공급자로 구성하려면:_
+Adobe Journey Optimizer B2B edition을 사용하여 Sinch를 SMS 공급자로 구성하려면(_T):_
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 
-1. _[!UICONTROL API 자격 증명]_ 목록의 오른쪽 상단에서 **[!UICONTROL 새 API 자격 증명 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL API 자격 증명]** 목록의 오른쪽 상단에서 _[!UICONTROL 새 API 자격 증명 만들기]_&#x200B;를 클릭합니다.
 
 1. SMS API 자격 증명을 구성합니다.
 
@@ -71,11 +71,11 @@ _Adobe Journey Optimizer B2B edition을 사용하여 Sinch를 SMS 공급자로 �
 
 >[!TAB Twilio]
 
-_Adobe Journey Optimizer B2B edition을 사용하여 Twilio를 SMS 공급자로 구성하려면:_
+Adobe Journey Optimizer B2B edition을 사용하여 Twilio를 SMS 공급자로 구성하려면(_T):_
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 
-1. _[!UICONTROL API 자격 증명]_ 목록의 오른쪽 상단에서 **[!UICONTROL 새 API 자격 증명 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL API 자격 증명]** 목록의 오른쪽 상단에서 _[!UICONTROL 새 API 자격 증명 만들기]_&#x200B;를 클릭합니다.
 
 1. SMS API 자격 증명을 구성합니다.
 
@@ -93,11 +93,11 @@ _Adobe Journey Optimizer B2B edition을 사용하여 Twilio를 SMS 공급자로 
 
 >[!TAB Infobip]
 
-_Adobe Journey Optimizer B2B edition을 사용하여 Infobip를 SMS 공급자로 구성하려면:_
+Adobe Journey Optimizer B2B edition을 사용하여 Infobip를 SMS 공급자로 구성하려면(_T):_
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 
-1. _[!UICONTROL API 자격 증명]_ 목록의 오른쪽 상단에서 **[!UICONTROL 새 API 자격 증명 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL API 자격 증명]** 목록의 오른쪽 상단에서 _[!UICONTROL 새 API 자격 증명 만들기]_&#x200B;를 클릭합니다.
 
 1. SMS API 자격 증명을 구성합니다.
 

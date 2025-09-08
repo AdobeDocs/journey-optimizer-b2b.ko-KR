@@ -1,12 +1,12 @@
 ---
 title: 사용자 관리
-description: Journey Optimizer B2B edition 제품 프로필에 팀원을 할당하는 방법을 알아봅니다.
+description: Experience Cloud Admin Console을 사용하여 사용자 액세스 관리 - Journey Optimizer B2B edition에 대한 사용자 그룹 만들기, 제품 프로필 할당 및 역할 기반 권한 구성.
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 8fd1bda4a0ccfa2abe84974f7e895825477a7299
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1096'
 ht-degree: 1%
 
 ---
@@ -56,13 +56,13 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자를 위한 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [기업 사용자를 위한 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
 
 >[!BEGINSHADEBOX]
 
 Marketo Engage 제품 프로필에 사용자를 추가하면 해당 사용자는 나중에 Marketo Engage 구독의 기본 작업 영역 내에서 _표준 사용자_ 역할에 추가됩니다. 이 역할은 해당 작업 영역의 Marketo Engage에 대한 모든 _표준 사용자_ 권한을 부여합니다. 현재 모든 Journey Optimizer B2B edition 사용자는 Marketo Engage 사용자여야 합니다. Marketo Engage 관리자는 _표준 사용자_ 역할에 대한 권한을 업데이트하거나 보다 제한적인 권한이 있는 다른 Marketo Engage 사용자 역할로 사용자를 이동하여 액세스를 제한할 수 있습니다.
 
-Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
+Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -143,7 +143,7 @@ Permissions are unitary rights that allow you to define the authorizations assig
 
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
-For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
+For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
 
 ### B2B product permissions
 
@@ -240,7 +240,7 @@ _To change the permissions for a role:_
 
 ### Add user groups to a role
 
-For information about user management, see [Admin Console users](https://helpx.adobe.com/kr/enterprise/using/user-groups.html) in the Admin Console documentation.
+For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 

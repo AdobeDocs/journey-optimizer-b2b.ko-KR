@@ -1,15 +1,15 @@
 ---
 title: 랜딩 페이지 구성
-description: 마케팅 팀이 캠페인을 지원할 웹 페이지를 작성하고 게시할 수 있도록 랜딩 페이지 설정에 액세스하고 구성하는 방법을 알아봅니다.
+description: Journey Optimizer B2B edition에서 캠페인 웹 페이지 게시를 활성화하려면 랜딩 페이지 하위 도메인, 양식 미리 채우기 설정 및 데이터스트림을 구성하십시오.
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '506'
 ht-degree: 23%
 
 ---

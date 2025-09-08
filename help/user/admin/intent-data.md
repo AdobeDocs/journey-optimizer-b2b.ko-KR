@@ -1,12 +1,12 @@
 ---
 title: 의도 데이터
-description: Journey Optimizer B2B edition에 대한 의도 데이터를 생성하기 위해 키워드를 조합하고 제출하는 방법을 알아봅니다.
+description: 키워드 매핑으로 의도 데이터를 구성하여 Journey Optimizer B2B edition에서 계정 기반 마케팅을 위한 고객의 관심사와 구매 신호를 예측합니다.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---

@@ -1,21 +1,22 @@
 ---
-title: 세부 정보 페이지에 대한 CRM 내 액세스
-description: '영업 팀 구성원이 CRM(고객 관계 관리) 도구(예: Salesforce 또는 Microsoft Dynamics)에서 계정, 연락처 및 잠재 고객에 대한 세부 페이지에 직접 액세스하는 방법에 대해 알아봅니다.'
+title: CRM 내에서 세부 정보 페이지에 액세스
+description: 계정 및 연락처 세부 정보에 대한 사용자 지정 링크를 추가하여 Salesforce 및 Dynamics CRM에서 Journey Optimizer B2B 인사이트에 직접 액세스할 수 있도록 합니다.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
-# 세부 정보 페이지에 대한 CRM 내 액세스
+# CRM 내에서 세부 정보 페이지에 액세스
 
-Adobe Journey Optimizer B2B edition을 사용하면 영업 팀 구성원과 계정 관리자가 Salesforce 또는 Microsoft Dynamics과 같은 고객 관계 관리(CRM) 도구에서 계정 및 구매 그룹 정보에 대한 세부 페이지에 직접 액세스할 수 있습니다. 이 통합을 통해 영업 담당자는 참여 내역, 의도 신호, AI가 생성한 권장 사항과 같은 실시간 계정 및 구매 그룹 인사이트에 빠르게 액세스할 수 있습니다. 이 기능을 통해 영업 팀은 신속한 지원, 보다 스마트한 우선 순위 지정 및 마케팅에 보다 효과적으로 대응할 수 있습니다.
+Adobe Journey Optimizer B2B edition을 사용하면 영업 및 계정 팀원이 Salesforce 또는 Microsoft Dynamics과 같은 고객 관계 관리(CRM) 도구에서 계정 및 구매 그룹 정보에 대한 세부 페이지에 직접 액세스할 수 있습니다. 이 통합을 통해 영업 담당자는 참여 내역, 의도 신호, AI가 생성한 권장 사항과 같은 실시간 계정 및 구매 그룹 인사이트에 빠르게 액세스할 수 있습니다. 이 기능을 통해 영업 팀은 신속한 지원, 보다 스마트한 우선 순위 지정 및 마케팅에 보다 효과적으로 대응할 수 있습니다.
 
-영업 팀 구성원이 CRM에서 Journey Optimizer B2B edition의 [계정 세부 정보](account-details.md) 및 [개인 세부 정보](person-details.md) 페이지를 볼 수 있도록 하려면 Salesforce 또는 Dynamics 관리자가 계정, 연락처 또는 잠재 고객 보기에서 Journey Optimizer B2B edition 링크를 추가할 수 있습니다.
+영업 및 계정 팀원이 CRM에서 Journey Optimizer B2B edition의 [계정 세부 정보](account-details.md) 및 [개인 세부 정보](person-details.md) 페이지를 볼 수 있도록 하려면 Salesforce 또는 Dynamics 관리자가 계정, 연락처 또는 잠재 고객 보기에서 링크를 추가할 수 있습니다.
 
 영업 팀 구성원이 CRM 인스턴스의 링크를 사용하는 경우 샌드박스는 _Prod_&#x200B;여야 하며 IMS 조직은 다음과 같은 순서가 지정된 논리에 따라 결정됩니다.
 
@@ -72,7 +73,7 @@ Salesforce에서 사용자 지정 링크를 추가하는 방법에 대한 자세
 
 +++
 
-+++세부 정보 페이지 링크
++++세부 사항 페이지 링크
 
 1. Salesforce에서 **[!UICONTROL 설정]** > **[!UICONTROL 개체 관리자]** > **[!UICONTROL 계정]**/**[!UICONTROL 연락처]**/**[!UICONTROL 리드]** > **[!UICONTROL 단추, 링크 및 작업]**(으)로 이동합니다.
 1. 오른쪽 상단의 **[!UICONTROL 새 단추 또는 링크]**&#x200B;를 클릭하고 세부 정보 페이지 링크를 만듭니다.
@@ -91,7 +92,7 @@ Salesforce에서 사용자 지정 링크를 추가하는 방법에 대한 자세
 
 +++
 
-+++세부 정보 페이지 단추
++++세부 사항 페이지 단추
 
 1. Salesforce에서 **[!UICONTROL 설정]** > **[!UICONTROL 개체 관리자]** > **[!UICONTROL 계정]**/**[!UICONTROL 연락처]**/**[!UICONTROL 리드]** > **[!UICONTROL 단추, 링크 및 작업]**(으)로 이동합니다.
 1. 오른쪽 상단의 **[!UICONTROL 새 단추 또는 링크]**&#x200B;를 클릭하고 세부 정보 페이지 단추를 만듭니다.
@@ -319,7 +320,7 @@ Power Apps를 사용하여 Dynamics 구성 요소와 같은 Microsoft 모델 기
 
    ![웹 리소스](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   웹 리소스 속성 및 형식에 대한 자세한 내용은 [Power Apps 설명서](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy)를 참조하세요.
+   웹 리소스 속성 및 형식에 대한 자세한 내용은 [Power Apps 설명서](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy)를 참조하십시오.
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
