@@ -78,7 +78,7 @@ ht-degree: 0%
 1. 각 가중치 밴드에 대해 필요에 따라 이름 또는 값을 조정합니다.
 
    * _[!UICONTROL 가중치 대역]_ 필드에서 이름을 변경합니다.
-   * 새 값을 입력합니다. **&amp;plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
+   * 새 값을 입력합니다. **&plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
 
    ![참여 가중치 설정](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
