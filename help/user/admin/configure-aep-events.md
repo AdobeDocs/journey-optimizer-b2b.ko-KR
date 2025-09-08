@@ -282,4 +282,4 @@ _게시됨(초안 포함)_ 이벤트 정의를 열면 _[!UICONTROL 게시됨]_ �
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448690/?learn=on&captions=kor)
