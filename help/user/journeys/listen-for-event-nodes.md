@@ -183,4 +183,4 @@ ht-degree: 8%
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443241/?learn=on&captions=kor)
