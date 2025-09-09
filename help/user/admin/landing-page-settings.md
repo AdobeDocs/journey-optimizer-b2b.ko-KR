@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 23%
+ht-degree: 28%
 
 ---
 
@@ -42,17 +42,17 @@ ht-degree: 23%
 
 랜딩 페이지 내의 양식에서 알려진 사용자에 대해 미리 채워진 정보를 사용할 수 있도록 하려면 **[!UICONTROL 양식 미리 채우기]** 옵션을 사용하도록 설정하십시오. 이 옵션이 비활성화되면 랜딩 페이지 작성자는 미리 채워진 양식 필드를 포함할 수 없습니다.
 
-### 데이터 스트림 {#datastream}
+### 데이터스트림 {#datastream}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_datastream"
 >title="데이터스트림 요구 사항"
->abstract="이 도메인의 랜딩 페이지에서 페이지 이벤트를 수집하려면 데이터 스트림이 필요합니다."
+>abstract="이 도메인의 랜딩 페이지에서 페이지 이벤트를 수집하려면 데이터스트림이 필요합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
->title="데이터 스트림 ID 누락"
->abstract="하위 도메인에 데이터 스트림 ID가 누락되었습니다. 이 ID는 적절한 라우팅에 필요합니다. 계속하려면 설정에서 구성"
+>title="누락된 데이터스트림 ID"
+>abstract="하위 도메인에 데이터 스트림 ID가 누락되었습니다. 이 ID는 적절한 라우팅에 필요합니다. 계속하려면 설정에서 구성하십시오."
 
 랜딩 페이지 이벤트 컬렉션에 사용할 데이터 스트림을 구성하려면 **[!UICONTROL 데이터 스트림]** 옵션을 설정하십시오.
 
