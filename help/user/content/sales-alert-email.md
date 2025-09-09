@@ -1,12 +1,12 @@
 ---
 title: 영업 경고 이메일
-description: 계정 여정에 자동화된 판매 경고 이메일을 포함하는 방법을 알아봅니다.
+description: Journey Optimizer B2B edition의 구매 그룹 요약, AI 인사이트 및 멤버 세부 정보를 포함하여 영업 팀에게 알리도록 계정 여정에서 판매 경고 이메일을 구성합니다.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 5%
 
 ---
@@ -65,4 +65,4 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
    ![새 전자 메일 대화 상자 만들기](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   계정 여정이 게시되면 이러한 매개 변수에 따라 판매 경고가 전달됩니다.
+   계정 여정이 라이브되면 이러한 매개 변수에 따라 판매 경고가 전달됩니다.

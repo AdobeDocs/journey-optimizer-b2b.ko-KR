@@ -1,13 +1,13 @@
 ---
 title: 계정 여정
-description: 계정 여정을 시작하고 계정 여정 목록을 사용하여 이를 관리하는 방법을 알아봅니다.
+description: Journey Optimizer B2B edition의 이메일, SMS 및 이벤트 전반에서 구매 그룹 참여를 만들고, 게시하고, 관리하는 계정 여정을 통해 수요 생성을 간소화합니다.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 97%
 
 ---
 
@@ -157,4 +157,4 @@ _계정 여정_ 목록에는 Journey Optimizer B2B Edition 인스턴스의 모�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443214/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

@@ -1,6 +1,6 @@
 ---
 title: 컨텐츠 생성 및 일관성을 위한 브랜드 만들기
-description: 자체 브랜드를 만들고 사용자 정의하여 브랜드 스타일 및 목소리와 일치하는 콘텐츠를 생성하고 최적화하는 방법에 대해 알아봅니다.
+description: 문서에서 자동 추출하거나 수동으로 입력하여 브랜드 지침을 만들고 관리하십시오. - Journey Optimizer B2B edition에서 일관된 콘텐츠에 대한 기본 브랜드를 설정하십시오.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2056'
 ht-degree: 6%
 
 ---

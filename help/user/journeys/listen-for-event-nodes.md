@@ -1,12 +1,12 @@
 ---
 title: 이벤트 수신
-description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 이벤트 노드 유형에 대해 알아봅니다.
+description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - Journey Optimizer B2B edition에서 구매 그룹 변경 사항, 이메일 클릭 수, 양식 채우기 및 Experience Platform 이벤트를 수신합니다.
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 8%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 8%
 
 ### Marketo Engage 이벤트 수신
 
-연결된 Marketo Engage 인스턴스에 웹 페이지가 만들어져 있는 경우 채워지지 않았거나 채워지지 않은 Marketo Engage 양식은 물론 Marketo Engage 웹 페이지에 대한 방문/방문 없음에 따라 이벤트를 트리거할 수 있습니다.
+연결된 Marketo Engage 인스턴스에 웹 페이지가 있는 경우 이러한 웹 페이지에 대한 방문/방문 없음뿐만 아니라 작성되지 않았거나 작성되지 않은 Marketo Engage 양식에 따라 이벤트를 트리거할 수 있습니다.
 
 1. 여정 맵에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
 
@@ -119,7 +119,7 @@ ht-degree: 8%
 
 ### 경험 이벤트 수신
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. [AEP 이벤트 정의를 만들고 게시](../admin/configure-aep-events.md).
 
@@ -127,7 +127,7 @@ ht-degree: 8%
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 개요 보기](../admin/configure-aep-events.md#overview-video)
 
-_여정에 경험 이벤트를 포함하려면:_
+여정에 경험 이벤트를 포함하려면(_T):_
 
 1. 여정 맵에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
 
@@ -183,4 +183,4 @@ _여정에 경험 이벤트를 포함하려면:_
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

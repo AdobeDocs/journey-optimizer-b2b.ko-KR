@@ -1,12 +1,13 @@
 ---
 title: 스팸 보고서 검토
-description: ISP 또는 사서함 공급자가 스팸으로 간주할지 여부를 예측하는 전용 스팸 보고서에서 이메일 콘텐츠 스팸 점수를 확인하는 방법을 알아봅니다.
+description: 이메일이 스팸 필터를 트리거하는지 확인하고 Journey Optimizer B2B edition에서 전달성을 향상시키려면 SpamAssassin 점수를 매겨 스팸 보고서를 생성합니다.
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,3 @@ ht-degree: 0%
 1. 이메일 콘텐츠 내에 개선할 수 있는 일부 요소가 있는 경우 콘텐츠를 편집하여 필요한 업데이트를 적용합니다.
 
 1. 변경 사항이 완료되면 _[!UICONTROL 시뮬레이션]_ 페이지로 돌아가서 **[!UICONTROL 스팸 보고서]**&#x200B;를 다시 클릭하여 결과 점수 개선 사항을 확인하십시오.
-
-
-

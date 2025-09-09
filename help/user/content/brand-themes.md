@@ -1,6 +1,6 @@
 ---
 title: 이메일 콘텐츠에 브랜드 테마 사용
-description: 재사용 가능한 테마로 이메일 콘텐츠 생성을 간소화하여 디자인의 일관성과 효율성을 보장하는 방법을 알아봅니다.
+description: 이메일 및 템플릿에 대한 사용자 정의 브랜드 테마를 만들 수 있습니다. Journey Optimizer B2B edition에서 일관된 디자인을 위해 색상, 글꼴, 간격 및 단추를 정의할 수 있습니다.
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 2%
+source-wordcount: '3087'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="이메일 또는 이메일 템플릿에 브랜드 테마 적용"
->abstract="이메일 또는 이메일 템플릿의 테마를 선택하여 브랜드와 디자인에 맞는 특정 스타일을 빠르게 적용할 수 있습니다."
+>abstract="이메일 또는 이메일 템플릿에 대한 테마를 선택하여 브랜드 및 디자인에 맞는 스타일을 적용합니다."
 
 테마를 사용하는 비기술 디자이너는 특정 브랜드 및 스타일에 맞게 조정할 수 있는 재사용 가능한 이메일 콘텐츠 디자인 지침을 만들 수 있습니다. 테마는 마케터가 시각적으로 호소력 있고 브랜드 일관성이 있는 이메일을 적은 노력으로 더 빠르고 활용할 수 있도록 하며, 고유한 디자인 요구에 대한 고급 사용자 지정 옵션을 제공합니다.
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 
   | 유형 | 설정 | 설명 |
   | ---- | -------- | ----------- |
-  | [!UICONTROL 일반] | ![변형에 대한 일반 색상 설정](./assets/email-theme-colors-settings-variant-general.png){width="300"} | 이러한 설정을 사용하면 본문, 구조, 컨테이너, 배경, 링크, 격자 및 테두리의 색상을 설정할 수 있습니다. |
+  | [!UICONTROL 일반] | ![변형에 대한 일반 색상 설정](./assets/email-theme-colors-settings-variant-general.png){width="300"} | 이러한 설정은 본문, 구조, 컨테이너, 배경, 링크, 격자 및 테두리의 색상을 결정합니다. |
   | [!UICONTROL 머리글] | ![변형에 대한 제목 색 설정](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | 이러한 설정은 `Heading` 요소에 적용되며, 이 요소에서 6개의 제목 수준 각각에 대해 텍스트 및 테두리 색상을 설정할 수 있습니다. 변형에 대한 색상을 설정할 각 제목 수준을 확장합니다. |
   | [!UICONTROL 단락] | ![변형에 대한 단락 색 설정](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | 이러한 설정은 `Paragraph` 요소에 적용되며, 이 요소에서 세 가지 단락 유형에 대해 각각 텍스트 및 테두리 색상을 설정할 수 있습니다. 변형의 색상을 설정할 각 단락 유형을 확장합니다. |
   | [!UICONTROL 단추] | ![변형에 대한 단추 색 설정](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | 이 설정은 단추 요소에 적용되며, 여기서 세 개의 단추 사전 설정 각각 _기본_, _보조_ 및 _3차_&#x200B;에 대해 채우기 색상, 테두리 색상 및 텍스트 색상을 설정할 수 있습니다. |
@@ -303,7 +303,7 @@ ht-degree: 2%
 
 ## 이메일 콘텐츠 작성에 테마 사용 {#use-email-theme}
 
-새 이메일 또는 이메일 템플릿을 만들 때 콘텐츠 작성 프로세스를 간소화하고 디자인이 정의된 표준에 맞게 조정되도록 하는 브랜드 테마를 사용하도록 선택할 수 있습니다. 새 조각의 경우 조각을 저장하기 전에 테마를 적용할 수도 있습니다. 조각은 그 시점에서부터 _테마 모드_&#x200B;에 남아 있으며, _테마 모드_&#x200B;에 있는 전자 메일 및 전자 메일 템플릿에 추가하도록 호환됩니다.
+새 이메일 또는 이메일 템플릿을 만들 때 컨텐츠 작성 프로세스를 간소화하고 디자인이 정의된 표준에 맞게 조정되도록 브랜드 테마를 사용하도록 선택할 수 있습니다. 새 조각의 경우 조각을 저장하기 전에 테마를 적용할 수도 있습니다. 조각은 그 시점에서부터 _테마 모드_&#x200B;에 남아 있으며, _테마 모드_&#x200B;에 있는 전자 메일 및 전자 메일 템플릿에 추가하도록 호환됩니다.
 
 1. 다음 작업 중 하나를 선택합니다.
 

@@ -1,19 +1,19 @@
 ---
 title: 관리 템플릿에서 작성자
-description: 잠긴 콘텐츠 구성 요소를 포함하는 관리되는 템플릿으로 이메일 작성을 사용하는 방법을 알아봅니다.
+description: 잠긴 콘텐츠로 관리 템플릿에서 이메일을 작성합니다. 편집 가능한 영역을 식별하고 Journey Optimizer B2B edition의 거버넌스 제한 내에서 작업합니다.
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # 관리 템플릿에서 작성자
 
-콘텐츠 디자이너는 전자 메일 템플릿을 만들 때 [거버넌스(_콘텐츠 잠금_)](./template-content-governance.md)을(를) 사용하도록 설정할 수 있습니다. 거버넌스 기능을 사용하면 계정 여정에서 사용할 때 변경할 수 없는 디자인 부분을 지정할 수 있습니다. 전자 메일을 작성하기 위해 [저장된 템플릿을 선택](./email-authoring.md#select-a-template)하면 비주얼 디자이너가 템플릿을 로드하므로 전자 메일의 기반으로 사용할 수 있습니다.
+콘텐츠 디자이너는 전자 메일 템플릿을 만들 때 [거버넌스(_콘텐츠 잠금_)](./template-content-governance.md)을(를) 사용하도록 설정할 수 있습니다. 거버넌스 기능을 사용하면 계정 여정에서 사용할 때 변경할 수 없는 디자인 부분을 지정할 수 있습니다. 전자 메일을 작성하기 위해 [저장된 템플릿을 선택](./email-authoring.md#select-a-template)하면 전자 메일의 기반으로 사용할 수 있도록 시각적 디자인 공간에 템플릿이 로드됩니다.
 
 템플릿에 거버넌스가 활성화되어 있으면 오른쪽의 속성 패널에 경고가 표시됩니다. 캔버스 상단의 **[!UICONTROL 편집 가능한 영역 강조 표시]**&#x200B;를 켜면 여정에서 사용할 수 있는 구성 요소와 콘텐츠 요소를 확인할 수 있습니다.
 

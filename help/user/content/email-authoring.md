@@ -1,12 +1,12 @@
 ---
 title: 이메일 메시지 작성
-description: Adobe Journey Optimizer B2B에서 이메일 콘텐츠를 만드는 방법을 알아봅니다. 템플릿, HTML 가져오기 및 AI 기반 도구를 사용하여 이메일 커뮤니케이션을 개인화하고 최적화합니다.
+description: 시각적 디자인 도구, HTML 가져오기 또는 템플릿을 사용하여 이메일을 만듭니다. AI Assistant 컨텐츠 생성, 사용자 지정 CSS 및 Journey Optimizer B2B edition의 개인화를 사용합니다.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1045'
 ht-degree: 2%
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 컨텐츠 생성 및 일관성을 위해 브랜드 사용
-description: Journey Optimizer B2B edition에서 정의하여 브랜드 스타일 및 음성에 따라 콘텐츠를 생성하고 최적화할 수 있는 브랜드 지침에 대해 알아봅니다.
+description: 일관된 컨텐츠 작성을 위한 브랜드 지침을 정의합니다. Journey Optimizer B2B edition에서 시각적 정체성, 메시징 정렬 및 정품 음성을 유지할 수 있습니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 9%
+source-wordcount: '837'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="브랜드 시작하기"
->abstract="고유한 시각적 및 언어적 정체성을 정의하고, 브랜드 스타일과 표현에 맞는 콘텐츠를 손쉽게 생성할 수 있도록 자체 브랜드를 만들고 맞춤화합니다."
+>abstract="브랜드를 만들고 사용자 정의하여 고유한 시각적 및 언어적 정체성을 정의하는 동시에 브랜드 스타일 및 목소리와 일치하는 콘텐츠를 더 쉽게 생성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -73,7 +73,7 @@ ht-degree: 9%
 
 ## 브랜드 관련 권한
 
-제품 관리자는 Adobe Experience Cloud의 **[!UICONTROL 권한]** 앱을 통해 **[!UICONTROL 브랜드 키트 관리]** 또는 _AI 도우미 사용_ 리소스 권한을 할당하여 브랜드 관리 및 브랜드 정렬 기능에 대한 액세스를 활성화할 수 있습니다.
+제품 관리자는 Adobe Experience Cloud의 **[!UICONTROL 권한]** UI를 통해 **[!UICONTROL 브랜드 키트 관리]** 또는 _AI 도우미 사용_ 리소스 권한을 할당하여 브랜드 관리 및 브랜드 정렬 기능에 대한 액세스를 활성화할 수 있습니다.
 
 1. 권한 앱에서 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 [역할](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}을 선택합니다.
 

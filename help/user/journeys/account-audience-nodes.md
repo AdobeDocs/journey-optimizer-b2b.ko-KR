@@ -1,12 +1,12 @@
 ---
 title: 계정 대상 노드
-description: Journey Optimizer B2B edition에서 계정 여정에 대한 입력을 정의하는 데 사용할 수 있는 계정 대상 노드 유형에 대해 알아봅니다.
+description: 계정 대상자 또는 계정 목록으로 계정 대상자 노드를 구성하여 Journey Optimizer B2B edition의 타깃팅된 오케스트레이션에 대한 여정 진입점을 정의합니다.
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 82553c9ee6205e0ad47cc5a56112590471c03d0e
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,12 @@
 ---
 title: 콘텐츠 구성 요소
-description: 콘텐츠 구성 요소를 사용하여 이메일, 랜딩 페이지 및 시각적 조각 콘텐츠를 디자인하는 방법을 알아봅니다.
+description: 콘텐츠 구성 요소를 사용하여 이메일, 랜딩 페이지 및 조각 디자인 - Journey Optimizer B2B edition에 단추, 텍스트, 이미지, 양식 및 컨테이너를 추가합니다.
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2849'
 ht-degree: 6%
 
 ---

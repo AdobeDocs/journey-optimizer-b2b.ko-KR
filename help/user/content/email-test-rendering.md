@@ -1,13 +1,13 @@
 ---
 title: 이메일 렌더링 테스트
-description: Litmus 계정을 활용하여 Journey Optimizer B2B edition에서 이메일에 대한 렌더링을 테스트하는 방법을 알아봅니다.
+description: Litmus 통합을 통해 데스크탑, 모바일 및 웹 클라이언트 간의 이메일 렌더링을 테스트하여 Journey Optimizer B2B edition의 받은 편지함 호환성을 확인합니다.
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: dbb678f40b8d637f4eb534acb31328ebea0c182a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---

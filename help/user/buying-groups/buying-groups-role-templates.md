@@ -1,12 +1,12 @@
 ---
 title: 그룹 역할 템플릿 구매
-description: 자동 할당 조건을 사용하여 구매 그룹 역할 템플릿을 만들어 Journey Optimizer B2B edition의 의사 결정자 및 이해 당사자를 식별합니다.
+description: 조건부 자동 할당을 사용하여 역할 템플릿을 만들어 Journey Optimizer B2B edition의 구매 그룹에 대한 의사 결정자 및 이해 당사자를 식별합니다.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 3%
 
 ---
@@ -162,4 +162,4 @@ Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3453308/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

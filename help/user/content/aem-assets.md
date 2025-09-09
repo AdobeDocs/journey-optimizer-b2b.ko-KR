@@ -1,12 +1,12 @@
 ---
 title: Experience Manager Assets 작업
-description: Adobe Journey Optimizer B2B edition에서 콘텐츠를 작성할 때 연결된 AEM Assets 저장소의 이미지 에셋을 사용하는 방법에 대해 알아봅니다.
+description: 컨텐츠 작성에서 AEM Assets 이미지에 액세스하고 이를 사용합니다. Journey Optimizer B2B edition에서 자동으로 변경 사항을 드래그 앤 드롭하고, 검색하고, 필터링하고, 동기화합니다.
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->관리자는 Assets에 액세스해야 하는 사용자를 Assets 소비자 사용자 또는/및 Assets 사용자 제품 프로필에 추가해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>관리자는 Assets에 액세스해야 하는 사용자를 Assets 소비자 사용자 또는/및 Assets 사용자 제품 프로필에 추가해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets 이미지 액세스
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->현재 [!DNL Adobe Experience Manager Assets]에서는 [!DNL Adobe Journey Optimizer B2B Edition]의 이미지 자산만 지원됩니다. 자산에 대한 변경 작업은 [!DNL Adobe Experience Manager Assets] 중앙 리포지토리에서 수행해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>현재 [!DNL Adobe Experience Manager Assets]에서는 [!DNL Adobe Journey Optimizer B2B Edition]의 이미지 자산만 지원됩니다. 자산에 대한 변경 작업은 [!DNL Adobe Experience Manager Assets] 중앙 리포지토리에서 수행해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 표시된 저장소 변경
 

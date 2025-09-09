@@ -1,12 +1,12 @@
 ---
 title: Marketo Engage Assets 작업
-description: Journey Optimizer B2B edition에서 Marketo Engage Design Studio 에셋 관리 통합을 사용하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition에서 Marketo Engage Design Studio 에셋을 검색, 관리 및 사용하여 작업 공간을 구성하고 이미지를 편집하고 계정 여정을 위한 콘텐츠를 만듭니다.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ _[!UICONTROL 자산 바꾸기]_ 대화 상자에서 대체 파일을 시스템�
 
 계속하려면 **[!UICONTROL 바꾸기]**&#x200B;를 클릭하세요. **[!UICONTROL 취소]**&#x200B;를 클릭하여 프로세스를 중단할 수 있습니다.
 
-바꿀 파일이 사용 중인 경우 정보 대화 상자에서 새 이미지 파일이 해당 파일이 사용되는 모든 위치(이메일, 이메일 템플릿 및 조각)의 이미지를 바꾼다는 알림을 표시합니다.
+대체할 파일이 사용 중인 경우 새 이미지 파일이 해당 파일이 사용되는 이미지(이메일, 이메일 템플릿 및 조각)를 대체한다는 경고 대화 상자가 표시됩니다.
 
 ## 에셋 다운로드
 
@@ -148,7 +148,7 @@ _[!UICONTROL 자산 바꾸기]_ 대화 상자에서 대체 파일을 시스템�
 
 _[!UICONTROL Journey Optimizer B2B edition]_ 작업 영역에 있는 선택한 자산에 대해 다음과 같은 대량 작업을 수행할 수 있습니다.
 
-+++자산 이동
++++에셋 이동
 
 1. 선택 배너에서 **[!UICONTROL 이동]**&#x200B;을 클릭합니다.
 
@@ -162,7 +162,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ 작업 영역에 있는 선택한 �
 
 +++
 
-+++자산 삭제
++++에셋 삭제
 
 >[!NOTE]
 >
@@ -270,7 +270,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ 작업 영역에서 폴더 또는 �
 
 Assets은 팀의 이메일, 이메일 템플릿 또는 시각적 콘텐츠 편집기에서 시각적 조각 작성에 사용할 수 있습니다.
 
-비주얼 디자이너 UI에서 왼쪽 사이드바의 _Marketo Engage Assets_ 아이콘(![Marketo Engage Assets 아이콘](../../assets/do-not-localize/icon-assets-me.svg))을 선택합니다.
+시각적 디자인 공간에서 왼쪽 사이드바의 _Marketo Engage Assets_ 아이콘(![Marketo Engage Assets 아이콘](../../assets/do-not-localize/icon-assets-me.svg))을 선택합니다.
 
 이 작업은 선택한 작업 영역에서 사용 가능한 에셋의 구조화된 목록을 표시하는 도구 패널을 변경합니다. 자산을 선택하기 위해 표시할 작업 영역을 선택합니다.
 

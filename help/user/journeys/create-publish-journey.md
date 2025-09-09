@@ -1,12 +1,12 @@
 ---
 title: 계정 여정 만들기 및 게시
-description: 계정 여정을 만들고 게시하는 방법에 대해 알아봅니다.
+description: 시각적 캔버스에서 계정 여정을 만들고, 작업 및 이벤트 노드를 추가하고, 예약을 구성하고, Journey Optimizer B2B edition에서 라이브 오케스트레이션을 위해 게시합니다.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -141,4 +141,4 @@ _여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443226/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

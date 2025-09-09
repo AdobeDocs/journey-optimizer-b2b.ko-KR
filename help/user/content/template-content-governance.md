@@ -1,12 +1,12 @@
 ---
 title: 템플릿 콘텐츠 거버넌스
-description: 계정 여정에서 사용하기 위해 변경할 수 있는 방법을 제어할 수 있도록 이메일 템플릿 내의 콘텐츠 요소를 잠그는 방법에 대해 알아봅니다.
+description: 브랜드 준수를 위해 이메일 템플릿 구성 요소 잠금 - 거버넌스 모드를 설정하고, 콘텐츠 편집을 제어하고, Journey Optimizer B2B edition에서 계정 여정 작성자에 대한 권한을 관리합니다.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## 템플릿에 대한 콘텐츠 거버넌스 활성화
 
-비주얼 디자이너를 사용하여 전자 메일 템플릿에 대한 [구조 및 콘텐츠 구성 요소를 작성](./email-template-authoring.md)한 후 거버넌스를 활성화하고 필요에 따라 특정 콘텐츠 잠금을 적용합니다.
+시각적 디자인 공간을 사용하여 전자 메일 템플릿에 대한 [구조 및 콘텐츠 구성 요소를 작성](./email-template-authoring.md)한 후 거버넌스를 활성화하고 필요에 따라 특정 콘텐츠 잠금을 적용합니다.
 
-1. 비주얼 디자이너에서 _탐색 트리_&#x200B;를 사용하여 레이어/컨테이너 및 요소에 액세스합니다.
+1. 시각적 디자인 공간에서 _탐색 트리_&#x200B;를 사용하여 레이어/컨테이너 및 요소에 액세스합니다.
 
    캔버스 왼쪽에 있는 _탐색 트리_ 아이콘(![링크 아이콘](../assets/do-not-localize/icon-navigation-tree.svg))을 클릭하여 트리를 표시합니다.
 

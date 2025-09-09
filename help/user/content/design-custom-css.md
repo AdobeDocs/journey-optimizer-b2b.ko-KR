@@ -1,12 +1,12 @@
 ---
 title: 콘텐츠에 대한 사용자 지정 CSS 추가
-description: 이메일 및 랜딩 페이지 콘텐츠에 사용자 지정 CSS를 추가하는 방법을 알아봅니다.
+description: Journey Optimizer B2B edition의 표준 구성 요소를 넘어 고급 스타일 지정 및 정밀한 디자인 제어를 위해 이메일 및 랜딩 페이지에 사용자 지정 CSS를 추가합니다.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ body {
 
 * CSS를 포함한 외부 HTML 콘텐츠를 가져오는 경우 <!-- unless converting that content, -->이(가) [!UICONTROL 호환성 모드]에서 채워지고 [!UICONTROL CSS 스타일] 섹션을 사용할 수 없습니다.
 
-* [!UICONTROL 사용자 지정 CSS 추가] 옵션을 통해 적용된 CSS를 포함하여 이메일 또는 랜딩 페이지 디자인 공간에서 원래 만들어진 콘텐츠를 가져오는 경우 적용된 CSS가 동일한 옵션에서 표시되고 편집할 수 있습니다.
+* [!UICONTROL 사용자 지정 CSS 추가] 옵션을 사용하여 전자 메일 또는 랜딩 페이지 디자인 공간에서 원래 만들어진 콘텐츠를 가져오는 경우 적용된 CSS가 동일한 옵션에서 표시되고 편집할 수 있습니다.
 
 ## 문제 해결
 

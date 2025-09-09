@@ -1,21 +1,21 @@
 ---
 title: 자산
-description: Journey Optimizer B2B Edition의 자산 관리에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 이메일, 템플릿 및 조각에 대한 Marketo Engage Design Studio 및 AEM Assets의 이미지 에셋을 관리합니다.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+workflow-type: tm+mt
+source-wordcount: '883'
+ht-degree: 91%
 
 ---
 
 # 자산
 
-[!DNL Adobe Journey Optimizer B2B Edition]에서 자산은 일반적으로 계정 여정을 지원하는 콘텐츠를 디자인할 때 사용되는 이미지입니다. 이러한 이미지는 시각적 디자인 공간 내의 자산 선택기나 간단한 드래그 앤 드롭 인터페이스를 통해 이메일, 이메일 템플릿 및 조각 내에서 사용할 수 있습니다.
+[!DNL Adobe Journey Optimizer B2B Edition]에서 자산은 일반적으로 계정 여정을 지원하는 콘텐츠를 디자인할 때 사용되는 이미지입니다. 이메일, 이메일 템플릿 및 자산 선택기의 조각 또는 시각적 디자인 공간 내의 간단한 드래그 앤 드롭 인터페이스에서 이러한 이미지를 사용할 수 있습니다.
 
-[!DNL Journey Optimizer B2B Edition]은 마케터에게 [!DNL Adobe Marketo Engage] [!DNL Design Studio] 및 [!DNL Adobe Experience Manager Assets as a Cloud Service], 이상 두 가지 유형의 자산 라이브러리에 대한 액세스 권한을 제공합니다. Adobe Marketo Engage Design Studio만 사용하거나 (보유 중인 [!DNL Experience Manager Assets] 라이선스에 따라) 두 라이브러리를 동시에 구성하여 사용할 수 있습니다.
+[!DNL Journey Optimizer B2B Edition]은 마케터에게 [!DNL Adobe Marketo Engage] [!DNL Design Studio] 및 [!DNL Adobe Experience Manager Assets as a Cloud Service], 이상 두 가지 유형의 자산 라이브러리에 대한 액세스 권한을 제공합니다. Adobe Marketo Engage Design Studio만 사용하거나 보유하고 있는 [!DNL Experience Manager Assets] 라이선스를 기반으로 두 라이브러리를 동시에 사용할 수 있습니다.
 
 ## 자산 관리
 

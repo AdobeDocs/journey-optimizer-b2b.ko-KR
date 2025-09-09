@@ -1,10 +1,10 @@
 ---
 title: 조각 작성
-description: 이메일 및 템플릿 디자인에 재사용할 수 있는 콘텐츠 조각을 작성하여 효율성을 높이고 디자인 및 브랜딩 표준을 유지 관리하는 방법에 대해 알아봅니다.
+description: 시각적 디자인 도구를 통해 재사용 가능한 콘텐츠 조각을 작성 - Journey Optimizer B2B edition의 이메일 및 템플릿에 대한 구성 요소, 개인화, 조건부 콘텐츠 및 사용자 지정 가능한 필드를 추가합니다.
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%

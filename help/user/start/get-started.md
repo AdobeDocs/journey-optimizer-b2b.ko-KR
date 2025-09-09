@@ -1,13 +1,13 @@
 ---
 title: 관리자 및 마케터를 위한 온보딩 지침
-description: Journey Optimizer B2B Edition의 신규 관리자 또는 사용자인 경우 온보딩 프로세스의 주요 영역에 대해 알아보십시오.
+description: 관리자 및 마케터를 위한 온보딩 안내서 - Journey Optimizer B2B edition에서 샌드박스를 설정하고, 채널을 구성하고, 구매 그룹을 만들고, 계정 여정을 디자인합니다.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 96%
 
 ---
 

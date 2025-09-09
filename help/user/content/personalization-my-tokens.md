@@ -1,12 +1,12 @@
 ---
 title: 이메일 Personalization에 대한 사용자 지정 토큰
-description: 계정 여정에 대해 정의된 토큰 세트를 사용하여 이메일 콘텐츠의 개인화를 관리하는 방법을 알아봅니다.
+description: 다이내믹 이메일 개인화를 위한 사용자 지정 내 토큰을 만들고 관리하기 - Journey Optimizer B2B edition에서 계정 여정에 대한 텍스트 및 숫자 변수를 정의합니다.
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ _내 토큰_&#x200B;은(는) 초안 상태의 계정 여정에 대해 만들거�
 
 사용자 지정 토큰을 전자 메일에 추가하면 `{{my.TokenName}}`(으)로 표시됩니다. 예를 들어 예정된 웨비나와 관련된 이메일 콘텐츠를 관리하기 위해 만든 토큰이 `{{my.EventDate}}` 또는 `{{my.WebinarSpeaker}}`개일 수 있습니다.
 
-_계정 여정의 사용자 지정 토큰에 액세스하려면:_
+계정 여정 :_의 사용자 지정 토큰에 액세스하려면(_T)
 
 1. 초안 계정 여정을 엽니다.
 
@@ -47,7 +47,7 @@ _계정 여정의 사용자 지정 토큰에 액세스하려면:_
 
    ![텍스트 토큰의 이름과 값을 입력하십시오](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   토큰 이름에는 공백이나 특수 문자를 사용할 수 없습니다. `EventType`과(와) 같은 _카멜 대/소문자_&#x200B;을(를) 사용하여 쉽게 식별할 수 있는 여러 단어 이름을 사용할 수 있습니다.
+   토큰 이름에는 공백이나 특수 문자를 사용할 수 없습니다. _과(와) 같은_&#x200B;카멜 대/소문자`EventType`을(를) 사용하여 쉽게 식별할 수 있는 여러 단어 이름을 사용할 수 있습니다.
 
    _숫자_ 토큰을 정의하는 경우 값에는 숫자만 사용할 수 있습니다. 십진수 값을 사용할 수 있습니다.
 

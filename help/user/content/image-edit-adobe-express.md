@@ -1,12 +1,12 @@
 ---
 title: Adobe Express으로 이미지 편집
-description: Adobe Express을 사용하여 Journey Optimizer B2B edition 작업 공간에서 이미지를 편집하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 Adobe Express을 사용하여 이미지를 기본적으로 편집하여 크기를 조정하고, 배경을 자르고, 제거하고, 형식을 변환하고, 작업 영역에 저장합니다.
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Adobe Express에 대한 Enterprise 라이선스가 있는 경우 Express 편집�
 
 ![Adobe Express 엔터프라이즈 편집기에서 이미지 열기](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/kr/express/user-guide.html){target="_blank"}를 참조하세요.
+사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/express/web.html){target="_blank"}를 참조하세요.
 
 ## Adobe Express의 빠른 작업
 

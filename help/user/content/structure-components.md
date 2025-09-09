@@ -1,12 +1,12 @@
 ---
 title: 구조 구성 요소
-description: 구조 구성 요소를 사용하여 이메일, 랜딩 페이지 및 시각적 조각 콘텐츠의 레이아웃을 정의하는 방법을 알아봅니다.
+description: 구조 구성 요소를 사용하여 이메일, 랜딩 페이지 및 조각의 레이아웃을 구축하고, 열 레이아웃을 드래그하고, 스타일을 설정하고, Journey Optimizer B2B edition에서 모바일 디스플레이를 구성합니다.
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1584'
 ht-degree: 6%
 
 ---

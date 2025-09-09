@@ -1,12 +1,12 @@
 ---
 title: 이메일
-description: 이메일 목록을 사용하여 Adobe Journey Optimizer B2B edition에서 이메일 콘텐츠를 관리합니다. 여정 간 이메일을 쉽게 평가하고 업데이트할 수 있습니다.
+description: 검색, 필터 및 벌크 작업 - Journey Optimizer B2B edition의 여정 외부 이메일, 설정 편집 및 테스트 이메일로 이메일 라이브러리를 관리합니다.
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---

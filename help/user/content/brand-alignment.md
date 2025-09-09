@@ -1,6 +1,6 @@
 ---
 title: 브랜드 정렬 점수
-description: 브랜드 정렬 점수를 사용하여 브랜드 내 콘텐츠를 만들고, 검증하고, 관리하는 방법에 대해 알아봅니다.
+description: 브랜드 정렬 점수로 이메일 콘텐츠를 평가합니다. Journey Optimizer B2B edition의 브랜드 지침에 따라 색상, 글꼴, 로고 및 작성 스타일을 확인합니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 17%
+source-wordcount: '467'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="브랜드 정렬 점수"
->abstract="브랜드 정렬 점수는 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일에서의 일관성을 보장합니다."
+>abstract="브랜드 정렬 점수는 콘텐츠가 브랜드 지침을 얼마나 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일의 일관성을 보장합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

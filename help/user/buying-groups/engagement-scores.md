@@ -1,12 +1,12 @@
 ---
 title: 구매 그룹에 대한 참여 점수
-description: Journey Optimizer B2B edition에서 가중 활동 및 역할 기반 계산을 사용하여 구매 그룹 및 개인 참여 점수를 추적합니다.
+description: Journey Optimizer B2B edition에서 가중 활동, 역할 기반 계산 및 30일 채점 기간을 사용하여 구매 그룹 및 개인 참여 점수를 계산합니다.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1254'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 * **개인 참여 점수** - 개인 참여 점수는 개별 구매 그룹 구성원의 활동을 기반으로 합니다.
 
-  각 구매 그룹 구성원의 개인 참여 점수가 구매 그룹 세부 정보 페이지 [_[!UICONTROL 구성원&#x200B;]_&#x200B;탭](./buying-group-details.md#buying-group-members)에 표시됩니다. 이러한 점수는 상위 참여 구성원 및 겹치는 연락처 정보가 포함된 페이지 및 대시보드에도 표시됩니다.
+  각 구매 그룹 구성원의 개인 참여 점수가 구매 그룹 세부 정보 페이지 [_[!UICONTROL 구성원&#x200B;]_탭](./buying-group-details.md#buying-group-members)에 표시됩니다. 이러한 점수는 상위 참여 구성원 및 겹치는 연락처 정보가 포함된 페이지 및 대시보드에도 표시됩니다.
 
   ![가장 많이 참여하는 구매 그룹 구성원](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

@@ -1,12 +1,12 @@
 ---
 title: 대기 노드
-description: Journey Optimizer B2B edition에서 계정 여정을 오케스트레이션하는 데 사용할 수 있는 대기 노드 유형에 대해 알아봅니다.
+description: 대기 노드를 추가하여 Journey Optimizer B2B edition의 상대적 기간 또는 전략적 타이밍에 대한 특정 날짜를 통해 여정 진행을 일시 중지합니다.
 feature: Account Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 * 상대적 기간(분, 시간, 일, 주 또는 개월 수)
 * 여정의 다음 노드로 이동하려는 특정 날짜
 
-_계정 여정에 대한 대기 노드를 정의하려면_
+계정 여정 :_에 대한 대기 노드를 정의하려면(_T)
 
 1. 여정 맵으로 이동합니다.
 

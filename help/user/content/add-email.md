@@ -1,12 +1,12 @@
 ---
 title: 여정에 이메일 추가
-description: Adobe Journey Optimizer B2B에서 이메일 작업을 추가, 정의 및 최적화하는 방법에 대해 알아봅니다. 타겟팅된 이메일 커뮤니케이션으로 계정 여정을 향상시킵니다.
+description: 계정 여정에 이메일 작업 노드 추가 - 새 이메일을 만들거나 Journey Optimizer B2B edition의 타깃팅된 커뮤니케이션에 기존 Marketo Engage 이메일을 사용합니다.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: b575ea7130d9305dd6a517323c58386c3720d807
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 | [!UICONTROL 회신 주소] | 이메일 헤더에 사용된 발신자 주소. 기본값은 [전자 메일 채널 게재 설정](../admin/configure-channels-emails.md#delivery-settings)([!UICONTROL 레이블에서])에서 채워집니다. 수신자가 회신 기능을 사용하는 경우 채울 이메일 주소를 입력합니다(발신자 주소와 다르거나 동일할 수 있음). 필드에서 개인화 토큰을 사용하려면 _개인화_ 아이콘( ![개인화 아이콘](../assets/do-not-localize/icon-personalize.svg))을 클릭하십시오. |
 | [!UICONTROL 제목 줄] | 이메일의 제목 필드에 표시되는 텍스트입니다. 기본값은 _[!UICONTROL 새 전자 메일 만들기]_ 대화 상자에 입력한 텍스트에서 채워집니다. 필요한 경우 텍스트를 변경할 수 있습니다. 필드에서 개인화 토큰을 사용하려면 _개인화_ 아이콘( ![개인화 아이콘](../assets/do-not-localize/icon-personalize.svg) )을 클릭하십시오.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL 브랜딩 도메인] | 시스템에 [브랜딩 도메인](../admin/configure-channels-emails.md#branding-domains)이 두 개 이상 정의되어 있는 경우 전자 메일을 보내는 데 사용할 브랜딩 도메인을 선택하십시오. 특정 브랜딩 도메인을 사용하여 회사 전체가 아닌 브랜드에서 온 것으로 보이는 이메일을 전송하십시오. 브랜드에 대한 신뢰를 구축하고, 이메일 경험을 개인화하고, 공개 및 응답률을 높입니다. |
-| [!UICONTROL 전용 IP] | 전용 IP 주소를 두 개 이상 정의한 경우 이메일을 보내는 데 사용할 전용 IP 주소를 선택하십시오. 프로그램에 특정 전용 IP를 사용하는 경우 게재 가능성을 더욱 면밀히 추적 및 모니터링하고 게재 지표의 변경 사항에 신속하게 대응할 수 있습니다. 연결된 Marketo Engage 인스턴스의 전용 IP를 추가하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}를 참조하세요. |
+| [!UICONTROL 전용 IP] | 전용 IP 주소를 두 개 이상 정의한 경우 이메일을 보내는 데 사용할 전용 IP 주소를 선택하십시오. 프로그램에 특정 전용 IP를 사용하는 경우 게재 가능성을 더욱 면밀히 추적 및 모니터링하고 게재 지표의 변경 사항에 신속하게 대응할 수 있습니다. 연결된 Marketo Engage 인스턴스의 전용 IP를 추가하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}를 참조하세요. |
 | [!UICONTROL 운영 전자 메일] | 이메일을 작동 상태로 지정하려면 확인란을 선택합니다. 운영 이메일은 옵트아웃/구독 취소 목록 및 통신 제한에서 제외됩니다. 수신자가 이메일 메시지를 원치 않는 상업성 메시지(SPAM)로 간주할 수 없는 경우에만 이 옵션을 선택합니다. |
 | [!UICONTROL 보기를 웹 페이지로 포함] | 이메일 메시지 콘텐츠에서 생성된 웹 페이지에 대한 링크를 포함하려면 확인란을 선택합니다. 이메일 메시지는 웹 페이지보다 기능이 제한적이므로 JavaScript, 확장된 CSS 및 양식에 유용합니다. HTML 링크를 생성하는 데 사용되는 텍스트는 [전자 메일 채널 게재 설정](../admin/configure-channels-emails.md#delivery-settings)([!UICONTROL 웹 페이지로 보기] 및 [!UICONTROL 웹 페이지로 보기])에 구성되어 있습니다. |
 | [!UICONTROL 열린 추적 사용 안 함] | 이메일 열기 활동을 추적하지 않으려면 확인란을 선택합니다. 기능을 비활성화하면 고유 사용자가 이메일을 여는 경우에만 이메일 열기 활동 수가 증가합니다. 이메일 본문 콘텐츠를 디자인할 때 [이메일 콘텐츠 링크 추적을 관리](./email-authoring.md#content-authoring---link-tracking)할 수 있습니다. |

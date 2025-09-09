@@ -1,12 +1,12 @@
 ---
 title: 기본 및 사용자 정의 역할
-description: 기본 및 사용자 지정 구매 그룹 역할 관리 - Journey Optimizer B2B edition에서 비즈니스 요구 사항에 대한 역할 정의를 만들고, 편집하고, 구성합니다.
+description: 기본 구매 그룹 역할을 보고 사용자 정의 역할 만들기 - Journey Optimizer B2B edition에서 비즈니스에 대한 역할 정의를 편집, 삭제 및 구성합니다.
 feature: Buying Groups
 role: User
 exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 3%
 
 ---

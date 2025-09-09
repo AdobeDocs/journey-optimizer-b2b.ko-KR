@@ -1,13 +1,13 @@
 ---
 title: 랜딩 페이지 디자인
-description: 계정 여정 및 캠페인을 지원하는 랜딩 페이지의 콘텐츠를 디자인하고 작성하는 방법을 알아봅니다.
+description: 시각적 도구를 사용하여 랜딩 페이지 디자인 - Journey Optimizer B2B edition에서 계정 여정에 대한 콘텐츠 구성 요소, 양식, 사용자 지정 CSS, 개인화 및 장치 미리 보기를 추가합니다.
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---

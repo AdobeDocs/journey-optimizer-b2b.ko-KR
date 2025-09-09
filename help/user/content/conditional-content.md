@@ -1,12 +1,12 @@
 ---
 title: 조건부 콘텐츠
-description: 계정 여정에 대한 시각적 조각 및 이메일 콘텐츠를 작성할 때 콘텐츠 변형을 만들고 조건부 규칙을 적용하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 개인화된 이메일 및 조각에 대한 프로필 속성 및 이벤트를 기반으로 조건부 규칙을 사용하여 다이내믹 콘텐츠 변형을 만듭니다.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1262'
 ht-degree: 10%
 
 ---

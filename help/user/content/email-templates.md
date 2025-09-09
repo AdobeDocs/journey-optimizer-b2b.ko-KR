@@ -1,12 +1,12 @@
 ---
 title: 이메일 템플릿
-description: 계정 여정 이메일을 쉽고 효율적으로 작성하는 데 사용되는 이메일 템플릿을 관리하고 만드는 방법을 알아봅니다.
+description: 처음부터 재사용 가능한 이메일 템플릿 만들기, HTML 가져오기 또는 기존 디자인 - Journey Optimizer B2B edition에서 계정 여정에 대한 템플릿을 관리합니다.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---

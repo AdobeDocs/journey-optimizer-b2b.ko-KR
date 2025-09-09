@@ -1,13 +1,13 @@
 ---
 title: 양식 디자인
-description: 비즈니스 리드 정보 수집에 사용되는 재사용 가능한 양식을 디자인하는 방법을 알아봅니다.
+description: Journey Optimizer B2B edition의 비즈니스 데이터 수집을 위한 필드 유형, 유효성 검사, 스타일 지정 및 XDM 스키마 속성이 있는 디자인 양식입니다.
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2062'
 ht-degree: 1%
 
 ---

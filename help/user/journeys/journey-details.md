@@ -1,12 +1,12 @@
 ---
 title: 여정 세부 사항
-description: 여정 세부 사항 페이지에서 제공하는 정보 및 게시된 계정 여정을 모니터링하고 관리하는 데 도움이 되는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B edition의 완료율, 참여 지표, 이메일/SMS 분석 및 AI 인사이트를 통해 계정 여정 성능을 모니터링합니다.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---

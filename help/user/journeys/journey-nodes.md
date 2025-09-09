@@ -1,14 +1,14 @@
 ---
 title: 계정 여정 노드
-description: Journey Optimizer B2B edition에서 계정 여정을 구성하는 데 사용할 수 있는 노드 유형에 대해 알아봅니다.
+description: Journey Optimizer B2B edition에서 크로스 채널 마케팅을 위해 작업, 이벤트 및 오케스트레이션 노드(대상, 대기, 분할 및 병합)를 사용하여 계정 여정을 작성합니다.
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 12%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 2%
 다양한 작업, 이벤트 및 오케스트레이션 노드를 다중 단계 크로스 채널 시나리오로 결합하여 계정 여정을 구축합니다. 여정의 각 노드는 논리적 경로를 따라 단계를 나타냅니다. 다음 노드 유형을 사용하여 계정 여정을 구성합니다.
 
 * [계정 대상자](./account-audience-nodes.md)
-* [조치 취하기](./action-nodes.md)
-* [이벤트 수신](./listen-for-event-nodes.md)
+* [액션 취하기](./action-nodes.md)
+* [이벤트 듣기](./listen-for-event-nodes.md)
 * [경로 분할](./split-merge-paths-nodes.md)
 * [대기](./wait-nodes.md)
 * [경로 병합](./split-merge-paths-nodes.md)
