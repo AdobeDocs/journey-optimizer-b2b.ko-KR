@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 28%
+ht-degree: 31%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="누락된 데이터스트림 ID"
->abstract="하위 도메인에 데이터 스트림 ID가 누락되었습니다. 이 ID는 적절한 라우팅에 필요합니다. 계속하려면 설정에서 구성하십시오."
+>abstract="하위 도메인에 적절한 라우팅에 필요한 데이터스트림 ID가 없습니다. 계속하려면 설정에서 구성하십시오."
 
 랜딩 페이지 이벤트 컬렉션에 사용할 데이터 스트림을 구성하려면 **[!UICONTROL 데이터 스트림]** 옵션을 설정하십시오.
 

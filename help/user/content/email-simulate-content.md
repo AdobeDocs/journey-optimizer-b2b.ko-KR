@@ -8,7 +8,7 @@ exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="콘텐츠 렌더링 방식 확인"
->abstract="콘텐츠가 정의되면 콘텐츠를 미리 보고 사용 중인 채널에 대한 렌더링이 올바른지 확인할 수 있습니다."
+>abstract="콘텐츠가 정의되면 미리 보고 사용 중인 채널에 대해 렌더링이 올바른지 확인할 수 있습니다."
 
 _콘텐츠 시뮬레이션_ 기능을 사용하여 전자 메일 콘텐츠를 미리 보고 특정 수신자에게 테스트 게재를 보냅니다. 미리 보기 및 테스트 기능에 액세스하려면 _[!UICONTROL 보낸 사람 이름]_, _[!UICONTROL 보낸 사람 주소]_, _[!UICONTROL 회신 주소]_ 및 _[!UICONTROL 제목 줄]_&#x200B;을 포함한 필수 전자 메일 필드를 정의해야 합니다.
 

@@ -11,7 +11,7 @@ exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="브랜드 시작하기"
->abstract="브랜드를 만들고 사용자 정의하여 고유한 시각적 및 언어적 정체성을 정의하는 동시에 브랜드 스타일 및 목소리와 일치하는 콘텐츠를 더 쉽게 생성할 수 있습니다."
+>abstract="고유한 시각적 및 언어적 정체성을 정의하고, 브랜드 스타일과 표현에 맞는 콘텐츠를 손쉽게 생성할 수 있도록 브랜드를 만들고 맞춤화합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"

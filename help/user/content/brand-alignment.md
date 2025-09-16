@@ -11,7 +11,7 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="브랜드 정렬 점수"
->abstract="브랜드 정렬 점수는 콘텐츠가 브랜드 지침을 얼마나 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일의 일관성을 보장합니다."
+>abstract="브랜드 정렬 점수는 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일에서의 일관성을 보장합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

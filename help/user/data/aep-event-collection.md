@@ -9,7 +9,7 @@ badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한�
 source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 1%
+ht-degree: 45%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"
->title="하위 도메인 데이터 스트림 ID"
->abstract="Experience Platform Web SDK을 사용하여 랜딩 페이지 데이터 수집을 활성화하는 데이터 스트림을 제공합니다. "
+>title="하위 도메인 데이터스트림 ID"
+>abstract="Experience Platform Web SDK를 사용하여 랜딩 페이지 데이터 수집을 활성화하는 데이터스트림을 제공합니다. "
 
 곧 제공될 콘텐츠.

@@ -7,7 +7,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -92,7 +92,7 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
      >[!NOTE]
      >
      >추적을 허용하지만 _[!UICONTROL mkt_tok 포함]_&#x200B;을 사용하지 않도록 설정하는 경우 리디렉션 후 대상 URL에 `mkt_tok` 쿼리 문자열 매개 변수가 포함되지 않습니다. 이 매개 변수는 Marketo Engage 랜딩 페이지 및 Munchkin에서 개인 활동 추적을 보장하기 위해 사용합니다(예: 개인이 이메일에서 가입 해지하는 경우). 매개 변수로 인해 웹 사이트에서 문제가 발생하지 않는 한 이 옵션을 비활성화하지 마십시오.<br/>
-     >웹 사이트에서 Munchkin 추적 코드를 사용하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}를 참조하세요.
+     >웹 사이트에서 Munchkin 추적 코드를 사용하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}를 참조하세요.
 
    ![SMS 메시지에 링크 대화 상자 추가](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -124,7 +124,7 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="콘텐츠 렌더링 방식 확인"
->abstract="콘텐츠가 정의되면 사용 중인 채널에 대한 렌더링을 미리 보고 확인할 수 있습니다."
+>abstract="콘텐츠가 정의되면 이를 미리 보고 사용 중인 채널에 대한 렌더링을 확인해 볼 수 있습니다."
 
 메시지 콘텐츠가 정의된 경우 테스트 프로필을 사용하여 콘텐츠를 시뮬레이션(미리 보기)할 수 있습니다. 개인화된 콘텐츠를 삽입했다면 테스트 프로필 데이터를 이용해 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있다.
 
