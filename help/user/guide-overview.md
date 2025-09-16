@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition 설명서
-description: Journey Optimizer B2B edition에 대한 전체 설명서 - 온보딩, 구매 그룹 만들기, 계정 여정 작성 및 컨텐츠 관리에 사용할 수 있는 리소스를 살펴봅니다.
+description: Journey Optimizer B2B Edition에 대한 전체 설명서 - 온보딩, 구매 그룹 만들기, 계정 여정 구축, 콘텐츠 관리에 사용할 수 있는 리소스를 살펴보십시오.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ B2B 마케팅 전략가는 이제 사용자 정의 구매 그룹 역할을 통�
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="사용자 정의 구매 그룹 역할에 대해 알아보십시오"}
 
->[!TAB 사용자 지정 참여 점수 가중치]
+>[!TAB 사용자 정의 참여 점수 가중치]
 
-참여 점수가 가장 높은 가치 활동을 반영하도록 참여 활동에 사용자 지정 가중치를 할당합니다. 높은 의도의 신호를 강조하면 팀이 구매 잠재력이 가장 강한 계정을 더 잘 식별하고 우선 순위를 지정할 수 있습니다.
+참여 활동에 사용자 정의 가중치를 할당해 참여 점수가 가장 가치가 높은 활동을 반영할 수 있도록 합니다. 높은 구매 의도 신호를 강조해 주므로 귀하의 팀에서 가장 높은 구매 가능성을 가진 계정을 더 잘 식별하고 우선 순위를 정할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="사용자 정의 참여 점수 가중치에 대해 알아보기"}
 
@@ -137,7 +137,7 @@ GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Ed
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>

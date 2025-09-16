@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2795'
 ht-degree: 100%
 

@@ -1,13 +1,13 @@
 ---
 title: 계정 내보내기
-description: Journey Optimizer B2B edition에 구매 그룹 및 참여 점수 필터가 있는 서드파티 플랫폼을 위해 필터링된 계정 목록을 CSV로 내보냅니다.
+description: Journey Optimizer B2B Edition에서 구매 그룹 및 참여 점수 필터를 통해 필터링된 계정 목록을 CSV로 내보내 서드파티 플랫폼에서 사용해 보십시오.
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

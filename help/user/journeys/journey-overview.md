@@ -1,13 +1,13 @@
 ---
 title: 계정 여정
-description: Journey Optimizer B2B edition의 이메일, SMS 및 이벤트 전반에서 구매 그룹 참여를 만들고, 게시하고, 관리하는 계정 여정을 통해 수요 생성을 간소화합니다.
+description: 계정 여정을 통한 수요 창출 간소화 - Journey Optimizer B2B Edition에서 이메일, SMS 및 이벤트 전반에 걸친 구매 그룹 참여를 만들고, 게시하고, 관리하십시오.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ _[!UICONTROL 계정 여정]_&#x200B;목록에서 이름(링크로 표시됨)을 
 
 | 상태 | 설명 | 사용 가능한 액션 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**초안**&#x200B;_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-an-account-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _&#x200B;**라이브**&#x200B;_ | 여정이 게시되면 여정 상태가 “초안”에서 “진행 중”으로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
-| _&#x200B;**새로운 참여 마감됨**&#x200B;_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
-| _&#x200B;**중단됨**&#x200B;_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _&#x200B;**완료됨**&#x200B;_ | 여정에 있는 모든 계정이 여정을 완료하면 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;에서 _완료됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**초안**_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-an-account-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**라이브**_ | 여정이 게시되면 여정 상태가 “초안”에서 “진행 중”으로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
+| _**새로운 참여 마감됨**_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
+| _**중단됨**_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**완료됨**_ | 여정에 있는 모든 계정이 여정을 완료하면 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;에서 _완료됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
 
 ## 여정 관리
 
@@ -157,4 +157,4 @@ _계정 여정_ 목록에는 Journey Optimizer B2B Edition 인스턴스의 모�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443214/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

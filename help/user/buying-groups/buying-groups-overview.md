@@ -1,13 +1,13 @@
 ---
 title: 구매 그룹
-description: 구매 그룹으로 계정 기반 마케팅 최적화 - 의사 결정자를 식별하고, 참여 점수를 추적하고, Journey Optimizer B2B edition에서 타깃팅을 자동화합니다.
+description: 구매 그룹을 통한 계정 기반 마케팅 최적화 - Journey Optimizer B2B Edition에서 의사 결정권자를 식별하고, 참여 점수를 추적하고, 타기팅을 자동화해 보십시오.
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ B2B 판매 및 마케팅 활동에서 계정은 모든 전략의 핵심입니다
 
 ## 주요 구성 요소
 
-영업 팀이 판매를 담당하는 솔루션에 대한 대상 계정 목록의 구성원을 식별하는 구매 그룹을 설정하여 마케팅 효과를 높일 수 있습니다. 마케팅 팀과 함께 구매 그룹을 만들기 전에 주요 구성 요소를 정의해야 합니다. 이들 구성 요소는 비즈니스 목표와 목적을 달성하는 데 중요합니다.
+판매 팀이 판매를 담당하는 솔루션을 기반으로 대상 계정 목록에 멤버를 식별하는 구매 그룹을 설정하여 마케팅 효과를 높일 수 있습니다. 마케팅 팀과 함께 구매 그룹을 만들기 전에 주요 구성 요소를 정의해야 합니다. 이들 구성 요소는 비즈니스 목표와 목적을 달성하는 데 중요합니다.
 
 | 구성 요소 | 용도 |
 | --------- | ------- |
@@ -112,4 +112,4 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3452942/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
