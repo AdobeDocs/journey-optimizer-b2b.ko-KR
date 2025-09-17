@@ -30,7 +30,7 @@ Journey Optimizer B2B edition의 AI 도우미는 Adobe Experience Platform의 [A
 
 ## Journey Optimizer B2B edition의 AI Assistant 기능
 
-제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터의 내부 표현이며, 지정된 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 웹인 _&#x200B;**_지식 그래프_**&#x200B;_&#x200B;라고도 합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
+제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터의 내부 표현이며, 지정된 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 웹인 _**_지식 그래프_**_&#x200B;라고도 합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
 
 * Experience League 설명서입니다.
 * 스키마, 필드, 대상 및 여정 등 운영 객체
@@ -92,7 +92,7 @@ Journey Optimizer B2B edition의 AI Assistant는 개인정보 보호, 보안 및
 
 * AI Assistant와 상호 작용하려면 명시적인 권한이 있어야 합니다.
 
-   * 관리자는 [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} 및 [Admin Console](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/browse){target="_blank"}을 사용하여 권한을 설정할 수 있습니다.
+   * 관리자는 [권한 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} 및 [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}을 사용하여 권한을 설정할 수 있습니다.
 
    * 권한은 세분화되며 샌드박스 관리자는 다양한 질문 카테고리(AI Assistant를 통한 제품 지식 기반 질문 또는 운영 통찰력에 대한 질문)를 물을 수 있는 사용자를 구성할 수 있습니다.
 
