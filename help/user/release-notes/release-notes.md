@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항 및 버그 수정 내용 살펴보기 - 새로운 기능 및 제품 개선 사항에 대한 최신 업데이트를 받아 보십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '2795'
-ht-degree: 100%
+source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
+workflow-type: tm+mt
+source-wordcount: '3016'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,23 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.9 릴리스 정보
+
+**배포 일자**: 2025년 9월 30일 수요일
+
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+
+| 유형 | 항목 | 설명 |
+| ---- | ---- | ----------- |
+| 기능 | 이메일 콘텐츠 공동 작업 | 이제 이메일 에셋의 컨텍스트에서 동료 Journey Optimizer B2B edition 사용자와 공동 작업에 대해 댓글을 달 수 있습니다. 팀 구성원이 주석의 세부 정보가 포함된 이메일 알림을 받을 수 있도록 태그를 지정할 수 있습니다. 알림은 펄스 알림으로도 사용할 수 있습니다. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _어두운 모드_(으)로 전환하는 기능이 포함됩니다. 다크 모드에서는 이메일 콘텐츠를 미리 볼 수 있으며, 다크 모드에서 이메일을 보는 수신자를 위해 특히 표시될 사용자 지정 설정을 정의할 수 있습니다. <!-- [Learn more](../content/email-dark-mode.md) --> |
+| 개선 사항 | 여정 - 역할에 있는 사람 수별로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사람 수가 있는 계정을 타겟팅합니다. 경로에서 역할 깊이를 기반으로 영업 경고 및 기타 참여에 대한 구매 그룹 준비 상태를 평가할 수 있습니다. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사람 필터를 사용하여 사람 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타깃팅하는 기능이 포함됩니다. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+
+>[!NOTE]
+>
+>릴리스 변경 사항은 2025년 9월 30일 수요일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 ## 2025.8 릴리스 정보
 
