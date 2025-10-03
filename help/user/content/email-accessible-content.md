@@ -28,6 +28,7 @@ ht-degree: 0%
 >이 페이지에서는 [!DNL Journey Optimizer B2B Edition]&#x200B;(으)로 디자인된 전자 메일 및 랜딩 페이지를 장애가 있는 사람이 읽고, 이해하고, 상호 작용할 수 있도록 모든 받는 사람이 콘텐츠에 액세스할 수 있도록 합니다.
 >
  
+
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
