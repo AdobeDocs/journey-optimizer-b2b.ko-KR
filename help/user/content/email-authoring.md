@@ -4,9 +4,9 @@ description: 시각적 디자인 도구, HTML 가져오기 또는 템플릿을 �
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1163'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 2%
 
 전자 메일이 저장되면 요약에서 _[!UICONTROL 사용자]_ 탭을 선택하면 조각 세부 정보 페이지에 전자 메일이 표시됩니다.
 
-### 에셋 추가
+### 이미지 자산 추가
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -126,6 +126,14 @@ ht-degree: 2%
 ### 연결된 URL 추적 편집
 
 {{$include /help/_includes/content-design-links.md}}
+
+### 어두운 모드 스타일 적용
+
+_어두운 모드_&#x200B;를 사용하여 전자 메일 클라이언트의 어두운 테마에 대한 전자 메일 표시를 검토합니다. 어두운 모드 또는 테마를 사용하면 지원하는 이메일 클라이언트 또는 앱에서 텍스트, 단추 및 기타 시각적 요소에 대해 배경이 어둡고 색상이 밝은 이메일을 표시할 수 있습니다. 디자인 캔버스의 오른쪽 상단에서 선택기를 _어두운 모드_( ![어두운 모드 아이콘](../assets/do-not-localize/icon-content-dark-mode.svg) )로 변경합니다. 그런 다음 지원되는 이메일 클라이언트가 어두운 테마를 활성화할 때 표시하는 데 사용되는 특정 사용자 지정 설정을 미리 보고 정의합니다.
+
+![다크 모드 선택기와 다크 모드로 표시되는 이메일 콘텐츠를 보여 주는 이메일 디자인 캔버스](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+다크 모드 스타일 지정 및 모범 사례에 대한 자세한 내용은 [이메일 콘텐츠의 다크 모드](./email-dark-mode.md)를 참조하세요.
 
 ### 옵션 보기
 

@@ -4,7 +4,7 @@ description: Journey Optimizer B2B edition에서 가중 활동, 역할 기반 �
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 30%
@@ -30,13 +30,13 @@ ht-degree: 30%
 
 * **개인 참여 점수** - 개인 참여 점수는 개별 구매 그룹 구성원의 활동을 기반으로 합니다.
 
-  각 구매 그룹 구성원의 개인 참여 점수가 구매 그룹 세부 정보 페이지 [_[!UICONTROL 구성원&#x200B;]_&#x200B;탭](./buying-group-details.md#buying-group-members)에 표시됩니다. 이러한 점수는 상위 참여 구성원 및 겹치는 연락처 정보가 포함된 페이지 및 대시보드에도 표시됩니다.
+  각 구매 그룹 구성원의 개인 참여 점수가 구매 그룹 세부 정보 페이지 [_[!UICONTROL 구성원&#x200B;]_탭](./buying-group-details.md#buying-group-members)에 표시됩니다. 이러한 점수는 상위 참여 구성원 및 겹치는 연락처 정보가 포함된 페이지 및 대시보드에도 표시됩니다.
 
   ![가장 많이 참여하는 구매 그룹 구성원](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-사용자 참여 점수는 [역할 템플릿](./buying-groups-role-templates.md#add-the-template-roles) 및 [여정 split-path-by-people 노드](../journeys/split-merge-paths-nodes.md#people-path-conditions)에서 필터링하는 데 사용할 수 있는 특성입니다.
+사용자 참여 점수는 [역할 템플릿](./buying-groups-role-templates.md#add-the-template-roles) 및 [여정 split-path-by-people 노드](../journeys/split-merge-paths-nodes.md#people-path-filters)에서 필터링하는 데 사용할 수 있는 특성입니다.
 
 ![구성된 이벤트 정의에 액세스](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 

@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항 및 버그 수정 내용 살펴보기 - 새로운 기능 및 제품 개선 사항에 대한 최신 업데이트를 받아 보십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: ht
-source-wordcount: '3016'
-ht-degree: 100%
+source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+workflow-type: tm+mt
+source-wordcount: '3000'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,6 @@ Adobe Journey Optimizer B2B Edition은 지속적으로 새로운 기능, 기존 
 Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform]기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest){target="_blank"}를 참조하십시오.
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -33,10 +32,10 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 이메일 콘텐츠 공동 작업 | 이제 이메일 자산의 컨텍스트에서 다른 Journey Optimizer B2B Edition 사용자와 공동 작업에 대해 댓글을 달 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 알림을 받을 수 있도록 태그를 지정할 수 있습니다. 알림은 또한 펄스 알림으로도 제공됩니다. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서 이메일 콘텐츠를 미리 보고 다크 모드로 이메일을 보는 수신자에게 특별히 표시되도록 사용자 정의 설정을 정의할 수 있습니다. <!-- [Learn more](../content/email-dark-mode.md) --> |
-| 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 판매 알림 및 기타 참여를 위한 구매 그룹 준비 상태를 평가할 수 있습니다. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타기팅하는 기능이 포함됩니다. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| 기능 | 이메일 콘텐츠 공동 작업 | 이제 이메일 자산의 컨텍스트에서 다른 Journey Optimizer B2B Edition 사용자와 공동 작업에 대해 댓글을 달 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 알림을 받을 수 있도록 태그를 지정할 수 있습니다. 알림은 펄스 알림으로도 사용할 수 있습니다. [자세히 알아보기](../content/email-collaboration-tools.md) |
+| 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서는 이메일 콘텐츠를 미리 볼 수 있으며, 다크 모드에서 이메일을 보는 수신자를 위해 특히 표시될 사용자 지정 설정을 정의할 수 있습니다. [자세히 알아보기](../content/email-dark-mode.md) |
+| 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 영업 경고 및 기타 참여에 대한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타깃팅하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -56,10 +55,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 조각용 조건부 콘텐츠 | 시각적 조각 디자인에 대해 이제 조건부 콘텐츠 도구를 사용할 수 있습니다. [자세히 알아보기](../content/conditional-content.md) |
 | 개선 사항 | 참여 점수 업데이트 | 점수 정규화를 위해 구매 그룹 참여 점수 논리가 업데이트되었습니다. 또한 멤버 수준 참여 점수와 더불어 전체 구매 그룹에 대한 집단적 참여 점수도 활용할 수 있습니다. [자세히 알아보기](../buying-groups/engagement-scores.md) |
 | 개선 사항 | 활성 여정 가시성 - 각 노드의 계정 | 활성 계정 여정의 경우 여정에서 각 계정 노드에 도달한 계정 목록을 활용할 수 있습니다. |
-
->[!NOTE]
->
->릴리스 변경 사항은 2025년 8월 26일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 ## 2025.6 릴리스 정보
 
@@ -108,7 +103,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 계정 목록 여정 오케스트레이션 | 여정 작업 노드를 사용하여 정적 계정 목록에 계정을 추가하거나 제거할 수 있습니다. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">자세히 알아보기</a> |
 | 개선 사항 | Marketo Engage에서 여정 멤버십 필터링 | 여정 대상자에 Adobe Journey Optimizer B2B Edition 계정 목록을 사용한 다음 Marketo Engage 스마트 목록에서 _계정 목록 멤버_ 필터를 적용합니다. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">자세히 알아보기</a> |
 | 기능 | 비활동 필터 | 이메일 비활동, 즐거운 순간, 데이터 가치 변화, 방문한 웹 페이지 등을 포함하여 Marketo Engage 캠페인과 프로그램 내의 비활동에 따라 조율되는 여정입니다. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">자세히 알아보기</a> |
-| 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 관련된 방문한 웹 페이지의 활동을 기반으로 여정을 조율합니다. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">자세히 알아보기</a> |
+| 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 관련된 방문한 웹 페이지의 활동을 기반으로 여정을 조율합니다. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">자세히 알아보기</a> |
 | 개선 사항 | 이메일 목록 | 활성 및 초안 이메일의 글로벌 목록을 조회하고, 연관된 계정 여정 전반에 걸쳐 이를 검색, 검토 및 업데이트합니다. <a href="../content/emails-list.md">자세히 알아보기</a> |
 
 ## 2025.3 릴리스 정보

@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 설명서
 description: Journey Optimizer B2B Edition에 대한 전체 설명서 - 온보딩, 구매 그룹 만들기, 계정 여정 구축, 콘텐츠 관리에 사용할 수 있는 리소스를 살펴보십시오.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 100%
 다음은 Journey Optimizer B2B Edition 애플리케이션과 설명서의 최신 추가 및 개선 사항에 대한 샘플링입니다.
 
 >[!BEGINTABS]
+
+>[!TAB 전자 메일 콘텐츠 공동 작업]
+
+이메일 디자인 공간에는 댓글 달기 및 해결을 위한 공동 작업 도구가 포함되어 있어 마케팅 팀이 [!DNL Journey Optimizer B2B Edition] 내에서 이메일 자산을 원활하게 검토하고, 논의하고, 마무리할 수 있습니다. 사용자는 외부 도구(예: 채팅, 이메일 스레드 또는 스프레드시트)를 통해 초안을 공유하는 대신 이메일 디자인 영역 내에서 댓글을 달고, 편집을 제안하고, 피드백을 해결할 수 있습니다. 팀 구성원에 태그를 지정하여 댓글에 대한 세부 정보가 포함된 이메일 또는 펄스 알림을 받을 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="이메일 콘텐츠 공동 작업 도구에 대해 알아보기"}
+
+>[!TAB 어두운 모드 전자 메일 디자인]
+
+이제 이메일 디자인 공간에 _어두운 모드_ 미리 보기 및 설정이 포함됩니다. 다크 모드를 사용하면 지원되는 이메일 클라이언트 또는 앱에서 텍스트, 단추 및 기타 시각적 요소에 대해 배경이 어둡고 색상이 밝은 이메일을 표시할 수 있습니다. 렌더링 미리 보기, 설정 사용자 지정, 접근성 보장 및 이메일 클라이언트 간 테스트.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="다크 모드 이메일 디자인에 대해 알아보기"}
 
 >[!TAB 개인 참여 점수]
 
@@ -35,12 +47,6 @@ B2B 마케팅 전략가는 이제 사용자 정의 구매 그룹 역할을 통�
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="사용자 정의 참여 점수 가중치에 대해 알아보기"}
 
->[!TAB GenStudio 이메일 경험]
-
-GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Edition과 통합하여 마케팅 효율을 높이고 브랜드 일관성을 유지하십시오. 이 통합을 통해 GenStudio AI 기반 콘텐츠 생성과 Journey Optimizer B2B Edition의 고급 오케스트레이션 기능을 결합할 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio 이메일 경험에 대해 알아보십시오"}
-
 >[!TAB 사용자 정의 CSS 지원]
 
 이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 정의 CSS를 추가할 수 있습니다.
@@ -52,12 +58,6 @@ GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Ed
 의도 감지 모델을 활성화하고 관리하려면 이제 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/intent-data.md" tooltip="의도 키워드 매핑 구성에 대해 알아보기"}
-
->[!TAB 스팸 탐지 보고]
-
-새로운 스팸 보고서 기능을 통해 스팸 필터를 피하고 메시지가 대상자의 받은 편지함으로 전달되도록 할 수 있습니다. 이메일 디자인 공간에서 바로 _스팸 보고서_&#x200B;를 생성합니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="스팸 탐지 보고에 대해 알아보기"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ GenStudio for Performance Marketing 이메일 경험을 Journey Optimizer B2B Ed
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
