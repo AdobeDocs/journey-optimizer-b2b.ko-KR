@@ -266,4 +266,4 @@ _여정 병합_ 노드를 추가하여 계정별로 다른 분할 경로를 결�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443263/?learn=on&captions=kor)
