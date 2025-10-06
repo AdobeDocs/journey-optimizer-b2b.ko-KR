@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 99%
+source-wordcount: '329'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 99%
    + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
 + 계정 여정 {#account-journeys}
    + [개요](./journeys/journey-overview.md)
+   + [여정 빌드 에이전트](./agents/journey-agent.md)
    + [여정 생성 및 게시](./journeys/create-publish-journey.md)
    + [여정 노드](./journeys/journey-nodes.md)
    + 여정 노드 {#journey-nodes}
@@ -40,12 +41,14 @@ ht-degree: 99%
       + [이메일 작성](./content/email-authoring.md)
       + [이메일 작성을 위한 AI 어시스턴트](./content/ai-assistant-emails.md)
       + [GenStudio 워크플로](./content/genstudio-email-workflow.md)
+      + [이메일 디자인을 위한 다크 모드](./content/email-dark-mode.md)
       + [제어되는 템플릿](./content/email-authoring-governance.md)
       + [판매 알림 이메일](./content/sales-alert-email.md)
    + [사용자 정의 개인화 토큰](./content/personalization-my-tokens.md)
    + [SMS 작성](./content/sms-authoring.md)
 + 계정 {#accounts}
    + [대상자](./audiences/account-audience-overview.md)
+   + [Audience 에이전트](./agents/audience-agent-b2b.md)
    + 구매 그룹 {#buying-groups}
       + [개요](./buying-groups/buying-groups-overview.md)
       + [솔루션 관심 분야](./buying-groups/solution-interests.md)
@@ -74,6 +77,7 @@ ht-degree: 99%
          + [콘텐츠 시뮬레이션](./content/email-simulate-content.md)
          + [이메일 렌더링 테스트](./content/email-test-rendering.md)
          + [스팸 보고서](./content/email-spam-report.md)
+      + [이메일 공동 작업](./content/email-collaboration-tools.md)
    + 자산 {#assets}
       + [개요](./content/assets-overview.md)
       + Marketo Engage 자산 {#marketo-engage-dam}
