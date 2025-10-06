@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항 및 버그 수정 내용 살펴보기 - 새로운 기능 및 제품 개선 사항에 대한 최신 업데이트를 받아 보십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+source-git-commit: fbb949da360e1e80e92fa34b2dd43a4de10011b9
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2996'
 ht-degree: 97%
 
 ---
@@ -32,8 +32,8 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 이메일 콘텐츠 공동 작업 | 이제 이메일 자산의 컨텍스트에서 다른 Journey Optimizer B2B Edition 사용자와 공동 작업에 대해 댓글을 달 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 알림을 받을 수 있도록 태그를 지정할 수 있습니다. 알림은 펄스 알림으로도 사용할 수 있습니다. [자세히 알아보기](../content/email-collaboration-tools.md) |
-| 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서는 이메일 콘텐츠를 미리 볼 수 있으며, 다크 모드에서 이메일을 보는 수신자를 위해 특히 표시될 사용자 지정 설정을 정의할 수 있습니다. [자세히 알아보기](../content/email-dark-mode.md) |
+| 기능 | 이메일 콘텐츠 공동 작업 | 이제 이메일 자산의 컨텍스트에서 다른 Journey Optimizer B2B Edition 사용자와 공동 작업에 대해 댓글을 달 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 알림을 받을 수 있도록 태그를 지정할 수 있습니다. 알림은 펄스 알림으로도 사용할 수 있습니다. |
+| 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서는 이메일 콘텐츠를 미리 볼 수 있으며, 다크 모드에서 이메일을 보는 수신자를 위해 특히 표시될 사용자 지정 설정을 정의할 수 있습니다. |
 | 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 영업 경고 및 기타 참여에 대한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타깃팅하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
