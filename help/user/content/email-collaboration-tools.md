@@ -3,7 +3,8 @@ title: 이메일 Collaboration 도구
 description: Journey Optimizer B2B edition에서 이메일에 대해 공동 작업합니다. 팀의 의견을 추가하고, 검토자를 초대하고, 피드백을 해결하고, 검토 워크플로를 간소화합니다.
 feature: Email Authoring, Content
 role: User
-source-git-commit: cdc5963c1222fe2e225ad53467bdba83ccd3207b
+hidefromtoc: true
+source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 1%
