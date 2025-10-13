@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition 설명서
 description: Journey Optimizer B2B Edition에 대한 전체 설명서 - 온보딩, 구매 그룹 만들기, 계정 여정 구축, 콘텐츠 관리에 사용할 수 있는 리소스를 살펴보십시오.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 78%
 
 >[!BEGINTABS]
 
->[!TAB 전자 메일 콘텐츠 공동 작업]
+>[!TAB 이메일 콘텐츠 공동 작업]
 
-이메일 디자인 공간에는 댓글 달기 및 해결을 위한 공동 작업 도구가 포함되어 있어 마케팅 팀이 [!DNL Journey Optimizer B2B Edition] 내에서 이메일 자산을 원활하게 검토하고, 논의하고, 마무리할 수 있습니다. 사용자는 외부 도구(예: 채팅, 이메일 스레드 또는 스프레드시트)를 통해 초안을 공유하는 대신 이메일 디자인 영역 내에서 댓글을 달고, 편집을 제안하고, 피드백을 해결할 수 있습니다. 팀 구성원에 태그를 지정하여 댓글에 대한 세부 정보가 포함된 이메일 또는 펄스 알림을 받을 수 있습니다.
+이메일 디자인 공간에는 댓글 달기 및 해결을 위한 공동 작업 도구가 포함되어 있어 마케팅 팀이 [!DNL Journey Optimizer B2B Edition] 내에서 직접 이메일 자산을 원활하게 검토하고, 논의하고, 최종 결정할 수 있습니다. 외부 도구(예: 채팅, 이메일 스레드 또는 스프레드시트)를 통해 초안을 공유하는 대신, 사용자는 이메일 디자인 공간 내에서 댓글을 달고, 편집을 제안하고, 피드백을 해결할 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 또는 펄스 알림을 받을 수 있도록 태그를 지정할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="이메일 콘텐츠 공동 작업 도구에 대해 알아보기"}
 
->[!TAB 어두운 모드 전자 메일 디자인]
+>[!TAB 다크 모드 이메일 디자인]
 
-이제 이메일 디자인 공간에 _어두운 모드_ 미리 보기 및 설정이 포함됩니다. 다크 모드를 사용하면 지원되는 이메일 클라이언트 또는 앱에서 텍스트, 단추 및 기타 시각적 요소에 대해 배경이 어둡고 색상이 밝은 이메일을 표시할 수 있습니다. 렌더링 미리 보기, 설정 사용자 지정, 접근성 보장 및 이메일 클라이언트 간 테스트.
+이메일 디자인 공간에 _다크 모드_ 미리보기 및 설정이 포함됩니다. 다크 모드를 사용하면 지원되는 이메일 클라이언트 또는 앱이 더 어두운 배경과 더 밝은 색상으로 텍스트, 버튼 및 기타 시각 요소가 포함된 이메일을 표시할 수 있습니다. 미리보기 렌더링, 설정 사용자 정의, 접근성 확보 및 이메일 클라이언트 전반에서 테스트합니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="다크 모드 이메일 디자인에 대해 알아보기"}
 
@@ -137,7 +137,7 @@ B2B 마케팅 전략가는 이제 사용자 정의 구매 그룹 역할을 통�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>

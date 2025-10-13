@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: fbb949da360e1e80e92fa34b2dd43a4de10011b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2996'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,10 +32,10 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 이메일 콘텐츠 공동 작업 | 이제 이메일 자산의 컨텍스트에서 다른 Journey Optimizer B2B Edition 사용자와 공동 작업에 대해 댓글을 달 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 알림을 받을 수 있도록 태그를 지정할 수 있습니다. 알림은 펄스 알림으로도 사용할 수 있습니다. |
-| 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서는 이메일 콘텐츠를 미리 볼 수 있으며, 다크 모드에서 이메일을 보는 수신자를 위해 특히 표시될 사용자 지정 설정을 정의할 수 있습니다. |
-| 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 영업 경고 및 기타 참여에 대한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
-| 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타깃팅하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+| 기능 | 이메일 콘텐츠 공동 작업 | 이제 이메일 자산의 컨텍스트에서 다른 Journey Optimizer B2B Edition 사용자와 공동 작업에 대해 댓글을 달 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 알림을 받을 수 있도록 태그를 지정할 수 있습니다. 알림은 또한 펄스 알림으로도 제공됩니다. |
+| 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서 이메일 콘텐츠를 미리 보고 다크 모드로 이메일을 보는 수신자에게 특별히 표시되도록 사용자 정의 설정을 정의할 수 있습니다. |
+| 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 판매 알림 및 기타 참여를 위한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타기팅하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 스팸 탐지 보고 | 스팸 필터를 피하고 메시지가 대상자의 받은 편지함으로 전달되도록 하려면 이메일 디자인 공간에서 바로 _스팸 보고서_&#x200B;를 생성할 수 있습니다. [자세히 알아보기](../content/email-spam-report.md) |
 | 기능 | 개인 정보 페이지 | 이제 지능형 대시보드, 구매 그룹 세부 정보 페이지 및 계정 세부 정보 페이지에 하이퍼링크로 표시되는 이름을 클릭할 수 있습니다. 이 작업을 통해 연결된 개인 정보 페이지가 열리며, 이 페이지에는 연락처 정보, 활동 및 가장 많이 참여한 구매 그룹에 대한 정보가 표시됩니다. [자세히 알아보기](../accounts/person-details.md) |
 | 기능 | 계정 및 구매 그룹 작업 | 계정 상세 정보 및 구매 그룹 상세 정보 페이지에서 바로 작업을 수행하여 시기적절하고 의도적인 참여를 유도할 수 있습니다. <li>_이메일 보내기_ 작업을 사용하여 승인된 Marketo Engage 이메일을 선택한 계정 연락처 또는 구매 그룹 멤버들에게 보낼 수 있습니다. [자세히 알아보기](../accounts/account-details.md#send-emails) <li>구매 그룹 세부 정보에서는 _새 멤버 할당_, _멤버 제거_, _역할 편집_ 등의 작업도 포함됩니다. [자세히 알아보기](../buying-groups/buying-group-details.md#members-tab) |
-| 기능 | CRM 내에서 세부 정보 페이지에 액세스 | 이제 Salesforce 또는 Microsoft Dynamics와 같은 고객 관계 관리(CRM) 도구에서 계정, 연락처 및 리드에 대한 Journey Optimizer B2B Edition 세부 정보 페이지로 직접 연결되는 링크를 구성할 수 있습니다. [자세히 알아보기](../accounts/crm-linking.md) |
+| 기능 | CRM 내에서 세부 정보 페이지 액세스 | 이제 Salesforce 또는 Microsoft Dynamics와 같은 고객 관계 관리(CRM) 도구에서 계정, 연락처 및 리드에 대한 Journey Optimizer B2B Edition 세부 정보 페이지로 직접 연결되는 링크를 구성할 수 있습니다. [자세히 알아보기](../accounts/crm-linking.md) |
 | 기능 | 콘텐츠 디자인을 위한 사용자 정의 CSS 지원 | 이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 정의 CSS를 추가할 수 있습니다. [자세히 알아보기](../content/design-custom-css.md) |
 | 기능 | 의도 키워드 매핑 구성 | 의도 감지 모델을 활성화하고 관리하려면 이제 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다. [자세히 알아보기](../admin/intent-data.md) |
 | 개선 사항 | 이메일 요약에서 콘텐츠 시뮬레이션 | 이제 이메일 목록에서 이메일을 열 때 이메일 요약(세부 정보 및 속성)에서 _콘텐츠 시뮬레이션_ 도구에 액세스할 수 있습니다. 이러한 접근 방식은 이메일 디자인 공간에 추가됩니다. [자세히 알아보기](../content/email-simulate-content.md#display-the-email-preview) |
