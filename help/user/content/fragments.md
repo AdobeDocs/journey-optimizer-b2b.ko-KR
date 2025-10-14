@@ -304,7 +304,7 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_&#x200B;노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
 
-1. [ 노드에 대한 ](./email-authoring.md)전자 메일 콘텐츠를 만들거나 편집합니다.
+1. [&#x200B; 노드에 대한 &#x200B;](./email-authoring.md)전자 메일 콘텐츠를 만들거나 편집합니다.
 
 1. **[!UICONTROL 구성 요소]** 메뉴에서 항목을 끌어다 놓아 조각에 대한 _구조_&#x200B;을(를) 제공하세요.
 

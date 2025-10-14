@@ -70,7 +70,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
    * 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
 
-     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. [역할&#x200B;_목록_&#x200B;에 정의된 ](./default-custom-roles.md#custom-roles)사용자 지정 역할도 목록에 포함됩니다.
+     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. [역할&#x200B;_목록_&#x200B;에 정의된 &#x200B;](./default-custom-roles.md#custom-roles)사용자 지정 역할도 목록에 포함됩니다.
 
      ![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 

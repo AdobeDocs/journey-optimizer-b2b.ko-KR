@@ -257,7 +257,7 @@ _[!UICONTROL Assets 선택]_ 대화 상자에서 사용 가능한 도구를 사�
 
 _[!UICONTROL 이미지 업로드]_ 대화 상자에서 시스템의 파일을 파일 상자로 끌어서 놓습니다. 최대 파일 크기는 100MB입니다.
 
-![이미지 파일을 ](../user/content/assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
+![이미지 파일을 &#x200B;](../user/content/assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
 
 선택한 이미지의 파일 이름이 대화 상자에 표시됩니다. 에셋 파일 이름은 폴더 간에 고유해야 하며 이름의 파일이 이미 있는 경우 메시지가 표시됩니다. 이름에는 최대 100자를 사용할 수 있으며 특수 문자(예: `;`, `:`, `\` 및 `|`)를 사용할 수 없습니다.
 
