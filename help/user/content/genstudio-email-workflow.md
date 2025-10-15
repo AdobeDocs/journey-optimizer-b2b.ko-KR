@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ## GenStudio 컨텐츠 생성 기능
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"}은(는) 마케팅 팀이 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력 있고 개인화된 광고 및 이메일을 만들 수 있도록 해주는 발전적인 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 크리에이티브가 혁신에 집중할 수 있도록 콘텐츠 생성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html){target="_blank"}은(는) 마케팅 팀이 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력 있고 개인화된 광고 및 이메일을 만들 수 있도록 해주는 발전적인 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 크리에이티브가 혁신에 집중할 수 있도록 콘텐츠 생성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [브랜드 마케팅 이메일 만들기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
