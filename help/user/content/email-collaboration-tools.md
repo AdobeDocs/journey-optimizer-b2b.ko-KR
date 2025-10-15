@@ -3,17 +3,16 @@ title: 이메일 Collaboration 도구
 description: Journey Optimizer B2B edition에서 이메일에 대해 공동 작업합니다. 팀의 의견을 추가하고, 검토자를 초대하고, 피드백을 해결하고, 검토 워크플로를 간소화합니다.
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # 이메일 공동 작업 도구
 
-[이메일 디자인 공간](./email-authoring.md)에는 댓글 달기 및 해결을 위한 공동 작업 도구가 포함되어 있어 마케팅 팀이 [!DNL Journey Optimizer B2B Edition] 내에서 바로 이메일 자산을 원활하게 검토하고, 논의하고, 마무리할 수 있습니다. 사용자는 외부 도구(예: 채팅, 이메일 스레드 또는 스프레드시트)를 통해 초안을 공유하는 대신 이메일 디자인 영역 내에서 댓글을 달고, 편집을 제안하고, 피드백을 해결할 수 있습니다. 계정 여정 내에서 이메일 캠페인을 시작하기 전에 다음 도구를 사용하여 워크플로우를 간소화하고, 오류를 줄이고, 관련자들의 협조를 얻으십시오.
+[이메일 디자인 공간](./email-authoring.md)에는 댓글 달기 및 해결을 위한 공동 작업 도구가 포함되어 있어 마케팅 팀이 [!DNL Journey Optimizer B2B Edition] 내에서 바로 이메일 자산을 원활하게 검토하고, 논의하고, 마무리할 수 있습니다. 외부 도구(예: 채팅, 이메일 스레드 또는 스프레드시트)를 통해 초안을 공유하는 대신, 사용자는 이메일 디자인 공간 내에서 댓글을 달고, 편집을 제안하고, 피드백을 해결할 수 있습니다. 계정 여정 내에서 이메일 캠페인을 시작하기 전에 다음 도구를 사용하여 워크플로우를 간소화하고, 오류를 줄이고, 관련자들의 협조를 얻으십시오.
 
 * **_중앙 집중식 피드백_** - 한 곳에서 모든 피드백을 수집하고 추적합니다.
 

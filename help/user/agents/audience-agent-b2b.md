@@ -3,8 +3,7 @@ title: Audience Agent
 description: 여정 Optimizer의 Audience Agent B2B 에디션은 인텐트 분석 및 페르소나 매핑을 사용하여 구매 그룹을 만들고 B2B 마케팅 워크플로우를 가속화합니다.
 feature: Audiences, AI Assistant
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
