@@ -2,11 +2,10 @@
 title: 사용자 매핑
 description: 개인 속성을 매핑하여 구매 그룹을 위한 간소화된 역할 템플릿을 만들어 계정 기반 마케팅을 위한 담당자를 구성하는 방법에 대해 알아봅니다.
 feature: Setup, Buying Groups
-hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 role: Admin
-source-git-commit: e301dfd5ac1421eb73e80b1d772d1b17f9ef3a1e
+source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
