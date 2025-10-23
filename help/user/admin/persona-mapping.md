@@ -5,9 +5,9 @@ feature: Setup, Buying Groups
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 role: Admin
-source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
+source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -76,10 +76,7 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 
   ![표시된 이벤트 정의를 필터링합니다](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* 다음 특성을 사용하여 표시된 목록을 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
-
-   * ?
-   * ?
+* 표시된 목록을 특성별로 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
 
 ## 사용자 만들기
 
@@ -114,7 +111,6 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 ## 사용자 편집
 
 1. 담당자의 세부 정보에 액세스하려면 이름을 클릭합니다.
-
 
 ## 사용자 삭제
 
