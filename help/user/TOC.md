@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
 source-git-commit: 461b4572199e127d29d9479b33fabd397c3617e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 99%
    + [계정 여정 개요](./dashboards/journeys-dashboard.md)
 + 관리 {#admin}
    + [거버넌스](./admin/governance.md)
-   + [사용자 매핑](./admin/persona-mapping.md)
+   + [페르소나 매핑](./admin/persona-mapping.md)
    + [사용자 관리](./admin/user-management.md)
    + 채널 {#channels}
       + [이메일 구성](./admin/configure-channels-emails.md)
