@@ -1,18 +1,16 @@
 ---
 title: 사용자 매핑
-description: 개인 속성을 매핑하여 구매 그룹을 위한 간소화된 역할 템플릿을 만들어 계정 기반 마케팅을 위한 담당자를 구성하는 방법에 대해 알아봅니다.
+description: B2B 마케팅을 위한 페르소나 매핑을 설정하는 방법을 알아봅니다. Journey Optimizer B2B edition의 개인 속성을 매핑하여 역할 템플릿을 만들고 구매 그룹 타깃팅을 최적화합니다.
 feature: Setup, Buying Groups
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 role: Admin
-source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
 
-# 사용자 매핑
+# 페르소나 매핑
 
 성향은 마케터가 목표 계정 내에서 개인의 특정 요구 사항, 선호도 및 해결 과제에 맞게 전략을 조정할 수 있도록 돕기 때문에 계정 기반 마케팅(ABM) 접근법의 핵심 측면입니다. 마케터는 배경, 책임, 불만 사항 및 선호하는 커뮤니케이션 채널을 포함하여 각 담당자에 대한 세부 프로필을 만들 수 있습니다. 이러한 정의를 통해 관리자는 Journey Optimizer B2B edition의 개인 속성에 따라 가상 사용자를 구성할 수 있으므로 역할 템플릿은 이러한 가상 사용자를 캡처하는 간소화되고 일관된 역할 조건을 사용할 수 있습니다.
 
@@ -92,7 +90,7 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 
    * **[!UICONTROL 사용자 특성 선택]**&#x200B;을 클릭합니다.
 
-   * _[!UICONTROL 개인 특성 선택]_ 대화 상자에서 매핑할 각 특성(최대 5개)에 대한 확인란을 선택합니다.
+   * 대화 상자에서 매핑할 각 속성(최대 5개)에 대한 확인란을 선택합니다.
 
      오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하여 표시된 테이블을 사용자 지정할 수 있습니다.
 
@@ -110,7 +108,7 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 
 ## 사용자 편집
 
-1. 담당자의 세부 정보에 액세스하려면 이름을 클릭합니다.
+사용자 이름을 클릭하여 사용자에 대한 세부 정보에 액세스하고 편집합니다.
 
 ## 사용자 삭제
 
