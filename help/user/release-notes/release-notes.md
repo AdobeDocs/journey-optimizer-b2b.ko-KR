@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항 및 버그 수정 내용 살펴보기 - 새로운 기능 및 제품 개선 사항에 대한 최신 업데이트를 받아 보십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fbb949da360e1e80e92fa34b2dd43a4de10011b9
-workflow-type: ht
-source-wordcount: '2996'
-ht-degree: 100%
+source-git-commit: c8cf78c8e393121e325ffc8c7876c80902289d11
+workflow-type: tm+mt
+source-wordcount: '3078'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,13 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서 이메일 콘텐츠를 미리 보고 다크 모드로 이메일을 보는 수신자에게 특별히 표시되도록 사용자 정의 설정을 정의할 수 있습니다. |
 | 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 판매 알림 및 기타 참여를 위한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타기팅하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+
+이제 AI Assistant 인터페이스 내에서 Journey Optimizer B2B edition에 사용할 수 있는 아젠틱 AI 기능은 다음과 같습니다.
+
+| 에이전트 | 업데이트 | 설명 |
+| ----- | ------ | ----------- |
+| 여정 빌드 에이전트 | 신규 용어 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 모델링 및 공동 제작하므로 마케터가 더 빨리 시작하고, 참여를 개선하고, 더 높은 전환율을 유도할 수 있습니다. [자세히 알아보기](../agents/journey-agent.md) |
+| Audience 에이전트 | 신규 용어 | Audience Agent은 정형 및 비정형 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터가 적합한 사람을 더 빠르고 정확하게 타기팅하도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
 
 >[!NOTE]
 >
