@@ -1,12 +1,12 @@
 ---
 title: Journey Optimizer B2B Edition 릴리스 정보
-description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항 및 버그 수정 내용 살펴보기 - 새로운 기능 및 제품 개선 사항에 대한 최신 업데이트를 받아 보십시오.
+description: Adobe Journey Optimizer B2B edition의 최신 기능, 개선 사항 및 버그 수정 사항을 살펴보십시오. 새로운 기능 및 제품 개선 사항을 지속적으로 업데이트하십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 4bf03f99f146454658422d5b1dac184a108c802b
 workflow-type: tm+mt
-source-wordcount: '3384'
-ht-degree: 90%
+source-wordcount: '3490'
+ht-degree: 87%
 
 ---
 
@@ -24,15 +24,16 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 모델 기반 사용자 지정 스키마 | 모델 기반 클래스에서 사용자 지정 스키마를 만듭니다. |
-| 기능 | 대상에 활성화 | 새로운 _대상에 대한 활성화_ 회사 계정 작업을 사용하여 개인이 아닌 회사에 직접 활성화합니다. (이 릴리스에서는 LinkedIn 회사로 제한됩니다.) |
+| 기능 | 관계형 데이터 모델 | B2B 계정에 연결된 관계형 데이터를 활용하여 계정 여정 내의 계정을 필터링하거나 이메일 콘텐츠를 개인화할 수 있습니다. 이 관계형 데이터는 구매 기록, 이벤트 등록, 소프트웨어 라이센스, 서비스 가입 또는 예약과 같은 실제 비즈니스 엔티티를 나타낼 수 있습니다. |
+| 기능 | 여정 대상에 활성화 | 새로운 _대상에 대한 활성화_ 회사 계정 작업을 사용하여 개인이 아닌 회사에 직접 활성화합니다. (이 릴리스에서는 LinkedIn 회사로 제한됩니다.) |
+| 기능 | 여러 Marketo Engage 활성화 | 원격 Marketo Engage 인스턴스에 대한 연결을 구성하고 해당 연결을 사용하여 Marketo Engage 관련 여정 작업을 설정합니다. 목록에서 사용자를 추가 또는 제거하거나 요청 캠페인에 사용자를 추가하는 등의 이러한 작업은 지정된 Marketo Engage 인스턴스에 적용됩니다. |
 | 기능 | 브랜드 테마 | 브랜드 테마를 사용하면 기술 전문가가 아닌 사용자도 표준 템플릿 위에 사용자 지정 스타일을 추가하여 특정 브랜드 및 디자인 언어에 맞는 재사용 가능한 콘텐츠를 만들 수 있습니다. [자세히 알아보기](../content/brand-themes.md) |
 | 기능 | 페르소나 매핑 | 계정 멤버를 속성 매핑과 설정된 담당자와 연결합니다. [자세히 알아보기](../admin/persona-mapping.md) |
+| 기능 | Salesforce 및 Dynamics용 Sales Insights | 이제 영업 팀 구성원은 새로운 기회를 식별하기 위해 Salesforce 또는 Dynamics 통합 내에서 성숙한 구매 그룹 및 관련 통찰력을 볼 수 있습니다. 단계, 점수 및 관련 멤버와 같은 구매 그룹 세부 정보가 포함됩니다. |
+| 개선 사항 | 이메일 피로도 중복 제거 | 이제 이메일 중복 제거를 활성화하여 동일한 이메일이 여정의 동일한 주소로 여러 번 전송되지 않도록 할 수 있습니다. 중복 주소는 해당 이메일 주소가 있는 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다. |
+| 개선 사항 | 커뮤니케이션 제한 | 이제 시스템에서는 Marketo Engage 및 Journey Optimizer B2B edition의 결합된 통신 제한을 준수합니다. |
 | 개선 사항 | 구매 그룹 유지 관리 작업 | 구매 그룹 유지 관리 작업 빈도가 주별에서 일별로 업데이트됩니다. |
 | 개선 사항 | 계정 여정 진행률 | 계정 수 및 목록에 액세스하기 위한 여정 진행에 대해 _추가 정보_ 링크가 표시됩니다. |
-
-<!-- M1.5 changes
-| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
 
 이제 AI Assistant 인터페이스 내에서 Journey Optimizer B2B edition에 사용할 수 있는 아젠틱 AI 기능은 다음과 같습니다.
 
@@ -43,7 +44,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 >[!NOTE]
 >
 >릴리스 변경 사항은 2025년 10월 31일 토요일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
-
 
 <!-- hold for later release 
 
@@ -62,8 +62,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | 이메일 콘텐츠 공동 작업 | 이제 이메일 자산의 컨텍스트에서 다른 Journey Optimizer B2B Edition 사용자와 공동 작업에 대해 댓글을 달 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 알림을 받을 수 있도록 태그를 지정할 수 있습니다. 알림은 또한 펄스 알림으로도 제공됩니다. |
 | 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서 이메일 콘텐츠를 미리 보고 다크 모드로 이메일을 보는 수신자에게 특별히 표시되도록 사용자 정의 설정을 정의할 수 있습니다. |
-| 기능 | 이메일 피로도 중복 제거 | 이제 이메일 중복 제거를 활성화하여 동일한 이메일이 여정의 동일한 주소로 여러 번 전송되지 않도록 할 수 있습니다. 중복 주소는 해당 이메일 주소가 있는 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다. |
-| 기능 | Salesforce 및 Dynamics용 Sales Insights | 이제 영업 팀 구성원은 새로운 기회를 식별하기 위해 Salesforce 또는 Dynamics 통합 내에서 성숙한 구매 그룹 및 관련 통찰력을 볼 수 있습니다. 단계, 점수 및 관련 멤버와 같은 구매 그룹 세부 정보가 포함됩니다. |
 | 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 판매 알림 및 기타 참여를 위한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타기팅하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
