@@ -3,7 +3,7 @@ title: Account Qualification Agent for B2B
 description: 자동화된 잠재 고객 조사, 계정 통찰력 및 이메일 초안을 통해 파이프라인 생성을 가속화하는 AI 기반의 B2B 영업 팀용 Account Qualification Agent에 대해 알아봅니다.
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 79a4c897621c7af68c4c17382673124cdc14d8af
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Account Qualification Agent for B2B
 
->[!NOTE]
->이 기능은 현재 제한된 가용성이며 모든 사용자가 사용할 수 없습니다.
+>[!AVAILABILITY]
 >
+>이 기능은 현재 제한된 가용성이며 모든 사용자가 사용할 수 없습니다.
 
 Account Qualification Agent은 계정 담당자를 위해 설계된 AI 기반 도우미입니다. 핵심 영업 개발 워크플로를 효율화 및 자동화하여 수동 오버헤드를 크게 줄이고 파이프라인 생성을 가속화합니다.
 
