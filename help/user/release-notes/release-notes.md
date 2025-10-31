@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
 workflow-type: tm+mt
 source-wordcount: '3494'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 구매 그룹 유지 관리 작업 | 구매 그룹 유지 관리 작업 빈도가 주별에서 일별로 업데이트됩니다. |
 | 개선 사항 | 계정 여정 진행률 | 계정 수 및 목록에 액세스하기 위한 여정 진행에 대해 _추가 정보_ 링크가 표시됩니다. |
 
-이제 AI Assistant 인터페이스 내에서 Journey Optimizer B2B edition에 사용할 수 있는 아젠틱 AI 기능은 다음과 같습니다.
+이제 AI 어시스턴트 인터페이스 내에서 Journey Optimizer B2B Edition에 다음과 같은 에이전틱 AI 기능을 사용할 수 있습니다.
 
 | 에이전트 | 업데이트 | 설명 |
 | ----- | ------ | ----------- |
@@ -65,12 +65,12 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 판매 알림 및 기타 참여를 위한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타기팅하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
-이제 AI Assistant 인터페이스 내에서 Journey Optimizer B2B edition에 사용할 수 있는 아젠틱 AI 기능은 다음과 같습니다.
+이제 AI 어시스턴트 인터페이스 내에서 Journey Optimizer B2B Edition에 다음과 같은 에이전틱 AI 기능을 사용할 수 있습니다.
 
 | 에이전트 | 업데이트 | 설명 |
 | ----- | ------ | ----------- |
-| 여정 빌드 에이전트 | 신규 용어 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 모델링 및 공동 제작하므로 마케터가 더 빨리 시작하고, 참여를 개선하고, 더 높은 전환율을 유도할 수 있습니다. [자세히 알아보기](../agents/journey-agent.md) |
-| Audience 에이전트 | 신규 용어 | Audience Agent은 정형 및 비정형 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터가 적합한 사람을 더 빠르고 정확하게 타기팅하도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
+| 여정 빌드 에이전트 | 신규 용어 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
+| Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
 
 >[!NOTE]
 >
