@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B edition의 최신 기능, 개선 사항 및 버그 수정 사항을 살펴보십시오. 새로운 기능 및 제품 개선 사항을 지속적으로 업데이트하십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
+source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 88%
+source-wordcount: '3644'
+ht-degree: 83%
 
 ---
 
@@ -17,6 +17,16 @@ Adobe Journey Optimizer B2B Edition은 지속적으로 새로운 기능, 기존 
 Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform]기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest){target="_blank"}를 참조하십시오.
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
+
+## Agentic-AI 기능
+
+이제 AI 어시스턴트 인터페이스 내에서 Journey Optimizer B2B Edition에 다음과 같은 에이전틱 AI 기능을 사용할 수 있습니다.
+
+| 에이전트 | 업데이트 | 설명 |
+| ----- | ------ | ----------- |
+| 여정 빌드 에이전트 | 신규 용어 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
+| Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
+| Account Qualification Agent | 신규 용어 | AI Assistant에서 Account Qualification Agent을 사용하여 다음 단계에 대해 준비된 계정을 확인합니다. 이 에이전트를 사용하면 높은 가치의 잠재 고객을 파악하고 검증 워크플로를 자동화하여 영업 팀 구성원이 올바른 계정에 집중할 수 있습니다. [자세히 알아보기](../agents/account-qualification-agent.md) |
 
 ## 2025.10 릴리스 정보
 
@@ -36,15 +46,20 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 구매 그룹 유지 관리 작업 | 구매 그룹 유지 관리 작업 빈도가 주별에서 일별로 업데이트됩니다. |
 | 개선 사항 | 계정 여정 진행률 | 계정 수 및 목록에 액세스하기 위한 여정 진행에 대해 _추가 정보_ 링크가 표시됩니다. |
 
-이제 AI 어시스턴트 인터페이스 내에서 Journey Optimizer B2B Edition에 다음과 같은 에이전틱 AI 기능을 사용할 수 있습니다.
-
-| 에이전트 | 업데이트 | 설명 |
-| ----- | ------ | ----------- |
-| Account Qualification Agent | 신규 용어 | AI Assistant에서 Account Qualification Agent을 사용하여 다음 단계에 대해 준비된 계정을 확인합니다. 이 에이전트를 사용하면 높은 가치의 잠재 고객을 파악하고 검증 워크플로를 자동화하여 영업 팀 구성원이 올바른 계정에 집중할 수 있습니다. [자세히 알아보기](../agents/account-qualification-agent.md) |
-
 >[!NOTE]
 >
->릴리스 변경 사항은 2025년 10월 31일 토요일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+>이러한 릴리스 변경 사항은 2025년 10월 31일에 배포되며 각 기능의 단계적 롤아웃이 시작됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+
+### 단순화된 아키텍처
+
+이제 간소화된 아키텍처를 사용하여 Adobe Journey Optimizer B2B edition을 사용할 수 있습니다. 이 업데이트된 아키텍처를 통해 Journey Optimizer B2B edition 및 Marketo Engage은 더 이상 동일한 시스템 및 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Adobe Experience Platform에서만 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
+
+이 업데이트된 아키텍처는 다음과 같은 여러 이점을 제공합니다.
+
+* **데이터를 쉽게 통합하고 확장할 수 있습니다**: 업데이트된 플랫폼은 사용자 지정 개체, 구매 그룹 및 계정 이벤트를 포함한 복잡한 데이터 모델을 지원합니다.
+* **여러 Adobe Marketo Engage 인스턴스 연결**: 한 곳에서 여러 Adobe Marketo Engage 환경의 데이터를 관리하고 통합합니다.
+* **데이터를 안전하게 보호**: 고급 개인 정보 보호 및 보안 기능을 통해 고객 정보를 보호할 수 있습니다.
+* **미래를 위해 빌드됨**: 이 업데이트는 지속적인 개선 및 혁신을 위해 조직을 설정합니다.
 
 <!-- hold for later release 
 
@@ -66,16 +81,9 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 판매 알림 및 기타 참여를 위한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹에 대한 특정 역할을 타기팅하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
-이제 AI 어시스턴트 인터페이스 내에서 Journey Optimizer B2B Edition에 다음과 같은 에이전틱 AI 기능을 사용할 수 있습니다.
-
-| 에이전트 | 업데이트 | 설명 |
-| ----- | ------ | ----------- |
-| 여정 빌드 에이전트 | 신규 용어 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
-| Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
-
 >[!NOTE]
 >
->릴리스 변경 사항은 2025년 9월 30일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+>이러한 릴리스 변경 사항은 2025년 9월 30일에 배포되며 각 기능의 단계적 롤아웃이 시작됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 ## 2025.8 릴리스 정보
 
