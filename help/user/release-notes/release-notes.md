@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B edition의 최신 기능, 개선 사항 및 버그 수정 사항을 살펴보십시오. 새로운 기능 및 제품 개선 사항을 지속적으로 업데이트하십시오.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
+source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
 workflow-type: tm+mt
-source-wordcount: '3494'
+source-wordcount: '3522'
 ht-degree: 88%
 
 ---
@@ -26,8 +26,9 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | 관계형 데이터 모델 | B2B 계정에 연결된 관계형 데이터를 활용하여 계정 여정 내의 계정을 필터링하거나 이메일 콘텐츠를 개인화할 수 있습니다. 이 관계형 데이터는 구매 기록, 이벤트 등록, 소프트웨어 라이센스, 서비스 가입 또는 예약과 같은 실제 비즈니스 엔티티를 나타낼 수 있습니다. |
 | 기능 | 여정 대상에 활성화 | 새로운 _대상에 대한 활성화_ 회사 계정 작업을 사용하여 개인이 아닌 회사에 직접 활성화합니다. (이 릴리스에서는 LinkedIn 회사로 제한됩니다.) |
-| 기능 | 여러 Marketo Engage 활성화 | 원격 Marketo Engage 인스턴스에 대한 연결을 구성하고 해당 연결을 사용하여 Marketo Engage 관련 여정 작업을 설정합니다. 목록에서 사용자를 추가 또는 제거하거나 요청 캠페인에 사용자를 추가하는 등의 이러한 작업은 지정된 Marketo Engage 인스턴스에 적용됩니다. |
+| 기능 | 여러 Marketo Engage 활성화 | 원격 Marketo Engage 인스턴스에 대한 연결을 구성하고 해당 연결을 사용하여 여정에서 Marketo Engage 작업을 설정합니다. 목록에서 사람 추가/제거 또는 요청 캠페인에 사람 추가와 같은 이러한 작업은 지정된 Marketo Engage 인스턴스에 적용됩니다. |
 | 기능 | 브랜드 테마 | 브랜드 테마를 사용하면 기술 전문가가 아닌 사용자도 표준 템플릿 위에 사용자 지정 스타일을 추가하여 특정 브랜드 및 디자인 언어에 맞는 재사용 가능한 콘텐츠를 만들 수 있습니다. [자세히 알아보기](../content/brand-themes.md) |
+| 기능 | 이메일 템플릿 - 이미지를 HTML으로 변환 | 이제 JPG 또는 PNG 이미지 파일로 저장된 디자인 파일을 사용하고 이메일 템플릿을 자동으로 생성할 수 있습니다. [자세히 알아보기](../content/email-template-image-convert.md) |
 | 기능 | 페르소나 매핑 | 계정 멤버를 속성 매핑과 설정된 담당자와 연결합니다. [자세히 알아보기](../admin/persona-mapping.md) |
 | 기능 | Salesforce 및 Dynamics용 Sales Insights | 이제 영업 팀 구성원은 새로운 기회를 식별하기 위해 Salesforce 또는 Dynamics 통합 내에서 성숙한 구매 그룹 및 관련 통찰력을 볼 수 있습니다. 단계, 점수 및 관련 멤버와 같은 구매 그룹 세부 정보가 포함됩니다. |
 | 개선 사항 | 이메일 피로도 중복 제거 | 이제 이메일 중복 제거를 활성화하여 동일한 이메일이 여정의 동일한 주소로 여러 번 전송되지 않도록 할 수 있습니다. 중복 주소는 해당 이메일 주소가 있는 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다. |

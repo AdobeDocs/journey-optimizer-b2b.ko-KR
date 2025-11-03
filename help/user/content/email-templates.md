@@ -4,7 +4,7 @@ description: 처음부터 재사용 가능한 이메일 템플릿 만들기, HTM
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 이름별로 템플릿을 검색하려면 검색 막대에 텍스트 문자열을 입력합니다. 왼쪽 상단의 _필터_ 아이콘을 클릭하면 생성 또는 수정 날짜와 생성 또는 수정한 템플릿에 따라 목록을 필터링할 수 있습니다.
 
-![전자 메일 템플릿 라이브러리에 액세스하고 이름 및 날짜별로 필터링합니다](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
+![전자 메일 템플릿 라이브러리에 액세스하고 이름 및 날짜별로 필터링합니다](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
 오른쪽 상단의 _표 사용자 지정_ 아이콘(![표 사용자 지정 아이콘](../assets/do-not-localize/icon-column-settings.svg))을 클릭하여 표에 표시할 열을 사용자 지정합니다. 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
