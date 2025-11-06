@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보�
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 95%
 + 계정 {#accounts}
    + [대상자](./audiences/account-audience-overview.md)
    + [Audience 에이전트](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
+   + [Account Qualification 에이전트](agents/account-qualification-agent.md)
    + 구매 그룹 {#buying-groups}
       + [개요](./buying-groups/buying-groups-overview.md)
       + [솔루션 관심 분야](./buying-groups/solution-interests.md)
