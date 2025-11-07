@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 92%
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ----- | ------ | ----------- |
 | 여정 빌드 에이전트 | 신규 용어 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
 | Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
-| Account Qualification 에이전트 | 신규 용어 | AI 어시스턴트에서 Account Qualification 에이전트를 사용하여 다음 단계에 대해 준비된 계정을 확인합니다. 이 에이전트를 사용하면 높은 가치의 잠재 고객을 파악하고 자격 워크플로를 자동화함으로써 영업 팀원이 올바른 계정에 집중할 수 있도록 지원합니다. [자세히 알아보기](../agents/account-qualification-agent.md) |
+| Account Qualification 에이전트 | 신규 용어 | AI 어시스턴트에서 Account Qualification 에이전트를 사용하여 다음 단계에 대해 준비된 계정을 확인합니다. 이 에이전트를 사용하면 높은 가치의 잠재 고객을 파악하고 자격 워크플로를 자동화함으로써 영업 팀원이 올바른 계정에 집중할 수 있도록 지원합니다. [자세히 알아보기](../agents/sales-qualifier.md) |
 
 ## 2025.10 릴리스 정보
 

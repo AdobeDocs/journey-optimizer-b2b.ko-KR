@@ -1,11 +1,11 @@
 ---
 title: B2B용 여정 빌드 에이전트
-description: 방법 알아보기
+description: AI 기반 여정 빌드 에이전트를 사용하여 강력한 여정을 빠르게 빌드하는 방법에 대해 알아봅니다
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
