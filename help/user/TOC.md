@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보�
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 95%
       + [솔루션 관심 분야](./buying-groups/solution-interests.md)
       + [역할 템플릿](./buying-groups/buying-groups-role-templates.md)
       + [기본 및 사용자 정의 역할](./buying-groups/default-custom-roles.md)
-      + 구매 그룹 점수 책정 {#scoring}
+      + 구매 그룹 점수 {#scoring}
          + [참여 점수](./buying-groups/engagement-scores.md)
          + [완성도 점수](./buying-groups/completeness-scores.md)
       + [구매 그룹 단계](./buying-groups/buying-group-stages.md)
@@ -95,7 +95,7 @@ ht-degree: 95%
          + [개요](./content/email-templates.md)
          + [이메일 템플릿 작성](./content/email-template-authoring.md)
          + [이미지를 템플릿으로 변환](./content/email-template-image-convert.md)
-      + 랜딩 페이지 템플릿(Beta) {#landing-page-templates}
+      + 랜딩 페이지 템플릿 (Beta) {#landing-page-templates}
          + [개요](./content/landing-page-templates.md)
          + [랜딩 페이지 템플릿 디자인](./content/landing-page-template-design.md)
    + 조각 {#visual-fragments}

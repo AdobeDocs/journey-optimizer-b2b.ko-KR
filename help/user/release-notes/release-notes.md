@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
-## Agentic-AI 기능
+## 에이전틱 AI 기능
 
 이제 AI 어시스턴트 인터페이스 내에서 Journey Optimizer B2B Edition에 다음과 같은 에이전틱 AI 기능을 사용할 수 있습니다.
 
@@ -37,30 +37,30 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 관계형 데이터 모델 | B2B 계정에 연결된 관계형 데이터를 활용하여 계정 여정 내에서 계정을 필터링하거나 이메일 콘텐츠를 개인화합니다. 이 관계형 데이터는 구매 기록, 이벤트 등록, 소프트웨어 라이선스, 서비스 구독 또는 예약과 같은 실제 비즈니스 엔티티를 나타낼 수 있습니다. |
 | 기능 | 여정 대상에 활성화 | 새로운 _대상에 활성화_ 회사 계정 액션을 사용하여 개인이 아닌 회사로 직접 활성화합니다. (이 릴리스에서는 LinkedIn 회사로 제한됩니다.) [자세히 알아보기](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | 기능 | 브랜드 테마 | 브랜드 테마를 사용하면 기술 전문가가 아닌 사용자가 이제 표준 템플릿 위에 사용자 지정 스타일을 추가하여 특정 브랜드 및 디자인 언어에 맞는 재사용 가능한 콘텐츠를 만들 수 있습니다. [자세히 알아보기](../content/brand-themes.md) |
-| 기능 | 이메일 템플릿 - 이미지를 HTML으로 변환 | 이제 JPG 또는 PNG 이미지 파일로 저장된 디자인 파일을 사용하고 이메일 템플릿을 자동으로 생성할 수 있습니다. [자세히 알아보기](../content/email-template-image-convert.md) |
+| 기능 | 이메일 템플릿 - 이미지를 HTML으로 변환 | 이제 JPG 또는 PNG 이미지 파일로 저장된 디자인 파일을 사용하여 이메일 템플릿을 자동으로 생성할 수 있습니다. [자세히 알아보기](../content/email-template-image-convert.md) |
 | 기능 | 페르소나 매핑 | 속성 매핑을 통해 계정 구성원과 설정된 페르소나를 매핑합니다. [자세히 알아보기](../admin/persona-mapping.md) |
 | 기능 | Salesforce 및 Dynamics용 Sales Insights | 영업 팀원은 이제 Salesforce 또는 Dynamics 통합 내에서 성숙 단계에 있는 구매 그룹 및 관련 인사이트를 확인하여 새로운 기회를 식별할 수 있습니다. 단계, 점수 및 관련 구성원과 같은 구매 그룹 세부 정보가 포함됩니다. |
 | 기능 | 여러 Marketo Engage 활성화 | 원격 Marketo Engage 인스턴스에 대한 연결을 구성하고 해당 연결을 사용하여 Marketo Engage 관련 여정 작업을 설정합니다. 목록에서 사용자를 추가하거나 제거하거나 요청 캠페인에 사용자를 추가하는 등의 이러한 작업은 지정된 Marketo Engage 인스턴스에 적용됩니다. |
 | 개선 사항 | 이메일 피로도 중복 제거 | 이제 여정에서 동일한 이메일이 동일한 주소로 여러 번 전송되지 않도록 이메일 중복 제거를 활성화할 수 있습니다. 중복된 주소는 해당 이메일 주소를 가진 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다. |
-| 개선 사항 | 구매 그룹 완성도 점수 개선 | 이제 구매 그룹이 완전성 점수를 위해 사용자 정의 가능한 역할 멤버 임계값으로 실제 의사 결정을 반영하도록 할 수 있습니다.  [자세히 알아보기](../buying-groups/completeness-scores.md) |
+| 개선 사항 | 구매 그룹 완성도 점수 개선 | 이제 완성도 점수를 위해 사용자 정의 가능한 역할 멤버 임계값을 사용하여 구매 그룹이 실제 의사 결정을 반영하도록 할 수 있습니다. [자세히 알아보기](../buying-groups/completeness-scores.md) |
 | 개선 사항 | 커뮤니케이션 제한 | 이제 시스템은 Marketo Engage와 Journey Optimizer B2B Edition의 결합된 커뮤니케이션 제한을 준수합니다. |
 | 개선 사항 | 구매 그룹 유지 관리 작업 | 구매 그룹 유지 관리 작업 빈도가 주간에서 일간으로 업데이트됩니다. |
-| 개선 사항 | 계정 여정 진행 | 게시된 여정이 _Live_, _새 항목으로 닫힘_, _중단됨_ 또는 _완료됨_ 상태인 경우 여정 맵을 열어 각 여정 노드의 계정 목록을 검토할 수 있습니다. |
+| 개선 사항 | 계정 여정 진행 | 게시된 여정이 _라이브_, _새로운 참여 마감됨_, _중단됨_ 또는 _완료됨_ 상태인 경우, 여정 맵을 열어 각 여정 노드에 대한 계정 목록을 검토할 수 있습니다. |
 
 >[!NOTE]
 >
->이러한 릴리스 변경 사항은 2025년 10월 31일에 배포되며 각 기능의 단계적 롤아웃이 시작됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+>이번 릴리스 변경 사항은 2025년 10월 31일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 ### 단순화된 아키텍처
 
-이제 간소화된 아키텍처를 사용하여 Adobe Journey Optimizer B2B edition을 사용할 수 있습니다. 이 업데이트된 아키텍처를 통해 Journey Optimizer B2B edition 및 Marketo Engage은 더 이상 동일한 시스템 및 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Adobe Experience Platform에서만 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
+이제 간소화된 아키텍처를 사용하여 Adobe Journey Optimizer B2B edition을 사용할 수 있습니다. 이 업데이트된 아키텍처를 통해 Journey Optimizer B2B Edition과 Marketo Engage는 더 이상 동일한 시스템과 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B Edition은 Adobe Experience Platform에서만 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
 
 이 업데이트된 아키텍처는 다음과 같은 여러 이점을 제공합니다.
 
-* **데이터를 쉽게 통합하고 확장할 수 있습니다**: 업데이트된 플랫폼은 사용자 지정 개체, 구매 그룹 및 계정 이벤트를 포함한 복잡한 데이터 모델을 지원합니다.
-* **여러 Adobe Marketo Engage 인스턴스 연결**: 한 곳에서 여러 Adobe Marketo Engage 환경의 데이터를 관리하고 통합합니다.
+* **데이터를 쉽게 통합하고 확장**: 업데이트된 플랫폼은 사용자 정의 오브젝트, 구매 그룹 및 계정 이벤트를 포함한 복잡한 데이터 모델을 지원합니다.
+* **여러 Adobe Marketo Engage 인스턴스 연결**: 여러 Adobe Marketo Engage 환경의 데이터를 한 곳에서 관리하고 통합합니다.
 * **데이터를 안전하게 보호**: 고급 개인 정보 보호 및 보안 기능을 통해 고객 정보를 보호할 수 있습니다.
-* **미래를 위해 빌드됨**: 이 업데이트는 지속적인 개선 및 혁신을 위해 조직을 설정합니다.
+* **미래를 위해 빌드됨**: 이 업데이트는 조직이 지속적인 개선 및 혁신을 이룰 수 있도록 합니다.
 
 <!-- hold for later release 
 
@@ -84,7 +84,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 >[!NOTE]
 >
->이러한 릴리스 변경 사항은 2025년 9월 30일에 배포되며 각 기능의 단계적 롤아웃이 시작됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+>이번 릴리스 변경 사항은 2025년 9월 30일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 ## 2025.8 릴리스 정보
 
