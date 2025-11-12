@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -100,11 +100,11 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 
 ### 구매 그룹 완성도 점수
 
-완성도 점수는 구매 여정이 필요한 역할에 할당된 적절한 구성원 수를 가지고 있고 계정 그룹에 사용할 준비가 되어 있는지 확인하는 데 사용됩니다. 이 점수는 구매 그룹 내의 역할 수와 정의된 각 역할에 대한 완전성을 기반으로 하는 백분율입니다.
+완성도 점수는 구매 그룹이 필요한 역할에 적절한 수의 멤버를 할당하고 계정 여정에서 사용할 준비가 되었는지 여부를 결정하는 데 사용됩니다. 이 점수는 구매 그룹 내 역할 수와 정의된 각 역할의 완성도를 기반으로 하는 백분율입니다.
 
-초기 완전성 점수 계산은 구매 그룹을 생성하는 즉시 시작되며 구매 그룹이 생성되거나 갱신될 때마다 매일 다시 계산됩니다.
+초기 완성도 점수 계산은 구매 그룹을 생성하는 즉시 시작되며 매일, 그리고 구매 그룹이 생성되거나 업데이트될 때마다 다시 계산됩니다.
 
-완결성 점수 및 계산에 대한 자세한 내용은 [완결성 점수](./completeness-scores.md)를 참조하십시오.
+완성도 점수 및 계산에 대한 자세한 내용은 [완성도 점수](./completeness-scores.md)를 참조하십시오.
 
 ### 구매 그룹 참여 점수 {#engagement-score}
 
@@ -116,4 +116,4 @@ _[!UICONTROL 찾아보기]_ 탭을 사용하여 구매 그룹 목록을 볼 수 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3452942/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

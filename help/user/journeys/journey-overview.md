@@ -5,9 +5,9 @@ feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ _[!UICONTROL 계정 여정]_&#x200B;목록에서 이름(링크로 표시됨)을 
 
 | 상태 | 설명 | 사용 가능한 액션 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**초안**&#x200B;_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-an-account-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _&#x200B;**라이브**&#x200B;_ | 여정이 게시되면 여정 상태가 “초안”에서 “진행 중”으로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
-| _&#x200B;**새로운 참여 마감됨**&#x200B;_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
-| _&#x200B;**중단됨**&#x200B;_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _&#x200B;**완료됨**&#x200B;_ | 여정에 있는 모든 계정이 여정을 완료하면 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;에서 _완료됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**초안**_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-an-account-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**라이브**_ | 여정이 게시되면 여정 상태가 “초안”에서 “진행 중”으로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
+| _**새로운 참여 마감됨**_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
+| _**중단됨**_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**완료됨**_ | 여정에 있는 모든 계정이 여정을 완료하면 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;에서 _완료됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
 
 ## 여정 관리
 
@@ -155,16 +155,16 @@ _계정 여정_ 목록에는 Journey Optimizer B2B Edition 인스턴스의 모�
 
 1. 확인 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
-## 계정 진행 검토
+## 계정 진행 상황 검토
 
-게시된 여정이 _Live_, _새 항목으로 닫힘_, _중단됨_ 또는 _완료됨_ 상태인 경우 여정 맵을 열어 여정 노드의 계정 진행률을 검토할 수 있습니다. 맵의 각 노드에는 해당 노드에 도달할 계정의 수가 표시되며, 라이브 여정의 경우 현재 해당 노드에 있는 계정의 수가 표시됩니다.
+게시된 여정이 _라이브_, _새로운 참여 마감됨_, _중단됨_ 또는 _완료됨_ 상태인 경우 여정 맵을 열어 여정 노드에 대한 계정 진행 상황을 검토할 수 있습니다. 맵의 각 노드에는 해당 노드에 도달한 계정 수가 표시되며, 라이브 여정의 경우 현재 해당 노드에 있는 계정 수가 표시됩니다.
 
 ![여정 노드 계정 진행 정보](./assets/node-account-progression-observability.png){width="400"}
 
-노드를 선택하면 숫자를 눌러 해당 노드에 입력되었거나 현재 여정의 해당 단계에 있는 계정 목록을 봅니다.
+노드를 선택하면 숫자를 클릭하여 노드에 진입했거나 현재 여정의 해당 단계에 있는 계정 목록을 볼 수 있습니다.
 
 ![여정 노드 계정 진행 정보](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443214/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
