@@ -34,7 +34,7 @@ Handlebars 및 작동 방식에 대한 자세한 내용은 [HandlebarsJS 설명�
 
   >[!NOTE]
   >
-  >특성 구조가 [Adobe Experience Platform XDM 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에 정의되어 있습니다.
+  >특성 구조가 [Adobe Experience Platform XDM 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에 정의되어 있습니다.
 
 * 식별자는 다음을 제외한 모든 유니코드 문자일 수 있습니다.
 

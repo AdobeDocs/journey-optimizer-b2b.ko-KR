@@ -51,11 +51,11 @@ Adobe Journey Optimizer B2B edition은 Marketo Engage의 채널 기능 및 이�
 
 ![브랜딩 도메인 설정에 액세스](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-이 설정은 연결된 Marketo Engage 인스턴스에서 하나 이상의 작업 공간에 대한 주 도메인을 정의합니다. 새 전자 메일은 이 도메인을 기본값으로 사용하지만 마케터는 [전자 메일을 기준으로 이 도메인을 재정의할 수 있습니다](../content/add-email.md#define-the-email-settings). 기본 브랜딩 도메인 정의에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
+이 설정은 연결된 Marketo Engage 인스턴스에서 하나 이상의 작업 공간에 대한 주 도메인을 정의합니다. 새 전자 메일은 이 도메인을 기본값으로 사용하지만 마케터는 [전자 메일을 기준으로 이 도메인을 재정의할 수 있습니다](../content/add-email.md#define-the-email-settings). 기본 브랜딩 도메인 정의에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->여러 브랜드를 마케팅하는 경우 각 브랜드에 고유한 브랜드 추적 링크를 제공하려는 경우 브랜딩 도메인을 추가할 수 있습니다. 여러 브랜딩 도메인을 추가하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
+>여러 브랜드를 마케팅하는 경우 각 브랜드에 고유한 브랜드 추적 링크를 제공하려는 경우 브랜딩 도메인을 추가할 수 있습니다. 여러 브랜딩 도메인을 추가하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
 
 ### [!UICONTROL 사용자 지정 헤더 옵션] {#custom-header-options}
 
@@ -75,7 +75,7 @@ _[!UICONTROL 엄격한 전송 보안]_&#x200B;을 사용하도록 설정하면 �
 
 예를 들어 하루에 5개의 이메일로 정의된 제한을 사용하는 경우 시스템에서는 6번째 이메일을 억제하여 한 연락처가 하루 내에 6번째 이메일을 받지 못하도록 합니다. Journey Optimizer B2B edition과 Marketo Engage 간에 공유된 통신 제한을 통해 통신 제한 규칙이 한 위치에 정의됩니다. 여섯 번째 이메일은 Journey Optimizer B2B edition 또는 Marketo Engage의 보내기 작업과 관계없이 표시되지 않습니다.
 
-모든 Marketo Engage 프로덕션 인스턴스에는 기본적으로 통신 제한이 정의되어 있습니다(자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} 참조). 공유 통신 제한을 사용하려면 Journey Optimizer B2B edition에서 규칙을 정의하고 이러한 제한의 공유를 Marketo Munchkin 코드로 확장합니다.
+모든 Marketo Engage 프로덕션 인스턴스에는 기본적으로 통신 제한이 정의되어 있습니다(자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} 참조). 공유 통신 제한을 사용하려면 Journey Optimizer B2B edition에서 규칙을 정의하고 이러한 제한의 공유를 Marketo Munchkin 코드로 확장합니다.
 
 >[!IMPORTANT]
 >
@@ -194,4 +194,4 @@ Marketo Engage에서는 보트 활동을 확인하는 두 가지 방법을 사�
 >
 >Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
 
-보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.
+보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.
