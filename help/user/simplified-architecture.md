@@ -131,11 +131,11 @@ Journey Optimizer B2B edition UI에서 애플리케이션 전체에서 사용할
 >관계형 스키마에는 다음 구성이 있어야 합니다.
 >
 ><li>동작: 레코드
-&gt; <li>세그먼테이션: 활성화됨
-&gt; <li>관계 유형: 다대일
-&gt; <li>참조 스키마: [B2B 계정 - XDM 비즈니스 계정 스키마](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
-&gt; <li>필수 필드: 기본 키, 외래 키 및 버전 설명자
-&gt; <li>관련 데이터 세트: 스키마에 정의 및 매핑됨
+>&gt; <li>세그먼테이션: 활성화됨
+>&gt; <li>관계 유형: 다대일
+>&gt; <li>참조 스키마: [B2B 계정 - XDM 비즈니스 계정 스키마](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+>&gt; <li>필수 필드: 기본 키, 외래 키 및 버전 설명자
+>&gt; <li>관련 데이터 세트: 스키마에 정의 및 매핑됨
 
 ### 이벤트
 
