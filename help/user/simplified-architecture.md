@@ -30,7 +30,7 @@ ht-degree: 6%
 
 ## 네임스페이스 및 스키마
 
-개요는 Experience Platform 설명서의 [B2B 네임스페이스 및 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)를 참조하십시오.
+개요는 Experience Platform 설명서의 [B2B 네임스페이스 및 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)를 참조하십시오.
 
 ### 환경 설정
 
@@ -40,9 +40,9 @@ B2B 네임스페이스 및 스키마 자동 생성 유틸리티를 지원하도�
 
 * 필요한 헤더에 대한 값을 수집하고 샘플 API 호출을 읽는 방법에 대한 세부 정보를 포함하여 Experience Platform API 사용에 대한 자세한 내용은 [Experience Platform API 시작하기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-guide) 안내서를 참조하십시오.
 
-* Experience Platform API에 대한 자격 증명을 생성하는 방법에 대한 자세한 내용은 [Experience Platform API 인증 및 액세스](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication)에 대한 자습서를 참조하십시오.
+* Experience Platform API에 대한 자격 증명을 생성하는 방법에 대한 자세한 내용은 [Experience Platform API 인증 및 액세스](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-authentication)에 대한 자습서를 참조하십시오.
 
-* Experience Platform API용 Postman 설정에 대한 자세한 내용은 [Adobe Experience Platform의 Postman](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman)를 참조하십시오.
+* Experience Platform API용 Postman 설정에 대한 자세한 내용은 [Adobe Experience Platform의 Postman](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/postman)를 참조하십시오.
 
 이제 Experience Platform 개발자 콘솔 및 Postman을 설정하여 Postman 환경에 적절한 환경 값 적용을 시작할 수 있습니다.
 
@@ -110,7 +110,7 @@ Journey Optimizer B2B edition UI에서 애플리케이션 전체에서 사용할
 
 ### 관계형 스키마
 
-[여정 결정](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational) 및 **_개인화_**&#x200B;에 사용할 **_관계형 스키마_**&#x200B;를 선택하십시오. 현재 이러한 스키마는 사용자 지정 개체 사용 사례용입니다. 향후에는 다른 객체 사용 사례에도 관계형 스키마를 사용할 수 있습니다.
+[여정 결정](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational) 및 **_개인화_**&#x200B;에 사용할 **_관계형 스키마_**&#x200B;를 선택하십시오. 현재 이러한 스키마는 사용자 지정 개체 사용 사례용입니다. 향후에는 다른 객체 사용 사례에도 관계형 스키마를 사용할 수 있습니다.
 
 1. **[!UICONTROL 관계형]** 탭을 선택합니다.
 
@@ -133,7 +133,7 @@ Journey Optimizer B2B edition UI에서 애플리케이션 전체에서 사용할
 ><li>동작: 레코드
 >&gt; <li>세그먼테이션: 활성화됨
 >&gt; <li>관계 유형: 다대일
->&gt; <li>참조 스키마: [B2B 계정 - XDM 비즈니스 계정 스키마](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+>&gt; <li>참조 스키마: [B2B 계정 - XDM 비즈니스 계정 스키마](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
 >&gt; <li>필수 필드: 기본 키, 외래 키 및 버전 설명자
 >&gt; <li>관련 데이터 세트: 스키마에 정의 및 매핑됨
 
@@ -155,27 +155,27 @@ Journey Optimizer B2B edition UI에서 애플리케이션 전체에서 사용할
 
 Journey Optimizer B2B edition에서 이메일을 보내도록 다음을 구성해야 합니다.  
 
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+[https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/get-started/email-protocols)
 
 ### 추적 및 이메일 게재를 위한 프로토콜
 
-1. [전자 메일에 대한 DNS 레코드 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [전자 메일에 대한 DNS 레코드 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [SPF 및 DKIM 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [SPF 및 DKIM 설정](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [DMARC 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [DMARC 설정](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [도메인의 MX 레코드 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [도메인의 MX 레코드 설정](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. [허용 목록에 아웃바운드 IP 주소 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. [허용 목록에 아웃바운드 IP 주소 추가](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. 전용 IP 풀을 공유해야 하는 경우 실현 가능성 및 지원 설정에 대해 게재 팀에 문의하십시오.
 
 ### 이메일 채널 구성
 
-간소화된 아키텍처에서 이메일 설정은 Marketo Engage UI에서 구성됩니다. 전자 메일 관련 설정 단계를 완료하십시오. [https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
+간소화된 아키텍처에서 이메일 설정은 Marketo Engage UI에서 구성됩니다. 전자 메일 관련 설정 단계를 완료하십시오. [https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps)
 
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
+[https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
 ### 커뮤니케이션 제한
 
@@ -187,7 +187,7 @@ Journey Optimizer B2B edition에서 이메일을 보내도록 다음을 구성�
 
    전역 규칙 세트가 만들어지지 않으면 통신 제한이 없습니다.
 
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
+<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
 
 ### 공유된 커뮤니케이션 제한
 
@@ -210,7 +210,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## SMS 채널 구성
 
-자세한 내용은 [_SMS 구성_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)을 참조하세요.
+자세한 내용은 [_SMS 구성_](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)을 참조하세요.
 
 ## 여정의 Marketo Engage 작업
 
@@ -240,7 +240,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## 사용자 온보딩
 
-개요는 [사용자 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) 페이지를 참조하십시오.
+개요는 [사용자 관리](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/user-management) 페이지를 참조하십시오.
 
 ### 기존 사용자 그룹
 
@@ -250,7 +250,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 1. 생성된 제품 프로필에 기존 사용자 그룹을 추가합니다.
 
-프로필은 해당 사용자 그룹에 이미 할당된 모든 역할과 권한을 부여합니다. 이 권한은 사용자가 Journey Optimizer B2B edition에 액세스할 수 있도록 이미 구성되어 있어야 합니다. 사용자 중 일부만 새 아키텍처에 액세스해야 하는 경우 아래에 설명된 단계를 완료합니다. 자세한 내용은 [현재 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)를 참조하세요.
+프로필은 해당 사용자 그룹에 이미 할당된 모든 역할과 권한을 부여합니다. 이 권한은 사용자가 Journey Optimizer B2B edition에 액세스할 수 있도록 이미 구성되어 있어야 합니다. 사용자 중 일부만 새 아키텍처에 액세스해야 하는 경우 아래에 설명된 단계를 완료합니다. 자세한 내용은 [현재 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/user-management)를 참조하세요.
 
 ### 새 사용자 그룹 만들기
 
