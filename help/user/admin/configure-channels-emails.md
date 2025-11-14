@@ -4,9 +4,9 @@ description: Journey Optimizer B2B edition에서 게재 기능을 최적화하�
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 6f226c806d321cae27483df02a130bd4d8180702
+source-git-commit: 7d150069e7af582d837411aa52f6e8caa2b5e89e
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Adobe Journey Optimizer B2B edition은 Marketo Engage의 채널 기능 및 이�
 
 ![브랜딩 도메인 설정에 액세스](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-이 설정은 연결된 Marketo Engage 인스턴스에서 하나 이상의 작업 공간에 대한 주 도메인을 정의합니다. 새 전자 메일은 이 도메인을 기본값으로 사용하지만 마케터는 [전자 메일을 기준으로 이 도메인을 재정의할 수 있습니다](../content/add-email.md#define-the-email-settings). 기본 브랜딩 도메인 정의에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
+이 설정은 연결된 Marketo Engage 인스턴스에서 하나 이상의 작업 공간에 대한 주 도메인을 정의합니다. 새 전자 메일은 이 도메인을 기본값으로 사용하지만 마케터는 [전자 메일을 기준으로 이 도메인을 재정의할 수 있습니다](../content/add-email.md#define-the-email-settings). 기본 브랜딩 도메인 정의에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->여러 브랜드를 마케팅하는 경우 각 브랜드에 고유한 브랜드 추적 링크를 제공하려는 경우 브랜딩 도메인을 추가할 수 있습니다. 여러 브랜딩 도메인을 추가하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
+>여러 브랜드를 마케팅하는 경우 각 브랜드에 고유한 브랜드 추적 링크를 제공하려는 경우 브랜딩 도메인을 추가할 수 있습니다. 여러 브랜딩 도메인을 추가하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}를 참조하세요.
 
 ### [!UICONTROL 사용자 지정 헤더 옵션] {#custom-header-options}
 
@@ -67,19 +67,67 @@ _[!UICONTROL 엄격한 전송 보안]_&#x200B;을 사용하도록 설정하면 �
 
 ## 커뮤니케이션 제한
 
-커뮤니케이션 제한은 조직에서 보내는 이메일의 양을 제어합니다. 조직의 이메일이 너무 많아 수신자를 압도하지 않도록 제한을 설정하는 것이 좋습니다.
+통신 제한은 연락처가 조직에서 받는 전자 메일 수를 제어합니다. 설정한 제한은 Journey Optimizer B2B edition과 연결된 Marketo Engage 인스턴스 간에 공유됩니다. 이러한 제한을 설정하면 한 잠재 고객이 지정된 기간 동안 최대 이메일 수를 넘지 않도록 합니다.
 
-현재 설정을 검토하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동하세요. 탐색 패널의 _[!UICONTROL 전자 메일]_&#x200B;에서 **[!UICONTROL 통신 제한]**&#x200B;을 선택합니다.
-
-![통신 제한 설정에 액세스](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
-
-연결된 Marketo Engage 인스턴스의 구성 옵션에 액세스하려면 오른쪽 상단의 **[!UICONTROL 설정 편집]**&#x200B;을 클릭하십시오.
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
+>[간소화된 아키텍처](../simplified-architecture.md)에서 프로비저닝된 Journey Optimizer B2B edition 환경에 대해 통신 제한을 사용할 수 있습니다.
 
-통신 제한 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}를 참조하세요.
+예를 들어 하루에 5개의 이메일로 정의된 제한을 사용하는 경우 시스템에서는 6번째 이메일을 억제하여 한 연락처가 하루 내에 6번째 이메일을 받지 못하도록 합니다. Journey Optimizer B2B edition과 Marketo Engage 간에 공유된 통신 제한을 통해 통신 제한 규칙이 한 위치에 정의됩니다. 여섯 번째 이메일은 Journey Optimizer B2B edition 또는 Marketo Engage의 보내기 작업과 관계없이 표시되지 않습니다.
+
+모든 Marketo Engage 프로덕션 인스턴스에는 기본적으로 통신 제한이 정의되어 있습니다(자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} 참조). 공유 통신 제한을 사용하려면 Journey Optimizer B2B edition에서 규칙을 정의하고 이러한 제한의 공유를 Marketo Munchkin 코드로 확장합니다.
+
+>[!IMPORTANT]
+>
+>Marketo Munchkin 코드로 설정된 통신 규칙을 확장하려면 Adobe 계정 관리 팀에 문의하십시오. 이 구성은 일반적으로 온보딩 프로세스의 일부입니다.
+
+통신 제한 규칙을 검토하거나 설정하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동하십시오. 탐색 패널의 _[!UICONTROL 전자 메일]_&#x200B;에서 **[!UICONTROL 통신 제한]**&#x200B;을 선택합니다.
+
+![통신 제한 구성에 액세스](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
+
+기본적으로 요구 사항에 따라 여러 규칙을 정의, 활성화 및 비활성화할 수 있는 글로벌 규칙 세트가 있습니다. 규칙 목록을 표시하려면 규칙 세트 이름을 클릭합니다.
+
+### 규칙 만들기
+
+1. 오른쪽 상단의 **[!UICONTROL 규칙 만들기]**&#x200B;를 클릭합니다.
+
+   ![통신 제한 구성에 액세스](./assets/config-email-communication-limits-create-rule-select.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL 규칙 이름]**&#x200B;을(를) 입력하십시오.
+
+1. **[!UICONTROL 최대 한도]**&#x200B;를 설정합니다.
+
+   값을 입력하거나 오른쪽의 _위쪽_ 또는 _아래쪽_ 화살표를 클릭하여 값을 늘리거나 줄입니다.
+
+1. 제한 기간을 정의하는 방법에 따라 **[!UICONTROL 최대 가용량 다시 설정]** 값을 선택하십시오.
+
+   _[!UICONTROL 시간별]_, _[!UICONTROL 일별]_, _[!UICONTROL 주별]_ 또는 _[!UICONTROL 월별]_&#x200B;을 선택할 수 있습니다.
+
+   ![통신 제한 구성에 액세스](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
+
+1. 기간에 포함할 빈도 단위의 수에 따라 **[!UICONTROL Every]** 값을 설정하십시오.
+
+   예를 들어 _일별_&#x200B;을 빈도로 사용하고 이 값을 `3`(으)로 설정하면 기간은 3일로 정의됩니다.
+
+1. 오른쪽 상단의 **[!UICONTROL 규칙 만들기]**&#x200B;를 클릭합니다.
+
+새 규칙은 _초안_ 상태이며 활성화하기로 선택할 때까지 통신 제한에 적용되지 않습니다.
+
+### 규칙 관리
+
+규칙이 _초안_ 상태인 동안에는 정의를 편집하거나 규칙을 삭제할 수 있습니다. 규칙을 적용하려는 경우 규칙을 활성화할 수 있습니다. 목록에서 초안 규칙 이름 옆에 있는 _추가 메뉴_(***...***) 아이콘을 클릭하고 **[!UICONTROL 활성화]**&#x200B;를 선택합니다.
+
+![초안 통신 제한 규칙에 대한 기타 메뉴를 클릭합니다](./assets/config-email-communication-limits-draft-more-menu.png){width="400" zoomable="yes"}
+
+확인 대화 상자에서 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
+
+활성 규칙은 편집하거나 삭제할 수 없으며 비활성화만 가능합니다. 적용된 통신 제한에서 제거할 활성 규칙의 경우 활성 규칙 이름 옆에 있는 _비활성화_( ![비활성화 아이콘](../assets/do-not-localize/icon-deactivate.svg)) 아이콘을 클릭합니다.
+
+![활성 통신 제한 규칙에 대한 비활성화 아이콘을 클릭합니다](./assets/config-email-communication-limits-active-deactivate.png){width="400" zoomable="yes"}
+
+그런 다음 확인 대화 상자에서 **[!UICONTROL 비활성화]**&#x200B;를 클릭합니다.
+
+규칙이 _비활성_ 상태로 표시됩니다. 초안 규칙과 유사하며 필요한 경우 편집, 삭제 또는 활성화할 수 있습니다.
 
 ## SPF/DKIM
 
@@ -146,4 +194,4 @@ Marketo Engage에서는 보트 활동을 확인하는 두 가지 방법을 사�
 >
 >Adobe Marketo Engage에서 이러한 설정에 액세스하고 편집하려면 제품 관리자 권한이 있어야 합니다.
 
-보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.
+보트 활동 옵션 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}를 참조하세요.

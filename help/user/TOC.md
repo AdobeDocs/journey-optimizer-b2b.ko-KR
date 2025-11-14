@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: d7de2cb8383def7c2ed5e57c0c116ffb72424468
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '356'
 ht-degree: 98%
 
 ---
@@ -117,6 +117,10 @@ ht-degree: 98%
       + [브랜드 정렬](./content/brand-alignment.md)
    + [브랜드 테마](./content/brand-themes.md)
    + [조건부 콘텐츠](./content/conditional-content.md)
+   + 개인 맞춤화 {#personalization}
+      + [개요](./content/personalization.md)
+      + [개인화 구문](./content/personalization-syntax.md)
+      + [도우미 함수 목록](./content/personalization-helper-functions.md)
 + 인사이트 대시보드 {#dashboards}
    + [지능형 대시보드](./dashboards/intelligent-dashboard.md)
    + [참여 개요](./dashboards/engagement-dashboard.md)
@@ -136,3 +140,4 @@ ht-degree: 98%
       + [AEP 이벤트 정의](./admin/configure-aep-events.md)
       + [의도 데이터](./admin/intent-data.md)
       + [참여 점수 가중치](./admin/engagement-score-weighting.md)
+   + [간소화된 아키텍처 설정](simplified-architecture.md)
