@@ -4,9 +4,9 @@ description: Sinch, Twilio 및 Infobip과 같은 SMS 공급자를 API 자격 증
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 Sinch를 SMS 공급자로 �
 
    * **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]** - Sinch 계정의 API 페이지에 액세스합니다(SMS 탭에서 자격 증명을 찾을 수 있음).
 
-   Sinch 계정의 이 정보를 찾는 방법에 대한 자세한 내용은 [Sinch 개발자 설명서](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)를 참조하십시오.
+   Sinch 계정의 이 정보를 찾는 방법에 대한 자세한 내용은 [Sinch 개발자 설명서](https://developers.sinch.com/docs/sms/getting-started)를 참조하십시오.
 
 1. API 자격 증명의 구성 세부 정보가 완료되면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
