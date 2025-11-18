@@ -1,12 +1,12 @@
 ---
 title: Adobe Express으로 이미지 편집
-description: Journey Optimizer B2B edition의 Adobe Express을 사용하여 이미지를 기본적으로 편집하여 크기를 조정하고, 배경을 자르고, 제거하고, 형식을 변환하고, 작업 영역에 저장합니다.
+description: Journey Optimizer B2B edition의 Adobe Express을 사용하여 기본적으로 이미지를 편집하십시오. 즉, 크기 조정, 자르기, 배경 제거, 형식 변환 및 에셋 저장소에 저장합니다.
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '869'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 >title="Adobe Express에서 이미지 편집"
 >abstract="Adobe Journey Optimizer B2B Edition 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 속도를 높일 수 있습니다."
 
-Adobe Journey Optimizer B2B edition은 기본적으로 Adobe Express과 통합되므로 Adobe Express 이미지 편집 도구 세트에 액세스할 수 있습니다. 이러한 도구를 사용하여 연결된 Marketo Engage 에셋 저장소에 대해 Journey Optimizer B2B edition 작업 영역에 저장된 이미지를 수정할 수 있습니다. 통합은 다음과 같은 주요 이점을 제공합니다.
+Adobe Journey Optimizer B2B edition은 기본적으로 Adobe Express과 통합되므로 Adobe Express 이미지 편집 도구 세트에 액세스할 수 있습니다. 이러한 도구를 사용하여 Journey Optimizer B2B edition 에셋 저장소에 저장된 이미지를 수정할 수 있습니다. 통합은 다음과 같은 주요 이점을 제공합니다.
 
 * Journey Optimizer B2B edition에서 새 이미지 에셋을 편집하고 저장하여 콘텐츠 재사용을 개선했습니다.
 
@@ -34,23 +34,23 @@ Adobe Express 함수는 PNG 및 JPEG 이미지 파일 형식을 지원합니다.
 
 1. 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL Assets]**&#x200B;을 클릭합니다.
 
-이 작업을 수행하면 나열된 모든 자산이 있는 목록 페이지가 열립니다. 기본적으로 _[!UICONTROL Journey Optimizer B2B edition]_ 작업 영역이 선택됩니다.
+이 작업을 수행하면 나열된 모든 자산이 있는 목록 페이지가 열립니다.
 
 1. 수정하거나 원본으로 사용하여 새 에셋을 만들 이미지를 찾습니다.
 
-   * 작업 영역 및 폴더별 자산을 보려면 왼쪽 상단의 _폴더 표시_ 아이콘을 클릭하여 구조를 엽니다.
+   * 폴더별 자산을 보려면 왼쪽 상단의 _폴더 표시_ 아이콘을 클릭하여 구조를 엽니다.
 
    * 열을 기준으로 테이블을 정렬하려면 열 제목을 누릅니다. 제목 행의 화살표는 현재 정렬 열 및 순서를 나타냅니다.
 
-   * 선택한 작업 영역 또는 폴더 내에서 이미지 자산을 검색하려면 검색 막대에 텍스트 문자열을 입력합니다.
+   * 선택한 폴더 내에서 이미지 자산을 검색하려면 검색 막대에 텍스트 문자열을 입력합니다.
 
-   ![Journey Optimizer B2B edition 작업 공간에서 자산 찾아보기](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![Journey Optimizer B2B edition 저장소에서 자산 찾아보기](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. 이미지 에셋의 이름을 클릭하여 열고 세부 정보를 확인합니다.
 
    >[!TIP]
    >
-   >이미지 파일 편집을 계속하기 전에 이미지 세부 정보에서 [_[!UICONTROL 사용자]_ 탭](./marketo-engage-design-studio.md#view-asset-used-by-references)을(를) 선택하고 현재 이미지가 사용되는 콘텐츠를 검토하는 것이 좋습니다.
+   >이미지 파일 편집을 계속하기 전에 이미지 세부 정보에서 [_[!UICONTROL 사용자]_ 탭](./internal-image-assets.md#view-asset-used-by-references)을(를) 선택하고 현재 이미지가 사용되는 콘텐츠를 검토하는 것이 좋습니다.
 
 1. 오른쪽의 _[!UICONTROL 세부 정보]_ 이미지에서 **[!UICONTROL Adobe Express으로 편집]**&#x200B;을 클릭합니다.
 
@@ -70,7 +70,7 @@ Adobe Express에 대한 Enterprise 라이선스가 있는 경우 Express 편집�
 
 ![Adobe Express 엔터프라이즈 편집기에서 이미지 열기](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/kr/express/web.html){target="_blank"}를 참조하세요.
+사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/express/web.html){target="_blank"}를 참조하세요.
 
 ## Adobe Express의 빠른 작업
 
@@ -86,7 +86,7 @@ Adobe Express Enterprise 라이선스가 없는 경우 Adobe Express 빠른 작�
 
    ![이미지를 수정할 편집 형식을 선택하십시오](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. 기본 Adobe Express 빠른 작업 편집기로 돌아가면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 수정된 이미지 파일을 동일한 파일 이름을 사용하여 Journey Optimizer B2B edition 자산 작업 영역에 저장합니다.
+1. 기본 Adobe Express 빠른 작업 편집기로 돌아가면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 수정된 이미지 파일을 동일한 파일 이름을 사용하여 Journey Optimizer B2B edition 자산 저장소에 저장합니다.
 
 ## 이미지 크기 조정
 
@@ -118,8 +118,8 @@ Adobe Express은 자동 배경 제거를 수행하여 이미지에서 기본 객
 
 ## 파일 형식 변환
 
-* **[!UICONTROL JPEG으로 변환]** - PNG 이미지의 경우 이미지를 JPEG 이미지 파일로 변환하고 작업 영역에 새 자산으로 저장할 수 있습니다.
-* **[!UICONTROL PNG로 변환]** - JPEG 이미지의 경우 이미지를 PNG 이미지 파일로 변환하여 작업 영역에 새 자산으로 저장할 수 있습니다.
+* **[!UICONTROL JPEG으로 변환]** - PNG 이미지의 경우 이미지를 JPEG 이미지 파일로 변환하고 새 자산으로 저장할 수 있습니다.
+* **[!UICONTROL PNG로 변환]** - JPEG 이미지의 경우 이미지를 PNG 이미지 파일로 변환하여 새 자산으로 저장할 수 있습니다.
 
 ![Adobe Express으로 편집- PNG로 변환](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}
 

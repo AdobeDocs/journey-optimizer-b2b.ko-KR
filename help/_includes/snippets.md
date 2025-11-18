@@ -1,9 +1,9 @@
 ---
 title: 스니펫
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2374'
 ht-degree: 3%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 팀에 문의하십시오.<br/>
->&#x200B;>계약 및 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
+>AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 팀에 문의하십시오.<br/>
+>계약 및 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
 
 ## 콘텐츠 작성 - 구성 요소 - 구조 단계 {#structures-step}
 
@@ -217,7 +217,7 @@ Journey Optimizer B2B edition 라이브러리 또는 연결된 Market Engage 인
 
 ![사용 가능한 이미지 자산 찾아보기](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-대화 상자에서 선택한 저장소 및 작업 공간에서 이미지를 선택할 수 있습니다. 자산을 추가하려면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
+대화 상자에서 선택한 저장소에서 이미지를 선택할 수 있습니다. 자산을 추가하려면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
 필요한 에셋을 찾는 데 도움이 되는 도구가 있습니다.
 
@@ -257,7 +257,7 @@ _[!UICONTROL Assets 선택]_ 대화 상자에서 사용 가능한 도구를 사�
 
 _[!UICONTROL 이미지 업로드]_ 대화 상자에서 시스템의 파일을 파일 상자로 끌어서 놓습니다. 최대 파일 크기는 100MB입니다.
 
-![이미지 파일을 &#x200B;](../user/content/assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
+![이미지 파일을 ](../user/content/assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
 
 선택한 이미지의 파일 이름이 대화 상자에 표시됩니다. 에셋 파일 이름은 폴더 간에 고유해야 하며 이름의 파일이 이미 있는 경우 메시지가 표시됩니다. 이름에는 최대 100자를 사용할 수 있으며 특수 문자(예: `;`, `:`, `\` 및 `|`)를 사용할 수 없습니다.
 

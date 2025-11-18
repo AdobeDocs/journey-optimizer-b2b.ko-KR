@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
+source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 95%
@@ -58,6 +58,10 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 * **데이터를 안전하게 보호**: 고급 개인 정보 보호 및 보안 기능을 통해 고객 정보를 보호할 수 있습니다.
 * **미래를 위해 빌드됨**: 이 업데이트는 조직이 지속적인 개선 및 혁신을 이룰 수 있도록 합니다.
 
+>[!NOTE]
+>
+>환경이 이 아키텍처에서 프로비저닝된 경우 [구성에 대한 지침](../simplified-architecture.md)을 검토하십시오.
+
 간소화된 아키텍처를 통해 2025.10 릴리스에서는 다음과 같은 새로운 기능과 개선 사항을 사용할 수 있습니다.
 
 | 유형 | 항목 | 설명 |
@@ -67,7 +71,12 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 이메일 피로도 중복 제거 | 이제 여정에서 동일한 이메일이 동일한 주소로 여러 번 전송되지 않도록 이메일 중복 제거를 활성화할 수 있습니다. 중복된 주소는 해당 이메일 주소를 가진 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다. |
 | 개선 사항 | 커뮤니케이션 제한 | 이제 시스템에서는 Marketo Engage 및 Journey Optimizer B2B edition의 결합된 통신 제한을 준수합니다. [자세히 알아보기](../admin/configure-channels-emails.md#communication-limits) |
 
-환경이 이 아키텍처에서 프로비저닝된 경우 [구성에 대한 지침](../simplified-architecture.md)을 검토하십시오.
+<!-- There are additional functional changes with the simplified architecture:
+
+| Item | Description |
+| ---- | ----------- |
+| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
+| | | -->
 
 <!-- hold for later release 
 
@@ -235,7 +244,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 개선 사항 | 중앙 자산 라이브러리 | 강화된 _중앙 자산 라이브러리_&#x200B;를 통해 Design Studio 작업 영역 전반에서 Marketo Engage 인스턴스의 모든 이미지 자산을 사용할 수 있습니다. Journey Optimizer B2B Edition에는 Marketo Engage 자산의 편집 작업과 삭제 및 이동 작업을 방지하는 기본 제공 가드레일이 있습니다. 이러한 보호 장치를 통해 Marketo Engage Design Studio의 소스 자산이 유지되는 동시에 Journey Optimizer B2B Edition에서 원활하게 읽고 재사용할 수 있습니다.<p>Journey Optimizer B2B Edition에서만 사용되는 자산의 경우 자산을 완전히 제공할 수 있는 특정 작업 영역이 제공됩니다. <a href="../content/marketo-engage-design-studio.md">자세히 알아보기</a> |
+| 개선 사항 | 중앙 자산 라이브러리 | 강화된 _중앙 자산 라이브러리_&#x200B;를 통해 Design Studio 작업 영역 전반에서 Marketo Engage 인스턴스의 모든 이미지 자산을 사용할 수 있습니다. Journey Optimizer B2B Edition에는 Marketo Engage 자산의 편집 작업과 삭제 및 이동 작업을 방지하는 기본 제공 가드레일이 있습니다. 이러한 보호 장치를 통해 Marketo Engage Design Studio의 소스 자산이 유지되는 동시에 Journey Optimizer B2B Edition에서 원활하게 읽고 재사용할 수 있습니다.<p>Journey Optimizer B2B Edition에서만 사용되는 자산의 경우 자산을 완전히 제공할 수 있는 특정 작업 영역이 제공됩니다. <a href="../content/internal-image-assets.md">자세히 알아보기</a> |
 | 기능 | 최근에 액세스한 자산 | 이제 Journey Optimizer B2B Edition 앱의 홈 페이지에는 _[!UICONTROL 최근 액세스한 항목]_ 섹션이 포함됩니다. 이 섹션에서는 마케터나 관리자가 가장 최근에 액세스한 자산 목록을 제공합니다. 이 목록을 사용하면 일련의 자산 페이지를 탐색하거나 검색하지 않고도 최근에 작업한 자산으로 바로 이동할 수 있습니다. <p>이 목록은 수정 사항에 대한 추가 정보를 제공하므로, 마지막 세션 이후 어떤 자산을 추가로 수정해야 할지 결정할 수 있습니다. 이메일 자산의 경우 이메일 자산이 사용된 계정 여정이 표시됩니다. <a href="../home-page.md">자세히 알아보기</a> |
 | 개선 사항 | 여정 분할 노드 - 경로 재정렬 | 경로 분할 노드에서 경로 필터링은 하향식으로 평가됩니다. 각 개인 또는 계정은 일치하는 첫 번째 경로를 따라 진행합니다. 각 경로 카드의 오른쪽 상단에 있는 위쪽 및 아래쪽 화살표를 클릭하여 정의된 경로를 재정렬하고 목록에서 해당 경로를 위나 아래로 이동할 수 있습니다. <a href="../journeys/split-merge-paths-nodes.md#split-paths">자세히 알아보기</a> |
 | 개선 사항 | 여정 분할 노드 - 추가 활동 내역 조건 속성 | 사용자별 분할 노드의 경로 필터링을 정의하기 위해 조건을 사용할 때 두 가지 추가 속성, 즉 _이메일을 열람함_&#x200B;과 _이메일을 전달함_&#x200B;을 사용할 수 있습니다. 이러한 추가 기능은 이메일 활동을 기반으로 여정에서 사람들을 보다 유연하게 필터링할 수 있도록 해 줍니다. <a href="../journeys/journey-nodes.md#split-paths">자세히 알아보기</a> |

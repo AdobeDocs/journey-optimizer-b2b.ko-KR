@@ -1,31 +1,31 @@
 ---
 title: 자산
-description: Journey Optimizer B2B Edition에서 이메일, 템플릿 및 조각을 위한 Marketo Engage Design Studio 및 AEM Assets의 이미지 자산을 관리하십시오.
+description: 이메일, 템플릿 및 조각에 대한 Journey Optimizer B2B edition 및 AEM Assets의 이미지 에셋을 관리합니다.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: ht
-source-wordcount: '883'
-ht-degree: 100%
+source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 70%
 
 ---
 
 # 자산
 
-[!DNL Adobe Journey Optimizer B2B Edition]에서 자산은 일반적으로 계정 여정을 지원하는 콘텐츠를 디자인할 때 사용되는 이미지입니다. 이러한 이미지는 시각적 디자인 공간 내의 자산 선택기나 간단한 드래그 앤 드롭 인터페이스를 통해 이메일, 이메일 템플릿 및 조각 내에서 사용할 수 있습니다.
+[!DNL Adobe Journey Optimizer B2B Edition]에서 자산은 일반적으로 계정 여정을 지원하는 콘텐츠를 디자인할 때 사용되는 이미지입니다. 이메일, 이메일 템플릿 및 자산 선택기의 조각 또는 시각적 디자인 공간 내의 간단한 드래그 앤 드롭 인터페이스에서 이러한 이미지를 사용할 수 있습니다.
 
-[!DNL Journey Optimizer B2B Edition]은 마케터에게 [!DNL Adobe Marketo Engage] [!DNL Design Studio] 및 [!DNL Adobe Experience Manager Assets as a Cloud Service], 이상 두 가지 유형의 자산 라이브러리에 대한 액세스 권한을 제공합니다. Adobe Marketo Engage Design Studio만 사용하거나 (보유 중인 [!DNL Experience Manager Assets] 라이선스에 따라) 두 라이브러리를 동시에 구성하여 사용할 수 있습니다.
+[!DNL Journey Optimizer B2B Edition]은(는) 디자이너와 마케터에게 내부 [!DNL Journey Optimizer B2B Edition] 자산 저장소와 [!DNL Adobe Experience Manager Assets as a Cloud Service] 자산 라이브러리의 두 가지 유형에 대한 액세스를 제공합니다. 기본 제공 저장소만 사용하거나 보유하고 있는 [!DNL Experience Manager Assets] 라이선스를 기준으로 두 라이브러리 유형을 동시에 사용할 수 있습니다.
 
 ## 자산 관리
 
-[!DNL Adobe Experience Manager as a Cloud Services]로 프로비저닝되었다면, 사용자 계정에 필요한 권한이 있는 경우 [!DNL Marketo Engage Design Studio] 및 [!DNL Adobe Experience Manager Assets as a Cloud Service] 모두에 대한 저장소에 액세스할 수 있습니다. 이들 저장소는 분리되어 있으며 동기화되지 않습니다. 두 소스의 이미지를 모두 사용할 수 있습니다.
+[!DNL Adobe Experience Manager as a Cloud Services]&#x200B;(으)로 프로비저닝되고 [!DNL Journey Optimizer B2B Edition]에서 에셋 소스로 구성된 경우 사용자 계정에 필요한 권한이 있으면 두 저장소 유형에 액세스할 수 있습니다. 이들 저장소는 분리되어 있으며 동기화되지 않습니다. 두 소스의 이미지를 모두 사용할 수 있습니다.
 
-### Adobe Marketo Engage 자산
+### 내부 자산
 
-[!DNL Adobe Marketo Engage Design Studio] 자산 저장소는 기본적으로 모든 [!DNL Journey Optimizer B2B Edition] 구독을 통해 제공됩니다. 즉, [!DNL Adobe Marketo Engage]에 저장된 이미지 자산([!UICONTROL Design Studio] > [!UICONTROL 이미지 및 파일])에 액세스할 수 있습니다. 이 저장소를 로컬 자산 라이브러리로 사용할 수 있으며, 자산 업로드 및 다운로드 기능도 제공됩니다. 이들 자산을 여정 콘텐츠에도 사용할 수 있습니다.
+내부 에셋 저장소는 기본적으로 [!DNL Journey Optimizer B2B Edition] 구독마다 제공됩니다. 즉, 연결된 [!DNL Adobe Marketo Engage] 자산 파일 시스템에 저장된 이미지 자산에 액세스할 수 있습니다. 이 저장소를 로컬 자산 라이브러리로 사용할 수 있으며, 자산 업로드 및 다운로드 기능도 제공됩니다. 이들 자산을 여정 콘텐츠에도 사용할 수 있습니다.
 
-[!DNL Journey Optimizer B2B Edition]에서 [!DNL Marketo Engage] 자산에 대한 편집과 작업 삭제 및 이동을 방지해 주는 기본 제공 가드레일이 존재합니다. 이러한 보호 기능은 소스 자산(Marketo Engage Design Studio)을 유지하면서 [!DNL Journey Optimizer B2B Edition]에서 원활하게 읽고 재사용할 수 있도록 보장해 줍니다.
+[Adobe Express을 사용하여 이러한 에셋을 편집](./image-edit-adobe-express.md)하고 폴더로 이동하여 이메일, 템플릿 및 조각에서 사용할 수 있도록 구성할 수 있습니다.
 
 지원되는 파일 형식: JPG, JPEG, GIF, PNG, EPS, SVG 및 RGB
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## 자산을 사용하여 콘텐츠 작성
 
-자산을 사용하여 이메일, 이메일 템플릿 및 시각적 조각을 작성할 수 있습니다. 시각적 콘텐츠 편집기에서 연결된 자산 저장소의 이미지에 액세스할 수 있습니다. Adobe Marketo Engage Design Studio와 함께(기본값) Experience Manager Assets as a Cloud Service를 구독한 경우 두 소스 중 하나에서 이미지 자산을 선택할 수 있습니다. 연결된 [!DNL Marketo Engage Design Studio] 저장소의 [!DNL Journey Optimizer B2B Edition] 작업 영역에 위치한 이미지 자산을 업로드할 수도 있습니다.
+자산을 사용하여 이메일, 이메일 템플릿 및 시각적 조각을 작성할 수 있습니다. 시각적 콘텐츠 편집기에서 연결된 자산 저장소의 이미지에 액세스할 수 있습니다. Experience Manager Assets as a Cloud Service에 대한 구독이 있는 경우 두 소스 중 하나에서 이미지 에셋을 선택할 수 있습니다. 이미지 에셋을 업로드하여 내부 에셋 저장소에 배치할 수도 있습니다.
 
 이미지 구성 요소의 설정을 편집할 때 이미지 소스를 선택할 수도 있고, 캔버스에서 직접 이미지 소스를 선택할 수도 있습니다.
 
@@ -65,15 +65,15 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB Marketo Engage 자산]
+>[!TAB 자산 선택]
 
-**[!UICONTROL Marketo Engage 자산]**&#x200B;을 클릭하여 자산 선택기를 열고 [!DNL Marketo Engage] 작업 영역 또는 Journey Optimizer B2B Edition 작업 영역에서 이미지를 선택할 수 있습니다.
+**[!UICONTROL 에셋 선택]**&#x200B;을 클릭하여 에셋 선택기를 엽니다. 이 선택기에서 Journey Optimizer B2B edition 에셋 저장소에서 이미지를 선택할 수 있습니다.
 
-![작업 영역에서 이미지 자산 선택](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
+![이미지 자산 선택](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 
 검색어와 필터를 사용하여 원하는 이미지 자산을 찾을 수 있습니다. 자산을 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭하여 이미지 구성 요소에 사용합니다.
 
-[!DNL Marketo Engage] 이미지 자산 사용에 대한 자세한 내용은 [콘텐츠에서 자산 사용](./marketo-engage-design-studio.md#use-assets-in-your-content)을 참조하십시오.
+내부 이미지 자산 사용에 대한 자세한 내용은 [콘텐츠의 자산 사용](./internal-image-assets.md#use-assets-in-your-content)을 참조하세요.
 
 >[!TAB Experience Manager Assets]
 
@@ -89,8 +89,8 @@ ht-degree: 100%
 
 **[!UICONTROL 미디어 가져오기]**&#x200B;를 클릭하여 이미지 파일을 선택하고 Journey Optimizer B2B Edition 콘텐츠에 사용할 수 있는 자산으로 가져옵니다.
 
-![자산으로 가져올 고유한 이미지 파일 선택](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"}
+![자산으로 가져올 고유한 이미지 파일 선택](./assets/content-assets-image-import-file-selected.png){width="450" zoomable="yes"}
 
-파일을 드래그 앤 드롭하거나 파일 시스템에서 선택한 후 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다. 가져온 자산은 [!DNL Adobe Marketo Engage Design Studio] 저장소의 [!DNL Journey Optimizer B2B Edition] 작업 영역에 저장됩니다.
+파일을 드래그 앤 드롭하거나 파일 시스템에서 선택한 후 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다. 가져온 자산은 [!DNL Journey Optimizer B2B Edition] 자산 저장소에 저장됩니다.
 
 >[!ENDTABS]
