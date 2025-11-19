@@ -4,7 +4,7 @@ description: 개인화, 링크 및 동의 관리를 사용하여 계정 여정�
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
+source-git-commit: 9a97682590d779c8b5f5b385efd912ee1f56ed31
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 3%
@@ -67,7 +67,7 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 1. _[!UICONTROL 대체 값 입력]_ 대화 상자에서 대체 값으로 나타나는 텍스트를 입력한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
-   ![토큰에 대한 대체 텍스트를 입력하십시오](./assets/sms-message-personalize-fallback-text.png){width="400"}
+   ![토큰에 대한 대체 텍스트를 입력하십시오](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. 개인화 토큰이 배치되면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장하고 기본 SMS 작성 작업 영역으로 돌아갑니다.
 
@@ -89,12 +89,12 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
    * **[!UICONTROL 추적 사용]** - 이 확인란을 선택하여 추적을 사용하도록 설정합니다. 이렇게 하려면 URL을 _단축_&#x200B;해야 합니다. 랜딩 페이지의 경우, 단축된 URL에 Marketo Engage 하위 도메인을 사용합니다. 단축된 URL 형식의 샘플이 표시됩니다. 실제 URL은 SMS가 수신자에게 전송될 때 만들어집니다.
 
-   * **[!UICONTROL mkt_tok 포함]** - 이 확인란을 선택하여 사용자에 대한 활동을 추적합니다.
+   * **[!UICONTROL mkt_tok 포함]** - 이 확인란을 선택하여 사용자에 대한 활동을 추적합니다.</br>
 
      >[!NOTE]
      >
      >추적을 허용하지만 _[!UICONTROL mkt_tok 포함]_&#x200B;을 사용하지 않도록 설정하는 경우 리디렉션 후 대상 URL에 `mkt_tok` 쿼리 문자열 매개 변수가 포함되지 않습니다. 이 매개 변수는 Marketo Engage 랜딩 페이지 및 Munchkin에서 개인 활동 추적을 보장하기 위해 사용합니다(예: 개인이 이메일에서 가입 해지하는 경우). 매개 변수로 인해 웹 사이트에서 문제가 발생하지 않는 한 이 옵션을 비활성화하지 마십시오.<br/>
-     >웹 사이트에서 Munchkin 추적 코드를 사용하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}를 참조하세요.
+     >웹 사이트에서 Munchkin 추적 코드를 사용하는 방법에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}를 참조하세요.
 
    ![SMS 메시지에 링크 대화 상자 추가](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -117,7 +117,7 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 1. 통신에 사용할 **[!UICONTROL 발신자 번호]**&#x200B;을(를) 입력하십시오.
 
-   ![SMS 메시지 속성](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![SMS 메시지 속성](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    받는 사람 번호는 항상 Experience Platform의 `profile.mobilePhone.number` 필드에 매핑됩니다.
 
