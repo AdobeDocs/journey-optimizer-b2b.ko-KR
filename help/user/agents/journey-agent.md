@@ -1,16 +1,16 @@
 ---
-title: B2B용 여정 빌드 에이전트
+title: 여정 빌드 에이전트 B2B
 description: AI 기반 여정 빌드 에이전트를 사용하여 강력한 여정을 빠르게 빌드하는 방법에 대해 알아봅니다
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# B2B용 여정 빌드 에이전트
+# 여정 빌드 에이전트 B2B
 
 여정 빌더 에이전트 B2B는 자동화 및 데이터 기반 추천을 통해 여정 디자인/생성, 실행 및 최적화를 지원하는 AI 에이전트입니다. B2B용 여정 빌더 에이전트는 새 B2B 여정 생성을 실행하는 데 걸리는 시간을 자동화하고 단축합니다.
 
