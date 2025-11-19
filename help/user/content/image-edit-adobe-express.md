@@ -4,9 +4,9 @@ description: Journey Optimizer B2B edition의 Adobe Express을 사용하여 기�
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '856'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 >title="Adobe Express에서 이미지 편집"
 >abstract="Adobe Journey Optimizer B2B Edition 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 속도를 높일 수 있습니다."
 
-Adobe Journey Optimizer B2B edition은 기본적으로 Adobe Express과 통합되므로 Adobe Express 이미지 편집 도구 세트에 액세스할 수 있습니다. 이러한 도구를 사용하여 Journey Optimizer B2B edition 에셋 저장소에 저장된 이미지를 수정할 수 있습니다. 통합은 다음과 같은 주요 이점을 제공합니다.
+[!DNL Adobe Journey Optimizer B2B Edition]은(는) 기본적으로 Adobe Express과 통합되어 있으므로 [!DNL Adobe Express] 이미지 편집 도구 집합에 액세스할 수 있습니다. 이러한 도구를 사용하여 [!DNL Journey Optimizer B2B Edition] 자산 저장소에 저장된 이미지를 수정할 수 있습니다. 통합은 다음과 같은 주요 이점을 제공합니다.
 
 * Journey Optimizer B2B edition에서 새 이미지 에셋을 편집하고 저장하여 콘텐츠 재사용을 개선했습니다.
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer B2B edition은 기본적으로 Adobe Express과 통합�
 >
 >Adobe Express 편집 기능에 대한 권한은 모든 Journey Optimizer B2B edition 구독에 포함됩니다.
 
-Adobe Express 함수는 PNG 및 JPEG 이미지 파일 형식을 지원합니다.
+[!DNL Adobe Express] 함수는 PNG 및 JPEG 이미지 파일 형식을 지원합니다.
 
 이미지를 수정하려면(_T):_
 
@@ -70,7 +70,7 @@ Adobe Express에 대한 Enterprise 라이선스가 있는 경우 Express 편집�
 
 ![Adobe Express 엔터프라이즈 편집기에서 이미지 열기](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/kr/express/web.html){target="_blank"}를 참조하세요.
+사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/express/web.html){target="_blank"}를 참조하세요.
 
 ## Adobe Express의 빠른 작업
 
