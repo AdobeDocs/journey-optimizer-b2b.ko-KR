@@ -4,7 +4,7 @@ description: 계정 및 사용자 작업에 대한 작업 노드 구성 - 이메
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++[!UICONTROL 데이터 값 변경]
 
-이 작업을 사용하여 [사람 프로필 특성](../data/field-mapping.md#xdm-business-person-attributes)의 값을 변경합니다. 속성을 선택한 다음 새 값을 설정합니다.
+이 작업을 사용하여 [사람 프로필 특성](../admin/field-mapping.md#xdm-business-person-attributes)의 값을 변경합니다. 속성을 선택한 다음 새 값을 설정합니다.
 
 ![작업 수행 - 데이터 값 변경](./assets/node-action-change-data-value.png){width="300"}
 
