@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 1. _[!UICONTROL 필드 특성 선택]_ 대화 상자에서 필드에 사용할 개인 프로필 특성에 대한 확인란을 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-   [XDM 비즈니스 스키마](../data/field-mapping.md#xdm-business-person-attributes)에서 사용 가능한 특성을 확인합니다.  Journey Optimizer B2B edition 인스턴스에 대해 정의된 모든 사용자 지정 필드도 사용할 수 있습니다. 검색 텍스트 상자를 사용하여 목록을 이름별로 필터링하거나 필터 아이콘을 클릭하여 목록을 스키마/데이터 유형별로 필터링합니다.
+   [XDM 비즈니스 스키마](../admin/field-mapping.md#xdm-business-person-attributes)에서 사용 가능한 특성을 확인합니다.  Journey Optimizer B2B edition 인스턴스에 대해 정의된 모든 사용자 지정 필드도 사용할 수 있습니다. 검색 텍스트 상자를 사용하여 목록을 이름별로 필터링하거나 필터 아이콘을 클릭하여 목록을 스키마/데이터 유형별로 필터링합니다.
 
    ![양식에 필드 구성 요소 추가](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
