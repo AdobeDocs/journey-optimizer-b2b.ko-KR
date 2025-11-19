@@ -4,9 +4,9 @@ description: 계정 및 사용자 작업에 대한 작업 노드 구성 - 이메
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1560'
 ht-degree: 2%
 
 ---
@@ -96,10 +96,13 @@ LinkedIn 대상에 대해 계정 일치 대상을 사용하는 방법에 대한 
 | | [!UICONTROL 구매 그룹에서 제거] | 솔루션 관심 분야 선택 |
 | | [!UICONTROL 전자 메일 보내기] | 새 전자 메일 만들기<br/>Marketo Engage에서 전자 메일 선택 |
 | | [!UICONTROL SMS 보내기] | SMS 만들기 |
-| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL 목록에 추가] | Marketo Engage 작업 공간<br/>목록 이름 선택 |
-| | [!UICONTROL Marketo Engage 요청 캠페인에 추가] | Marketo Engage 작업 공간 선택<br/>요청 캠페인 선택 |
-| | [!UICONTROL Marketo Engage에서 사람 파티션 변경] | 새 파티션 |
-| | [!UICONTROL 목록에서 제거] | Marketo Engage 작업 공간<br/>목록 이름 선택 |
+| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Marketo Engage 요청 캠페인에 추가] | Marketo Engage 작업 공간 선택<br/>요청 캠페인 선택 |
+| | [!UICONTROL Marketo 목록에 추가] | 외부 Marketo 연결 이름 <br/>목록 이름 선택 |
+| | [!UICONTROL Marketo 목록에서 제거] | 외부 Marketo 연결 이름 <br/>목록 이름 선택 |
+
+>[!NOTE]
+>
+>_[!UICONTROL Marketo Engage에서 사용자 파티션 변경]_ 작업은 2025.10 릴리스에서 더 이상 사용되지 않으며 Journey Optimizer B2B edition의 간소화된 아키텍처에서 사용할 수 없습니다.
 
 ### 사용자 기반 작업 추가
 
@@ -127,7 +130,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 ![작업 수행 - 외부 고객 대상에 추가](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-이 사람 기반 작업을 선택하면 새 외부 대상을 만들거나 기존 외부 대상에서 선택할 수 있습니다. 기존 대상의 경우 Journey Optimizer B2B edition에서만 만든 외부 고객 대상 중에서 선택할 수 있습니다. 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 Experience Platform 설명서에서 [새 대상 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} 및 [활성화 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}를 참조하십시오.
+이 사람 기반 작업을 선택하면 새 외부 대상을 만들거나 기존 외부 대상에서 선택할 수 있습니다. 기존 대상의 경우 Journey Optimizer B2B edition에서만 만든 외부 고객 대상 중에서 선택할 수 있습니다. 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 Experience Platform 설명서에서 [새 대상 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} 및 [활성화 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}를 참조하십시오.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [유료 미디어 오케스트레이션에 대한 비디오 개요 보기](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -179,7 +182,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++[!UICONTROL 점수 변경]
 
-이 작업을 사용하여 Marketo Engage에서 개인 점수를 변경합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+이 작업을 사용하여 Marketo Engage에서 개인 점수를 변경합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![동작 수행 - 점수 변경](./assets/node-action-change-score.png){width="300"}
 
@@ -203,7 +206,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++[!UICONTROL 전자 메일 보내기]
 
-이 작업을 사용하여 이메일을 보냅니다. 노드에 대해 [전자 메일을 만들고](../content/add-email.md#add-an-email-to-your-journey)한 후에는 전자 메일 디자인 공간에서 전자 메일 메시지를 디자인하고, 개인화하고, 미리 볼 수 있습니다([전자 메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
+이 작업을 사용하여 이메일을 보냅니다. 노드에 대해 [전자 메일을 만들고](../content/add-email.md#add-an-email-to-your-journey)한 후에는 전자 메일 디자인 공간에서 전자 메일 메시지를 디자인하고, 개인화하고, 미리 볼 수 있습니다([전자 메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
 
 ![작업 수행 - 전자 메일 보내기](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -219,46 +222,44 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 ### Marketo Engage 작업
 
-Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의 계정 기반 마케팅 오케스트레이션과 Marketo Engage에서의 리드 기반 마케팅 노력을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십, 사용자 파티션 및 캠페인 요청을 조정합니다.
+Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의 계정 기반 마케팅 오케스트레이션과 Marketo Engage에서의 리드 기반 마케팅 노력을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십을 오케스트레이션하고 캠페인을 요청합니다.
 
-+++[!UICONTROL 목록에 추가]
+>[!NOTE]
+>
+>Marketo Engage 작업을 수행하려면 하나 이상의 외부 Marketo Engage 인스턴스와 구성된 통합이 필요합니다. <!-- For detailed information about configuring these connections, see #. -->
 
-이 동작을 사용하여 Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에 사용자를 추가하십시오.
+예를 들어 Journey Optimizer B2B edition의 구매 그룹에 속하는 사람에 대해 Marketo Engage의 캠페인을 억제하려고 할 수 있습니다. 이 경우 솔루션 관심분야에 특히 적합한 정적 목록을 Marketo Engage에서 만들 수 있습니다. 그런 다음 구매 그룹을 통한 분할 경로에서 여정 노드에서 _Marketo 목록에 추가_ 작업을 사용합니다. 이렇게 하면 연결된 Marketo Engage 인스턴스의 특정 정적 목록에 구매 그룹 구성원이 추가됩니다. 그런 다음 Marketo Engage의 스마트 목록 필터에 대해 솔루션 관심 집중 정적 목록 을 사용하십시오.
 
-먼저 연결된 Marketo Engage 인스턴스에서 작업 영역을 선택합니다. 그런 다음 목록 이름을 선택합니다.
++++[!UICONTROL Marketo Engage 요청 캠페인에 추가]
 
-![작업 수행 - 목록에 추가](./assets/node-action-add-to-list-options.png){width="300"}
+이 작업을 사용하여 Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하십시오.
 
-+++
+먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 요청 캠페인 이름을 선택합니다.
 
-+++[!UICONTROL Marketo 요청 캠페인에 추가]
-
-이 작업을 사용하여 Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하십시오.
-
-먼저 연결된 Marketo Engage 인스턴스에서 작업 영역을 선택합니다. 그런 다음 요청 캠페인 이름을 선택합니다.
-
-![작업 수행 - Marketo 요청 캠페인에 추가](./assets/node-action-add-to-request-campaign-options.png){width="300"}
+![작업 수행 - Marketo Engage 요청 캠페인에 추가](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL Marketo Engage에서 사람 파티션 변경]
++++[!UICONTROL Marketo 목록에 추가]
 
-이 작업을 사용하여 Marketo Engage에서 [개인 파티션](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"}을(를) 변경할 수 있습니다.
+이 동작을 사용하여 Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에 사용자를 추가하십시오.
 
-![동작 수행 - Marketo Engage에서 사용자 파티션 변경](./assets/node-action-change-people-partition-options.png){width="300"}
+먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 목록 이름을 선택합니다.
+
+![작업 수행 - Marketo 목록에 추가](./assets/node-action-add-to-list-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL 목록에서 제거]
++++[!UICONTROL Marketo 목록에서 제거]
 
-Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에서 사용자를 제거하려면 이 작업을 사용하십시오. 먼저 연결된 Marketo Engage 인스턴스에서 작업 영역을 선택합니다. 그런 다음 목록 이름을 선택합니다.
+Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에서 사용자를 제거하려면 이 작업을 사용하십시오.
 
-![작업 수행 - 목록에서 제거](./assets/node-action-remove-from-list-options.png){width="300"}
+먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 목록 이름을 선택합니다.
 
-개인 프로필이 스마트 목록의 멤버가 아닌 경우 작업이 무시됩니다.
+![작업 수행 - Marketo 목록에서 제거](./assets/node-action-remove-from-list-options.png){width="300"}
 
 +++
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443252/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
