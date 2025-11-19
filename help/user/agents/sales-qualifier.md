@@ -3,9 +3,9 @@ title: 영업 구분자
 description: Sales Qualifier 를 통해 B2B 잠재 고객 검증 및 지원 서비스를 자동화합니다. AI 기반의 연구, 이메일 초안 작성, CRM 통합 및 BDR을 위한 참여 계획을 제공합니다.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1376'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ Sales Qualifier는 Account Qualification Agent이 포함된 Adobe Journey Optimi
 
 Sales Qualifier는 Journey Optimizer B2B edition에 포함되어 있지만 Experience Platform Experience Cloud 내에 있는 별도의 앱입니다.
 
-![판매 한정자 홈 페이지](assets/home-screen.png)
+![Enterprise B2B에 대한 BDR 잠재 고객 자격 및 지원 자동화](assets/home-screen.png)
 
 ## Account Qualification 에이전트
 
 AQA( Account Qualification Agent )는 Sales Qualifier 의 핵심입니다. AQA는 AI를 사용하여 계정을 읽고 다음 단계를 위해 준비된 계정을 결정합니다. 리서치, 이메일 초안 작성 및 CRM 업데이트를 지원합니다.
 
-![Account Qualification Agent](assets/acc-qualification-agent.png)
+영업 잠재 고객 및 계정 조사를 위한 ![AI 기반 Account Qualification Agent 대시보드](assets/acc-qualification-agent.png)
 
 * **잠재 고객 조사**
 
@@ -68,7 +68,7 @@ Adobe AI 에이전트는 _자연어 쿼리_&#x200B;를 사용합니다. 즉, 사
 
 이 창에는 액세스 권한이 있는 모든 가망 고객이 나열됩니다. 잠재 고객 상태 및 마지막 활동과 같은 항목을 빠르게 확인합니다.
 
-![잠재 고객 테이블에서 모든 잠재 고객 보기](assets/prospects.png)
+![잠재 고객 관리에 대한 잠재 고객 상태 및 마지막 활동을 표시하는 잠재 고객 테이블](assets/prospects.png)
 
 _필터_ ![필터 아이콘](../../assets/do-not-localize/icon_filter-outline.svg) 아이콘을 클릭하여 표시된 목록을 잠재 고객 상태별로 필터링합니다.
 
@@ -76,7 +76,7 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon_filter-outline.sv
 
 이 창은 정의된 계약 계획에 대한 세부 정보를 제공합니다.
 
-![참여 계획](assets/engagement-plans.png)
+![계획 세부 정보, 선택한 리드 및 일정 설정을 표시하는 참여 계획 대시보드](assets/engagement-plans.png)
 
 새 참여 계획을 만들려면 **[!UICONTROL 참여 계획 만들기]**&#x200B;를 클릭하세요.
 
@@ -97,7 +97,7 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon_filter-outline.sv
 
 이 패널에는 모든 채팅 스레드가 표시됩니다.
 
-![채팅 받은 편지함](assets/chat-inbox.png)
+![판매 자동화를 위한 연락처 및 스레드 요약이 있는 채팅 스레드를 표시하는 패널](assets/chat-inbox.png)
 
 클라이언트와 상호 작용하고 연락처 및 스레드에 대한 요약을 확인하여 스레드의 위치를 빠르게 알 수 있습니다.
 
@@ -106,15 +106,15 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon_filter-outline.sv
 통합을 통해 Sales Qualifier 는 CRM 및 기타 데이터 소스를 활용하여 고객 프로필을 보강하고 영업 활동을 수행할 수 있습니다.
 
 * 이메일 받은 편지함과 통합하여 관련 수신 이메일을 추적하고 답글을 생성합니다.
-* Salesforce 또는 Microsoft® Dynamics, ZoomInfo 또는 Buildwidth와 같은 CRM 데이터를 읽고 업데이트합니다.
+* Salesforce 또는 Microsoft® Dynamics, ZoomInfo 또는 BuiltWith와 같은 CRM 데이터를 읽고 업데이트합니다.
 
-![영업 한정자 Outlook 통합](assets/outlook.png)
+![전자 메일 및 연락처 요약을 표시하는 Microsoft Outlook과 영업 한정자 통합](assets/outlook.png)
 
 ### 새 통합 설정
 
 새 통합을 시작하려면 오른쪽 상단의 **[!UICONTROL 통합 만들기]**&#x200B;를 클릭하십시오.
 
-![통합 세부 정보](assets/integration-details.png)
+![URL, HTTP 메서드, 헤더 및 인증 옵션을 표시하는 통합 설정 양식](assets/integration-details.png)
 
 통합의 URL을 정의하고 전송할 페이로드를 설정합니다.
 
@@ -165,13 +165,13 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon_filter-outline.sv
 
 **[!UICONTROL 세부 정보]** 탭에서 사용자에 대한 정보를 입력할 수 있습니다.
 
-![판매 한정자 세부 정보 설정](assets/details.png)
+![대리인에 대한 개인 정보, 전자 메일 및 채팅 사용 가능 설정을 표시하는 세부 정보 탭](assets/details.png)
 
 ### 이메일 설정
 
 **[!UICONTROL 전자 메일 설정]** 탭에서 전자 메일 연결을 설정합니다.
 
-![전자 메일 설정](assets/email-settings.png)
+![전자 메일 연결 옵션 및 전자 메일 서명 구성을 표시하는 전자 메일 설정 탭](assets/email-settings.png)
 
 * **[!UICONTROL 전자 메일 연결]** - **[!UICONTROL 연결]**&#x200B;을 클릭하고 Microsoft 로그인 절차를 따릅니다.
 
@@ -181,7 +181,7 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon_filter-outline.sv
 
 **[!UICONTROL 일정 설정]** 탭에서 표준 시간대 및 사용 가능 여부를 설정합니다.
 
-![일정 설정](assets/calendar-settings.png)
+![표준 시간대 및 사용 가능 옵션을 표시하는 일정 설정 탭](assets/calendar-settings.png)
 
 * **[!UICONTROL 일정 연결]** - **[!UICONTROL 연결]**&#x200B;을 클릭하고 Microsoft 로그인 절차에 따라 일정을 통합합니다.
 
@@ -193,7 +193,7 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon_filter-outline.sv
 
 **[!UICONTROL 채팅 설정]** 탭에서 표준 시간대 실시간 채팅 사용 가능 여부를 설정합니다.
 
-![채팅 설정](assets/chat-settings.png)
+![표준 시간대 및 실시간 채팅 사용 가능 여부를 구성하기 위한 채팅 설정 탭](assets/chat-settings.png)
 
 ## 대표 관리
 
@@ -223,4 +223,4 @@ AI Assistant Chrome 플러그인은 [Google 스토어](https://chromewebstore.go
 
 다음 비디오에서는 Sales Qualifier와 Account Qualification Agent에 대해 간략하게 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
