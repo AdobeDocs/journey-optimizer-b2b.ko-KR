@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
    + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
    + 상담원 {#ai-agents}
       + [Audience 에이전트](./agents/audience-agent-b2b.md)
-      + [여정 빌드 에이전트](./agents/journey-agent.md)
+      + [여정 빌드 에이전트 B2B](./agents/journey-agent.md)
       + [영업 구분자](./agents/sales-qualifier.md)
 + 계정 여정 {#account-journeys}
    + [개요](./journeys/journey-overview.md)
@@ -68,7 +68,6 @@ ht-degree: 96%
    + 계정 목록 {#account-lists}
       + [개요](./accounts/account-lists.md)
       + [여정 및 프로그램에서 사용](./accounts/account-lists-journeys.md)
-   + [XDM 필드](./data/field-mapping.md)
    + 판매 경험 {#sales-experience}
       + [계정 세부 정보](./accounts/account-details.md)
       + [구매 그룹 세부 정보](./buying-groups/buying-group-details.md)
@@ -128,8 +127,11 @@ ht-degree: 96%
    + [계정 여정 개요](./dashboards/journeys-dashboard.md)
 + 관리 {#admin}
    + [거버넌스](./admin/governance.md)
+   + [Marketo 작업 구성](./admin/marketo-actions-connect.md)
    + [페르소나 매핑](./admin/persona-mapping.md)
    + [사용자 관리](./admin/user-management.md)
+   + [XDM 필드](./admin/field-mapping.md)
+   + [XDM 필드 선택](admin/xdm-field-management.md)
    + 채널 {#channels}
       + [이메일 구성](./admin/configure-channels-emails.md)
       + [SMS 구성](./admin/configure-channels-sms.md)
