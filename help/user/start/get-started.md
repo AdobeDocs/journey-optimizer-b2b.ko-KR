@@ -5,9 +5,9 @@ role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '716'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Journey Optimizer B2B Edition에서 다루고자 하는 기능과 도구�
 
 1. **계정 여정 설계를 통해 개인화된 상황별 경험 제공**. Journey Optimizer B2B Edition을 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. 다음 기능을 통해 여러 단계로 구성된 고급 시나리오를 설계할 수 있습니다.
 
-   * 이벤트 수신 시 트리거되는 실시간 단일 게재를 보내거나 Adobe Experience Platform 대상자를 사용하여 일괄적으로 게재를 보냅니다.
+   * 이벤트 수신 시 트리거되는 실시간 단일 게재를 보내거나, Adobe Experience Platform 대상자를 사용하여 배치로 게재를 보냅니다.
 
    * 이벤트의 컨텍스트 기반 데이터, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 사용합니다.
 
