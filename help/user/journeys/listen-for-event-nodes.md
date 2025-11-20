@@ -4,9 +4,9 @@ description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1810'
 ht-degree: 4%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 1. **[!UICONTROL 이벤트 편집]**&#x200B;을 클릭하고 일치시킬 하나 이상의 웹 페이지와 이벤트에 대한 추가 제약 조건을 정의합니다.
 
-   * (필수) _[!UICONTROL 이벤트 편집]_ 대화 상자에서 **[!UICONTROL 웹 페이지]**&#x200B;를 정의하거나 **[!UICONTROL 양식을 작성]** 제약 조건을 입력하십시오. 하나 이상의 선택한 페이지 또는 양식에서 일치시키려면 **[!UICONTROL is]**(기본값)을 사용합니다. **[!UICONTROL 은(는) 하나 이상의 선택한 페이지/양식을 제외한 모든 페이지 방문/양식에서 일치시키려면]**&#x200B;이(가) 아닙니다. 또는 Marketo Engage 웹 페이지 방문 또는 채워진 양식에서 일치시키려면 **[!UICONTROL is any]**&#x200B;을(를) 사용하십시오.
+   * (필수) _[!UICONTROL 이벤트 편집]_ 대화 상자에서 **[!UICONTROL 웹 페이지]**&#x200B;를 정의하거나 **[!UICONTROL 양식을 작성]** 제약 조건을 입력하십시오. 하나 이상의 선택한 페이지 또는 양식에서 일치시키려면 **[!UICONTROL is]**(기본값)을 사용합니다. **[!UICONTROL 은(는) 하나 이상의 선택한 페이지/양식을 제외한 모든 페이지 방문/양식에서 일치시키려면]**&#x200B;이(가) 아닙니다. 또는 **[!UICONTROL is any]** 연산자를 사용하여 모든 Marketo Engage 웹 페이지 방문 또는 채워진 양식에서 일치시킵니다.
 
    * (선택 사항) **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 제약 조건에 사용할 필드를 선택합니다. 연산자 및 필드 값을 설정합니다.
 
@@ -135,13 +135,14 @@ ht-degree: 4%
 
 ### 경험 이벤트 수신
 
-관리자는 Adobe Experience Platform(AEP) 기반 이벤트 정의를 구성할 수 있으며, 이를 통해 마케터는 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}에 반응하는 계정 여정을 만들 수 있습니다. 계정 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
 
-1. [AEP 이벤트 정의를 만들고 게시](../admin/configure-aep-events.md).
+1. 관리자 [관심 있는 이벤트 유형 및 필드를 선택하여](../admin/configure-aep-events.md#select-an-event)여정에서 사용할 수 있도록 합니다.
 
-2. 계정 여정에서 _이벤트 수신_ 노드를 추가하고 사용자 기반 이벤트에 대한 Experience Platform 이벤트 정의를 선택합니다.
+2. 여정에서 _이벤트 수신_ 노드를 추가하고 사용자 기반 이벤트에 대한 Experience Platform 이벤트 유형을 선택합니다.
 
-![비디오](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [비디오 개요 보기](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 여정에 경험 이벤트를 포함하려면(_T):_
 
@@ -159,21 +160,21 @@ ht-degree: 4%
 
    ![이벤트 편집](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. **[!UICONTROL 이벤트 편집]**&#x200B;을 클릭하고 이벤트 유형과 이벤트에 대한 추가 제약 조건을 정의합니다.
+1. **[!UICONTROL 이벤트 편집]**&#x200B;을 클릭하고 이벤트에 대한 제약 조건을 하나 이상 정의합니다.
 
-   * (필수) _[!UICONTROL 이벤트 편집]_ 대화 상자에서 이벤트 유형을 정의합니다. 기본 **[!UICONTROL is]** 연산자를 사용하여 하나 이상의 선택한 이벤트 유형을 일치시킬 수 있습니다. 또는 **[!UICONTROL is not]** 연산자를 사용하여 하나 이상의 선택한 이벤트 유형을 제외한 모든 이벤트 유형을 일치시킬 수 있습니다.
+   사용 가능한 제약 조건은 이벤트 구성에 대한 관리 필드로 정의됩니다.
 
-   * (선택 사항) **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 제약 조건에 사용할 필드를 선택합니다. 연산자 및 필드 값을 설정합니다.
+   * **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 제약 조건에 사용할 필드를 선택합니다.
+
+   * 제약조건에 대한 조건을 완료합니다.
+
+     기본 **[!UICONTROL is]** 연산자를 사용하여 하나 이상의 필드 값을 일치시킬 수 있습니다. 또는 **[!UICONTROL is not]** 연산자를 사용하여 하나 이상의 지정된 값을 제외한 모든 값을 일치시킬 수 있습니다.
 
      ![경험 이벤트 수신](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >_활동 날짜_ 및 _최소 횟수_&#x200B;에 대한 제약 조건은 지원되지 않습니다.
-
-     이 작업을 반복하여 필요에 따라 추가 필드 제약 조건을 포함할 수 있습니다.
-
    * 필요한 경우 **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#add-a-filter-to-the-people-event)합니다.
+
+   * (선택 사항) **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 필요에 따라 추가 필드 제약 조건을 포함하도록 이 단계를 반복합니다.
 
    * 제약 조건 및 필터를 정의하면 **[!UICONTROL 완료]**&#x200B;를 클릭하십시오.
 
@@ -219,6 +220,6 @@ ht-degree: 4%
 
    ![여정 이벤트 노드 - 시간 제한 경로 설정](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## 개요 비디오
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

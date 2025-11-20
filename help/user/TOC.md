@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '365'
+ht-degree: 91%
 
 ---
 
@@ -130,8 +130,10 @@ ht-degree: 93%
    + [Marketo 작업 구성](./admin/marketo-actions-connect.md)
    + [페르소나 매핑](./admin/persona-mapping.md)
    + [사용자 관리](./admin/user-management.md)
-   + [XDM 필드](./admin/field-mapping.md)
-   + [XDM 필드 선택](admin/xdm-field-management.md)
+   + XDM 필드 관리 {#xdm-field-management}
+      + [XDM 클래스](admin/xdm-field-management.md)
+      + [경험 이벤트 및 필드](./admin/configure-aep-events.md)
+      + [기본 XDM 필드](./admin/field-mapping.md)
    + 채널 {#channels}
       + [이메일 구성](./admin/configure-channels-emails.md)
       + [SMS 구성](./admin/configure-channels-sms.md)
@@ -139,7 +141,6 @@ ht-degree: 93%
       + [이벤트 수집을 위한 데이터스트림 구성](./data/aep-event-collection.md)
    + 구성 {#configurations}
       + [AEM Assets 저장소](./admin/configure-aem-repositories.md)
-      + [AEP 이벤트 정의](./admin/configure-aep-events.md)
       + [의도 데이터](./admin/intent-data.md)
       + [참여 점수 가중치](./admin/engagement-score-weighting.md)
    + [간소화된 아키텍처 설정](simplified-architecture.md)

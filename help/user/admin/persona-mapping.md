@@ -3,9 +3,9 @@ title: 사용자 매핑
 description: B2B 마케팅을 위한 페르소나 매핑을 설정하는 방법을 알아봅니다. Journey Optimizer B2B edition의 개인 속성을 매핑하여 역할 템플릿을 만들고 구매 그룹 타깃팅을 최적화합니다.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -39,13 +39,13 @@ Then based on what agent informed, users can create a template with those person
 
 1. 중간 패널에서 **[!UICONTROL 담당자 매핑]**&#x200B;을 클릭하여 담당자 목록을 표시합니다.
 
-   ![구성된 가상 사용자에 액세스](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![구성된 가상 사용자에 액세스](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   이 페이지에서 [만들기](#create-an-engagement-score-model), [편집](#change-the-engagement-weighting-settings) 또는 [삭제](#delete-a-persona)할 수 있습니다.
+   이 페이지에서 [만들기](#create-a-persona), [편집](#edit-a-persona) 또는 [삭제](#delete-a-persona)할 수 있습니다.
 
-   사용자 매핑 목록입니다. 은(는) 표로 구성되며 맨 위에 가장 최근에 업데이트된 가상 사용자를 표시합니다(_[!UICONTROL 마지막 업데이트]_&#x200B;별로 정렬됨). 오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하고 열 확인란을 선택하거나 선택을 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
+   사용자 매핑 목록은 표로 구성되며 맨 위에 가장 최근에 업데이트된 사용자를 표시합니다(_[!UICONTROL 마지막 업데이트]_&#x200B;별로 정렬). 오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하고 열 확인란을 선택하거나 선택을 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
 
-![사용자 매핑 목록에 표시할 열](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![사용자 매핑 목록에 표시할 열](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. 담당자의 세부 정보에 액세스하려면 이름을 클릭합니다.
 
@@ -68,13 +68,9 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 
 ### 목록 필터링
 
-원하는 담당자를 찾으려면 검색 및 필터 도구를 사용합니다.
+원하는 담당자를 찾으려면 이름별로 담당자를 일치시킬 텍스트 문자열을 검색 막대에 입력합니다.
 
-* 이름별로 성향을 일치시키려면 검색 창에 텍스트 문자열을 입력합니다.
-
-  ![표시된 이벤트 정의를 필터링합니다](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* 표시된 목록을 특성별로 필터링하려면 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하십시오.
+![표시된 성향 매핑을 필터링합니다](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## 사용자 만들기
 
@@ -86,6 +82,8 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 
 1. 담당자의 고유한 **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**(선택 사항)을 입력하십시오.
 
+   ![사용자 매핑 만들기](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. 성향 일치에 사용할 특성을 선택합니다.
 
    * **[!UICONTROL 사용자 특성 선택]**&#x200B;을 클릭합니다.
@@ -96,6 +94,8 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 
      이름별로 속성 목록을 필터링하려면 검색 막대에 텍스트 문자열을 입력합니다. 왼쪽 상단의 _필터_( ![필터 아이콘](../assets/do-not-localize/icon-filter.svg)) 아이콘을 클릭하여 표시된 목록을 유형, _표준_ 또는 _사용자 지정_&#x200B;별로 필터링할 수도 있습니다.
 
+     ![사용자 특성 선택 대화 상자](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
      선택한 특성은 _[!UICONTROL 사용자 특성]_ 섹션에 채워집니다.
@@ -104,11 +104,13 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 
    값 대신 일치 항목을 식별하는 데 사용할 수 있는 프롬프트를 추가할 수도 있습니다. 예를 들어 다음을 입력할 수 있습니다.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 제출을 클릭합니다]**.
 
 ## 사용자 편집
 
 사용자 이름을 클릭하여 사용자에 대한 세부 정보에 액세스하고 편집합니다.
+
+이름 또는 설명을 변경하거나, 속성을 추가하거나, 속성 값을 업데이트할 수 있습니다. 변경 사항이 완료되면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
 ## 사용자 삭제
 
