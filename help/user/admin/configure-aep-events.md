@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 경험 이벤트 및 필드 선택
 
-관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
+관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.

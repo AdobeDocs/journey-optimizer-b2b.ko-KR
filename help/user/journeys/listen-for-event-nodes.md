@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 경험 이벤트 수신
 
-관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. 관리자 [관심 있는 이벤트 유형 및 필드를 선택하여](../admin/configure-aep-events.md#select-an-event)여정에서 사용할 수 있도록 합니다.
 

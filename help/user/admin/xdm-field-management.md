@@ -23,7 +23,7 @@ Adobe Experience Platform(AEP) 스키마에는 일반적으로 복잡한 계층�
 XDM을 이해하고 데이터 엔지니어 또는 B2B 고객 데이터 플랫폼(CDP) 데이터 모델링 이해 당사자와 공동 작업하는 관리자는 이 페이지의 절차를 사용해야 합니다.
 
 >[!NOTE]
->[관계형 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)는 [!DNL Journey Optimizer B2B Edition]에서 제한된 릴리스로 사용할 수 있습니다. Journey Optimizer Orchestrated campaigns 라이선스 소유자는 Data Mirror 및 관계형 스키마를 사용할 수 있습니다. 라이선스 및 기능 활성화에 따라 Customer Journey Analytics 사용자를 위한 제한된 릴리스로도 관계형 스키마를 사용할 수 있습니다. 액세스하려면 Adobe 담당자에게 문의하십시오.
+>[관계형 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational#)는 [!DNL Journey Optimizer B2B Edition]에서 제한된 릴리스로 사용할 수 있습니다. Journey Optimizer Orchestrated campaigns 라이선스 소유자는 Data Mirror 및 관계형 스키마를 사용할 수 있습니다. 라이선스 및 기능 활성화에 따라 Customer Journey Analytics 사용자를 위한 제한된 릴리스로도 관계형 스키마를 사용할 수 있습니다. 액세스하려면 Adobe 담당자에게 문의하십시오.
 
 ## XDM 클래스 액세스
 
