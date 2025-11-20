@@ -127,4 +127,4 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448690/?captions=kor&learn=on) -->
