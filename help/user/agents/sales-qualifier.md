@@ -223,4 +223,4 @@ AI Assistant Chrome 플러그인은 [Google 스토어](https://chromewebstore.go
 
 다음 비디오에서는 Sales Qualifier와 Account Qualification Agent에 대해 간략하게 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
