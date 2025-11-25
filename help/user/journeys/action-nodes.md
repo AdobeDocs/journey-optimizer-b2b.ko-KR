@@ -4,9 +4,9 @@ description: 계정 및 사용자 작업에 대한 작업 노드 구성 - 이메
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 3013da8c7178c68ec07bf8d8b56f4ca06c043486
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1674'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 2%
 
 | 액션 | 제한 |
 | ------ | ----------- |
-| [!UICONTROL 계정 변경 데이터 값] | 특성 <br/>새 값 선택 |
 | [!UICONTROL 관심 있는 계정] | 유형(전자 메일, 마일스톤 또는 웹)<br/>설명(선택 사항) |
 | [!UICONTROL 대상에 활성화] | 대상 선택 |
 | [!UICONTROL 여정에 계정 추가] | 라이브 계정 여정 선택 |
@@ -33,8 +32,15 @@ ht-degree: 2%
 | [!UICONTROL 여정에서 계정 제거] | 라이브 계정 여정 선택 |
 | [!UICONTROL 계정 목록에서 제거] | 라이브 정적 계정 목록 선택 |
 | [!UICONTROL 판매 알림 보내기] | 솔루션 관심 항목 선택<br/>전자 메일 보내기 |
+| [!UICONTROL 계정 프로필 업데이트] | 특성 <br/>새 값 선택 |
 | [!UICONTROL 구매 그룹 단계 업데이트] | 솔루션 관심 분야 선택<br/>구매 그룹 단계 선택 |
 | [!UICONTROL 구매 그룹 상태 업데이트] | 솔루션 관심 항목 선택<br/>상태(필수, 최대 50자) |
+
+>[!NOTE]
+>
+>_[!UICONTROL 계정 변경 데이터 값]_ 작업은 2025.10 릴리스에서 더 이상 사용되지 않습니다. _[!UICONTROL 간소화된 아키텍처]_&#x200B;에 대한 [계정 프로필 업데이트](../simplified-architecture.md).<br/>(으)로 대체되었습니다.
+>
+>관리자는 _[!UICONTROL XDM 클래스]_ > _[!UICONTROL 표준 클래스]_&#x200B;의 필드를 업데이트하여 XDM 비즈니스 계정에 사용할 수 있는 특성을 구성할 수 있습니다. 자세한 내용은 [표준 클래스](../admin/xdm-field-management.md#standard-classes)를 참조하세요.
 
 ### 계정 기반 작업 추가
 
@@ -90,19 +96,21 @@ LinkedIn 대상에 대해 계정 일치 대상을 사용하는 방법에 대한 
 | ------- | ------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 외부 고객 대상에 추가] | 외부 고객 대상자 선택 |
 | | [!UICONTROL 구매 그룹에 할당] | 솔루션 관심 항목 선택<br/>역할 선택 |
-| | [!UICONTROL 데이터 값 변경] | 사용자 특성 선택<br/>새 값 설정 |
 | | [!UICONTROL 점수 변경] | 점수 이름<br/>점수 변경 |
 | | [!UICONTROL 즐거운 인물] | 유형<br/>설명 |
 | | [!UICONTROL 구매 그룹에서 제거] | 솔루션 관심 분야 선택 |
 | | [!UICONTROL 전자 메일 보내기] | 새 전자 메일 만들기<br/>Marketo Engage에서 전자 메일 선택 |
 | | [!UICONTROL SMS 보내기] | SMS 만들기 |
+| | [!UICONTROL 개인 프로필 업데이트] | 사용자 특성 선택<br/>새 값 설정 |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Marketo Engage 요청 캠페인에 추가] | Marketo Engage 작업 공간 선택<br/>요청 캠페인 선택 |
 | | [!UICONTROL Marketo 목록에 추가] | 외부 Marketo 연결 이름 <br/>목록 이름 선택 |
 | | [!UICONTROL Marketo 목록에서 제거] | 외부 Marketo 연결 이름 <br/>목록 이름 선택 |
 
 >[!NOTE]
 >
->_[!UICONTROL Marketo Engage에서 사용자 파티션 변경]_ 작업은 2025.10 릴리스에서 더 이상 사용되지 않으며 Journey Optimizer B2B edition의 간소화된 아키텍처에서 사용할 수 없습니다.
+>_[!UICONTROL Marketo Engage에서 사용자 파티션 변경]_ 작업은 2025.10 릴리스에서 더 이상 사용되지 않으며 Journey Optimizer B2B edition의 [간소화된 아키텍처](../simplified-architecture.md)에서 사용할 수 없습니다.<br/>
+>
+>_[!UICONTROL 데이터 값 변경]_ 작업은 2025.10 릴리스에서 더 이상 사용되지 않습니다. 간소화된 아키텍처에서 _[!UICONTROL 개인 프로필 업데이트]_(으)로 대체되었습니다.
 
 ### 사용자 기반 작업 추가
 
@@ -130,7 +138,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 ![작업 수행 - 외부 고객 대상에 추가](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-이 사람 기반 작업을 선택하면 새 외부 대상을 만들거나 기존 외부 대상에서 선택할 수 있습니다. 기존 대상의 경우 Journey Optimizer B2B edition에서만 만든 외부 고객 대상 중에서 선택할 수 있습니다. 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 Experience Platform 설명서에서 [새 대상 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} 및 [활성화 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}를 참조하십시오.
+이 사람 기반 작업을 선택하면 새 외부 대상을 만들거나 기존 외부 대상에서 선택할 수 있습니다. 기존 대상의 경우 Journey Optimizer B2B edition에서만 만든 외부 고객 대상 중에서 선택할 수 있습니다. 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 Experience Platform 설명서에서 [새 대상 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} 및 [활성화 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}를 참조하십시오.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [유료 미디어 오케스트레이션에 대한 비디오 개요 보기](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -172,17 +180,9 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++
 
-+++[!UICONTROL 데이터 값 변경]
-
-이 작업을 사용하여 [사람 프로필 특성](../admin/field-mapping.md#xdm-business-person-attributes)의 값을 변경합니다. 속성을 선택한 다음 새 값을 설정합니다.
-
-![작업 수행 - 데이터 값 변경](./assets/node-action-change-data-value.png){width="300"}
-
-+++
-
 +++[!UICONTROL 점수 변경]
 
-이 작업을 사용하여 Marketo Engage에서 개인 점수를 변경합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+이 작업을 사용하여 Marketo Engage에서 개인 점수를 변경합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![동작 수행 - 점수 변경](./assets/node-action-change-score.png){width="300"}
 
@@ -206,7 +206,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++[!UICONTROL 전자 메일 보내기]
 
-이 작업을 사용하여 이메일을 보냅니다. 노드에 대해 [전자 메일을 만들고](../content/add-email.md#add-an-email-to-your-journey)한 후에는 전자 메일 디자인 공간에서 전자 메일 메시지를 디자인하고, 개인화하고, 미리 볼 수 있습니다([전자 메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
+이 작업을 사용하여 이메일을 보냅니다. 노드에 대해 [전자 메일을 만들고](../content/add-email.md#add-an-email-to-your-journey)한 후에는 전자 메일 디자인 공간에서 전자 메일 메시지를 디자인하고, 개인화하고, 미리 볼 수 있습니다([전자 메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
 
 ![작업 수행 - 전자 메일 보내기](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -217,6 +217,20 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 이 작업을 사용하여 SMS 메시지를 보냅니다. 시각적 디자인 공간에서 SMS 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다([SMS 작성](../content/sms-authoring.md) 참조).
 
 ![작업 수행 - SMS 보내기](./assets/node-action-send-sms.png){width="300"}
+
++++
+
++++[!UICONTROL 개인 프로필 업데이트]
+
+이 작업을 사용하여 [사람 프로필 특성](../admin/field-mapping.md#xdm-business-person-attributes)의 값을 변경합니다. 속성을 선택한 다음 새 값을 설정합니다.
+
+![동작 수행 - 사용자 프로필 업데이트](./assets/node-action-update-person-profile.png){width="300"}
+
+>[!NOTE]
+>
+>_[!UICONTROL 사용자 프로필 업데이트]_&#x200B;가 _[!UICONTROL 간소화된 아키텍처]_&#x200B;에서 [데이터 값 변경](../simplified-architecture.md) 작업을 대체합니다.<br/>
+>
+>관리자는 _[!UICONTROL XDM 클래스]_ > [!UICONTROL 표준 클래스]의 필드를 업데이트하여 XDM 개별 프로필에 사용할 수 있는 특성을 구성할 수 있습니다. 자세한 내용은 [표준 클래스](../admin/xdm-field-management.md#standard-classes)를 참조하세요.
 
 +++
 
@@ -232,7 +246,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo Engage 요청 캠페인에 추가]
 
-이 작업을 사용하여 Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하십시오.
+이 작업을 사용하여 Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 요청 캠페인 이름을 선택합니다.
 
@@ -242,7 +256,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo 목록에 추가]
 
-이 동작을 사용하여 Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에 사용자를 추가하십시오.
+이 동작을 사용하여 Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에 사용자를 추가하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 목록 이름을 선택합니다.
 
@@ -252,7 +266,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo 목록에서 제거]
 
-Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에서 사용자를 제거하려면 이 작업을 사용하십시오.
+Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에서 사용자를 제거하려면 이 작업을 사용하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 목록 이름을 선택합니다.
 
@@ -262,4 +276,4 @@ Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/mar
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443252/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
