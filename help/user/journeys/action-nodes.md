@@ -281,4 +281,4 @@ Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/mar
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443252/?captions=kor&learn=on)
