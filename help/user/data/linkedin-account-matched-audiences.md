@@ -4,20 +4,20 @@ description: LinkedIn 계정을 연결하고 계정 구성원의 데이터 흐�
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 1cc50d33e396e490f401330688e5d322270090e3
+source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 13%
+source-wordcount: '995'
+ht-degree: 12%
 
 ---
 
-# LinkedIn 계정 일치 대상자
+# LinkedIn 계정 일치 대상
 
-Journey Optimizer B2B edition은 Account Matched Audiences를 통해 LinkedIn 광고 대상을 생성하는 기능을 제공하며, 구매 그룹에서 빈 역할을 채울 수 있도록 설계되었습니다. 구매 그룹 필터 세트를 정의하여 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. _작업 수행_ 노드의 계정 여정에서 대상을 활성화할 수도 있습니다.
+[!DNL Journey Optimizer B2B Edition]은(는) Account Matched Audiences를 통해 LinkedIn 광고 대상을 생성하는 기능을 제공하며, 구매 그룹에서 빈 역할을 채우는 데 도움이 되도록 설계되었습니다. 구매 그룹 필터 세트를 정의하여 LinkedIn 일치 대상을 유지 관리하여 구매 그룹 매개 변수와 일치하는 잠재 고객을 타깃팅할 수 있습니다. _작업 수행_ 노드의 계정 여정에서 대상을 활성화할 수도 있습니다.
 
 이 기능은 Experience Platform 대상을 활용하여 통합의 일부 요소를 관리합니다. 데이터 흐름은 10개로 제한됩니다.
 
-Journey Optimizer B2B edition에서 데이터 흐름을 시작하려면 Experience Platform 애플리케이션에 LinkedIn Campaign Manager 계정이 구성된 [(회사) LinkedIn 일치하는 대상 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}의 인스턴스가 하나 이상 있어야 합니다.
+Journey Optimizer B2B edition에서 데이터 흐름을 시작하려면 Experience Platform 애플리케이션에 LinkedIn Campaign Manager 계정이 구성된 [(회사) LinkedIn 일치하는 대상 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}의 인스턴스가 하나 이상 있어야 합니다.
 
 ## 새 LinkedIn 계정 연결 구성 {#linkedin-destination-setup}
 
@@ -122,7 +122,17 @@ LinkedIn 계정의 이름 및 설명은 Journey Optimizer B2B edition의 구매 
 
 1. 여정 캔버스에서 _작업 수행_ 노드를 선택한 상태에서 **[!UICONTROL 계정에 대한 작업]**&#x200B;을(를) **[!UICONTROL 대상에 활성화]**(으)로 설정하십시오.
 
-1. **[!UICONTROL 대상 선택]**&#x200B;을 클릭합니다.
+   ![여정 노드 - 계정에 대해 동작 수행 - 대상에 활성화](./assets/node-activate-destination.png){width="550" zoomable="yes"}
+
+1. 오른쪽의 노드 속성에서 대상을 선택합니다.
+
+   * 대상을 하나 이상 만든 경우 **[!UICONTROL 대상 선택]**&#x200B;을 클릭하여 기존 대상을 선택할 수 있습니다.
+
+   * 기존 대상이 없거나 새 대상을 만들려면 **[!UICONTROL 대상 설정]**&#x200B;을 클릭합니다.
+
+     ![여정 노드 - 계정에 대해 작업 수행 - 대상에 활성화 - 대상을 설정](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
+
+     이 작업을 수행하면 새 브라우저 탭에서 대상 카탈로그 페이지가 열립니다.
 
    ![여정 노드 - 계정에 대해 동작 수행 - 대상에 활성화](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
@@ -138,4 +148,4 @@ LinkedIn 계정의 이름 및 설명은 Journey Optimizer B2B edition의 구매 
 
 LinkedIn 광고 대상과 같은 유료 미디어 채널을 통해 계정 구성원과 협력하여 고객을 확보하고, 육성하고, 영업 자격을 부여할 수 있습니다. 계정 여정에서 _작업 수행_ 노드를 사용하여 다른 계정 구성원에 가장 적합한 외부 채널을 통해 계정의 주요 구성원과 참여를 자동화합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448679/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
