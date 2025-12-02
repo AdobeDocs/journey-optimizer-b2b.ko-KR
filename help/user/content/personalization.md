@@ -54,7 +54,7 @@ _개인화 추가_( ![개인화 추가 아이콘](../../assets/do-not-localize/i
 
 >[!NOTE]
 >
->개인화 편집기에 대한 다음 정보는 [!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에 제공된 ](../simplified-architecture.md) 환경에서 사용할 수 있는 변경 사항을 반영합니다.
+>개인화 편집기에 대한 다음 정보는 [!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에 제공된 &#x200B;](../simplified-architecture.md) 환경에서 사용할 수 있는 변경 사항을 반영합니다.
 
 ### 토큰 및 도우미 함수
 
@@ -78,7 +78,7 @@ _개인화 추가_( ![개인화 추가 아이콘](../../assets/do-not-localize/i
 
 ### 사용자 지정 데이터 세트
 
-전자 메일 개인화에 관계형 스키마(모델 기반 클래스)를 사용할 수 있습니다. 사용자 지정 개체는 _관계형 스키마_ 내에 정의되어 있으며 제품 관리자는 [에서 ](../admin/xdm-field-management.md#relational-schemas)관계형 스키마 필드를 구성[!DNL Journey Optimizer B2B Edition]할 수 있습니다. 이러한 필드는 개인화 편집기에서 액세스할 수 있습니다. :M 계정에 일대다(1<!-- (M1.5 Beta) or Person (M1.5 GA) -->) 관계가 있는 사용자 지정 개체만 사용할 수 있습니다.
+전자 메일 개인화에 관계형 스키마(모델 기반 클래스)를 사용할 수 있습니다. 사용자 지정 개체는 _관계형 스키마_ 내에 정의되어 있으며 제품 관리자는 [에서 &#x200B;](../admin/xdm-field-management.md#relational-schemas)관계형 스키마 필드를 구성[!DNL Journey Optimizer B2B Edition]할 수 있습니다. 이러한 필드는 개인화 편집기에서 액세스할 수 있습니다. :M 계정에 일대다(1<!-- (M1.5 Beta) or Person (M1.5 GA) -->) 관계가 있는 사용자 지정 개체만 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
