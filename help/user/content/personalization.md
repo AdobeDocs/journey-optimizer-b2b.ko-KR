@@ -42,7 +42,7 @@ _개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 
 
 >[!NOTE]
 >
->[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
+>[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
 
 ## Personalization 편집기
 
@@ -96,7 +96,7 @@ This playground provides a simulated environment to write and test personalizati
 
 ![personalization playground](assets/playground.png)
 
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"} 
+➡️ [Access the personalization playground](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"} 
 
 ## How-to videos{#video-perso}
 
