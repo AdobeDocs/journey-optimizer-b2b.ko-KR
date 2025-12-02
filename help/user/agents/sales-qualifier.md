@@ -3,7 +3,7 @@ title: 영업 구분자
 description: Sales Qualifier 를 통해 B2B 잠재 고객 검증 및 지원 서비스를 자동화합니다. AI 기반의 연구, 이메일 초안 작성, CRM 통합 및 BDR을 위한 참여 계획을 제공합니다.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 # 영업 구분자
 
 >[!NOTE]
->이 기능은 현재 제한된 가용성이며 모든 사용자가 사용할 수 없습니다.
 >
+>이 기능은 현재 제한된 가용성이며 모든 사용자가 사용할 수 없습니다.
 
 Sales Qualifier는 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B edition의 AI 기반 추가 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. Sales Qualifier 는 채널 전반에서 잠재 고객 검증, 지원, 구매자 참여 워크플로우를 자동화합니다. 엔터프라이즈 B2B 기업의 수동 BDR 로드를 줄이고 파이프라인 속도를 가속화합니다.
 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outlook 내에서 직접 비즈니스 인텔리전스에 액세스합니다.
 
-Sales Qualifier는 Journey Optimizer B2B edition에 포함되어 있지만 Experience Platform Experience Cloud 내에 있는 별도의 앱입니다.
+Sales Qualifier가 [!UICONTROL Journey Optimizer B2B edition]에 포함되어 있지만 Experience Platform Experience Cloud 내에 있는 별도의 앱입니다.
 
 ![Enterprise B2B에 대한 BDR 잠재 고객 자격 및 지원 자동화](assets/home-screen.png)
 
@@ -223,4 +223,4 @@ AI Assistant Chrome 플러그인은 [Google 스토어](https://chromewebstore.go
 
 다음 비디오에서는 Sales Qualifier와 Account Qualification Agent에 대해 간략하게 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)

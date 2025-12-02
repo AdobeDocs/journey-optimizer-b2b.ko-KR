@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 설명서
 description: Journey Optimizer B2B Edition에 대한 전체 설명서 - 온보딩, 구매 그룹 만들기, 계정 여정 구축, 콘텐츠 관리에 사용할 수 있는 리소스를 살펴보십시오.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 73%
 
 ---
 
@@ -13,9 +13,35 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-다음은 Journey Optimizer B2B Edition 애플리케이션과 설명서의 최신 추가 및 개선 사항에 대한 샘플링입니다.
+다음은 [!DNL Journey Optimizer B2B Edition] 응용 프로그램 및 설명서의 최신 추가 기능 및 개선 사항의 샘플입니다.
 
 >[!BEGINTABS]
+
+>[!TAB AI 에이전트]
+
+[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}을(를) 사용하면 AI 도우미 인터페이스가 전문 에이전트에게 자동으로 호출하여 올바른 답변과 통찰력을 얻을 수 있습니다. Agent Orchestrator는 대화 기록을 기억하여, 컨텍스트를 반복하지 않고도 이전 질문을 기반으로 자연스럽게 질문을 생성할 수 있게 하고 여러 에이전트의 인사이트를 결합하여 명확하고 통합된 응답을 제공합니다. [!DNL Journey Optimizer B2B Edition] 컨텍스트에는 특정 B2B 작업 및 도메인을 위해 특별히 빌드된 세 가지 에이전트가 있습니다.
+
+* [Audience Agent](./agents/audience-agent-b2b.md)
+* [여정 빌드 에이전트 B2B](./agents/journey-agent.md)
+* [Account Qualification 에이전트](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB 브랜드 테마]
+
+테마를 사용하는 비기술 디자이너는 특정 브랜드 및 스타일에 맞게 조정할 수 있는 재사용 가능한 이메일 콘텐츠 디자인 지침을 만들 수 있습니다. 테마는 마케터가 시각적으로 호소력 있고 브랜드 일관성이 있는 이메일을 적은 노력으로 더 빠르고 활용할 수 있도록 하며, 고유한 디자인 요구에 대한 고급 사용자 지정 옵션을 제공합니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/brand-themes.md" tooltip="브랜드 테마에 대해 알아보기"}
+
+>[!TAB 사용자 매핑]
+
+마케터는 배경, 책임, 불만 사항 및 선호하는 커뮤니케이션 채널 등 자세한 프로필을 정의할 수 있습니다. 이러한 정의를 통해 관리자는 [!DNL Journey Optimizer B2B Edition]의 사용자 특성에 따라 가상 사용자를 구성할 수 있으므로 역할 템플릿은 이러한 가상 사용자를 캡처하는 간소화되고 일관된 역할 조건을 사용할 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="사용자 매핑에 대해 알아보기"}
+
+>[!TAB CRM 내 판매 인사이트]
+
+영업 팀원은 이제 Salesforce 또는 Dynamics 통합 내에서 성숙 단계에 있는 구매 그룹 및 관련 인사이트를 확인하여 새로운 기회를 식별할 수 있습니다. 단계, 점수 및 관련 구성원과 같은 구매 그룹 세부 정보가 포함됩니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="In-CRM 영업 인사이트에 대해 알아보기"}
 
 >[!TAB 이메일 콘텐츠 공동 작업]
 
@@ -34,30 +60,6 @@ ht-degree: 100%
 B2B 마케터는 이제 개인 수준의 참여 점수를 여정이나 역할 템플릿의 필터로 사용하여 구매 그룹을 만들 수 있습니다. 이러한 점수와 필터링을 통해 구매 그룹 멤버를 정확하게 타기팅하여 지속적인 참여를 개인화할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="개인 참여 점수 및 필터링에 대해 알아보십시오"}
-
->[!TAB 사용자 정의 구매 그룹 역할]
-
-B2B 마케팅 전략가는 이제 사용자 정의 구매 그룹 역할을 통해 구매 그룹의 정밀도를 확장할 수 있습니다. 기본 6개 외에 최대 20개의 사용자 정의 역할을 만들고 구매 그룹 전체에서 재사용할 수 있습니다. 계정 여정 내에서 고유한 역할에 맞게 메시지를 맞춤화하고 구매 그룹 전반에서 관련성과 참여를 개선합니다.&#x200B;
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="사용자 정의 구매 그룹 역할에 대해 알아보십시오"}
-
->[!TAB 사용자 정의 참여 점수 가중치]
-
-참여 활동에 사용자 정의 가중치를 할당해 참여 점수가 가장 가치가 높은 활동을 반영할 수 있도록 합니다. 높은 구매 의도 신호를 강조해 주므로 귀하의 팀에서 가장 높은 구매 가능성을 가진 계정을 더 잘 식별하고 우선 순위를 정할 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="사용자 정의 참여 점수 가중치에 대해 알아보기"}
-
->[!TAB 사용자 정의 CSS 지원]
-
-이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 정의 CSS를 추가할 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="사용자 정의 CSS 사용에 대해 알아보기"}
-
->[!TAB 의도 키워드 매핑]
-
-의도 감지 모델을 활성화하고 관리하려면 이제 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/intent-data.md" tooltip="의도 키워드 매핑 구성에 대해 알아보기"}
 
 >[!ENDTABS]
 
@@ -123,11 +125,11 @@ B2B 마케팅 전략가는 이제 사용자 정의 구매 그룹 역할을 통�
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="콘텐츠 관리"><br/>
-      <strong>콘텐츠 관리</strong><br/><a href="./content/assets-overview.md">자산 개요</a><br/><a href="./content/email-templates.md">이메일 템플릿</a><br/><a href="./content/fragments.md">시각적 조각</a><br/><a href="./content/conditional-content.md">조건부 콘텐츠</a>
+      <strong>콘텐츠 관리</strong><br/><a href="./content/assets-overview.md">Assets 개요</a><br/><a href="./content/email-templates.md">전자 메일 템플릿</a><br/><a href="./content/fragments.md">시각적 조각</a><br/><a href="./content/conditional-content.md">조건부 콘텐츠</a><br/><a href="./content/brand-themes.md">브랜드 테마</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="인사이트 및 대시보드"><br/>
-      <strong>인사이트</strong><br/><a href="./dashboards/intelligent-dashboard.md">지능형 대시보드</a><br/><a href="./dashboards/engagement-dashboard.md">참여 대시보드</a><br/><a href="./dashboards/buying-groups-dashboard.md">구매 그룹 대시보드</a><br/><a href="./dashboards/journeys-dashboard.md">여정 대시보드</a>
+      <strong>인사이트</strong><br/><a href="./dashboards/intelligent-dashboard.md">지능형 대시보드</a><br/><a href="./dashboards/engagement-dashboard.md">참여 대시보드</a><br/><a href="./dashboards/buying-groups-dashboard.md">구매 그룹 대시보드</a><br/><a href="./dashboards/journeys-dashboard.md">여정 대시보드</a><br/><a href="./buying-groups/incrm-insights.md">CRM 내 인사이트</a>
     </td>
 
 </tr>
@@ -137,7 +139,7 @@ B2B 마케팅 전략가는 이제 사용자 정의 구매 그룹 역할을 통�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
