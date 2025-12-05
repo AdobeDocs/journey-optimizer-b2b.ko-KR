@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Marketo Engage 작업은 Journey Optimizer B2B edition과 Marketo Engage의 _리드 기반_ 마케팅 활동 간에 _계정 기반_ 마케팅 오케스트레이션을 조정할 수 있는 _사람 기반_ 작업입니다. 이러한 작업을 사용하여 정적 목록 멤버십을 조정하고 사람을 캠페인에 배치합니다.
 
-Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 필요한 자격 증명을 제공하는 [사용자 지정 서비스](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}를 Marketo Engage에 만듭니다. 그런 다음 Journey Optimizer B2B edition의 제품 관리자는 자격 증명을 사용하여 Marketo Engage에 대한 연결을 만듭니다. 그런 다음 Journey Optimizer B2B edition 사용자는 연결을 참조하여 <!-- person and -->계정 여정에서 Marketo Engage 작업을 구성할 수 있습니다(예: Marketo Engage 목록에서 사용자를 추가 또는 제거하거나 요청 캠페인에 추가).
+Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 필요한 자격 증명을 제공하는 [사용자 지정 서비스](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}를 Marketo Engage에 만듭니다. 그런 다음 Journey Optimizer B2B edition의 제품 관리자는 자격 증명을 사용하여 Marketo Engage에 대한 연결을 만듭니다. 그런 다음 Journey Optimizer B2B edition 사용자는 연결을 참조하여 <!-- person and -->계정 여정에서 Marketo Engage 작업을 구성할 수 있습니다(예: Marketo Engage 목록에서 사용자를 추가 또는 제거하거나 요청 캠페인에 추가).
 
 ## Marketo Engage 연결 구성 {#external-marketo-configure}
 
@@ -28,14 +28,14 @@ Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 �
 
 ### Marketo Engage 사용자 정의 서비스 만들기
 
-1. Marketo Engage에 관리자로 로그인하고 [사용자 지정 서비스를 만듭니다](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Marketo Engage에 관리자로 로그인하고 [사용자 지정 서비스를 만듭니다](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Journey Optimizer B2B edition 연결에 사용할 다음 값을 복사합니다.
 
    * Munchkin ID
    * 클라이언트 ID
    * 클라이언트 암호
 
-목록 및 캠페인과 같은 자산에 대한 Marketo Engage 작업 영역 가시성은 사용자 지정 서비스에서 할당된 [역할 권한](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}에 의해 관리됩니다. 마케터는 여정 내에서 동일한 연결을 여러 번 사용하고 동일한 여정 내에서 다른 Marketo Engage 연결을 사용할 수 있습니다.
+목록 및 캠페인과 같은 자산에 대한 Marketo Engage 작업 영역 가시성은 사용자 지정 서비스에서 할당된 [역할 권한](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}에 의해 관리됩니다. 마케터는 여정 내에서 동일한 연결을 여러 번 사용하고 동일한 여정 내에서 다른 Marketo Engage 연결을 사용할 수 있습니다.
 
 ### 통합 추가
 
