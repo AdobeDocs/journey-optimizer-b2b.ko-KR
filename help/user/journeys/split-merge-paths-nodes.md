@@ -2,11 +2,12 @@
 title: 경로 분할 및 병합
 description: 분할 및 병합 경로 노드를 만들어 조건부 논리로 계정과 사람을 세그먼트화하고, 구매 그룹을 필터링하고, Journey Optimizer B2B edition에서 경로를 재조합합니다.
 feature: Account Journeys
+solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 2bd5c21221da6b1e747bb133cd17c38225539ada
+source-git-commit: 1dbcdfd67e90a37774287d8d1a18aa5ba502befe
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2502'
 ht-degree: 2%
 
 ---
@@ -27,7 +28,7 @@ _경로 분할_ 노드는 **_둘 중 하나_** 계정 또는 사람 필터를 �
 
 계정별 분할 경로에는 계정과 사용자 작업 및 이벤트가 모두 포함될 수 있습니다. 이러한 경로는 추가로 분할할 수 있습니다.
 
-_&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
+_**계정 노드별 분할 경로 작동 방식**_
 
 * 추가하는 각 경로에는 각 에지에 노드를 추가할 수 있는 최종 노드가 포함되어 있습니다.
 * 계정 노드로 분할을 중첩시킬 수 있습니다(계정으로 경로를 반복적으로 분할할 수 있음).
@@ -41,7 +42,7 @@ _&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
 
 | 경로 조건 | 설명 |
 | --------------- | ----------- |
-| 계정 속성 | 다음을 포함한 계정 프로필의 속성: <li>연간 수익 <li>구/군/시 <li>국가 <li>직원 규모 <li>업종 <li>이름 <li>SIC 코드 <li>주/도 |
+| 계정 속성 | 다음을 포함한 계정 프로필의 속성: <li>연간 수익 <li>구/군/시 <li>국가 <li>직원 규모 <li>업종 <li>이름 <li>SIC 코드 <li>주/도 <li>`<relational schema>`이(가) 있음([사용자 지정 데이터 필터링](#custom-data-filtering) 참조) |
 | [!UICONTROL 특수 필터] > [!UICONTROL 계정이 구매 그룹과 일치함] | 계정이 하나 이상의 구매 그룹과 일치합니다. 대응 구매 그룹에 대해 다음 제약 조건 중 하나 이상에 대해 평가할 수 있습니다. <li>솔루션 관심 분야 <li>구매 그룹 단계 <li>구매 그룹 상태 <li>참여 점수 <li>완성도 점수 <li> 구매 그룹 역할의 사용자 수 |
 | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 있음] | 계정에 구매 그룹의 구성원이 있거나 없습니다. 다음 기준 중 하나 이상에 대해서도 평가할 수 있습니다. <li>솔루션 관심 분야 <li>구매 그룹 단계 <li>구매 그룹 상태 <li>참여 점수 <li>완성도 점수 |
 
@@ -55,13 +56,13 @@ _&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
 
 1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 경로 분할]**&#x200B;을 선택합니다.
 
-   ![여정 노드 추가 - 경로 분할](./assets/add-node-split.png){width="300"}
+   ![여정 노드 추가 - 경로 분할](./assets/add-node-split.png){width="300" zoomable="no"}
 
 1. 오른쪽의 노드 속성에서 분할을 위해 **[!UICONTROL 계정]**&#x200B;을(를) 선택합니다.
 
 1. _[!UICONTROL 경로 1]_&#x200B;에 적용할 수 있는 조건을 정의하려면 **[!UICONTROL 조건 적용]**&#x200B;을 클릭하십시오.
 
-   ![경로 노드 분할 - 조건 추가](./assets/node-split-properties-apply-condition.png){width="500"}
+   ![경로 노드 분할 - 조건 추가](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
 1. 조건 편집기에서 하나 이상의 필터를 추가하여 분할 경로를 정의합니다.
 
@@ -97,7 +98,7 @@ _&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
 
 1. **[!UICONTROL 필터 추가]**&#x200B;를 클릭하고 **[!UICONTROL 그룹 역할 구매 인원 수]** 필터를 선택합니다.
 
-   ![계정에 대한 필터를 추가하여 구매 그룹과 일치시키고 구매 그룹 역할의 사용자 수를 선택합니다](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+   ![계정에 대한 필터를 추가하여 구매 그룹과 일치하고 구매 그룹 역할의 사용자 수를 선택합니다](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
 
 1. 첫 번째 역할 매개 변수를 정의합니다.
 
@@ -117,11 +118,26 @@ _&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
 
 식별된 계정의 경우 경로에 작업 노드를 추가하여 구매 그룹 또는 단계의 상태를 업데이트하거나 판매 경고 이메일을 보낼 수 있습니다.
 
+### 사용자 정의 데이터 필터링
+
+[!BADGE Beta]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="간소화된 아키텍처에서 베타 기능으로 사용 가능"}
+
+관계형 스키마(모델 기반 클래스)를 사용하여 계정별로 경로를 분할할 수 있습니다. 사용자 지정 개체는 _관계형 스키마_ 내에 정의되어 있으며 제품 관리자는 [에서 ](../admin/xdm-field-management.md#relational-schemas)관계형 스키마 필드를 구성[!DNL Journey Optimizer B2B Edition]할 수 있습니다. 선택한 스키마 필드는 조건 편집기에서 계정 노드별 분할 경로에 사용할 수 있습니다.
+
+![오퍼에 대한 관계형 스키마에 대한 조건 예](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
+
+<!-- SPHR-23746
+
+Note: These are currently going under Account Attributes folder, which is a bug (SPHR-21734). This will move to Special filters when resolved (January release).
+
+This will also be available for split paths by people (under special filters) for the M 1.5 GA release.
+-->
+
 ## 사람별 경로 분할
 
 사람에 의해 나누기 경로에는 사람 작업만 포함될 수 있습니다. 이러한 경로는 다시 분할하고 자동으로 다시 결합할 수 없습니다.
 
-_&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
+_**people 노드별 분할 경로가 작동하는 방식**_
 
 * _그룹화된 노드_ 분할 병합 조합 내에서 사람 노드로 분할 함수가 작동합니다. 분할된 경로는 모든 사람이 계정 컨텍스트를 잃지 않고 다음 단계로 이동할 수 있도록 자동으로 병합됩니다.
 * 사람 노드로 분할을 중첩할 수 없습니다(이 그룹화된 노드에 있는 경로에 사람에 대한 분할 경로를 추가할 수 없음).
@@ -137,13 +153,13 @@ _&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
 | ------------ | ----------- |
 | [!UICONTROL 활동 기록] > [!UICONTROL 전자 메일] | 여정 앞부분에서 하나 이상의 선택한 이메일 메시지를 사용하여 평가되는 조건에 따른 이메일 활동: <li>[!UICONTROL 전자 메일에서 링크를 클릭함] <li>이메일 열람함 <li>게재됨 이메일 <li>이(가) 이메일(<br>**[!UICONTROL 비활성 필터로 전환&#x200B;]**)을 보냈습니다. - 이 옵션을 사용하여 활동이 없는 사용자를 기준으로 필터링합니다(사용자에게 이메일 활동이 없음). |
 | [!UICONTROL 활동 기록] > [!UICONTROL SMS 메시지] | 여정 이전 버전에서 선택한 하나 이상의 SMS 메시지를 사용하여 평가되는 조건에 따른 SMS 활동: <li>[!UICONTROL SMS에서 클릭한 링크] <li>[!UICONTROL SMS가 반송됨] <br>**[!UICONTROL 비활성 필터로 전환&#x200B;]**- 활동 부족(사용자에게 SMS 활동이 없음)을 기준으로 필터링하려면 이 옵션을 사용합니다. |
-| [!UICONTROL 활동 기록] > [!UICONTROL 데이터 값 변경됨] | 선택한 개인 속성의 경우 값이 변경되었습니다. 이러한 변경 유형은 다음과 같습니다. <li>새 값<li>이전 값<li>이유<li>소스<li>활동 날짜<li>최소. <br>**[!UICONTROL 비활성 필터로 전환&#x200B;]**&#x200B;횟수 - 활동 부족(데이터 값 변경이 없는 사용자)을 기준으로 필터링하려면 이 옵션을 사용합니다. |
-| [!UICONTROL 활동 기록] > [!UICONTROL 즐거운 시간이 있습니다] | 연결된 Marketo Engage 인스턴스에 정의된 관심 있는 순간 활동입니다. 제한 사항은 다음과 같습니다. <li>마일스톤<li>이메일<li>웹 <br>**[!UICONTROL 비활성 필터로 전환&#x200B;]**- 활동 부족(즐거운 시간을 보내지 못한 사람)에 따라 필터링하려면 이 옵션을 사용합니다. |
-| [!UICONTROL 활동 기록] > [!UICONTROL 방문한 웹 페이지] | 연관된 Marketo Engage 인스턴스에서 관리하는 하나 이상의 웹 페이지에 대한 웹 페이지 활동. 제한 사항은 다음과 같습니다. <li>웹 페이지(필수)<li>활동 날짜<li>클라이언트 IP 주소 <li>Querystring <li>레퍼러 <li>사용자 에이전트 <li>검색 엔진 <li>검색 쿼리 <li>개인화된 URL <li>토큰 <li>브라우저 <li>플랫폼 <li>디바이스 <li>최소. <br>**[!UICONTROL 비활성 필터로 전환&#x200B;]**&#x200B;횟수 - 활동 부족(사용자가 웹 페이지를 방문하지 않음)에 따라 필터링하려면 이 옵션을 사용합니다. |
+| [!UICONTROL 활동 기록] > [!UICONTROL 데이터 값 변경됨] | 선택한 개인 속성의 경우 값이 변경되었습니다. 이러한 변경 유형은 다음과 같습니다. <li>새 값<li>이전 값<li>이유<li>소스<li>활동 날짜<li>최소. <br>**[!UICONTROL 비활성 필터로 전환&#x200B;]**횟수 - 활동 부족(데이터 값 변경이 없는 사용자)을 기준으로 필터링하려면 이 옵션을 사용합니다. |
+| [!UICONTROL 활동 기록] > [!UICONTROL 즐거운 시간이 있습니다] | 연결된 [!DNL Marketo Engage] 인스턴스에 정의된 관심 있는 순간 활동입니다. 제한 사항은 다음과 같습니다. <li>마일스톤<li>이메일<li>웹 <br>**[!UICONTROL 비활성 필터로 전환&#x200B;]**- 활동 부족(즐거운 시간을 보내지 못한 사람)에 따라 필터링하려면 이 옵션을 사용합니다. |
+| [!UICONTROL 활동 기록] > [!UICONTROL 방문한 웹 페이지] | 연결된 [!DNL Marketo Engage] 인스턴스에서 관리하는 하나 이상의 웹 페이지에 대한 웹 페이지 활동입니다. 제한 사항은 다음과 같습니다. <li>웹 페이지(필수)<li>활동 날짜<li>클라이언트 IP 주소 <li>Querystring <li>레퍼러 <li>사용자 에이전트 <li>검색 엔진 <li>검색 쿼리 <li>개인화된 URL <li>토큰 <li>브라우저 <li>플랫폼 <li>디바이스 <li>최소. <br>**[!UICONTROL 비활성 필터로 전환&#x200B;]**횟수 - 활동 부족(사용자가 웹 페이지를 방문하지 않음)에 따라 필터링하려면 이 옵션을 사용합니다. |
 | [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>구/군/시 <li>국가 <li>생년월일 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 일시 중단됨 <li>이름 <li>상태 영역 유추<li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주/도 <li>구독 취소 <li>구독 취소 이유 |
 | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>역할</li> |
-| [!UICONTROL 특수 필터] > [!UICONTROL 목록의 구성원] | 해당 사용자는 하나 이상의 Marketo Engage 목록에 속하거나 속하지 않습니다. |
-| [!UICONTROL 특수 필터] > [!UICONTROL 프로그램 구성원] | 해당 사용자는 하나 이상의 Marketo Engage 프로그램의 멤버이거나 멤버입니다. |
+| [!UICONTROL 특수 필터] > [!UICONTROL 목록의 구성원] | 해당 사용자가 하나 이상의 [!DNL Marketo Engage] 목록에 속해 있거나 속해 있지 않습니다. |
+| [!UICONTROL 특수 필터] > [!UICONTROL 프로그램 구성원] | 해당 사용자가 하나 이상의 [!DNL Marketo Engage] 프로그램의 구성원이거나 구성원이 아닙니다. |
 
 ### 계정-사용자 경로 조건
 
@@ -161,7 +177,7 @@ _&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
 
 1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 경로 분할]**&#x200B;을 선택합니다.
 
-   ![여정 노드 추가 - 경로 분할](./assets/add-node-split.png){width="300"}
+   ![여정 노드 추가 - 경로 분할](./assets/add-node-split.png){width="300" zoomable="no"}
 
 1. 오른쪽의 노드 속성에서 분할을 위해 **[!UICONTROL 사람]**&#x200B;을(를) 선택합니다.
 
@@ -211,12 +227,12 @@ _&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
 * 여정 이전 의 이메일 메시지
 * 여정 이전 버전의 SMS 메시지
 * 개인 프로필의 데이터 값 변경
-* 이메일, 웹 페이지 또는 이정표와 관련된 흥미로운 순간(Marketo Engage에서 추적됨)
-* Marketo Engage에서 추적된 웹 페이지 방문
+* 전자 메일, 웹 페이지 또는 마일스톤과 관련된 흥미로운 순간([!DNL Marketo Engage]에서 추적됨)
+* 웹 페이지 방문([!DNL Marketo Engage]에서 추적)
 
 >[!BEGINSHADEBOX &quot;비활성 필터링&quot;]
 
-각 _[!UICONTROL 활동 기록]_ 필터에 대해 **[!UICONTROL 비활성 필터로 전환]** 옵션을 활성화할 수 있습니다. 이 옵션은 해당 활동 유형이 없는 경우 필터를 평가로 변경합니다. 예를 들어 _&#x200B;**여정의 이전 버전에서 전자 메일을 열지**&#x200B;_&#x200B;않은 사용자에 대해 경로를 만들려면 _[!UICONTROL 전자 메일]_ > _[!UICONTROL 연 전자 메일]_ 필터를 추가합니다. 비활성 옵션을 활성화하고 이메일을 지정합니다. _[!UICONTROL 활동 날짜]_ 제한을 사용하여 비활성 기간을 정의하는 것이 좋습니다.
+각 _[!UICONTROL 활동 기록]_ 필터에 대해 **[!UICONTROL 비활성 필터로 전환]** 옵션을 활성화할 수 있습니다. 이 옵션은 해당 활동 유형이 없는 경우 필터를 평가로 변경합니다. 예를 들어, _[!UICONTROL 여정의 이전 버전에서 전자 메일을 열지]_&#x200B;않은 사용자에 대한 경로를 만들려면 _[!UICONTROL 전자 메일]_ > _**열린 전자 메일**_ 필터를 추가합니다. 비활성 옵션을 활성화하고 이메일을 지정합니다. _[!UICONTROL 활동 날짜]_ 제한을 사용하여 비활성 기간을 정의하는 것이 좋습니다.
 
 ![그룹 멤버십을 구매하기 위한 사용자 조건별 경로 분할](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -224,17 +240,17 @@ _&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
 
 ### 멤버십 필터링
 
-_[!UICONTROL 특수 필터]_ 섹션 내에는 구매 그룹 또는 Marketo Engage 목록에서 개인의 멤버십을 평가하는 데 사용할 수 있는 여러 필터가 있습니다. 예를 들어, 구매 그룹의 구성원이며 특정 역할이 할당된 사용자에 대한 경로를 만들려면 _[!UICONTROL 특별 필터]_ > _[!UICONTROL 구매 그룹의 구성원]_ 필터를 추가합니다. 필터의 경우 멤버십을 _true_(으)로 설정하고 하나 이상의 구매 그룹과 연결된 _[!UICONTROL 솔루션 관심 분야]_&#x200B;를 선택한 다음 일치시킬 _[!UICONTROL 역할]_&#x200B;을(를) 설정하십시오.
+_[!UICONTROL 특수 필터]_ 섹션 내에는 구매 그룹 또는 [!DNL Marketo Engage] 목록에서 개인의 멤버십을 평가하는 데 사용할 수 있는 여러 필터가 있습니다. 예를 들어, 구매 그룹의 구성원이며 특정 역할이 할당된 사용자에 대한 경로를 만들려면 _[!UICONTROL 특별 필터]_ > _[!UICONTROL 구매 그룹의 구성원]_ 필터를 추가합니다. 필터의 경우 멤버십을 _true_(으)로 설정하고 하나 이상의 구매 그룹과 연결된 _[!UICONTROL 솔루션 관심 분야]_&#x200B;를 선택한 다음 일치시킬 _[!UICONTROL 역할]_&#x200B;을(를) 설정하십시오.
 
 ![그룹 멤버십을 구매하기 위한 사용자 조건별 경로 분할](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX &quot;Marketo Engage 목록 구성원&quot;]
 
-Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버십을 확인하여 리드가 중복 이메일을 받지 않고 동시에 여러 이메일 스트림의 멤버가 아닌지 확인합니다. Journey Optimizer B2B에서 사람들이 분할 경로에 대한 조건으로 Marketo Engage 목록 멤버십을 확인하여 여정 활동의 중복을 제거할 수 있습니다.
+[!DNL Marketo Engage]에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버십을 확인하여 잠재 고객이 중복 이메일을 받지 않고 동시에 여러 전자 메일 스트림의 구성원이 아닌지 확인합니다. Journey Optimizer B2B에서 사람들이 분할 경로에 대한 조건으로 [!DNL Marketo Engage] 목록 멤버십을 확인하여 여정 활동에서 중복을 제거할 수 있습니다.
 
-분할 조건에서 목록 멤버십을 사용하려면 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 목록의 멤버]** 조건을 필터 공간으로 끌어서 놓습니다. 필터 정의를 완료하여 하나 이상의 Marketo Engage 목록에서 멤버십을 평가합니다.
+분할 조건에서 목록 멤버십을 사용하려면 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 목록의 멤버]** 조건을 필터 공간으로 끌어서 놓습니다. 하나 이상의 [!DNL Marketo Engage] 목록에서 구성원 자격을 평가하려면 필터 정의를 완료하십시오.
 
-![Marketo Engage 목록 멤버십에 대한 사람 상태별 경로 분할](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![ 목록 구성원 자격에 대한 [!DNL Marketo Engage]사람 상태별 경로 분할](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -254,7 +270,7 @@ _여정 병합_ 노드를 추가하여 계정별로 다른 분할 경로를 결�
 
 1. 이러한 경로 중 하나에 대한 더하기( **+**) 아이콘을 클릭하고 표시된 옵션에서 **[!UICONTROL 병합]**&#x200B;을(를) 선택합니다.
 
-   ![여정 노드 - 병합 경로](./assets/node-plus-icon-merge-paths.png){width="400"}
+   ![여정 노드 - 병합 경로](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"}
 
 1. 경로 병합 노드 속성에서 병합할 경로를 선택합니다.
 
@@ -266,4 +282,4 @@ _여정 병합_ 노드를 추가하여 계정별로 다른 분할 경로를 결�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443263/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
