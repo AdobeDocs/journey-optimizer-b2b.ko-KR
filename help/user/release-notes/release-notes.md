@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
+source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
 workflow-type: tm+mt
-source-wordcount: '3778'
+source-wordcount: '3780'
 ht-degree: 92%
 
 ---
@@ -69,7 +69,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | 관계형 데이터 모델 | B2B 계정에 연결된 관계형 데이터를 활용하여 계정 여정 내의 계정을 필터링하거나 이메일 콘텐츠를 개인화할 수 있습니다. 이 관계형 데이터는 구매 기록, 이벤트 등록, 소프트웨어 라이센스, 서비스 가입 또는 예약과 같은 실제 비즈니스 엔티티를 나타낼 수 있습니다. [자세히 알아보기](../admin/xdm-field-management.md#relational-schemas) |
 | 기능 | 여러 Marketo Engage 활성화 | 원격 Marketo Engage 인스턴스에 대한 연결을 구성하고 해당 연결을 사용하여 여정에 대한 Marketo Engage 작업을 설정합니다. 목록에서 사용자를 추가 또는 제거하거나 요청 캠페인에 사용자를 추가하는 등의 이러한 작업은 지정된 Marketo Engage 인스턴스에 적용됩니다. [자세히 알아보기](../admin/marketo-actions-connect.md) |
-| 기능 | 이메일 피로도 중복 제거 | 이제 여정에서 동일한 이메일이 동일한 주소로 여러 번 전송되지 않도록 이메일 중복 제거를 활성화할 수 있습니다. 중복된 주소는 해당 이메일 주소를 가진 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다. |
+| 기능 | 이메일 피로도 중복 제거 | 이제 여정에서 동일한 이메일이 동일한 주소로 여러 번 전송되지 않도록 이메일 중복 제거를 활성화할 수 있습니다. 중복 주소는 해당 이메일 주소가 있는 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다.  [자세히 알아보기](../content/email-deduplication.md) |
 | 개선 사항 | 커뮤니케이션 제한 | 이제 시스템에서는 Marketo Engage 및 Journey Optimizer B2B edition의 결합된 통신 제한을 준수합니다. [자세히 알아보기](../admin/configure-channels-emails.md#communication-limits) |
 
 <!-- There are additional functional changes with the simplified architecture:
