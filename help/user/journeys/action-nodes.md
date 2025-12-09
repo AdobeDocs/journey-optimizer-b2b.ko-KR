@@ -141,7 +141,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 이 사람 기반 작업을 선택하면 새 외부 대상을 만들거나 기존 외부 대상 목록에서 선택할 수 있습니다.
 
 * 기존 대상의 경우 [!DNL Journey Optimizer B2B Edition]에서만 만들어진 외부 고객 대상 중에서 선택할 수 있습니다.
-* 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 [&#x200B; 설명서에서 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}새 대상 연결 만들기[&#x200B; 및 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}활성화 개요[!DNL Experience Platform]를 참조하십시오.
+* 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 [&#x200B; 설명서에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}새 대상 연결 만들기[&#x200B; 및 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}활성화 개요[!DNL Experience Platform]를 참조하십시오.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [유료 미디어 오케스트레이션에 대한 비디오 개요 보기](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -187,7 +187,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++[!UICONTROL 점수 변경]
 
-이 작업을 사용하여 Marketo Engage에서 개인 점수를 변경합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+이 작업을 사용하여 Marketo Engage에서 개인 점수를 변경합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![동작 수행 - 점수 변경](./assets/node-action-change-score.png){width="300"}
 
@@ -211,7 +211,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++[!UICONTROL 전자 메일 보내기]
 
-이 작업을 사용하여 이메일을 보냅니다. 노드에 대해 [전자 메일을 만들고](../content/add-email.md#add-an-email-to-your-journey)한 후에는 전자 메일 디자인 공간에서 전자 메일 메시지를 디자인하고, 개인화하고, 미리 볼 수 있습니다([전자 메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
+이 작업을 사용하여 이메일을 보냅니다. 노드에 대해 [전자 메일을 만들고](../content/add-email.md#add-an-email-to-your-journey)한 후에는 전자 메일 디자인 공간에서 전자 메일 메시지를 디자인하고, 개인화하고, 미리 볼 수 있습니다([전자 메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
 
 ![작업 수행 - 전자 메일 보내기](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -255,7 +255,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo Engage 요청 캠페인에 추가]
 
-이 작업을 사용하여 Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하십시오.
+이 작업을 사용하여 Marketo Engage의 [요청 캠페인](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 요청 캠페인 이름을 선택합니다.
 
@@ -265,7 +265,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo 목록에 추가]
 
-이 동작을 사용하여 Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에 사용자를 추가하십시오.
+이 동작을 사용하여 Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에 사용자를 추가하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 목록 이름을 선택합니다.
 
@@ -275,7 +275,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo 목록에서 제거]
 
-Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에서 사용자를 제거하려면 이 작업을 사용하십시오.
+Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에서 사용자를 제거하려면 이 작업을 사용하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 목록 이름을 선택합니다.
 
