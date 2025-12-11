@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 88%
+source-wordcount: '378'
+ht-degree: 84%
 
 ---
 
@@ -124,11 +124,12 @@ ht-degree: 88%
       + [개요](./content/personalization.md)
       + [개인화 구문](./content/personalization-syntax.md)
       + [도우미 함수 목록](./content/personalization-helper-functions.md)
-+ 인사이트 대시보드 {#dashboards}
-   + [지능형 대시보드](./dashboards/intelligent-dashboard.md)
-   + [참여 개요](./dashboards/engagement-dashboard.md)
-   + [구매 그룹 개요](./dashboards/buying-groups-dashboard.md)
-   + [계정 여정 개요](./dashboards/journeys-dashboard.md)
++ 지능형 대시보드 {#dashboards}
+   + [Insights 대시보드](./dashboards/intelligent-dashboard.md)
+   + [참여 대시보드](./dashboards/engagement-dashboard.md)
+   + [웹 참여 대시보드](./dashboards/web-engagement-dashboard.md)
+   + [구매 그룹 대시보드](./dashboards/buying-groups-dashboard.md)
+   + [계정 여정 대시보드](./dashboards/journeys-dashboard.md)
 + 관리 {#admin}
    + [거버넌스](./admin/governance.md)
    + [Marketo 작업 구성](./admin/marketo-actions-connect.md)
