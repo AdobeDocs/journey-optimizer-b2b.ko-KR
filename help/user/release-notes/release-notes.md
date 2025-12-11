@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
+source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
 workflow-type: tm+mt
-source-wordcount: '3780'
-ht-degree: 92%
+source-wordcount: '3807'
+ht-degree: 91%
 
 ---
 
@@ -40,6 +40,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 페르소나 매핑 | 속성 매핑을 통해 계정 구성원과 설정된 페르소나를 매핑합니다. [자세히 알아보기](../admin/persona-mapping.md) |
 | 기능 | Salesforce 및 Dynamics용 Sales Insights | 영업 팀원은 이제 Salesforce 또는 Dynamics 통합 내에서 성숙 단계에 있는 구매 그룹 및 관련 인사이트를 확인하여 새로운 기회를 식별할 수 있습니다. 단계, 점수 및 관련 멤버와 같은 구매 그룹 세부 정보가 포함됩니다. [자세히 알아보기](../buying-groups/incrm-insights.md) |
 | 기능 | 대상자를 [!DNL Adobe Target]&#x200B;(으)로 활성화 | 이제 계정 여정에서 외부 고객 대상으로 대상을 활성화하고 [!DNL Adobe Target]을(를) 푸시할 수 있습니다. 이 통합을 통해 [!DNL Target]에서 디자인된 웹 경험에 대한 여정 시퀀스를 통해 자격이 있는 대상을 제공할 수 있습니다. [자세히 알아보기](../audiences/target-external-audience.md) |
+| 기능 | 역할 통찰력 대시보드 | 새 _[!UICONTROL 역할 인사이트]_ 대시보드는 캠페인과 여정이 구매 그룹 역할 획득 및 참여에 미치는 영향에 대한 인사이트를 제공합니다. [자세히 알아보기](../buying-groups/buying-group-role-insights.md) |
 | 개선 사항 | 구매 그룹 완성도 점수 개선 | 이제 완성도 점수를 위해 사용자 정의 가능한 역할 멤버 임계값을 사용하여 구매 그룹이 실제 의사 결정을 반영하도록 할 수 있습니다. [자세히 알아보기](../buying-groups/completeness-scores.md) |
 | 개선 사항 | 구매 그룹 유지 관리 작업 | 구매 그룹 유지 관리 작업 빈도가 주간에서 일간으로 업데이트됩니다. |
 | 개선 사항 | 계정 여정 진행 | 게시된 여정이 _라이브_, _새로운 참여 마감됨_, _중단됨_ 또는 _완료됨_ 상태인 경우, 여정 맵을 열어 각 여정 노드에 대한 계정 목록을 검토할 수 있습니다. |
