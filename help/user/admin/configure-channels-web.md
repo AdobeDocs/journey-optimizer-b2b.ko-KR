@@ -19,7 +19,7 @@ ht-degree: 0%
 
 **전제 조건**
 
-웹 채널을 사용하려면 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이 구현되어 있어야 합니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
+웹 채널을 사용하려면 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이 구현되어 있어야 합니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
 
 Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](../admin/user-management.md#b2b-product-permissions)이 필요합니다.
 

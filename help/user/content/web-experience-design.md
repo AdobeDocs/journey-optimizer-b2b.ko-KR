@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * 제품 관리자가 웹 경험에 포함할 URL(페이지)을 정의하도록 하나 이상의 웹 채널을 구성했습니다. 자세한 내용은 [웹 채널 구성](../admin/configure-channels-web.md)을 참조하십시오.
 
-* 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전 2.16 이상이 필요합니다.
+* 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전 2.16 이상이 필요합니다.
 
 * 여정에서 웹 경험을 만들고 관리하는 데 필요한 [권한](../admin/user-management.md#b2b-product-permissions)이 있습니다.
    * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 관리]_ - 웹 개인화 작업 노드를 추가하거나 업데이트하는 데 필요합니다.
@@ -326,7 +326,7 @@ URL 막대를 사용하여 웹 채널 구성 내의 다른 페이지로 이동�
 
 웹 경험이 활성화(라이브)되면 Adobe Customer Journey Analytics(제품 구독 필요)를 사용하여 보고서를 작성할 수도 있습니다. 웹 경험 모니터링을 개선하기 위해 웹 사이트의 특정 요소에 대한 클릭 수를 추적할 수도 있습니다. 추적을 사용하면 웹 보고서에서 해당 요소의 클릭 수를 표시할 수 있습니다.
 
-Customer Journey Analytics 및 웹 보고서 작성에 대한 자세한 내용은 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)를 참조하세요.
+Customer Journey Analytics 및 웹 보고서 작성에 대한 자세한 내용은 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-landing)를 참조하세요.
 
 1. 웹 경험 편집기에서 이미지 또는 링크와 같은 요소를 선택합니다.
 
