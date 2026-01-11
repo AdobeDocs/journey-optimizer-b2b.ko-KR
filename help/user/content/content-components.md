@@ -4,9 +4,9 @@ description: 콘텐츠 구성 요소를 사용하여 이메일, 랜딩 페이지
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2825'
 ht-degree: 6%
 
 ---
@@ -371,7 +371,7 @@ _[!UICONTROL 설정]_ 탭에서 **[!UICONTROL 링크]** 옵션을 사용하여 �
 
 ### 텍스트
 
-텍스트 구성 요소를 사용하여 콘텐츠에 텍스트 블록을 삽입합니다. 캔버스에서 텍스트 구성 요소를 선택한 경우 텍스트를 입력하고 도구 모음 옵션을 사용하여 인라인 서식과 개인화 토큰 및 조건부 변형을 포함한 옵션을 추가합니다. 디자인 공간에서 인라인 스타일 및 옵션을 포함하여 텍스트를 만드는 방법에 대한 자세한 내용은 텍스트 작성을 참조하십시오.
+텍스트 구성 요소를 사용하여 콘텐츠에 텍스트 블록을 삽입합니다. 캔버스에서 텍스트 구성 요소를 선택한 경우 텍스트를 입력하고 도구 모음 옵션을 사용하여 인라인 서식과 개인화 토큰 및 조건부 변형을 포함한 옵션을 추가합니다. <!-- For detailed information about crafting text, including inline styling and options, in the design space, see [Text authoring](#). -->
 
 **[!UICONTROL 스타일]** 탭에서 텍스트 구성 요소 스타일을 사용자 지정합니다.
 
@@ -573,7 +573,7 @@ HTML 구성 요소의 경우 오른쪽 패널에서 전체 HTML 구성 요소에
 
   _[!UICONTROL 이미지 업로드]_ 대화 상자에서 시스템의 파일을 파일 상자로 끌어서 놓습니다. 최대 파일 크기는 100MB입니다.
 
-  ![이미지 파일을 &#x200B;](./assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
+  ![이미지 파일을 ](./assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
 
   선택한 이미지의 파일 이름이 대화 상자에 표시됩니다. 에셋 파일 이름은 폴더 간에 고유해야 하며 이름의 파일이 이미 있는 경우 메시지가 표시됩니다. 이름에는 최대 100자를 사용할 수 있으며 특수 문자(예: `;`, `:`, `\` 및 `|`)를 사용할 수 없습니다.
 

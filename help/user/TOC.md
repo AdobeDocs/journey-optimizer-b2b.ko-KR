@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 84%
       + [대기](./journeys/wait-nodes.md)
    + [여정 세부 정보](./journeys/journey-details.md)
 + 여정 콘텐츠 {#journey-content}
+   + [SMS 채널](./content/sms-authoring.md)
    + 이메일 채널 {#email-channel}
       + [이메일 추가](./content/add-email.md)
       + [이메일 작성](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 84%
       + [제어되는 템플릿](./content/email-authoring-governance.md)
       + [판매 알림 이메일](./content/sales-alert-email.md)
       + [이메일 중복 제거](./content/email-deduplication.md)
+   + 웹 채널(Beta) {#web-channel}
+      + [개요](./content/web-experiences.md)
+      + [웹 경험 디자인](./content/web-experience-design.md)
+      + [단일 페이지 애플리케이션](./content/web-single-page-applications.md)
    + [사용자 정의 개인화 토큰](./content/personalization-my-tokens.md)
-   + [SMS 작성](./content/sms-authoring.md)
 + 대상자 {#audiences}
    + [Experience Platform 대상](./audiences/account-audience-overview.md)
    + [외부 대상 타기팅](./audiences/target-external-audience.md)
@@ -142,7 +146,8 @@ ht-degree: 84%
    + 채널 {#channels}
       + [이메일 구성](./admin/configure-channels-emails.md)
       + [SMS 구성](./admin/configure-channels-sms.md)
-      + [랜딩 페이지 설정](./admin/landing-page-settings.md)
+      + [웹 채널 구성(Beta)](./admin/configure-channels-web.md)
+      + [랜딩 페이지 설정(Beta)](./admin/landing-page-settings.md)
       + [이벤트 수집을 위한 데이터스트림 구성](./data/aep-event-collection.md)
    + 구성 {#configurations}
       + [AEM Assets 저장소](./admin/configure-aem-repositories.md)
