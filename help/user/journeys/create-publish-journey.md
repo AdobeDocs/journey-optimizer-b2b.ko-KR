@@ -165,4 +165,4 @@ _여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443226/?captions=kor&learn=on)

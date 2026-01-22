@@ -219,4 +219,4 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 ## 계정 여정 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443214/?captions=kor&learn=on)
