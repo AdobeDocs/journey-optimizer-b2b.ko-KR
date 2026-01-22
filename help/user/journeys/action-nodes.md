@@ -142,7 +142,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 이 사람 기반 작업을 선택하면 새 외부 대상을 만들거나 기존 외부 대상 목록에서 선택할 수 있습니다.
 
 * 기존 대상의 경우 [!DNL Journey Optimizer B2B Edition]에서만 만들어진 외부 고객 대상 중에서 선택할 수 있습니다.
-* 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 [ 설명서에서 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}새 대상 연결 만들기[ 및 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}활성화 개요[!DNL Experience Platform]를 참조하십시오.
+* 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 [&#x200B; 설명서에서 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}새 대상 연결 만들기[&#x200B; 및 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}활성화 개요[!DNL Experience Platform]를 참조하십시오.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [유료 미디어 오케스트레이션에 대한 비디오 개요 보기](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
