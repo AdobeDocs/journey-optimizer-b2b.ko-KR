@@ -3,9 +3,9 @@ title: 영업 구분자
 description: Sales Qualifier 를 통해 B2B 잠재 고객 검증 및 지원 서비스를 자동화합니다. AI 기반의 연구, 이메일 초안 작성, CRM 통합 및 BDR을 위한 참여 계획을 제공합니다.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
+source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Sales Qualifier는 Account Qualification Agent이 포함된 Adobe Journey Optimi
 
 다음 비디오에서는 Sales Qualifier와 Account Qualification Agent에 대해 간략하게 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Sales Qualifier가 [!UICONTROL Journey Optimizer B2B edition]에 포함되어 있지만 Experience Platform Experience Cloud 내에 있는 별도의 앱입니다.
 
@@ -95,7 +95,7 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon_filter-outline.sv
 
 전자 메일 보낼 편지함 패널에 보낸 모든 자동화된 전자 메일이 나열됩니다.
 
-## 모임 예약
+## 회의 예약
 
 이 패널에는 자동화를 통해 설정된 모든 모임이 표시됩니다.
 
@@ -209,17 +209,18 @@ _[!UICONTROL 담당자 관리]_ 패널에 정의된 담당자와 해당 일정 �
 
 이 패널에서는 완료된 모임에 대한 분석을 제공합니다.
 
-## Chrome 플러그인 설정
+<!-- SHPHR-24341 remove section 
+## Set up the Chrome plugin
 
-AI Assistant Chrome 플러그인은 [Google 스토어](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en)에서 사용할 수 있습니다.
+The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
-플러그인이 Chrome에 설치되면 통합 사이트에 있을 때 Adobe 로고가 오른쪽 중간에 표시됩니다.
+When the plugin is installed in Chrome, the Adobe logo appears on the middle right when you are on an integrated site:
 
-* Adobe 웹 애플리케이션
+* Adobe web applications
 * Salesforce
 * Outlook
-* Microsoft Dynamics 및 웹 애플리케이션
-* Google 애플리케이션
+* Microsoft Dynamics and web applications
+* Google applications -->
 
 ## 왼쪽 탐색 막대 편집
 
