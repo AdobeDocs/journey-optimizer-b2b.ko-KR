@@ -24,7 +24,7 @@ Sales Qualifier는 Account Qualification Agent이 포함된 Adobe Journey Optimi
 
 다음 비디오에서는 Sales Qualifier와 Account Qualification Agent에 대해 간략하게 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
 
 Sales Qualifier가 [!UICONTROL Journey Optimizer B2B edition]에 포함되어 있지만 Experience Platform Experience Cloud 내에 있는 별도의 앱입니다.
 
