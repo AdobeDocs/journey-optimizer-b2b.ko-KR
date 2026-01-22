@@ -4,26 +4,26 @@ description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1843'
 ht-degree: 4%
 
 ---
 
 # 이벤트 듣기
 
-이벤트가 발생할 때 대상을 계정 여정의 다음 단계로 이동하려면 _이벤트 수신_ 노드를 추가하십시오.
+이벤트가 발생할 때 대상을 여정의 다음 단계로 이동하려면 _이벤트 수신_ 노드를 추가하십시오.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [개요 비디오 보기](#overview-video)
 
 >[!NOTE]
 >
->사람이 분할 경로에 이 노드 유형을 추가할 수 없습니다.
+>계정 여정의 경우 사람에 의한 분할 경로에 이 노드 유형을 추가할 수 없습니다.
 
 ## 계정 이벤트
 
-계정 활동으로 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우, 계정을 기반으로 이벤트를 수신합니다.
+계정 여정에서 계정 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우 계정을 기반으로 이벤트를 수신할 수 있습니다.
 
 ### 이벤트 및 제한
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 
 ## 사용자 이벤트
 
-사용자 활동에서 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우 사용자를 기반으로 하는 이벤트를 수신합니다. 사용자 속성에 따라 이벤트를 필터링할 수도 있습니다.
+계정 여정에서 사용자 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우 사용자를 기반으로 이벤트를 수신할 수 있습니다. 사용자 속성에 따라 이벤트를 필터링할 수도 있습니다.
 
 ### 이벤트 및 제한
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 경험 이벤트 수신
 
-관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. 관리자 [관심 있는 이벤트 유형 및 필드를 선택하여](../admin/configure-aep-events.md#select-an-event)여정에서 사용할 수 있도록 합니다.
 
@@ -148,19 +148,19 @@ ht-degree: 4%
 
 1. 여정 맵에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
 
-1. 오른쪽의 노드 속성에서 이벤트 유형으로 **[!UICONTROL 사람]**&#x200B;을(를) 선택합니다.
-
-1. **[!UICONTROL 사람 이벤트 선택]** 선택기의 화살표를 클릭하고 메뉴를 **[!UICONTROL Adobe Experience Platform]** 섹션으로 스크롤합니다.
-
-   ![경험 이벤트 수신](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (계정 여정 전용) 오른쪽의 노드 속성에서 이벤트 유형으로 **[!UICONTROL 사용자]**&#x200B;를 선택합니다.
 
 1. 이벤트를 선택합니다.
 
-   이벤트 유형은 노드 세부 정보에 비어 있는 것으로 표시됩니다.
+   **_계정 여정_**&#x200B;의 경우 **[!UICONTROL 사람 이벤트 선택]** 선택기의 화살표를 클릭하고 메뉴를 **[!UICONTROL Adobe Experience Platform]** 섹션으로 스크롤합니다.
 
-   ![이벤트 편집](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![경험 이벤트 수신](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   개인 여정의 경우 **[!UICONTROL 이벤트 선택]** 선택기의 화살표를 클릭하고 이벤트를 선택합니다.
 
 1. **[!UICONTROL 이벤트 편집]**&#x200B;을 클릭하고 이벤트에 대한 제약 조건을 하나 이상 정의합니다.
+
+   ![이벤트 편집](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    사용 가능한 제약 조건은 이벤트 구성에 대한 관리 필드로 정의됩니다.
 
@@ -182,11 +182,13 @@ ht-degree: 4%
 
 1. 여정 맵에서 이벤트가 발생할 때 실행할 다음 노드를 추가합니다.
 
-1. 여정의 나머지 노드를 완료하고 [게시](./journey-overview.md)하십시오.
+1. 여정의 나머지 노드를 완료하고 [게시](./journeys-overview.md)하십시오.
 
    여정이 라이브(게시)되고 _이벤트 수신_ 노드에 도달하면 AEP Experience Events 수신을 시작합니다.
 
 ### 인물 이벤트에 필터 추가
+
+(계정 여정 전용)
 
 1. 이벤트를 정의한 후 **[!UICONTROL 이벤트 편집]** 대화 상자에서 _[!UICONTROL 필터]_ 탭을 선택합니다.
 
@@ -222,4 +224,4 @@ ht-degree: 4%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?captions=kor&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

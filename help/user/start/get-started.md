@@ -4,7 +4,7 @@ description: 관리자 및 마케터를 위한 온보딩 가이드 - Journey Opt
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 93%
@@ -73,6 +73,6 @@ Adobe Journey Optimizer B2B Edition에서 다루고자 하는 기능과 도구�
 
    * 여정 맵에서 여러 단계의 사용 사례를 빌드하고 조건을 추가하며 개인화된 메시지를 보냅니다.
 
-[자세히 알아보기](../journeys/journey-overview.md)
+[자세히 알아보기](../journeys/journeys-overview.md)
 
 >[!ENDTABS]

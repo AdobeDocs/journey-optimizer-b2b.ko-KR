@@ -4,7 +4,7 @@ description: Journey Optimizer B2B edition의 AI 요약, 의도 감지, 연락�
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 5%
@@ -33,7 +33,7 @@ Journey Optimizer B2B edition의 아무 곳에서나 계정 이름을 클릭하�
 * 계정의 사용자 수
 * 업종
 * 기회 열기
-* 계정이 현재 사용 중인 최근 계정 여정 세 개(여정 이름을 클릭하여 [여정 개요](../journeys/journey-overview.md)를 여십시오.)
+* 계정이 현재 사용 중인 최근 계정 여정 세 개(여정 이름을 클릭하여 [여정 개요](../journeys/journeys-overview.md)를 여십시오.)
 * 참여 상위 구매 그룹에 대한 정보가 포함된 계정의 생성 AI 요약입니다.
 
 ### 의도 데이터

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 78%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 80%
       + [Audience 에이전트](./agents/audience-agent-b2b.md)
       + [여정 빌드 에이전트 B2B](./agents/journey-agent.md)
       + [영업 구분자](./agents/sales-qualifier.md)
-+ 계정 여정 {#account-journeys}
-   + [개요](./journeys/journey-overview.md)
++ 여정 관리 {#journeys}
+   + [계정 및 개인 여정](./journeys/journeys-overview.md)
    + [여정 생성 및 게시](./journeys/create-publish-journey.md)
    + [여정 노드](./journeys/journey-nodes.md)
    + 여정 노드 {#journey-nodes}
       + [계정 대상자](./journeys/account-audience-nodes.md)
+      + [개인 대상(Beta)](./journeys/person-audience-nodes.md)
       + [액션 취하기](./journeys/action-nodes.md)
       + [이벤트 듣기](./journeys/listen-for-event-nodes.md)
       + [경로 분할 및 병합](./journeys/split-merge-paths-nodes.md)

@@ -4,7 +4,7 @@ description: 계정 대상자 또는 계정 목록으로 계정 대상자 노드
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 계정 대상자 여정 노드
 
-계정 대상 노드는 여정을 입력하는 계정을 지정합니다. [계정 여정을 만듭니다](./journey-overview.md#create-an-account-journey). 여정은 항상 입력을 정의하는 계정 대상 노드로 시작합니다.
+계정 대상 노드는 여정을 입력하는 계정을 지정합니다. [계정 여정을 만듭니다](./create-publish-journey.md#create-a-journey). 여정은 항상 입력을 정의하는 계정 대상 노드로 시작합니다.
 
 이 여정 노드에 대해 다음 입력 옵션 중 하나를 사용합니다.
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 
    ![대상 세그먼트 만들기](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. [세그먼테이션 서비스 안내서](https://experienceleague.adobe.com/ko/docs/ experience-platform/segmentation/types/account-audiences){target="_blank"}의 단계를 따릅니다.
+1. [세그먼테이션 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}의 단계를 따릅니다.

@@ -4,8 +4,8 @@ description: Journey Optimizer B2B Edition에서 특정 계정 대상 세분화�
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Journey Optimizer B2B Edition을 사용하면 왼쪽 탐색 영역에서 직접 
 
 1. 오른쪽 상단에 있는 **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭합니다.
 
-Journey Optimizer B2B Edition에 대한 계정 대상자를 활성화하려면 [해당 계정 대상자를 계정 여정에 추가](../journeys/journey-overview.md#add-the-account-audience-for-your-journey)하고 [여정을 게시](../journeys/journey-overview.md)해야 합니다.
+Journey Optimizer B2B Edition에 대한 계정 대상자를 활성화하려면 [해당 계정 대상자를 계정 여정에 추가](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey)하고 [여정을 게시](../journeys/journeys-overview.md)해야 합니다.

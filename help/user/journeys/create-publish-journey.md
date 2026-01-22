@@ -1,25 +1,32 @@
 ---
-title: 계정 여정 만들기 및 게시
-description: 시각적 캔버스에서 계정 여정을 만들고, 작업 및 이벤트 노드를 추가하고, 예약을 구성하고, Journey Optimizer B2B edition에서 라이브 오케스트레이션을 위해 게시합니다.
+title: 여정 빌드 및 게시
+description: 시각적 캔버스에서 계정 및 사용자 여정을 만들고, 작업 및 이벤트 노드를 추가하고, 예약을 구성하고, Journey Optimizer B2B edition에서 라이브 오케스트레이션을 위해 게시합니다.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---
 
-# 계정 여정 만들기 및 게시
+# 여정 작성 및 게시
 
-계정 여정을 시작하려면 여정을 만든 다음 여정 맵에서 노드 및 여정 흐름을 구성합니다.
+여정을 시작하려면 여정을 만든 다음 여정 맵에서 노드 및 여정 흐름을 구성합니다.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
-## 계정 여정 만들기
+## 여정 만들기
 
-1. 왼쪽 탐색 영역에서 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다.
+왼쪽 탐색 메뉴의 **[!UICONTROL 여정 관리]**&#x200B;에서 만들려는 여정 형식을 선택합니다.
+
+* **[!UICONTROL 계정 여정]**
+* **[!UICONTROL 개인 여정]**(Beta)
+
+새 여정 추가(_T):_
+
++++계정 여정
 
 1. 페이지 오른쪽 상단에서 **[!UICONTROL 계정 여정 만들기]**&#x200B;를 클릭합니다.
 
@@ -29,9 +36,26 @@ ht-degree: 4%
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-## 여정 빌딩 블록
++++
 
-_여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이 영역에서 여정 노드를 추가하고 구성할 수 있습니다. 노드를 클릭하여 캔버스 오른쪽에 있는 속성 창을 열고 디자인에 따라 설정합니다. 계정 여정은 항상 여정에 입력을 추가할 수 있는 [계정 대상 노드](./account-audience-nodes.md)(으)로 시작합니다.
++++개인 여정(Beta)
+
+1. 페이지의 오른쪽 상단에서 **[!UICONTROL 여정 만들기]**&#x200B;를 클릭합니다.
+
+1. 대화 상자에서 고유한 **[!UICONTROL 이름]**(필수)과 **[!UICONTROL 설명]**(선택 사항)을 입력합니다.
+
+   ![여정 만들기 대화 상자](./assets/person-journey-create-dialog.png){width="400"}
+
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+
++++
+
+## 여정 디자인을 위한 빌딩 블록
+
+_여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이 영역에서 여정 노드를 추가하고 구성할 수 있습니다. 노드를 클릭하여 캔버스 오른쪽에 있는 속성 창을 열고 디자인에 따라 설정합니다. 여정은 항상 여정에 대한 입력을 정의할 수 있는 대상 노드로 시작합니다.
+
+* [계정 대상자 노드](./account-audience-nodes.md)
+* [개인 대상 노드](./person-audience-nodes.md)
 
 계정 여정을 만들고 대상을 추가한 후 노드를 사용하여 여정을 빌드합니다. 여정 맵에서는 다음 노드 유형을 사용하여 다단계 B2B 마케팅 사용 사례를 빌드하여 계정 여정을 구성할 수 있는 캔버스를 제공합니다.
 
@@ -109,7 +133,7 @@ _여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이
 
    여정을 게시할 준비가 되면 _[!UICONTROL 게시]_&#x200B;를 클릭하면 이러한 설정을 검토할 수 있습니다.
 
-## 계정 여정 게시
+## 여정 게시
 
 차단기 오류가 없는 경우 여정을 게시할 수 있습니다. 게시되면 여정 상태가 _진행 중_&#x200B;으로 변경됩니다. 여정에 오류가 있으면 _[!UICONTROL 게시]_ 단추가 콘텐츠 정보로 흐리게 표시됩니다. `Resolve errors before publishing`.
 
@@ -141,4 +165,4 @@ _여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443226/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
