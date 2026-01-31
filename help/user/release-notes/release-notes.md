@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
 workflow-type: tm+mt
-source-wordcount: '3841'
-ht-degree: 91%
+source-wordcount: '4087'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +24,29 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 에이전트 | 업데이트 | 설명 |
 | ----- | ------ | ----------- |
-| 여정 빌드 에이전트 | 신규 용어 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
+| 여정 빌드 에이전트 | 신규 및 업데이트됨 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
 | Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
 | 영업 구분자 | 신규 용어 | Sales Qualifier는 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B edition의 AI 기반 추가 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸쳐 잠재 고객 자격, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](../agents/sales-qualifier.md) |
+
+## 2026.1 릴리스 정보
+
+**배포 일자**: 2025년 2월 3일 화요일
+
+| 유형 | 항목 | 설명 |
+| ---- | ---- | ----------- |
+| 기능 | 브랜드 키트 | (Beta) Journey Optimizer B2B edition에서 브랜드를 정의하여 크리에이티브 팀이 시각적 또는 서면 콘텐츠를 만들 때 사용할 수 있는 소스를 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. |
+| 기능 | 이메일 콘텐츠 생성을 위한 브랜드 | 브랜드 지침을 정의하고 이 정보를 사용하여 이메일 콘텐츠를 생성할 수 있습니다. 이 기능을 사용하면 이메일 콘텐츠가 브랜드별 카피 작성 지침, 스타일 및 색조에 맞게 조정됩니다. |
+| 개선 사항 | 여정 _대기_ 노드 - 고급 설정 | 이제 여정의 _대기_ 노드에 대해 종료 날짜 및 시간을 지정하고 시간대를 선택할 수 있습니다. 이 향상된 기능을 통해 여정 오케스트레이션 및 캠페인 타이밍을 보다 효과적으로 제어할 수 있습니다. |
+| 개선 사항 | 구매 그룹 구성원 필터 - 제거됨 | _사람별 분할 경로_ 노드의 경우 _[!UICONTROL 구매 그룹의 구성원]_ 필터에 이제 _Is Removed_ 제약 조건이 포함됩니다. 이 필터를 선택하면 필터가 제거된 구매 그룹 구성원을 포함하거나 제외할 수 있습니다. _[!UICONTROL 구매 그룹의 구성원]_ 필터에서 이 새로운 제약 조건을 사용할 수 있는 Marketo Engage 스마트 목록에서도 지원됩니다. |
+| 개선 사항 | 이메일 디자인 - 여러 수준의 글머리 기호 | 이제 이메일 콘텐츠 디자인 공간 도구에서 하위 글머리 기호(글머리 기호 수준)를 지원합니다. |
+
+<!--
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
+| -->
+
+>[!NOTE]
+>
+>이번 릴리스 변경 사항은 2025년 2월 3일 화요일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 ## 2025.10 릴리스 정보
 
