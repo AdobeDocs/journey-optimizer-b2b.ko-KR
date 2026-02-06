@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
+source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
 workflow-type: tm+mt
 source-wordcount: '4087'
 ht-degree: 86%
@@ -30,7 +30,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 ## 2026.1 릴리스 정보
 
-**배포 일자**: 2025년 2월 3일 화요일
+**배포 일자**: 2026년 2월 3일 수요일
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
@@ -46,7 +46,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 >[!NOTE]
 >
->이번 릴리스 변경 사항은 2025년 2월 3일 화요일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+>이번 릴리스 변경 사항은 2026년 2월 3일 수요일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 ## 2025.10 릴리스 정보
 
