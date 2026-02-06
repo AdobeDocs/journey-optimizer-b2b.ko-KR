@@ -4,9 +4,9 @@ description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1845'
 ht-degree: 4%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 4%
 | [!UICONTROL 활동 기록] > [!UICONTROL 즐거운 시간이 있습니다] | 연결된 Marketo Engage 인스턴스에 정의된 관심 있는 순간 활동입니다. 제한 사항은 다음과 같습니다. <li>마일스톤<li>이메일<li>웹 <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL 활동 기록] > [!UICONTROL 방문한 웹 페이지] | 연관된 Marketo Engage 인스턴스에서 관리하는 하나 이상의 웹 페이지에 대한 웹 페이지 활동. 제한 사항은 다음과 같습니다. <li>웹 페이지(필수)<li>활동 날짜<li>클라이언트 IP 주소 <li>Querystring <li>레퍼러 <li>사용자 에이전트 <li>검색 엔진 <li>검색 쿼리 <li>개인화된 URL <li>토큰 <li>브라우저 <li>플랫폼 <li>디바이스 <li>최소. <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> 횟수 |
 | [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>구/군/시 <li>국가 <li>생년월일 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 일시 중단됨 <li>이름 <li>상태 영역 유추<li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주/도 <li>구독 취소 <li>구독 취소 이유 |
-| [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>역할</li> |
+| [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨</li><li>역할</li> |
 | [!UICONTROL 특수 필터] > [!UICONTROL 목록의 구성원] | 해당 사용자는 하나 이상의 Marketo Engage 목록에 속하거나 속하지 않습니다. |
 | [!UICONTROL 특수 필터] > [!UICONTROL 프로그램 구성원] | 해당 사용자는 하나 이상의 Marketo Engage 프로그램의 멤버이거나 멤버입니다. |
 
@@ -108,7 +108,7 @@ ht-degree: 4%
 
 1. **[!UICONTROL 사람 이벤트 선택]** 선택기의 화살표를 클릭하고 메뉴를 **[!UICONTROL Marketo Engage]** 섹션으로 스크롤합니다.
 
-1. Market Engage 활동 유형을 선택합니다.
+1. Marketo Engage 활동 유형 선택:
 
    * **[!UICONTROL 웹 페이지 방문]**.
    * **[!UICONTROL 양식 작성]**
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 경험 이벤트 수신
 
-관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. 관리자 [관심 있는 이벤트 유형 및 필드를 선택하여](../admin/configure-aep-events.md#select-an-event)여정에서 사용할 수 있도록 합니다.
 
@@ -224,4 +224,4 @@ ht-degree: 4%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?captions=kor&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
