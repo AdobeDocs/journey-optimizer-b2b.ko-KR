@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >Journey Optimizer B2B edition용 [간소화된 아키텍처](../simplified-architecture.md)을(를) 사용하면 연결된 Marketo Engage 인스턴스에서 구매 그룹 필터를 더 이상 사용할 수 없습니다.</br></br>
 >
->또는 각 솔루션에 관심 있는 정적 목록을 만든 다음 여정 노드에서 [Marketo 목록에 추가&#x200B;_작업을 사용_&#x200B;할 수 있습니다. ](../journeys/action-nodes.md#marketo-engage-actions) 이렇게 하면 연결된 Marketo Engage 인스턴스의 특정 정적 목록에 구매 그룹 구성원이 추가됩니다. 그런 다음 스마트 목록 필터에 대해 솔루션 관심 집중 정적 목록을 사용합니다.
+>또는 각 솔루션에 관심 있는 정적 목록을 만든 다음 여정 노드에서 [Marketo 목록에 추가&#x200B;_작업을 사용_&#x200B;할 수 있습니다. &#x200B;](../journeys/action-nodes.md#marketo-engage-actions) 이렇게 하면 연결된 Marketo Engage 인스턴스의 특정 정적 목록에 구매 그룹 구성원이 추가됩니다. 그런 다음 스마트 목록 필터에 대해 솔루션 관심 집중 정적 목록을 사용합니다.
 
 마케터는 Journey Optimizer B2B edition의 구매 그룹에 속하는 사람들을 위해 Marketo Engage의 캠페인을 제한할 수 있습니다. 구매 그룹과 관련된 리드에 대한 정보를 사용하여 Marketo Engage의 리드 채점 워크플로우에 알릴 수도 있습니다. 예:
 

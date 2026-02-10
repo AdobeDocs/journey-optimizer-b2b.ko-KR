@@ -70,7 +70,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
    * 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
 
-     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. [역할&#x200B;_목록_&#x200B;에 정의된 ](./default-custom-roles.md#custom-roles)사용자 지정 역할도 목록에 포함됩니다.
+     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. [역할&#x200B;_목록_&#x200B;에 정의된 &#x200B;](./default-custom-roles.md#custom-roles)사용자 지정 역할도 목록에 포함됩니다.
 
      ![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -141,7 +141,7 @@ Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버�
 
 1. 필요에 따라 대화 상자에서 정의된 각 역할에 대해 **[!UICONTROL 필요한 구성원]** 값을 변경합니다.
 
-   값을 입력하거나 **&amp;plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수 있습니다.
+   값을 입력하거나 **&plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수 있습니다.
 
    ![역할 템플릿 - 완성도 점수 설정 단추](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
