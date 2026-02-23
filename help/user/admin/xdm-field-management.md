@@ -90,7 +90,7 @@ _[!UICONTROL 표준]_ 탭에서 표준 클래스에 대한 _관리되는 필드_
 
 #### 업데이트할 수 있는 필드
 
-업데이트할 수 있는 필드를 구성하려면 먼저 해당 필드가 사용자 지정 데이터 세트에 있어야 합니다. 사용자 지정 데이터 집합 워크플로에 대한 설명은 [데이터 집합 만들기 및 데이터 수집](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}을 참조하고 **[!UICONTROL 스키마에서 데이터 집합 만들기]** 옵션을 사용하십시오. 이 데이터 세트는 업데이트할 수 있는 필드를 분리하는 데 사용됩니다. 업데이트할 수 있는 모든 필드는 이 데이터 세트에 있어야 합니다.
+업데이트할 수 있는 필드를 구성하려면 먼저 해당 필드가 사용자 지정 데이터 세트에 있어야 합니다. 사용자 지정 데이터 집합 워크플로에 대한 설명은 [데이터 집합 만들기 및 데이터 수집](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}을 참조하고 **[!UICONTROL 스키마에서 데이터 집합 만들기]** 옵션을 사용하십시오. 이 데이터 세트는 업데이트할 수 있는 필드를 분리하는 데 사용됩니다. 업데이트할 수 있는 모든 필드는 이 데이터 세트에 있어야 합니다.
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ _[!UICONTROL 표준]_ 탭에서 표준 클래스에 대한 _관리되는 필드_
 
 >[!AVAILABILITY]
 >
->[관계형 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)는 [!DNL Journey Optimizer B2B Edition]에서 제한된 가용성 릴리스로 사용할 수 있습니다. [!DNL Journey Optimizer Orchestrated Campaigns] 라이선스 소유자는 Data Mirror 및 관계형 스키마를 사용할 수 있습니다. 라이선스 및 기능 활성화에 따라 [!DNL Customer Journey Analytics] 사용자에 대해 관계형 스키마를 제한된 릴리스로 사용할 수도 있습니다. 액세스하려면 Adobe 담당자에게 문의하십시오.
+>[관계형 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational#)는 [!DNL Journey Optimizer B2B Edition]에서 제한된 가용성 릴리스로 사용할 수 있습니다. [!DNL Journey Optimizer Orchestrated Campaigns] 라이선스 소유자는 Data Mirror 및 관계형 스키마를 사용할 수 있습니다. 라이선스 및 기능 활성화에 따라 [!DNL Customer Journey Analytics] 사용자에 대해 관계형 스키마를 제한된 릴리스로 사용할 수도 있습니다. 액세스하려면 Adobe 담당자에게 문의하십시오.
 
 >[!NOTE]
 >
