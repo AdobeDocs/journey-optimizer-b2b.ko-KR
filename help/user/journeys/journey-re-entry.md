@@ -4,19 +4,19 @@ description: 계정이 동일한 계정 여정을 다시 입력할 수 있는 �
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
-
 
 # 여정 재입력
 
 _계정 여정 전용_
 
-계정 여정에 대해 재입력을 활성화할 때, 계정이 동일한 여정에 재입력할 수 있는 시기와 빈도를 제어할 수 있습니다. 재입력 설정을 사용하여 통제된 방식으로 계정이 재인증되도록 기준, 제한 및 대기 시간을 설정합니다.
+계정 여정에 대해 재입력을 활성화할 때, 계정이 동일한 여정에 재입력할 수 있는 시기와 빈도를 제어할 수 있습니다. 재입력 설정을 사용하여 통제된 방식으로 계정이 여정에 대해 재인증되도록 기준, 제한 및 대기 시간을 설정합니다.
 
 다음 항목이 true인 경우 계정은 여정에 대해 재인증할 수 있습니다.
 

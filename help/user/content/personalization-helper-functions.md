@@ -6,9 +6,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4857'
+source-wordcount: '4853'
 ht-degree: 6%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->도우미 함수는 [간소화된 아키텍처](../simplified-architecture.md)에서 프로비저닝된 Journey Optimizer B2B edition 환경에서 사용할 수 있습니다.
+>[!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에서 프로비저닝된 ](../simplified-architecture.md) 환경에서 도우미 함수를 사용할 수 있습니다.
 
 ## 집계 함수
 
