@@ -45,7 +45,7 @@ _고급 대기 단계_&#x200B;를 사용하여 대기 시간이 아니라 사용
 
 >[!AVAILABILITY]
 >
->고급 대기 설정은 [!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에서 프로비저닝된 ](../simplified-architecture.md) 환경에서 사용할 수 있습니다.
+>고급 대기 설정은 [!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에서 프로비저닝된 &#x200B;](../simplified-architecture.md) 환경에서 사용할 수 있습니다.
 
 ### 대기 유형
 

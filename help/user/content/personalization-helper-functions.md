@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->[!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에서 프로비저닝된 ](../simplified-architecture.md) 환경에서 도우미 함수를 사용할 수 있습니다.
+>[!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에서 프로비저닝된 &#x200B;](../simplified-architecture.md) 환경에서 도우미 함수를 사용할 수 있습니다.
 
 ## 집계 함수
 
