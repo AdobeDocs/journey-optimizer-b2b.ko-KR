@@ -6,7 +6,8 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 표현식, 편집기, 시작, 개인화
-source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
+exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition] 개인화 기능을 사용하면 보유한 데이터 및 정보를 활용하여 전자 메일 메시지를 각 특정 받는 사람에게 적용할 수 있습니다. 이름, 업종, 직함 등이 될 수 있습니다.
 
-_개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 정렬하고, 사용자 지정하고, 유효성을 검사하여 콘텐츠에 대한 사용자 지정된 개인화를 만들 수 있습니다. 도우미 함수와 같은 다양한 도구를 사용하여 메시지를 사용자 지정할 수 있습니다. 편집기에서 _Handlebars_&#x200B;을(를) 기반으로 하는 인라인 개인화 구문을 사용합니다. 여기서 식은 중괄호 `{{}}`로 묶은 내용으로 구성됩니다.
+_개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 정렬하고, 사용자 지정하고, 유효성을 검사하여 콘텐츠에 대한 사용자 지정 개인 맞춤화를 만들 수 있습니다. 도우미 함수와 같은 다양한 도구를 사용하여 메시지를 사용자 지정할 수 있습니다. 편집기에서 _Handlebars_&#x200B;을(를) 기반으로 하는 인라인 개인화 구문을 사용합니다. 여기서 식은 중괄호 `{{}}`로 묶은 내용으로 구성됩니다.
 
 메시지를 처리할 때 Journey Optimizer B2B edition은 표현식을 Adobe Experience Platform 데이터 세트 및 로컬 시스템 값에 포함된 데이터로 대체합니다. 예를 들어 `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`은(는) 동적으로 `Hello John Doe`이(가) 됩니다.
 
@@ -42,7 +43,7 @@ _개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 
 
 >[!NOTE]
 >
->[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
+>[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
 
 ## Personalization 편집기
 
@@ -54,7 +55,7 @@ _개인화 추가_( ![개인화 추가 아이콘](../../assets/do-not-localize/i
 
 >[!NOTE]
 >
->개인화 편집기에 대한 다음 정보는 [!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에 제공된 &#x200B;](../simplified-architecture.md) 환경에서 사용할 수 있는 변경 사항을 반영합니다.
+>개인화 편집기에 대한 다음 정보는 [!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에 제공된 ](../simplified-architecture.md) 환경에서 사용할 수 있는 변경 사항을 반영합니다.
 
 ### 토큰 및 도우미 함수
 
@@ -78,36 +79,14 @@ _개인화 추가_( ![개인화 추가 아이콘](../../assets/do-not-localize/i
 
 ### 사용자 지정 데이터 세트
 
-전자 메일 개인화에 관계형 스키마(모델 기반 클래스)를 사용할 수 있습니다. 사용자 지정 개체는 _관계형 스키마_ 내에 정의되어 있으며 제품 관리자는 [에서 &#x200B;](../admin/xdm-field-management.md#relational-schemas)관계형 스키마 필드를 구성[!DNL Journey Optimizer B2B Edition]할 수 있습니다. 이러한 필드는 개인화 편집기에서 액세스할 수 있습니다. :M 계정에 일대다(1<!-- (M1.5 Beta) or Person (M1.5 GA) -->) 관계가 있는 사용자 지정 개체만 사용할 수 있습니다.
+[!BADGE Beta]{type=Informative tooltip="Beta 기능"}
+
+전자 메일 개인화에 관계형 스키마를 사용할 수 있습니다. 사용자 지정 개체는 _관계형 스키마_ 내에 정의되어 있으며 제품 관리자는 [에서 ](../admin/xdm-field-management.md#relational-schemas)관계형 스키마 필드를 구성[!DNL Journey Optimizer B2B Edition]할 수 있습니다. 이러한 필드는 개인화 편집기에서 액세스할 수 있습니다. 사용자 또는 계정과 일대다(1:M) 관계가 있는 사용자 지정 개체만 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->스크립팅된 개인화에 사용자 지정 개체를 사용하기 전에 [Handlebar 템플릿 언어](https://handlebarsjs.com/guide/), [개인화 구문](./personalization-syntax.md) 및 기본 제공 [도우미 함수](./personalization-helper-functions.md)를 검토하고 이해하십시오.
+>스크립팅된 개인화에 사용자 지정 개체를 사용하기 전에 [Handlebars 템플릿 언어](https://handlebarsjs.com/guide/), [개인화 구문](./personalization-syntax.md) 및 기본 제공 [도우미 함수](./personalization-helper-functions.md)를 검토하고 이해하십시오.
 
-사용자 지정 개체를 사용하여 개인화를 정의하면 **[!UICONTROL Personalization 토큰]**(사람/리드, 계정, 시스템 및 내 토큰)과 **[!UICONTROL 모델 기반 클래스]**(관계형 스키마)에서 스크립트에 액세스할 수 있는 개체의 모든 변수에 액세스할 수 있습니다. 모델 기반 클래스를 선택한 상태에서 사용자 지정 개체 폴더를 클릭하여 필드를 볼 수 있습니다. 식에 추가할 각 필드에 대해 **+**&#x200B;을(를) 클릭합니다.
+사용자 지정 개체를 사용하여 개인화를 정의하는 경우 **[!UICONTROL Personalization 토큰]**(사람/리드, 계정, 시스템 및 내 토큰)과 **[!UICONTROL 사용자 지정 개체]**(관계형 스키마)에서 스크립트에 액세스할 수 있는 개체의 모든 변수에 액세스할 수 있습니다. 사용자 지정 개체를 선택한 상태에서 사용자 지정 개체 폴더를 클릭하여 필드를 볼 수 있습니다. 식에 추가할 각 필드에 대해 **+**&#x200B;을(를) 클릭합니다.
 
-![Personalization 편집기 - 모델 기반 클래스 - 사용자 지정 개체 필드 추가](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
-
-<!-- ## Personalization experimentation {#playground}
-
-**[!DNL Adobe Journey Optimizer]** includes an interactive tool designed to help you learn and experiment with personalization capabilities.
-
-This playground provides a simulated environment to write and test personalization code using sample data without requiring live datasets. You can leverage predefined code samples, edit dummy profile payloads, and preview the output of your personalization code in real-time. 
-
-![personalization playground](assets/playground.png)
-
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"} 
-
-## How-to videos{#video-perso}
-
-Learn how to use contextual event information from a journey to personalize a message.
-
->[!VIDEO](https://video.tv.adobe.com/v/3448143?captions=kor&quality=12)
-
-Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
-
->[!VIDEO](https://video.tv.adobe.com/v/3416272?captions=kor&quality=12)
-
-Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
-
->[!VIDEO](https://video.tv.adobe.com/v/3475959?captions=kor&quality=12) -->
+![Personalization 편집기 - 모델 기반 클래스 - 사용자 지정 개체 필드 추가](./assets/personalization-editor-custom-object-fields.png){width="700" zoomable="yes"}
