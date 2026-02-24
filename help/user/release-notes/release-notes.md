@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
 workflow-type: tm+mt
-source-wordcount: '4474'
-ht-degree: 80%
+source-wordcount: '4371'
+ht-degree: 81%
 
 ---
 
@@ -26,11 +26,15 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | XDM 필드/관계형 스키마 - 개인 사용자 정의 객체 지원 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"}(Beta) 관리자는 이제 계정과의 단일 수준 일대일 관계를 사용하여 사용자와 관련된 사용자 지정 개체를 선택할 수 있습니다. 이 기능을 사용하면 마케팅 조직에서 개인 또는 계정 수준을 벗어난 엔터티를 타겟팅하고, 개인화하고, 보고하기 위해 실제 비즈니스 데이터에 대한 더 풍부한 보기를 표시할 수 있습니다. [자세히 알아보기](../admin/xdm-field-management.md#relational-schemas) |
 | 기능 | 여정 재입력 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 이제 여정 워크플로우를 통해 계정/사용자를 여러 번 보낼 수 있습니다. 재입력은 자격 기준의 재평가 및 다시 사용할 수 있는 육성 워크플로와 같은 여러 시나리오를 해결합니다. [자세히 알아보기](../journeys/journey-re-entry.md) |
-| 기능 | 이메일 디자인 - Firefly 및 맞춤형 생성 AI 모델 지원 | 이제 승인된 타사 이미지 모델(예: NanoBanana)과 함께 표준 및 사용자 지정 Firefly 모델의 통합을 활성화할 수 있습니다. 마케터는 각 사용 사례에 가장 적합한 모델을 선택할 수 있습니다. 일반적인 요구 사항에 맞는 표준 Firefly, 브랜드 내 생성을 위한 사용자 지정 Firefly 또는 전문 또는 실험 시나리오에 적합한 승인된 서드파티 모델. |
-| 개선 사항 | 이메일 디자인 - 콘텐츠 품질 유효성 검사 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. |
 | 개선 사항 | 계정 및 개인 여정 - 개인 사용자 지정 개체에 대한 지원 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"}(Beta) 계정 또는 사용자 여정 내에서 사용자를 필터링하기 위해 계정에 연결된 관계형 데이터를 활용합니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | 개선 사항 | (Beta) 콘텐츠 개인화 - 개인 사용자 지정 개체 지원 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 사용자 지정 개체를 사용하여 콘텐츠 개인화를 정의하는 경우 모델 기반 클래스 사용자 지정 개체(관계형 스키마)의 변수에 액세스할 수 있습니다. [자세히 알아보기](../content/personalization.md#custom-datasets) |
 | 개선 사항 | 대상에 활성화 - 재사용 가능한 대상 | 이제 동일한 여정 내에서 _대상에 대한 활성화_ 여정 작업에서 가상 대상을 재사용하고 가상 대상에서 계정을 제거할 수 있습니다. |
+
+<!-- wait for next release
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
+| Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
+| Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
+| -->
 
 >[!NOTE]
 >
@@ -47,10 +51,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 여정 _대기_ 노드 - 고급 설정 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="단순화된 아키텍처에 사용 가능"} 이제 여정의 _대기_ 노드에 대해 종료 날짜 및 시간을 지정하고 시간대를 선택할 수 있습니다. 이 향상된 기능을 통해 여정 오케스트레이션 및 캠페인 타이밍을 보다 효과적으로 제어할 수 있습니다. [자세히 알아보기](../journeys/wait-nodes.md#advanced-wait-settings) |
 | 개선 사항 | 구매 그룹 구성원 필터 - 제거됨 | _사람별 분할 경로_ 노드의 경우 _[!UICONTROL 구매 그룹의 구성원]_ 필터에 이제 _Is Removed_ 제약 조건이 포함됩니다. 이 필터를 선택하면 필터가 제거된 구매 그룹 구성원을 포함하거나 제외할 수 있습니다. _[!UICONTROL 구매 그룹의 구성원]_ 필터에서 이 새로운 제약 조건을 사용할 수 있는 Marketo Engage 스마트 목록에서도 지원됩니다. |
 | 개선 사항 | 이메일 디자인 - 여러 수준의 글머리 기호 | 이제 이메일 콘텐츠 디자인 공간 도구에서 하위 글머리 기호(글머리 기호 수준)를 지원합니다. |
-
-<!--
-| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
-| -->
 
 >[!NOTE]
 >
