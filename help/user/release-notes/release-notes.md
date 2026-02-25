@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
+source-git-commit: 0215a83066bea181a09050b2ea35899241125a4d
 workflow-type: tm+mt
-source-wordcount: '4371'
-ht-degree: 81%
+source-wordcount: '4343'
+ht-degree: 82%
 
 ---
 
@@ -28,13 +28,12 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 여정 재입력 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 이제 여정 워크플로우를 통해 계정/사용자를 여러 번 보낼 수 있습니다. 재입력은 자격 기준의 재평가 및 다시 사용할 수 있는 육성 워크플로와 같은 여러 시나리오를 해결합니다. [자세히 알아보기](../journeys/journey-re-entry.md) |
 | 개선 사항 | 계정 및 개인 여정 - 개인 사용자 지정 개체에 대한 지원 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"}(Beta) 계정 또는 사용자 여정 내에서 사용자를 필터링하기 위해 계정에 연결된 관계형 데이터를 활용합니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | 개선 사항 | (Beta) 콘텐츠 개인화 - 개인 사용자 지정 개체 지원 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 사용자 지정 개체를 사용하여 콘텐츠 개인화를 정의하는 경우 모델 기반 클래스 사용자 지정 개체(관계형 스키마)의 변수에 액세스할 수 있습니다. [자세히 알아보기](../content/personalization.md#custom-datasets) |
-| 개선 사항 | 대상에 활성화 - 재사용 가능한 대상 | 이제 동일한 여정 내에서 _대상에 대한 활성화_ 여정 작업에서 가상 대상을 재사용하고 가상 대상에서 계정을 제거할 수 있습니다. |
 
-<!-- wait for next release
+<!-- wait for later release
 | Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
 | Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
 | Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
-| -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 >[!NOTE]
 >
