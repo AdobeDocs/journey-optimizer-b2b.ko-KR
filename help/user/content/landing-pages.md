@@ -5,9 +5,9 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2220'
 ht-degree: 2%
 
 ---
@@ -114,11 +114,11 @@ Adobe Journey Optimizer B2B edition을 사용하면 기존 HTML 콘텐츠를 가
 
 필요에 따라 시각적 디자인 공간을 사용하여 가져온 콘텐츠를 개인화할 수 있습니다.
 
-### 저장된 템플릿 선택
+### 저장된 템플릿 또는 샘플 템플릿 선택
 
 다음 중에서 선택할 수 있습니다.
 
-* **샘플 템플릿**. Journey Optimizer 인터페이스는 선택할 수 있는 기본 랜딩 페이지 템플릿 컬렉션을 제공합니다.
+* **샘플 템플릿**. Journey Optimizer B2B edition 인터페이스는 랜딩 페이지 디자인의 시작점으로 사용할 수 있는 기본 랜딩 페이지 템플릿 컬렉션을 제공합니다.
 
 * **저장된 템플릿**. _[!UICONTROL 템플릿]_ 메뉴 <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->을(를) 사용하여 조직의 멤버가 만든 저장된 사용자 지정 템플릿을 사용하십시오.
 
@@ -271,7 +271,7 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
 다음 방법 중 하나를 사용하여 랜딩 페이지를 복제할 수 있습니다.
 
-* _[!UICONTROL 랜딩 페이지]_ 목록 페이지에서 랜딩 페이지 이름 옆에 있는 _자세히_ 아이콘(**...**)을 클릭하고 **[!UICONTROL 복제]**&#x200B;를 선택합니다.
+* _[!UICONTROL 랜딩 페이지]_ 목록 페이지에서 _자세히_ 아이콘(**...**)을 클릭합니다. 랜딩 페이지 이름 옆에 있는 **[!UICONTROL 복제]**&#x200B;를 선택합니다.
 * 랜딩 페이지 세부 정보 페이지의 오른쪽 상단에서 **[!UICONTROL 을(를) 클릭합니다. 추가]**&#x200B;하고 **[!UICONTROL 복제]**&#x200B;를 선택하세요.
 
 ![랜딩 페이지 복제](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
@@ -286,7 +286,7 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
 다음 방법 중 하나를 사용하여 랜딩 페이지를 삭제할 수 있습니다.
 
-* _[!UICONTROL 랜딩 페이지]_ 목록 페이지에서 랜딩 페이지 이름 옆의 _자세히_ 아이콘(**...**)을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+* _[!UICONTROL 랜딩 페이지]_ 목록 페이지에서 _자세히_ 아이콘(**...**)을 클릭합니다. 랜딩 페이지 이름 옆에 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 * 랜딩 페이지 세부 정보 페이지의 오른쪽 상단에서 **[!UICONTROL 을(를) 클릭합니다. 자세히]**. **[!UICONTROL 삭제]**&#x200B;를 선택하세요.
 
 이 작업을 수행하면 확인 대화 상자가 열립니다. **[!UICONTROL 취소]**&#x200B;를 클릭하여 프로세스를 중단하거나 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인할 수 있습니다.

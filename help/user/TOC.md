@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 78%
+source-wordcount: '415'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 78%
    + [AI 어시스턴트 액세스 활성](./ai-assistant/enable-ai-assistant-access.md)
    + [질문 지침](./ai-assistant/question-guidance.md)
    + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
+   + [콘텐츠를 위한 생성 AI](./ai-assistant/generative-ai-content.md)
    + 상담원 {#ai-agents}
       + [Audience 에이전트](./agents/audience-agent-b2b.md)
       + [여정 빌드 에이전트 B2B](./agents/journey-agent.md)
@@ -116,6 +117,7 @@ ht-degree: 78%
    + 랜딩 페이지 (Beta) {#landing-pages}
       + [개요](./content/landing-pages.md)
       + [랜딩 페이지 디자인](./content/landing-page-design.md)
+      + [랜딩 페이지 콘텐츠에 대한 AI 지원](./content/ai-assistant-landing-pages.md)
    + 콘텐츠 디자인 도구 {#content-design}
       + [구조 구성 요소](./content/structure-components.md)
       + [콘텐츠 구성 요소](./content/content-components.md)
