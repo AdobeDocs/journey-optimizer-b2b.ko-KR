@@ -4,10 +4,10 @@ description: 대상 제품에 대한 솔루션 관심사를 생성하고, 역할
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: e914d3a43c40bd6f4c60c7be0a9e91ff4e5838d1
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
    이 목록은 기본적으로 _[!UICONTROL 마지막 업데이트]_ 열을 기준으로 정렬됩니다. 내림차순과 오름차순 간에 정렬을 전환하려면 헤더에서 열 제목을 클릭합니다.
 
-   목록 맨 위에 있는 _검색_ 도구에 텍스트를 입력하여 표시된 목록을 이름별로 필터링합니다.
+   목록 상단의 _검색_ 도구에 텍스트를 입력하면 표시된 목록을 이름으로 필터링할 수 있습니다.
 
    ![솔루션 관심 영역 탭](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
@@ -37,7 +37,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 ![솔루션에 관심이 있는 그룹 작업 구매](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
-작업 이름 옆의 생략 부호(...)를 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택하여 구매 그룹 작업을 삭제할 수 있습니다.
+줄임표(...)를 클릭하여 구매 그룹 작업을 삭제할 수 있습니다. 작업 이름 옆에 있는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
 ## 관심 있는 솔루션 만들기
 
@@ -49,7 +49,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 1. **[!UICONTROL 역할 템플릿]**&#x200B;을(를) 선택하십시오(필수).
 
-   **[!UICONTROL 역할 템플릿 선택]**&#x200B;을 클릭하고 대화 상자의 목록에서 라이브 역할 템플릿을 선택합니다. 하나의 라이브 역할 템플릿만 솔루션 관심사에 연결할 수 있습니다. 선택한 역할 템플릿이 표시되는 **[!UICONTROL 솔루션 관심 항목 만들기]** 페이지로 돌아가려면 _[!UICONTROL 저장]_&#x200B;을 클릭합니다.
+   **[!UICONTROL 역할 템플릿 선택]**&#x200B;을 클릭하고 대화 상자의 목록에서 라이브 역할 템플릿을 선택합니다. 하나의 라이브 역할 템플릿만 솔루션 관심사에 연결할 수 있습니다. 선택한 역할 템플릿이 표시되는 _[!UICONTROL 솔루션 관심 항목 만들기]_ 페이지로 돌아가려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![솔루션 관심에 역할 템플릿 추가](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -59,7 +59,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 1. **[!UICONTROL 기존 구매 그룹 업데이트]** 설정을 사용합니다(선택 사항).
 
-   이 옵션이 활성화되면 솔루션 관심사와 쌍을 이루는 모든 기존 구매 그룹이 7일 동기화 주기를 통해 업데이트됩니다.
+   이 옵션이 활성화되면 솔루션 관심사와 쌍을 이루는 모든 기존 구매 그룹이 일별 동기화 주기를 통해 업데이트됩니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
@@ -72,7 +72,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 1. _[!UICONTROL 솔루션 관심 분야]_ 탭에서 다음 방법 중 하나를 사용하여 편집할 솔루션 관심 분야의 속성을 엽니다.
 
    * 솔루션 관심사 이름을 클릭합니다.
-   * 옆에 있는 줄임표(**..**)를 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+   * 줄임표(**...**)를 클릭합니다. 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 선택하세요.
 
    ![솔루션 관심 영역 추가 메뉴](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -86,7 +86,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
    * **[!UICONTROL 기존 구매 그룹 업데이트]** 설정을 변경합니다.
 
-     이 옵션이 활성화되면 솔루션 관심사와 쌍을 이루는 모든 기존 구매 그룹이 7일 동기화 주기를 통해 업데이트됩니다.
+     이 옵션이 활성화되면 솔루션 관심사와 쌍을 이루는 모든 기존 구매 그룹이 일별 동기화 주기를 통해 업데이트됩니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -94,7 +94,7 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 현재 구매 그룹 작업 또는 계정 여정에서 사용 중인 솔루션 관심사는 삭제할 수 없습니다. 또한 삭제된 솔루션 관심사를 검색할 수 없습니다.
 
-1. _[!UICONTROL 솔루션 관심 분야]_ 탭에서 솔루션 관심 분야 옆의 생략 부호(**...**)를 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+1. _[!UICONTROL 솔루션 관심 분야]_ 탭에서 줄임표(**...**)를 클릭합니다. 솔루션 관심사 옆에 있는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
    이 작업을 수행하면 확인 대화 상자가 열립니다.
 
@@ -104,4 +104,4 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3450120/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
