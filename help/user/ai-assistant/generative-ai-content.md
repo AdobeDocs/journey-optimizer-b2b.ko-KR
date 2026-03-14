@@ -49,7 +49,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 ## 일반 지침 및 제한 사항 {#general-guidelines-and-limitations}
 
-생성 AI 기능의 사용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}의 적용을 받습니다. 미디어 생성을 위한 생성 AI 도구 사용에 대한 Adobe의 노력으로 Adobe은 [!DNL Firefly]에서 생성한 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 대해 [콘텐츠 자격 증명](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을(를) 다운로드하거나 내보낼 때 적용합니다.
+생성 AI 기능의 사용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}의 적용을 받습니다. 미디어 생성을 위한 생성 AI 도구 사용에 대한 Adobe의 노력으로 Adobe은 [!DNL Firefly]에서 생성한 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 대해 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을(를) 다운로드하거나 내보낼 때 적용합니다.
 
 [!DNL Journey Optimizer B2B Edition]의 콘텐츠에 생성 AI를 사용하는 방법에 대한 일반 지침을 검토하십시오.
 
