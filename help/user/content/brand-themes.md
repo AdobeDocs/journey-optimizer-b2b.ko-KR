@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 재사용 가능성, 브랜드 정렬, 이메일 디자인
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3107'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
    * [텍스트 설정](#text-settings)
    * [간격 및 테두리](#spacing-and-border)
    * [버튼](#button)
-   * [분할자](#divider)
+   * [구분선](#divider)
    * [격자](#grid)
 
    새 테마 설정을 정의하면 캔버스에서 시각적 요소가 변경됩니다. 결과가 원하는 결과가 아닌 경우 오른쪽 패널 하단에 있는 _실행 취소_( ![실행 취소 아이콘](../assets/do-not-localize/icon-design-themes-undo.png){width="16"}) 아이콘을 클릭할 수 있습니다. 변경 사항을 다시 적용하려면 _다시 실행_( ![다시 실행 아이콘](../assets/do-not-localize/icon-design-themes-redo.png){width="16"} ) 아이콘을 클릭하십시오.
@@ -113,7 +113,11 @@ ht-degree: 2%
 
   색상 팔레트 도구를 닫으려면 _뒤로_ 화살표를 클릭하십시오.
 
-* **[!UICONTROL 변형 추가]**&#x200B;를 클릭하여 _light_ 및 _dark_ 모드와 같은 여러 색상 변형을 만듭니다. 각 변형에는 고유한 색상 팔레트 및 뉘앙스 컨트롤이 있습니다. 최대 6개의 변형을 가질 수 있습니다.
+* **[!UICONTROL 변형 추가]**&#x200B;를 클릭하여 _light_ 및 _dark_ 모드와 같은 여러 색상 변형을 만듭니다. 각 변형에는 고유한 색상 팔레트 및 뉘앙스 컨트롤이 있습니다.
+
+  >[!NOTE]
+  >
+  >각 브랜드 테마에 대해 최대 4개의 변형을 정의할 수 있습니다.
 
   각 변형에 대해 _편집_( ![편집 아이콘](../assets/do-not-localize/icon-edit.svg) ) 아이콘을 클릭합니다. 기본 팔레트 또는 사용자 지정 색상을 사용할 수 있습니다.
 
@@ -164,7 +168,7 @@ ht-degree: 2%
 | ---- | -------- | ----------- |
 | [!UICONTROL 여백] | ![여백 설정](./assets/email-theme-spacing-settings-margins.png){width="300"} | _Margin_ 아이콘을 선택하여 CSS `margin` 매개 변수를 복제하는 설정을 표시합니다. 이 매개 변수는 구성 요소 테두리 외부의 공간으로 제어하고 다른 구성 요소/요소와 구분합니다. 구성 요소 주위에 간격을 만들어 위치 및 주변 컨텐츠 레이아웃에 영향을 줍니다. 디자인 요구에 따라 여백 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 위쪽 단추, 왼쪽/오른쪽 또는 각 면에 대한 여백을 독립적으로 설정할 수 있습니다. 상단-하단 및 왼쪽-오른쪽 여백 값을 동기화하거나 동기화하지 않으려면 _잠금_ 및 _잠금 해제_ 아이콘을 클릭하십시오. |
 | [!UICONTROL 패딩] | ![패딩 설정](./assets/email-theme-spacing-settings-paddings.png){width="300"} | _패딩_ 아이콘을 선택하여 구성 요소/요소의 콘텐츠와 테두리 사이의 공간인 CSS `padding` 매개 변수를 복제하는 설정을 표시합니다. 패딩은 내용과 구성 요소 테두리 사이의 거리를 제어하는 데 사용할 수 있는 내부 공간을 제공합니다. 디자인 요구에 따라 패딩 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 상단, 왼쪽-오른쪽 또는 각 면에 대한 패딩을 독립적으로 설정할 수 있습니다. 상단-하단 및 왼쪽-오른쪽 패딩 값을 동기화하거나 동기화하지 않으려면 _잠금_ 및 _잠금 해제_ 아이콘을 클릭하십시오. |
-| [!UICONTROL 모서리] | ![모퉁이 설정](./assets/email-theme-spacing-settings-corners.png){width="300"} | 구성 요소/요소 모퉁이의 반경을 정의하는 CSS _매개 변수를 복제하는 설정을 표시하려면_&#x200B;모퉁이`border-radius` 아이콘을 선택하십시오. 코너에 대해 원하는 커브에 따라 숫자 값을 설정합니다. 값이 0(기본값)이면 사각형 모서리가 생성됩니다. |
+| [!UICONTROL 모서리] | ![모퉁이 설정](./assets/email-theme-spacing-settings-corners.png){width="300"} | 구성 요소/요소 모퉁이의 반경을 정의하는 CSS `border-radius` 매개 변수를 복제하는 설정을 표시하려면 _모퉁이_ 아이콘을 선택하십시오. 코너에 대해 원하는 커브에 따라 숫자 값을 설정합니다. 값이 0(기본값)이면 사각형 모서리가 생성됩니다. |
 
 +++
 
@@ -193,12 +197,12 @@ ht-degree: 2%
 | 유형 | 설정 | 설명 |
 | ---- | -------- | ----------- |
 | [!UICONTROL 텍스트] | ![단추 텍스트 설정](./assets/email-theme-button-settings-text.png){width="300"} | **[!UICONTROL 글꼴 라이브러리]**&#x200B;를 _[!UICONTROL 표준]_ 또는 _[!UICONTROL Google 글꼴]_(으)로 설정합니다. 그런 다음 글꼴 모음, 크기 및 스타일을 선택합니다. **[!UICONTROL 텍스트 맞춤]**: _왼쪽_, _가운데_, _오른쪽_ 또는 _양쪽 맞춤_&#x200B;을 선택하세요. |
-| [!UICONTROL 테두리] | ![단추 테두리 설정](./assets/email-theme-button-settings-border.png){width="300"} | **[!UICONTROL 테두리]** 토글을 오른쪽으로 이동하여 단추 테두리 표시 옵션을 활성화하고 디자인 기준에 따라 설정합니다. 픽셀 수를 늘리거나 줄여 **[!UICONTROL 테두리 크기]**(선 폭)을 설정하십시오. 표준 CSS **[!UICONTROL 값 목록에서 값을 선택하여]**&#x200B;테두리 스타일`border-style`을(를) 설정합니다(예: _Solid_, _Dotted_, _Dashed_). |
+| [!UICONTROL 테두리] | ![단추 테두리 설정](./assets/email-theme-button-settings-border.png){width="300"} | **[!UICONTROL 테두리]** 토글을 오른쪽으로 이동하여 단추 테두리 표시 옵션을 활성화하고 디자인 기준에 따라 설정합니다. 픽셀 수를 늘리거나 줄여 **[!UICONTROL 테두리 크기]**(선 폭)을 설정하십시오. 표준 CSS `border-style` 값 목록에서 값을 선택하여 **[!UICONTROL 테두리 스타일]**&#x200B;을(를) 설정합니다(예: _Solid_, _Dotted_, _Dashed_). |
 | [!UICONTROL 크기] | ![단추 크기 설정](./assets/email-theme-button-settings-size.png){width="300"} | **[!UICONTROL 높이]** 옵션의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다. 빈 값(자동)은 기본값이며 내용에 따라 버튼의 높이를 조정합니다. **[!UICONTROL 너비]**&#x200B;에 대해 전환으로 너비를 픽셀 또는 백분율로 설정하십시오. 백분율 너비의 경우 슬라이더를 사용하여 백분율 값을 설정합니다. 백분율은 포함 블록의 콘텐츠 상자를 기반으로 단추 크기를 결정합니다. 이 콘텐츠 상자에서는 패딩과 테두리가 제외됩니다. 예를 들어 값 50은 단추 너비를 포함된 블록 콘텐츠 너비의 50%로 설정합니다. 픽셀 기반 너비의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다. 빈 값(_Auto_)은 기본값이며 내용에 따라 단추의 너비를 조정합니다. |
 
 +++
 
-### 분할자
+### 구분선
 
 **[!UICONTROL 분할기]** 탭에서 분할기 구성 요소의 줄 스타일 및 컨테이너 설정을 설정할 수 있습니다.
 
@@ -208,7 +212,7 @@ ht-degree: 2%
 
 | 유형 | 설정 | 설명 |
 | ---- | -------- | ----------- |
-| [!UICONTROL Line] | ![분할선 설정](./assets/email-theme-divider-settings-line.png){width="300"} | 표준 CSS **[!UICONTROL 값 목록에서 값을 선택하여]**&#x200B;테두리 스타일`border-style`을(를) 설정합니다(예: _Solid_, _Dotted_, _Dashed_). |
+| [!UICONTROL Line] | ![분할선 설정](./assets/email-theme-divider-settings-line.png){width="300"} | 표준 CSS `border-style` 값 목록에서 값을 선택하여 **[!UICONTROL 테두리 스타일]**&#x200B;을(를) 설정합니다(예: _Solid_, _Dotted_, _Dashed_). |
 | [!UICONTROL 컨테이너 크기] | ![분할자 컨테이너 크기 설정](./assets/email-theme-divider-settings-container-size.png){width="300"} | **[!UICONTROL 높이]** 옵션의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 구성 요소/요소의 픽셀 수를 늘리거나 줄입니다. 빈 값(자동)은 기본값이며 내용에 따라 높이의 크기를 조정합니다(선 스타일). **[!UICONTROL 너비]**&#x200B;에 대해 전환으로 너비를 픽셀 또는 백분율로 설정하십시오. 백분율 너비의 경우 슬라이더를 사용하여 백분율 값을 설정합니다. 백분율은 포함 블록의 콘텐츠 상자를 기반으로 요소 너비를 결정합니다. 예를 들어, 50이라는 값은 구분선 너비를 포함하는 블록 콘텐츠 너비의 50%로 설정합니다. 픽셀 기반 너비의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다. 빈 값(_Auto_)은 기본값이며 내용에 따라 구분선 너비의 크기를 지정합니다. |
 | [!UICONTROL 정렬] | ![분할선 정렬 설정](./assets/email-theme-divider-settings-alignment.png){width="300"} | 포함 블록 내에서 수평 정렬을 선택합니다. _왼쪽_, _가운데_ 또는 _오른쪽_. |
 
@@ -237,7 +241,7 @@ ht-degree: 2%
 * [텍스트 설정](#text-settings)
 * [간격 및 테두리](#spacing-and-border)
 * [버튼](#button)
-* [분할자](#divider)
+* [구분선](#divider)
 * [격자](#grid)
 
 ![테마 편집 - 편집할 사용자 지정 테마 선택](./assets/email-theme-edit-canvas.png){width="800" zoomable="yes"}
@@ -271,7 +275,7 @@ ht-degree: 2%
    * [텍스트 설정](#text-settings)
    * [간격 및 테두리](#spacing-and-border)
    * [버튼](#button)
-   * [분할자](#divider)
+   * [구분선](#divider)
    * [격자](#grid)
 
    ![테마 편집 - 편집할 사용자 지정 테마 선택](./assets/email-theme-edit-canvas.png){width="800" zoomable="yes"}
@@ -286,7 +290,7 @@ ht-degree: 2%
 
 ### 테마 삭제 또는 복제
 
-테마를 찾으면 테마 카드의 오른쪽 하단에 있는 _추가 메뉴_(**...**) 아이콘을 클릭하고 수행할 작업을 선택합니다.
+테마를 찾으면 _추가 메뉴_(**...**)을 클릭하세요. 테마 카드의 오른쪽 하단에 있는 아이콘을 클릭하고 수행할 작업을 선택합니다.
 
 ![테마 편집 - 편집할 사용자 지정 테마 선택](./assets/email-theme-edit-more-menu.png){width="220"}
 
@@ -314,7 +318,7 @@ ht-degree: 2%
      >
      >_[!UICONTROL 수동 스타일 지정]_ 모드를 선택한 경우 테마를 적용하려면 전자 메일 디자인을 다시 설정해야 합니다.
      >
-     >_[!UICONTROL 테마]_ 모드를 선택한 경우 [테마](./fragments.md) 모드에서도 만들어진 _조각_&#x200B;만 전자 메일 콘텐츠에 추가할 수 있습니다.
+     >_[!UICONTROL 테마]_ 모드를 선택한 경우 _테마_ 모드에서도 만들어진 [조각](./fragments.md)만 전자 메일 콘텐츠에 추가할 수 있습니다.
 
 1. 이메일 디자인 공간에서 오른쪽의 _테마_( ![테마 아이콘](../assets/do-not-localize/icon-design-themes.svg) ) 아이콘을 클릭합니다.
 
