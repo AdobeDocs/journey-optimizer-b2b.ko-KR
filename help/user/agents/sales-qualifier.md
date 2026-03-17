@@ -1,15 +1,15 @@
 ---
 title: 영업 구분자
 description: Sales Qualifier 를 통해 B2B 잠재 고객 검증 및 지원 서비스를 자동화합니다. AI 기반의 연구, 이메일 초안 작성, CRM 통합 및 BDR을 위한 참여 계획을 제공합니다.
-feature: AI Assistant, Sales Insights, Account Journeys
+feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
+exl-id: cc590444-41df-44fe-830b-92241718ee81
+source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1335'
 ht-degree: 1%
 
 ---
-
 
 # 영업 구분자
 
@@ -24,7 +24,7 @@ Sales Qualifier는 Account Qualification Agent이 포함된 Adobe Journey Optimi
 
 다음 비디오에서는 Sales Qualifier와 Account Qualification Agent에 대해 간략하게 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Sales Qualifier가 [!UICONTROL Journey Optimizer B2B edition]에 포함되어 있지만 Experience Platform Experience Cloud 내에 있는 별도의 앱입니다.
 
