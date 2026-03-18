@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 재사용 가능성, 브랜드 정렬, 이메일 디자인
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
+source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 2%
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL 닫기]**&#x200B;를 클릭하여 _[!UICONTROL 테마 만들기]_ 페이지로 돌아간 다음 **[!UICONTROL 취소]**&#x200B;를 클릭하여 디자인 페이지로 돌아갑니다.
 
-   그런 다음 **[!UICONTROL 처음부터 디자인]**&#x200B;을 선택하여 시각적 디자인 공간을 열고 [전자 메일 또는 템플릿에 테마를 사용](#use-your-theme-for-email-content-authoring)할 수 있습니다.
+   그런 다음 **[!UICONTROL 처음부터 디자인]**&#x200B;을 선택하여 시각적 디자인 공간을 열고 [전자 메일 또는 템플릿에 테마를 사용](#use-email-theme)할 수 있습니다.
 
 ### 일반 설정
 
@@ -152,7 +152,7 @@ ht-degree: 2%
 | ---- | -------- | ----------- |
 | [!UICONTROL 전역] | ![전역 텍스트 설정에 대한 라이브러리 선택](./assets/email-theme-text-settings-global-library.png){width="300"} | **[!UICONTROL 글꼴 라이브러리]**&#x200B;를 _[!UICONTROL 표준]_ 또는 _[!UICONTROL Google 글꼴]_(으)로 설정합니다. 그런 다음 사용할 글꼴 모음을 선택합니다. 이러한 전역 텍스트 설정은 머리글 수준 및 단락 유형에 대해 서로 다른 텍스트 스타일을 설정하지 않는 한 전체에 적용됩니다. |
 | [!UICONTROL 머리글] | ![H1의 제목 텍스트 스타일](./assets/email-theme-text-settings-headings.png){width="300"} | 설정할 머리글 수준에 대해 **[!UICONTROL H1]**, **[!UICONTROL H2]** 등을 선택합니다. **[!UICONTROL 글꼴 라이브러리]**&#x200B;를 _[!UICONTROL 표준]_ 또는 _[!UICONTROL Google 글꼴]_(으)로 설정합니다. 그런 다음 글꼴 모음, 크기 및 스타일을 선택합니다. **[!UICONTROL 텍스트 맞춤]**: _왼쪽_, _가운데_, _오른쪽_ 또는 _양쪽 맞춤_&#x200B;을 선택하세요. |
-| [!UICONTROL 단락] | ![P1 형식의 단락 텍스트 스타일](./assets/email-theme-text-settings-headings.png){width="300"} | 설정할 제목 수준을 보려면 **[!UICONTROL P1]**, **[!UICONTROL HP]** 등을 선택하십시오. **[!UICONTROL 글꼴 라이브러리]**&#x200B;를 _[!UICONTROL 표준]_ 또는 _[!UICONTROL Google 글꼴]_(으)로 설정합니다. 그런 다음 글꼴 모음, 크기 및 스타일을 선택합니다. 필요에 따라 **[!UICONTROL 줄 높이]**&#x200B;를 조정합니다. **[!UICONTROL 텍스트 맞춤]**: _왼쪽_, _가운데_, _오른쪽_ 또는 _양쪽 맞춤_&#x200B;을 선택하세요. |
+| [!UICONTROL 단락] | ![P1 형식의 단락 텍스트 스타일](./assets/email-theme-text-settings-paragraphs.png){width="300"} | 설정할 단락 형식에 대해 **[!UICONTROL P1]**, **[!UICONTROL P2]** 등을 선택합니다. **[!UICONTROL 글꼴 라이브러리]**&#x200B;를 _[!UICONTROL 표준]_ 또는 _[!UICONTROL Google 글꼴]_(으)로 설정합니다. 그런 다음 글꼴 모음, 크기 및 스타일을 선택합니다. 필요에 따라 **[!UICONTROL 줄 높이]**&#x200B;를 조정합니다. **[!UICONTROL 텍스트 맞춤]**: _왼쪽_, _가운데_, _오른쪽_ 또는 _양쪽 맞춤_&#x200B;을 선택하세요. |
 
 +++
 
@@ -166,8 +166,8 @@ ht-degree: 2%
 
 | 유형 | 설정 | 설명 |
 | ---- | -------- | ----------- |
-| [!UICONTROL 여백] | ![여백 설정](./assets/email-theme-spacing-settings-margins.png){width="300"} | _Margin_ 아이콘을 선택하여 CSS `margin` 매개 변수를 복제하는 설정을 표시합니다. 이 매개 변수는 구성 요소 테두리 외부의 공간으로 제어하고 다른 구성 요소/요소와 구분합니다. 구성 요소 주위에 간격을 만들어 위치 및 주변 컨텐츠 레이아웃에 영향을 줍니다. 디자인 요구에 따라 여백 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 위쪽 단추, 왼쪽/오른쪽 또는 각 면에 대한 여백을 독립적으로 설정할 수 있습니다. 상단-하단 및 왼쪽-오른쪽 여백 값을 동기화하거나 동기화하지 않으려면 _잠금_ 및 _잠금 해제_ 아이콘을 클릭하십시오. |
-| [!UICONTROL 패딩] | ![패딩 설정](./assets/email-theme-spacing-settings-paddings.png){width="300"} | _패딩_ 아이콘을 선택하여 구성 요소/요소의 콘텐츠와 테두리 사이의 공간인 CSS `padding` 매개 변수를 복제하는 설정을 표시합니다. 패딩은 내용과 구성 요소 테두리 사이의 거리를 제어하는 데 사용할 수 있는 내부 공간을 제공합니다. 디자인 요구에 따라 패딩 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 상단, 왼쪽-오른쪽 또는 각 면에 대한 패딩을 독립적으로 설정할 수 있습니다. 상단-하단 및 왼쪽-오른쪽 패딩 값을 동기화하거나 동기화하지 않으려면 _잠금_ 및 _잠금 해제_ 아이콘을 클릭하십시오. |
+| [!UICONTROL 여백] | ![여백 설정](./assets/email-theme-spacing-settings-margins.png){width="300"} | 구성 요소 테두리 외부의 공간을 제어하고 다른 구성 요소/요소와 구분하는 CSS `margin` 매개 변수를 복제하는 설정을 표시하려면 _Margin_ 아이콘을 선택하십시오. 구성 요소 주위에 간격을 만들어 위치 및 주변 컨텐츠 레이아웃에 영향을 줍니다. 디자인 요구에 따라 여백 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 상단-하단, 왼쪽-오른쪽 또는 각 면에 대한 여백을 독립적으로 설정할 수 있습니다. 상단-하단 및 왼쪽-오른쪽 여백 값을 동기화하거나 동기화하지 않으려면 _잠금_ 및 _잠금 해제_ 아이콘을 클릭하십시오. |
+| [!UICONTROL 패딩] | ![패딩 설정](./assets/email-theme-spacing-settings-paddings.png){width="300"} | _패딩_ 아이콘을 선택하여 구성 요소/요소의 콘텐츠와 테두리 사이의 공간인 CSS `padding` 매개 변수를 복제하는 설정을 표시합니다. 패딩은 내용과 구성 요소 테두리 사이의 거리를 제어하는 데 사용할 수 있는 내부 공간을 제공합니다. 디자인 요구에 따라 패딩 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 상단-하단, 왼쪽-오른쪽 또는 각 면에 대한 패딩을 독립적으로 설정할 수 있습니다. 상단-하단 및 왼쪽-오른쪽 패딩 값을 동기화하거나 동기화하지 않으려면 _잠금_ 및 _잠금 해제_ 아이콘을 클릭하십시오. |
 | [!UICONTROL 모서리] | ![모퉁이 설정](./assets/email-theme-spacing-settings-corners.png){width="300"} | 구성 요소/요소 모퉁이의 반경을 정의하는 CSS `border-radius` 매개 변수를 복제하는 설정을 표시하려면 _모퉁이_ 아이콘을 선택하십시오. 코너에 대해 원하는 커브에 따라 숫자 값을 설정합니다. 값이 0(기본값)이면 사각형 모서리가 생성됩니다. |
 
 +++
