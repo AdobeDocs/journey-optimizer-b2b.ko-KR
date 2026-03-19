@@ -30,7 +30,7 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
 >[!PREREQUISITES]
 >
->UI에서 도메인을 편집하거나 추가하려면 먼저 Adobe에서 제공한 Marketo Engage 도메인](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}에 [매핑된 CNAME이 있어야 합니다.
+>UI에서 도메인을 편집하거나 추가하려면 먼저 Adobe에서 제공한 Marketo Engage 도메인[&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}에 매핑된 CNAME이 있어야 합니다.
 >
 >도메인을 추가할 때 시스템은 이전에 수동으로 생성되었을 수 있는 기존 SSL을 확인합니다. 이 유효성 검사가 발생하면 SSL 생성을 선택하지 않고 도메인을 만든 다음 별도의 절차로 연결합니다.
 

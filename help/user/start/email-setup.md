@@ -50,7 +50,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >다음 변수는 중요합니다. ****&#x200B;개를 삭제하지 마십시오.
+   >다음 변수는 중요합니다. **&#x200B;**&#x200B;개를 삭제하지 마십시오.
    >
    >* `%mkt_opt_out_prefix%`
    >* `mkt_unsubscribe=1&mkt_tok=##MKT_TOK##`
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >다음 변수는 중요합니다. ****&#x200B;개를 삭제하지 마십시오.
+   >다음 변수는 중요합니다. **&#x200B;**&#x200B;개를 삭제하지 마십시오.
    >
    >`%mkt_webview_url%?mkt_tok=##MKT_TOK##`
    >
@@ -124,7 +124,7 @@ To view this email as a web page, go to the following address:
 
 1. 첨부된 Marketo Engage 인스턴스의 **[!UICONTROL 관리자]** 영역으로 이동하여 **[!UICONTROL 전자 메일]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL 사용자 지정 개체 검색 제한]_ 패널로 스크롤한 다음 **[!UICONTROL 상위 검색 제한]**에 새 값을 입력하십시오.
+1. _[!UICONTROL 사용자 지정 개체 검색 제한]_ 패널로 스크롤한 다음 **[!UICONTROL 상위 검색 제한]**&#x200B;에 새 값을 입력하십시오.
 필드.
 
    ![Marketo Engage 전자 메일 관리자 - 사용자 지정 개체 검색 제한 기본값](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
@@ -157,8 +157,8 @@ To view this email as a web page, go to the following address:
 
 NHI(비사람 상호 작용)라고도 하는 이메일 봇 활동은 이메일 _열기_ 및 _클릭 수_ 데이터를 부풀려 참여 지표를 왜곡하고 이벤트 기반 여정 진행을 트리거할 수 있습니다. 이메일 보트 필터링을 사용하여 클릭 참여 지표 및 통찰력의 무결성을 유지합니다. 의심되는 보트 활동을 식별하는 방법에는 두 가지가 있습니다.
 
-* _**[!UICONTROL IAB 보트 목록과 일치]**_ - [대화형 Advertising Bureau 보트 목록](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}(사용자 에이전트/IP 주소)에 있는 모든 항목과 일치하는 활동이 보트로 표시됩니다.
-* _**[!UICONTROL 근접 패턴과 일치]**_ - 동시에 발생하는 두 개 이상의 활동(초 미만)이 봇으로 식별됩니다. 비교 시 고려되는 속성은 다음과 같습니다.
+* _&#x200B;**[!UICONTROL IAB 보트 목록과 일치]**&#x200B;_ - [대화형 Advertising Bureau 보트 목록](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}(사용자 에이전트/IP 주소)에 있는 모든 항목과 일치하는 활동이 보트로 표시됩니다.
+* _&#x200B;**[!UICONTROL 근접 패턴과 일치]**&#x200B;_ - 동시에 발생하는 두 개 이상의 활동(초 미만)이 봇으로 식별됩니다. 비교 시 고려되는 속성은 다음과 같습니다.
    * 잠재 고객 ID(같아야 함)
    * 이메일 자산(동일해야 함)
    * 링크 클릭 또는 이메일 열기
