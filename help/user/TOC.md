@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 76%
+source-wordcount: '423'
+ht-degree: 74%
 
 ---
 
@@ -15,9 +15,18 @@ ht-degree: 76%
 + [릴리스 정보](./release-notes/release-notes.md)
 + 시작하기 {#get-started}
    + [Journey Optimizer B2B Edition 개요](about-journey-optimizer-b2b-edition.md)
+   + 단순화된 아키텍처 {#simplified-architecture}
+      + [체크리스트 설정](./simplified-architecture.md)
+      + [네임스페이스 및 스키마](./data/namespaces-schemas.md)
+      + [XDM 필드 선택](./admin/xdm-field-management.md)
+      + [경험 이벤트 및 필드](./admin/configure-aep-events.md)
+      + [브랜딩 도메인](./start/branding-domains.md)
+      + [이메일 추적 및 게재](./start/email-protocols.md)
+      + [이메일 설정](./start/email-setup.md)
+      + [Marketo Engage 여정 작업](./admin/marketo-actions-connect.md)
+      + [사용자 관리](./admin/user-management.md)
+   + [사용자 온보딩 지침](./start/get-started.md)
    + [로그인 및 홈 페이지](home-page.md)
-   + [온보딩 지침](./start/get-started.md)
-   + [추적 및 이메일 프로토콜](./start/email-protocols.md)
 + AI 어시스턴트 {#ai-assistant}
    + [개요](./ai-assistant/ai-assistant-overview.md)
    + [AI 어시스턴트 액세스 활성](./ai-assistant/enable-ai-assistant-access.md)
@@ -61,6 +70,7 @@ ht-degree: 76%
    + [Experience Platform 대상](./audiences/account-audience-overview.md)
    + [외부 대상 타기팅](./audiences/target-external-audience.md)
    + [LinkedIn 계정 일치 대상](./data/linkedin-account-matched-audiences.md)
+   + [기본 XDM 필드](./admin/field-mapping.md)
 + 계정 {#accounts}
    + 구매 그룹 {#buying-groups}
       + [개요](./buying-groups/buying-groups-overview.md)
@@ -140,13 +150,7 @@ ht-degree: 76%
    + [계정 여정 대시보드](./dashboards/journeys-dashboard.md)
 + 관리 {#admin}
    + [거버넌스](./admin/governance.md)
-   + [Marketo 작업 구성](./admin/marketo-actions-connect.md)
    + [페르소나 매핑](./admin/persona-mapping.md)
-   + [사용자 관리](./admin/user-management.md)
-   + XDM 필드 관리 {#xdm-field-management}
-      + [XDM 클래스](admin/xdm-field-management.md)
-      + [경험 이벤트 및 필드](./admin/configure-aep-events.md)
-      + [기본 XDM 필드](./admin/field-mapping.md)
    + 채널 {#channels}
       + [이메일 구성](./admin/configure-channels-emails.md)
       + [SMS 구성](./admin/configure-channels-sms.md)
@@ -157,4 +161,3 @@ ht-degree: 76%
       + [AEM Assets 저장소](./admin/configure-aem-repositories.md)
       + [의도 데이터](./admin/intent-data.md)
       + [참여 점수 가중치](./admin/engagement-score-weighting.md)
-   + [간소화된 아키텍처 설정](simplified-architecture.md)

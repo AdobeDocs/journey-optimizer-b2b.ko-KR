@@ -3,14 +3,12 @@ title: 랜딩 페이지 구성
 description: Journey Optimizer B2B edition에서 캠페인 웹 페이지 게시를 활성화하려면 랜딩 페이지 하위 도메인, 양식 미리 채우기 설정 및 데이터스트림을 구성하십시오.
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6719755db59ed79a4bd32e4f0df0ebb8207aecda
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 31%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -20,7 +18,7 @@ ht-degree: 31%
 
 ## 설정
 
-랜딩 페이지 구성을 검토하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동하십시오. 탐색 패널의 _[!UICONTROL 랜딩 페이지]_&#x200B;에서 **[!UICONTROL 설정]**&#x200B;을 선택합니다.
+랜딩 페이지 구성을 검토하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동하십시오. 탐색 창의 _[!UICONTROL 랜딩 페이지]_&#x200B;에서 **[!UICONTROL 설정]**&#x200B;을 선택합니다.
 
 ![랜딩 페이지 설정](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -31,7 +29,7 @@ ht-degree: 31%
 >title="랜딩 페이지 계정 문자열"
 >abstract="계정 문자열은 랜딩 페이지를 호스팅하는 Adobe Journey Optimizer B2B Edition 인스턴스를 식별합니다."
 
-계정 문자열은 랜딩 페이지를 호스팅하는 Adobe Journey Optimizer B2B edition 인스턴스를 식별합니다. 시스템 팀이 DNS 항목을 추가하고 구성하는지 확인합니다.
+계정 문자열은 랜딩 페이지를 호스팅하는 Adobe Journey Optimizer B2B Edition 인스턴스를 식별합니다. 시스템 팀이 DNS 항목을 추가하고 구성하는지 확인합니다.
 
 ### 양식 미리 채우기 {#form-prefill}
 
@@ -72,7 +70,7 @@ ht-degree: 31%
 
 * **제품**.[CompanyDomain].com
 * **이동**.[CompanyDomain].com
-* **등록**.[CompanyDomain].com
+* **등록**.[회사 도메인].com
 
 이 예제에서 첫 번째 부분(굵은 글꼴)은 `LandingPageCNAME`입니다.
 
