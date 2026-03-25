@@ -9,8 +9,8 @@ keywords: 표현식, 편집기, 시작, 개인화
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
 source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 0%
+source-wordcount: '771'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aj-b2b_personalization"
 >title="콘텐츠 경험 개인화"
->abstract="**Adobe Journey Optimizer B2B edition**&#x200B;을(를) 사용하여 받는 사람에 대한 데이터와 정보를 활용하여 각 받는 사람에게 메시지를 적용하세요. 이름, 업종, 직함 등이 될 수 있습니다."
+>abstract="**Adobe Journey Optimizer B2B Edition**&#x200B;를 사용하면 수신자에 대한 데이터와 정보를 활용하여 각 수신자에 맞게 메시지를 적응할 수 있습니다. 이름, 업종, 직함 등이 될 수 있습니다."
 
 [!DNL Adobe Journey Optimizer B2B Edition] 개인화 기능을 사용하면 보유한 데이터 및 정보를 활용하여 전자 메일 메시지를 각 특정 받는 사람에게 적용할 수 있습니다. 이름, 업종, 직함 등이 될 수 있습니다.
 
@@ -43,7 +43,7 @@ _개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 
 
 >[!NOTE]
 >
->[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
+>[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
 
 ## Personalization 편집기
 
@@ -55,13 +55,13 @@ _개인화 추가_( ![개인화 추가 아이콘](../../assets/do-not-localize/i
 
 >[!NOTE]
 >
->개인화 편집기에 대한 다음 정보는 [!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에 제공된 &#x200B;](../simplified-architecture.md) 환경에서 사용할 수 있는 변경 사항을 반영합니다.
+>개인화 편집기에 대한 다음 정보는 [간소화된 아키텍처](../simplified-architecture.md)에 제공된 [!DNL Journey Optimizer B2B Edition] 환경에서 사용할 수 있는 변경 사항을 반영합니다.
 
 ### 토큰 및 도우미 함수
 
 개인화 토큰 또는 도우미 함수를 사용하려면 왼쪽 탐색 창에서 찾은 다음 **+**&#x200B;을(를) 클릭하여 식에 추가하십시오.
 
-각 특성에 대한 자세한 내용을 보고 _즐겨찾기_&#x200B;에 자주 사용하는 특성을 추가하려면 **추가 메뉴**( _..._) 아이콘( **추가**( _+_) 옆)을 클릭하십시오. 즐겨찾기에 추가된 특성은 편집기의 왼쪽 탐색 영역에 있는 **[!UICONTROL 즐겨찾기]** 메뉴에서 액세스할 수 있습니다.
+각 특성에 대한 자세한 내용을 보고 _즐겨찾기_&#x200B;에 자주 사용하는 특성을 추가하려면 _추가 메뉴_( **...**) 아이콘( _추가_( **+**) 옆)을 클릭하십시오. 즐겨찾기에 추가된 특성은 편집기의 왼쪽 탐색 영역에 있는 **[!UICONTROL 즐겨찾기]** 메뉴에서 액세스할 수 있습니다.
 
 ![Personalization 편집기 - 토큰 추가 메뉴](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
@@ -81,7 +81,7 @@ _개인화 추가_( ![개인화 추가 아이콘](../../assets/do-not-localize/i
 
 [!BADGE Beta]{type=Informative tooltip="Beta 기능"}
 
-전자 메일 개인화에 관계형 스키마를 사용할 수 있습니다. 사용자 지정 개체는 _관계형 스키마_ 내에 정의되어 있으며 제품 관리자는 [에서 &#x200B;](../admin/xdm-field-management.md#relational-schemas)관계형 스키마 필드를 구성[!DNL Journey Optimizer B2B Edition]할 수 있습니다. 이러한 필드는 개인화 편집기에서 액세스할 수 있습니다. 사용자 또는 계정과 일대다(1:M) 관계가 있는 사용자 지정 개체만 사용할 수 있습니다.
+전자 메일 개인화에 관계형 스키마를 사용할 수 있습니다. 사용자 지정 개체는 _관계형 스키마_ 내에 정의되어 있으며 제품 관리자는 [!DNL Journey Optimizer B2B Edition]에서 [관계형 스키마 필드를 구성](../admin/xdm-field-management.md#relational-schemas)할 수 있습니다. 이러한 필드는 개인화 편집기에서 액세스할 수 있습니다. 사용자 또는 계정과 일대다(1:M) 관계가 있는 사용자 지정 개체만 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
