@@ -4,10 +4,10 @@ description: 간소화된 아키텍처에 대해 Journey Optimizer B2B edition�
 feature: Setup, Administration
 role: Admin, Data Engineer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
+source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -273,7 +273,7 @@ ht-degree: 17%
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>Adobe Experience Platform Web SDK을 지원하도록 비즈니스 웹 사이트를 구성합니다.</td>
-<td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview">자세히 알아보기</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">자세히 알아보기</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
@@ -336,12 +336,12 @@ Marketo Engage의 캠페인 및 프로그램을 통해 Journey Optimizer B2B edi
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>Adobe Admin Console에서 Marketo Engage 제품 프로필 만들기(새 Marketo Engage 인스턴스만 해당)</td>
-<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">자세히 알아보기</a></td>
+<td><a href="./admin/user-management.md#marketo-engage-profile">자세히 알아보기</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>프로필에 대한 사용자 그룹 추가</td>
-<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">자세히 알아보기</a></td>
+<td><a href="./admin/user-management.md#add-user-group">자세히 알아보기</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
