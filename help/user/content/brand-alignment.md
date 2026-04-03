@@ -1,5 +1,5 @@
 ---
-title: 브랜드 정렬 점수
+title: 브랜드 일관성 점수
 description: 브랜드 정렬 점수로 이메일 콘텐츠를 평가합니다. Journey Optimizer B2B edition의 브랜드 지침에 따라 색상, 글꼴, 로고 및 작성 스타일을 확인합니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 16%
+source-wordcount: '472'
+ht-degree: 19%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->이 기능은 현재 비공개 베타로 제공되며, 향후 릴리스에서 모든 고객에 대해 점진적 가용성이 계획되어 있습니다.
+>이 기능은 현재 공개 베타로 사용할 수 있습니다.
 >
 >Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >

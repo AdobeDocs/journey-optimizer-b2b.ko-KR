@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1b0b8c862a1034be5de833996c8f049bf5f2d3a6
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '4892'
+source-wordcount: '4894'
 ht-degree: 70%
 
 ---
@@ -29,7 +29,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | WhatsApp 채널 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 마케터는 이제 [!DNL Meta Cloud API]을(를) 통해 계정 여정에서 직접 WhatsApp 메시지를 보낼 수 있습니다. 이 기능을 사용하면 WhatsApp 메시지를 매끄럽게 통합하여 여정 콘텐츠 채널을 지원할 수 있습니다. [자세히 알아보기](../admin/configure-channels-whatsapp.md) |
 | 기능 | [!DNL Firefly] 및 사용자 지정 생성 AI 모델 지원 | 이제 마케팅 팀에서 승인된 타사 이미지 모델(예: [!DNL NanoBanana])과 함께 표준 및 사용자 지정 [!DNL Firefly] 모델의 통합을 사용할 수 있습니다. 이메일 디자이너는 각 사용 사례에 가장 적합한 모델을 선택할 수 있습니다. 일반적인 요구 사항은 표준 [!DNL Firefly]을(를), 브랜드 기반 생성은 사용자 지정 [!DNL Firefly]을(를), 전문 또는 실험 시나리오는 승인된 서드파티 모델을 선택할 수 있습니다. |
 | 기능 | 여정에 대한 사용자 지정 외부 작업 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 개발자는 이제 API를 사용하여 자사 시스템과의 통합을 빌드할 수 있습니다. 이러한 사용자 지정 통합을 통해 마케터는 계정 여정 실행 중에 외부 서비스에 아웃바운드 요청을 하기 위해 _외부 작업_ 및 _외부 분할 경로_ 노드를 추가할 수 있습니다. |
-| 기능 | 브랜드 | (Beta) 마케팅 팀은 브랜드 프로필을 저장하고 관리하여 이메일 콘텐츠 자산 전반에서 브랜드 일관성을 유지할 수 있습니다. 색상, 글꼴, 로고, 테마, 시각 콘텐츠 및 규정 준수 가이드라인과 같은 에셋을 추가하면 생성형 AI 콘텐츠 생성에 브랜드 프로필을 사용할 수 있습니다. 또한 규정 준수를 보장하기 위해 브랜드 정렬을 측정할 수도 있습니다. |
+| 기능 | 브랜드 | (Beta) 마케팅 팀은 브랜드 프로필을 저장하고 관리하여 이메일 콘텐츠 자산 전반에서 브랜드 일관성을 유지할 수 있습니다. 색상, 글꼴, 로고, 테마, 시각 콘텐츠 및 규정 준수 가이드라인과 같은 에셋을 추가하면 생성형 AI 콘텐츠 생성에 브랜드 프로필을 사용할 수 있습니다. 또한 규정 준수를 보장하기 위해 브랜드 정렬을 측정할 수도 있습니다. [자세히 알아보기](../content/brands-overview.md) |
 | 개선 사항 | 이메일 전송 - 전송 시간 최적화 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} _직접 여정에 대한 전자 메일 보내기_ 동작 노드의 경우 _전송 시간 최적화_ 옵션을 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 전자 메일 배달 시기를 개인화할 수 있습니다. [자세히 알아보기](../content/email-send-time-optimization.md) |
 | 개선 사항 | 이메일 디자인 도구 - 전문가 모드 | 전자 메일 디자인 영역에 _전문가 모드_&#x200B;를 사용하면 사용자가 HTML/CSS를 약간 편집하고 전자 메일에 스크립트 태그를 추가하여 렌더링 문제를 해결할 수 있습니다. |
 | 개선 사항 | 개인 사용자 정의 객체 - 그룹 역할 템플릿 구매 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 관리자가 비즈니스 사용자 프로필과 관련된 사용자 지정 개체를 구성할 때 마케터는 이제 이러한 사용자 지정 개체를 사용하여 구매 그룹 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |

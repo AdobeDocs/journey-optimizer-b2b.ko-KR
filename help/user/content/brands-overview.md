@@ -3,15 +3,13 @@ title: 컨텐츠 생성 및 일관성을 위해 브랜드 사용
 description: 일관된 컨텐츠 작성을 위한 브랜드 지침을 정의합니다. Journey Optimizer B2B edition에서 시각적 정체성, 메시징 정렬 및 정품 음성을 유지할 수 있습니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 9%
+source-wordcount: '868'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 9%
 >title="브랜드 선택"
 >abstract="브랜드를 선택하여 모든 AI 생성 콘텐츠가 브랜드의 사양과 지침에 맞게 조정되도록 합니다."
 
-브랜드는 _브랜드 정체성_&#x200B;을(를) 정의하는 데 도움이 되며 브랜드 정체성, 가치 및 메시지를 정확하게 나타내는 일관되고 효과적인 콘텐츠 생성을 보장하는 데 중요한 역할을 합니다. 잘 정의된 브랜드 스타일을 준수함으로써 조직은 채널과 터치포인트 전반에 걸쳐 통합적이고 인식 가능한 브랜드 존재감을 유지하고 타겟 대상자 간의 브랜드 인식, 신뢰 및 충성도를 강화할 수 있습니다.
+브랜드는 _브랜드 정체성_&#x200B;을(를) 정의하는 데 도움이 되며 브랜드 정체성, 가치 및 메시지를 정확하게 나타내는 일관되고 효과적인 콘텐츠 생성을 보장하는 데 중요한 역할을 합니다. 잘 정의된 브랜드 스타일을 준수함으로써 조직은 채널과 터치포인트 전반에 걸쳐 일관되고 인식 가능한 브랜드 존재감을 유지하고 타겟 대상자 간의 브랜드 인식, 신뢰 및 충성도를 강화할 수 있습니다.
 
 +++브랜드 사용의 이점
 
@@ -47,7 +45,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->이 기능은 현재 비공개 베타로 제공되며, 향후 릴리스에서 모든 고객에 대해 점진적 가용성이 계획되어 있습니다.
+>이 기능은 현재 공개 베타로 사용할 수 있습니다.
 >
 >Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
@@ -73,7 +71,7 @@ ht-degree: 9%
 
 ## 브랜드 관련 권한
 
-제품 관리자는 Adobe Experience Cloud의 **[!UICONTROL 권한]** UI를 통해 **[!UICONTROL 브랜드 키트 관리]** 또는 _AI 도우미 사용_ 리소스 권한을 할당하여 브랜드 관리 및 브랜드 정렬 기능에 대한 액세스를 활성화할 수 있습니다.
+제품 관리자는 Adobe Experience Cloud의 _권한_ UI를 통해 **[!UICONTROL 브랜드 키트 관리]** 또는 **[!UICONTROL AI 도우미 사용]** 리소스 권한을 할당하여 브랜드 관리 및 브랜드 정렬 기능에 대한 액세스를 활성화할 수 있습니다.
 
 1. 권한 앱에서 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 [역할](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}을 선택합니다.
 
@@ -91,7 +89,7 @@ ht-degree: 9%
 
    권한은 이미 역할에 할당된 모든 사용자에 대해 자동으로 업데이트됩니다.
 
-1. 이 역할을 새 사용자에게 할당하려면 **[!UICONTROL 역할]** 대시보드에서 _[!UICONTROL 사용자]_ 탭을 선택하고 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하십시오.
+1. 이 역할을 새 사용자에게 할당하려면 _[!UICONTROL 역할]_ 대시보드에서 **[!UICONTROL 사용자]** 탭을 선택하고 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하십시오.
 
    * 사용자 이름과 이메일 주소를 입력하거나 목록에서 기존 사용자를 선택합니다.
 
