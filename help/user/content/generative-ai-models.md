@@ -20,7 +20,7 @@ ht-degree: 0%
 - Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다.
 - **[!UICONTROL 사용자 지정 모델]**&#x200B;은(는) 자신의 자산에 대해 교육되고 조직에서 추가한 브랜드별 모델입니다.
 
-[Adobe Firefly 설명서](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}에서 사용자 지정 모델에 대해 알아보세요.
+[Adobe Firefly 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}에서 사용자 지정 모델에 대해 알아보세요.
 
 마케터는 이메일 또는 랜딩 페이지 콘텐츠에 대한 이미지를 생성할 때 활성화된 생성 모델을 선택할 수 있습니다.
 
@@ -70,7 +70,7 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon-react-filter.svg)
 
 1. **[!UICONTROL 모델 ID]**&#x200B;을(를) 입력하십시오.
 
-   모델 ID를 찾으려면 Firefly 웹 사이트에 액세스하여 훈련된 모델로 이동합니다. 고유 식별자는 모델이 게시된 후 모델의 관리 섹션에서 사용할 수 있습니다. 자세한 내용은 [Firefly 사용자 지정 모델 설명서](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}를 참조하세요.
+   모델 ID를 찾으려면 Firefly 웹 사이트에 액세스하여 훈련된 모델로 이동합니다. 고유 식별자는 모델이 게시된 후 모델의 관리 섹션에서 사용할 수 있습니다. 자세한 내용은 [Firefly 사용자 지정 모델 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}를 참조하세요.
 
 1. 필요한 경우 모델 및 해당 용도를 식별하는 데 도움이 되도록 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
