@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -64,8 +64,8 @@ ht-degree: 12%
 1. 사용할 준비가 되면 [브랜드를 게시](./brands-manage-create.md#publish-the-brand)합니다.
 
 1. [전자 메일 콘텐츠 정렬](./brand-alignment.md)에 브랜드를 사용하십시오.
-<!-- 
-1. Use the brand to generate content. -->
+
+1. 브랜드를 사용하여 [이메일 콘텐츠를 생성](./ai-assistant-emails.md)하세요.
 
 >[!BEGINSHADEBOX]
 

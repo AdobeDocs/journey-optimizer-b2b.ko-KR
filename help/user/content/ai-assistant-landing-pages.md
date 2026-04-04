@@ -7,10 +7,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-source-git-commit: ce4df9a2726cf842c088738521b3e5dd88dd768f
+source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
 workflow-type: tm+mt
-source-wordcount: '2659'
-ht-degree: 0%
+source-wordcount: '2700'
+ht-degree: 1%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 ## 지침 및 제한 사항
 
-이 기능을 사용하기 전에 [지침 및 제한 사항](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [[!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 먼저 사용자 동의 &#x200B;](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} 수락도 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+이 기능을 사용하기 전에 [지침 및 제한 사항](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-미디어 생성 시 생성 AI 도구 사용의 투명성을 강화하기 위한 Adobe의 약속으로, Adobe은 Firefly 생성 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 다운로드하거나 내보낼 때 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
+미디어 생성 시 생성 AI 도구 사용의 투명성을 강화하기 위한 Adobe의 약속으로, Adobe은 Firefly 생성 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 다운로드하거나 내보낼 때 [콘텐츠 자격 증명](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
 
 [!DNL Journey Optimizer B2B Edition]에서 랜딩 페이지 콘텐츠 생성에 사용되는 AI Assistant 기능에는 다음 제한 사항과 지침이 적용됩니다.
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 **[!UICONTROL AI를 사용하여 이미지 생성]** 옵션은 기본적으로 비활성화되어 있습니다. 이 기능을 활성화하고 다음 옵션을 설정하여 제안된 콘텐츠 변형에 생성된 이미지를 포함합니다.
 
-<!-- * **[!UICONTROL Generative model]**: Select from available built-in models, custom Firefly models trained on your brand assets, or third-party image generation providers to create images that align with your specific needs and brand requirements. -->
+* **[!UICONTROL 생성 모델]**: 즉시 사용할 수 있는 Adobe 제공 모델, 전문 기능을 위한 파트너 모델 또는 브랜드 자산에 대해 교육된 구성된 사용자 지정 모델 중에서 선택합니다. 생성 모델에 대한 자세한 내용은 _[브랜드 정렬을 위한 생성 AI 모델](generative-ai-models.md)_&#x200B;을 참조하십시오.
 * **[!UICONTROL 종횡비]**: 이미지 구성 요소를 선택하면 이 설정이 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택할 수 있는 옵션이 있거나 사용자 지정 크기를 입력할 수 있습니다.
 * **[!UICONTROL 콘텐츠 형식]**: 이 형식은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 다양한 형식의 시각적 표현을 구별합니다.
 * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어합니다. 낮은 설정(예: 2)은 더 부드럽고 절제된 모양을 만드는 반면 높은 설정(예: 10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
@@ -94,7 +94,7 @@ ht-degree: 0%
 * **[!UICONTROL 조명]**: 이미지에 사용되는 조명 스타일로, 이미지의 분위기를 형성하고 특정 요소를 강조 표시합니다.
 * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열입니다.
 
-![콘텐츠 유형, 시각적 강도, 색상 및 톤, 조명 및 컴포지션 옵션을 표시하는 이미지 설정 패널](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![생성 모델, 콘텐츠 유형, 시각적 강도, 색상 및 톤, 조명 및 컴포지션 옵션을 표시하는 이미지 설정 패널](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 왼쪽 화살표를 클릭하여 기본 _[!UICONTROL 설정]_(으)로 돌아갑니다.
 
