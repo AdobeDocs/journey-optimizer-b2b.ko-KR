@@ -3,10 +3,11 @@ title: 사용자 매핑
 description: B2B 마케팅을 위한 페르소나 매핑을 설정하는 방법을 알아봅니다. Journey Optimizer B2B edition의 개인 속성을 매핑하여 역할 템플릿을 만들고 구매 그룹 타깃팅을 최적화합니다.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ Then based on what agent informed, users can create a template with those person
 
 많은 마케팅 및 영업 팀은 계정 내에서 서로 다른 담당자를 식별하는 방법으로 직함을 사용합니다. 그러나 연락처의 제목은 일관되지 않을 수 있으며 유사한 역할에 수많은 변형을 사용할 수 있습니다. 구매 그룹 역할 템플릿을 작성할 때 주어진 역할에 대해 가능한 모든 관련 직책을 정의해야 할 수 있습니다. 이러한 정의를 단순화하고 유사한 직책을 가진 사람들을 하나의 유추된 성향으로 데려올 수 있으며, 그런 다음 구매 그룹을 위해 다양한 역할 템플리트에 활용할 수 있습니다.
 
-예를 들어, _제품 관리_&#x200B;라는 담당자를 구성하고 _제품 관리자_, _Sr 값에 대한 직책 특성을 사용하여 정의할 수 있습니다. 제품 관리자_, _고급 제품 관리자_, _오후_, _Sr. PM_, _사용자 PM_ 및 _사용자 제품 관리자_. 그런 다음 조건이 _제품 관리_&#x200B;와 일치하는 역할 템플릿에서 이 담당자를 사용합니다. 구성된 담당자를 사용하면 각 역할 템플릿을 간편하게 만들 수 있으며, 가능한 모든 직책에 대해 일치할 수 있는 복잡한 조건을 필요로 하지 않습니다.
+예를 들어, _제품 관리_&#x200B;라는 담당자를 구성하고 _제품 관리자_, _SR. 제품 관리자_, _고급 제품 관리자_, _PM_, _SR. PM_, _주체 PM_ 및 _주체 제품 관리자_ 값에 대한 직책 특성을 사용하여 정의할 수 있습니다. 그런 다음 조건이 _제품 관리_&#x200B;와 일치하는 역할 템플릿에서 이 담당자를 사용합니다. 구성된 담당자를 사용하면 각 역할 템플릿을 간편하게 만들 수 있으며, 가능한 모든 직책에 대해 일치할 수 있는 복잡한 조건을 필요로 하지 않습니다.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +46,7 @@ Then based on what agent informed, users can create a template with those person
 
    사용자 매핑 목록은 표로 구성되며 맨 위에 가장 최근에 업데이트된 사용자를 표시합니다(_[!UICONTROL 마지막 업데이트]_&#x200B;별로 정렬). 오른쪽 상단의 _열 설정_( ![열 설정](../assets/do-not-localize/icon-column-settings.svg) ) 아이콘을 클릭하고 열 확인란을 선택하거나 선택을 취소하여 표시된 테이블을 사용자 지정할 수 있습니다.
 
-![사용자 매핑 목록에 표시할 열](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![사용자 매핑 목록에 표시할 열](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. 담당자의 세부 정보에 액세스하려면 이름을 클릭합니다.
 
@@ -118,6 +119,6 @@ _담당자 매핑_ 목록에는 작업 제목 특성에 따라 정의된 5개의
 
 1. _[!UICONTROL 사용자 매핑]_ 페이지에서 삭제할 사용자를 찾습니다.
 
-1. 이름 옆에 있는 의 줄임표(**...**) 아이콘을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+1. 이름 옆의 생략 부호(**...**)를 클릭합니다 아이콘을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택하세요.
 
 1. 확인 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.

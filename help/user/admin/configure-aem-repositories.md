@@ -4,10 +4,10 @@ description: Experience Manager Assets 저장소를 Journey Optimizer B2B editio
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition]은(는) [!DNL Adobe Experience Manager Assets as a Cloud Service]과(와) 통합되므로 이메일 콘텐츠의 자산을 사용할 수 있습니다. [!DNL Experience Manager Assets]과(와) 정보를 교환하여 투명성을 보장합니다. 이 기능을 사용하려면 [!DNL Adobe Experience Assets]에 대한 연결을 구성하십시오.
 
-Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Adobe Journey Optimizer B2B edition에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
+Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Adobe Journey Optimizer B2B edition에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
 
 {{aem-assets-licensing-note}}
 
 ## 사전 요구 사항
 
-* AEM Headless Developer Console에서 원하는 환경에 대한 서비스 자격 증명을 생성합니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* AEM Headless Developer Console에서 원하는 환경에 대한 서비스 자격 증명을 생성합니다([자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * 연결에 필요한 인증서를 확보합니다. 가장 좋은 방법은 인증서가 만료되기 전에 최소 6개월 이상 남아 있는지 확인하는 것입니다. 인증서는 365일마다 만료됩니다.
 * Adobe Journey Optimizer B2B edition은 한 번에 하나의 디지털 에셋 관리 소스에 대한 액세스를 지원합니다. 전환하기 전에 Adobe Experience Manager에서 필요한 자산을 사용할 수 있는지 확인하십시오.
 
@@ -37,9 +37,9 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
    ![Assets 구성 공간에 액세스](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
-<!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
--->
-여기에서 각 AEM 환경 저장소에 대한 연결을 하나씩 구성할 수 있습니다.
+   <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
+    -->
+   여기에서 각 AEM 환경 저장소에 대한 연결을 하나씩 구성할 수 있습니다.
 
 1. _[!UICONTROL Adobe Experience Manager Assets]_ 상자에서 **[!UICONTROL 저장소 구성]** 옆에 있는 화살표를 클릭하고 저장소를 선택합니다.
 
@@ -77,13 +77,13 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer B2B Edition]은(는) 사용 정보를 위해 [!DNL Experience Manager Assets]과(와) 통신합니다. 신뢰할 수 있는 사용 데이터 동기화를 위해 그리고 데이터 불일치를 방지하기 위해 연결이 활성 상태를 유지해야 합니다. 관리자는 인앱 알림을 통해 만료 예정인 인증서에 대한 알림을 받습니다. _관리_ 영역의 _[!UICONTROL Assets]_ 하위 섹션에도 만료 날짜가 표시됩니다.
+>[!DNL Adobe Journey Optimizer B2B Edition]은(는) 사용 정보를 위해 [!DNL Experience Manager Assets]과(와) 통신합니다. 신뢰할 수 있는 사용 데이터 동기화를 위해 그리고 데이터 불일치를 방지하기 위해 연결이 활성 상태를 유지해야 합니다. 관리자는 인앱 알림을 통해 만료 예정인 인증서에 대한 알림을 받습니다. _[!UICONTROL 관리]_ 영역의 _Assets_ 하위 섹션에도 만료 날짜가 표시됩니다.
 
 1. 디지털 자산 관리 페이지에서 구성된 저장소 목록을 찾습니다.
 
 1. 인증서를 바꾸려면 원하는 저장소를 클릭합니다.
 
-1. 인증서 파일의 줄임표(**...**) 아이콘을 클릭하여 해당 파일에 대한 작업 옵션을 표시합니다.
+1. 줄임표(**...**)를 클릭합니다. 아이콘 인증서 파일에 대한 작업 옵션을 표시합니다.
 
    ![AEM 자산 저장소 인증서에 대한 옵션 메뉴에 액세스](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
@@ -103,7 +103,7 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 1. 연결된 저장소를 클릭합니다.
 
-1. 인증서 파일의 줄임표(**...**) 아이콘을 클릭하여 해당 파일에 대한 작업 옵션을 표시합니다.
+1. 줄임표(**...**)를 클릭합니다. 아이콘 인증서 파일에 대한 작업 옵션을 표시합니다.
 
 1. **[!UICONTROL 보기]**&#x200B;를 선택하세요.
 
@@ -119,11 +119,12 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 1. 원하는 저장소 이름을 클릭하여 연결을 편집합니다.
 
-1. 인증서 파일의 줄임표(**...**) 아이콘을 클릭하여 해당 파일에 대한 작업 옵션을 표시합니다.
+1. 줄임표(**...**)를 클릭합니다. 아이콘 인증서 파일에 대한 작업 옵션을 표시합니다.
 
 1. **[!UICONTROL 삭제]**&#x200B;를 선택하세요.
 
 1. 확인 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+
 <!--
 
 ## Switch back to Adobe Marketo Engage Assets
