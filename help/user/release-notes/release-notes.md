@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1d63c0a2f595a81fc6cb41e9fac628a2ff72d4a1
+source-git-commit: ab1462bc8f81c6983e8e4a620f0502e799901c1b
 workflow-type: tm+mt
 source-wordcount: '4907'
 ht-degree: 70%
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
-## 2026.3 릴리스 정보
+## 2026.3 릴리스 정보 {#rel-2026-3}
 
 **배포 날짜**: 2026년 3월 27일
 
@@ -43,7 +43,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 >이러한 릴리스 변경 사항은 2026년 3월 27일에 배포되며 각 기능의 단계적 롤아웃과 향상된 기능이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 
-## 2026.2 릴리스 정보
+## 2026.2 릴리스 정보 {#rel-2026-2}
 
 **배포 날짜**: 2026년 2월 20일
 
@@ -58,7 +58,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 >
 >이러한 릴리스 변경 사항은 2026년 2월 20일에 배포되며, 각 기능의 단계적 롤아웃과 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
-## 2026.1 릴리스 정보
+## 2026.1 릴리스 정보 {#rel-2026-1}
 
 **배포 날짜**: 2026년 2월 3일
 
@@ -74,7 +74,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 >
 >이러한 릴리스 변경 사항은 2026년 2월 3일에 배포되며 각 기능의 단계적 롤아웃이 시작됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
-## 에이전틱 AI 기능
+## 에이전틱 AI 기능 {#rel-agents}
 
 이제 AI 어시스턴트 인터페이스 내에서 Journey Optimizer B2B Edition에 다음과 같은 에이전틱 AI 기능을 사용할 수 있습니다.
 
@@ -84,7 +84,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
 | 영업 구분자 | 신규 용어 | Sales Qualifier는 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B edition의 AI 기반 추가 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸친 잠재 고객 검증, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](../agents/sales-qualifier.md) |
 
-## 2025.10 릴리스 정보
+## 2025.10 릴리스 정보 {#rel-2025-10}
 
 **배포 일자**: 2025년 10월 31일
 
@@ -138,7 +138,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
 | | | -->
 
-## 2025.9 릴리스 정보
+## 2025.9 릴리스 정보 {#rel-2025-9}
 
 **배포 일자**: 2025년 9월 30일 수요일
 
@@ -155,7 +155,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 >
 >이번 릴리스 변경 사항은 2025년 9월 30일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
-## 2025.8 릴리스 정보
+## 2025.8 릴리스 정보 {#rel-2025-8}
 
 **배포 일자**: 2025년 8월 26일
 
@@ -170,7 +170,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 참여 점수 업데이트 | 점수 정규화를 위해 구매 그룹 참여 점수 논리가 업데이트되었습니다. 또한 멤버 수준 참여 점수와 더불어 전체 구매 그룹에 대한 집단적 참여 점수도 활용할 수 있습니다. [자세히 알아보기](../buying-groups/engagement-scores.md) |
 | 개선 사항 | 활성 여정 가시성 - 각 노드의 계정 | 활성 계정 여정의 경우 여정에서 각 계정 노드에 도달한 계정 목록을 활용할 수 있습니다. |
 
-## 2025.6 릴리스 정보
+## 2025.6 릴리스 정보 {#rel-2025-6}
 
 **배포 일자**: 2025년 7월 15일
 
@@ -188,7 +188,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 이메일 요약에서 콘텐츠 시뮬레이션 | 이제 이메일 목록에서 이메일을 열 때 이메일 요약(세부 정보 및 속성)에서 _콘텐츠 시뮬레이션_ 도구에 액세스할 수 있습니다. 이러한 접근 방식은 이메일 디자인 공간에 추가됩니다. [자세히 알아보기](../content/email-simulate-content.md#display-the-email-preview) |
 | 개선 사항 | 역할 템플릿 목록에 총 개수 표시 | _[!UICONTROL 역할 템플릿]_ 목록 페이지에 검색 창 옆에 총 개수 표시 기능이 추가되어 향상되었습니다. |
 
-## 2025.5 릴리스 정보
+## 2025.5 릴리스 정보 {#rel-2025-5}
 
 **배포 일자**: 2025년 6월 3일
 
@@ -201,7 +201,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 이메일용 핸들바 토큰 형식 | 이메일 콘텐츠에 대한 개인화 토큰은 이제 핸들바 스크립팅과 완벽하게 호환되는 업데이트된 형식을 사용합니다. 이 형식은 공백을 제거하는 _카멜 표기법_ 또는 밑줄을 사용합니다. [자세히 알아보기](../content/email-authoring.md#content-authoring---personalization) |
 | 개선 사항 | 목록의 총 개수 표시 | _[!UICONTROL 솔루션 관심 분야]_ 및 _[!UICONTROL 계정 여정]_ 목록 페이지에서 검색 창 옆에 총 개수가 표시되어 가시성이 더욱 향상되었습니다. |
 
-## 2025.4 릴리스 정보
+## 2025.4 릴리스 정보 {#rel-2025-4}
 
 **배포 일자**: 2025년 4월 29일
 
@@ -216,7 +216,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 관련된 방문한 웹 페이지의 활동을 기반으로 여정을 조율합니다. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">자세히 알아보기</a> |
 | 개선 사항 | 이메일 목록 | 활성 및 초안 이메일의 글로벌 목록을 조회하고, 연관된 계정 여정 전반에 걸쳐 이를 검색, 검토 및 업데이트합니다. <a href="../content/emails-list.md">자세히 알아보기</a> |
 
-## 2025.3 릴리스 정보
+## 2025.3 릴리스 정보 {#rel-2025-3}
 
 **배포 일자**: 2025년 4월 1일
 
@@ -229,7 +229,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 구매 그룹 단계 삭제 | 구매 그룹 단계 모델이 초안 또는 게시된 상태일 때 삭제할 수 있습니다. 게시된(진행 중) 경우 솔루션 관심 분야와 연관되지 않은 경우에만 삭제할 수 있습니다. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">자세히 알아보기</a> |
 | 개선 사항 | 여정 노드 수 | 노드 수준에서 게시된 여정 멤버십 수에 대한 가시성이 향상되었습니다. _여정 맵_&#x200B;에서 노드는 _[!UICONTROL 입력한 총 계정]_&#x200B;을 표시합니다. 마케터가 작업 노드를 선택하면 오른쪽의 세부 정보에 _[!UICONTROL 아직 작업되지 않은 계정]_&#x200B;도 포함됩니다. _이벤트 수신_&#x200B;을 위한 자세한 내용에는 _[!UICONTROL 이 단계의 계정]_&#x200B;이 포함됩니다. 이 정보는 라이브, 완료 및 중단된 여정에서 계정 진행률을 확인하는 데 유용합니다. |
 
-## 2025.2 릴리스 정보
+## 2025.2 릴리스 정보 {#rel-2025-2}
 
 **배포 일자**: 2025년 3월 11일
 

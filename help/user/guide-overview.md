@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 설명서
 description: Journey Optimizer B2B Edition에 대한 전체 설명서 - 온보딩, 구매 그룹 만들기, 계정 여정 구축, 콘텐츠 관리에 사용할 수 있는 리소스를 살펴보십시오.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 47%
+source-wordcount: '917'
+ht-degree: 29%
 
 ---
 
@@ -23,11 +23,29 @@ ht-degree: 47%
 
 >[!TAB AI 에이전트]
 
-[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}을(를) 사용하면 AI 도우미 인터페이스가 전문 에이전트에게 자동으로 호출하여 올바른 답변과 통찰력을 얻을 수 있습니다. Agent Orchestrator는 대화 기록을 기억하여, 컨텍스트를 반복하지 않고도 이전 질문을 기반으로 자연스럽게 질문을 생성할 수 있게 하고 여러 에이전트의 인사이트를 결합하여 명확하고 통합된 응답을 제공합니다. [!DNL Journey Optimizer B2B Edition] 컨텍스트에는 특정 B2B 작업 및 도메인을 위해 특별히 빌드된 세 가지 에이전트가 있습니다.
+[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}을(를) 사용하면 AI 도우미 인터페이스가 전문 에이전트에게 자동으로 호출하여 올바른 답변과 통찰력을 얻을 수 있습니다. Agent Orchestrator는 대화 기록을 기억하여, 컨텍스트를 반복하지 않고도 이전 질문을 기반으로 자연스럽게 질문을 생성할 수 있게 하고 여러 에이전트의 인사이트를 결합하여 명확하고 통합된 응답을 제공합니다. [!DNL Journey Optimizer B2B Edition] 컨텍스트에는 특정 B2B 작업 및 도메인을 위해 특별히 빌드된 세 가지 에이전트가 있습니다.
 
 * [Audience Agent](./agents/audience-agent-b2b.md)
 * [Journey Agent](./agents/journey-agent.md)
 * [Account Qualification 에이전트](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB WhatsApp 채널]
+
+개발자와 제품 관리자가 Meta Business Manager 계정과의 통합을 구성할 때 마케터는 Meta Cloud API를 사용하여 계정 여정에서 WhatsApp 메시지를 컨텐츠 채널로 포함할 수 있습니다. WhatsApp은 계정 구성원에게 여정 콘텐츠를 직접 전달할 수 있는 사용 가능한 채널로 이메일 및 SMS에 가입합니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="WhatsApp 채널에 대해 알아보기"}
+
+>[!TAB 생성 AI 모델]
+
+이제 이메일 디자이너는 이메일 콘텐츠에 대한 이미지를 생성할 때 표준 [!DNL Firefly] 모델, 브랜드별 자산에 대해 교육된 사용자 지정 [!DNL Firefly] 모델 및 승인된 타사 이미지 모델 중에서 선택할 수 있습니다. 이 선택을 통해 팀은 일반적인 콘텐츠 요구 사항에서 브랜드 또는 특수 사용 사례에 이르기까지 특정 디자인 시나리오에 맞는 모델을 제어할 수 있습니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="생성 AI 모델 선택에 대해 알아보기"}
+
+>[!TAB 전송 시간 최적화]
+
+_직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시간 최적화를 사용하여 이메일 게재 타이밍을 개인화할 수 있습니다. 시스템은 모든 수신자에게 동시에 메시지를 보내는 대신 각 개인이 참여할 가능성이 가장 높고 그에 따라 게재를 예약하는 시기를 예측합니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="전송 시간 최적화에 대해 알아보기"}
 
 >[!TAB 여정 다시 입력]
 
@@ -43,27 +61,9 @@ ht-degree: 47%
 
 >[!TAB 사용자 매핑]
 
-마케터는 배경, 책임, 불만 사항 및 선호하는 커뮤니케이션 채널 등 자세한 프로필을 정의할 수 있습니다. 이러한 정의를 통해 관리자는 [!DNL Journey Optimizer B2B Edition]의 사용자 특성에 따라 가상 사용자를 구성할 수 있으므로 역할 템플릿은 이러한 가상 사용자를 캡처하는 간소화되고 일관된 역할 조건을 사용할 수 있습니다.
+마케터는 배경, 책임, 불만 사항 및 선호하는 커뮤니케이션 채널 등 자세한 프로필을 정의할 수 있습니다. 이러한 정의를 통해 관리자는 [!DNL Journey Optimizer B2B Edition]의 사용자 특성에 따라 가상 사용자를 구성할 수 있으므로 역할 템플릿에서 가상 사용자를 캡처하는 간소화되고 일관된 역할 조건을 사용할 수 있습니다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="사용자 매핑에 대해 알아보기"}
-
->[!TAB CRM 내 판매 인사이트]
-
-영업 팀원은 이제 Salesforce 또는 Dynamics 통합 내에서 성숙 단계에 있는 구매 그룹 및 관련 인사이트를 확인하여 새로운 기회를 식별할 수 있습니다. 단계, 점수 및 관련 구성원과 같은 구매 그룹 세부 정보가 포함됩니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="In-CRM 영업 인사이트에 대해 알아보기"}
-
->[!TAB 이메일 콘텐츠 공동 작업]
-
-이메일 디자인 공간에는 피드백 및 해결을 위한 공동 작업 도구가 포함되어 있어 마케팅 팀이 [!DNL Journey Optimizer B2B Edition] 내에서 바로 이메일 자산을 원활하게 검토하고, 논의하고, 마무리할 수 있습니다. 외부 도구(예: 채팅, 이메일 스레드 또는 스프레드시트)를 통해 초안을 공유하는 대신, 사용자는 이메일 디자인 공간 내에서 댓글을 달고, 편집을 제안하고, 피드백을 해결할 수 있습니다. 팀원이 댓글의 세부 정보가 포함된 이메일 또는 펄스 알림을 받을 수 있도록 태그를 지정할 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="이메일 콘텐츠 공동 작업 도구에 대해 알아보기"}
-
->[!TAB 다크 모드 이메일 디자인]
-
-이메일 디자인 공간에 _다크 모드_ 미리보기 및 설정이 포함됩니다. 다크 모드를 사용하면 지원되는 이메일 클라이언트 또는 앱이 더 어두운 배경과 더 밝은 색상으로 텍스트, 버튼 및 기타 시각 요소가 포함된 이메일을 표시할 수 있습니다. 미리보기 렌더링, 설정 사용자 정의, 접근성 확보 및 이메일 클라이언트 전반에서 테스트합니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="다크 모드 이메일 디자인에 대해 알아보기"}
 
 >[!ENDTABS]
 
@@ -71,7 +71,7 @@ ht-degree: 47%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 최신 릴리스 정보
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer B2B edition의 최신 릴리스 정보, 새로운 기능
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer B2B edition의 최신 릴리스 정보, 새로운 기능
 :::
 
 :::
-![구성 아이콘](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko){width="25"}
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 XDM 필드 구성
 
@@ -101,18 +101,19 @@ XDM 필드 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 커뮤니케이션 채널
 
-개인화된 고객 상호 작용을 위한 이메일, SMS 및 기타 채널을 구성하고 관리합니다.
+개인화된 고객 상호 작용을 위해 이메일, SMS, WhatsApp 및 기타 채널을 구성하고 관리합니다.
 
 [전자 메일 채널 구성](./admin/configure-channels-emails.md)
 [SMS 채널 구성](./admin/configure-channels-sms.md)
+[WhatsApp 채널 구성](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 계정 여정 만들기
 
@@ -122,7 +123,7 @@ XDM 필드 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 구매 그룹 이해
 
@@ -135,11 +136,11 @@ XDM 필드 구성
 
 <!-- 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
-Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
+Learn how to author and manage content for personalized customer experiences orchestrated through journeys.
 
 [Explore Content Components](./content/content-components.md)
 ::: 
@@ -170,7 +171,7 @@ Learn how to author and manage content for personalized customer experiences orc
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="계정 여정"><br/>
-      <strong>계정 여정</strong><br/><a href="./journeys/journeys-overview.md">여정 개요</a><br/><a href="./journeys/journeys-overview.md#create-an-account-journey">계정 여정 만들기</a><br/><a href="./journeys/journey-nodes.md">여정 노드</a>
+      <strong>계정 여정</strong><br/><a href="./journeys/journeys-overview.md">여정 개요</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">계정 여정 만들기</a><br/><a href="./journeys/journey-nodes.md">여정 노드</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -192,15 +193,15 @@ Learn how to author and manage content for personalized customer experiences orc
 
 ## 추가 리소스
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<table style="table-layout:fixed">
+<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home" target="_blank">설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">개발자 튜토리얼</a>
+<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home" target="_blank">설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">개발자 자습서</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/marketo/using/home" target="_blank">사용자 설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/home" target="_blank">개발자 설명서</a>
 </td>
