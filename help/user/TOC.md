@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
+source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '439'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 96%
       + [이벤트 듣기](./journeys/listen-for-event-nodes.md)
       + [경로 분할 및 병합](./journeys/split-merge-paths-nodes.md)
       + [대기](./journeys/wait-nodes.md)
+      + [외부 노드](./journeys/external-nodes.md)
    + [여정 세부 정보](./journeys/journey-details.md)
 + 여정 콘텐츠 {#journey-content}
    + [SMS 채널](./content/sms-authoring.md)
@@ -155,6 +156,11 @@ ht-degree: 96%
 + 관리 {#admin}
    + [거버넌스](./admin/governance.md)
    + [페르소나 매핑](./admin/persona-mapping.md)
+   + 구성 {#configurations}
+      + [AEM Assets 저장소](./admin/configure-aem-repositories.md)
+      + [의도 데이터](./admin/intent-data.md)
+      + [참여 점수 가중치](./admin/engagement-score-weighting.md)
+      + [외부 작업](./admin/configure-external-actions.md)
    + 채널 {#channels}
       + [이메일 구성](./admin/configure-channels-emails.md)
       + [SMS 구성](./admin/configure-channels-sms.md)
@@ -162,7 +168,3 @@ ht-degree: 96%
       + [웹 채널 구성(Beta)](./admin/configure-channels-web.md)
       + [랜딩 페이지 설정(Beta)](./admin/landing-page-settings.md)
       + [이벤트 수집을 위한 데이터스트림 구성](./data/aep-event-collection.md)
-   + 구성 {#configurations}
-      + [AEM Assets 저장소](./admin/configure-aem-repositories.md)
-      + [의도 데이터](./admin/intent-data.md)
-      + [참여 점수 가중치](./admin/engagement-score-weighting.md)

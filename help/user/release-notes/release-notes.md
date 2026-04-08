@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
+source-git-commit: bcfd4703c2cd4175670df22dc21ed4626db42a1a
 workflow-type: tm+mt
-source-wordcount: '4905'
+source-wordcount: '4911'
 ht-degree: 70%
 
 ---
@@ -28,7 +28,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 양식 | 이제 마케터는 다시 사용할 수 있는 양식 구성 요소를 만들어 게시하여 Journey Optimizer B2B edition _(이전에는 Beta 프로그램 기능)_&#x200B;에서 만들고 게시한 랜딩 페이지에서 데이터를 제출할 수 있도록 할 수 있습니다. |
 | 기능 | WhatsApp 채널 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 마케터는 이제 [!DNL Meta Cloud API]을(를) 통해 계정 여정에서 직접 WhatsApp 메시지를 보낼 수 있습니다. 이 기능을 사용하면 WhatsApp 메시지를 매끄럽게 통합하여 여정 콘텐츠 채널을 지원할 수 있습니다. [자세히 알아보기](../admin/configure-channels-whatsapp.md) |
 | 기능 | [!DNL Firefly] 및 사용자 지정 생성 AI 모델 지원 | 이제 마케팅 팀에서 승인된 타사 이미지 모델(예: [!DNL NanoBanana])과 함께 표준 및 사용자 지정 [!DNL Firefly] 모델의 통합을 사용할 수 있습니다. 이메일 디자이너는 각 사용 사례에 가장 적합한 모델을 선택할 수 있습니다. 일반적인 요구 사항은 표준 [!DNL Firefly]을(를), 브랜드 기반 생성은 사용자 지정 [!DNL Firefly]을(를), 전문 또는 실험 시나리오는 승인된 서드파티 모델을 선택할 수 있습니다. [자세히 알아보기](../content/generative-ai-models.md) |
-| 기능 | 여정에 대한 사용자 지정 외부 작업 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 개발자는 이제 API를 사용하여 자사 시스템과의 통합을 빌드할 수 있습니다. 이러한 사용자 지정 통합을 통해 마케터는 계정 여정 실행 중에 외부 서비스에 아웃바운드 요청을 하기 위해 _외부 작업_ 및 _외부 분할 경로_ 노드를 추가할 수 있습니다. |
+| 기능 | 여정에 대한 사용자 지정 외부 작업 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 개발자는 이제 API를 사용하여 자사 시스템과의 통합을 빌드할 수 있습니다. 이러한 사용자 지정 통합을 통해 마케터는 계정 여정 실행 중에 외부 서비스에 아웃바운드 요청을 하기 위해 _외부 작업_ 및 _외부 분할 경로_ 노드를 추가할 수 있습니다. [자세히 알아보기]&#x200B;(../admin/configure-external-actions.md |
 | 기능 | 브랜드 | (Beta) 마케팅 팀은 브랜드 프로필을 저장하고 관리하여 이메일 콘텐츠 자산 전반에서 브랜드 일관성을 유지할 수 있습니다. 색상, 글꼴, 로고, 테마, 시각 콘텐츠 및 규정 준수 가이드라인과 같은 에셋을 추가하면 생성형 AI 콘텐츠 생성에 브랜드 프로필을 사용할 수 있습니다. 또한 규정 준수를 보장하기 위해 브랜드 정렬을 측정할 수도 있습니다. [자세히 알아보기](../content/brands-overview.md) |
 | 개선 사항 | 이메일 전송 - 전송 시간 최적화 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} _직접 여정에 대한 전자 메일 보내기_ 동작 노드의 경우 _전송 시간 최적화_ 옵션을 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 전자 메일 배달 시기를 개인화할 수 있습니다. [자세히 알아보기](../content/email-send-time-optimization.md) |
 | 개선 사항 | 이메일 템플릿 디자인 도구 - 고급 HTML 모드 | 이메일 템플릿 디자인 공간에 _고급 HTML 모드_&#x200B;를 사용하면 사용자는 HTML/CSS를 약간 편집하고 이메일 템플릿에 스크립트 태그를 추가하여 렌더링 문제를 해결할 수 있습니다. [자세히 알아보기](../content/email-template-advanced-html.md) |
