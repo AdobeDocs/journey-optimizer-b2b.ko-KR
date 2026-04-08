@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ceb3e1ffed8b3991305250d69de787e848a4ab1f
+source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
 workflow-type: tm+mt
-source-wordcount: '4898'
+source-wordcount: '4905'
 ht-degree: 70%
 
 ---
@@ -31,7 +31,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 여정에 대한 사용자 지정 외부 작업 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 개발자는 이제 API를 사용하여 자사 시스템과의 통합을 빌드할 수 있습니다. 이러한 사용자 지정 통합을 통해 마케터는 계정 여정 실행 중에 외부 서비스에 아웃바운드 요청을 하기 위해 _외부 작업_ 및 _외부 분할 경로_ 노드를 추가할 수 있습니다. |
 | 기능 | 브랜드 | (Beta) 마케팅 팀은 브랜드 프로필을 저장하고 관리하여 이메일 콘텐츠 자산 전반에서 브랜드 일관성을 유지할 수 있습니다. 색상, 글꼴, 로고, 테마, 시각 콘텐츠 및 규정 준수 가이드라인과 같은 에셋을 추가하면 생성형 AI 콘텐츠 생성에 브랜드 프로필을 사용할 수 있습니다. 또한 규정 준수를 보장하기 위해 브랜드 정렬을 측정할 수도 있습니다. [자세히 알아보기](../content/brands-overview.md) |
 | 개선 사항 | 이메일 전송 - 전송 시간 최적화 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} _직접 여정에 대한 전자 메일 보내기_ 동작 노드의 경우 _전송 시간 최적화_ 옵션을 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 전자 메일 배달 시기를 개인화할 수 있습니다. [자세히 알아보기](../content/email-send-time-optimization.md) |
-| 개선 사항 | 이메일 디자인 도구 - 전문가 모드 | 전자 메일 디자인 영역에 _전문가 모드_&#x200B;를 사용하면 사용자가 HTML/CSS를 약간 편집하고 전자 메일에 스크립트 태그를 추가하여 렌더링 문제를 해결할 수 있습니다. |
+| 개선 사항 | 이메일 템플릿 디자인 도구 - 고급 HTML 모드 | 이메일 템플릿 디자인 공간에 _고급 HTML 모드_&#x200B;를 사용하면 사용자는 HTML/CSS를 약간 편집하고 이메일 템플릿에 스크립트 태그를 추가하여 렌더링 문제를 해결할 수 있습니다. [자세히 알아보기](../content/email-template-advanced-html.md) |
 | 개선 사항 | 개인 사용자 정의 객체 - 그룹 역할 템플릿 구매 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 관리자가 비즈니스 사용자 프로필과 관련된 사용자 지정 개체를 구성할 때 마케터는 이제 이러한 사용자 지정 개체를 사용하여 구매 그룹 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | 개선 사항 | 이메일 콘텐츠 점수 책정 - 콘텐츠 품질 평가 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 알아보기](../content/content-evaluation.md) |
 
