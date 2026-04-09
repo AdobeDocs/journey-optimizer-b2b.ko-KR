@@ -274,7 +274,7 @@ ht-degree: 100%
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>Adobe Experience Platform Web SDK을 지원하도록 비즈니스 웹 사이트를 구성합니다.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">자세히 알아보기</a></td>
+<td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview">자세히 알아보기</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
