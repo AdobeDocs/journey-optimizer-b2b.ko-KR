@@ -367,4 +367,4 @@ Using an [account action node](../journeys/journey-nodes.md#add-an-account-actio
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448701/?captions=kor&learn=on)

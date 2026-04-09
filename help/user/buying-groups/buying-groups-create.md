@@ -66,4 +66,4 @@ Remove a member of the buying group.
 
 ## 사용 방법 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451768/?captions=kor&learn=on)
