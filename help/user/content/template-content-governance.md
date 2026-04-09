@@ -4,7 +4,7 @@ description: 브랜드 준수를 위해 이메일 템플릿 구성 요소 잠금
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -48,14 +48,15 @@ ht-degree: 0%
    ![콘텐츠 추가 사용](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    이 모드가 루트 수준에서 설정되면 템플릿의 모든 요소가 잠깁니다. 왼쪽의 트리 구조에는 루트 및 모든 하위 요소 옆에 _읽기 전용_ 아이콘(![읽기 전용 아이콘](../assets/do-not-localize/icon-tree-lock.svg))이 표시됩니다.
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## 구조에 잠금 적용
 

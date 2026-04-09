@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2ecef6ad487570024745693dc0c8ea7d8a3a3375
+source-git-commit: 7eacf9d3951e4d5a393cb2636cee0c6b40ecc050
 workflow-type: tm+mt
-source-wordcount: '4847'
+source-wordcount: '4891'
 ht-degree: 71%
 
 ---
@@ -41,7 +41,13 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 이메일 전송 - 전송 시간 최적화 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} _직접 여정에 대한 전자 메일 보내기_ 동작 노드의 경우 _전송 시간 최적화_ 옵션을 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 전자 메일 배달 시기를 개인화할 수 있습니다. [자세히 알아보기](../content/email-send-time-optimization.md) |
 | 개선 사항 | 이메일 템플릿 디자인 도구 - 고급 HTML 모드 | 이메일 템플릿 디자인 공간에 _고급 HTML 모드_&#x200B;를 사용하면 사용자는 HTML/CSS를 약간 편집하고 이메일 템플릿에 스크립트 태그를 추가하여 렌더링 문제를 해결할 수 있습니다. [자세히 알아보기](../content/email-template-advanced-html.md) |
 | 개선 사항 | 개인 사용자 정의 객체 - 그룹 역할 템플릿 구매 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 관리자가 비즈니스 사용자 프로필과 관련된 사용자 지정 개체를 구성할 때 마케터는 이제 이러한 사용자 지정 개체를 사용하여 구매 그룹 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| 개선 사항 | 이메일 콘텐츠 점수 책정 - 콘텐츠 품질 유효성 검사 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. |
 | 개선 사항 | 이메일 콘텐츠 점수 책정 - 콘텐츠 품질 평가 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 알아보기](../content/content-evaluation.md) |
+
+<!--
+ wait for later release
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
+-->
 
 >[!NOTE]
 >
@@ -136,12 +142,14 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 참여 점수 가중치 - AEP 이벤트 | 참여 점수 가중치는 이제 표준 또는 사용자 지정 Experience Platform 이벤트를 포함할 수 있으며 필요에 따라 가중치가 부여됩니다. [자세히 알아보기](../admin/engagement-score-weighting.md) |
 | 개선 사항 | 커뮤니케이션 제한 | 이제 시스템에서는 Marketo Engage 및 Journey Optimizer B2B edition의 결합된 통신 제한을 준수합니다. [자세히 알아보기](../admin/configure-channels-emails.md#communication-limits) |
 
-<!-- There are additional functional changes with the simplified architecture:
+<!--
+ There are additional functional changes with the simplified architecture:
 
 | Item | Description |
 | ---- | ----------- |
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | | -->
+| | |
+-->
 
 ## 2025.9 릴리스 정보 {#rel-2025-9}
 

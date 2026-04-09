@@ -7,7 +7,7 @@ role: User, Developer
 level: Intermediate
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
+source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 6%
@@ -43,7 +43,7 @@ _개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 
 
 >[!NOTE]
 >
->[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
+>[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
 
 ## Personalization 편집기
 
@@ -65,10 +65,12 @@ _개인화 추가_( ![개인화 추가 아이콘](../../assets/do-not-localize/i
 
 ![Personalization 편집기 - 토큰 추가 메뉴](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
-<!-- >>[!NOTE]
+<!--
+>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
+
 문자열 유형 프로필 속성이 비어 있는 경우 표시되는 기본 대체 텍스트 문자열을 정의할 수도 있습니다. 특성에 대한 _추가 메뉴_( **...**) 아이콘을 클릭하고 **[!UICONTROL 대체 텍스트로 삽입]**&#x200B;을 선택합니다. 프로필에 대해 특성 값이 비어 있을 때 표시할 텍스트를 입력한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 표현식을 콘텐츠에 삽입하기 전에 유효성을 검사하는 것이 좋습니다. 편집기 하단의 **[!UICONTROL 유효성 검사]**&#x200B;를 클릭하여 구문을 확인하고 오류가 없는지 확인합니다.

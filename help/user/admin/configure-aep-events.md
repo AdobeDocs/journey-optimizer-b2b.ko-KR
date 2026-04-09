@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 베타 릴리스에 있습니다"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 7%
+source-wordcount: '1477'
+ht-degree: 12%
 
 ---
 
 # 경험 이벤트 및 필드 선택
 
-관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
+관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
@@ -115,7 +115,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
    ![기타 메뉴 아이콘 클릭](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. **[!UICONTROL 필드 선택]** 대화 상자에서 필드를 더 추가하거나 기존 선택 항목을 제거하려면 _[!UICONTROL 필드 편집]_&#x200B;을 클릭하십시오.
+1. _[!UICONTROL 필드 선택]_ 대화 상자에서 필드를 더 추가하거나 기존 선택 항목을 제거하려면 **[!UICONTROL 필드 편집]**&#x200B;을 클릭하십시오.
 
 1. 선택 내용을 저장하려면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.
 
@@ -210,7 +210,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 | 메일링 소스 인스턴스 ID | `directMarketing.mailingKey.sourceInstanceID` |
 | 메일링 소스 키 | `directMarketing.mailingKey.sourceKey` |
 | 메일 이름 | `directMarketing.mailingName` |
-| 모바일 디바이스임 | `device.isMobileDevice` |
+| 모바일 디바이스 | `device.isMobileDevice` |
 | 장치 모델 | `device.model` |
 | 사용자 에이전트 | `environment.browserDetails.userAgent` |
 | 운영 체제 | `environment.operatingSystem` |
@@ -243,7 +243,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 | 메일링 소스 키 | `directMarketing.mailingKey.sourceKey` |
 | 메일 이름 | `directMarketing.mailingName` |
 | 링크 URL | `directMarketing.linkURL` |
-| 모바일 디바이스임 | `device.isMobileDevice` |
+| 모바일 디바이스 | `device.isMobileDevice` |
 | 모델 | `device.model` |
 | 사용자 에이전트 | `environment.browserDetails.userAgent` |
 | 운영 체제 | `environment.operatingSystem` |
@@ -283,7 +283,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 가볍게 반송된 이메일
+### 소프트 바운스된 이메일
 
 이 이벤트는 개인에게 보낸 이메일이 소프트 바운스되면 추적합니다.
 
@@ -462,6 +462,8 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448690/?captions=kor&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
+-->

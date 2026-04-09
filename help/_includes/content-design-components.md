@@ -1,9 +1,9 @@
 ---
 title: 콘텐츠 작성 - 구성 요소
 description: 콘텐츠 작성에 구성 요소 및 콘텐츠 요소 사용에 대한 재사용 섹션
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL 콘텐츠]** 섹션을 확장하고 하나 이상의 구조 구성 요소에 필요한 만큼 콘텐츠 구성 요소를 추가합니다.
 
-   ![콘텐츠 요소를 캔버스로 드래그하고 설정을 조정하십시오](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-   <!--
-   reference to the contents elements when we have a completed reference for each.--->
+   ![콘텐츠 요소를 캔버스로 드래그하고 설정을 조정합니다.](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+&lt;!--
+각 요소에 대한 참조가 완료되면 콘텐츠 요소에 대한 참조를 제공합니다.
+
+   -->
 
 1. 필요한 경우 _[!UICONTROL 설정]_ 또는 _[!UICONTROL 스타일]_ 탭에서 각 구성 요소를 추가로 사용자 지정할 수 있습니다.
 

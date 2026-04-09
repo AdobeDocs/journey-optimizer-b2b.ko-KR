@@ -4,10 +4,10 @@ description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1844'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 4%
 | [!UICONTROL 계정 데이터 값 변경] | 특성<br/>추가 제약 조건(선택 사항): <li>새 값</li><li>이전 값</li><li>활동 날짜</li> <br/>시간 초과(선택 사항) |
 | [!UICONTROL 구매 그룹 단계 변경] | 솔루션 관심<br/>추가 제약 조건(선택 사항): <li>새 단계</li><li>이전 단계</li><li>활동 날짜</li><br/> 시간 초과(선택 사항) |
 | [!UICONTROL 구매 그룹 상태 변경] | 솔루션 관심<br/>추가 제약 조건(선택 사항): <li>새 상태</li><li>이전 상태</li><li>활동 날짜</li><br/> 시간 초과(선택 사항) |
-| [!UICONTROL 완성도 점수 변경] | 솔루션 관심<br/>추가 제약 조건(선택 사항): <li>새 스코어</li><li>이전 점수</li><li>활동 날짜</li><br/> 시간 초과(선택 사항) |
-| [!UICONTROL 참여 점수 변경] | 솔루션 관심<br/>추가 제약 조건(선택 사항): <li>새 스코어</li><li>이전 점수</li><li>활동 날짜</li><br/> 시간 초과(선택 사항) |
+| [!UICONTROL 완성도 점수 변경] | 솔루션 관심<br/>추가 제약 조건(선택 사항): <li>새 점수</li><li>이전 점수</li><li>활동 날짜</li><br/> 시간 초과(선택 사항) |
+| [!UICONTROL 참여 점수 변경] | 솔루션 관심<br/>추가 제약 조건(선택 사항): <li>새 점수</li><li>이전 점수</li><li>활동 날짜</li><br/> 시간 초과(선택 사항) |
 
 ### 계정 이벤트 추가
 
@@ -59,15 +59,15 @@ ht-degree: 4%
 | 입력 유형 | 이벤트 | 제한 |
 | ---------- | ----- | ----------- |
 | Journey Optimizer B2B | [!UICONTROL 구매 그룹에 할당됨] | 솔루션 관심<br/><br/>추가 제약 조건(선택 사항): <li>역할</li><li>활동 날짜</li><br/>시간 초과(선택 사항) |
-| | [!UICONTROL 전자 메일의 링크 클릭] | 전자 메일<br/><br/>추가 제한(선택 사항): <li>링크</li><li>링크 ID</li><li>모바일 디바이스임</li><li>디바이스</li><li>플랫폼</li><li>브라우저</li><li>예측 콘텐츠</li><li>보트 활동임</li><li>보트 활동 패턴</li><li>브라우저</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
+| | [!UICONTROL 전자 메일의 링크 클릭] | 전자 메일<br/><br/>추가 제한(선택 사항): <li>링크</li><li>링크 ID</li><li>모바일 디바이스</li><li>디바이스</li><li>플랫폼</li><li>브라우저</li><li>예측 콘텐츠</li><li>봇 활동</li><li>봇 활동 패턴</li><li>브라우저</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
 | | [!UICONTROL SMS에서 링크 클릭] | 전자 메일<br/><br/>추가 제한(선택 사항): <li>링크</li><li>디바이스</li><li>플랫폼</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
 | | [!UICONTROL 데이터 값 변경] | Person 특성<br/><br/>추가 제약 조건(선택 사항): <li>새 값</li><li>이전 값</li><li>이유</li><li>소스</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
-| | [!UICONTROL 이메일 열기] | 전자 메일<br/><br/>추가 제한(선택 사항): <li>링크</li><li>링크 ID</li><li>모바일 디바이스임</li><li>디바이스</li><li>플랫폼</li><li>브라우저</li><li>예측 콘텐츠</li><li>보트 활동임</li><li>보트 활동 패턴</li><li>브라우저</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
+| | [!UICONTROL 이메일 열기] | 전자 메일<br/><br/>추가 제한(선택 사항): <li>링크</li><li>링크 ID</li><li>모바일 디바이스</li><li>디바이스</li><li>플랫폼</li><li>브라우저</li><li>예측 콘텐츠</li><li>봇 활동</li><li>봇 활동 패턴</li><li>브라우저</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
 | | [!UICONTROL 구매 그룹에서 제거됨] | 솔루션 관심 분야<br/>활동 날짜(선택 사항)<br/>시간 초과(선택 사항) |
-| | [!UICONTROL 점수가 변경됨] | 점수 이름<br/><br/>추가 제한(선택 사항):<li>변경</li><li>새 스코어</li><li>긴급도</li><li>우선 순위</li><li>상대 스코어</li><li>상대 긴급도</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
+| | [!UICONTROL 점수가 변경됨] | 점수 이름<br/><br/>추가 제한(선택 사항):<li>변경</li><li>새 점수</li><li>긴급도</li><li>우선 순위</li><li>상대 점수</li><li>상대 긴급도</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
 | | [!UICONTROL SMS 반송] | SMS 메시지<br/><br/>추가 제약 조건(선택 사항): <li>활동 날짜</li><li>최소 횟수</li><br/>시간 초과(선택 사항) |
-| Marketo Engage | [!UICONTROL 웹 페이지 방문] | 웹 페이지 <br/> 일치시킬 Marketo Engage 페이지를 하나 이상 선택하십시오. <br/><br/>추가 제한(선택 사항): <li>Querystring</li><li>클라이언트 IP 주소</li><li>레퍼러</li><li>사용자 에이전트</li><li>검색 엔진</li><li>검색 쿼리</li><li>토큰</li><li>브라우저</li><li>플랫폼</li><li>디바이스</li><li>활동 날짜</li> |
-| | [!UICONTROL 양식 작성] | 양식 <br/> 일치시킬 Marketo Engage 양식을 하나 이상 선택하십시오. <br/><br/>추가 제한(선택 사항): <li>활동 날짜</li><li>Querystring</li><li>클라이언트 IP 주소</li><li>레퍼러</li><li>사용자 에이전트</li><li>플랫폼</li><li>디바이스</li><br/>시간 초과(선택 사항) |
+| Marketo Engage | [!UICONTROL 웹 페이지 방문] | 웹 페이지 <br/> 일치시킬 Marketo Engage 페이지를 하나 이상 선택하십시오. <br/><br/>추가 제약 조건(선택 사항): <li>쿼리 문자열</li><li>클라이언트 IP 주소</li><li>레퍼러</li><li>사용자 에이전트</li><li>검색 엔진</li><li>검색어</li><li>토큰</li><li>브라우저</li><li>플랫폼</li><li>디바이스</li><li>활동 날짜</li> |
+| | [!UICONTROL 양식 작성] | 양식 <br/> 일치시킬 Marketo Engage 양식을 하나 이상 선택하십시오. <br/><br/>추가 제약 조건(선택 사항): <li>활동 날짜</li><li>쿼리 문자열</li><li>클라이언트 IP 주소</li><li>레퍼러</li><li>사용자 에이전트</li><li>플랫폼</li><li>디바이스</li><br/>시간 초과(선택 사항) |
 | Adobe Experience Platform | [!UICONTROL 이벤트 정의] | 이벤트 유형 <br/><br/>추가 제약 조건(선택 사항): <li>필드</li> <br/>추가 제약 조건(지원되지 않음): <li>활동 날짜</li><li>최소. 횟수</li><br/> 시간 초과(선택 사항) |
 
 ### 사용자 이벤트 필터
@@ -78,8 +78,8 @@ ht-degree: 4%
 | [!UICONTROL 활동 기록] > [!UICONTROL SMS 메시지] | 여정 이전 버전에서 선택한 하나 이상의 SMS 메시지를 사용하여 평가되는 조건에 따른 SMS 활동: <li>[!UICONTROL SMS에서 클릭한 링크] <li>[!UICONTROL 반송된 SMS] <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). --> |
 | [!UICONTROL 활동 기록] > [!UICONTROL 데이터 값 변경됨] | 선택한 개인 속성의 경우 값이 변경되었습니다. 이러한 변경 유형은 다음과 같습니다. <li>새 값<li>이전 값<li>이유<li>소스<li>활동 날짜<li>최소. <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> 횟수 |
 | [!UICONTROL 활동 기록] > [!UICONTROL 즐거운 시간이 있습니다] | 연결된 Marketo Engage 인스턴스에 정의된 관심 있는 순간 활동입니다. 제한 사항은 다음과 같습니다. <li>마일스톤<li>이메일<li>웹 <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
-| [!UICONTROL 활동 기록] > [!UICONTROL 방문한 웹 페이지] | 연관된 Marketo Engage 인스턴스에서 관리하는 하나 이상의 웹 페이지에 대한 웹 페이지 활동. 제한 사항은 다음과 같습니다. <li>웹 페이지(필수)<li>활동 날짜<li>클라이언트 IP 주소 <li>Querystring <li>레퍼러 <li>사용자 에이전트 <li>검색 엔진 <li>검색 쿼리 <li>개인화된 URL <li>토큰 <li>브라우저 <li>플랫폼 <li>디바이스 <li>최소. <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> 횟수 |
-| [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>도시 <li>국가 <li>생년월일 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 일시 중단됨 <li>이름 <li>상태 영역 유추<li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주 <li>구독 취소 <li>구독 취소 이유 |
+| [!UICONTROL 활동 기록] > [!UICONTROL 방문한 웹 페이지] | 연관된 Marketo Engage 인스턴스에서 관리하는 하나 이상의 웹 페이지에 대한 웹 페이지 활동. 제한 사항은 다음과 같습니다. <li>웹 페이지(필수)<li>활동 날짜<li>클라이언트 IP 주소 <li>쿼리 문자열 <li>레퍼러 <li>사용자 에이전트 <li>검색 엔진 <li>검색어 <li>개인화 URL <li>토큰 <li>브라우저 <li>플랫폼 <li>디바이스 <li>최소. <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> 횟수 |
+| [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>도시 <li>국가 <li>생년월일 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 중단됨 <li>이름 <li>추정 주 지역<li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주 <li>구독 취소 <li>구독 취소 이유 |
 | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨</li><li>역할</li> |
 | [!UICONTROL 특수 필터] > [!UICONTROL 목록의 구성원] | 해당 사용자는 하나 이상의 Marketo Engage 목록에 속하거나 속하지 않습니다. |
 | [!UICONTROL 특수 필터] > [!UICONTROL 프로그램 구성원] | 해당 사용자는 하나 이상의 Marketo Engage 프로그램의 멤버이거나 멤버입니다. |
@@ -135,14 +135,15 @@ ht-degree: 4%
 
 ### 경험 이벤트 수신
 
-관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
 
 1. 관리자 [관심 있는 이벤트 유형 및 필드를 선택하여](../admin/configure-aep-events.md#select-an-event)여정에서 사용할 수 있도록 합니다.
 
 2. 여정에서 _이벤트 수신_ 노드를 추가하고 사용자 기반 이벤트에 대한 Experience Platform 이벤트 유형을 선택합니다.
 
 <!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
+-->
 
 여정에 경험 이벤트를 포함하려면(_T):_
 
@@ -222,6 +223,8 @@ ht-degree: 4%
 
    ![여정 이벤트 노드 - 시간 제한 경로 설정](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?captions=kor&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
+-->

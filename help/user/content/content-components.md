@@ -4,7 +4,7 @@ description: 콘텐츠 구성 요소를 사용하여 이메일, 랜딩 페이지
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ab9e6a1d8785ad4f36e1026a8c376abc9c526c9e
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '3057'
 ht-degree: 6%
@@ -591,7 +591,7 @@ HTML 구성 요소의 경우 오른쪽 패널에서 전체 HTML 구성 요소에
 
   _[!UICONTROL 이미지 업로드]_ 대화 상자에서 시스템의 파일을 파일 상자로 끌어서 놓습니다. 최대 파일 크기는 100MB입니다.
 
-  ![이미지 파일을 &#x200B;](./assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
+  ![이미지 파일을 ](./assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
 
   선택한 이미지의 파일 이름이 대화 상자에 표시됩니다. 에셋 파일 이름은 폴더 간에 고유해야 하며 이름의 파일이 이미 있는 경우 메시지가 표시됩니다. 이름에는 최대 100자를 사용할 수 있으며 특수 문자(예: `;`, `:`, `\` 및 `|`)를 사용할 수 없습니다.
 

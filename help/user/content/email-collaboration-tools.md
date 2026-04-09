@@ -3,10 +3,11 @@ title: 이메일 Collaboration 도구
 description: Journey Optimizer B2B edition에서 이메일에 대해 공동 작업합니다. 팀의 의견을 추가하고, 검토자를 초대하고, 피드백을 해결하고, 검토 워크플로를 간소화합니다.
 feature: Email Authoring, Content
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 3%
+source-wordcount: '1213'
+ht-degree: 4%
 
 ---
 
@@ -24,15 +25,17 @@ ht-degree: 3%
 
 * **_컨텍스트의 Collaboration_** - 레이아웃 내에서 전자 메일 본문 복사본, 이미지 및 call-to-action(CTA) 요소를 검토합니다.
 
-<!-- Enable asynchronous collaboration between team members for an email asset
+<!--
+ Enable asynchronous collaboration between team members for an email asset
 Allow users to attach comments to specific design elements
 Provide a unified interface for viewing and managing all comments within a project
 Support comment placement, editing, deleting, and navigation
-Display visual indicators (badges) for elements with associated comments -->
+Display visual indicators (badges) for elements with associated comments 
+-->
 
 ## 검토자를 위한 이메일 공동 작업 도구 활성화
 
-제품 관리자는 Adobe Experience Cloud의 **[!UICONTROL 권한]** UI를 통해 _B 전자 메일 관리_ 권한을 할당하여 전자 메일 공동 작업 도구에 액세스할 수 있습니다.
+제품 관리자는 Adobe Experience Cloud의 _권한_ UI를 통해 **[!UICONTROL B 전자 메일 관리]** 권한을 할당하여 전자 메일 공동 작업 도구에 액세스할 수 있습니다.
 
 +++ 이메일 권한 활성화
 
@@ -48,7 +51,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
    권한은 이미 역할에 할당된 모든 사용자에 대해 자동으로 업데이트됩니다.
 
-1. 이 역할을 새 사용자에게 할당하려면 **[!UICONTROL 역할]** 대시보드에서 _[!UICONTROL 사용자]_ 탭을 선택하고 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하십시오.
+1. 이 역할을 새 사용자에게 할당하려면 _[!UICONTROL 역할]_ 대시보드에서 **[!UICONTROL 사용자]** 탭을 선택하고 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하십시오.
 
    * 사용자 이름과 이메일 주소를 입력하거나 목록에서 기존 사용자를 선택합니다.
 
@@ -113,7 +116,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
 ### 댓글 추가
 
-이메일 공동 작업자 또는 검토자는 디자인 공간에서 이메일을 열고 피드백을 추가합니다. _Collaboration_ 패널에 일반 피드백을 입력하거나 캔버스에서 구성 요소를 선택하고 해당 디자인 요소에 대한 설명을 추가할 수 있습니다. `@`과(와) 같은 _을(를) 사용하여 팀원을 태그@John 지정합니다. CTA 복사본을 업데이트하십시오_.
+이메일 공동 작업자 또는 검토자는 디자인 공간에서 이메일을 열고 피드백을 추가합니다. _Collaboration_ 패널에 일반 피드백을 입력하거나 캔버스에서 구성 요소를 선택하고 해당 디자인 요소에 대한 설명을 추가할 수 있습니다. _과(와) 같은 `@`을(를) 사용하여 팀원을 태그@John 지정합니다. CTA 복사본을 업데이트하십시오_.
 
 새 의견이 나올 때마다 공동 작업자가 _회신_&#x200B;을 사용하여 토론을 계속할 수 있는 스레드가 시작됩니다. 디자인 요소와 연관된 각 주석/스레드에는 번호가 매겨져서 해당 요소가 적용되는 요소를 쉽게 식별할 수 있습니다.
 

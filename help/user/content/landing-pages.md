@@ -5,7 +5,7 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2220'
 ht-degree: 2%
@@ -27,8 +27,9 @@ ht-degree: 2%
 예를 들어 랜딩 페이지를 만들고 디자인하여 사용자를 온라인 정보로 안내할 수 있습니다. 페이지에는 커뮤니케이션 수신을 옵트인하거나 옵트아웃할 수 있는 양식이 포함될 수 있습니다. 또는 뉴스레터와 같은 반복되는 커뮤니케이션에 가입할 수 있습니다.
 
 시각적 디자인 공간에서 랜딩 페이지를 만들고, 개인화하고, 미리 볼 수 있습니다.
-<!-- 
-For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
+<!--
+For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. 
+-->
 
 ## 랜딩 페이지 액세스 및 관리
 
@@ -152,10 +153,11 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 
 >[!ENDTABS]
 
-<!-- 
+<!--
 >[!NOTE]
 >
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). -->
+> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). 
+-->
 
 ## 랜딩 페이지 편집
 

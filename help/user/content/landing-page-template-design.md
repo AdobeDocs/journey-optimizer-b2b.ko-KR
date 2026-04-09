@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 4%
+source-wordcount: '353'
+ht-degree: 6%
 
 ---
 
@@ -54,7 +54,8 @@ ht-degree: 4%
 
 언제든지 **[!UICONTROL 저장]**&#x200B;을 클릭하여 랜딩 페이지 템플릿을 저장합니다.
 <!--
-You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). 
+-->
 
 ### 옵션 보기
 
@@ -74,5 +75,5 @@ You can continue to make edits to the draft page template. When you are ready to
 
 * **[!UICONTROL 랜딩 페이지 재설정]** - 시각적 디자인 캔버스를 빈 슬레이트로 지우고 페이지 콘텐츠 작성을 다시 시작하려면 이 옵션을 클릭하십시오.
 * **[!UICONTROL 디자인 변경]** - _[!UICONTROL 기본 랜딩 페이지 만들기]_ 홈 페이지로 돌아가기. 여기에서 다른 템플릿을 선택하여 디자인 프로세스를 다시 시작하거나 빈 캔버스에서 페이지를 처음부터 디자인하도록 선택할 수 있습니다.
-<!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
+<!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL HTML 내보내기]** - zip 파일로 패키지된 HTML 형식의 로컬 시스템에 시각적 캔버스의 콘텐츠를 다운로드합니다.

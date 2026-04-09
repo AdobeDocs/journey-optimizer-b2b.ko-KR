@@ -5,10 +5,10 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 3%
+source-wordcount: '387'
+ht-degree: 5%
 
 ---
 
@@ -74,5 +74,5 @@ ht-degree: 3%
 
 * **[!UICONTROL 랜딩 페이지 재설정]** - 시각적 디자인 캔버스를 빈 슬레이트로 지우고 페이지 콘텐츠 작성을 다시 시작하려면 이 옵션을 클릭하십시오.
 * **[!UICONTROL 디자인 변경]** - _[!UICONTROL 기본 랜딩 페이지 만들기]_ 홈 페이지로 돌아가기. 여기에서 다른 템플릿을 선택하여 디자인 프로세스를 다시 시작하거나 빈 캔버스에서 페이지를 처음부터 디자인하도록 선택할 수 있습니다.
-<!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
+<!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL HTML 내보내기]** - zip 파일로 패키지된 HTML 형식의 로컬 시스템에 시각적 캔버스의 콘텐츠를 다운로드합니다.

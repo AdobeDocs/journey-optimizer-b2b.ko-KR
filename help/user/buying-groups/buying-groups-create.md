@@ -4,9 +4,9 @@ description: Journey Optimizer B2B edition에서 타깃팅된 계정 여정에 �
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,14 @@ ht-degree: 3%
 
 ![솔루션 관심별로 그룹 작업 구매](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
-<!-- Other buying group activities:
+<!--
+ Other buying group activities:
 
 Member of buying group.
 Assign a member of the buying group.
-Remove a member of the buying group. -->
+Remove a member of the buying group. 
+-->
 
 ## 사용 방법 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3451768/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

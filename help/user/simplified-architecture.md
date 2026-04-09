@@ -2,9 +2,9 @@
 title: 간소화된 아키텍처 설정
 description: 간소화된 아키텍처에 대해 Journey Optimizer B2B edition을 설정합니다. XDM 스키마, 이메일/SMS 채널, Marketo Engage 여정 작업 및 사용자를 구성합니다.
 feature: Setup, Administration
-role: Admin, Data Engineer
+role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
@@ -207,7 +207,8 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!-- TBD for later 
+<!--
+ TBD for later
 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
@@ -273,7 +274,7 @@ ht-degree: 100%
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>Adobe Experience Platform Web SDK을 지원하도록 비즈니스 웹 사이트를 구성합니다.</td>
-<td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview">자세히 알아보기</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">자세히 알아보기</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>

@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '4853'
+source-wordcount: '4943'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->[!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에서 프로비저닝된 &#x200B;](../simplified-architecture.md) 환경에서 도우미 함수를 사용할 수 있습니다.
+>[간소화된 아키텍처](../simplified-architecture.md)에서 프로비저닝된 [!DNL Journey Optimizer B2B Edition] 환경에서 도우미 함수를 사용할 수 있습니다.
 
 ## 집계 함수
 
@@ -420,7 +420,9 @@ ht-degree: 6%
 
 +++
 
-<!-- ## Intersection{#intersection}
+<!--
+
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -450,7 +452,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 | 인수 | 설명 |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | 정렬할 배열 또는 목록입니다. |
 | `{VALUE}` | 배열 또는 목록을 정렬하는 데 사용되는 속성입니다. |
 | `{AMOUNT}` | 반환할 항목의 수입니다. |
@@ -1274,7 +1276,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### 또는 {#or}
 
-`or` 함수는 논리 분리를 만드는 데 사용됩니다.
+The `or` function is used to create a logical disjunction.
 
 +++구문
 
@@ -1284,7 +1286,7 @@ The following operation gets all the values for the map `identityMap`.
 
 **예**
 
-다음 작업은 본국(프랑스) 또는 출생연도(1985)가 있는 모든 사람을 반환합니다.
+The following operation returns all people with home country (France) or birth year (1985).
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -1315,7 +1317,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 같음 {#operator-equals}
 
-`=`(equals) 함수는 하나의 값 또는 식이 다른 값 또는 식과 같은지 확인합니다.
+The `=` (equals) function checks whether one value or expression is equal to another value or expression.
 
 +++구문
 
@@ -1325,7 +1327,7 @@ not (homeAddress.countryISO = "CA")
 
 **예**
 
-다음 작업에서는 홈 주소 국가가 프랑스인지 확인합니다.
+The following operation checks if the home address country is France.
 
 ```sql
 {%= profile.homeAddress.country = "France" %}
@@ -1333,9 +1335,9 @@ not (homeAddress.countryISO = "CA")
 
 +++
 
-### 같지 않음 {#notequal}
+### not equal {#notequal}
 
-`!=`(같지 않음) 함수는 하나의 값 또는 식이 다른 값 또는 식과 **같지 않음**&#x200B;인지 확인합니다.
+The `!=` (not equal) function checks whether one value or expression is **not** equal to another value or expression.
 
 +++구문
 
@@ -1345,7 +1347,7 @@ not (homeAddress.countryISO = "CA")
 
 **예**
 
-다음 작업에서는 홈 주소 국가가 프랑스가 아닌지 확인합니다.
+The following operation checks if the home address country is not France.
 
 ```sql
 {%= profile.homeAddress.country != "France" %}
@@ -1355,7 +1357,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 다음보다 큼 {#greaterthan}
 
-`>`(보다 큼) 함수를 사용하여 첫 번째 값이 두 번째 값보다 큰지 확인합니다.
+Use the `>` (greater than) function to check if the first value is greater than the second value.
 
 +++구문
 
@@ -1365,7 +1367,7 @@ not (homeAddress.countryISO = "CA")
 
 **예**
 
-다음 수술은 1970년 이후 출생한 사람들을 엄격하게 정의합니다.
+The following operation defines people born strictly after 1970.
 
 ```sql
 {%= profile.person.birthYear > 1970 %}
@@ -1373,9 +1375,9 @@ not (homeAddress.countryISO = "CA")
 
 +++
 
-### 크거나 같음 {#greaterthanorequal}
+### greater than or equal to {#greaterthanorequal}
 
-`>=`(크거나 같음) 함수를 사용하여 첫 번째 값이 두 번째 값보다 크거나 같은지 확인하십시오.
+Use the `>=` (greater than or equal to) function to check if the first value is greater than or equal to the second value.
 
 +++구문
 
@@ -1385,7 +1387,7 @@ not (homeAddress.countryISO = "CA")
 
 **예**
 
-다음 수술은 1970년 이후 출생자를 정의합니다.
+The following operation defines people born in or after 1970.
 
 ```sql
 {%= profile.person.birthYear >= 1970 %}
@@ -1395,7 +1397,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 다음보다 작음 {#lessthan}
 
-`<`(보다 작음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작은지 확인하십시오.
+Use the `<` (less than) comparison function to check if the first value is less than the second value.
 
 +++구문
 
@@ -1405,7 +1407,7 @@ not (homeAddress.countryISO = "CA")
 
 **예**
 
-다음 작업은 2000년 이전에 태어난 사람들을 정의합니다.
+The following operation defines people born before 2000.
 
 ```sql
 {%= profile.person.birthYear < 2000 %}
@@ -1413,9 +1415,9 @@ not (homeAddress.countryISO = "CA")
 
 +++
 
-### 보다 작거나 같음{#lessthanorequal}
+### less than or equal to{#lessthanorequal}
 
-`<=`(작거나 같음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작거나 같은지 확인하십시오.
+Use the `<=` (less than or equal to) comparison function to check if the first value is less than or equal to the second value.
 
 +++구문
 
@@ -1425,7 +1427,7 @@ not (homeAddress.countryISO = "CA")
 
 **예**
 
-다음 작업은 2000년 이전에 태어난 사람들을 정의합니다.
+The following operation defines people born in 2000 or before.
 
 ```sql
 {%= profile.person.birthYear <= 2000 %}
@@ -1433,9 +1435,9 @@ not (homeAddress.countryISO = "CA")
 
 +++
 
-## 동적 함수 {#dynamic-helpers}
+## Dynamic functions {#dynamic-helpers}
 
-동적 개인화를 위해 조건부 평가, 반복 및 변수 할당을 사용하려면 동적 도우미 함수를 사용하십시오.
+Use the dynamic helper functions to use conditional evaluations, iteration, and variable assignments for dynamic personalization.
 
 ### 기본 대체 값 {#default-value}
 
@@ -1447,7 +1449,7 @@ not (homeAddress.countryISO = "CA")
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-이 예제에서는 이 프로필의 `there` 특성이 비어 있거나 null인 경우 값 `firstName`이(가) 표시됩니다.
+이 예제에서는 이 프로필의 `firstName` 특성이 비어 있거나 null인 경우 값 `there`이(가) 표시됩니다.
 
 +++
 
@@ -1592,7 +1594,7 @@ Some edu specific content
 
 +++
 
-### 포함 {#with}
+### 다음 포함 {#with}
 
 `with` 도우미를 사용하여 템플릿 부분의 평가 토큰을 변경하십시오.
 
@@ -2184,7 +2186,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 **예**
 
-다음 쿼리는 대/소문자 구분을 통해 개인의 전자 메일 주소가 `.com`(으)로 끝나는지 여부를 결정합니다.
+The following query determines, with case sensitivity, if the person&#39;s email address ends with `.com`.
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
@@ -2194,7 +2196,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 ### 같음 {#equals}
 
-`equals` 함수를 사용하여 문자열이 지정된 문자열과 같은지 확인합니다. 대/소문자를 구분합니다.
+Use the `equals` function to determine if a string is equal to the specified string, with case sensitivity.
 
 +++구문
 
@@ -2205,11 +2207,11 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 | 인수 | 설명 |
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행하는 문자열입니다. |
-| `{STRING_2}` | 첫 번째 문자열과 비교할 문자열입니다. |
+| `{STRING_2}` | The string to compare with the first string. |
 
 **예**
 
-다음 쿼리는 대/소문자 구분을 통해 개인의 이름이 `John`인지 확인합니다.
+The following query determines, with case sensitivity, if the person&#39;s name is `John`.
 
 ```sql
 {%=equals(profile.person.name,"John") %}
@@ -2219,7 +2221,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 ### equalsIgnoreCase {#equalsIgnoreCase}
 
-문자열을 대/소문자를 구분하지 않고 지정한 문자열과 같은지 확인하려면 `equalsIgnoreCase` 함수를 사용하십시오.
+Use the `equalsIgnoreCase` function to determine if a string is equal to the specified string, without case sensitivity.
 
 +++구문
 
@@ -2230,11 +2232,11 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 | 인수 | 설명 |
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행하는 문자열입니다. |
-| `{STRING_2}` | 첫 번째 문자열과 비교할 문자열입니다. |
+| `{STRING_2}` | The string to compare with the first string. |
 
 **예**
 
-다음 쿼리는 대/소문자 구분 없이 개인의 이름이 `John`인지 확인합니다.
+The following query determines, without case sensitivity, if the person&#39;s name is `John`.
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
@@ -2244,7 +2246,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 ### extractEmailDomain {#extractEmailDomain}
 
-`extractEmailDomain` 함수를 사용하여 전자 메일 주소의 도메인을 추출하십시오.
+Use the `extractEmailDomain` function to extract the domain of an email address.
 
 +++구문
 
@@ -2254,7 +2256,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 **예**
 
-다음 쿼리는 개인 이메일 주소의 이메일 도메인을 추출합니다.
+The following query extracts the email domain of the personal email address.
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
@@ -2264,7 +2266,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 ### formatCurrency {#format-currency}
 
-`formatCurrency` 함수를 사용하여 두 번째 인수에서 문자열로 전달된 로케일에 따라 모든 숫자를 해당 언어 구분 통화 표시로 변환합니다.
+Use the `formatCurrency` function to convert any number into its corresponding language-sensitive currency representation depending on the locale passed as a string in the second argument.
 
 +++구문
 
@@ -2274,7 +2276,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 **예**
 
-이 쿼리는 £56.00 반환
+This query returns £56.00
 
 ```sql
 {%= formatCurrency(56L,"en_GB") %}
@@ -2284,7 +2286,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 ### getUrlHost {#get-url-host}
 
-`getUrlHost` 함수를 사용하여 URL의 호스트 이름을 검색합니다.
+Use the `getUrlHost` function to retrieve the hostname of a URL.
 
 +++구문
 
@@ -2298,7 +2300,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 {%= getUrlHost("https://www.myurl.com/contact") %}
 ```
 
-&quot;www.myurl.com&quot; 반환
+Returns &quot;www.myurl.com&quot;
 
 +++
 
@@ -2675,7 +2677,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 ### replaceAll {#replaceAll}
 
-`replaceAll` 함수를 사용하여 regex 식과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 대체 문자열로 바꿉니다. Regex에는 `\` 및 `+`에 대한 특수 처리가 있으며 모든 regex 표현식은 PQL 이스케이프 전략을 따릅니다. 바꾸기는 문자열의 시작부터 끝까지 계속됩니다. 예를 들어, `aa`을(를) `b` 문자열에서 `aaa`(으)로 바꾸면 `ba`이(가) 아닌 `ab`이(가) 됩니다.
+`replaceAll` 함수를 사용하여 regex 식과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 대체 문자열로 바꿉니다. Regex에는 `\` 및 `+`에 대한 특수 처리가 있으며 모든 regex 표현식은 PQL 이스케이프 전략을 따릅니다. 바꾸기는 문자열의 시작부터 끝까지 계속됩니다. 예를 들어, `aa`을(를) `aaa` 문자열에서 `b`(으)로 바꾸면 `ab`이(가) 아닌 `ba`이(가) 됩니다.
 
 +++구문
 
@@ -2685,7 +2687,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 >[!NOTE]
 >
-> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]입니다.
 > 
 > 자세한 내용은 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}를 참조하세요.
 >
