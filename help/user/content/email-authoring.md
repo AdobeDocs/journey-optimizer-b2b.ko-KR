@@ -17,7 +17,7 @@ ht-degree: 2%
 
 오른쪽 패널의 _[!UICONTROL 세부 정보]_ 탭에서 **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
-![전자 메일 콘텐츠 편집 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
+![전자 메일 콘텐츠 편집 &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
 
 이 작업은 이메일 디자인 도구를 실행하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
 
