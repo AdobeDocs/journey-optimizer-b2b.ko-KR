@@ -194,4 +194,4 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453308/?captions=kor&learn=on)
