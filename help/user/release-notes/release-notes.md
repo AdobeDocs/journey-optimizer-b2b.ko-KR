@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7eacf9d3951e4d5a393cb2636cee0c6b40ecc050
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4891'
-ht-degree: 71%
+source-wordcount: '4838'
+ht-degree: 70%
 
 ---
 
@@ -34,13 +34,13 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | WhatsApp 채널 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 마케터는 이제 [!DNL Meta Cloud API]을(를) 통해 계정 여정에서 직접 WhatsApp 메시지를 보낼 수 있습니다. 이 기능을 사용하면 WhatsApp 메시지를 매끄럽게 통합하여 여정 콘텐츠 채널을 지원할 수 있습니다. [자세히 알아보기](../admin/configure-channels-whatsapp.md) |
+| 기능 | WhatsApp 채널 | 이제 마케터는 [!DNL Meta Cloud API]을(를) 통해 계정 여정에서 직접 WhatsApp 메시지를 보낼 수 있습니다. 이 기능을 사용하면 WhatsApp 메시지를 매끄럽게 통합하여 여정 콘텐츠 채널을 지원할 수 있습니다. [자세히 알아보기](../admin/configure-channels-whatsapp.md) |
 | 기능 | [!DNL Firefly] 및 사용자 지정 생성 AI 모델 지원 | 이제 마케팅 팀에서 승인된 타사 이미지 모델(예: [!DNL NanoBanana])과 함께 표준 및 사용자 지정 [!DNL Firefly] 모델의 통합을 사용할 수 있습니다. 이메일 디자이너는 각 사용 사례에 가장 적합한 모델을 선택할 수 있습니다. 일반적인 요구 사항은 표준 [!DNL Firefly]을(를), 브랜드 기반 생성은 사용자 지정 [!DNL Firefly]을(를), 전문 또는 실험 시나리오는 승인된 서드파티 모델을 선택할 수 있습니다. [자세히 알아보기](../content/generative-ai-models.md) |
-| 기능 | 여정에 대한 사용자 지정 외부 작업 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 개발자는 이제 API를 사용하여 자사 시스템과의 통합을 빌드할 수 있습니다. 이러한 사용자 지정 통합을 통해 마케터는 계정 여정 실행 중에 외부 서비스에 아웃바운드 요청을 하기 위해 _외부 작업_ 및 _외부 분할 경로_ 노드를 추가할 수 있습니다. [자세히 알아보기](../admin/configure-external-actions.md) |
+| 기능 | 여정에 대한 사용자 지정 외부 작업 | 개발자는 이제 API를 사용하여 자사 시스템과의 통합을 구축할 수 있습니다. 이러한 사용자 지정 통합을 통해 마케터는 계정 여정 실행 중에 외부 서비스에 아웃바운드 요청을 하기 위해 _외부 작업_ 및 _외부 분할 경로_ 노드를 추가할 수 있습니다. [자세히 알아보기](../admin/configure-external-actions.md) |
 | 기능 | 브랜드 | (Beta) 마케팅 팀은 브랜드 프로필을 저장하고 관리하여 이메일 콘텐츠 자산 전반에서 브랜드 일관성을 유지할 수 있습니다. 색상, 글꼴, 로고, 테마, 시각 콘텐츠 및 규정 준수 가이드라인과 같은 에셋을 추가하면 생성형 AI 콘텐츠 생성에 브랜드 프로필을 사용할 수 있습니다. 또한 규정 준수를 보장하기 위해 브랜드 정렬을 측정할 수도 있습니다. [자세히 알아보기](../content/brands-overview.md) |
-| 개선 사항 | 이메일 전송 - 전송 시간 최적화 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} _직접 여정에 대한 전자 메일 보내기_ 동작 노드의 경우 _전송 시간 최적화_ 옵션을 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 전자 메일 배달 시기를 개인화할 수 있습니다. [자세히 알아보기](../content/email-send-time-optimization.md) |
+| 개선 사항 | 이메일 전송 - 전송 시간 최적화 | _직접 여정에서 전자 메일 보내기_ 작업 노드의 경우 _전송 시간 최적화_ 옵션을 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 전자 메일 게재 시기를 개인화할 수 있습니다. [자세히 알아보기](../content/email-send-time-optimization.md) |
 | 개선 사항 | 이메일 템플릿 디자인 도구 - 고급 HTML 모드 | 이메일 템플릿 디자인 공간에 _고급 HTML 모드_&#x200B;를 사용하면 사용자는 HTML/CSS를 약간 편집하고 이메일 템플릿에 스크립트 태그를 추가하여 렌더링 문제를 해결할 수 있습니다. [자세히 알아보기](../content/email-template-advanced-html.md) |
-| 개선 사항 | 개인 사용자 정의 객체 - 그룹 역할 템플릿 구매 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 관리자가 비즈니스 사용자 프로필과 관련된 사용자 지정 개체를 구성할 때 마케터는 이제 이러한 사용자 지정 개체를 사용하여 구매 그룹 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| 개선 사항 | 개인 사용자 정의 객체 - 그룹 역할 템플릿 구매 | 관리자가 비즈니스 개인 프로필과 관련된 사용자 정의 오브젝트를 구성할 때 마케터는 이제 이러한 사용자 정의 오브젝트를 사용하여 구매 그룹 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | 개선 사항 | 이메일 콘텐츠 점수 책정 - 콘텐츠 품질 유효성 검사 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. |
 | 개선 사항 | 이메일 콘텐츠 점수 책정 - 콘텐츠 품질 평가 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 알아보기](../content/content-evaluation.md) |
 
@@ -51,7 +51,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 >[!NOTE]
 >
->이러한 릴리스 변경 사항은 2026년 3월 27일에 배포되며 각 기능의 단계적 롤아웃과 향상된 기능이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+>이러한 릴리스 변경 사항은 2026년 3월 27일에 배포되며 각 기능의 단계적 롤아웃 및 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
 
 ## 2026.2 릴리스 정보 {#rel-2026-2}
@@ -60,10 +60,10 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | XDM 필드/관계형 스키마 - 개인 사용자 정의 객체 지원 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"}(Beta) 관리자는 이제 계정과의 단일 수준 일대일 관계를 사용하여 사용자와 관련된 사용자 지정 개체를 선택할 수 있습니다. 이 기능을 사용하면 마케팅 조직에서 개인 또는 계정 수준을 벗어난 엔터티를 타겟팅하고, 개인화하고, 보고하기 위해 실제 비즈니스 데이터에 대한 더 풍부한 보기를 표시할 수 있습니다. [자세히 알아보기](../admin/xdm-field-management.md#relational-schemas) |
-| 기능 | 여정 재입력 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 이제 여정 워크플로우를 통해 계정/사용자를 여러 번 보낼 수 있습니다. 재입력은 자격 기준의 재평가 및 다시 사용할 수 있는 육성 워크플로와 같은 여러 시나리오를 해결합니다. [자세히 알아보기](../journeys/journey-re-entry.md) |
-| 개선 사항 | 계정 및 개인 여정 - 개인 사용자 지정 개체에 대한 지원 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"}(Beta) 계정 또는 사용자 여정 내에서 사용자를 필터링하기 위해 계정에 연결된 관계형 데이터를 활용합니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| 개선 사항 | (Beta) 콘텐츠 개인화 - 개인 사용자 지정 개체 지원 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 마케터가 사용자 지정 개체를 사용하여 콘텐츠 개인화를 정의하면 모델 기반 클래스 사용자 지정 개체(관계형 스키마)의 변수에 액세스할 수 있습니다. [자세히 알아보기](../content/personalization.md#custom-datasets) |
+| 기능 | XDM 필드/관계형 스키마 - 개인 사용자 정의 객체 지원 | (Beta) 이제 관리자는 계정과 단일 수준, 일대일 관계를 사용하여 개인과 관련된 사용자 지정 개체를 선택할 수 있습니다. 이 기능을 사용하면 마케팅 조직에서 개인 또는 계정 수준을 벗어난 엔터티를 타겟팅하고, 개인화하고, 보고하기 위해 실제 비즈니스 데이터에 대한 더 풍부한 보기를 표시할 수 있습니다. [자세히 알아보기](../admin/xdm-field-management.md#relational-schemas) |
+| 기능 | 여정 재입력 | 이제 여정 워크플로우를 통해 계정/직원을 여러 번 보낼 수 있습니다. 재입력은 자격 기준의 재평가 및 다시 사용할 수 있는 육성 워크플로와 같은 여러 시나리오를 해결합니다. [자세히 알아보기](../journeys/journey-re-entry.md) |
+| 개선 사항 | 계정 및 개인 여정 - 개인 사용자 지정 개체에 대한 지원 | (Beta) 계정 또는 사용자 여정 내에서 사용자를 필터링하기 위해 계정에 연결된 관계형 데이터를 활용합니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| 개선 사항 | (Beta) 콘텐츠 개인화 - 개인 사용자 지정 개체 지원 | 마케터는 사용자 지정 개체를 사용하여 콘텐츠 개인화를 정의할 때 모델 기반 클래스 사용자 지정 개체(관계형 스키마)의 변수에 액세스할 수 있습니다. [자세히 알아보기](../content/personalization.md#custom-datasets) |
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | 브랜드 키트 | (Beta) Journey Optimizer B2B edition에서 브랜드를 정의하여 크리에이티브 팀이 시각적 또는 서면 콘텐츠를 만들 때 사용할 수 있는 소스를 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. [자세히 알아보기](../content/brands-overview.md) |
 | 기능 | 이메일 콘텐츠 생성을 위한 브랜드 | 브랜드 지침을 정의하고 이 정보를 사용하여 이메일 콘텐츠를 생성할 수 있습니다. 이 기능을 사용하면 이메일 콘텐츠가 브랜드별 카피 작성 지침, 스타일 및 색조에 맞게 조정됩니다. [자세히 알아보기](../content/ai-assistant-emails.md) |
-| 개선 사항 | 여정 _대기_ 노드 - 고급 설정 | [!BADGE 간소화된 아키텍처]{type=Informative tooltip="간소화된 아키텍처로 사용 가능"} 여정의 _대기_ 노드에 대해 마케터는 이제 종료 날짜 및 시간을 지정하고 시간대를 선택할 수 있습니다. 이러한 향상된 기능을 통해 여정 오케스트레이션 및 캠페인 타이밍을 보다 효과적으로 제어할 수 있습니다. [자세히 알아보기](../journeys/wait-nodes.md#advanced-wait-settings) |
+| 개선 사항 | 여정 _대기_ 노드 - 고급 설정 | 여정의 _대기_ 노드에 대해 마케터는 이제 종료 날짜 및 시간을 지정하고 시간대를 선택할 수 있습니다. 이러한 향상된 기능을 통해 여정 오케스트레이션 및 캠페인 타이밍을 보다 효과적으로 제어할 수 있습니다. [자세히 알아보기](../journeys/wait-nodes.md#advanced-wait-settings) |
 | 개선 사항 | 구매 그룹 구성원 필터 - 제거됨 | _사람별 분할 경로_ 노드의 경우 _[!UICONTROL 구매 그룹의 구성원]_ 필터에 이제 _Is Removed_ 제약 조건이 포함됩니다. 이 필터를 선택하면 필터가 제거된 구매 그룹 구성원을 포함하거나 제외할 수 있습니다. _[!UICONTROL 구매 그룹의 구성원]_ 필터에서 이 새로운 제약 조건을 사용할 수 있는 Marketo Engage 스마트 목록에서도 지원됩니다. |
 | 개선 사항 | 이메일 디자인 - 여러 수준의 글머리 기호 | 이제 이메일 콘텐츠 디자인 공간 도구에서 하위 글머리 기호(글머리 기호 수준)를 지원합니다. |
 
@@ -117,11 +117,15 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 >
 >이번 릴리스 변경 사항은 2025년 10월 31일에 배포가 시작되며, 각 기능은 단계적으로 롤아웃됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
-### 단순화된 아키텍처
+### 업데이트된 아키텍처
 
-이제 간소화된 아키텍처를 사용하여 Adobe Journey Optimizer B2B edition을 사용할 수 있습니다. 이 업데이트된 아키텍처를 통해 Journey Optimizer B2B Edition과 Marketo Engage는 더 이상 동일한 시스템과 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B Edition은 Adobe Experience Platform에서만 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
+업데이트된 아키텍처를 통해 Journey Optimizer B2B Edition 및 Marketo Engage은 동일한 시스템 및 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B Edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
 
-이 업데이트된 아키텍처는 다음과 같은 여러 이점을 제공합니다.
+>[!NOTE]
+>
+>이전 릴리스 노트에서 이 배포를 *간소화된 아키텍처*(으)로 언급했습니다. 이제 해당 모델이 기본 Journey Optimizer B2B Edition 구현입니다.
+
+이 구현은 다음과 같은 여러 이점을 제공합니다.
 
 * **데이터를 쉽게 통합하고 확장**: 업데이트된 플랫폼은 사용자 정의 오브젝트, 구매 그룹 및 계정 이벤트를 포함한 복잡한 데이터 모델을 지원합니다.
 * **여러 Adobe Marketo Engage 인스턴스 연결**: 여러 Adobe Marketo Engage 환경의 데이터를 한 곳에서 관리하고 통합합니다.
@@ -130,9 +134,9 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 >[!NOTE]
 >
->환경이 이 아키텍처에서 프로비저닝된 경우 [구성에 대한 지침](../simplified-architecture.md)을 검토하십시오.
+>구성 지침이 필요하면 [설정 검사 목록](../setup-ultimate.md)을 검토하십시오.
 
-간소화된 아키텍처를 통해 2025.10 릴리스에서는 다음과 같은 새로운 기능과 개선 사항을 사용할 수 있습니다.
+업데이트된 아키텍처로 2025.10 릴리스에서 다음과 같은 새로운 기능 및 향상된 기능을 사용할 수 있습니다.
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
@@ -141,15 +145,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 이메일 피로도 중복 제거 | 이제 여정에서 동일한 이메일이 동일한 주소로 여러 번 전송되지 않도록 이메일 중복 제거를 활성화할 수 있습니다. 중복 주소는 해당 이메일 주소가 있는 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다.  [자세히 알아보기](../content/email-deduplication.md) |
 | 개선 사항 | 참여 점수 가중치 - AEP 이벤트 | 참여 점수 가중치는 이제 표준 또는 사용자 지정 Experience Platform 이벤트를 포함할 수 있으며 필요에 따라 가중치가 부여됩니다. [자세히 알아보기](../admin/engagement-score-weighting.md) |
 | 개선 사항 | 커뮤니케이션 제한 | 이제 시스템에서는 Marketo Engage 및 Journey Optimizer B2B edition의 결합된 통신 제한을 준수합니다. [자세히 알아보기](../admin/configure-channels-emails.md#communication-limits) |
-
-<!--
- There are additional functional changes with the simplified architecture:
-
-| Item | Description |
-| ---- | ----------- |
-| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | |
--->
 
 ## 2025.9 릴리스 정보 {#rel-2025-9}
 

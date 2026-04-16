@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4943'
+source-wordcount: '4930'
 ht-degree: 6%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 6%
 # 도우미 함수
 
 개인화 편집기 내의 도우미 함수를 사용하여 데이터를 조작하고, 계산을 수행하고, 콘텐츠 형식을 지정하여 정밀도와 효율성으로 개인화된 콘텐츠 경험을 정의할 수 있습니다. 이러한 기능, 연산자 및 도우미를 탐색하고 실험하여 이러한 기능이 함께 작동하여 맞춤형의 데이터 기반 여정을 구축하는 데 도움이 되는 방법을 알아보십시오.
-
->[!AVAILABILITY]
->
->[간소화된 아키텍처](../simplified-architecture.md)에서 프로비저닝된 [!DNL Journey Optimizer B2B Edition] 환경에서 도우미 함수를 사용할 수 있습니다.
 
 ## 집계 함수
 
@@ -1276,7 +1272,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### 또는 {#or}
 
-The `or` function is used to create a logical disjunction.
+`or` 함수는 논리 분리를 만드는 데 사용됩니다.
 
 +++구문
 
@@ -1286,7 +1282,7 @@ The `or` function is used to create a logical disjunction.
 
 **예**
 
-The following operation returns all people with home country (France) or birth year (1985).
+다음 작업은 본국(프랑스) 또는 출생연도(1985)가 있는 모든 사람을 반환합니다.
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -1317,7 +1313,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 같음 {#operator-equals}
 
-The `=` (equals) function checks whether one value or expression is equal to another value or expression.
+`=`(equals) 함수는 하나의 값 또는 식이 다른 값 또는 식과 같은지 확인합니다.
 
 +++구문
 
@@ -1327,7 +1323,7 @@ The `=` (equals) function checks whether one value or expression is equal to ano
 
 **예**
 
-The following operation checks if the home address country is France.
+다음 작업에서는 홈 주소 국가가 프랑스인지 확인합니다.
 
 ```sql
 {%= profile.homeAddress.country = "France" %}
@@ -1335,9 +1331,9 @@ The following operation checks if the home address country is France.
 
 +++
 
-### not equal {#notequal}
+### 같지 않음 {#notequal}
 
-The `!=` (not equal) function checks whether one value or expression is **not** equal to another value or expression.
+`!=`(같지 않음) 함수는 하나의 값 또는 식이 다른 값 또는 식과 **같지 않음**&#x200B;인지 확인합니다.
 
 +++구문
 
@@ -1347,7 +1343,7 @@ The `!=` (not equal) function checks whether one value or expression is **not** 
 
 **예**
 
-The following operation checks if the home address country is not France.
+다음 작업에서는 홈 주소 국가가 프랑스가 아닌지 확인합니다.
 
 ```sql
 {%= profile.homeAddress.country != "France" %}
@@ -1357,7 +1353,7 @@ The following operation checks if the home address country is not France.
 
 ### 다음보다 큼 {#greaterthan}
 
-Use the `>` (greater than) function to check if the first value is greater than the second value.
+`>`(보다 큼) 함수를 사용하여 첫 번째 값이 두 번째 값보다 큰지 확인합니다.
 
 +++구문
 
@@ -1367,7 +1363,7 @@ Use the `>` (greater than) function to check if the first value is greater than 
 
 **예**
 
-The following operation defines people born strictly after 1970.
+다음 수술은 1970년 이후 출생한 사람들을 엄격하게 정의합니다.
 
 ```sql
 {%= profile.person.birthYear > 1970 %}
@@ -1375,9 +1371,9 @@ The following operation defines people born strictly after 1970.
 
 +++
 
-### greater than or equal to {#greaterthanorequal}
+### 크거나 같음 {#greaterthanorequal}
 
-Use the `>=` (greater than or equal to) function to check if the first value is greater than or equal to the second value.
+`>=`(크거나 같음) 함수를 사용하여 첫 번째 값이 두 번째 값보다 크거나 같은지 확인하십시오.
 
 +++구문
 
@@ -1387,7 +1383,7 @@ Use the `>=` (greater than or equal to) function to check if the first value is 
 
 **예**
 
-The following operation defines people born in or after 1970.
+다음 수술은 1970년 이후 출생자를 정의합니다.
 
 ```sql
 {%= profile.person.birthYear >= 1970 %}
@@ -1397,7 +1393,7 @@ The following operation defines people born in or after 1970.
 
 ### 다음보다 작음 {#lessthan}
 
-Use the `<` (less than) comparison function to check if the first value is less than the second value.
+`<`(보다 작음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작은지 확인하십시오.
 
 +++구문
 
@@ -1407,7 +1403,7 @@ Use the `<` (less than) comparison function to check if the first value is less 
 
 **예**
 
-The following operation defines people born before 2000.
+다음 작업은 2000년 이전에 태어난 사람들을 정의합니다.
 
 ```sql
 {%= profile.person.birthYear < 2000 %}
@@ -1415,9 +1411,9 @@ The following operation defines people born before 2000.
 
 +++
 
-### less than or equal to{#lessthanorequal}
+### 보다 작거나 같음{#lessthanorequal}
 
-Use the `<=` (less than or equal to) comparison function to check if the first value is less than or equal to the second value.
+`<=`(작거나 같음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작거나 같은지 확인하십시오.
 
 +++구문
 
@@ -1427,7 +1423,7 @@ Use the `<=` (less than or equal to) comparison function to check if the first v
 
 **예**
 
-The following operation defines people born in 2000 or before.
+다음 작업은 2000년 이전에 태어난 사람들을 정의합니다.
 
 ```sql
 {%= profile.person.birthYear <= 2000 %}
@@ -1435,9 +1431,9 @@ The following operation defines people born in 2000 or before.
 
 +++
 
-## Dynamic functions {#dynamic-helpers}
+## 동적 함수 {#dynamic-helpers}
 
-Use the dynamic helper functions to use conditional evaluations, iteration, and variable assignments for dynamic personalization.
+동적 개인화를 위해 조건부 평가, 반복 및 변수 할당을 사용하려면 동적 도우미 함수를 사용하십시오.
 
 ### 기본 대체 값 {#default-value}
 
@@ -2186,7 +2182,7 @@ URL에 포함되는 개인 정보(PI)를 보존하기 위해 문자열을 인코
 
 **예**
 
-The following query determines, with case sensitivity, if the person&#39;s email address ends with `.com`.
+다음 쿼리는 대/소문자 구분을 통해 개인의 전자 메일 주소가 `.com`(으)로 끝나는지 여부를 결정합니다.
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
@@ -2196,7 +2192,7 @@ The following query determines, with case sensitivity, if the person&#39;s email
 
 ### 같음 {#equals}
 
-Use the `equals` function to determine if a string is equal to the specified string, with case sensitivity.
+`equals` 함수를 사용하여 문자열이 지정된 문자열과 같은지 확인합니다. 대/소문자를 구분합니다.
 
 +++구문
 
@@ -2207,11 +2203,11 @@ Use the `equals` function to determine if a string is equal to the specified str
 | 인수 | 설명 |
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행하는 문자열입니다. |
-| `{STRING_2}` | The string to compare with the first string. |
+| `{STRING_2}` | 첫 번째 문자열과 비교할 문자열입니다. |
 
 **예**
 
-The following query determines, with case sensitivity, if the person&#39;s name is `John`.
+다음 쿼리는 대/소문자 구분을 통해 개인의 이름이 `John`인지 확인합니다.
 
 ```sql
 {%=equals(profile.person.name,"John") %}
@@ -2221,7 +2217,7 @@ The following query determines, with case sensitivity, if the person&#39;s name 
 
 ### equalsIgnoreCase {#equalsIgnoreCase}
 
-Use the `equalsIgnoreCase` function to determine if a string is equal to the specified string, without case sensitivity.
+문자열을 대/소문자를 구분하지 않고 지정한 문자열과 같은지 확인하려면 `equalsIgnoreCase` 함수를 사용하십시오.
 
 +++구문
 
@@ -2232,11 +2228,11 @@ Use the `equalsIgnoreCase` function to determine if a string is equal to the spe
 | 인수 | 설명 |
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행하는 문자열입니다. |
-| `{STRING_2}` | The string to compare with the first string. |
+| `{STRING_2}` | 첫 번째 문자열과 비교할 문자열입니다. |
 
 **예**
 
-The following query determines, without case sensitivity, if the person&#39;s name is `John`.
+다음 쿼리는 대/소문자 구분 없이 개인의 이름이 `John`인지 확인합니다.
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
@@ -2246,7 +2242,7 @@ The following query determines, without case sensitivity, if the person&#39;s na
 
 ### extractEmailDomain {#extractEmailDomain}
 
-Use the `extractEmailDomain` function to extract the domain of an email address.
+`extractEmailDomain` 함수를 사용하여 전자 메일 주소의 도메인을 추출하십시오.
 
 +++구문
 
@@ -2256,7 +2252,7 @@ Use the `extractEmailDomain` function to extract the domain of an email address.
 
 **예**
 
-The following query extracts the email domain of the personal email address.
+다음 쿼리는 개인 이메일 주소의 이메일 도메인을 추출합니다.
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
@@ -2266,7 +2262,7 @@ The following query extracts the email domain of the personal email address.
 
 ### formatCurrency {#format-currency}
 
-Use the `formatCurrency` function to convert any number into its corresponding language-sensitive currency representation depending on the locale passed as a string in the second argument.
+`formatCurrency` 함수를 사용하여 두 번째 인수에서 문자열로 전달된 로케일에 따라 모든 숫자를 해당 언어 구분 통화 표시로 변환합니다.
 
 +++구문
 
@@ -2276,7 +2272,7 @@ Use the `formatCurrency` function to convert any number into its corresponding l
 
 **예**
 
-This query returns £56.00
+이 쿼리는 £56.00 반환
 
 ```sql
 {%= formatCurrency(56L,"en_GB") %}
@@ -2286,7 +2282,7 @@ This query returns £56.00
 
 ### getUrlHost {#get-url-host}
 
-Use the `getUrlHost` function to retrieve the hostname of a URL.
+`getUrlHost` 함수를 사용하여 URL의 호스트 이름을 검색합니다.
 
 +++구문
 
@@ -2300,7 +2296,7 @@ Use the `getUrlHost` function to retrieve the hostname of a URL.
 {%= getUrlHost("https://www.myurl.com/contact") %}
 ```
 
-Returns &quot;www.myurl.com&quot;
+&quot;www.myurl.com&quot; 반환
 
 +++
 

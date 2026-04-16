@@ -7,9 +7,9 @@ role: User, Developer
 level: Intermediate
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '751'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ _개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 
 
 >[!NOTE]
 >
->[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
+>[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
 
 ## Personalization 편집기
 
@@ -52,10 +52,6 @@ _개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 
 _개인화 추가_( ![개인화 추가 아이콘](../../assets/do-not-localize/icon-personalization-field.svg) ) 아이콘을 클릭하여 필드 또는 콘텐츠 구성 요소에 개인화를 추가합니다.
 
 ![Personalization 편집기](./assets/personalization-editor.png){width="800" zoomable="yes"}
-
->[!NOTE]
->
->개인화 편집기에 대한 다음 정보는 [간소화된 아키텍처](../simplified-architecture.md)에 제공된 [!DNL Journey Optimizer B2B Edition] 환경에서 사용할 수 있는 변경 사항을 반영합니다.
 
 ### 토큰 및 도우미 함수
 

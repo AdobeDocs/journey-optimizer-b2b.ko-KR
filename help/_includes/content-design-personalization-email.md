@@ -1,26 +1,26 @@
 ---
 title: 콘텐츠 작성 - 개인화
 description: 콘텐츠 작성을 위한 개인화 사용에 대한 재사용 섹션
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # 콘텐츠 작성 - 개인화
 
-Journey Optimizer B2B edition에서는 중괄호 `{{}}`로 묶은 개인화된 콘텐츠로 식을 만들 수 있는 인라인 단순 구문을 사용합니다. 동일한 콘텐츠 또는 필드에 제한 없이 여러 표현식을 추가할 수 있습니다.
+Journey Optimizer B2B Edition에서는 중괄호 `{{}}`로 묶은 개인 맞춤화된 콘텐츠로 식을 만들 수 있는 인라인 단순 구문을 사용합니다. 동일한 콘텐츠 또는 필드에 제한 없이 여러 표현식을 추가할 수 있습니다.
 
-예를 들어 개인화 식을 `Hello {{lead.firstName}} {{lead.lastName}}`(으)로 추가할 수 있습니다. 콘텐츠를 처리할 때 Journey Optimizer B2B edition은 표현식을 Experience Platform 데이터베이스에 포함된 데이터로 대체합니다. 첫 번째 예제는 _Hello John Doe_&#x200B;입니다.
+예를 들어 개인화 식을 `Hello {{lead.firstName}} {{lead.lastName}}`(으)로 추가할 수 있습니다. 콘텐츠를 처리할 때 Journey Optimizer B2B Edition은 표현식을 Experience Platform 데이터베이스에 포함된 데이터로 대체합니다. 첫 번째 예제는 _Hello John Doe_&#x200B;입니다.
 
-Journey Optimizer B2B edition의 개인화 도구 사용에 대한 자세한 내용은 [콘텐츠 개인화](../user/content/personalization.md)를 참조하십시오.
+Journey Optimizer B2B Edition의 개인화 도구 사용에 대한 자세한 내용은 [콘텐츠 개인화](../user/content/personalization.md)를 참조하십시오.
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition은 일관된 경험을 위해 다른 Adobe Experience Platform 애플리케이션과 일치하도록 이메일의 개인화 토큰에 대한 _카멜 대/소문자_ 구문을 따릅니다. 이 토큰 형식은 [Handlebars 템플릿 언어](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}와(과) 완전히 호환됩니다. 이 변경 전에 추가된 모든 토큰은 자동으로 업데이트됩니다.
+>Journey Optimizer B2B Edition은 일관된 경험을 위해 다른 Adobe Experience Platform 애플리케이션과 일치하도록 이메일의 개인화 토큰에 대한 _카멜 대/소문자_ 구문을 따릅니다. 이 토큰 형식은 [Handlebars 템플릿 언어](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}와(과) 완전히 호환됩니다. 이 변경 전에 추가된 모든 토큰은 자동으로 업데이트됩니다.
 
-다음 예제에서는 사용자 및 시스템 토큰을 사용하여 콘텐츠를 개인화하는 단계를 간략하게 설명합니다. 이는 [간소화된 아키텍처](../user/simplified-architecture.md)에서 프로비저닝된 Journey Optimizer B2B edition 환경에서 사용할 수 있는 변경 사항을 반영합니다.
+다음 예제에서는 사용자 및 시스템 토큰을 사용하여 콘텐츠를 개인화하는 단계를 간략하게 설명합니다. 이는 현재 Journey Optimizer B2B Edition 릴리스를 반영합니다.
 
 1. 텍스트 구성 요소를 선택하고 도구 모음에서 _개인화 추가_(![개인화 추가 아이콘](../assets/do-not-localize/icon-personalization-field.svg) ) 아이콘을 클릭합니다.
 

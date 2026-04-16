@@ -4,9 +4,9 @@ description: 대기 노드를 사용하여 여정 진행을 일시 중지하고 
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,6 @@ ht-degree: 0%
 _고급 대기 단계_&#x200B;를 사용하여 대기 시간이 아니라 사용자 또는 계정이 종료되는 **_시기_**&#x200B;를 정의합니다.
 
 ![여정 노드 - 고급 대기 단계](./assets/node-wait-advanced.png){width="500"}
-
->[!AVAILABILITY]
->
->고급 대기 설정은 [!DNL Journey Optimizer B2B Edition]간소화된 아키텍처[에서 프로비저닝된 &#x200B;](../simplified-architecture.md) 환경에서 사용할 수 있습니다.
 
 ### 대기 유형
 

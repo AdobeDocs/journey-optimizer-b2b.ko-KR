@@ -1,7 +1,7 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 94%
@@ -15,8 +15,8 @@ ht-degree: 94%
 + [릴리스 정보](./release-notes/release-notes.md)
 + 시작하기 {#get-started}
    + [Journey Optimizer B2B Edition 개요](about-journey-optimizer-b2b-edition.md)
-   + 단순화된 아키텍처 {#simplified-architecture}
-      + [체크리스트 설정](./simplified-architecture.md)
+   + 환경 설정 {#admin-setup}
+      + [체크리스트 설정](./setup-ultimate.md)
       + [네임스페이스 및 스키마](./data/namespaces-schemas.md)
       + [XDM 필드 선택](./admin/xdm-field-management.md)
       + [경험 이벤트 및 필드](./admin/configure-aep-events.md)
