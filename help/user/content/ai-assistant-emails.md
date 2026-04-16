@@ -4,9 +4,9 @@ description: AI Assistant를 사용하여 이메일 콘텐츠 생성 -  [!DNL Jo
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '3632'
+source-wordcount: '3633'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 이 기능을 사용하기 전에 [지침 및 제한 사항](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-미디어 생성 시 생성 AI 도구 사용의 투명성을 강화하기 위한 Adobe의 약속으로, Adobe은 Firefly 생성 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 다운로드하거나 내보낼 때 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
+미디어 생성 시 생성 AI 도구 사용의 투명성을 강화하기 위한 Adobe의 약속으로, Adobe은 Firefly 생성 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 다운로드하거나 내보낼 때 [콘텐츠 자격 증명](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
 
 [!DNL Journey Optimizer B2B Edition]에서 전자 메일 콘텐츠를 생성하는 데 사용되는 AI 길잡이 기능에는 다음 제한 사항과 지침이 적용됩니다.
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
 이메일 디자인 공간에서 AI Assistant는 전체 이메일 본문, 타겟팅된 텍스트 콘텐츠 및 대상자에게 반향을 일으키는 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. 이메일 캠페인의 이러한 최적화는 더 나은 참여를 생성하도록 설계되었습니다. _AI Assistant_( ![AI Assistant 메뉴 전환](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} )을 선택하여 현재 콘텐츠 선택에 사용할 수 있는 콘텐츠 생성 도구를 표시합니다.
 
-![전자 메일 디자이너에서 AI 길잡이 전환](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+![전자 메일 디자인 공간에서 AI 길잡이 전환](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 사용하려는 이메일 콘텐츠 생성 유형에 따라 다음 단계를 사용하십시오.
 

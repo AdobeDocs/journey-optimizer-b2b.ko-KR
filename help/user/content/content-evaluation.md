@@ -1,19 +1,19 @@
 ---
-title: 콘텐츠 점수
+title: 콘텐츠 평가 및 점수
 description: 브랜드 정렬 점수로 이메일 콘텐츠를 평가합니다. Journey Optimizer B2B edition의 브랜드 지침에 따라 색상, 글꼴, 로고 및 작성 스타일을 확인합니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 37e4a7976d716f24edf2c2e92cbfa4c149aa66ec
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 8%
 
 ---
 
-# 컨텐츠 점수 책정 {#content-scoring}
+# 콘텐츠 평가 및 점수 {#content-scoring}
 
 콘텐츠 평가 및 채점을 통해 선택한 브랜드에서 [정의된 지침](./brands-manage-create.md#brand-definitions) 및 일반 품질 표준을 준수하는 콘텐츠를 만들고, 검토하고, 관리할 수 있습니다. 평가를 실행하면 이메일 캠페인 전반에서 톤, 메시징 및 시각적 ID의 일관성을 유지하는 동시에 콘텐츠가 라이브로 전환되기 전에 품질을 확인하는 역할을 합니다.
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 
    ![오른쪽 패널의 평가 점수](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## 브랜드 정렬 점수 {#brand-score}
+## 브랜드 정렬 점수 {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -81,7 +81,7 @@ ht-degree: 8%
 * 60-79 = 보통 - 일부 중대한 위반
 * 60 미만 = 부족 - 주요 위반 사항 주의 필요
 
-평가 결과를 보다 자세히 검토하여 위반 사항을 식별하고 범주 정렬 점수(_높음_, _Medium_, _낮음_)를 개선하는 데 도움을 주고 세부 정보를 검토할 수 있습니다.
+평가 결과를 보다 자세히 검토하여 위반을 식별하고 범주 정렬 점수를 향상시킬 수 있습니다(_높음_, _Medium_ 및 _낮음_).
 
 **[!UICONTROL 작성 스타일]** 또는 **[!UICONTROL 시각적 콘텐츠]**&#x200B;의 경우 _확장_( ![확장 화살표](../assets/do-not-localize/icon-expand-right.svg) ) 화살표를 클릭하여 평가에 대한 세부 정보를 표시합니다.
 
