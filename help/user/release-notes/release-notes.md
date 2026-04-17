@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: fcc2d738bd22b7fd38e4d086f36d675945600520
 workflow-type: tm+mt
-source-wordcount: '4838'
-ht-degree: 70%
+source-wordcount: '4794'
+ht-degree: 71%
 
 ---
 
@@ -18,15 +18,21 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
-<!-- ## 2026.4 release notes {#rel-2026-4}
+<!--
+## 2026.4/5 release notes {#rel-2026-5}
 
-**Deployment date**: May 1, 2026
+**Deployment date**: May 15, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
 | Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | 
+
+>[!NOTE]
+>
+>These release changes begin deployment on May 15, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+-->
 
 ## 2026.3 릴리스 정보 {#rel-2026-3}
 
@@ -41,7 +47,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 이메일 전송 - 전송 시간 최적화 | _직접 여정에서 전자 메일 보내기_ 작업 노드의 경우 _전송 시간 최적화_ 옵션을 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 전자 메일 게재 시기를 개인화할 수 있습니다. [자세히 알아보기](../content/email-send-time-optimization.md) |
 | 개선 사항 | 이메일 템플릿 디자인 도구 - 고급 HTML 모드 | 이메일 템플릿 디자인 공간에 _고급 HTML 모드_&#x200B;를 사용하면 사용자는 HTML/CSS를 약간 편집하고 이메일 템플릿에 스크립트 태그를 추가하여 렌더링 문제를 해결할 수 있습니다. [자세히 알아보기](../content/email-template-advanced-html.md) |
 | 개선 사항 | 개인 사용자 정의 객체 - 그룹 역할 템플릿 구매 | 관리자가 비즈니스 개인 프로필과 관련된 사용자 정의 오브젝트를 구성할 때 마케터는 이제 이러한 사용자 정의 오브젝트를 사용하여 구매 그룹 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| 개선 사항 | 이메일 콘텐츠 점수 책정 - 콘텐츠 품질 유효성 검사 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. |
 | 개선 사항 | 이메일 콘텐츠 점수 책정 - 콘텐츠 품질 평가 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 알아보기](../content/content-evaluation.md) |
 
 <!--
