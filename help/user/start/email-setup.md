@@ -158,8 +158,8 @@ To view this email as a web page, go to the following address:
 
 NHI(비사람 상호 작용)라고도 하는 이메일 봇 활동은 이메일 _열기_ 및 _클릭 수_ 데이터를 부풀려 참여 지표를 왜곡하고 이벤트 기반 여정 진행을 트리거할 수 있습니다. 이메일 보트 필터링을 사용하여 클릭 참여 지표 및 통찰력의 무결성을 유지합니다. 의심되는 보트 활동을 식별하는 방법에는 두 가지가 있습니다.
 
-* _**[!UICONTROL IAB 보트 목록과 일치]**_ - [대화형 Advertising Bureau 보트 목록](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}(사용자 에이전트/IP 주소)에 있는 모든 항목과 일치하는 활동이 보트로 표시됩니다.
-* _**[!UICONTROL 근접 패턴과 일치]**_ - 동시에 발생하는 두 개 이상의 활동(초 미만)이 봇으로 식별됩니다. 비교 시 고려되는 속성은 다음과 같습니다.
+* _&#x200B;**[!UICONTROL IAB 보트 목록과 일치]**&#x200B;_ - [대화형 Advertising Bureau 보트 목록](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}(사용자 에이전트/IP 주소)에 있는 모든 항목과 일치하는 활동이 보트로 표시됩니다.
+* _&#x200B;**[!UICONTROL 근접 패턴과 일치]**&#x200B;_ - 동시에 발생하는 두 개 이상의 활동(초 미만)이 봇으로 식별됩니다. 비교 시 고려되는 속성은 다음과 같습니다.
    * 잠재 고객 ID(같아야 함)
    * 이메일 자산(동일해야 함)
    * 링크 클릭 또는 이메일 열기
