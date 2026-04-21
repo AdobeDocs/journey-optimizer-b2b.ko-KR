@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 베타 릴리스에 있습니다"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1476'
 ht-degree: 12%
 
 ---
 
 # 경험 이벤트 및 필드 선택
 
-관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
+관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
@@ -31,7 +31,7 @@ ht-degree: 12%
 
 ## 지침 및 제한 사항
 
-조직 목표를 달성하기 위해 이벤트를 선택할 때는 다음 사항에 유의하십시오.
+조직 목표를 충족하기 위해 이벤트를 선택할 때 다음 사항을 고려하십시오.
 
 * 이벤트당 최대 50개의 이벤트와 최대 100개의 필드를 선택할 수 있습니다.
 
@@ -53,7 +53,7 @@ ht-degree: 12%
 
    ![선택한 경험 이벤트에 액세스](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   표는 _[!UICONTROL 마지막 업데이트]_ 열을 기준으로 정렬되며 가장 최근에 업데이트된 이벤트가 기본적으로 맨 위에 있습니다.
+   이 목록은 _[!UICONTROL 마지막 업데이트]_ 열에 따라 표시되며, 기본적으로 가장 최근에 업데이트된 이벤트가 맨 위에 있습니다.
 
    이 페이지에서 여정에 사용할 이벤트를 [선택](#add-an-event) 및 [편집](#edit-an-event)할 수 있습니다.
 
@@ -465,5 +465,5 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448690/?captions=kor&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

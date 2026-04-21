@@ -3,10 +3,11 @@ title: 브랜딩 도메인 구성
 description: 각 브랜드에 고유한 브랜딩 추적 링크가 있도록 브랜딩 도메인을 구성합니다.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 1%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +23,7 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
 **링크 추적을 위한 고유 CNAME**
 
-이메일 추적 링크는 첨부된 Marketo Engage 인스턴스에 대해 새 링크이고 고유해야 합니다. 링크 추적을 위한 기존 CNAME이 기존(프로덕션) Marketo Engage 인스턴스를 가리키면 _있는 그대로_&#x200B;를 재사용할 수 없습니다.
+이메일 추적 링크는 첨부된 Marketo Engage 인스턴스에 대해 새 링크이고 고유해야 합니다. 기존 (프로덕션) Marketo Engage 인스턴스를 가리키는 링크를 추적할 기존 CNAME이 있는 경우 수정하지 않고 재사용할 수 없습니다.
 
 프로덕션 Marketo Engage 인스턴스와 연결된 인스턴스 간에 반환 경로 도메인 브랜딩을 공유할 수 있지만 이는 백엔드 변경 사항입니다. 지원 티켓을 열고 Marketo Engage 접두사(Munchkin ID)와 새 Journey Optimizer B2B edition 접두사(Munchkin ID)를 입력하여 공유 리턴 경로 도메인 브랜딩을 요청합니다.
 
@@ -30,7 +31,7 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
 >[!PREREQUISITES]
 >
->UI에서 도메인을 편집하거나 추가하려면 먼저 Adobe에서 제공한 Marketo Engage 도메인[&#128279;](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}에 매핑된 CNAME이 있어야 합니다.
+>UI에서 도메인을 편집하거나 추가하려면 먼저 Adobe에서 제공한 Marketo Engage 도메인](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}에 [매핑된 CNAME이 있어야 합니다.
 >
 >도메인을 추가할 때 시스템은 이전에 수동으로 생성되었을 수 있는 기존 SSL을 확인합니다. 이 유효성 검사가 발생하면 SSL 생성을 선택하지 않고 도메인을 만든 다음 별도의 절차로 연결합니다.
 
@@ -70,11 +71,11 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
 ## 추가 도메인 정의
 
-기본 도메인을 편집한 후, Journey Optimizer B2B edition 환경에서 여러 브랜드를 실행하고자 할 때 다른 브랜딩 도메인을 추가할 수 있습니다. 이 경우 각 브랜드에는 고유한 추적 링크가 있습니다. 도메인을 추가할 때 다음 옵션이 제공됩니다.
+기본 도메인을 편집한 후 다른 브랜딩 도메인을 추가하여 Journey Optimizer B2B Edition 환경 내에서 여러 브랜드를 지원할 수 있습니다. 각 브랜드에는 고유한 추적 링크가 있습니다. 도메인을 추가할 때 다음 옵션이 제공됩니다.
 
 >* _주 도메인으로 설정_: 이 도메인을 작업 영역의 주 도메인으로 설정합니다. 이 옵션을 선택하면 기존의 전송되지 않은 모든 이메일이 기본 주 도메인으로 설정되고 새로 생성된 모든 이메일은 자동으로 이 주 도메인으로 설정됩니다. 마케터는 필요한 경우 대체 브랜딩 도메인을 선택할 수 있습니다.
 >
->* _SSL 인증서 생성_: 도메인 생성으로 SSL(Secure Sockets Layer)을 만듭니다. 첫 번째 추적 도메인은 몇 시간이 소요될 수 있는 인프라의 일회성 설정을 개시한다. 완료 시 시스템에서 알림이 전송됩니다.
+>* _SSL 인증서 생성_: 도메인 생성으로 SSL(Secure Sockets Layer)을 만듭니다. 첫 번째 추적 도메인은 몇 시간이 걸릴 수 있는 인프라의 일회성 설정을 개시한다. 완료 시 시스템에서 알림이 전송됩니다.
 
 도메인을 추가하려면(_T):_
 
@@ -88,11 +89,11 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
    ![새 브랜딩 도메인 대화 상자](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
-   필요한 경우 _주 도메인 만들기_ 확인란을 선택할 수도 있습니다.
+   필요한 경우 _주 도메인 만들기_ 확인란도 선택할 수 있습니다.
 
    >[!NOTE]
    >
-   >**_사용자 지정 SSL_**: 사용자 지정 SSL이 필요한 경우 [지원 티켓](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}을 제출할 수 있습니다. SSL 작성에 확인란을 사용하지 마십시오.
+   >**_사용자 지정 SSL_**: 사용자 지정 SSL이 필요한 경우 [지원 티켓](https://experienceleague.adobe.com/en/support){target="_blank"}을 제출할 수 있습니다. SSL 작성에 확인란을 사용하지 마십시오.
 
 1. Marketo Engage 인스턴스에 대해 여러 작업 공간이 정의된 경우 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
