@@ -1,13 +1,13 @@
 ---
 title: 이메일 콘텐츠의 다크 모드
-description: Journey Optimizer B2B edition의 다크 모드 이메일 디자인에 대해 알아봅니다. 미리보기 렌더링, 설정 사용자 정의, 접근성 확보 및 이메일 클라이언트 전반에서 테스트합니다.
+description: Journey Optimizer B2B Edition의 다크 모드 이메일 디자인에 대해 알아봅니다. 미리보기 렌더링, 설정 사용자 정의, 접근성 확보 및 이메일 클라이언트 전반에서 테스트합니다.
 feature: Email Authoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 다크 모드, 이메일, 색상, 디자인
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 781a1043d2da8fb8e2eb14936dea209bd2ff0f2e
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 6%
@@ -28,9 +28,9 @@ ht-degree: 6%
 
 _어두운 모드_&#x200B;를 사용하면 지원하는 전자 메일 클라이언트 또는 앱에서 텍스트, 단추 및 기타 시각적 요소에 대해 어두운 배경과 밝은 색상의 전자 메일을 표시할 수 있습니다. 이러한 유형의 디스플레이는 눈의 피로를 줄이고, 배터리 수명을 절약하며, 저조도 환경에서 가독성을 향상시켜 보다 편안한 시청 경험을 제공할 수 있다. 주요 운영 체제 및 앱에서 증가하는 추세로서, 이제 모든 사용자가 콘텐츠를 읽을 수 있고 시각적으로 호소력 있게 사용할 수 있도록 하는 것이 최신 이메일 디자인에서 중요한 고려 사항입니다.
 
-![밝은 테마와 어두운 테마 모두에서 콘텐츠 렌더링을 표시하는 밝은 모드 및 어두운 모드 개념 다이어그램](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
+![밝은 테마와 어두운 테마 모두에서 콘텐츠 렌더링을 표시하는 밝은 모드 및 어두운 모드 개념 다이어그램](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-[!DNL Journey Optimizer B2B Edition] 시각적 디자인 공간에서 [이메일 콘텐츠를 만들기](./email-authoring.md)할 때 _&#x200B;**[!UICONTROL 어두운 모드]**&#x200B;_ 보기로 전환할 수 있습니다. 이 보기에서 다크 모드가 활성화되면 이메일 클라이언트 지원을 위한 특정 사용자 지정 설정을 정의할 수도 있습니다.
+[!DNL Journey Optimizer B2B Edition] 시각적 디자인 공간에서 [이메일 콘텐츠를 만들기](./email-authoring.md)할 때 _**[!UICONTROL 어두운 모드]**_ 보기로 전환할 수 있습니다. 이 보기에서 다크 모드가 활성화되면 이메일 클라이언트 지원을 위한 특정 사용자 지정 설정을 정의할 수도 있습니다.
 
 ## 이메일 클라이언트 고려 사항 {#email-client-considerations}
 
