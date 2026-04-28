@@ -1,6 +1,6 @@
 ---
 title: 콘텐츠 평가 및 점수
-description: 브랜드 정렬 점수로 이메일 콘텐츠를 평가합니다. Journey Optimizer B2B edition의 브랜드 지침에 따라 색상, 글꼴, 로고 및 작성 스타일을 확인합니다.
+description: 브랜드 정렬 점수로 이메일 콘텐츠를 평가합니다. Journey Optimizer B2B Edition의 브랜드 지침에 따라 색상, 글꼴, 로고 및 작성 스타일을 확인합니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -9,7 +9,7 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer B2B Edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
 >제품 관리자가 이러한 기능을 사용할 수 있는 방법에 대한 자세한 내용은 [브랜드 관련 권한](./brands-overview.md#brand-related-permissions)을 참조하세요.
 
@@ -51,7 +51,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="브랜드 정렬 점수"
->abstract="브랜드 정렬 점수는 색상, 글꼴, 로고, 이미지 및 작성 스타일의 일관성을 유지하기 위해 콘텐츠가 브랜드 지침을 얼마나 잘 준수하는지 측정합니다."
+>abstract="브랜드 정렬 점수는 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일에서의 일관성을 보장합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -100,7 +100,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
 >title="콘텐츠 품질"
->abstract="일반적인 콘텐츠 품질을 평가하여 가독성, 콘텐츠 응집성 및 효과성과 관련된 잠재적인 문제를 식별합니다. 품질 평가는 브랜드 지침과 독립적입니다."
+>abstract="일반적인 콘텐츠 품질을 평가하여 가독성, 콘텐츠 일치도 및 효과성과 관련된 잠재적인 문제를 식별합니다. 품질 평가는 브랜드 지침과 독립적입니다."
 
 >[!NOTE]
 >
