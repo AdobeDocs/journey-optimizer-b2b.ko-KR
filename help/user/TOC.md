@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 94%
    + [계정 및 개인 여정](./journeys/journeys-overview.md)
    + [여정 생성 및 게시](./journeys/create-publish-journey.md)
    + [여정 재입력](./journeys/journey-re-entry.md)
-   + [여정 노드](./journeys/journey-nodes.md)
+   + {hide-from-toc}[여정 노드](./journeys/journey-nodes.md)
    + 여정 노드 {#journey-nodes}
       + [계정 대상자](./journeys/account-audience-nodes.md)
       + [개인 대상(Beta)](./journeys/person-audience-nodes.md)
@@ -119,7 +119,7 @@ ht-degree: 94%
          + [고급 HTML 편집](./content/email-template-advanced-html.md)
          + [이미지를 템플릿으로 변환](./content/email-template-image-convert.md)
       + 랜딩 페이지 템플릿 (Beta) {#landing-page-templates}
-         + [개요](./content/landing-page-templates.md)
+         + {hide-from-toc}[개요](./content/landing-page-templates.md)
          + [랜딩 페이지 템플릿 디자인](./content/landing-page-template-design.md)
    + 조각 {#visual-fragments}
       + [개요](./content/fragments.md)
@@ -167,4 +167,4 @@ ht-degree: 94%
       + [WhatsApp 구성](./admin/configure-channels-whatsapp.md)
       + [웹 채널 구성(Beta)](./admin/configure-channels-web.md)
       + [랜딩 페이지 설정(Beta)](./admin/landing-page-settings.md)
-      + [이벤트 수집을 위한 데이터스트림 구성](./data/aep-event-collection.md)
+      + {hide-from-toc}[이벤트 컬렉션에 대한 데이터스트림 구성](./data/aep-event-collection.md)
