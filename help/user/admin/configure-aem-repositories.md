@@ -4,7 +4,7 @@ description: Experience Manager Assets 저장소를 Journey Optimizer B2B editio
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+source-git-commit: a722a5ba7a0e70329032e2768c5fbaf63537a2b7
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -125,7 +125,6 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 1. 확인 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
 <!--
-
 ## Switch back to Adobe Marketo Engage Assets
 
 Select Adobe Marketo Engage digital asset management in the Assets section.
