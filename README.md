@@ -1,17 +1,17 @@
 ---
 source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 49%
+source-wordcount: '517'
+ht-degree: 46%
 
 ---
 # 기여자 문서
 
 커뮤니티 및 설명서 팀 외부 Adobe 직원의 기여를 환영합니다.
 
-## Adobe 오픈 소스 행동 수칙
+## Adobe 오픈소스 행동 수칙
 
-이 프로젝트에서는 [Adobe OOCT(Open Source Code of Conduct)](code-of-conduct.md) 또는 [.NET Foundation Code of Conduct](https://dotnetfoundation.org/about/policies/code-of-conduct)가 채택되었습니다. 자세한 내용은 [기여](contributing.md) 문서를 참조하십시오.
+이 프로젝트에서는 [Adobe 오픈 소스 행동 수칙](code-of-conduct.md) 또는 [.NET Foundation 행동 수칙](https://dotnetfoundation.org/about/policies/code-of-conduct)이 채택되었습니다. 자세한 내용은 [기여](contributing.md) 문서를 참조하십시오.
 
 ## Adobe 콘텐츠에 참여하는 방법
 
@@ -26,7 +26,7 @@ ht-degree: 49%
 사소한 업데이트에 참여하는 경우:
 
 1. 편집할 항목으로 이동합니다.
-1. _에서 이 콘텐트가 유용했습니까?브라우저 창 아래쪽에 있는_ 배너에서 **자세한 피드백 옵션**&#x200B;을 클릭합니다.
+1. _에서 이 콘텐트가 유용했습니까?_ 브라우저 창 아래쪽에 있는 배너에서 **자세한 피드백 옵션**&#x200B;을 클릭합니다.
 1. **편집 제안**&#x200B;을 클릭하고 GitHub UI에서 변경 사항을 포함한 끌어오기 요청(PR)을 제출합니다.
 
    자세한 내용은 일반 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/ko/docs/contributor/contributor-guide/introduction)를 참조하십시오.
@@ -53,7 +53,7 @@ Adobe 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발
 
 이 저장소의 모든 문서는 GitHub 버전의 마크다운을 사용합니다. 마크다운에 익숙하지 않은 경우 다음을 참조하십시오.
 
-* [마크다운 기본 사항](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+* [Markdown 기본 사항](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 * [GitHub 문서](https://docs.github.com/en)
 
 ## 레이블
