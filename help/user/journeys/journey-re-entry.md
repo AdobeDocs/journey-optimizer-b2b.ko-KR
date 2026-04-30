@@ -5,10 +5,10 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
+source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 9%
 
 ---
 
@@ -60,7 +60,10 @@ _계정 여정 전용_
 
 ## 계정 진행 및 활동
 
-게시된 계정 여정의 경우 여정 맵에는 여정 노드에 대한 [계정 진행률](./journeys-overview.md#review-account-progression)이 표시됩니다. 맵의 각 노드에는 해당 노드에 도달할 계정의 수가 표시되며, 라이브 여정의 경우 현재 해당 노드에 있는 계정의 수가 표시됩니다. 계정이 여정을 다시 입력할 때마다 개별 항목으로 계산됩니다.
-<!-- You can see how many times accounts have entered the journey. ?? -->
+게시된 계정 여정의 경우 여정 맵에는 여정 노드에 대한 [계정 진행률](./journeys-overview.md#review-account-progression)이 표시됩니다. 맵의 각 노드에는 해당 노드에 도달한 계정 수가 표시되며, 라이브 여정의 경우 현재 해당 노드에 있는 계정 수가 표시됩니다. 계정이 여정을 다시 입력할 때마다 개별 항목으로 계산됩니다.
 
-[계정 세부 정보](../accounts/account-details.md)(으)로 드릴인하면 계정이 여정에 들어갈 때마다 계정 활동이 표시됩니다. 여기에는 명시적 활동 및 반복 횟수가 포함되어 있으므로 재입력사항을 명확하게 볼 수 있습니다.
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
+
+When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
