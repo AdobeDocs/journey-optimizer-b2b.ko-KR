@@ -1,6 +1,6 @@
 ---
 title: 이메일 콘텐츠의 다크 모드
-description: Journey Optimizer B2B Edition의 다크 모드 이메일 디자인에 대해 알아봅니다. 미리보기 렌더링, 설정 사용자 정의, 접근성 확보 및 이메일 클라이언트 전반에서 테스트합니다.
+description: Journey Optimizer B2B edition의 다크 모드 이메일 디자인에 대해 알아봅니다. 미리보기 렌더링, 설정 사용자 정의, 접근성 확보 및 이메일 클라이언트 전반에서 테스트합니다.
 feature: Email Authoring
 topic: Content Management
 role: User

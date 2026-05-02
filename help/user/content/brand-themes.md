@@ -176,29 +176,29 @@ ht-degree: 2%
 
 **[!UICONTROL 테두리]** 토글을 오른쪽으로 이동하여 테두리 표시 옵션을 활성화하고 디자인 기준에 따라 설정합니다.
 
-* To set the **[!UICONTROL Border size]** (line width), click the up and down arrow icons to increase or decrease the number of pixels.
+* **[!UICONTROL 테두리 크기]**(선 폭)을 설정하려면 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다.
 
-* To set the **[!UICONTROL Border style]**, choose a value from the list of standard CSS `border-style` values, such as _Solid_, _Dotted_, and _Dashed_.
+* **[!UICONTROL 테두리 스타일]**&#x200B;을(를) 설정하려면 표준 CSS `border-style` 값 목록에서 값(예: _단색_, _점선_, _파선_)을 선택하십시오.
 
-* To determine where the border is displayed, select each **[!UICONTROL Border position]** checkbox.
+* 테두리가 표시되는 위치를 확인하려면 각 **[!UICONTROL 테두리 위치]** 확인란을 선택하십시오.
 
-![Border styles](./assets/email-theme-spacing-settings-borders.png){width="250"}
+![테두리 스타일](./assets/email-theme-spacing-settings-borders.png){width="250"}
 
 +++
 
 ### 버튼
 
-In the **[!UICONTROL Buttons]** tab, you can set different attributes (other than color) for button elements, such as border radius (shape), text, and size. You can change the settings for each of the three button presets: _[!UICONTROL Primary]_, _[!UICONTROL Secondary]_, and _[!UICONTROL Tertiary]_.
+**[!UICONTROL 단추]** 탭에서 테두리 반경(모양), 텍스트 및 크기와 같은 단추 요소에 대해 색상 이외의 다른 특성을 설정할 수 있습니다. 세 단추 사전 설정 각각(_[!UICONTROL 기본]_, _[!UICONTROL 보조]_ 및 _[!UICONTROL 3차]_)의 설정을 변경할 수 있습니다.
 
-![Theme buttons settings](./assets/email-theme-buttons-settings.png){width="450"}
+![테마 단추 설정](./assets/email-theme-buttons-settings.png){width="450"}
 
-+++Button settings
++++단추 설정
 
 | 유형 | 설정 | 설명 |
 | ---- | -------- | ----------- |
-| [!UICONTROL 텍스트] | ![Button text settings](./assets/email-theme-button-settings-text.png){width="300"} | **[!UICONTROL 글꼴 라이브러리]**&#x200B;를 _[!UICONTROL 표준]_ 또는 _[!UICONTROL Google 글꼴]_(으)로 설정합니다. 그런 다음 글꼴 모음, 크기 및 스타일을 선택합니다. **[!UICONTROL 텍스트 맞춤]**: _왼쪽_, _가운데_, _오른쪽_ 또는 _양쪽 맞춤_&#x200B;을 선택하세요. |
-| [!UICONTROL Border] | ![Button border settings](./assets/email-theme-button-settings-border.png){width="300"} | Move the **[!UICONTROL Border]** toggle to the right to enable the button border display options and set them according to your design criteria. Set the **[!UICONTROL Border size]** (line width) by increasing or decreasing the number of pixels. Set the **[!UICONTROL Border style]** by choosing a value from the list of standard CSS `border-style` values, such as _Solid_, _Dotted_, and _Dashed_. |
-| [!UICONTROL 크기] | ![Button size settings](./assets/email-theme-button-settings-size.png){width="300"} | For the **[!UICONTROL Height]** option, click the up and down arrow icons to increase or decrease the number of pixels. An empty value (Auto) is the default and sizes the height of the button according to its contents. For the **[!UICONTROL Width]**, use the toggle to set the width by pixels or percentage. 백분율 너비의 경우 슬라이더를 사용하여 백분율 값을 설정합니다. The percentage determines the button size based on the content box of the containing block, which excludes padding and borders. For example, a value of 50 sets the button width to 50% of its containing block content width. 픽셀 기반 너비의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다. 빈 값(_Auto_)은 기본값이며 내용에 따라 단추의 너비를 조정합니다. |
+| [!UICONTROL 텍스트] | ![단추 텍스트 설정](./assets/email-theme-button-settings-text.png){width="300"} | **[!UICONTROL 글꼴 라이브러리]**&#x200B;를 _[!UICONTROL 표준]_ 또는 _[!UICONTROL Google 글꼴]_(으)로 설정합니다. 그런 다음 글꼴 모음, 크기 및 스타일을 선택합니다. **[!UICONTROL 텍스트 맞춤]**: _왼쪽_, _가운데_, _오른쪽_ 또는 _양쪽 맞춤_&#x200B;을 선택하세요. |
+| [!UICONTROL 테두리] | ![단추 테두리 설정](./assets/email-theme-button-settings-border.png){width="300"} | **[!UICONTROL 테두리]** 토글을 오른쪽으로 이동하여 단추 테두리 표시 옵션을 활성화하고 디자인 기준에 따라 설정합니다. 픽셀 수를 늘리거나 줄여 **[!UICONTROL 테두리 크기]**(선 폭)을 설정하십시오. 표준 CSS `border-style` 값 목록에서 값을 선택하여 **[!UICONTROL 테두리 스타일]**&#x200B;을(를) 설정합니다(예: _Solid_, _Dotted_, _Dashed_). |
+| [!UICONTROL 크기] | ![단추 크기 설정](./assets/email-theme-button-settings-size.png){width="300"} | **[!UICONTROL 높이]** 옵션의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다. 빈 값(자동)은 기본값이며 내용에 따라 버튼의 높이를 조정합니다. **[!UICONTROL 너비]**&#x200B;에 대해 전환으로 너비를 픽셀 또는 백분율로 설정하십시오. 백분율 너비의 경우 슬라이더를 사용하여 백분율 값을 설정합니다. 백분율은 포함 블록의 콘텐츠 상자를 기반으로 단추 크기를 결정합니다. 이 콘텐츠 상자에서는 패딩과 테두리가 제외됩니다. 예를 들어 값 50은 단추 너비를 포함된 블록 콘텐츠 너비의 50%로 설정합니다. 픽셀 기반 너비의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다. 빈 값(_Auto_)은 기본값이며 내용에 따라 단추의 너비를 조정합니다. |
 
 +++
 

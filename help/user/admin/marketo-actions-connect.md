@@ -15,7 +15,7 @@ ht-degree: 81%
 
 Marketo Engage 작업은 Journey Optimizer B2B edition과 Marketo Engage의 _리드 기반_ 마케팅 활동 간에 _계정 기반_ 마케팅 오케스트레이션을 조정할 수 있는 _사람 기반_ 작업입니다. 이러한 작업을 사용하여 정적 목록 멤버십을 조정하고 사람을 캠페인에 배치합니다.
 
-Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 필요한 자격 증명을 제공하는 [사용자 지정 서비스](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}를 Marketo Engage에 만듭니다. 그런 다음 Journey Optimizer B2B edition의 제품 관리자는 자격 증명을 사용하여 Marketo Engage에 대한 연결을 만듭니다. 그런 다음 Journey Optimizer B2B Edition 사용자는 연결을 참조하여 Marketo Engage 작업을 직접 구성할 수 있으며 계정 여정은 다음과 같습니다.
+Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 필요한 자격 증명을 제공하는 [사용자 지정 서비스](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}를 Marketo Engage에 만듭니다. 그런 다음 Journey Optimizer B2B edition의 제품 관리자는 자격 증명을 사용하여 Marketo Engage에 대한 연결을 만듭니다. 그런 다음 Journey Optimizer B2B edition 사용자는 연결을 참조하여 Marketo Engage 작업을 직접 구성할 수 있으며 계정 여정은 다음과 같습니다.
 
 * [!UICONTROL Marketo 목록에 추가]
 * [!UICONTROL Marketo 목록에서 제거]
