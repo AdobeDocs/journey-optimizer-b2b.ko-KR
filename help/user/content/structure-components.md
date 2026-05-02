@@ -97,7 +97,7 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 작은 화면이나 표시 창의 경우 기본 설정을 변경하지 않는 한 구조 구성 요소의 열이 스택되어 표시됩니다. 다중 열 구조 구성 요소를 선택한 상태에서 토글 슬라이더를 오른쪽으로 이동하여 **[!UICONTROL 모바일에서 열을 스택하지 않음]** 설정을 변경합니다.
 
-![모바일 ](./assets/structure-component-settings-stack-columns.png){width="250"}에서 열을 스택하지 마십시오.
+![모바일 &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}에서 열을 스택하지 마십시오.
 
 ## 구성 요소 스타일
 
