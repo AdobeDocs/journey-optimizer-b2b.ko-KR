@@ -1,6 +1,6 @@
 ---
 title: 컨텐츠 생성 및 일관성을 위해 브랜드 사용
-description: 일관된 컨텐츠 생성을 위한 브랜드 지침을 정의합니다. Journey Optimizer B2B Edition에서 시각적 정체성, 메시징 정렬 및 정품 음성을 유지할 수 있습니다.
+description: 일관된 컨텐츠 작성을 위한 브랜드 지침을 정의합니다. Journey Optimizer B2B edition에서 시각적 정체성, 메시징 정렬 및 정품 음성을 유지할 수 있습니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -47,9 +47,9 @@ ht-degree: 12%
 >
 >이 기능은 현재 공개 베타로 사용할 수 있습니다.
 >
->Adobe Journey Optimizer B2B Edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-정의된 브랜드는 크리에이티브 팀이 시각적 또는 기록된 콘텐츠를 만들 때 사용할 _진실의 원본_&#x200B;을 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. Journey Optimizer B2B Edition에서 브랜드 내 컨텐츠 생성을 활성화하려면 다음 작업을 완료하십시오.
+정의된 브랜드는 크리에이티브 팀이 시각적 또는 기록된 콘텐츠를 만들 때 사용할 _진실의 원본_&#x200B;을 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. Journey Optimizer B2B edition에서 브랜드 내 컨텐츠 생성을 활성화하려면 다음 작업을 완료하십시오.
 
 1. 브랜드 정의를 준비합니다.
 
@@ -59,7 +59,7 @@ ht-degree: 12%
 
 1. 이 정보를 하나 이상의 PDF 파일에 취합합니다.
 
-1. PDF 파일을 사용하여 Journey Optimizer B2B Edition에서 [브랜드를 만들기](./brands-manage-create.md#create-and-define-a-brand)하십시오.
+1. PDF 파일을 사용하여 Journey Optimizer B2B edition에서 [브랜드를 만들기](./brands-manage-create.md#create-and-define-a-brand)하십시오.
 
 1. 사용할 준비가 되면 [브랜드를 게시](./brands-manage-create.md#publish-the-brand)합니다.
 

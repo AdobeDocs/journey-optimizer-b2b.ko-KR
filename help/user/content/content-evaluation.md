@@ -1,6 +1,6 @@
 ---
 title: 콘텐츠 평가 및 점수
-description: 브랜드 정렬 점수로 이메일 콘텐츠를 평가합니다. Journey Optimizer B2B Edition의 브랜드 지침에 따라 색상, 글꼴, 로고 및 작성 스타일을 확인합니다.
+description: 브랜드 정렬 점수로 이메일 콘텐츠를 평가합니다. Journey Optimizer B2B edition의 브랜드 지침에 따라 색상, 글꼴, 로고 및 작성 스타일을 확인합니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer B2B Edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
 >제품 관리자가 이러한 기능을 사용할 수 있는 방법에 대한 자세한 내용은 [브랜드 관련 권한](./brands-overview.md#brand-related-permissions)을 참조하세요.
 
