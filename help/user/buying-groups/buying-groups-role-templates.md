@@ -15,9 +15,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: '2026-03-30T21:37:51.618Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 09e0fead8d6a04b432cb6fd94aaea561b84a0063
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1412
 ht-degree: 5%
 
 ---
@@ -74,7 +74,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 | 유형 | 조건 |
 | ---- | --------- |
 | [!UICONTROL 사용자 특성] | 다음을 포함한 [개인 프로필](../admin/field-mapping.md#xdm-business-person-attributes)의 특성: <li>도시 <li>국가 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 중단됨 <li>이름 <li>추정 주 지역 <li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주 |
-| [!UICONTROL 사용자 지정 개체] > `<custom object>` 있음 | [!BADGE Beta]{type=Informative tooltip="Beta 기능"} 계정에 관계형 스키마 레코드가 없거나 없습니다. 또한 [XDM 관계형 스키마](../admin/xdm-field-management.md#relational-schemas)에 구성된 대로 선택한 사용자 지정 개체 기준에 대해 평가할 수도 있습니다. |
+| [!UICONTROL 사용자 지정 개체] > `<custom object>` 있음 | [!BADGE Beta]{type=Informative tooltip="Beta 기능"} 계정 또는 사용자에게 관계형 스키마 레코드가 없거나 없습니다. 또한 [XDM 관계형 스키마](../admin/xdm-field-management.md#relational-schemas)에 구성된 대로 선택한 사용자 지정 개체 기준에 대해 평가할 수도 있습니다. |
 | 특수 필터 | <li>목록 구성원(삭제 예정) <li>프로그램 구성원(삭제 예정) |
 | 의도 데이터 | <li>범주 의도 <li>제품 의도 <li>키워드 의도 <br/>([_의도 데이터_](../admin/intent-data.md) 참조) |
 
