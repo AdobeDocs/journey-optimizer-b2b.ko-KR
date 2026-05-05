@@ -5,12 +5,18 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -37,7 +43,7 @@ Journey Optimizer B2B edition의 AI 도우미는 Adobe Experience Platform의 [A
 
 ## Journey Optimizer B2B edition의 AI Assistant 기능
 
-제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터의 내부 표현이며, 지정된 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 웹인 _**_지식 그래프_**_&#x200B;라고도 합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
+제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터의 내부 표현이며, 지정된 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 웹인 _&#x200B;**_지식 그래프_**&#x200B;_&#x200B;라고도 합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
 
 * Experience League 설명서입니다.
 * 스키마, 필드, 대상 및 여정 등 운영 객체
