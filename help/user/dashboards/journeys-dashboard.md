@@ -4,9 +4,16 @@ description: Journey Optimizer B2B edition에서 완료율, 참여 지표 및 �
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+autotag-review: '2026-03-30T22:42:55.045Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 371
 ht-degree: 2%
 
 ---
@@ -45,7 +52,7 @@ ht-degree: 2%
 
 ![그래프 데이터에 액세스하기 위해 드릴스루](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-상단 오른쪽에 있는 _자세히_(**...**) 메뉴를 클릭하고 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하여 [확장 데이터 보기](#view-more)를 선택할 수 있습니다.
+_자세히_(**...**)을 클릭할 수 있습니다. 메뉴가 오른쪽 상단에 있고 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하여 [확장 데이터 보기](#view-more)를 선택하십시오.
 
 ### [!UICONTROL 자세히 보기]
 

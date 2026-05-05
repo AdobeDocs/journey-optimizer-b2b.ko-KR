@@ -5,10 +5,16 @@ feature: AI Assistant
 role: Admin
 level: Beginner
 exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
-source-git-commit: ce6c6b26865f1e5b02b95f3700d79234fbf9f500
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 3%
+source-wordcount: 341
+ht-degree: 6%
 
 ---
 
@@ -22,7 +28,7 @@ ht-degree: 3%
 
 * **애플리케이션에 액세스:** Adobe Journey Optimizer B2B edition에서 AI Assistant에 액세스할 수 있습니다.
 
-* **권한:** [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 사용하여 조직의 AI Assistant에 대한 액세스 권한을 부여하거나 취소할 수 있습니다. AI Assistant를 사용하려면 지정된 사용자가 _[!UICONTROL AI Assistant 활성화]_ 및 _[!UICONTROL Operational Insights 보기]_ 권한으로 구성된 역할에 속해야 합니다.
+* **권한:** [권한 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 사용하여 조직의 AI Assistant에 대한 액세스 권한을 부여하거나 취소할 수 있습니다. AI Assistant를 사용하려면 지정된 사용자가 _[!UICONTROL AI Assistant 활성화]_ 및 _[!UICONTROL Operational Insights 보기]_ 권한으로 구성된 역할에 속해야 합니다.
 
 관리자는 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -32,7 +38,7 @@ ht-degree: 3%
 
 ![AI 관리자 권한 할당](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-권한 UI를 사용하여 Journey Optimizer B2B edition에서 AI Assistant를 사용할 수 있는 권한을 부여합니다. Experience Platform 및 기타 Experience Cloud 애플리케이션에서 AI Assistant에 액세스하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access){target="_blank"}를 참조하십시오.
+권한 UI를 사용하여 Journey Optimizer B2B edition에서 AI Assistant를 사용할 수 있는 권한을 부여합니다. Experience Platform 및 기타 Experience Cloud 애플리케이션에서 AI Assistant에 액세스하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}를 참조하십시오.
 
 사용자에게 필요한 권한이 있는 경우 사용 중인 응용 프로그램의 상단 헤더에 있는 _AI Assistant_ 아이콘을 선택하여 AI Assistant에 액세스할 수 있습니다.
 
@@ -42,7 +48,7 @@ ht-degree: 3%
 
 다음 비디오를 통해 조직 및 사용자를 위한 AI Assistant 액세스를 구성하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475926/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
 
 ## 다음 단계
 

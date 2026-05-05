@@ -2,9 +2,17 @@
 title: 이미지를 이메일 템플릿으로 변환
 description: Journey Optimizer B2B edition을 사용하여 이미지 파일을 HTML 이메일 템플릿으로 변환합니다. PNG/JPEG 파일을 업로드하고 재사용 가능한 이메일 콘텐츠를 자동으로 생성합니다.
 feature: Email Authoring, Content
-source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
+exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:06:11.745Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: 537
 ht-degree: 0%
 
 ---

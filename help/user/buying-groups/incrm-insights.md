@@ -3,13 +3,19 @@ title: In-CRM 인사이트
 description: CRM에서 직접 Journey Optimizer B2B edition 구매 그룹에 액세스합니다. 영업 팀 구성원은 CRM 내 인사이트를 통해 참여 데이터를 보고 판매 기회를 식별할 수 있습니다.
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: 2eb5b6226730a1948b480a9dee0c6f2786e01cc5
+exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: fc1ff3b2-6614-41ad-a113-de48597598fdid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:40:22.011Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 0%
+source-wordcount: 483
+ht-degree: 1%
 
 ---
-
 
 # In-CRM 인사이트
 
@@ -31,8 +37,8 @@ ht-degree: 0%
 
 사용자를 [!DNL In-CRM Insights]&#x200B;(으)로만 제한하려면 다음 작업을 수행하십시오.
 
-1. [사용자 지정 역할](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)을(를) 만들고 **Sales Insights: Sales Insights 보기** 권한을 할당합니다.
-1. 새 [사용자 그룹](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)을(를) 만듭니다.
+1. [사용자 지정 역할](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)을(를) 만들고 **Sales Insights: Sales Insights 보기** 권한을 할당합니다.
+1. 새 [사용자 그룹](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)을(를) 만듭니다.
 1. Experience Platform 제품 프로필을 그룹에 추가합니다.
 
 ### 패키지 설치
@@ -71,4 +77,4 @@ In-CRM Insights 패키지를 설치하려면 Salesforce 또는 Microsoft Dynamic
 
 화면의 지침에 따라 Adobe 계정에 로그인합니다. 구매 그룹이 로드되어 있고 볼 수 있습니다.
 
-구매 그룹을 선택한 후 [그룹 세부 정보](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)를 검색할 수 있습니다. 이는 Journey Optimizer B2B edition에 표시되는 데이터 및 인사이트와 동일하지만 데이터는 [!DNL In-CRM Insights]을(를) 통해 읽기 전용입니다.
+구매 그룹을 선택한 후 [그룹 세부 정보](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)를 검색할 수 있습니다. 이는 Journey Optimizer B2B edition에 표시되는 데이터 및 인사이트와 동일하지만 데이터는 [!DNL In-CRM Insights]을(를) 통해 읽기 전용입니다.
