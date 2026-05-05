@@ -4,10 +4,24 @@ description: Journey Optimizer B2B edition에서 컨텐츠 전달에 대한 웹 
 feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
-source-git-commit: 2f9b007df233cf8a233c3646bf691b7cff139f86
+exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T23:15:46.632Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 0%
+source-wordcount: 1075
+ht-degree: 2%
 
 ---
 
@@ -54,7 +68,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
 1. 변경 내용을 저장하려면 **[!UICONTROL 제출]**&#x200B;을 클릭하세요.
 
-구성을 저장하면 _초안_ 상태가 되며 마케터는 여정에서 웹 채널을 사용할 때 사용할 수 있습니다. 초안 상태가 지속되는 한 구성을 계속 편집할 수 있습니다. 이름 옆에 있는 _자세히_ 아이콘(**...**)을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택하여 초안 웹 채널 구성을 삭제할 수도 있습니다.
+구성을 저장하면 _초안_ 상태가 되며 마케터는 여정에서 웹 채널을 사용할 때 사용할 수 있습니다. 초안 상태가 지속되는 한 구성을 계속 편집할 수 있습니다. _자세히_ 아이콘(**...**)을 클릭하여 초안 웹 채널 구성을 삭제할 수도 있습니다. 이름 옆에 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
 웹 채널은 여정에서 사용되는 즉시 _Active_ 상태로 이동합니다. 이 상태에서는 구성의 이름 및 설명을 편집할 수 있습니다. 웹 설정을 변경하거나 구성을 삭제할 수 없습니다.
 
@@ -77,8 +91,8 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
    | 연산자 | 설명 | 예 |
    | --- | --- | --- |
    | [!UICONTROL 같음] | 도메인의 정확한 일치 | |
-   | [!UICONTROL 다음으로 시작] | 입력한 문자열로 시작하는 모든 도메인(하위 도메인 포함)과 일치합니다. | `Starts with: dev`은(는) `dev`, `dev.example.com`, `dev.products.example.com` 등 `developer.example.com`(으)로 시작하는 모든 도메인 및 하위 도메인과 일치합니다. |
-   | [!UICONTROL 다음으로 끝남] | 입력한 문자열로 끝나는 모든 도메인(하위 도메인 포함)과 일치합니다. | `Ends with: example.com`은(는) `example.com`, `stage.example.com`, `prod.example.com` 등 `myexample.com`(으)로 끝나는 모든 도메인 및 하위 도메인과 일치합니다. |
+   | [!UICONTROL 다음으로 시작] | 입력한 문자열로 시작하는 모든 도메인(하위 도메인 포함)과 일치합니다. | `Starts with: dev`은(는) `dev.example.com`, `dev.products.example.com`, `developer.example.com` 등 `dev`(으)로 시작하는 모든 도메인 및 하위 도메인과 일치합니다. |
+   | [!UICONTROL 다음으로 끝남] | 입력한 문자열로 끝나는 모든 도메인(하위 도메인 포함)과 일치합니다. | `Ends with: example.com`은(는) `stage.example.com`, `prod.example.com`, `myexample.com` 등 `example.com`(으)로 끝나는 모든 도메인 및 하위 도메인과 일치합니다. |
    | [!UICONTROL 와일드카드 일치] | 문자열 가운데 와일드카드 일치(예: `dev.*.example.com`)를 정의할 수 있습니다. 연산자가 _와일드카드 일치_&#x200B;인 경우 유효성 검사 규칙에서는 값에 와일드카드(별표)를 하나만 포함해야 합니다. | `Wildcard matching: dev.*.example.com`이(가) `dev.products.example.com`, `dev.mytest.products.example.com`, `dev.blog.example.com` 등의 도메인과 일치합니다. |
    | [!UICONTROL 모두] | 모든 도메인과 일치합니다. 도메인 간 특정 경로를 테스트할 때 유용합니다. | |
 
@@ -95,7 +109,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
    | [!UICONTROL 다음으로 끝남] | 문자열로 끝나는 모든 경로(하위 경로 포함)와 일치합니다. | |
    | [!UICONTROL 모두] | 모든 경로와 일치 이 기능은 하나 또는 여러 도메인 아래의 모든 경로를 타겟팅할 때 유용합니다. | |
    | [!UICONTROL 와일드카드 일치] | 경로 내부에 `/products/*/detail`과(와) 같은 내부 와일드카드를 정의할 수 있습니다. 경로 구성 요소의 와일드카드 문자 `*`이(가) 첫 번째 `/` 문자까지 문자 시퀀스와 일치합니다.  `/*/`은(는) 모든 문자 시퀀스(하위 경로 포함)와 일치합니다. | `Wildcard matching: /products/*/detail`이(가) `example.com/products/yoga/detail`, `example.com/products/surf/detail`, `example.com/products/tennis/detail`, `example.com/products/yoga/pants/detail` 등의 경로와 일치합니다. |
-   | [!UICONTROL 포함] | 값은 `*mystring*`과(와) 같은 와일드카드로 변환되며 문자 시퀀스를 포함하는 모든 경로와 일치합니다. | `Contains: product`은(는) `product`, `example.com/products`, `example.com/yoga/perfproduct` 및 `example.com/surf/productdescription`과(와) 같이 문자열 `example.com/home/product/page`을(를) 포함하는 모든 경로와 일치합니다. |
+   | [!UICONTROL 포함] | 값은 `*mystring*`과(와) 같은 와일드카드로 변환되며 문자 시퀀스를 포함하는 모든 경로와 일치합니다. | `Contains: product`은(는) `example.com/products`, `example.com/yoga/perfproduct`, `example.com/surf/productdescription` 및 `example.com/home/product/page`과(와) 같이 문자열 `product`을(를) 포함하는 모든 경로와 일치합니다. |
 
    +++
 
@@ -111,7 +125,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
      _[!UICONTROL Or]_&#x200B;은(는) 여러 규칙을 정의하는 기본 연산자이며 일치시킬 수 있는 여러 기준 정의를 추가하는 데 유용합니다.
 
-     _[!UICONTROL Exclude]_&#x200B;은(는) 정의된 규칙과 일치하는 페이지 중 하나를 타깃팅해서는 안 되는 경우에 유용합니다. 예를 들어 `bodea.com`이(가) 들어 있지만 블로그 페이지(예: `lumasecure`)를 제외한 모든 `bodea.com/blogs/lumasecure/latest-release` 페이지를 대상으로 지정할 수 있습니다.
+     _[!UICONTROL Exclude]_&#x200B;은(는) 정의된 규칙과 일치하는 페이지 중 하나를 타깃팅해서는 안 되는 경우에 유용합니다. 예를 들어 `lumasecure`이(가) 들어 있지만 블로그 페이지(예: `bodea.com/blogs/lumasecure/latest-release`)를 제외한 모든 `bodea.com` 페이지를 대상으로 지정할 수 있습니다.
 
    ![제외가 있는 규칙과 일치하는 페이지](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -123,7 +137,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
 기존 웹 채널 구성을 복제한 다음 변경하여 기존 웹 채널을 기반으로 새 웹 채널을 만들 수 있습니다. 라이브러리에 저장된 활성 웹 채널 구성은 수정할 수 없습니다.
 
-1. 변형에 대한 _추가 메뉴_ 아이콘(**...**)을 클릭하고 **[!UICONTROL 복제]**&#x200B;를 선택합니다.
+1. _추가 메뉴_ 아이콘(**...**)을 클릭합니다. 변형에 대해 **[!UICONTROL 복제]**&#x200B;를 선택합니다.
 
    ![기존 웹 채널 구성을 복제하려면 [더 보기] 아이콘을 클릭하세요](./assets/config-web-channels-more-menu.png){width="450"}
 

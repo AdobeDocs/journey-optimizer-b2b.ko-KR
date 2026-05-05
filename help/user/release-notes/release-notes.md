@@ -3,9 +3,22 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fcc2d738bd22b7fd38e4d086f36d675945600520
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-30T22:58:45.043Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: 4794
 ht-degree: 71%
 
 ---
@@ -124,11 +137,11 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 ### 업데이트된 아키텍처
 
-업데이트된 아키텍처를 통해 Journey Optimizer B2B Edition 및 Marketo Engage은 동일한 시스템 및 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B Edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
+업데이트된 아키텍처를 통해 Journey Optimizer B2B edition 및 Marketo Engage은 동일한 시스템 및 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
 
 >[!NOTE]
 >
->이전 릴리스 노트에서 이 배포를 *간소화된 아키텍처*(으)로 언급했습니다. 이제 해당 모델이 기본 Journey Optimizer B2B Edition 구현입니다.
+>이전 릴리스 노트에서 이 배포를 *간소화된 아키텍처*(으)로 언급했습니다. 해당 모델이 이제 기본 Journey Optimizer B2B edition 구현입니다.
 
 이 구현은 다음과 같은 여러 이점을 제공합니다.
 

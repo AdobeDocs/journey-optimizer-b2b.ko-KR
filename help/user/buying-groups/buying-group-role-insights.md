@@ -3,9 +3,22 @@ title: 역할 통찰력 대시보드
 description: Journey Optimizer B2B edition의 구매 그룹 간 역할 획득 및 참여를 추적하는 역할 통찰력 대시보드에 대해 알아봅니다.
 feature: Buying Groups, Dashboards, Engagement
 role: User
-source-git-commit: 3bdf75356c16041e915c36215e68a6c931e4ccb4
+exl-id: 045a217f-a905-4286-804b-2717bb1d5e5d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:42:19.942Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: 622
 ht-degree: 1%
 
 ---
@@ -72,14 +85,14 @@ ht-degree: 1%
 
 그래프의 각 선은 역할을 나타냅니다. 다음을 포함한 세부 정보를 보려면 라인의 플롯 포인트 위로 마우스를 가져갑니다.
 
-* Date
+* 일자
 * 참여 수
 
 자세한 정보를 보려면 오른쪽 상단의 **..** 메뉴 아이콘을 클릭합니다.
 
 ## 데이터 활용
 
-데이터에 참여하려면 각 차트의 오른쪽 상단에 있는 _자세히_(**...**) 메뉴를 사용하십시오.
+데이터에 참여하려면 _자세히_(**...**)을(를) 사용하세요. 각 차트의 오른쪽 상단에 있는 메뉴입니다.
 
 ### [!UICONTROL 드릴스루]
 

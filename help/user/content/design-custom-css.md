@@ -4,9 +4,24 @@ description: Journey Optimizer B2B edition의 표준 구성 요소를 넘어 고
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+autotag-review: '2026-03-30T22:36:27.982Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 563
 ht-degree: 0%
 
 ---
@@ -15,7 +30,7 @@ ht-degree: 0%
 
 이메일 또는 랜딩 페이지 디자인 공간 내에 직접 사용자 지정 CSS를 추가할 수 있습니다. 사용자 지정 CSS를 사용하여 콘텐츠의 모양을 보다 유연하게 제어하고, 고급 및 특정 스타일을 적용할 수 있습니다.
 
-사용자 지정 CSS는 `<head>` 특성을 사용하여 `<style>` 태그 내의 `data-name="global-custom"` 섹션에 추가됩니다. 이 구조를 사용하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
+사용자 지정 CSS는 `data-name="global-custom"` 특성을 사용하여 `<style>` 태그 내의 `<head>` 섹션에 추가됩니다. 이 구조를 사용하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
 
 +++ 예제 구현
 
@@ -200,7 +215,7 @@ body {
 
 * CSS가 올바르고 구문 오류가 없는지 확인합니다(예: 중괄호 누락, 잘못된 속성 이름).
 
-* CSS가 `<style>` 특성이 있는 `data-name="global-custom"` 태그에 추가되었는지 확인하십시오.
+* CSS가 `data-name="global-custom"` 특성이 있는 `<style>` 태그에 추가되었는지 확인하십시오.
 
 * `global-custom` 스타일 태그의 특성 `data-disabled`이(가) true로 설정되어 있는지 확인합니다. 예:
 

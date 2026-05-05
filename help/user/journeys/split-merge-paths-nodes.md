@@ -5,9 +5,23 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-30T23:10:13.939Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: 2744
 ht-degree: 4%
 
 ---
@@ -262,7 +276,7 @@ _[!UICONTROL 특수 필터]_ 섹션 내에는 구매 그룹 또는 [!DNL Marketo
 >
 >**기능 사용 중단**</br></br>
 >
->현재 Journey Optimizer B2B Edition 릴리스에서는 Marketo Engage 인스턴스의 목록 또는 프로그램 구성원을 기반으로 하는 필터링이 지원되지 않습니다.
+>현재 Journey Optimizer B2B edition 릴리스에서는 Marketo Engage 인스턴스의 목록 또는 프로그램 구성원을 기반으로 하는 필터링이 지원되지 않습니다.
 
 >[!ENDSHADEBOX]
 

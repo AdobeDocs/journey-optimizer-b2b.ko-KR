@@ -5,9 +5,20 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 895
 ht-degree: 1%
 
 ---
@@ -25,7 +36,7 @@ Journey Optimizer B2B edition의 AI Assistant 쿼리에 대한 다음 예제 질
 | 학습 개념 및 지속적인 워크플로 | 초보 사용자는 AI Assistant를 사용하여 Real-Time CDP 및 Adobe Journey Optimizer B2B edition 개념을 학습하고 익숙하지 않은 제품 및 기능을 온보딩할 수 있습니다. <br>숙련된 사용자는 AI Assistant를 사용하여 워크플로를 차단할 수 있는 경계 사례를 해결할 수 있습니다. | <li>Real-Time CDP의 사용 사례를 알려 주십시오. <li>나에게 구매 그룹 개념을 설명하십시오. |
 | 문제 해결 | AI Assistant를 사용하여 워크플로우에서 발생할 수 있는 기본 오류를 디버깅하는 방법을 학습합니다. | <li>이 오류 &lt;ERROR_MESSAGE>은(는) 무엇을 의미합니까? <li>이름이 &quot;..&quot;인 대상자를 삭제할 수 없는 이유는 무엇입니까? |
 | 샌드박스 위생 | AI Assistant를 사용하여 중복 또는 사용하지 않는 오브젝트를 식별하면 샌드박스를 효율적으로 관리할 수 있습니다. | <li>유사한 계정 대상자를 보여줄 수 있습니까? <li>연관된 데이터 세트가 없는 스키마가 있습니까? |
-| 값 분석 | AI Assistant를 사용하여 가장 많이 사용되는 데이터 객체를 식별하고 성능 지표를 평가하거나 가장 중요한 데이터 객체를 찾습니다. | <li>&quot;...&quot; 세그먼트 정의에 있는 계정은 몇 개입니까? <li>대상이 언제 Experience Cloud 대상 대상에 활성화되었습니까? |
+| 값 분석 | AI Assistant를 사용하여 가장 많이 사용되는 데이터 객체를 식별하고 성능 지표를 평가하거나 가장 중요한 데이터 객체를 찾습니다. | <li>&quot;...&quot;에 계정이 몇 개 있습니까? 세그먼트 정의? <li>대상이 언제 Experience Cloud 대상 대상에 활성화되었습니까? |
 | 검색 | 계정 대상자, 데이터 세트, 대상, 스키마, 소스, 계정 여정, 구매 그룹 템플릿 및 솔루션 관심 항목과 같이 지원되는 Experience Platform 및 Adobe Journey Optimizer B2B edition 개체를 AI Assistant를 사용하여 찾습니다 | <li>계정 여정에 사용된 이름에 &quot;Luma&quot;가 포함된 대상을 나열합니다. <li>Luma: 사용자 지정 작업 XDM 스키마에는 어떤 속성이 있습니까? |
 | 영향 분석 | AI Assistant를 사용하여 특정 워크플로우에서 사용된 데이터 객체를 식별하여 변경 사항의 영향을 평가할 수 있습니다. | <li>대상이 &quot;B2B 사용자&quot; 스키마에서 `workEmail.address`을(를) 사용하는 계정 대상은 무엇입니까? <li>`jobTitle`에 저장된 데이터 세트는 무엇입니까? |
 

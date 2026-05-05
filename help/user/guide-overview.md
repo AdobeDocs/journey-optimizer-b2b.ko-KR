@@ -2,9 +2,14 @@
 title: Adobe Journey Optimizer B2B Edition 설명서
 description: Journey Optimizer B2B Edition에 대한 전체 설명서 - 온보딩, 구매 그룹 만들기, 계정 여정 구축, 콘텐츠 관리에 사용할 수 있는 리소스를 살펴보십시오.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 865963d661c66391e6a234e5655174643003318e
+autotag-review: '2026-03-27T22:18:45.397Z'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: 915
 ht-degree: 30%
 
 ---
@@ -75,7 +80,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 
 최신 릴리스 정보
 
-Adobe Journey Optimizer B2B Edition의 최신 릴리스 정보, 새로운 기능 및 개선 사항을 지속적으로 업데이트하십시오.
+Adobe Journey Optimizer B2B edition의 최신 릴리스 정보, 새로운 기능 및 개선 사항을 지속적으로 업데이트하십시오.
 
 [릴리스 정보 보기](./release-notes/release-notes.md)
 :::

@@ -1,18 +1,30 @@
 ---
-title: CRM 내에서 세부 정보 페이지에 액세스
+title: CRM 내에서 세부 정보 페이지 액세스
 description: 계정 및 연락처 세부 정보에 대한 사용자 지정 링크를 추가하여 Salesforce 및 Dynamics CRM에서 Journey Optimizer B2B 인사이트에 직접 액세스할 수 있도록 합니다.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+autotag-review: '2026-03-27T22:24:19.286Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 1%
+source-wordcount: 1470
+ht-degree: 2%
 
 ---
 
-# CRM 내에서 세부 정보 페이지에 액세스
+# CRM 내에서 세부 정보 페이지 액세스
 
 Adobe Journey Optimizer B2B edition을 사용하면 영업 및 계정 팀원이 Salesforce 또는 Microsoft Dynamics과 같은 고객 관계 관리(CRM) 도구에서 계정 및 구매 그룹 정보에 대한 세부 페이지에 직접 액세스할 수 있습니다. 이 통합을 통해 영업 담당자는 참여 내역, 의도 신호, AI가 생성한 권장 사항과 같은 실시간 계정 및 구매 그룹 인사이트에 빠르게 액세스할 수 있습니다. 이 기능을 통해 영업 팀은 신속한 지원, 보다 스마트한 우선 순위 지정 및 마케팅에 보다 효과적으로 대응할 수 있습니다.
 
@@ -203,7 +215,7 @@ Power Apps를 사용하여 Dynamics 구성 요소와 같은 Microsoft 모델 기
 
    ![웹 리소스 추가](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
-1. 추가된 리소스를 선택한 상태에서 **[!UICONTROL 이벤트 처리기]**&#x200B;에서 _[!UICONTROL 추가]_&#x200B;를 클릭합니다.
+1. 추가된 리소스를 선택한 상태에서 _[!UICONTROL 이벤트 처리기]_&#x200B;에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. `setViewInAjoB2b` 함수를 **[!UICONTROL 이벤트 처리기]**&#x200B;에 추가합니다.
 1. _[!UICONTROL 이벤트 처리기]_ 목록에서 함수를 선택한 상태에서 **[!UICONTROL 제어]**&#x200B;을(를) `Form`(으)로 설정하고 **[!UICONTROL 이벤트]**&#x200B;을(를) `OnLoad`(으)로 설정합니다.
 
@@ -298,7 +310,7 @@ Power Apps를 사용하여 Dynamics 구성 요소와 같은 Microsoft 모델 기
 
    ![웹 리소스 추가](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 
-1. 추가된 리소스를 선택한 상태에서 **[!UICONTROL 이벤트 처리기]**&#x200B;에서 _[!UICONTROL 추가]_&#x200B;를 클릭합니다.
+1. 추가된 리소스를 선택한 상태에서 _[!UICONTROL 이벤트 처리기]_&#x200B;에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. `getFormContext` 함수를 **[!UICONTROL 이벤트 처리기]**&#x200B;에 추가합니다.
 1. _[!UICONTROL 이벤트 처리기]_ 목록에서 함수를 선택한 상태에서 **[!UICONTROL 제어]**&#x200B;을(를) `Form`(으)로 설정하고 **[!UICONTROL 이벤트]**&#x200B;을(를) `OnLoad`(으)로 설정합니다.
 

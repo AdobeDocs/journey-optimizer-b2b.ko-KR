@@ -2,10 +2,21 @@
 title: Adobe Journey Optimizer B2B Edition 개요
 description: Adobe Journey Optimizer B2B Edition에 대해 알아보기 - 구매 그룹, AI 인사이트, B2B 마케팅을 위한 Experience Platform 통합을 통해 계정 여정을 조율해 보십시오.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+autotag-review: '2026-04-29T23:21:13.339Z'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 96%
+source-wordcount: 841
+ht-degree: 100%
 
 ---
 
