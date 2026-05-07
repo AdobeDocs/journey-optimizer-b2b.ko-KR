@@ -19,9 +19,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: '2026-03-27T22:30:01.860Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 13e00f66e0ca107857e830aef4cc629f1f7cb027
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1192
 ht-degree: 87%
 
 ---
@@ -145,12 +145,12 @@ _[!UICONTROL 표준]_ 탭에서 표준 클래스에 대한 _관리되는 필드_
 
 **스키마 요구 사항**
 
-[!DNL Journey Optimizer B2B Edition]에 사용할 스키마를 만들 때 다음 구성 값이 필요합니다.
+[과(와) 함께 사용할 스키마를 만드는 경우 [!DNL Journey Optimizer B2B Edition]](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data), 다음 구성 값이 필요합니다.
 
 * 동작: 레코드
 * 세그먼테이션: 활성화됨
 * 관계 유형: 다대일
-* 참조 스키마: [B2B 계정](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+* 참조 스키마: B2B 계정 또는 B2B 개인
 * 필수 필드: 기본 키, 외래 키 및 버전 설명자
 * 관련 데이터 세트: 스키마에 정의 및 매핑됨
 
