@@ -9,9 +9,6 @@ product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -19,8 +16,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: '2026-03-30T22:15:18.544Z'
-source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
+autotag-review: 2026-03-30T22:15:18.544Z
+TQID: https://experienceleague.adobe.com/xUMPdHtj6Z4LQjGZm-R0QtJXoEXkXbbl3L49ysIZBo0
+source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
 workflow-type: tm+mt
 source-wordcount: 2066
 ht-degree: 1%
@@ -140,7 +138,7 @@ ht-degree: 1%
 
 양식에 구조적 구성 요소를 추가하고 필드를 열로 이동하여 그룹화하고 레이아웃을 변경합니다. 선택한 열 구성 요소의 왼쪽 가장자리에 있는 _이동_ 도구를 클릭하고 양식 내의 새 위치로 끕니다.
 
-![양식의 필드를 이동하고 그룹화 및 레이아웃을 위한 구조적 구성 요소를 사용](./assets/form-field-move-tool.png){width="500"}
+![양식의 필드를 이동하고 그룹화 및 레이아웃에 구조적 구성 요소를 사용](./assets/form-field-move-tool.png){width="500"}
 
 ### 필드 삭제 또는 복제 {#field-delete-duplicate}
 

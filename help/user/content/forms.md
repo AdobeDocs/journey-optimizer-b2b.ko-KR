@@ -9,16 +9,15 @@ product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-autotag-review: '2026-03-30T22:51:56.324Z'
-source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
+autotag-review: 2026-03-30T22:51:56.324Z
+TQID: https://experienceleague.adobe.com/ooUYR3UcoePXYZx3KYMN9jgSXPdkOjEDYZE6-0vDock
+source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
 workflow-type: tm+mt
 source-wordcount: 2374
 ht-degree: 1%
@@ -273,7 +272,7 @@ _랜딩 페이지_ 또는 _랜딩 페이지 템플릿_ 범주에 따라 참조�
 
    오른쪽에 양식 세부 사항이 있는 초안 버전의 양식 콘텐츠 미리보기가 표시됩니다.
 
-   ![초안 버전에서 편집](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
+   ![양식 초안 버전 편집](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
 1. 오른쪽의 _[!UICONTROL 요약]_ 창에서 **[!UICONTROL 양식 편집]**&#x200B;을 클릭하고 필요에 따라 시각적 디자인 도구를 사용하십시오.
 
