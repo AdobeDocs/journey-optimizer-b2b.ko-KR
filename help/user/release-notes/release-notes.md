@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: b52b85ffa6f81bc05ebde6d9171c85a65802e616
 workflow-type: tm+mt
-source-wordcount: 4794
-ht-degree: 71%
+source-wordcount: 5096
+ht-degree: 67%
 
 ---
 
@@ -32,20 +32,31 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
-<!--
-## 2026.4/5 release notes {#rel-2026-5}
+## 2026.5 릴리스 노트 {#rel-2026-5}
 
-**Deployment date**: May 15, 2026
+**배포 날짜**: 2026년 5월 22일
 
-| Type | Item | Description |
+<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
+
+| 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
-| Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | 
+| 기능 | 랜딩 페이지 | 이제 마케터는 Journey Optimizer B2B edition에서 여정 및 프로그램 _(이전에는 Beta 프로그램 기능)을 지원하도록 랜딩 페이지를 만들고 게시할 수 있습니다_. |
+| 기능 | 양식 | 이제 마케터는 재사용 가능한 양식 구성 요소를 만들고 게시하여 Journey Optimizer B2B edition _(이전의 Beta 프로그램 기능)_&#x200B;에서 만들고 게시한 랜딩 페이지에서 데이터를 제출할 수 있도록 할 수 있습니다. |
+| 기능 | 계정 구성원 목록 필터 | 계정 여정의 오케스트레이션 지점으로 계정 목록 멤버십을 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. |
+| 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. |
+| 기능 | 여정 분할 경로 결정 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 계정 및 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. |
+| 개선 사항 | Audience Agent 스킬 | AI 기반 구매 그룹 템플릿 생성을 포함하여 Audience Agent 스킬이 업데이트됩니다. 자사 의도 및 사용자 매핑을 사용하여 구매 그룹 템플릿을 생성하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 게시하기 전에 자연어로 템플릿을 다듬으십시오. |
+| 개선 사항 | 이메일 참여 성과 보고서 | 이메일 참여 성과 보고서는 마케터에게 Adobe Journey Optimizer B2B edition의 모든 여정에 대한 이메일 활동에 대한 통합된 보기를 제공합니다. |
+| 개선 사항 | 개인 여정 개요 대시보드 | 이 대시보드는 활성 사용자 여정에 대한 포괄적인 개요를 제공합니다. |
+| 개선 사항 | AEP 관계형 데이터 세트 지원 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
 
 >[!NOTE]
 >
->These release changes begin deployment on May 15, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>이러한 릴리스 변경 사항은 2026년 5월 22일에 배포되며 각 기능의 단계적 롤아웃 및 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+
+<!--
+ wait for later release
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
 -->
 
 ## 2026.3 릴리스 정보 {#rel-2026-3}
@@ -62,11 +73,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 이메일 템플릿 디자인 도구 - 고급 HTML 모드 | 이메일 템플릿 디자인 공간에 _고급 HTML 모드_&#x200B;를 사용하면 사용자는 HTML/CSS를 약간 편집하고 이메일 템플릿에 스크립트 태그를 추가하여 렌더링 문제를 해결할 수 있습니다. [자세히 알아보기](../content/email-template-advanced-html.md) |
 | 개선 사항 | 개인 사용자 정의 객체 - 그룹 역할 템플릿 구매 | 관리자가 비즈니스 개인 프로필과 관련된 사용자 정의 오브젝트를 구성할 때 마케터는 이제 이러한 사용자 정의 오브젝트를 사용하여 구매 그룹 역할을 정의할 수 있습니다. [자세히 알아보기](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | 개선 사항 | 이메일 콘텐츠 점수 책정 - 콘텐츠 품질 평가 | 브랜드 정렬뿐만 아니라 전체 콘텐츠 품질을 평가하여 가독성, 응집성 및 효율성(브랜드 지침과 무관)으로 잠재적인 문제를 발견할 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 알아보기](../content/content-evaluation.md) |
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
 
 >[!NOTE]
 >
