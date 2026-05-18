@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
 workflow-type: tm+mt
-source-wordcount: 1520
+source-wordcount: 1511
 ht-degree: 44%
 
 ---
@@ -171,10 +171,6 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 ### 여정 복제 {#duplicate-journey}
 
 복제 액션은 복제 함수와 유사하지만 복제된 여정에는 생성된 여정 콘텐츠 자산이 포함되지 않습니다. 여정에 대한 세부 정보를 복제하거나 흐름 및 경로 구조의 간단한 _뼈대_&#x200B;만 복제할 수 있습니다.
-
->[!NOTE]
->
->이 작업은 현재 개인 여정에 대해 사용할 수 없습니다.
 
 1. _자세히_ 아이콘(**...**)을 클릭합니다. 여정 이름 옆에 있는 **[!UICONTROL 복제]**&#x200B;를 선택합니다.
 
