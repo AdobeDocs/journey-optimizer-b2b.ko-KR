@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: 418
 ht-degree: 0%
 
 ---
@@ -37,19 +37,21 @@ Journey Optimizer B2B edition 및 Adobe Admin Console에 대한 액세스를 통
 
 ## 데이터 암호화
 
-**_사용하지 않는 데이터에 대한 암호화_** - Adobe Experience Platform에서 Journey Optimizer B2B edition으로 전송되는 모든 계정 및 개인 프로필 데이터는 Experience Platform의 기존 규정 준수를 유지하기 위해 암호화됩니다. 여정 및 구매 그룹과 같은 Journey Optimizer B2B edition에서 시작된 모든 엔티티도 암호화됩니다.
+**_사용하지 않는 데이터에 대한 암호화_** - Adobe Experience Platform에서 Journey Optimizer B2B edition으로 전송되는 모든 계정 및 개인 프로필 데이터는 Experience Platform의 기존 준수 상태를 유지하기 위해 암호화됩니다. 여정 및 구매 그룹과 같은 Journey Optimizer B2B edition에서 시작된 모든 엔티티도 암호화됩니다.
 
 **_전송 중인 데이터에 대한 암호화_**(공용 네트워크를 통해) - 모든 Journey Optimizer B2B edition API 및 엔터티는 TLS 1.2를 사용하여 전송 중에 암호화됩니다.
 
 ## 동의 옵트인/옵트아웃
 
-동의 옵트인/옵트아웃은 프로필이 이메일 또는 SMS와 같은 통신 채널에서 옵트아웃할 수 있는 거버넌스 형식이며, 프로필은 통신 채널에서 제외됩니다.
+Journey Optimizer B2B edition은 Adobe Experience Platform XDM 프로필에 저장된 개인별 동의 환경 설정을 읽고 이메일, SMS 및 WhatsApp 채널에 대한 메시지 게재 시간에 강제 적용합니다. 채널을 옵트아웃한 사람은 채널 또는 다운스트림 메시징 공급자에서 콘텐츠를 전송하기 전에 게재에서 제외됩니다.
 
-Journey Optimizer B2B edition을 사용하여 이메일 및 SMS 게재 사용 사례에 대한 구독/구독 취소 사용 사례를 작성하고 관리할 수 있습니다. 이러한 동의 환경 설정은 XDM 프로필 동의 필드 그룹 내에 저장되며 데이터 동기화 프레임워크의 일부로 Journey Optimizer B2B edition에 동기화되고 동기화되지 않습니다. 이러한 환경 설정은 게재에서 옵트아웃된 프로필을 제외하기 위해 게재 시간에 사용됩니다.
+동의는 프로필 동의 필드 그룹의 XDM 필드를 사용하여 게재 시 평가됩니다. 기본 동의 비헤이비어는 채널마다 다릅니다. 기본 설정이 없으면 이메일이 기본적으로 옵트인으로 설정되고, SMS와 WhatsApp은 기본적으로 옵트아웃으로 설정됩니다.
+
+각 채널에 대해 평가된 XDM 특성 및 기본 동작에 대한 자세한 내용은 [동의 환경 설정](../content/channels-consent-preferences.md)을 참조하십시오.
 
 ## 샌드박스 재설정
 
-샌드박스 재설정은 Adobe Journey Optimizer B2B edition에 대해 현재 지원되지 않습니다&#x200B;**.** Journey Optimizer B2B edition에 매핑된 샌드박스를 재설정하거나 삭제하면 Journey Optimizer B2B edition의 데이터가 영구적으로 손실될 수 있으며 새 Journey Optimizer B2B edition 인스턴스를 프로비저닝해야 할 수 있습니다.
+샌드박스 재설정은 Adobe Journey Optimizer B2B edition에 대해 현재 지원되지 않습니다&#x200B;**.** Journey Optimizer B2B edition에 매핑된 샌드박스를 재설정하거나 삭제하면 영구적인 데이터 손실이 발생할 수 있으며 새 인스턴스를 프로비저닝해야 합니다.
 
 ## 아직 사용할 수 없음
 
