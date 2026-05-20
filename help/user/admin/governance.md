@@ -4,21 +4,15 @@ description: 현재 Journey Optimizer B2B edition에서 사용할 수 있는 거
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -43,7 +37,7 @@ Journey Optimizer B2B edition 및 Adobe Admin Console에 대한 액세스를 통
 
 ## 동의 옵트인/옵트아웃
 
-Journey Optimizer B2B edition은 Adobe Experience Platform XDM 프로필에 저장된 개인별 동의 환경 설정을 읽고 이메일, SMS 및 WhatsApp 채널에 대한 메시지 게재 시간에 강제 적용합니다. 채널을 옵트아웃한 사람은 채널 또는 다운스트림 메시징 공급자에서 콘텐츠를 전송하기 전에 게재에서 제외됩니다.
+Journey Optimizer B2B edition은 Adobe Experience Platform XDM 프로필에 저장된 개인별 동의 환경 설정을 읽고 이메일, SMS 및 WhatsApp 채널에 대한 메시지 게재 시간에 강제 적용합니다. 채널을 옵트아웃한 사람은 채널 또는 다운스트림 메시징 공급자로부터 콘텐츠를 전송하기 전에 게재 대상에서 제외됩니다.
 
 동의는 프로필 동의 필드 그룹의 XDM 필드를 사용하여 게재 시 평가됩니다. 기본 동의 비헤이비어는 채널마다 다릅니다. 기본 설정이 없으면 이메일이 기본적으로 옵트인으로 설정되고, SMS와 WhatsApp은 기본적으로 옵트아웃으로 설정됩니다.
 
