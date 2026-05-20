@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Journey Optimizer B2B edition 및 Adobe Admin Console에 대한 액세스를 통
 
 ## 동의 옵트인/옵트아웃
 
-Journey Optimizer B2B edition은 Adobe Experience Platform XDM 프로필에 저장된 개인별 동의 환경 설정을 읽고 이메일, SMS 및 WhatsApp 채널에 대한 메시지 게재 시간에 강제 적용합니다. 채널을 옵트아웃한 사람은 채널 또는 다운스트림 메시징 공급자에서 콘텐츠를 전송하기 전에 게재에서 제외됩니다.
+Journey Optimizer B2B edition은 Adobe Experience Platform XDM 프로필에 저장된 개인별 동의 환경 설정을 읽고 이메일, SMS 및 WhatsApp 채널에 대한 메시지 게재 시간에 강제 적용합니다. 채널을 옵트아웃한 사람은 채널 또는 다운스트림 메시징 공급자로부터 콘텐츠를 전송하기 전에 게재 대상에서 제외됩니다.
 
 동의는 프로필 동의 필드 그룹의 XDM 필드를 사용하여 게재 시 평가됩니다. 기본 동의 비헤이비어는 채널마다 다릅니다. 기본 설정이 없으면 이메일이 기본적으로 옵트인으로 설정되고, SMS와 WhatsApp은 기본적으로 옵트아웃으로 설정됩니다.
 
