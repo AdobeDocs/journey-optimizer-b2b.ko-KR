@@ -4,22 +4,17 @@ description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1844
-ht-degree: 12%
+source-wordcount: 1879
+ht-degree: 11%
 
 ---
 
@@ -65,6 +60,10 @@ ht-degree: 12%
 ## 사용자 이벤트
 
 계정 여정에서 사용자 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우 사용자를 기반으로 이벤트를 수신할 수 있습니다. 사용자 속성에 따라 이벤트를 필터링할 수도 있습니다.
+
+>[!TIP]
+>
+>_이전_&#x200B;에 발생한 여정 이벤트를 기반으로 사용자를 라우팅하려면(예: 이전 이메일 클릭 또는 웹 인터랙션) [사람별 경로 분할](./split-merge-paths-nodes.md#experience-event-history-filtering) 노드에서 [!UICONTROL 이벤트 기록] 필터를 사용합니다.
 
 ### 이벤트 및 제한
 
@@ -145,11 +144,11 @@ ht-degree: 12%
 
 1. 여정 맵에서 이벤트가 발생할 때 실행할 다음 노드를 추가합니다.
 
-### 경험 이벤트 수신
+### 경험 이벤트 수신 {#listen-for-an-experience-event}
 
-관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
 
-1. [&#x200B; 관리자가 여정에서 사용할 수 있도록 이벤트 유형 및 관심 필드 &#x200B;](../admin/configure-aep-events.md#add-an-event)을(를) 추가합니다.
+1. [ 관리자가 여정에서 사용할 수 있도록 이벤트 유형 및 관심 필드 ](../admin/configure-aep-events.md#add-an-event)을(를) 추가합니다.
 
 2. 여정에서 _이벤트 수신_ 노드를 추가하고 사용자 기반 이벤트에 대한 Experience Platform 이벤트 유형을 선택합니다.
 
@@ -238,5 +237,5 @@ ht-degree: 12%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?captions=kor&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

@@ -6,45 +6,37 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 베타 릴리스에 있습니다"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: 1608
 ht-degree: 11%
 
 ---
 
 # 경험 이벤트 및 필드 선택
 
-관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
+관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->Journey Optimizer B2B edition에서 경험 이벤트 및 필드를 사용하려면 프로필이 활성화된 경험 이벤트 스키마가 필요합니다. 자세한 내용은 Experience Platform 자습서에서 [실시간 고객 프로필 활성화](https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}를 참조하십시오.
+>Journey Optimizer B2B edition에서 경험 이벤트 및 필드를 사용하려면 프로필이 활성화된 경험 이벤트 스키마가 필요합니다. 자세한 내용은 Experience Platform 자습서에서 [실시간 고객 프로필 활성화](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}를 참조하십시오.
 
 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
 
-1. 관리자 [이(가) Journey Optimizer B2B edition 구성에 AEP 경험 이벤트 및 필드를 추가](#add-an-event)합니다.
+1. 관리자 [이(가) AEP B2B edition 구성에 Journey Optimizer Experience Events 및 필드를 추가](#add-an-event)합니다.
 
-2. 여정에서 마케터가 _이벤트 수신_ 노드를 추가하고 [경험 이벤트를 선택합니다](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+1. 여정에서 마케터는 다음 두 가지 방법 중 하나로 구성된 이벤트를 사용합니다.
 
-   * 노드에서 사용할 이벤트를 선택합니다.
-   * 제약 조건으로 사용할 필드를 선택합니다.
+   * _이벤트 수신_ 노드를 추가하고 [경험 이벤트를 선택하여](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) 여정 동안의 실시간 이벤트 활동에 따라 여정 진행률을 트리거합니다.
+   * _사람별로 경로 분할_ 노드를 추가하고 **[!UICONTROL 이벤트 기록]** 폴더에서 [이벤트에 대한 필터](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)에 대한 경로를 구성합니다.
 
 >[!BEGINSHADEBOX]
 
@@ -56,11 +48,13 @@ ht-degree: 11%
 
 * 여정은 웹 SDK 또는 HTTP API와 같은 Experience Platform 스트리밍 기능을 사용하여 수집되는 Experience 이벤트를 수신할 수 있습니다.
 
-* 여정 내에서 의사 결정 목적으로 Experience Event를 사용할 수 있지만 유지되지 않습니다. 따라서 Journey Optimizer B2B edition 내의 경험 이벤트에 대한 기록 레코드를 활용할 수 없습니다.
+* 과거 경험 이벤트 데이터는 이벤트가 Journey Optimizer B2B edition 데이터베이스에 있을 때 사용자에 대해 누적되기 시작합니다. 이벤트 유형을 처음 구성할 때 이미 존재하는 사용자의 경우 구성 시 채우기 작업이 시작됩니다. 신규 사용자의 경우, 누적은 해당 사용자가 처음 추가될 때 시작됩니다(이전 기록은 소급하여 사용할 수 없음).
+
+* 현재 누적된 이벤트 내역에 대한 삭제 메커니즘이 없습니다. 장기 보존 정책은 변경될 수 있습니다.
 
 * 경험 이벤트를 사용하고 여정을 게시할 때 필드를 더 추가할 수 있지만 이전에 선택한 필드는 제거할 수 없습니다.
 
-* 여러 여정에서 경험 이벤트를 참조하거나 동일한 여정 내에서 두 번 이상 사용할 수 있습니다.
+* 여러 여정에서 경험 이벤트를 참조하거나 동일한 여정 내에서 동일한 이벤트를 두 번 이상 사용할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +78,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 ![선택한 이벤트 목록을 이름별로 필터링](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-### 이벤트 추가
+### 이벤트 추가 {#add-an-event}
 
 여정의 _이벤트 수신_ 노드에서 경험 이벤트를 사용할 수 있도록 하려면 이벤트와 지원되는 필드를 선택합니다.
 
@@ -126,7 +120,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 저장된 이벤트가 _[!UICONTROL 이벤트]_ 탭의 목록에 표시됩니다.
 
-### 이벤트 편집
+### 이벤트 편집 {#edit-an-event}
 
 이벤트 세부 사항을 편집하여 필드를 변경합니다.
 
@@ -134,7 +128,9 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
    ![기타 메뉴 아이콘 클릭](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. _[!UICONTROL 필드 선택]_ 대화 상자에서 필드를 더 추가하거나 기존 선택 항목을 제거하려면 **[!UICONTROL 필드 편집]**&#x200B;을 클릭하십시오.
+1. **[!UICONTROL 필드 편집]**&#x200B;을 클릭하여 _[!UICONTROL 필드 선택]_ 대화 상자를 열고 필드를 더 추가합니다.
+
+   이 이벤트를 사용하는 여정이 게시된 후 이전에 선택한 필드는 제거할 수 없습니다.
 
 1. 선택 내용을 저장하려면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.
 
@@ -170,8 +166,8 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 | 개인 소스 키 | `personKey.sourceKey` |
 | 이메일 소스 ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | 이메일 소스 유형 | `directMarketing.emailSent.mailingKey.sourceType` |
-| 이메일 소스 인스턴스 ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
-| 이메일 소스 키 | `directMailing.emailSent.mailingKey.sourceKey` |
+| 이메일 소스 인스턴스 ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
+| 이메일 소스 키 | `directMarketing.emailSent.mailingKey.sourceKey` |
 | 메일 이름 | `directMarketing.emailSent.mailingName` |
 | 여정 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 노드 ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -182,7 +178,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 이 이벤트는 이메일이 개인의 이메일 서비스에 성공적으로 전달될 때 추적합니다.
 
-이벤트 유형: `directMarketing.emailDelivered `
+이벤트 유형: `directMarketing.emailDelivered`
 
 +++필드
 
@@ -337,7 +333,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 이 이벤트는 사용자가 마케팅 이메일의 구독을 취소하면 추적합니다.
 
-이벤트 유형: `directMarketing.emailUnsubscribed `
+이벤트 유형: `directMarketing.emailUnsubscribed`
 
 +++필드
 
@@ -458,7 +454,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 이 이벤트는 한 사람에게 재미있는 순간을 기록할 때 추적합니다.
 
-이벤트 유형: `leadOperation.interestingMoment `
+이벤트 유형: `leadOperation.interestingMoment`
 
 +++필드
 
@@ -484,5 +480,5 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448690/?captions=kor&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->
