@@ -20,7 +20,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
 source-wordcount: 1191
 ht-degree: 79%
@@ -59,7 +59,7 @@ XDM을 이해하고 데이터 엔지니어 또는 B2B 고객 데이터 플랫폼
 * 필드 유형을 삭제, 이름 변경 또는 변경하면 여정 기능에 문제가 발생할 수 있습니다. 스키마를 조작할 때 주의하십시오.
 * 스키마 이름을 바꾸거나 삭제하거나 관계형 스키마의 키를 수정하지 마십시오.
 
-### 표준 클래스
+### 표준 스키마
 
 _[!UICONTROL 표준]_ 탭에서 표준 클래스에 대한 _관리되는 필드_ 및 _업데이트할 수 있는 필드_&#x200B;를 편집할 수 있습니다.
 
