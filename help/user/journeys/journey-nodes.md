@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
 workflow-type: tm+mt
-source-wordcount: 131
-ht-degree: 12%
+source-wordcount: 134
+ht-degree: 14%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 12%
 * [액션 취하기](./action-nodes.md)
 * [이벤트 듣기](./listen-for-event-nodes.md)
 * [경로 분할](./split-merge-paths-nodes.md)
+* [다음 최적 경로](./next-best-path-node.md)
 * [대기](./wait-nodes.md)
 * [경로 병합](./split-merge-paths-nodes.md)
 * [외부](./external-nodes.md)
