@@ -3,23 +3,16 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 4cc24ff8a19aa1ec6888c7ef35c1a4c6ac93f344
+source-git-commit: dd5dae1845686654d2935d9d10b4cd61c5fc502f
 workflow-type: tm+mt
-source-wordcount: 5096
+source-wordcount: 5099
 ht-degree: 67%
 
 ---
@@ -43,8 +36,8 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 랜딩 페이지 | 이제 마케터는 Journey Optimizer B2B edition에서 여정 및 프로그램 _(이전에는 Beta 프로그램 기능)을 지원하도록 랜딩 페이지를 만들고 게시할 수 있습니다_. |
 | 기능 | 양식 | 이제 마케터는 재사용 가능한 양식 구성 요소를 만들고 게시하여 Journey Optimizer B2B edition _(이전의 Beta 프로그램 기능)_&#x200B;에서 만들고 게시한 랜딩 페이지에서 데이터를 제출할 수 있도록 할 수 있습니다. |
 | 기능 | 계정 구성원 목록 필터 | 계정 여정의 오케스트레이션 지점으로 계정 목록 멤버십을 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. |
-| 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. |
-| 기능 | 여정 분할 경로 결정 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 계정 및 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. |
+| 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
+| 기능 | 다음 최적 경로 여정 노드 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. [자세히 알아보기](../journeys/next-best-path-node.md) |
 | 개선 사항 | Audience Agent B2B 스킬 | AI 기반 구매 그룹 템플릿 생성을 포함하여 Audience Agent B2B 기술이 업데이트됩니다. 자사 의도 및 사용자 매핑을 사용하여 구매 그룹 템플릿을 생성하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 게시하기 전에 자연어로 템플릿을 다듬으십시오. [자세히 알아보기](../agents/audience-agent-b2b.md) |
 | 개선 사항 | 이메일 참여 성과 보고서 | 이메일 참여 성과 보고서는 마케터에게 Adobe Journey Optimizer B2B edition의 모든 여정에 대한 이메일 활동에 대한 통합된 보기를 제공합니다. |
 | 개선 사항 | 개인 여정 개요 대시보드 | 이 대시보드는 활성 사용자 여정에 대한 포괄적인 개요를 제공합니다. |
