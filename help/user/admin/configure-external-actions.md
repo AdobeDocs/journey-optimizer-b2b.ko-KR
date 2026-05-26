@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -76,9 +76,7 @@ ht-degree: 1%
 
    ![서비스 URL 입력](./assets/configuration-external-actions-create-url.png){width="500"}
 
-   >[!NOTE]
-   >
-   >이 단계를 수행하려면 외부 서비스가 활성화되어 있어야 하며 연결 가능해야 합니다.
+   이 단계를 수행하려면 외부 서비스가 활성화되어 있어야 하며 연결 가능해야 합니다. 유효성 검사 오류가 있는 경우 대화 상자에 오류를 설명하는 메시지와 해결 방법이 표시됩니다. 자세한 내용은 [_문제 해결_](#troubleshooting)&#x200B;을 참조하세요.
 
 1. URL이 정상적으로 확인되면 **[!UICONTROL 서비스 세부 정보]**&#x200B;를 검토하십시오.
 
@@ -127,7 +125,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 보내는 필드]** - 테이블의 각 필드를 [XDM 필드](../admin/xdm-field-management.md)에 매핑합니다. 이러한 필드는 요청 본문에서 외부 서비스로 전송됩니다. 서비스 정의 속성: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
-   ![외부 동작 송신 필드 매핑](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![외부 동작 송신 필드 매핑](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL 들어오는 필드]** - 테이블의 각 필드를 [업데이트할 수 있는 XDM 필드](../admin/xdm-field-management.md#updatable-fields)에 매핑합니다. 이러한 필드는 외부 서비스 응답에서 채워집니다. 서비스 정의 속성: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. 생성 후 업데이트할 수 있습니다.
 
@@ -137,11 +135,50 @@ ht-degree: 1%
 
    * **[!UICONTROL 전역 특성]** - 요청 본문에 정적 필드로 포함할 각 행의 값을 입력하십시오. 서비스 정의 속성: `invocationPayloadDef.globalAttributes`.
 
-   ![외부 작업 헤더 매개 변수, 시간 제한 및 전역 특성](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+     ![외부 작업 헤더 매개 변수, 시간 제한 및 전역 특성](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. 목록으로 돌아가서 작업을 _초안_ 상태로 유지하려면 _뒤로 화살표_&#x200B;를 클릭하십시오.
 
    또는 **[!UICONTROL 활성화]**&#x200B;를 클릭하여 작업 구성을 _활성_ 상태로 변경합니다. 계정 여정에서 사용할 수 있도록 구성된 외부 작업이 활성화되어 있어야 합니다.
+
+### 문제 해결 {#troubleshooting}
+
+외부 서비스에 대한 OpenAPI 사양에 대한 URL을 입력하고 **[!UICONTROL 만들기]**&#x200B;를 클릭하면 시스템에서 서비스 유효성 검사를 수행합니다. 오류가 발생하면 대화 상자에 오류를 설명하는 메시지가 표시됩니다.
+
+![외부 동작 URL 서비스 유효성 검사 오류 메시지](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>다음 오류 중 대부분은 공개 웹 서비스를 만들고 게시한 개발자와 협력하여 해결해야 합니다.
+
+#### 유효성 검사 오류 세부 정보
+
+| 표시된 오류 | 왜 이런 일이 발생했는가 | 할 일 |
+|---|---|---|
+| `This URL is already used by another external action` | 이 사양 URL은 조직의 다른 작업에 이미 등록되었습니다. | 다른 사양 URL을 사용하거나 이미 사용 중인 기존 작업을 삭제합니다. |
+| `An action with this name already exists` | 사양의 `info.title`은(는) 이미 있는 작업과 일치합니다. | 사양의 `info.title` 필드에 있는 제목을 고유하게 변경합니다. |
+| `Duplicate operation ID found in the specification` | 세부 항목에 있는 두 개 이상의 작업이 동일한 `operationId`을(를) 공유합니다. | 모든 작업에 고유한 `operationId`을(를) 지정합니다. |
+| `Field in the specification exceeds the maximum allowed length` | 사양의 텍스트 필드(예: 제목 또는 설명)가 너무 깁니다. | 플래그가 지정된 필드를 줄입니다. |
+| `The entity type value is invalid` | 엔터티 형식에 대한 Adobe 전용 `x-` 확장에 인식할 수 없는 값이 있습니다. | 엔티티 유형을 지원되는 값으로 수정합니다. 올바른 옵션은 [개발자 설명서](https://developer.adobe.com/journey-optimizer-b2b-apis/)를 참조하세요. |
+| `The provided document is not a valid OpenAPI specification` | 사양을 구조적으로 구문 분석할 수 없습니다. | OpenAPI 3.0 스키마에 대해 사양을 확인하고 문제를 수정합니다. |
+| `Required OpenAPI field is missing` | 표준 OpenAPI 필수 필드가 없습니다(예: `info` 또는 `paths`). | 누락된 필드를 추가합니다. |
+| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B edition에 필요한 종단점이 사양에 정의되어 있지 않습니다. | 필요한 끝점을 추가합니다. 끝점이 필요한 [개발자 설명서](https://developer.adobe.com/journey-optimizer-b2b-apis/)를 참조하세요. |
+| `Required extension field is missing` | 필수 Adobe `x-` 확장 필드가 사양에 없습니다. | 설명서에 설명된 대로 누락된 확장 필드를 추가합니다. |
+| `Security schemes are missing from the specification` | 세부 항목에 `components`에 정의된 `securitySchemes`이(가) 없습니다. | 최소 하나 이상의 보안 체계를 정의합니다. |
+| `Multiple authentication types are not supported` | 사양이 둘 이상의 인증 체계를 정의합니다. | 단일 인증 유형을 사용하도록 사양을 업데이트합니다. |
+| `The authentication type is not supported` | 사용한 보안 구성표 유형(예: `oauth2` 또는 `openIdConnect`)은 지원되지 않습니다. | 지원되는 인증 유형으로 전환하십시오. 지원되는 옵션은 개발자 설명서 를 참조하십시오. |
+| `The OpenAPI version is not supported` | 사양 수준에서 버전 불일치 | OpenAPI 3.0.x를 사용하도록 사양을 업데이트합니다. |
+| `An unexpected error occurred` | 세부 항목에서 분류되지 않은 문제가 발견되었습니다. | 세부 항목에 특이한 사항이 있는지 확인하고 다시 시도하십시오. 오류가 지속되면 지원 센터에 문의하십시오. |
+
+<!--
+## Errors you'll see if something goes wrong with the request itself
+
+This error appears below the URL field (not in the alert banner) and means there was a network problem or an unexpected server response — not a problem with your URL or spec.
+
+| What you'll see | Why it happened | What to do |
+|---|---|---|
+| `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
+-->
 
 ## 여정에 외부 노드 추가 {#add-journey-node}
 

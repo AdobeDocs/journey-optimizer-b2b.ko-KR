@@ -20,7 +20,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
 workflow-type: tm+mt
 source-wordcount: 1522
 ht-degree: 11%
@@ -68,7 +68,7 @@ ht-degree: 11%
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 구성]**&#x200B;을 선택합니다.
 
-1. 중간 패널에서 **[!UICONTROL XDM 클래스]**&#x200B;를 클릭한 다음 **[!UICONTROL 이벤트]** 탭을 클릭하여 사용 가능한 이벤트 목록을 표시합니다.
+1. 중간 패널에서 **[!UICONTROL XDM 구성]**&#x200B;을 클릭한 다음 **[!UICONTROL 이벤트]** 탭을 클릭하여 사용 가능한 이벤트 목록을 표시합니다.
 
    ![선택한 경험 이벤트에 액세스](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 

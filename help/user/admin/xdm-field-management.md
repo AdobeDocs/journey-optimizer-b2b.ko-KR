@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 87%
+source-wordcount: 1191
+ht-degree: 79%
 
 ---
 
@@ -31,21 +31,21 @@ ht-degree: 87%
 
 XDM(경험 데이터 모델) 필드는 [!DNL Journey Optimizer B2B Edition] 응용 프로그램에 데이터를 제공하는 스키마 요소입니다. 여정 노드, 구매 그룹 및 이메일 개인화 및 조건부 콘텐츠와 같은 콘텐츠 기능에 대한 필터 및 제약 조건으로 XDM 필드를 사용합니다.
 
-스키마는 표준 XDM 클래스를 기반으로 필드를 정의합니다. 표준 XDM 클래스에는 개인 프로필, 비즈니스 계정 및 경험 이벤트가 포함됩니다. 또한 관계형 스키마는 기존의 관계형 데이터베이스와 유사하게 구조화된 데이터를 모델링할 수 있는 필드를 정의합니다.
+스키마는 표준 XDM 프로필을 기반으로 필드를 정의합니다. 표준 XDM 구성에는 개인 프로필, 비즈니스 계정 및 경험 이벤트가 포함됩니다. 또한 관계형 스키마는 기존의 관계형 데이터베이스와 유사하게 구조화된 데이터를 모델링할 수 있는 필드를 정의합니다.
 
 Adobe Experience Platform(AEP) 스키마에는 일반적으로 복잡한 계층의 많은 필드가 포함됩니다. XDM 스키마 트리 트래버스에는 시간이 소요됩니다. XDM 필드 관리는 여정, 구매 그룹 및 개인화와 관련된 필드만 표시하여 필드 선택을 간소화합니다.  관리자는 읽기 전용 또는 편집 가능한 필드를 포함하여 Journey Optimizer B2B edition에서 사용하도록 이러한 필드를 활성화합니다.
 
-XDM을 이해하고 데이터 엔지니어 또는 B2B 고객 데이터 플랫폼(CDP) 데이터 모델링 이해 당사자와 공동 작업하는 관리자는 다음 단계를 사용하여 [!DNL Journey Optimizer B2B Edition]에 대한 XDM 클래스를 구성해야 합니다.
+XDM을 이해하고 데이터 엔지니어 또는 B2B 고객 데이터 플랫폼(CDP) 데이터 모델링 이해 당사자와 공동 작업하는 관리자는 다음 단계를 사용하여 [!DNL Journey Optimizer B2B Edition]에 대한 XDM 필드를 구성해야 합니다.
 
-## XDM 클래스 액세스
+## XDM 구성 액세스
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 구성]**&#x200B;을 선택합니다.
 
-1. 중간 패널에서 **[!UICONTROL XDM 클래스]**&#x200B;를 클릭합니다.
+1. 중간 패널에서 **[!UICONTROL XDM 구성]**&#x200B;을 클릭합니다.
 
    * **[!UICONTROL 표준]** 및 **[!UICONTROL 관계형]** 탭을 사용하여 새 필드를 추가하고 Journey Optimizer B2B edition에서 사용할 수 있도록 설정하십시오.
 
-   * **이벤트** 탭을 사용하여 [특정 AEP Experience 이벤트 및 관련 필드를 선택](./configure-aep-events.md)하여 여정 이벤트 노드에 사용하십시오.
+   * **[!UICONTROL 이벤트]** 탭을 사용하여 [특정 AEP Experience 이벤트 및 관련 필드를 선택](./configure-aep-events.md)하여 여정 이벤트 노드에 사용하십시오.
 
 ## 필드 선택
 
@@ -66,7 +66,7 @@ _[!UICONTROL 표준]_ 탭에서 표준 클래스에 대한 _관리되는 필드_
 * 관리 필드는 여정, 구매 그룹 및 개인화 기능에 표시됩니다.
 * 업데이트할 수 있는 필드는 _계정 프로필 업데이트_ 및 _개인 프로필 업데이트_ 여정 노드에 대한 제약 조건 역할을 합니다.
 
-![XDM 클래스 구성을 표시하는 표준 클래스 탭](assets/xdm-standard.png){width="600" zoomable="yes"}
+![XDM 구성을 보여주는 표준 클래스 탭](./assets/xdm-standard.png){width="600" zoomable="yes"}
 
 이 목록에는 두 개의 클래스가 포함됩니다.
 
@@ -91,11 +91,11 @@ _[!UICONTROL 표준]_ 탭에서 표준 클래스에 대한 _관리되는 필드_
 
 **[!UICONTROL 관리되는 필드]**&#x200B;를 선택하면 _필드 선택_ 대화 상자에 구성 가능한 모든 필드가 나열됩니다.
 
-1. 각 XDM 클래스에 대해 최대 100개의 필드를 선택합니다.
+1. 각 XDM 스키마에 대해 최대 100개의 필드를 선택합니다.
 
    _[!UICONTROL 검색]_ 필드를 사용하여 표시된 목록을 이름별로 필터링하십시오. **[!UICONTROL 선택한 필드만 표시]** 슬라이더를 사용하여 현재 선택 항목을 검토하십시오.
 
-   구성 가능한 필드 옵션을 표시하는 표준 XDM 클래스에 대한 ![관리되는 필드 선택 대화 상자](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
+   구성 가능한 필드 옵션을 표시하는 표준 XDM 스키마에 대한 ![관리 필드 선택 대화 상자](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
 1. 선택 내용을 확인하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
@@ -110,7 +110,7 @@ _[!UICONTROL 표준]_ 탭에서 표준 클래스에 대한 _관리되는 필드_
 >업데이트 가능한 필드 보호:
 >
 >* 스키마 - 스키마는 B2B 개인 기본 ID(`b2b.personKey.sourceKey`)를 사용해야 합니다. XDM 개별 프로필 클래스에서 스키마의 필수 필드는 `identityMap` 또는 `personID`과(와) 같이 시스템에서 정의되어야 합니다.
->* 데이터 세트 - 이미 사용 중인 데이터 세트를 다른 용도로 사용하지 마십시오. 업데이트할 수 있는 필드를 저장하기 위한 전용 데이터 세트를 만드는 것이 좋습니다. 각 XDM 클래스에 대해 별도의 데이터 세트를 사용합니다.
+>* 데이터 세트 - 이미 사용 중인 데이터 세트를 다른 용도로 사용하지 마십시오. 업데이트할 수 있는 필드를 저장하기 위한 전용 데이터 세트를 만드는 것이 좋습니다. 각 XDM 스키마에 대해 별도의 데이터 세트를 사용합니다.
 
 개별 프로필에 대한 데이터 세트를 만들고 비즈니스 계정에 대한 데이터 세트를 만듭니다. 구성 프로세스 중에 각 새 데이터 세트를 선택합니다.
 

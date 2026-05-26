@@ -21,10 +21,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 853
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -104,7 +104,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 </thead>
 <tbody>
 <tr>
-<td colspan="2"><strong>표준 XDM 클래스</strong>: XDM 개인 프로필 및 XDM 비즈니스 계정 클래스를 설정합니다.</td>
+<td colspan="2"><strong>표준 XDM 구성</strong>: XDM 개인 프로필 및 XDM 비즈니스 계정 스키마를 설정합니다.</td>
 <td></td>
 </tr>
 <tr>
@@ -118,7 +118,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 <td><a href="./admin/xdm-field-management.md#updatable-fields">자세히 알아보기</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>관계형 스키마</strong>: 관계형 XDM 클래스(계정 다대일 사용자 지정 개체)를 선택하십시오.</td>
+<td colspan="2"><strong>관계형 스키마</strong>: 관계형 XDM 필드(계정 다대일 사용자 지정 개체)를 선택하십시오.</td>
 <td></td>
 </tr>
 <tr>
