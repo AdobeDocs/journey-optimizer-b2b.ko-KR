@@ -3,39 +3,30 @@ title: 경험 이벤트 및 필드 선택
 description: Experience Platform 이벤트 및 필드를 선택하여 고객 행동에 따라 여정에서 실시간 의사 결정을 트리거합니다.
 feature: Setup, Integrations
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 베타 릴리스에 있습니다"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
 workflow-type: tm+mt
-source-wordcount: 1608
+source-wordcount: 1605
 ht-degree: 11%
 
 ---
 
 # 경험 이벤트 및 필드 선택
 
-관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
+관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->Journey Optimizer B2B edition에서 경험 이벤트 및 필드를 사용하려면 프로필이 활성화된 경험 이벤트 스키마가 필요합니다. 자세한 내용은 Experience Platform 자습서에서 [실시간 고객 프로필 활성화](https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}를 참조하십시오.
+>Journey Optimizer B2B edition에서 경험 이벤트 및 필드를 사용하려면 프로필이 활성화된 경험 이벤트 스키마가 필요합니다. 자세한 내용은 Experience Platform 자습서에서 [실시간 고객 프로필 활성화](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}를 참조하십시오.
 
 여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
 
@@ -48,7 +39,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-## 지침 및 제한 사항
+## 지침 및 제한 사항 {#guidelines-and-limitations}
 
 조직 목표를 충족하기 위해 이벤트를 선택할 때 다음 사항을 고려하십시오.
 
@@ -62,11 +53,11 @@ ht-degree: 11%
 
 * 경험 이벤트를 사용하고 여정을 게시할 때 필드를 더 추가할 수 있지만 이전에 선택한 필드는 제거할 수 없습니다.
 
-* 여러 여정에서 경험 이벤트를 참조하거나 동일한 여정 내에서 동일한 이벤트를 두 번 이상 사용할 수 있습니다.
+* 여러 여정에서 경험 이벤트를 참조하거나 동일한 여정에서 두 번 이상 사용할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
-## 경험 이벤트 관리
+## 경험 이벤트 관리 {#manage-experience-events}
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 구성]**&#x200B;을 선택합니다.
 
@@ -80,7 +71,7 @@ ht-degree: 11%
 
    선택한 이벤트에 대한 세부 정보에 액세스하려면 이벤트 이름을 클릭합니다.
 
-### 이벤트 목록 필터링
+### 이벤트 목록 필터링 {#filter-the-event-list}
 
 _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를 이벤트 이름과 일치하도록 필터링합니다.
 
@@ -89,10 +80,6 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 ### 이벤트 추가 {#add-an-event}
 
 여정의 _이벤트 수신_ 노드에서 경험 이벤트를 사용할 수 있도록 하려면 이벤트와 지원되는 필드를 선택합니다.
-
->[!NOTE]
->
->베타 릴리스에서는 목록에서 이벤트를 제거할 수 없습니다. 추가하는 각 이벤트가 조직에서 사용할 이벤트인지 확인하십시오.
 
 1. 오른쪽 상단의 **[!UICONTROL 경험 이벤트 선택]**&#x200B;을 클릭합니다.
 
@@ -142,19 +129,23 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 1. 선택 내용을 저장하려면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.
 
-### 이벤트 제거
+### 이벤트 제거 {#remove-an-event}
 
->[!NOTE]
->
->이 기능의 Beta 릴리스에서는 선택한 이벤트 목록에서 이벤트를 제거할 수 없습니다. GA 릴리스에서 이벤트가 제거될 예정입니다.
+여정 내의 _이벤트 수신_ 노드에서 경험 이벤트가 사용되지 않도록 하려면 이벤트를 제거합니다. _예약됨_, _라이브_ 또는 _완료됨_ 상태의 여정이 이벤트를 사용하는 경우 이벤트를 제거할 수 없습니다.
 
-## 이벤트 및 필드
+1. 이벤트 이름 옆에 있는 _추가 메뉴_( **...**) 아이콘을 클릭하고 **[!UICONTROL 제거]**&#x200B;를 선택합니다.
+
+1. 확인 대화 상자에서 **[!UICONTROL 제거]**&#x200B;를 클릭합니다.
+
+   ![이벤트 제거 확인](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"}
+
+## 이벤트 및 필드 {#events-and-fields}
 
 [!DNL Journey Optimizer B2B Edition]의 경우 특정 사용자 수준 활동이 [!DNL Experience Platform] 경험 이벤트로 캡처됩니다. 이러한 이벤트는 XDM 경험 이벤트 스키마를 사용하고 여정 특정 필드 그룹을 포함하는 시스템 데이터 세트에 저장됩니다. 다른 경험 이벤트처럼 [!UICONTROL Journey Optimizer B2B edition]에서 이러한 이벤트를 사용할 수 있습니다.
 
 각 이벤트는 여정 _이벤트 수신_ 노드에서 사용할 수 있는 정의된 필드 집합을 표시합니다(이벤트를 기반으로 의사 결정). 사용 가능한 이벤트 유형 및 해당 필드를 검토하여 이러한 여정 노드에서 사용할 이벤트 및 필드를 결정하십시오.
 
-### 이메일 전송됨
+### 이메일 전송됨 {#email-sent}
 
 이 이벤트는 마케팅 이메일이 사용자에게 전송되면 추적합니다.
 
@@ -182,7 +173,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 이메일 전달됨
+### 이메일 전달됨 {#email-delivered}
 
 이 이벤트는 이메일이 개인의 이메일 서비스에 성공적으로 전달될 때 추적합니다.
 
@@ -210,7 +201,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 이메일 열림
+### 이메일 열림 {#email-opened}
 
 이 이벤트는 사용자가 마케팅 이메일을 열었을 때 추적합니다.
 
@@ -242,7 +233,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 이메일 클릭됨
+### 이메일 클릭됨 {#email-clicked}
 
 이 이벤트는 사용자가 마케팅 이메일의 링크를 클릭했을 때 추적됩니다.
 
@@ -275,7 +266,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 반송된 이메일
+### 반송된 이메일 {#email-bounced}
 
 이 이벤트는 개인에게 전송된 이메일이 반송되면 추적합니다.
 
@@ -306,7 +297,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 소프트 바운스된 이메일
+### 소프트 바운스된 이메일 {#email-bounced-soft}
 
 이 이벤트는 개인에게 보낸 이메일이 소프트 바운스되면 추적합니다.
 
@@ -337,7 +328,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 이메일 구독 취소됨
+### 이메일 구독 취소됨 {#email-unsubscribed}
 
 이 이벤트는 사용자가 마케팅 이메일의 구독을 취소하면 추적합니다.
 
@@ -365,7 +356,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 웹 페이지 방문
+### 웹 페이지 방문 {#visit-web-page}
 
 이 이벤트 유형은 히트를 페이지 보기로 표시하는 표준 방법입니다.
 
@@ -396,7 +387,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 작성된 양식
+### 작성된 양식 {#form-filled-out}
 
 이 이벤트는 사용자가 웹 페이지에서 양식을 작성할 때 추적합니다.
 
@@ -427,7 +418,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 클릭한 웹 링크
+### 클릭한 웹 링크 {#web-link-clicked}
 
 이 이벤트는 웹 SDK이 링크 클릭을 자동으로 기록했다는 신호를 보냅니다.
 
@@ -458,7 +449,7 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 
 +++
 
-### 즐거운 순간
+### 즐거운 순간 {#interesting-moment}
 
 이 이벤트는 한 사람에게 재미있는 순간을 기록할 때 추적합니다.
 
@@ -488,5 +479,5 @@ _[!UICONTROL 검색]_ 필드에 텍스트를 입력하여 표시된 이벤트를
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448690/?captions=kor&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->
