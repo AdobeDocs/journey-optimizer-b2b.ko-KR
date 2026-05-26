@@ -14,26 +14,50 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
 workflow-type: tm+mt
-source-wordcount: 1412
-ht-degree: 5%
+source-wordcount: 1571
+ht-degree: 4%
 
 ---
 
 # 구매 그룹 역할 템플릿
 
-B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다. 그 개인들은 조직 내에서 자신의 역할에 따라 의사결정 과정에 참여한다. 각 제품 제공 유형 또는 계정 사용 사례에 따라 역할 정의 그룹을 포함하는 구매 그룹 역할 템플릿을 만듭니다.
+B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개인들은 조직 내에서 자신의 역할에 따라 의사결정 과정에 참여한다. 각 제품 제공 유형 또는 계정 사용 사례에 따라 역할 정의 그룹을 포함하는 구매 그룹 역할 템플릿을 만듭니다.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [개요 비디오 보기](#overview-video)
 
-## 역할 템플릿 액세스 및 찾아보기
+>[!BEGINSHADEBOX]
+
+## Audience Agent
+
+[Audience Agent B2B](../agents/audience-agent-b2b.md)은(는) 자사 의도 감지 및 사용자 매핑에서 구매 그룹 역할 템플릿을 생성할 수 있습니다. 안내가 있는 흐름에서 제품에 연결된 담당자를 식별하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 템플릿을 게시하기 전에 자연어로 세분화할 수 있습니다.
+
+**시도하라는 메시지 표시:**
+
+* `<product>`에 대한 구매 그룹 템플릿 만들기
+* `<persona>`에 매핑된 `<role>` 추가
+* `<role>`/`<persona>` 제거
+
+![Audience Agent B2B 구매 그룹 역할 템플릿 만들기](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+>[!PREREQUISITES]
+>
+>역할 템플릿을 만들기 전에 역할 조건에서 사용할 수 있는 데이터를 구성합니다.
+>
+>* 개인 특성 필터에 대한 [개인 프로필 필드 매핑](../admin/field-mapping.md#xdm-business-person-attributes)
+>* 역할 조건에 의도 필터를 사용하는 경우 [의도 데이터](../admin/intent-data.md)
+>* 여섯 가지 기본값 이상의 역할이 필요한 경우 [사용자 지정 구매 그룹 역할](./default-custom-roles.md#custom-roles)(선택 사항)
+
+## 역할 템플릿 액세스 및 찾아보기 {#access-and-browse-role-templates}
 
 1. 왼쪽 탐색에서 **[!UICONTROL 구매 그룹]**&#x200B;을 클릭합니다.
 
 1. _[!UICONTROL 구매 그룹]_ 페이지에서 **[!UICONTROL 역할 템플릿]** 탭을 선택합니다.
 
-   ![역할 템플릿 탭](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![역할 템플릿 인벤토리 탭](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    탭에는 모든 기존 역할 템플릿의 인벤토리 목록이 제공되며 열 형식으로 다음 정보가 표시됩니다.
 
@@ -64,9 +88,11 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-### 템플릿 역할 추가
+### 템플릿 역할 추가 {#add-the-template-roles}
 
 템플릿을 만들면 작업공간에서 열리고 역할을 추가하라는 메시지가 표시됩니다. 기본적으로 첫 번째 역할 카드가 표시됩니다.
+
+#### 역할 조건 필터 유형
 
 템플릿에 대해 정의하는 각 역할은 필터 집합 또는 _조건_&#x200B;을 사용하여 역할에 할당된 구성원을 결정합니다. 다음 필터 유형을 사용하여 역할에 대한 조건을 정의합니다.
 
@@ -76,6 +102,8 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 | [!UICONTROL 사용자 지정 개체] > `<custom object>` 있음 | [!BADGE Beta]{type=Informative tooltip="Beta 기능"} 계정 또는 사용자에게 관계형 스키마 레코드가 없거나 없습니다. 또한 [XDM 관계형 스키마](../admin/xdm-field-management.md#relational-schemas)에 구성된 대로 선택한 사용자 지정 개체 기준에 대해 평가할 수도 있습니다. |
 | 특수 필터 | <li>목록 구성원(삭제 예정) <li>프로그램 구성원(삭제 예정) |
 | 의도 데이터 | <li>범주 의도 <li>제품 의도 <li>키워드 의도 <br/>([_의도 데이터_](../admin/intent-data.md) 참조) |
+
+#### 역할 속성 정의
 
 1. 첫 번째 역할 카드의 경우 역할 속성을 정의합니다.
 
@@ -89,11 +117,13 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
      각 옵션의 값은 점수 계산에 대한 백분율로 변환됩니다. [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 및 [!UICONTROL Vital] = 100.
 
-     예를 들어, Vital, Important 및 Normal을 사용하는 역할이 있는 역할 템플릿은 100/240, 80/240, 60/240으로 변환됩니다.
+     예를 들어, 중요, 중요 및 일반 역할이 있는 역할 템플릿은 240개 중 100개, 80개 및 60개로 전환됩니다.
 
    * **[!UICONTROL 자동 할당을 위한 조건 추가]** - 조건에 일치하는 구매 그룹에 자동 할당 구성원을 위한 조건을 추가하려면 이 확인란을 선택하십시오. 확인란을 선택하지 않으면 조건을 추가할 필요가 없습니다.
 
    * **[!UICONTROL 완결성 점수 필요]** - 완결성 점수를 계산하기 위한 요구 사항이 되도록 하려면 역할에 대해 이 확인란을 선택합니다.
+
+#### 자동 할당 조건 추가
 
 1. **[!UICONTROL 조건 추가]**&#x200B;를 클릭하고 역할에 대한 조건부 규칙을 정의합니다.
 
@@ -103,7 +133,7 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
      >[!NOTE]
      >
-     >Experience Platform의 비즈니스 개인 스키마에 사용자 정의 개인 필드가 정의된 경우 해당 필드를 조건에서 개인 속성으로 사용할 수도 있습니다.
+     >Experience Platform 비즈니스 개인 스키마에 사용자 정의 개인 필드가 정의된 경우 이러한 필드를 조건에서 개인 속성으로 사용할 수 있습니다.
 
      하나 이상의 값을 사용하여 일치하는 필터를 만들려면 특성을 사용합니다.
 
@@ -119,7 +149,9 @@ B2B 시장에서는 일반적으로 여러 개인이 매수 결정을 내린다.
 
    * **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-1. 템플릿에 포함할 각 추가 역할에 대해 **[!UICONTROL 다른 역할 추가]**&#x200B;를 클릭하고 1단계와 2단계를 반복하여 역할을 정의합니다.
+#### 더 많은 역할 추가
+
+1. 템플릿에 포함할 각 추가 역할에 대해 **[!UICONTROL 다른 역할 추가]**&#x200B;를 클릭하고 **역할 속성 정의** 및 **자동 할당에 대한 조건 추가**&#x200B;의 단계를 반복하여 역할을 정의합니다.
 
    ![여러 역할이 정의된 역할 템플릿](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -136,15 +168,15 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 >[!NOTE]
 >
->**기능 사용 중단**</br></br>
+>**기능 사용 중단**
 >
 >현재 Journey Optimizer B2B edition 릴리스에서는 Marketo Engage 인스턴스의 목록 또는 프로그램 구성원을 기반으로 하는 필터링이 더 이상 지원되지 않습니다.
 
 >[!ENDSHADEBOX]
 
-### 완성도 점수 설정 변경
+### 완성도 점수 설정 변경 {#change-the-completeness-score-settings}
 
-기본적으로 역할에 대한 완성도는 역할에 할당된 하나의 멤버로 정의됩니다. 구매 그룹 완전성을 판매 준비 또는 성공 <!-- journey decisioning coming later-->의 지표로 사용하려는 경우 이러한 설정을 사용하여 영업 기회를 종료하는 데 필요한 역할당 구성원 수에 맞게 점수를 조정할 수 있습니다.
+기본적으로 역할에 대한 완성도는 역할에 할당된 하나의 멤버로 정의됩니다. 구매 그룹 완전성을 사용하여 판매 준비를 나타내는 경우 이러한 설정을 사용하여 영업 기회를 마감하는 데 필요한 멤버 수에 맞게 점수를 조정합니다.
 
 예를 들어, 솔루션 _X_&#x200B;에 대한 거래를 닫으려면 조직의 여러 마케팅 팀이 솔루션을 사용하므로 여러 마케팅 의사 결정자를 식별하고 참여시켜야 합니다. 이 경우 최소 두 명 이상의 마케팅 의사 결정자를 요구하여 _complete_ 구매 그룹을 계산하기 위한 임계값을 늘리려고 합니다.
 
@@ -158,7 +190,7 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
    값을 입력하거나 **&plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수 있습니다.
 
-   ![역할 템플릿 - 완성도 점수 설정 단추](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+   ![역할 템플릿 완성도 점수 설정 대화 상자](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -166,13 +198,15 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 템플릿을 사용할 준비가 되었으면 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-템플릿을 게시하면 상태가 _Live_ 상태로 설정되고 솔루션 관심사와 연결할 수 있습니다. 역할 템플릿을 게시하려면 정의된 역할이 하나 이상 있어야 합니다.
+템플릿을 게시하면 상태가 _Live_(으)로 설정되고 솔루션 관심사와 연결할 수 있습니다. 역할 템플릿을 게시하려면 정의된 역할이 하나 이상 있어야 합니다.
+
+게시 후 템플릿 상태는 **[!UICONTROL 역할 템플릿]** 탭의 _Live_&#x200B;이며 [관심 솔루션을 만들](./solution-interests.md) 때 선택할 수 있습니다.
 
 ## 초안 역할 템플릿 편집
 
 역할 템플릿이 _초안_ 상태인 경우 정의된 역할을 계속 편집할 수 있습니다. 모든 변경 사항은 자동으로 저장됩니다.
 
-구매 그룹 역할, 가중치, 자동 지정 및 완성도 점수 요구 사항을 포함하여 역할 카드의 헤더에 있는 설정을 변경합니다.
+구매 그룹 역할, 가중치, 자동 지정 또는 완전성 점수부여 요구사항과 같은 역할 카드 헤더 설정을 변경합니다.
 
 ![구매 그룹 역할 속성 변경](./assets/roles-template-role-properties.png){width="600"}
 
@@ -198,10 +232,12 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 1. 오른쪽 상단의 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
-   ![역할 우선 순위 변경](./assets/roles-template-delete.png){width="700"}
+   ![역할 템플릿 삭제 확인 대화 상자](./assets/roles-template-delete.png){width="700"}
 
 1. 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 확인합니다.
 
-## 개요 비디오
+   확인한 후 **[!UICONTROL 역할 템플릿]** 인벤토리 목록에서 역할 템플릿이 제거됩니다.
+
+## 개요 비디오 {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3453308/?captions=kor&learn=on)
