@@ -1,39 +1,56 @@
 ---
-title: 계정 여정 개요 대시보드
-description: Journey Optimizer B2B edition에서 완료율, 참여 지표 및 채널 효율성 분석을 사용하여 계정 여정 성과를 추적합니다.
-feature: Dashboards, Account Journeys
+title: 여정 개요 대시보드
+description: Journey Optimizer B2B edition의 완료율, 참여 지표 및 채널 효율성 분석을 통해 계정 및 개인 여정 성과를 추적합니다.
+feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
+autotag-review: '2026-05-21T21:07:43.367Z'
+TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-autotag-review: 2026-03-30T22:42:55.045Z
-TQID: https://experienceleague.adobe.com/jI0qWqL96aKv0FxEAwtFOnabJQZQ4r1OZd1CMz01hLE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 432
 ht-degree: 2%
 
 ---
 
-# 계정 여정 개요 대시보드
+# 여정 개요 대시보드
 
-이 대시보드는 활성 계정 여정에 대한 포괄적인 개요를 제공하며, 완료를 범주화하고 수량화하는 원 및 막대 차트를 사용하여 계정 진행 상황과 참여 활동을 자세히 설명합니다. 이는 마케터가 주요 게재 및 참여 지표를 통해 이메일 및 SMS 채널의 효과를 평가하는 데 도움이 됩니다.
+[계정 및 개인 여정](../journeys/journeys-overview.md)에 대한 개요 대시보드에서는 활성 여정에 대한 포괄적인 스냅숏을 제공합니다. 원 및 막대 차트는 완료 및 참여 활동을 분류하고 수량화하므로 주요 게재 및 참여 지표를 통해 이메일 및 SMS 채널의 효과를 평가할 수 있습니다.
 
-이 개요는 게시된 계정 여정에 대해 사용할 수 있으며, 차트와 표에 데이터를 채우는 데 약 4시간이 소요됩니다.
+이 개요는 게시된 여정에 대해 사용할 수 있으며, 차트와 표에 데이터를 채우는 데 약 4시간이 소요됩니다.
 
-![여정 개요](./assets/journey-overview.png){width="700" zoomable="yes"}
+>[!BEGINTABS]
 
-## 여정 완료율 배포
+>[!TAB 계정 여정]
+
+왼쪽 탐색에서 **[!UICONTROL 여정 관리]**&#x200B;를 확장하고 **[!UICONTROL 계정 여정]**&#x200B;을 클릭합니다. 기본적으로 표시되지 않으면 **[!UICONTROL 개요]** 탭을 선택하십시오.
+
+![계정 여정 개요](./assets/journey-overview-account.png){width="800" zoomable="yes"}
+
+>[!TAB 개인 여정(Beta)]
+
+[!BADGE Beta]{type=Informative tooltip="베타 기능으로 사용 가능"}
+
+왼쪽 탐색에서 **[!UICONTROL 여정 관리]**&#x200B;를 확장하고 **[!UICONTROL 개인 여정]**&#x200B;을 클릭합니다. 기본적으로 표시되지 않으면 **[!UICONTROL 개요]** 탭을 선택하십시오.
+
+![개인 여정 개요](./assets/journey-overview-person.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
+
+## 여정 완료율 배포 {#journey-completion-rate-distribution}
 
 이 차트는 완료율에 따른 여정 분포를 보여 주며 4개의 개별 점수 범위로 분류됩니다. 중앙 그림은 총 여정 수를 나타내며 전반적인 진행에 대한 빠른 스냅샷을 제공합니다. 세분화된 색상은 각 점수 범위 내 여정의 비율을 나타내므로 완료 트렌드를 한 눈에 파악할 수 있습니다.
 
@@ -41,27 +58,27 @@ ht-degree: 2%
 
 ![여정 완료율 분포](./assets/journey-completion-rate-distribution.png){width="500"}
 
-## 참여 유형별 여정
+## 참여 유형별 여정 {#journeys-by-engagement-type}
 
-이 막대 차트는 참여 유형에 따른 여정 분포를 표시하고 여정 간에 가장 많이 사용된 참여를 식별하는 데 도움이 됩니다. 각 막대는 특정 참여 유형을 나타내며, 해당 길이는 해당 유형의 활동이 있는 여정의 수를 나타냅니다. 이 시각화는 계정 여정 내의 참여 트렌드를 명확하고 즉시 이해할 수 있도록 제공합니다.
+이 막대 차트는 참여 유형에 따른 여정 분포를 표시하고 여정 간에 가장 많이 사용된 참여를 식별하는 데 도움이 됩니다. 각 막대는 특정 참여 유형을 나타내며, 해당 길이는 해당 유형의 활동이 있는 여정의 수를 나타냅니다. 이 시각화는 계정 또는 개인 여정 내 참여 트렌드를 명확하고 신속하게 이해할 수 있도록 합니다.
 
 자세한 정보를 보려면 오른쪽 상단의 **..** 메뉴 아이콘을 클릭합니다.
 
-![여정 완료율 분포](./assets/journeys-by-engagement-type.png){width="500"}
+![참여 유형별 여정](./assets/journeys-by-engagement-type.png){width="500"}
 
-## 데이터 활용
+## 데이터 활용 {#engage-with-the-data}
 
 데이터에 참여하려면 각 차트의 오른쪽 상단에 있는 **..** 메뉴를 사용하십시오.
 
-### [!UICONTROL 드릴스루]
+### [!UICONTROL 드릴스루] {#drill-through}
 
 원 차트의 경우 데이터를 심층적으로 분석하려면 **[!UICONTROL 드릴스루]**&#x200B;를 선택하십시오.
 
-![그래프 데이터에 액세스하기 위해 드릴스루](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
+![그래프 데이터에 액세스하려면 드릴스루 선택](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-_자세히_(**...**)을 클릭할 수 있습니다. 메뉴가 오른쪽 상단에 있고 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하여 [확장 데이터 보기](#view-more)를 선택하십시오.
+_자세히_(**...**)을 클릭할 수 있습니다. 오른쪽 상단의 메뉴를 선택하고 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하여 [확장 데이터 보기](#view-more)를 선택합니다.
 
-### [!UICONTROL 자세히 보기]
+### [!UICONTROL 자세히 보기] {#view-more}
 
 확장된 데이터와 통찰력을 보려면 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하세요.
 

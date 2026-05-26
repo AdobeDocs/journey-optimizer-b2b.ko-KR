@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dd5dae1845686654d2935d9d10b4cd61c5fc502f
+source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
 workflow-type: tm+mt
-source-wordcount: 5099
-ht-degree: 67%
+source-wordcount: 5116
+ht-degree: 66%
 
 ---
 
@@ -47,7 +47,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 다음 최적 경로 여정 노드 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. [자세히 알아보기](../journeys/next-best-path-node.md) |
 | 개선 사항 | Audience Agent B2B 스킬 | AI 기반 구매 그룹 템플릿 생성을 포함하여 Audience Agent B2B 기술이 업데이트됩니다. 자사 의도 및 사용자 매핑을 사용하여 구매 그룹 템플릿을 생성하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 게시하기 전에 자연어로 템플릿을 다듬으십시오. [자세히 알아보기](../agents/audience-agent-b2b.md) |
 | 개선 사항 | 이메일 참여 성과 보고서 | 이메일 참여 성과 보고서는 마케터에게 Adobe Journey Optimizer B2B edition의 모든 여정에 대한 이메일 활동에 대한 통합된 보기를 제공합니다. |
-| 개선 사항 | 개인 여정 개요 대시보드 | 이 대시보드는 활성 사용자 여정에 대한 포괄적인 개요를 제공합니다. |
+| 개선 사항 | 여정 개요 대시보드 - 개인 여정 | 이제 개인 여정(Beta)에 여정 완료율 분포, 참여 유형별 여정, 드릴스루 및 내보내기 작업을 포함하여 계정 여정과 동일한 분석을 사용하는 _[!UICONTROL 개요]_ 탭이 포함됩니다. <a href="../dashboards/journeys-dashboard.md">자세히 알아보기</a> |
 | 개선 사항 | AEP 관계형 데이터 세트 지원 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
 
 >[!NOTE]
@@ -288,7 +288,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 유료 미디어 대상 | 계정 여정에서 알려진 사용자에게 유료 미디어 캠페인에 대한 자격을 제공하여 LinkedIn과 같은 광고 플랫폼에서 더 깊이 있게 참여할 수 있도록 합니다. 경로 분할 노드를 사용하여 특정 행동을 기준으로 계정 대상자를 세분화하고 추가 참여가 필요한 계정을 식별합니다. 그런 다음 지원되는 유료 미디어 대상에 대한 Real-Time CDP를 통해 해당 계정의 사용자를 외부 고객 대상자에 추가합니다. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">자세히 알아보기</a> |
 | 기능 | 지능형 대시보드 | AI 생성 인사이트를 통한 보다 지능적인 분석과 정확한 계정 우선순위 지정을 포함하여 구매 그룹의 계정 여정 진행 상황을 확인합니다. <a href="../dashboards/intelligent-dashboard.md">자세히 알아보기</a> |
 | 기능 | 구매 그룹 및 계정 세부 정보 | 구매 그룹 및 계정 수준에서 인사이트를 확인하여 고객과 소통을 시작할 때 더 많은 컨텍스트와 내역 데이터를 확보합니다.<p>구매 그룹 세부 정보에는 감지된 모든 자사 의도가 포함됩니다. <a href="../buying-groups/buying-group-details.md">자세히 알아보기</a><p>계정 세부 정보 페이지에서는 감지된 참여 급증을 강조 표시하여 마케터가 맞춤화된 판매 중심 참여를 위한 준비가 된 계정에 대해 판매에 알릴 수 있습니다.  <a href="../accounts/account-details.md">자세히 알아보기</a> |
-| 기능 | 여정 개요 | 계정 여정에 액세스하면 개요 탭에서 활성 계정 여정에 대한 포괄적인 스냅샷을 제공합니다. 이 탭에서는 완료율 및 참여 활동을 카테고리화하고 정량화하여 보여 주는 원형 차트와 막대 차트를 활용하여 계정 진행 상황을 자세히 알려 줍니다.  <a href="../dashboards/journeys-dashboard.md">자세히 알아보기</a> |
+| 기능 | 여정 개요 대시보드 | 계정 여정의 경우 **[!UICONTROL 개요]** 탭에서는 완료 및 참여 활동을 분류하고 수량화하는 원 및 막대 차트와 함께 활성 여정에 대한 포괄적인 스냅숏을 제공합니다. <a href="../dashboards/journeys-dashboard.md">자세히 알아보기</a> |
 | 기능 | Adobe Express 이미지 편집 | Adobe Express 빠른 작업을 사용하면 이미지를 간단히 편집(자르기, 크기 조정 등)하여 콘텐츠를 더욱 세련되게 만들 수 있습니다. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">자세히 알아보기</a>  <p>보다 포괄적인 디자인 도구 세트를 제공하기 위해, 이 통합을 통해 Journey Optimizer B2B Edition에서 전체 Adobe Express 라이선스를 사용할 수 있습니다. 이 설정을 사용하면 로컬 자산 작업 영역에서 전체 Adobe Express 사용자 인터페이스에 액세스할 수 있습니다. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">자세히 알아보기</a> |
 | 기능 | 구매 그룹 역할을 위한 의도 필터 | 의도 키워드를 제출하면 의도 감지 모델이 리드의 활동을 기반으로 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. <a href="../admin/intent-data.md">자세히 알아보기</a> <p>이 의도 데이터는 구매 그룹 역할 조건을 정의하는 데 사용할 수 있습니다. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">자세히 알아보기</a> |
 | 개선 사항 | 여정에서 Marketo Engage 이벤트 지원 | _이벤트 수신_ 여정 노드는 이제 사용자 수준에서 두 개의 Marketo Engage 이벤트를 지원합니다. _웹 페이지 방문_ 및 _양식 작성_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">자세히 알아보기</a> |
