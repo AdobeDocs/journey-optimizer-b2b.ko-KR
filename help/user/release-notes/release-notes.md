@@ -3,21 +3,14 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
+source-git-commit: e1d68e75c6bcbab943f3ddf8326f4f9ffb4922c4
 workflow-type: tm+mt
 source-wordcount: 5116
 ht-degree: 66%
@@ -45,8 +38,8 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 계정 구성원 목록 필터 | 계정 여정의 오케스트레이션 지점으로 계정 목록 멤버십을 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. |
 | 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 기능 | 다음 최적 경로 여정 노드 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. [자세히 알아보기](../journeys/next-best-path-node.md) |
+| 기능 | 이메일 성능 대시보드 | 이메일 성능 대시보드는 마케터에게 Adobe Journey Optimizer B2B edition의 모든 여정에 대한 이메일 활동을 통합적으로 볼 수 있도록 합니다. [자세히 알아보기](../dashboards/email-performance-dashboard.md) |
 | 개선 사항 | Audience Agent B2B 스킬 | AI 기반 구매 그룹 템플릿 생성을 포함하여 Audience Agent B2B 기술이 업데이트됩니다. 자사 의도 및 사용자 매핑을 사용하여 구매 그룹 템플릿을 생성하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 게시하기 전에 자연어로 템플릿을 다듬으십시오. [자세히 알아보기](../agents/audience-agent-b2b.md) |
-| 개선 사항 | 이메일 참여 성과 보고서 | 이메일 참여 성과 보고서는 마케터에게 Adobe Journey Optimizer B2B edition의 모든 여정에 대한 이메일 활동에 대한 통합된 보기를 제공합니다. |
 | 개선 사항 | 여정 개요 대시보드 - 개인 여정 | 이제 개인 여정(Beta)에 여정 완료율 분포, 참여 유형별 여정, 드릴스루 및 내보내기 작업을 포함하여 계정 여정과 동일한 분석을 사용하는 _[!UICONTROL 개요]_ 탭이 포함됩니다. <a href="../dashboards/journeys-dashboard.md">자세히 알아보기</a> |
 | 개선 사항 | AEP 관계형 데이터 세트 지원 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
 
