@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cba977f62f3d2a83bcf2487a8ec612b76a655954
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: 424
 ht-degree: 1%
 
 ---
@@ -45,6 +45,8 @@ Journey Optimizer B2B edition은 [전자 메일 채널](../admin/configure-chann
 
 * 이메일에서 전역적으로 옵트아웃한 사람은 작동 중으로 표시된 이메일을 받을 수 있습니다.
 * 구독 수준 환경 설정은 지원되지 않습니다.
+
+보낸 전자 메일에 대한 구독 취소 활동을 검토하려면 [전자 메일 성능 보고서](../dashboards/email-performance-dashboard.md)를 참조하세요.
 
 ## SMS {#sms}
 

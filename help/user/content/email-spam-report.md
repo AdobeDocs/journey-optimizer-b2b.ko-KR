@@ -19,16 +19,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:30:57.478Z
 TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 378
 ht-degree: 0%
 
 ---
 
 # 스팸 보고서 검토
 
-많은 이메일 받은 편지함 공급자 및 대부분의 회사 시스템에서 스팸 필터링 프로세스를 사용합니다. 이러한 필터를 트리거하는 이메일을 보내면 게재 기능에 심각한 영향을 줄 수 있습니다. Journey Optimizer B2B edition에서 스팸 보고서를 생성하여 이메일 콘텐츠 스팸 점수를 확인할 수 있습니다. 이 보고서는 [[!DNL SpamAssassin]](https://spamassassin.apache.org/)을(를) 사용하여 전자 메일을 테스트하고 스팸 방지 도구로 메시지를 스팸으로 간주할 수 있는지 여부를 확인하는 데 도움이 됩니다. 보고서의 정보를 사용하여 이메일 콘텐츠 점수 및 전달성을 개선하는 작업을 수행할 수 있습니다.
+많은 이메일 받은 편지함 공급자 및 대부분의 회사 시스템에서 스팸 필터링 프로세스를 사용합니다. 이러한 필터를 트리거하는 이메일을 보내면 게재 기능에 심각한 영향을 줄 수 있습니다. Journey Optimizer B2B edition에서 스팸 보고서를 생성하여 이메일 콘텐츠 스팸 점수를 확인할 수 있습니다. 이 보고서는 [[!DNL SpamAssassin]](https://spamassassin.apache.org/)을(를) 사용하여 전자 메일을 테스트하고 스팸 방지 도구로 메시지를 스팸으로 간주할 수 있는지 여부를 확인하는 데 도움이 됩니다. 보고서의 정보를 사용하여 이메일 콘텐츠 점수 및 전달성을 개선하는 작업을 수행할 수 있습니다. 콘텐츠를 조정한 후 [전자 메일 성능 보고서](../dashboards/email-performance-dashboard.md)에서 바운스 비율 및 게재를 추적하세요.
 
 이메일 설정을 검토하거나 콘텐츠를 편집할 때 _[!UICONTROL 시뮬레이션]_ 페이지를 열고 _스팸 보고서_&#x200B;를 생성하여 스팸 방지 필터링을 트리거할 수 있는 점수 책정 및 플래그 지정된 요소를 검토합니다.
 

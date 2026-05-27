@@ -17,16 +17,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # 여정에 이메일 추가
 
-Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고객에게 이메일 메시지를 전송합니다. 이메일 디자인 공간에서 메시지를 만들고, 개인화하고, 미리 보도록 선택할 수 있습니다. 또는 연결된 Marketo Engage 인스턴스에 이미 정의된 이메일을 보내도록 선택할 수 있습니다.
+Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고객에게 이메일 메시지를 전송합니다. 이메일 디자인 공간에서 메시지를 만들고, 개인화하고, 미리 보도록 선택할 수 있습니다. 또는 연결된 Marketo Engage 인스턴스에 이미 정의된 이메일을 보내도록 선택할 수 있습니다. 이메일이 여정에서 라이브로 전환되면 [이메일 성능 보고서](../dashboards/email-performance-dashboard.md)에서 전송, 게재 및 참여를 모니터링합니다.
 
 >[!NOTE]
 >
