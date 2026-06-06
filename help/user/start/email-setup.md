@@ -22,10 +22,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 73%
 
 ### 메시지 구독 취소
 
-비운영 마케팅 이메일의 경우, 구독 취소 텍스트와 링크가 맨 아래에 추가됩니다. 제품 관리자는 마케터가 이메일을 작동 상태로 표시하지 않을 때 채워지는 기본 HTML 및 텍스트를 구성해야 합니다.
+비운영 마케팅 이메일의 경우, 구독 취소 텍스트와 링크가 맨 아래에 추가됩니다. 제품 관리자는 마케터가 이메일을 작동 상태로 표시하지 않을 때 채워지는 기본 HTML 및 텍스트를 구성합니다.
 
 1. 첨부된 Marketo Engage 인스턴스의 **[!UICONTROL 관리자]** 영역으로 이동하여 **[!UICONTROL 전자 메일]**&#x200B;을(를) 선택합니다.
 
@@ -89,7 +89,7 @@ ht-degree: 73%
 
 ### 웹 페이지로 보기
 
-이메일 컨텐츠에 표시 기능이 제한되어 있습니다(CSS가 제한되고 JavaScript 또는 양식이 없음). 마케터는 _웹 페이지로 보기_ 옵션을 사용하여 Marketo Munchkin을 사용하여 전자 메일 받는 사람에게 쿠키를 적용할 수 있습니다. 제품 관리자는 마케터가 이 옵션을 선택할 때 채워지는 기본 HTML 및 텍스트를 구성해야 합니다.
+이메일 컨텐츠에 표시 기능이 제한되어 있습니다(CSS가 제한되고 JavaScript 또는 양식이 없음). 마케터는 _웹 페이지로 보기_ 옵션을 사용하여 Marketo Munchkin을 사용하여 전자 메일 받는 사람에게 쿠키를 적용할 수 있습니다. 제품 관리자는 마케터가 이 옵션을 선택할 때 채워지는 기본 HTML 및 텍스트를 구성합니다.
 
 1. 첨부된 Marketo Engage 인스턴스의 **[!UICONTROL 관리자]** 영역으로 이동하여 **[!UICONTROL 전자 메일]**&#x200B;을(를) 선택합니다.
 
@@ -163,7 +163,7 @@ To view this email as a web page, go to the following address:
    ![Marketo Engage 전자 메일 관리자 - 사용자 지정 헤더 옵션 기본 설정](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL 엄격한 전송 보안]** - 추적 링크가 항상 HTTPS를 통해 제공되도록 하려면 이 옵션을 _사용_(으)로 설정하십시오. SSL로 보호되는 추적 링크가 있는 구독에만 이를 활성화합니다.
-   * **[!UICONTROL Max-age]** - 이 필드는 브라우저가 HTTPS를 통해 도메인에만 액세스해야 하는 시간을 초 단위로 지정하는 필수 지시문을 지원합니다.
+   * **[!UICONTROL Max-age]** - 이 필드는 브라우저가 HTTPS를 통해 도메인에만 액세스하는 데 걸리는 시간을 초 단위로 지정하는 필수 지시문을 지원합니다.
    * **[!UICONTROL IncludeSubDomains]** - 이 옵션을 사용하여 호스트의 모든 하위 도메인에 HSTS 정책을 적용하는 지시문을 포함합니다.
 
    >[!IMPORTANT]

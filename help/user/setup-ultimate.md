@@ -21,16 +21,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 80%
+source-wordcount: 849
+ht-degree: 74%
 
 ---
 
 # 체크리스트 설정
 
-Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로 합니다. 이 구현에서 Journey Optimizer B2B edition과 Marketo Engage은 동일한 시스템과 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 시스템을 프로비저닝하고 구성하기 위해 Marketo Engage 권한과 이메일 게재와 같은 일부 백엔드 기능에 계속 의존합니다.
+Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로 합니다. 이 구현에서 Journey Optimizer B2B edition과 Marketo Engage은 동일한 시스템이나 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 시스템을 프로비저닝하고 구성하기 위해 Marketo Engage 권한과 이메일 게재와 같은 일부 백엔드 기능에 계속 의존합니다.
 
 <!-- 
 >>[!NOTE]
@@ -38,15 +38,15 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-이 구현은 Journey Optimizer B2B edition에서 기능을 잠금 해제하는 기반입니다.
+이 구현은 Journey Optimizer B2B edition에서 기능을 활성화하는 기반입니다.
 
-* **데이터를 쉽게 통합하고 확장할 수 있습니다.** 플랫폼은 사용자 지정 개체, 구매 그룹 및 계정 이벤트를 포함한 복잡한 데이터 모델을 지원합니다.
+* **데이터 통합 및 크기 조정:** 시스템에서 사용자 지정 개체, 구매 그룹 및 계정 이벤트를 포함한 복잡한 데이터 모델을 지원합니다.
 
-* **여러 Adobe Marketo Engage 인스턴스 연결:** 한 곳에서 여러 Marketo Engage 환경의 데이터를 관리하고 통합합니다.
+* **여러 Adobe Marketo Engage 인스턴스 연결:** 여러 Marketo Engage 환경에서 데이터를 관리하고 통합합니다.
 
-* **데이터를 안전하게 보호:** 고객 정보를 보호하는 고급 개인 정보 보호 및 보안 기능. (_준비 중_)
+* **데이터 보호:** 고객 정보를 보호하는 고급 개인 정보 보호 및 보안 기능. (_준비 중_)
 
-* **미래를 위한 빌드:** 이 설정은 지속적인 개선 및 혁신을 지원합니다.
+* **확장성을 위한 디자인:** 이 설정은 지속적인 개선 및 혁신을 지원합니다.
 
 구성을 위해 다음 지침을 따르십시오.
 
@@ -262,7 +262,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 
 ## &#x200B;4. 추가 콘텐츠 채널 구성
 
-마케터가 여정에 다른 채널을 포함할 수 있도록 지원하려면 추가 채널을 구성하십시오.
+여정에 다른 채널을 포함하는 마케팅 팀을 지원하려면 추가 채널을 구성하십시오.
 
 <table>
 <thead>

@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:21:17.156Z
 TQID: https://experienceleague.adobe.com/PhcREmr9HfV-uGyGUB6YRATemaGn0du0VWaGaBHUmxY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 605
 ht-degree: 2%
@@ -100,7 +100,7 @@ _내 토큰_ 목록에서 사용자 지정 토큰을 삭제할 수 있지만 현
 
    이 작업은 _Personalization 편집_ 대화 상자를 엽니다. 계정 여정에 대해 정의된 사용자 지정 토큰이 있는 경우 대화 상자에 _[!UICONTROL Personalization 토큰]_ 라이브러리의 _[!UICONTROL 내 토큰]_ 폴더가 포함됩니다.
 
-1. **[!UICONTROL 내 토큰]** 폴더를 확장한 다음 **+** 또는 **...**&#x200B;을 클릭하여 사용자 지정 토큰 중 하나를 빈 공간에 추가합니다.
+1. 사용자 지정 토큰 중 하나를 빈 공간에 추가하려면 **[!UICONTROL 내 토큰]** 폴더를 확장한 다음 **+** 또는 **..**&#x200B;을(를) 클릭합니다.
 
    필요에 따라 정적 텍스트를 추가할 수 있습니다.
 

@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: bb44a295784fbdeab2583cf7c759b15c0808d7d5
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 419
 ht-degree: 9%
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 # 여정 재입력
 
-_계정 여정 전용_
+_&#x200B;**계정 여정 전용**&#x200B;_
 
 계정 여정에 대해 재입력을 활성화할 때, 계정이 동일한 여정에 재입력할 수 있는 시기와 빈도를 제어할 수 있습니다. 재입력 설정을 사용하여 통제된 방식으로 계정이 여정에 대해 재인증되도록 기준, 제한 및 대기 시간을 설정합니다.
 

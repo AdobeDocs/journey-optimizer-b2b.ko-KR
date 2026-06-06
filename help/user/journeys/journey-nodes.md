@@ -16,23 +16,23 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 134
-ht-degree: 14%
+source-wordcount: 133
+ht-degree: 15%
 
 ---
 
 # 여정 노드
 
-여정(계정 여정 또는 개인 여정)를 만든 후 대상을 추가하고 노드를 사용하여 여정을 빌드합니다. 여정 맵은 다중 단계 B2B 마케팅 사용 사례를 빌드할 수 있는 캔버스를 제공합니다.
+여정(계정 여정 또는 개인 여정)를 만든 후 대상을 추가하고 노드를 사용하여 여정을 구성합니다. 여정 맵은 여러 단계의 B2B 마케팅 사용 사례를 빌드할 수 있는 캔버스를 제공합니다.
 
 대상 노드는 자동으로 여정의 첫 번째 노드입니다.
 
 * [계정 대상자](./account-audience-nodes.md)
 * [개인 대상](./person-audience-nodes.md)(Beta)
 
-다양한 작업, 이벤트 및 오케스트레이션 노드를 다중 단계 크로스 채널 시나리오로 결합하여 여정을 구축합니다. 여정의 각 노드는 논리적 경로를 따라 단계를 나타냅니다. 다음 노드 유형을 사용하여 계정 여정을 구성합니다.
+다양한 작업, 이벤트 및 오케스트레이션 노드를 다중 단계 크로스 채널 시나리오로 결합하여 여정을 구성합니다. 여정의 각 노드는 논리적 경로를 따라 단계를 나타냅니다. 다음 노드 유형을 사용하여 계정 여정을 구성합니다.
 
 * [액션 취하기](./action-nodes.md)
 * [이벤트 듣기](./listen-for-event-nodes.md)

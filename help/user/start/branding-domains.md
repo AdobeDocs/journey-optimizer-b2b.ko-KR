@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1014
-ht-degree: 89%
+source-wordcount: 1015
+ht-degree: 83%
 
 ---
 
@@ -29,15 +29,15 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
 * 이메일 하이퍼링크에서 일반 링크를 고유한 브랜딩으로 대체합니다.
 * 계정 리드가 링크를 클릭하면 이 사용자 정의 도메인을 통해 리디렉션되어 이메일 필터에 합법적인 것처럼 보이는 동안 성능 추적을 허용합니다.
-* 여러 브랜드가 있는 경우 다른 비즈니스 단위 또는 브랜드를 지원하도록 추가 브랜딩 도메인을 구성할 수 있습니다.
+* 다양한 비즈니스 단위 또는 브랜드를 지원하기 위해 여러 브랜드가 있는 경우 추가 브랜딩 도메인을 구성할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
 **링크 추적을 위한 고유 CNAME**
 
-이메일 추적 링크는 첨부된 Marketo Engage 인스턴스에 대해 새 링크이고 고유해야 합니다. 기존 (프로덕션) Marketo Engage 인스턴스를 가리키는 링크를 추적할 기존 CNAME이 있는 경우 수정하지 않고 재사용할 수 없습니다.
+이메일 추적 링크는 첨부된 Marketo Engage 인스턴스에 대해 새 링크이고 고유해야 합니다. 기존 (프로덕션) Marketo Engage 인스턴스를 가리키는 링크를 추적할 기존 CNAME이 있는 경우 재사용하기 전에 수정해야 합니다.
 
-프로덕션 Marketo Engage 인스턴스와 연결된 인스턴스 간에 반환 경로 도메인 브랜딩을 공유할 수 있지만 이는 백엔드 변경 사항입니다. 지원 티켓을 열고 Marketo Engage 접두사(Munchkin ID)와 새 Journey Optimizer B2B edition 접두사(Munchkin ID)를 입력하여 공유 리턴 경로 도메인 브랜딩을 요청합니다.
+프로덕션 Marketo Engage 인스턴스와 연결된 인스턴스 간에 반환 경로 도메인 브랜딩을 공유할 수 있지만 이 변경 사항은 백엔드 변경 사항입니다. 지원 티켓을 열고 Marketo Engage 접두사(Munchkin ID)와 새 Journey Optimizer B2B edition 접두사(Munchkin ID)를 입력하여 공유 리턴 경로 도메인 브랜딩을 요청합니다.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 >
 >UI에서 도메인을 편집하거나 추가하려면 먼저 Adobe에서 제공한 Marketo Engage 도메인[&#128279;](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}에 매핑된 CNAME이 있어야 합니다.
 >
->도메인을 추가할 때 시스템은 이전에 수동으로 생성되었을 수 있는 기존 SSL을 확인합니다. 이 유효성 검사가 발생하면 SSL 생성을 선택하지 않고 도메인을 만든 다음 별도의 절차로 연결합니다.
+>도메인을 추가할 때 시스템에서는 이전에 수동으로 생성된 기존 SSL이 있는지 확인합니다. 이 유효성 검사가 발생하면 SSL 생성을 선택하지 않고 도메인을 만든 다음 별도의 절차로 연결합니다.
 
 ## Marketo Engage의 브랜딩 도메인에 액세스
 

@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 861
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ _여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이
 * [계정 대상자 노드](./account-audience-nodes.md)
 * [개인 대상 노드](./person-audience-nodes.md)
 
-계정 여정을 만들고 대상을 추가한 후 노드를 사용하여 여정을 빌드합니다. 여정 맵에서는 다음 노드 유형을 사용하여 다단계 B2B 마케팅 사용 사례를 빌드하여 계정 여정을 구성할 수 있는 캔버스를 제공합니다.
+계정 여정을 만들고 대상을 추가한 후 노드를 사용하여 여정을 디자인합니다. 여정 맵에서는 다음 노드 유형을 사용하여 다단계 B2B 마케팅 사용 사례를 빌드하여 계정 여정을 구성할 수 있는 캔버스를 제공합니다.
 
 * [액션 취하기](./action-nodes.md)
 * [이벤트 듣기](./listen-for-event-nodes.md)
@@ -100,7 +100,7 @@ _여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이
 
 1. 오른쪽의 노드 속성에서 _삭제_( ![삭제 아이콘](../assets/do-not-localize/icon-delete.svg)) 아이콘을 클릭합니다.
 
-1. 구성 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+1. 확인 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
 ## 경로 추가 및 삭제
 
