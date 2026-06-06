@@ -60,7 +60,7 @@ ht-degree: 6%
 
 조직 및 사용자를 위해 AI Assistant에 대한 액세스를 구성하는 방법에 대해 알아보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475926/?captions=kor&learn=on)
 
 ## 다음 단계
 
