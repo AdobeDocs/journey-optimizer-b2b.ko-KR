@@ -6,11 +6,13 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
+autotag-review: '2026-06-05T16:07:36.688Z'
+TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
@@ -20,11 +22,13 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 2506
-ht-degree: 7%
+source-wordcount: 2476
+ht-degree: 3%
 
 ---
 
@@ -33,22 +37,22 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="AI 콘텐츠 생성"
->abstract="레이아웃을 만든 후에는 [!DNL Journey Optimizer B2B Edition]에서 생성형 AI 도구를 사용하여 콘텐츠를 개선시킬 수 있습니다. 이 기능은 설명 프롬프트에 따라 콘텐츠를 미세 조정하여 개인화 및 콘텐츠 개선 프로세스를 간소화합니다."
+>abstract="레이아웃을 만든 후 [!DNL Journey Optimizer B2B Edition]에서 생성 AI 도구를 사용하여 콘텐츠를 개선합니다. 이 기능은 프롬프트에 따라 콘텐츠를 미세 조정하여 개인화 및 콘텐츠 개선을 간소화합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="참조 콘텐츠"
->abstract="_참조 콘텐츠_&#x200B;를 사용하여 [!DNL Journey Optimizer B2B Edition]에서 생성형 AI에 추가 컨텍스트를 제공하는 콘텐츠가 포함된 에셋 파일을 업로드하거나 이전에 업로드한 파일을 선택합니다. 이 옵션을 사용하면 생성된 콘텐츠의 품질과 관련성을 향상시키기 위해 필요한 모든 자료를 사용할 수 있습니다."
+>abstract="_참조 콘텐츠_&#x200B;를 사용하여 [!DNL Journey Optimizer B2B Edition]의 생성 AI에 대한 컨텍스트를 제공하는 자산 파일을 업로드하거나 선택하십시오. 이를 통해 생성된 콘텐츠의 품질과 관련성을 향상시킬 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 생성형 AI 약관"
->abstract="이 기능의 이용에는 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 대한 계약이 적용됩니다. 이 기능을 통한 모든 출력 내용이 정확한지 검토하고 사용 사례에 적합한지 확인해 보시기 바랍니다."
+>abstract="이 기능에 액세스하려면 Adobe Experience Cloud 생성 AI 사용자 지침에 동의해야 합니다. 이 기능을 통한 모든 출력 내용이 정확한지 검토하고 사용 사례에 적합한지 확인해 보시기 바랍니다."
 >additional-url="https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 생성형 AI 사용자 가이드라인"
 
 Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 [!DNL Adobe Journey Optimizer B2B Edition]의 콘텐츠에 대한 생성 AI는 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다. 다양한 주요 제목과 이미지를 테스트하여 콘텐츠에 미치는 영향을 최적화합니다.
 
-[!DNL Journey Optimizer B2B Edition]에서 콘텐츠를 만들 때 생성 AI 기능을 사용하여 Adobe의 생성 AI 기능을 활용하십시오. 이메일, SMS 메시지, 랜딩 페이지 등에 대한 개인화된 텍스트 및 시각화를 제작합니다. 전체 캠페인을 구축하거나 특정 자산을 세분화하는 경우 이러한 기능을 사용하면 귀중한 시간을 절약하면서 콘텐츠를 브랜드 지침에 원활하게 맞출 수 있습니다.
+[!DNL Journey Optimizer B2B Edition]에서 콘텐츠를 만들 때 생성 AI 기능을 사용하여 Adobe의 생성 AI 기능을 활용하십시오. 이메일, SMS 메시지, 랜딩 페이지 등에 대한 개인화된 텍스트 및 시각화를 제작합니다. 캠페인을 빌드하거나 자산을 개선할 때 이러한 기능을 사용하면 시간을 절약하면서 콘텐츠를 브랜드 지침에 맞게 조정할 수 있습니다.
 
 <!--
 Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
@@ -313,7 +317,7 @@ AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘
  
 -->
 
-### 새 컨텐츠와 기존 컨텐츠 수정 비교 {#new-vs-modify}
+### 새 콘텐츠 또는 기존 콘텐츠 수정 {#new-vs-modify}
 
 요청에 새 콘텐츠 생성이 포함되는지 또는 기존 자료를 업데이트하는 것이 포함되는지 명확하게 표시합니다. 이러한 구분이 중요한 이유는 AI가 적절한 접근 방식을 선택할 수 있도록 안내하고 보다 정확하고 유용한 결과를 보장하기 때문입니다.
 
