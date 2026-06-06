@@ -5,19 +5,13 @@ feature: Account Journeys, AI Assistant
 role: User
 autotag-review: '2026-05-20T18:52:08.227Z'
 TQID: 'https://experienceleague.adobe.com/idPaG-ZNnNwJjN8yVC3Ay1FZ2XPgtQgrSMNIus4fReI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 1912
 ht-degree: 0%
@@ -30,7 +24,7 @@ _다음 최적 경로_ 노드는 AI 기반 분할 경로 결정을 여정 캔버
 
 >[!NOTE]
 >
->다음 베스트 경로 여정은 사용자 노드에서만 사용할 수 있습니다. 계정 여정에서 지원되지 않습니다.
+>다음 최상의 경로 여정은 사용자 노드에서만 사용할 수 있습니다. 계정 여정에서 지원되지 않습니다.
 
 B2B 구매에서 프로필은 하나의 유형의 구매자로 보일 수 있지만, 그들의 행동, 첫그림 데이터 및 참여 컨텍스트는 더 미묘한 스토리를 보여줍니다. 그 다음으로 좋은 경로 노드는 여정을 활성화하기 전에 AI 권장 사항을 검토, 수정 또는 무시할 수 있도록 하면서 해당 컨텍스트를 평가하여 지능형 라우팅 결정을 내릴 수 있습니다.
 

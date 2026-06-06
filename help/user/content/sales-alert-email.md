@@ -4,31 +4,25 @@ description: Journey Optimizer B2B edition의 구매 그룹 요약, AI 인사이
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: fc1ff3b2-6614-41ad-a113-de48597598fd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:20:15.181Z
 TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 531
 ht-degree: 5%
 
 ---
 
 # 판매 알림 이메일
 
-_영업 경고 이메일_&#x200B;은(는) 영업 그룹에 대한 구매 중지 신호를 보냅니다. 이메일에는 구매 그룹 요약, 구매 그룹 구성원 및 해당 활동에 대한 정보가 포함되어 있습니다.
+_영업 경고 이메일_&#x200B;은(는) 구매 그룹을 영업부로 이동하라는 신호를 보냅니다. 이메일에는 구매 그룹 요약, 구매 그룹 구성원 및 해당 활동에 대한 정보가 포함되어 있습니다.
 
-마케터는 계정 여정에서 판매 경고 이메일 노드를 구성하여 판매 팀에 특정 구매 그룹에 대한 여정 완료를 알릴 수 있습니다. 노드 내에서 영업 팀의 이메일 주소 또는 계정 집합에 도달하는 배포 별칭을 지정할 수 있습니다.
+영업 팀에 특정 구매 그룹에 대한 여정 완료를 알리기 위해 계정 여정에서 판매 경고 이메일 노드를 구성할 수 있습니다. 노드 내에서 영업 팀의 이메일 주소 또는 계정 집합에 도달하는 배포 별칭을 지정할 수 있습니다.
 
 >[!IMPORTANT]
 >

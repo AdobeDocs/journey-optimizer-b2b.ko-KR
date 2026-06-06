@@ -5,24 +5,15 @@ feature: Setup, Channels
 role: Admin, User
 autotag-review: '2026-05-19T16:18:37.228Z'
 TQID: 'https://experienceleague.adobe.com/-c0dJnpfiIcj0B5gViyEQ7E1Ws0BwP864OLF003rOjw'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 415
 ht-degree: 1%
 
 ---
@@ -41,7 +32,7 @@ Journey Optimizer B2B edition은 [전자 메일 채널](../admin/configure-chann
 | --- | --- | --- | --- |
 | `consents.marketing.email.val` | 옵트인 | 옵트아웃됨 | 옵트인 |
 
-이메일 동의를 위해 다음 고려 사항을 염두에 두십시오.
+이메일 동의에 대해 다음 사항을 고려하십시오.
 
 * 이메일에서 전역적으로 옵트아웃한 사람은 작동 중으로 표시된 이메일을 받을 수 있습니다.
 * 구독 수준 환경 설정은 지원되지 않습니다.
@@ -58,7 +49,7 @@ Journey Optimizer B2B edition은 [SMS 채널](../admin/configure-channels-sms.md
 | `consents.marketing.subscriptions.<senderID>` | 옵트인 | 옵트아웃됨 | 옵트아웃됨 |
 | `consents.marketing.sms.subscriptions.<senderId>.subscribers.<phoneNumber>` | 옵트인 | 옵트아웃됨 | 옵트아웃됨 |
 
-SMS 동의를 위해 다음 고려 사항을 염두에 두십시오.
+SMS 동의에 대한 다음 사항을 고려하십시오.
 
 * 잠재 고객(개인) 레코드가 SMS에서 옵트아웃되면 레코드가 완전히 제외되고 다운스트림 SMS 공급자로 전달되지 않습니다.
 * 사용 가능한 경우 구독 수준 동의가 평가됩니다. 전역 옵트아웃은 구독 수준 동의를 사용할 수 없는 경우 폴백으로 사용됩니다.
@@ -74,7 +65,7 @@ Journey Optimizer B2B edition은 구성된 [WhatsApp 채널](../admin/configure-
 | `consents.marketing.whatsApp.val` | 옵트인 | 옵트아웃됨 | 옵트아웃됨 |
 | `consents.idSpecific.Phone.<number>.marketing.whatsApp.val` | 옵트인 | 옵트아웃됨 | 옵트아웃됨 |
 
-WhatsApp 동의에 대해 다음 고려 사항을 염두에 두십시오.
+WhatsApp 동의에 대해 다음 사항을 고려하십시오.
 
 * 전역 WhatsApp 특성 값(`consents.marketing.whatsApp.val`)이 있으면 동의 평가에 사용됩니다.
 * 전역 속성 값이 없지만 발신자별 항목이 있는 경우 동의 평가에 발신자별 항목이 사용됩니다.

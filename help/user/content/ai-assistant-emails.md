@@ -4,26 +4,16 @@ description: AI Assistant를 사용하여 이메일 콘텐츠 생성 -  [!DNL Jo
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3592
 ht-degree: 0%
 
 ---
@@ -32,7 +22,7 @@ ht-degree: 0%
 
 마케팅 산업의 경쟁력이 높아짐에 따라 브랜드는 효과적인 콘텐츠를 빠르고 효율적으로 생성할 수 있는 효율적인 방법을 모색하고 있습니다. [!DNL Adobe Journey Optimizer B2B Edition]에서 이메일 작성을 위한 AI Assistant는 Adobe의 AI 기반 콘텐츠 생성 기능으로, 마케터가 전문적이고 브랜드 일관된 이메일 콘텐츠를 만드는 방식을 혁신적으로 바꿉니다. 고급 생성 AI 모델과 브랜드 지침에 대한 깊은 이해를 통해 AI Assistant는 개인화되고 매력적이며 효과적인 콘텐츠를 자동 생성합니다. 마케팅 목표를 사용하고 브랜드 윤곽선 스타일, 레이아웃, 색조 등에 대한 콘텐츠를 최적화합니다. AI Assistant를 사용하면 이메일 마케팅 캠페인을 직관적이고, 단순하며, 간편한 방법으로 만들고 실행할 수 있습니다. 워크플로우에 이 기능을 추가하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 얻을 수 있습니다.
 
-이 새로운 기능은 전체 이메일을 생성하거나 이메일 구조 구성 요소 내에서 타겟팅할 수 있도록 프롬프트 기반의 콘텐츠 생성을 제공합니다. 이미지의 경우 새 이미지 에셋을 생성하거나 입력 브랜드 에셋의 이미지 카탈로그 내에서 권장 사항을 간단하게 생성할 수 있습니다. 또한 이 기능을 사용하여 이메일 열람률에 영향을 주는 최적의 제목 줄과 사전 헤더를 생성할 수 있습니다.
+이 새로운 기능은 전체 이메일을 생성하거나 이메일 구조 구성 요소 내에서 타겟팅할 수 있도록 프롬프트 기반의 콘텐츠 생성을 제공합니다. 이미지의 경우 입력 브랜드 에셋의 이미지 카탈로그 내에서 새 이미지 에셋을 생성하거나 권장 사항을 생성할 수 있습니다. 또한 이 기능을 사용하여 이메일 열람률에 영향을 주는 최적의 제목 줄과 사전 헤더를 생성할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -42,7 +32,7 @@ ht-degree: 0%
 
 이 기능을 사용하기 전에 [지침 및 제한 사항](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-미디어 생성 시 생성 AI 도구 사용의 투명성을 강화하기 위한 Adobe의 약속으로, Adobe은 Firefly 생성 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 다운로드하거나 내보낼 때 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
+Adobe은 다운로드 또는 내보내기 시 Firefly에서 생성한 에셋에 [콘텐츠 자격 증명](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용하여 투명도를 높입니다.
 
 [!DNL Journey Optimizer B2B Edition]에서 전자 메일 콘텐츠를 생성하는 데 사용되는 AI 길잡이 기능에는 다음 제한 사항과 지침이 적용됩니다.
 
@@ -54,7 +44,7 @@ ht-degree: 0%
 
 ## 콘텐츠 생성을 위한 입력 및 설정
 
-이메일 또는 이메일에서 선택한 구성 요소에 대해 전체 콘텐츠를 생성할 수 있습니다. AI 비서 도구를 사용하여 필요한 콘텐츠를 생성하는 경우 프롬프트 및 참조 콘텐츠, 텍스트 및 이미지에 대한 설정 등 입력을 제공합니다.
+이메일 또는 이메일에서 선택한 구성 요소에 대해 전체 콘텐츠를 생성할 수 있습니다. AI 비서 도구를 사용하면 텍스트 및 이미지에 대한 프롬프트, 참조 콘텐츠 및 설정을 제공할 수 있습니다.
 
 ### 프롬프트
 
@@ -103,10 +93,10 @@ ht-degree: 0%
 
 생성된 콘텐츠에 이미지를 포함하려면 오른쪽 패널에서 **[!UICONTROL 이미지 설정]**&#x200B;을 확장하고 옵션을 설정합니다.
 
-**[!UICONTROL AI를 사용하여 이미지 생성]** 옵션은 기본적으로 비활성화되어 있습니다. 이 기능을 활성화하고 다음 옵션을 설정하여 제안된 콘텐츠 변형에 생성된 이미지를 포함합니다.
+기본적으로 **[!UICONTROL AI를 사용하여 이미지 생성]** 옵션이 비활성화됩니다. 이 기능을 활성화하고 다음 옵션을 설정하여 제안된 콘텐츠 변형에 생성된 이미지를 포함합니다.
 
 * **[!UICONTROL 생성 모델]**: 즉시 사용할 수 있는 Adobe 제공 모델, 전문 기능을 위한 파트너 모델 또는 브랜드 자산에 대해 교육된 구성된 사용자 지정 모델 중에서 선택합니다. 생성 모델에 대한 자세한 내용은 _[브랜드 정렬을 위한 생성 AI 모델](generative-ai-models.md)_&#x200B;을 참조하십시오.
-* **[!UICONTROL 종횡비]**: 이미지 구성 요소를 선택하면 이 설정이 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택할 수 있는 옵션이 있거나 사용자 지정 크기를 입력할 수 있습니다.
+* **[!UICONTROL 종횡비]**: 이미지 구성 요소를 선택하면 이 설정이 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택하거나 사용자 지정 크기를 입력합니다.
 * **[!UICONTROL 콘텐츠 형식]**: 이 형식은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 다양한 형식의 시각적 표현을 구별합니다.
 * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어합니다. 낮은 설정(예: 2)은 더 부드럽고 절제된 모양을 만드는 반면 높은 설정(예: 10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
 * **[!UICONTROL 색상 및 색조]**: 이미지 내의 전체 색상 모양과 이미지 내의 분위기 또는 분위기를 전달합니다.
@@ -155,7 +145,7 @@ ht-degree: 0%
 
    효과적인 프롬프트를 만드는 데 도움이 필요하면 [프롬프트 라이브러리](#prompt-library)를 사용하십시오.
 
-1. (선택 사항) 콘텐츠 지침 설정을 완료하여 사전 헤더 생성을 위한 추가 입력을 제공합니다.
+1. (선택 사항) 사전 헤더 생성을 위한 추가 입력을 제공하려면 콘텐츠 지침 설정을 완료합니다.
 
    * [**[!UICONTROL 텍스트 설정]**](#text-settings) - 생성된 텍스트 콘텐츠에 대한 지침을 제공합니다.
    * [**[!UICONTROL 참조 콘텐츠]**](#reference-content) - 콘텐츠 생성의 원본 역할을 하는 콘텐츠 자산을 제공합니다.
@@ -168,7 +158,7 @@ ht-degree: 0%
 
 1. AI 도우미 패널을 스크롤하고 생성된 변형을 탐색하여 가장 적합한 변형을 결정합니다.
 
-   _엄지손가락 위로_, _엄지손가락 아래로_ 또는 _플래그_ 아이콘을 클릭하여 생성된 변형에 대해 [피드백을 제출](#submit-variation-feedback)하고 피드백을 가장 잘 요약하는 이유를 선택할 수 있습니다.
+   _엄지손가락 위로_, _엄지손가락 아래로_ 또는 _플래그_ 아이콘을 클릭하고 피드백을 가장 잘 요약하는 이유를 선택하여 생성된 변형에 대해 [피드백을 제출](#submit-variation-feedback)할 수 있습니다.
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 세부 조정]** 옵션을 클릭하십시오.
 
@@ -200,7 +190,7 @@ ht-degree: 0%
 
    효과적인 프롬프트를 만드는 데 도움이 필요하면 [프롬프트 라이브러리](#prompt-library)를 사용하십시오.
 
-1. (선택 사항) 콘텐츠 지침 설정을 완료하여 사전 헤더 생성을 위한 추가 입력을 제공합니다.
+1. (선택 사항) 사전 헤더 생성을 위한 추가 입력을 제공하려면 콘텐츠 지침 설정을 완료합니다.
 
    * [**[!UICONTROL 텍스트 설정]**](#text-settings) - 생성된 텍스트 콘텐츠에 대한 지침을 제공합니다.
    * [**[!UICONTROL 참조 콘텐츠]**](#reference-content) - 콘텐츠 생성의 원본 역할을 하는 콘텐츠 자산을 제공합니다.

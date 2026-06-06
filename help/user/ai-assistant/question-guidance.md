@@ -5,27 +5,23 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: 889
 ht-degree: 1%
 
 ---
 
 # Journey Optimizer B2B edition의 AI Assistant에 대한 질문 지침
 
-Journey Optimizer B2B edition의 AI Assistant 쿼리에 대한 다음 예제 질문 세트를 검토하십시오. 이 정보에는 AI Assistant에서 최적의 응답을 얻기 위해 질문을 구문 분석하는 방법에 대한 팁도 포함되어 있습니다.
+Journey Optimizer B2B edition의 AI Assistant 쿼리에 대한 다음 예제 질문을 검토하십시오. 이 정보에는 AI Assistant에서 최적의 응답을 얻기 위해 질문을 구문 분석하는 방법에 대한 팁도 포함되어 있습니다.
 
 ## 목표 기반 질문
 
@@ -42,13 +38,13 @@ Journey Optimizer B2B edition의 AI Assistant 쿼리에 대한 다음 예제 질
 
 ## 질문 표현
 
-가능한 한 정확한 응답을 얻기 위해 명확성과 컨텍스트를 사용하여 AI Assistant에 질문을 구해야 합니다. 컨텍스트에 따라 명확한 질문을 하는 방법에 대한 지침은 다음 팁 목록을 참조하십시오.
+가능한 한 정확한 응답을 얻으려면 명확성과 컨텍스트를 통해 AI Assistant에 질문을 구하십시오. 컨텍스트에 따라 명확한 질문을 하는 방법에 대한 지침은 다음 팁 목록을 참조하십시오.
 
 * 작업 및/또는 질문을 간결하게 진술하십시오.
 * 이해가 용이하도록 모호한 언어나 지나치게 복잡한 구문은 피한다.
 * AI Assistant가 더 연관성 있는 응답을 생성하는 데 도움이 될 수 있으므로 작업 및/또는 질문에 대한 관련 컨텍스트를 제공합니다.
 
-다음 표는 AI Assistant 사용 시 따를 수 있는 몇 가지 모범 사례를 제공합니다.
+다음 표는 AI Assistant 사용 시 따를 수 있는 몇 가지 권장 사항을 제공합니다.
 
 | 실행 | 예 |
 | --- | --- |
@@ -68,7 +64,7 @@ Journey Optimizer B2B edition의 AI Assistant 쿼리에 대한 다음 예제 질
 
 다음 목록에는 Journey Optimizer B2B edition의 AI Assistant가 현재 지원하지 않는 질문의 예가 포함되어 있습니다.
 
-* 어떤 계정 대상자가 ... 필드 그룹의 workEmail.address 필드를 해당 조건에서 사용합니까? 
+* 어떤 계정 대상자가 조건에서 ... 필드 그룹의 workEmail.address 필드를 사용합니까? 
 * 10,000개 이상, 5000-10,000개, 1000-5000개 및 1000 미만의 계정 대상을 사용하는 활성 여정 수를 분포 시각적 보기로 표시합니다
 * 계정 여정 x에 대한 마지막 업데이트를 수행한 사람은 누구입니까?
 * 얼마나 많은 활성 여정이 솔루션 관심사 x에 대한 구매 그룹 구성원을 추가합니까?

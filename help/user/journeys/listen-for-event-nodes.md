@@ -4,21 +4,16 @@ description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1879
+source-wordcount: 1880
 ht-degree: 11%
 
 ---
@@ -31,7 +26,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->계정 여정의 경우 사람에 의한 분할 경로에 이 노드 유형을 추가할 수 없습니다.
+>계정 여정의 경우 사람이 분할한 경로에 이 노드 유형을 추가할 수 없습니다.
 
 ## 계정 이벤트
 
@@ -68,7 +63,7 @@ ht-degree: 11%
 
 >[!TIP]
 >
->_이전_&#x200B;에 발생한 여정 이벤트를 기반으로 사용자를 라우팅하려면(예: 이전 이메일 클릭 또는 웹 인터랙션) [사람별 경로 분할](./split-merge-paths-nodes.md#experience-event-history-filtering) 노드에서 [!UICONTROL 이벤트 기록] 필터를 사용합니다.
+>경험 이벤트는 여정 입력 전 _이전_&#x200B;에 발생할 수 있습니다(예: 이전 이메일 클릭 또는 웹 인터랙션). 이러한 이벤트를 기반으로 사용자를 라우팅하려면 [사람별 경로 분할](./split-merge-paths-nodes.md#experience-event-history-filtering) 노드에서 [!UICONTROL 이벤트 기록] 필터를 사용합니다.
 
 ### 이벤트 및 제한
 
@@ -80,7 +75,7 @@ ht-degree: 11%
 | | [!UICONTROL 데이터 값 변경] | Person 특성<br/><br/>추가 제약 조건(선택 사항): <li>새 값</li><li>이전 값</li><li>이유</li><li>소스</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
 | | [!UICONTROL 이메일 열기] | 전자 메일<br/><br/>추가 제한(선택 사항): <li>링크</li><li>링크 ID</li><li>모바일 디바이스</li><li>디바이스</li><li>플랫폼</li><li>브라우저</li><li>예측 콘텐츠</li><li>봇 활동</li><li>봇 활동 패턴</li><li>브라우저</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
 | | [!UICONTROL 구매 그룹에서 제거됨] | 솔루션 관심 분야<br/>활동 날짜(선택 사항)<br/>시간 초과(선택 사항) |
-| | [!UICONTROL 점수가 변경됨] | 점수 이름<br/><br/>추가 제한(선택 사항):<li>변경</li><li>새 점수</li><li>긴급도</li><li>우선 순위</li><li>상대 점수</li><li>상대 긴급도</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
+| | [!UICONTROL 점수가 변경됨] | 점수 이름<br/><br/>추가 제한(선택 사항):<li>변경</li><li>새 점수</li><li>긴급도</li><li>우선순위</li><li>상대 점수</li><li>상대 긴급도</li><li>활동 날짜</li><li>최소. 횟수</li><br/>시간 초과(선택 사항) |
 | | [!UICONTROL SMS 반송] | SMS 메시지<br/><br/>추가 제약 조건(선택 사항): <li>활동 날짜</li><li>최소 횟수</li><br/>시간 초과(선택 사항) |
 | Marketo Engage | [!UICONTROL 웹 페이지 방문] | 웹 페이지 <br/> 일치시킬 Marketo Engage 페이지를 하나 이상 선택하십시오. <br/><br/>추가 제약 조건(선택 사항): <li>쿼리 문자열</li><li>클라이언트 IP 주소</li><li>레퍼러</li><li>사용자 에이전트</li><li>검색 엔진</li><li>검색어</li><li>토큰</li><li>브라우저</li><li>플랫폼</li><li>디바이스</li><li>활동 날짜</li> |
 | | [!UICONTROL 양식 작성] | 양식 <br/> 일치시킬 Marketo Engage 양식을 하나 이상 선택하십시오. <br/><br/>추가 제약 조건(선택 사항): <li>활동 날짜</li><li>쿼리 문자열</li><li>클라이언트 IP 주소</li><li>레퍼러</li><li>사용자 에이전트</li><li>플랫폼</li><li>디바이스</li><br/>시간 초과(선택 사항) |
@@ -139,7 +134,7 @@ ht-degree: 11%
 
      ![경험 이벤트 수신](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
 
-     이 작업을 반복하여 필요에 따라 추가 필드 제약 조건을 포함할 수 있습니다.
+     필요에 따라 추가 필드 제약 조건을 포함하려면 이 작업을 반복합니다.
 
    * 필요한 경우 **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#add-a-filter-to-the-people-event)합니다.
 
@@ -151,9 +146,9 @@ ht-degree: 11%
 
 ### 경험 이벤트 수신 {#listen-for-an-experience-event}
 
-관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
+관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
 
-1. [&#x200B; 관리자가 여정에서 사용할 수 있도록 이벤트 유형 및 관심 필드 &#x200B;](../admin/configure-aep-events.md#add-an-event)을(를) 추가합니다.
+1. [ 관리자가 여정에서 사용할 수 있도록 이벤트 유형 및 관심 필드 ](../admin/configure-aep-events.md#add-an-event)을(를) 추가합니다.
 
 2. 여정에서 _이벤트 수신_ 노드를 추가하고 사용자 기반 이벤트에 대한 Experience Platform 이벤트 유형을 선택합니다.
 
@@ -211,7 +206,7 @@ ht-degree: 11%
 
    ![사람들이 이벤트 노드 수신 - 이벤트를 편집할 필터 탭 선택](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
-1. 하나 이상의 필터를 추가하여 이벤트의 사용자를 타겟팅합니다.
+1. 이벤트에 대한 직원을 타겟팅하려면 필터를 하나 이상 추가합니다.
 
    * 왼쪽 탐색에서 [사람 필터](#people-event-filters)를 끌어서 놓고 일치 정의를 완료합니다.
 
@@ -219,7 +214,7 @@ ht-degree: 11%
      >
      >Experience Platform의 계정 대상 스키마에 사용자 정의 개인 필드가 정의된 경우 **[!UICONTROL 특성]**&#x200B;에서도 이러한 필드를 사용하여 필터에서 개인 특성으로 사용할 수 있습니다.
 
-   * 맨 위에 있는 **[!UICONTROL 필터 논리]**&#x200B;를 적용하여 필터링을 미세 조정하십시오. 모든 필터 또는 모든 필터를 일치시키도록 선택합니다.
+   * 맨 위에 있는 **[!UICONTROL 필터 논리]**&#x200B;를 적용하여 필터링을 구체화합니다. 모든 필터 또는 모든 필터를 일치시키도록 선택할 수 있습니다.
 
      ![이벤트 정의에 사용된 개인 필터](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
@@ -242,5 +237,5 @@ ht-degree: 11%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?captions=kor&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->
