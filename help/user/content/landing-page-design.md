@@ -3,7 +3,6 @@ title: 랜딩 페이지 디자인
 description: 시각적 도구를 사용하여 랜딩 페이지 디자인 - Journey Optimizer B2B edition에서 계정 여정에 대한 콘텐츠 구성 요소, 양식, 사용자 지정 CSS, 개인화 및 장치 미리 보기를 추가합니다.
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -19,16 +18,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 5%
+source-wordcount: 411
+ht-degree: 2%
 
 ---
 
 # 랜딩 페이지 디자인
 
-[랜딩 페이지를 만들고](./landing-pages.md#create-a-landing-page) 나면 시각적 디자인 공간을 사용하여 페이지의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
+[랜딩 페이지를 만들고](./landing-pages-create-publish.md#create-landing-page) 나면 시각적 디자인 공간을 사용하여 페이지의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
 
 ## 구조 및 콘텐츠 추가 {#structure-content-landing-page}
 
@@ -64,6 +63,18 @@ ht-degree: 5%
 
 {{$include /help/_includes/content-design-links.md}}
 
+![링크 추적에 액세스하려면 편집 아이콘을 클릭합니다](./assets/landing-page-link-tracking.png){width="400"}
+
+**[!UICONTROL 추적 형식]**&#x200B;을(를) 사용하여 링크 추적을 제어합니다.
+
+* **[!UICONTROL 추적됨]** - 링크 URL에서 추적을 활성화합니다.
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL 사용 안 함]** - 링크 URL 추적을 활성화하지 않습니다.
+
 ### 작업 내용 저장
 
 언제든지 **[!UICONTROL 저장]**&#x200B;을 클릭하여 초안 랜딩 페이지를 저장합니다.
@@ -84,7 +95,7 @@ ht-degree: 5%
 
 시각적 디자인 스페이스 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 다음 작업을 수행할 수 있습니다.
 
-템플릿 작업에 액세스하려면 ![자세히 클릭](./assets/landing-page-designer-more-menu.png){width="500"}
+![랜딩 페이지 작업에 액세스하려면 자세히 클릭](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL 랜딩 페이지 재설정]** - 시각적 디자인 캔버스를 빈 슬레이트로 지우고 페이지 콘텐츠 작성을 다시 시작하려면 이 옵션을 클릭하십시오.
 * **[!UICONTROL 디자인 변경]** - _[!UICONTROL 기본 랜딩 페이지 만들기]_ 홈 페이지로 돌아가기. 여기에서 다른 템플릿을 선택하여 디자인 프로세스를 다시 시작하거나 빈 캔버스에서 페이지를 처음부터 디자인하도록 선택할 수 있습니다.

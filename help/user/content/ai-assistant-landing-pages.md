@@ -2,7 +2,6 @@
 title: 랜딩 페이지 콘텐츠에 대한 AI 지원
 description: AI Assistant를 사용하여 랜딩 페이지 콘텐츠 생성 - Journey Optimizer B2B edition에서 참조 에셋 및 구매 그룹 역할 타겟팅을 사용하여 페이지 텍스트 및 이미지를 생성합니다.
 feature: Generative AI, Landing Pages, Content
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 topic: Artificial Intelligence
 role: User
 level: Beginner
@@ -23,10 +22,10 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 2700
-ht-degree: 1%
+source-wordcount: 2690
+ht-degree: 0%
 
 ---
 
@@ -140,7 +139,7 @@ ht-degree: 1%
 
 기존 랜딩 페이지 템플릿을 개선하여 전체 랜딩 페이지 생성에 AI Assistant를 사용하려면 다음 단계를 따르십시오.
 
-1. [랜딩 페이지를 만든](./landing-pages.md#create-a-landing-page) 후 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다.
+1. [랜딩 페이지를 만든](./landing-pages-create-publish.md#create-landing-page) 후 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다.
 
 1. 템플릿을 선택합니다.
 

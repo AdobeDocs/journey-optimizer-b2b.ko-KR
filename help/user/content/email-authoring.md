@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 3%
+source-wordcount: 1381
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 수동 스타일 지정]** - _수동 모드_&#x200B;에서 전자 메일을 만들려면 이 옵션을 선택하십시오. 이 모드에서는 빈 캔버스에 추가하는 모든 구조 및 콘텐츠 구성 요소의 스타일을 수동으로 설정합니다.
 
-1. 템플릿에 [구조 및 콘텐츠 추가](./email-authoring.md#add-structure-and-content).
+1. 템플릿에 [구조 및 콘텐츠 추가](./email-authoring.md#structure-content).
 
 1. [링크 검토 및 업데이트](#preview-and-edit-linked-urls).
 
@@ -141,6 +141,20 @@ ht-degree: 3%
 ### 연결된 URL 추적 편집
 
 {{$include /help/_includes/content-design-links.md}}
+
+![링크 추적에 액세스하려면 편집 아이콘을 클릭합니다](./assets/email-link-tracking.png){width="400"}
+
+Marketo Engage을 통한 이메일 게재 시스템은 전송 시 HTML 이메일의 모든 URL을 고유한 추적 리디렉션으로 자동 래핑합니다. **[!UICONTROL 추적 형식]**&#x200B;을(를) 사용하여 링크 추적을 제어합니다.
+
+* **[!UICONTROL 토큰 없이 추적]** - 시스템이 클릭을 등록하지만 사용자가 웹 페이지에서 다음에 수행하는 작업을 추적합니다. 이는 mkt_tok를 올바르게 처리하지 못할 수 있는 서드파티 시스템을 처리하는 경우와 같은 특정 기술 사례에서 중요할 수 있습니다. 그러나 후속 웹 추적은 제한됩니다.
+
+* **[!UICONTROL mkt-tok로 추적]** - 추적 토큰(mkt_tok)을 사용하여 Munchkin을 통해 후속 웹 활동을 추적합니다. 수신자가 링크를 클릭하면 활동 로그에 _이메일 클릭_ 이벤트를 등록하고, 해당 활동을 안전하게 추적하며, 쿠키를 적용하여 향후 사이트 상호 작용을 모니터링합니다.
+
+* **[!UICONTROL 추적하지 않음]** - 시스템이 링크와 연결된 활동을 추적하지 않습니다. 이 기능은 대상 페이지가 URL 매개 변수를 지원하지 않아 링크가 끊어질 수 있는 경우에 유용합니다.
+
+  >[!NOTE]
+  >
+  >365일 전에 이메일이 전송되었고 지난 180일 동안 아무도 링크를 클릭하지 않은 경우 시스템에서 데이터베이스의 URL에 대한 경로를 잘라냅니다. 이렇게 하면 링크가 끊어집니다. 링크를 영구적으로 유지하려면 추적을 비활성화해야 합니다.
 
 ### 어두운 모드 스타일 적용
 

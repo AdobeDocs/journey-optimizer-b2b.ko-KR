@@ -1,10 +1,10 @@
 ---
 title: 스니펫
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2343'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 센터에 문의하십시오.<br/>
->계약 및 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
+>AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 팀에 문의하십시오.<br/>
+>계약과 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
 
 ## 콘텐츠 작성 - 구성 요소 - 구조 단계 {#structures-step}
 
@@ -125,43 +125,43 @@ ht-degree: 2%
 
    ![테두리 색상 선택기](../assets/content-design-shared/content-components-styles-border-color.png){width="300"}
 
-   * To set the **[!UICONTROL Border size]** (line width), click the up and down arrow icons to increase or decrease the number of pixels.
+   * **[!UICONTROL 테두리 크기]**(선 폭)을 설정하려면 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다.
 
-   * To set the **[!UICONTROL Border style]**, choose a value from the list of standard CSS `border-style` values.
+   * **[!UICONTROL 테두리 스타일]**&#x200B;을(를) 설정하려면 표준 CSS `border-style` 값 목록에서 값을 선택하십시오.
 
-   * To determine where the border is displayed, select each **[!UICONTROL Border position]** checkbox.
+   * 테두리가 표시되는 위치를 확인하려면 각 **[!UICONTROL 테두리 위치]** 확인란을 선택하십시오.
 
-   ![Border styles](../assets/content-design-shared/content-components-styles-border.png){width="250"}
+   ![테두리 스타일](../assets/content-design-shared/content-components-styles-border.png){width="250"}
 
-1. For the **[!UICONTROL Border radius]**, set the numerical value according to the curve you want for the corners.
+1. **[!UICONTROL 테두리 반지름]**&#x200B;의 경우 모퉁이에 대해 원하는 곡선에 따라 숫자 값을 설정하십시오.
 
    값이 0(기본값)이면 사각형 모서리가 생성됩니다.
 
-## Content components - margin styles {#styles-margin}
+## 컨텐츠 구성 요소 - 여백 스타일 {#styles-margin}
 
-On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!UICONTROL Margin]** section and set the options for margin spacing within the structural component. This style replicates the CSS `margin` parameter, which controls to the space outside a component border, separating it from other components. 구성 요소 주위에 간격을 만들어 위치 및 주변 컨텐츠 레이아웃에 영향을 줍니다.
+_[!UICONTROL 스타일]_ 탭이 선택된 오른쪽 패널에서 **[!UICONTROL 여백]** 섹션을 확장하고 구조적 구성 요소 내에서 여백 간격에 대한 옵션을 설정합니다. 이 스타일은 CSS `margin` 매개 변수를 복제합니다. 이 매개 변수는 다른 구성 요소와 구분하여 구성 요소 테두리 외부의 공간으로 제어합니다. 구성 요소 주위에 간격을 만들어 위치 및 주변 컨텐츠 레이아웃에 영향을 줍니다.
 
-디자인 요구에 따라 여백 값을 픽셀 단위로 설정합니다. You can set the margin for all sides, the top-botton, the left-right, or each side of the component independently:
+디자인 요구에 따라 여백 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 상단-하단, 왼쪽-오른쪽 또는 각 면에 대한 여백을 독립적으로 설정할 수 있습니다.
 
-* **All sides** - To set one value to apply to all sides, clear the **[!UICONTROL Different margin for each side]** checkbox. Click the up and down arrow icons to increase or decrease the number of pixels.
+* **모든 면** - 모든 면에 적용할 하나의 값을 설정하려면 **[!UICONTROL 각 면에 대해 다른 여백]** 확인란의 선택을 취소하십시오. 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다.
 
-  ![Set margin for all sides](../assets/content-design-shared/content-components-styles-margin-all-sides.png){width="250"}
+  ![모든 면에 여백 설정](../assets/content-design-shared/content-components-styles-margin-all-sides.png){width="250"}
 
-* **Top-bottom** - To set the top and bottom margins to the same value, set the _Locked_ icon between the top and bottom settings. Click the up and down arrow icons for either to increase or decrease the number of pixels.
+* **위쪽-아래쪽** - 위쪽 및 아래쪽 여백을 같은 값으로 설정하려면 위쪽 및 아래쪽 설정 사이에 _잠김_ 아이콘을 설정합니다. 에 대한 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다.
 
-* **Left-right** - To set the left and right margins to the same value, set the _Locked_ icon between the left and right settings. Click the up and down arrow icons for either to increase or decrease the number of pixels.
+* **왼쪽-오른쪽** - 왼쪽 및 오른쪽 여백을 같은 값으로 설정하려면 왼쪽 및 오른쪽 설정 사이에 _잠김_ 아이콘을 설정합니다. 에 대한 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다.
 
-  ![Lock margins for top-bottom and left-right margin](../assets/content-design-shared/content-components-styles-margin-locked.png){width="250"}
+  ![위쪽/아래쪽 및 왼쪽/오른쪽 여백에 여백 잠금](../assets/content-design-shared/content-components-styles-margin-locked.png){width="250"}
 
-* **Independent** - To set each margin to an independent value, set the _Unlocked_ icon between the top and bottom settings and between the left and right. For each setting, click the up and down arrow icons for either to increase or decrease the number of pixels.
+* **독립** - 각 여백을 독립 값으로 설정하려면 _잠금 해제됨_ 아이콘을 위쪽 및 아래쪽 설정 사이, 왼쪽 및 오른쪽 사이로 설정합니다. 각 설정에 대해 의 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다.
 
-  ![Set independent margins](../assets/content-design-shared/content-components-styles-margin-unlocked.png){width="250"}
+  ![독립 여백 설정](../assets/content-design-shared/content-components-styles-margin-unlocked.png){width="250"}
 
-## Content components - padding styles {#styles-padding}
+## 컨텐츠 구성 요소 - 패딩 스타일 {#styles-padding}
 
-On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!UICONTROL Padding]** section and set the options for padding within the structural component. 이 스타일은 구성 요소의 콘텐츠와 테두리 사이의 공간인 CSS `padding` 매개 변수를 복제합니다. 패딩은 내용과 구성 요소 테두리 사이의 거리를 제어하는 데 사용할 수 있는 내부 공간을 제공합니다.
+_[!UICONTROL 스타일]_ 탭을 선택한 오른쪽 패널에서 **[!UICONTROL 패딩]** 섹션을 확장하고 구조적 구성 요소 내에서 패딩에 대한 옵션을 설정합니다. 이 스타일은 구성 요소의 콘텐츠와 테두리 사이의 공간인 CSS `padding` 매개 변수를 복제합니다. 패딩은 내용과 구성 요소 테두리 사이의 거리를 제어하는 데 사용할 수 있는 내부 공간을 제공합니다.
 
-디자인 요구에 따라 패딩 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 상단, 왼쪽-오른쪽 또는 각 면에 대한 패딩을 독립적으로 설정할 수 있습니다.
+디자인 요구에 따라 패딩 값을 픽셀 단위로 설정합니다. 구성 요소의 모든 면, 상단-하단, 왼쪽-오른쪽 또는 각 면에 대한 패딩을 독립적으로 설정할 수 있습니다.
 
 * **모든 면** - 모든 면에 적용할 하나의 값을 설정하려면 **[!UICONTROL 각 면에 대해 다른 패딩]** 확인란의 선택을 취소하십시오. 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다.
 

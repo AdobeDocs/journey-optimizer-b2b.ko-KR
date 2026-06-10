@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:44:41.871Z
 TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 6%
@@ -57,7 +57,7 @@ _참여 대시보드_&#x200B;에 액세스하려면 왼쪽 탐색에서 **[!UICO
 
 ![날짜 범위별로 표시된 데이터를 필터링합니다](./assets/engagement-date-filter.png){width="380"}
 
-**[!UICONTROL Custom]** 범위의 경우 달력 도구를 사용하여 시작 날짜와 종료 날짜를 지정할 수 있습니다. 종료 일자는 기본적으로 현재 일자로 설정됩니다.
+**[!UICONTROL Custom]** 범위의 경우 _달력_( ![달력 아이콘](../assets/do-not-localize/icon-calendar.svg) ) 아이콘을 클릭하여 시작 날짜와 종료 날짜를 지정하십시오. 종료 일자는 기본적으로 현재 일자로 설정됩니다.
 
 ![특성별로 표시된 데이터를 필터링합니다](./assets/engagement-date-filter-custom.png){width="380"}
 

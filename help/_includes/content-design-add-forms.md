@@ -1,9 +1,9 @@
 ---
 title: 컨텐츠 작성 - 양식 추가
 description: 랜딩 페이지 및 템플릿에서 양식 추가에 대한 섹션 재사용
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >파일 다운로드에 양식을 사용하려는 경우 호스팅된 파일의 URL을 지정할 수 있습니다. 이 구성에서 제출 버튼은 다운로드 버튼으로 작동합니다.
+     >파일을 다운로드하는 데 양식을 사용하려는 경우 호스팅된 파일의 URL을 지정할 수 있습니다. 이 구성에서 제출 버튼은 다운로드 버튼으로 작동합니다.
 
    ![후속 설정 변경](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
