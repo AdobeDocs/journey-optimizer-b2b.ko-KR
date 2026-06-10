@@ -6,12 +6,18 @@ role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
 source-wordcount: 1603
@@ -105,7 +111,7 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 작은 화면이나 표시 창의 경우 기본 설정을 변경하지 않는 한 구조 구성 요소의 열이 스택되어 표시됩니다. 다중 열 구조 구성 요소를 선택한 상태에서 토글 슬라이더를 오른쪽으로 이동하여 **[!UICONTROL 모바일에서 열을 스택하지 않음]** 설정을 변경합니다.
 
-![모바일 ](./assets/structure-component-settings-stack-columns.png){width="250"}에서 열을 스택하지 마십시오.
+![모바일 &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}에서 열을 스택하지 마십시오.
 
 ## 구성 요소 스타일
 

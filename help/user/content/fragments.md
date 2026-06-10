@@ -6,12 +6,19 @@ role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
 autotag-review: '2026-05-27T16:13:50.677Z'
 TQID: 'https://experienceleague.adobe.com/Jvf48iWEQ2aOznKw2QEy33-X-q8cMfUQkbPAjgmgZqw'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 2748
@@ -310,9 +317,9 @@ _[!UICONTROL 조각]_ 목록 페이지에서 편집할 초안 버전을 여는 �
 
 1. **[!UICONTROL 계정 여정]**(으)로 이동하여 기존 여정을 열거나 새 여정을 만드십시오.
 
-1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
+1. [_[!UICONTROL 전자 메일 보내기&#x200B;]_&#x200B;노드](./add-email.md#add-an-email-action-node-in-a-journey)를 만듭니다.
 
-1. ](./email-authoring.md) 노드에 대한 [전자 메일 콘텐츠를 만들거나 편집합니다.
+1. [&#128279;](./email-authoring.md) 노드에 대한 전자 메일 콘텐츠를 만들거나 편집합니다.
 
 1. **[!UICONTROL 구성 요소]** 메뉴에서 항목을 끌어다 놓아 조각에 대한 _구조_&#x200B;을(를) 제공하세요.
 
