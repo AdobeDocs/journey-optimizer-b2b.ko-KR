@@ -90,7 +90,7 @@ Journey Optimizer B2B edition의 Forms 채널을 구성하려면 다음 [권한]
 
    >[!NOTE]
    >
-   >현재 프로필이 활성화되고 프로필이 활성화되지 않은 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)만 선택할 수 있습니다. 한 번에 하나의 데이터 세트를 선택할 수 있습니다. 시스템 데이터 세트는 양식 데이터를 저장하는 데 사용할 수 없습니다.
+   >현재 프로필이 활성화되고 프로필이 활성화되지 않은 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)만 선택할 수 있습니다. 한 번에 하나의 데이터 세트를 선택할 수 있습니다. 시스템 데이터 세트는 양식 데이터를 저장하는 데 사용할 수 없습니다.
 
    데이터 집합에 대한 확인란을 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 

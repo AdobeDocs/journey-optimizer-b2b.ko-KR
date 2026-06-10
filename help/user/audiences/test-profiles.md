@@ -87,7 +87,7 @@ Journey Optimizer B2B edition에서 랜딩 페이지 콘텐츠를 [미리 보고
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}를 참조하세요.
+스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#prerequisites){target="_blank"}를 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -101,7 +101,7 @@ Journey Optimizer B2B edition에서 랜딩 페이지 콘텐츠를 [미리 보고
 
 ## 데이터 세트 만들기 {#create-dataset}
 
-스키마를 만든 후 프로필을 가져오는 데 사용되는 데이터 세트를 만듭니다. 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}를 참조하세요.
+스키마를 만든 후 프로필을 가져오는 데 사용되는 데이터 세트를 만듭니다. 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
 
 1. 왼쪽 탐색 메뉴의 _[!UICONTROL 데이터 관리]_&#x200B;에서 **[!UICONTROL 데이터 세트]**&#x200B;를 선택합니다.
 
@@ -167,12 +167,12 @@ Journey Optimizer B2B edition에서 랜딩 페이지 콘텐츠를 [미리 보고
 
 >[!NOTE]
 >
->CSV 데이터 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}를 참조하세요.
+>CSV 데이터 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko#tutorials){target="_blank"}를 참조하세요.
 
 <!--
 ## Create test profiles using API calls {#create-test-profiles-api}
 
-You can also create test profiles via API calls. Learn more in [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
+You can also create test profiles via API calls. Learn more in [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}.
 
 You must use a Profile schema that contains the **[!UICONTROL Profile test details]** field group. The `testProfile` flag is part of this field group.
 When creating a profile, make sure you pass the value: `testProfile = true`.
