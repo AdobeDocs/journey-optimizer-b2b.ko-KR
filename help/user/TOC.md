@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,7 @@ ht-degree: 92%
    + [외부 대상 타기팅](./audiences/target-external-audience.md)
    + [LinkedIn 계정 일치 대상](./data/linkedin-account-matched-audiences.md)
    + [기본 XDM 필드](./admin/field-mapping.md)
+   + [테스트 프로필](./audiences/test-profiles.md)
 + 계정 {#accounts}
    + 구매 그룹 {#buying-groups}
       + [개요](./buying-groups/buying-groups-overview.md)
@@ -121,16 +122,17 @@ ht-degree: 92%
          + [고급 HTML 편집](./content/email-template-advanced-html.md)
          + [이미지를 템플릿으로 변환](./content/email-template-image-convert.md)
       + 랜딩 페이지 템플릿 (Beta) {#landing-page-templates}
-         + {hide-from-toc}[개요](./content/landing-page-templates.md)
+         + [개요](./content/landing-page-templates.md)
          + [랜딩 페이지 템플릿 디자인](./content/landing-page-template-design.md)
    + 조각 {#visual-fragments}
       + [개요](./content/fragments.md)
       + [조각 작성](./content/fragment-authoring.md)
-   + 양식 (Beta) {#forms}
+   + 양식 {#forms}
       + [개요](./content/forms.md)
       + [양식 디자인](./content/form-design.md)
-   + 랜딩 페이지 (Beta) {#landing-pages}
+   + 랜딩 페이지 {#landing-pages}
       + [개요](./content/landing-pages.md)
+      + [만들기 및 게시](./content/landing-pages-create-publish.md)
       + [랜딩 페이지 디자인](./content/landing-page-design.md)
       + [랜딩 페이지 콘텐츠에 대한 AI 지원](./content/ai-assistant-landing-pages.md)
    + 콘텐츠 디자인 도구 {#content-design}
@@ -170,4 +172,5 @@ ht-degree: 92%
       + [SMS 구성](./admin/configure-channels-sms.md)
       + [WhatsApp 구성](./admin/configure-channels-whatsapp.md)
       + [웹 채널 구성(Beta)](./admin/configure-channels-web.md)
-      + [랜딩 페이지 설정(Beta)](./admin/landing-page-settings.md)
+      + [랜딩 페이지 구성](./admin/configure-channels-landing-pages.md)
+      + [Forms 구성](./admin/configure-channels-forms.md)
