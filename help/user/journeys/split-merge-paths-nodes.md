@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
 workflow-type: tm+mt
-source-wordcount: 2542
+source-wordcount: 2541
 ht-degree: 3%
 
 ---
@@ -152,7 +152,7 @@ _&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
 | [!UICONTROL 사용자 지정 개체] > `<custom object>` 있음 | [!BADGE Beta]{type=Informative tooltip="Beta 기능"} 개인이 관계형 스키마 레코드를 가지고 있거나 가지고 있지 않습니다. [XDM 관계형 스키마](../admin/xdm-field-management.md#relational-schemas)에 구성된 대로 선택한 사용자 지정 개체 기준에 대해 평가할 수도 있습니다. ([사용자 지정 데이터 필터링](#custom-data-filtering) 참조) |
 | [!UICONTROL 이벤트 기록] | 은 여정 입력 전에 발생한 경험 이벤트를 기반으로 사람을 나눕니다. 폴더를 확장하여 [관리자 > XDM 이벤트 구성](../admin/configure-aep-events.md)에 구성된 모든 이벤트 유형을 보고 필터로 추가할 이벤트 유형을 선택하십시오. 제한에는 선택한 이벤트의 필드, 여정에 들어갈 때 다시 측정된 전환 확인 기간 및 선택적 최소 횟수가 포함됩니다. |
 | [!UICONTROL 사용자 특성] | 다음을 포함한 [개인 프로필](../admin/field-mapping.md#xdm-business-person-attributes)의 특성: <li>도시 <li>국가 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 중단됨 <li>이름 <li>추정 주 지역 <li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주 |
-| [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | (더 이상 사용되지 않음) 개인은 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 그러한 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨</li><li>역할</li> |
+| [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨</li><li>역할</li> |
 | [!UICONTROL 특수 필터] > [!UICONTROL 목록의 구성원] | (더 이상 사용되지 않음) 해당 사용자는 하나 이상의 [!DNL Marketo Engage] 목록에 속하거나 속하지 않습니다. |
 | [!UICONTROL 특수 필터] > [!UICONTROL 프로그램 구성원] | (더 이상 사용되지 않음) 사용자가 하나 이상의 [!DNL Marketo Engage] 프로그램의 구성원이거나 구성원이 아닙니다. |
 
