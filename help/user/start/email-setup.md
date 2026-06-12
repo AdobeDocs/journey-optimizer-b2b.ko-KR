@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1321
 ht-degree: 70%
@@ -35,7 +35,7 @@ ht-degree: 70%
 
 ## 이메일 설정
 
-첨부된 Marketo Engage 인스턴스에 대한 이메일 기본값을 설정하려면 마케팅 조직의 사용을 반영하도록 구성된 값을 변경하십시오.
+첨부된 Marketo Engage 인스턴스에 대한 이메일 기본값을 설정하려면 마케팅 팀의 사용을 반영하도록 구성된 값을 변경하십시오.
 
 ### 이메일 및 레이블에서
 

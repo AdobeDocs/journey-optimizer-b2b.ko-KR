@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -144,7 +144,7 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
 >[!NOTE]
 >
->하나 이상의 작업 공간에서 기본 브랜딩 도메인을 삭제하려면 먼저 다른 브랜딩 도메인을 각 작업 공간의 기본 도메인으로 선택해야 합니다.
+>기본 브랜딩 도메인(하나 이상의 작업 공간에서)을 삭제하려면 먼저 다른 브랜딩 도메인을 각 작업 공간의 기본 도메인으로 선택합니다.
 >
 >**_도메인을 삭제하면 SSL 인증서가 삭제되지 않습니다_**. 이 가드레일은 SSL 인증서 없이 웹 사이트를 생성하는 사용자 오류를 방지합니다. SSL 인증서를 제거하려면 Adobe 지원에 문의하십시오.
 

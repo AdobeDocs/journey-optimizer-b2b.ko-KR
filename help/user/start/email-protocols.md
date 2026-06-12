@@ -18,10 +18,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 2362
-ht-degree: 80%
+source-wordcount: 2333
+ht-degree: 81%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer B2B edition은 연결된 Marketo Engage 인스턴스의 
 
 ## 랜딩 페이지 및 이메일에 대한 DNS 레코드 만들기
 
-CNAME 레코드를 연결하면 마케터는 일관된 브랜딩을 적용하여 이메일, 랜딩 페이지, 블로그의 웹 버전을 호스팅할 수 있어 트래픽과 전환율이 향상됩니다. 마케팅에 중점을 둔 웹 자산을 호스팅하려면 Marketo Engage의 루트 도메인 호스트에 CNAME을 추가하는 것이 좋습니다. Marketo Engage을 통해 전송된 이메일에 포함된 추적 링크에 대한 CNAME 레코드를 계획하고 구현하려면 마케팅 팀과 관리자 역할을 하십시오.
+CNAME 레코드를 연결하면 마케터는 일관된 브랜딩을 적용하여 이메일, 랜딩 페이지, 블로그의 웹 버전을 호스팅할 수 있어 트래픽과 전환율이 향상됩니다. 마케팅에 중점을 둔 웹 자산을 호스팅하려면 Marketo Engage의 루트 도메인 호스트에 CNAME을 추가하는 것이 좋습니다.
 
 두 개의 CNAME 레코드를 계획 및 구현하려면 마케팅 팀과 관리자로 협력합니다. 첫 번째는 랜딩 페이지 URL용으로서, 랜딩 페이지는 Adobe Marketo Engage(실제 호스트)가 아니라 도메인을 반영하는 URL에 표시됩니다. 두 번째는 Marketo Engage을 통해 전송된 이메일에 포함된 추적 링크에 대한 것입니다.
 
