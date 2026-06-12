@@ -4,22 +4,16 @@ description: 각 브랜드에 고유한 브랜딩 추적 링크가 있도록 브
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -43,7 +37,7 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
 >[!PREREQUISITES]
 >
->UI에서 도메인을 편집하거나 추가하려면 먼저 Adobe에서 제공한 Marketo Engage 도메인[&#128279;](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}에 매핑된 CNAME이 있어야 합니다.
+>UI에서 도메인을 편집하거나 추가하려면 먼저 Adobe에서 제공한 Marketo Engage 도메인](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}에 [매핑된 CNAME이 있어야 합니다.
 >
 >도메인을 추가할 때 시스템에서는 이전에 수동으로 생성된 기존 SSL이 있는지 확인합니다. 이 유효성 검사가 발생하면 SSL 생성을 선택하지 않고 도메인을 만든 다음 별도의 절차로 연결합니다.
 
@@ -105,7 +99,7 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
    >[!NOTE]
    >
-   >**_사용자 지정 SSL_**: 사용자 지정 SSL이 필요한 경우 [지원 티켓](https://experienceleague.adobe.com/ko/support){target="_blank"}을 제출할 수 있습니다. SSL 작성에 확인란을 사용하지 마십시오.
+   >**_사용자 지정 SSL_**: 사용자 지정 SSL이 필요한 경우 [지원 티켓](https://experienceleague.adobe.com/en/support){target="_blank"}을 제출할 수 있습니다. SSL 작성에 확인란을 사용하지 마십시오.
 
 1. Marketo Engage 인스턴스에 대해 여러 작업 공간이 정의된 경우 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
@@ -144,7 +138,7 @@ Marketo Engage의 브랜딩 도메인은 링크를 다시 작성하고 이메일
 
 >[!NOTE]
 >
->하나 이상의 작업 공간에서 기본 브랜딩 도메인을 삭제하려면 먼저 다른 브랜딩 도메인을 각 작업 공간의 기본 도메인으로 선택해야 합니다.
+>기본 브랜딩 도메인(하나 이상의 작업 공간에서)을 삭제하려면 먼저 다른 브랜딩 도메인을 각 작업 공간의 기본 도메인으로 선택합니다.
 >
 >**_도메인을 삭제하면 SSL 인증서가 삭제되지 않습니다_**. 이 가드레일은 SSL 인증서 없이 웹 사이트를 생성하는 사용자 오류를 방지합니다. SSL 인증서를 제거하려면 Adobe 지원에 문의하십시오.
 
