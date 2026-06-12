@@ -3,10 +3,16 @@ title: 랜딩 페이지
 description: 개인 여정을 위한 랜딩 페이지를 만들고, 디자인하고, 게시합니다. Journey Optimizer B2B Prime에서 처음부터 빌드하고, HTML을 가져오고, 양식을 추가하고, 콘텐츠를 개인화하고, 이메일을 통해 연결합니다.
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
 source-wordcount: 1461
@@ -42,6 +48,7 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
+
 ## 랜딩 페이지 액세스 및 관리
 
 Journey Optimizer B2B Prime의 랜딩 페이지에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 클릭하십시오. 이 작업은 인스턴스에서 만든 모든 랜딩 페이지 목록을 표시합니다.
