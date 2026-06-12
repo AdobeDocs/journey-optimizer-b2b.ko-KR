@@ -1,21 +1,10 @@
 ---
 title: 랜딩 페이지
-description: 계정 여정을 위한 랜딩 페이지를 만들고, 디자인하고, 게시합니다. Journey Optimizer B2B edition에서 처음부터 빌드하고, HTML을 가져오고, 양식을 추가하고, 콘텐츠를 개인화하고, 이메일을 통해 연결합니다.
-feature: Landing Pages, Content
-role: User
-exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-autotag-review: '2026-05-27T16:16:24.088Z'
-TQID: 'https://experienceleague.adobe.com/zAr9SwPBHxU50gD1ZRdJQo3M-qL-BEO6R1UYq7hSG-8'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072f
+description: 개인 여정을 위한 랜딩 페이지를 만들고, 디자인하고, 게시합니다. Journey Optimizer B2B Prime에서 처음부터 빌드하고, HTML을 가져오고, 양식을 추가하고, 콘텐츠를 개인화하고, 이메일을 통해 연결합니다.
 source-git-commit: a2443f98ec7a8a5c1d4be2450042e2375f6150b7
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 2%
+source-wordcount: '1461'
+ht-degree: 6%
 
 ---
 
@@ -29,34 +18,35 @@ ht-degree: 2%
 * 통신을 보내기 전에 동의를 수집하고 옵트인 또는 옵트아웃 시 확인 이메일을 보냅니다.
 * 랜딩 페이지의 양식을 사용하여 프로필 데이터(점진적 프로파일링, 환경 설정, 등록 및 유사한 시나리오)를 캡처하거나 업데이트합니다.
 * 여정 오케스트레이션에 맞게 디자인된 캠페인 관련 정보를 대상자에게 안내합니다.
-* Journey Optimizer B2B edition 외부에서 외부 페이지를 작성하지 않고 사용자를 전용 웹 양식으로 리디렉션합니다.
+* Journey Optimizer B2B Prime 외부에서 외부 페이지를 작성하지 않고 전용 웹 양식으로 사용자를 리디렉션합니다.
 
-## 랜딩 페이지 워크플로
+<!-- 
+## Landing page workflow
 
-여정 대상자가 특정 링크를 클릭할 때 정의된 웹 페이지로 이동하려면 Journey Optimizer B2B edition에서 랜딩 페이지를 만듭니다.
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
 
-1. [페이지 만들기](./landing-pages-create-publish.md) - 사전 설정을 선택하고 기본 페이지를 설정한 다음 필요한 하위 페이지를 추가합니다.
-1. [랜딩 페이지 콘텐츠 디자인](./landing-page-design.md) - 드래그 앤 드롭 시각적 디자인 구성 요소를 사용하여 페이지 콘텐츠를 빌드합니다.
-1. [랜딩 페이지 테스트 및 게시](./landing-pages-create-publish.md) - 페이지를 미리 보고, 양식 동작을 테스트한 다음 게시하여 라이브로 만드십시오.
-1. [여정의 페이지에 연결](#link-to-a-landing-page) - 수신자가 연결할 수 있도록 랜딩 페이지 URL을 전자 메일, SMS 또는 여정 작업에 추가합니다.
 
-예를 들어 랜딩 페이지를 만들고 디자인하여 사용자를 온라인 정보로 안내할 수 있습니다. 페이지에는 커뮤니케이션 수신을 옵트인하거나 옵트아웃할 수 있는 양식이 포함될 수 있습니다. 또는 뉴스레터와 같은 반복되는 커뮤니케이션에 가입할 수 있습니다.
+1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
+1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
+1. [Test and publish the landing page](./landing-pages-create-publish.md) - Preview the page, test form behavior, and then publish to make it live.
+1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
 
-시각적 디자인 공간에서 랜딩 페이지를 만들고, 개인화하고, 미리 볼 수 있습니다.
 
+For example, you can create and design landing pages to direct your users to online information. The page could include a form where they can opt in or opt out from receiving your communications. Or it could be an opportunity to subscribe to a recurring communications, such as a newsletter. 
+
+You can create, personalize, and preview landing pages in the visual design space.
+-->
 ## 랜딩 페이지 액세스 및 관리
 
-Journey Optimizer B2B edition의 랜딩 페이지에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 클릭하십시오. 이 작업은 인스턴스에서 만든 모든 랜딩 페이지 목록을 표시합니다.
-
-![랜딩 페이지 라이브러리에 액세스](./assets/landing-pages-list.png){width="800" zoomable="yes"}
+Journey Optimizer B2B Prime의 랜딩 페이지에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 클릭하십시오. 이 작업은 인스턴스에서 만든 모든 랜딩 페이지 목록을 표시합니다.
 
 목록은 _[!UICONTROL 수정됨]_ 열에 따라 정렬되며 가장 최근에 업데이트된 항목이 맨 위에 있습니다. 오름차순과 내림차순 간을 변경하려면 열 제목을 클릭합니다.
 
 ### 랜딩 페이지 목록 필터링
 
-이름별로 랜딩 페이지를 검색하려면 검색 막대에 일치 항목 텍스트 문자열을 입력합니다. _필터_ 아이콘(![필터 표시 또는 숨기기 아이콘](../assets/do-not-localize/icon-filter.svg) )을 클릭하여 사용 가능한 필터 옵션을 표시하고 설정을 변경하여 지정된 조건에 따라 표시된 항목을 필터링합니다.
+이름별로 랜딩 페이지를 검색하려면 검색 막대에 일치 항목 텍스트 문자열을 입력합니다. _필터_ 아이콘 <!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) -->을(를) 클릭하여 사용 가능한 필터 옵션을 표시하고 설정을 변경하여 지정한 조건에 따라 표시된 항목을 필터링합니다.
 
-![표시된 랜딩 페이지를 필터링](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"}
+![표시된 랜딩 페이지를 필터링](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
 <!-- 
 This is going away? ### Customize the column display
@@ -75,10 +65,42 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 | 상태 | 설명 |
 | -------------------- | ----------- |
 | 초안 | 랜딩 페이지를 만들 때 초안 상태입니다. 이 상태는 시각적 콘텐츠를 정의하거나 편집할 때 호스팅되는 페이지로 게시할 때까지 이 상태로 유지됩니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>시각적 디자인 공간에서 편집<li>게시<li>복제<li>삭제 |
-| 게시일 | 랜딩 페이지를 게시하면 Journey Optimizer B2B edition 인스턴스에서 호스팅되며 이메일 또는 SMS 메시지 콘텐츠에서 연결할 수 있습니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가<li>초안 버전 만들기<li>복제<li>삭제 |
+| 게시일 | 랜딩 페이지를 게시하면 Journey Optimizer B2B Prime 인스턴스에서 호스팅되며 이메일 또는 SMS 메시지 콘텐츠에서 연결할 수 있습니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가<li>초안 버전 만들기<li>복제<li>삭제 |
 | 초안과 함께 게시됨 | 게시된 랜딩 페이지에서 초안을 만들면 게시된 버전이 유지되고 시각적 디자인 공간에서 초안 콘텐츠를 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되고 호스팅된 페이지에서 콘텐츠가 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집<li>링크 URL 편집<li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가<li>시각적 디자인 공간에서 초안 버전 편집<li>초안 버전 게시<li>복제<li>삭제(두 버전 모두 삭제)<li>초안 삭제(게시된 상태로 돌아가기) |
 
-![랜딩 페이지 상태 주기](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+<!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
+
+## 랜딩 페이지 만들기 {#create-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_create"
+>title="랜딩 페이지 정의 및 구성"
+>abstract="랜딩 페이지를 만들려면 사전 설정을 선택한 다음 기본 페이지와 하위 페이지를 구성하고 게시하기 전에 마지막으로 테스트해야 합니다."
+
+TBD
+
+## 기본 페이지 구성 {#configure-primary-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_primary_page"
+>title="기본 페이지 설정 정의"
+>abstract="수신자가 랜딩 페이지 링크를 클릭할 때(예: 이메일 또는 웹 사이트에서) 즉시 표시되는 기본 페이지를 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_access_settings"
+>title="랜딩 페이지 URL 정의"
+>abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분을 사용하려면 이전에 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다."
+
+TBD
+
+## 랜딩 페이지 테스트 {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_preview_lp_profiles"
+>title="랜딩 페이지 미리보기 및 테스트"
+>abstract="랜딩 페이지 설정 및 콘텐츠를 정의한 후 테스트 프로필을 사용하여 페이지를 미리 봅니다."
+
+TBD
 
 ## 랜딩 페이지 편집
 
@@ -98,17 +120,19 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 이름, 설명 등 세부 사항을 수정합니다.
 
-   ![초안 상태의 랜딩 페이지에 대한 세부 정보](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
+   <!-- ![Details for landing page with Draft status](./assets/landing-page-draft-details.png){width="700" zoomable="yes"} -->
 
 1. 시각적 디자인 공간에서 콘텐츠를 변경하려면 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭하세요.
 
-   필요에 따라 시각적 디자인 도구를 사용합니다.
+   <!-- 
+   Use the visual design tools as needed:
 
-   * [구조 및 콘텐츠 추가](./landing-page-design.md#structure-content-landing-page)
-   * [Assets 추가](./landing-page-design.md#add-assets)
-   * [레이어, 설정 및 스타일 탐색](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [콘텐츠 개인화](./landing-page-design.md#personalize-content)
-   * [연결된 URL 추적 편집](./landing-page-design.md#edit-linked-url-tracking)
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
+   * [Add Assets](./landing-page-design.md#add-assets)
+   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./landing-page-design.md#personalize-content)
+   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+   -->
 
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
@@ -128,15 +152,17 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    대화 상자에서 **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭하여 시각적 디자인 공간에서 초안 버전을 엽니다.
 
-   ![초안 버전 만들기 대화 상자](./assets/landing-page-create-draft-version.png){width="300"}
+   <!-- 
+   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
 
-   필요에 따라 시각적 디자인 도구를 사용합니다.
+   Use the visual design tools as needed:
 
-   * [구조 및 콘텐츠 추가](./landing-page-design.md#structure-content-landing-page)
-   * [Assets 추가](./landing-page-design.md#add-assets)
-   * [레이어, 설정 및 스타일 탐색](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [콘텐츠 개인화](./landing-page-design.md#personalize-content)
-   * [연결된 URL 추적 편집](./landing-page-design.md#edit-linked-url-tracking)
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
+   * [Add Assets](./landing-page-design.md#add-assets)
+   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./landing-page-design.md#personalize-content)
+   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+   -->
 
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
@@ -148,17 +174,23 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 랜딩 페이지를 열면 초안 버전이 표시됩니다. 미리보기 공간 맨 위에 있는 탭을 사용하여 게시된 버전과 초안 버전 간에 디스플레이를 전환할 수 있습니다. 초안 작업 및 세부 정보가 오른쪽에 표시됩니다.
 
-![랜딩 페이지 초안 버전에 대한 미리 보기 및 세부 정보](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
+<!-- ![Preview and details for the landing page draft version](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"} -->
 
 콘텐츠를 업데이트하려면:
 
-1. 오른쪽 상단의 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다. 필요에 따라 시각적 디자인 도구를 사용합니다.
+1. 오른쪽 상단의 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다.
 
-   * [구조 및 콘텐츠 추가](./landing-page-design.md#structure-content-landing-page)
-   * [Assets 추가](./landing-page-design.md#add-assets)
-   * [레이어, 설정 및 스타일 탐색](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [콘텐츠 개인화](./landing-page-design.md#personalize-content)
-   * [연결된 URL 추적 편집](./landing-page-design.md#edit-linked-url-tracking)
+   <!--
+
+   Use the visual design tools as needed:
+
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
+   * [Add Assets](./landing-page-design.md#add-assets)
+   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./landing-page-design.md#personalize-content)
+   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+
+   -->
 
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
@@ -175,11 +207,11 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 * _[!UICONTROL 랜딩 페이지]_ 목록 페이지에서 _자세히_ 아이콘(**...**)을 클릭합니다. 랜딩 페이지 이름 옆에 있는 **[!UICONTROL 복제]**&#x200B;를 선택합니다.
 * 랜딩 페이지 세부 정보 페이지의 오른쪽 상단에서 **[!UICONTROL 을(를) 클릭합니다. 추가]**&#x200B;하고 **[!UICONTROL 복제]**&#x200B;를 선택하세요.
 
-![랜딩 페이지 복제](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
+<!-- ![Duplicate the landing page](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"} -->
 
 대화 상자에서 유용한 이름(고유)과 설명(선택 사항)을 입력합니다. 작업을 완료하려면 **[!UICONTROL 복제]**&#x200B;를 클릭하십시오.
 
-![중복된 랜딩 페이지의 이름과 설명을 입력하십시오](./assets/landing-page-duplicate-dialog.png){width="350"}
+<!-- ![Enter a name and description for the duplicated landing page](./assets/landing-page-duplicate-dialog.png){width="350"} -->
 
 그러면 복제된(새) 페이지가 _랜딩 페이지_ 목록에 나타납니다.
 
@@ -192,11 +224,11 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 이 작업을 수행하면 확인 대화 상자가 열립니다. **[!UICONTROL 취소]**&#x200B;를 클릭하여 프로세스를 중단하거나 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인할 수 있습니다.
 
-![랜딩 페이지 삭제 대화 상자](./assets/landing-page-delete-dialog.png){width="400"}
+<!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
 
 ## 랜딩 페이지 링크
 
-이메일, 조각 및 페이지 컨텐츠를 만드는 마케터 또는 Designer은 Journey Optimizer B2B edition 인스턴스에 만든 게시된(라이브) 랜딩 페이지에 대한 링크를 포함할 수 있습니다.
+이메일, 조각 및 페이지 콘텐츠를 생성하는 마케터 또는 크리에이티브는 Journey Optimizer B2B Prime 인스턴스에 생성된 게시된(라이브) 랜딩 페이지에 대한 링크를 포함할 수 있습니다.
 
 1. 조각, 이메일, 랜딩 페이지 또는 템플릿에 대한 시각적 디자인 공간에서 작업할 때 링크의 텍스트 일부, 버튼 구성 요소 또는 이미지 구성 요소를 선택합니다.
 
@@ -204,13 +236,13 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. **[!UICONTROL Type]** 옵션에 대해 **[!UICONTROL 랜딩 페이지]**&#x200B;을(를) 선택하십시오.
 
-   ![랜딩 페이지에 대한 링크 옵션](../../assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
 
-1. **[!UICONTROL 랜딩 페이지]** 옵션의 경우 _페이지 선택_ 아이콘(![링크 표시 아이콘](../assets/do-not-localize/icon-landing-page-select.svg))을 클릭합니다.
+1. **[!UICONTROL 랜딩 페이지]** 옵션의 경우 _페이지 선택_ 아이콘 <!-- ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) -->을(를) 클릭합니다.
 
 1. 랜딩 페이지 선택 대화 상자에서 **[!UICONTROL 랜딩 페이지 소스]**&#x200B;를 **[!UICONTROL Journey Optimizer B2B edition]**(으)로 설정하고 게시된 페이지 목록에서 랜딩 페이지에 대한 확인란을 선택한 다음 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-   ![랜딩 페이지에 대한 링크 옵션](../../assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"} -->
 
 1. **[!UICONTROL Target]** 옵션의 경우 링크 대상 동작을 선택하십시오.
 
