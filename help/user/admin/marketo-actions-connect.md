@@ -4,10 +4,17 @@ description: Marketo Engage 연결을 활성화하여 여정 작업을 지원하
 feature: Setup, Integrations
 role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
 source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
@@ -79,6 +86,6 @@ Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 �
 >
 >여정에서 실행된 Marketo Engage 작업은 연결된 Marketo Engage 인스턴스에 대한 REST API 제한에 적용되지 않습니다.
 
-완료된 통합을 통해 노드 속성의 :_**에 대한**_Actions에서 Marketo Engage 작업을 사용할 수 있습니다.
+완료된 통합을 통해 노드 속성의 :_&#x200B;**에 대한**&#x200B;_Actions에서 Marketo Engage 작업을 사용할 수 있습니다.
 
 ![Marketo 작업 목록](assets/marketo-actions-list.png){width="800" zoomable="yes"}
