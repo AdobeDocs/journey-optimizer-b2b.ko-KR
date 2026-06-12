@@ -487,5 +487,5 @@ _[!UICONTROL 이벤트]_ 탭의 목록에 저장된 이벤트가 표시됩니다
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448690/?captions=kor&learn=on) 
 -->
