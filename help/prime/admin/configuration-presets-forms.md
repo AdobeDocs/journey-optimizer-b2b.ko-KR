@@ -18,7 +18,7 @@ ht-degree: 10%
 
 ## 필요 조건
 
-웹 양식을 사용하려면 Adobe Experience Platform에 하나 이상의 _&#x200B;**HTTP API 스트리밍 연결**&#x200B;_&#x200B;이 정의되어 있어야 합니다. 사용하려는 각 연결이 다음 요구 사항을 충족하는지 확인하십시오.
+웹 양식을 사용하려면 Adobe Experience Platform에 하나 이상의 _**HTTP API 스트리밍 연결**_&#x200B;이 정의되어 있어야 합니다. 사용하려는 각 연결이 다음 요구 사항을 충족하는지 확인하십시오.
 
 * 데이터 유형은 원시 데이터가 아닌 XDM으로 설정되어야 합니다.
 * 인증을 사용하지 않도록 설정해야 합니다(인증되지 않은 연결).
@@ -90,7 +90,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >현재 프로필이 활성화되고 프로필이 활성화되지 않은 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)만 선택할 수 있습니다. 한 번에 하나의 데이터 세트를 선택할 수 있습니다. 시스템 데이터 세트는 양식 데이터를 저장하는 데 사용할 수 없습니다.
+   >현재 프로필이 활성화되고 프로필이 활성화되지 않은 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)만 선택할 수 있습니다. 한 번에 하나의 데이터 세트를 선택할 수 있습니다. 시스템 데이터 세트는 양식 데이터를 저장하는 데 사용할 수 없습니다.
 
    데이터 집합에 대한 확인란을 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
