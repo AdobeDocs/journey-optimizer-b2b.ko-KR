@@ -1,21 +1,21 @@
 ---
-user-guide-title: Journey Optimizer B2B Edition 설명서
-user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
+user-guide-title: Journey Optimizer B2B Ultimate 설명서
+user-guide-description: Adobe Journey Optimizer B2B edition Ultimate에 대해 알아보고 이를 사용하여 내장된 생성 AI 및 업계 최고의 자동화를 사용하여 계정 및 구매 그룹 여정을 오케스트레이션하는 방법을 알아봅니다.
+source-git-commit: b686ab778c1640cc76f098aa18b8f2bdb1e24a32
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 89%
+source-wordcount: '450'
+ht-degree: 79%
 
 ---
 
 
-# Journey Optimizer B2B Edition 사용 안내서 {#user}
+# Journey Optimizer B2B Ultimate 사용 안내서 {#user}
 
-+ [Adobe Journey Optimizer B2B Edition 설명서](guide-overview.md)
++ [Adobe Journey Optimizer B2B Ultimate 설명서](guide-overview.md)
 + [릴리스 정보](./release-notes/release-notes.md)
 + 시작하기 {#get-started}
    + [Journey Optimizer B2B Edition 개요](about-journey-optimizer-b2b-edition.md)
-   + 환경 설정 {#admin-setup}
+   + Ultimate 설정 {#ultimate}
       + [체크리스트 설정](./setup-ultimate.md)
       + [네임스페이스 및 스키마](./data/namespaces-schemas.md)
       + [XDM 필드 선택](./admin/xdm-field-management.md)
