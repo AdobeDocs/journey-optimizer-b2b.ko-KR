@@ -3,17 +3,11 @@ title: 랜딩 페이지
 description: 개인 여정을 위한 랜딩 페이지를 만들고, 디자인하고, 게시합니다. Journey Optimizer B2B Prime에서 처음부터 빌드하고, HTML을 가져오고, 양식을 추가하고, 콘텐츠를 개인화하고, 이메일을 통해 연결합니다.
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
 workflow-type: tm+mt
 source-wordcount: 1461
 ht-degree: 6%
@@ -48,7 +42,6 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
-
 ## 랜딩 페이지 액세스 및 관리
 
 Journey Optimizer B2B Prime의 랜딩 페이지에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 클릭하십시오. 이 작업은 인스턴스에서 만든 모든 랜딩 페이지 목록을 표시합니다.
@@ -137,16 +130,6 @@ TBD
 
 1. 시각적 디자인 공간에서 콘텐츠를 변경하려면 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭하세요.
 
-   <!-- 
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
 1. 페이지가 조건에 맞는 경우 표시할 수 있도록 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
@@ -165,18 +148,6 @@ TBD
 
    대화 상자에서 **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭하여 시각적 디자인 공간에서 초안 버전을 엽니다.
 
-   <!-- 
-   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
 1. 초안 랜딩 페이지가 조건을 충족하고 게시된 페이지에서 변경 사항을 사용할 수 있게 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
@@ -192,18 +163,6 @@ TBD
 콘텐츠를 업데이트하려면:
 
 1. 오른쪽 상단의 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다.
-
-   <!--
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-
-   -->
 
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
