@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
 workflow-type: tm+mt
 source-wordcount: 1461
 ht-degree: 6%
@@ -137,16 +137,6 @@ TBD
 
 1. 시각적 디자인 공간에서 콘텐츠를 변경하려면 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭하세요.
 
-   <!-- 
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
 1. 페이지가 조건에 맞는 경우 표시할 수 있도록 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
@@ -165,18 +155,6 @@ TBD
 
    대화 상자에서 **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭하여 시각적 디자인 공간에서 초안 버전을 엽니다.
 
-   <!-- 
-   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
 1. 초안 랜딩 페이지가 조건을 충족하고 게시된 페이지에서 변경 사항을 사용할 수 있게 하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
@@ -192,18 +170,6 @@ TBD
 콘텐츠를 업데이트하려면:
 
 1. 오른쪽 상단의 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다.
-
-   <!--
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-
-   -->
 
 1. 랜딩 페이지 세부 정보로 돌아가려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하십시오.
 
