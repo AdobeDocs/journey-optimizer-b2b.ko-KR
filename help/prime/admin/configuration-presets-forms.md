@@ -3,22 +3,14 @@ title: Forms 구성
 description: 플레이스홀더
 autotag-review: '2026-06-12T22:44:42.084Z'
 TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 10%
+source-wordcount: 541
+ht-degree: 12%
 
 ---
 
@@ -32,7 +24,7 @@ ht-degree: 10%
 
 ## 필요 조건
 
-웹 양식을 사용하려면 Adobe Experience Platform에 하나 이상의 _&#x200B;**HTTP API 스트리밍 연결**&#x200B;_&#x200B;이 정의되어 있어야 합니다. 사용하려는 각 연결이 다음 요구 사항을 충족하는지 확인하십시오.
+웹 양식을 사용하려면 Adobe Experience Platform에 하나 이상의 _**HTTP API 스트리밍 연결**_&#x200B;이 정의되어 있어야 합니다. 사용하려는 각 연결이 다음 요구 사항을 충족하는지 확인하십시오.
 
 * 데이터 유형은 원시 데이터가 아닌 XDM으로 설정되어야 합니다.
 * 인증을 사용하지 않도록 설정해야 합니다(인증되지 않은 연결).
@@ -65,7 +57,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
    * _대상 연결_ - 데이터가 저장되거나 사용되는 위치입니다.
    * _Source 흐름_ - 소스 연결에서 Experience Platform으로 데이터를 이동하는 파이프라인입니다. 매핑, 변환 및 유효성 검사를 처리합니다.
 
-## 양식 사전 설정 만들기
+## 양식 사전 설정 만들기 {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +88,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    이 연결은 웹 뷰어가 양식을 제출할 때 데이터를 전송하는 데 사용되는 스트리밍 끝점입니다. 필요한 스트리밍 연결이 목록에 표시되지 않으면 요구 사항이 충족되었는지 확인하십시오.
 
-1. _데이터 집합 선택_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) --> 아이콘을 클릭하여 데이터 집합을 양식과 연결합니다.
+1. _데이터 집합 선택_( ![데이터 집합 선택 아이콘](../../user/assets/do-not-localize/icon-select-data.svg) ) 아이콘을 클릭하여 데이터 집합을 양식과 연결합니다.
 
    데이터 집합은 양식 응답이 저장되고 반영되는 위치입니다. 텍스트 문자열을 입력하여 특정 데이터 세트를 검색하거나 목록에서 선택할 수 있습니다.
 

@@ -3,21 +3,13 @@ title: 이메일 작성
 description: 이메일 템플릿, 조각, 개인화, 다크 모드 및 유효성 검사를 포함한 Journey Optimizer B2B Prime의 이메일 디자인 도구를 사용합니다.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: 2789
 ht-degree: 1%
 
 ---
@@ -34,17 +26,15 @@ ht-degree: 1%
 
 이 작업은 다음 옵션 중에서 전자 메일을 디자인할 방법을 선택할 수 있는 전자 메일 디자인 공간을 시작합니다.
 
-* 시각적 디자인 인터페이스를 사용하여 [이메일을 처음부터 디자인하기](#design-your-email-from-scratch). 빈 캔버스에서 드래그 앤 드롭을 사용하여 구성 요소별로 이메일 레이아웃 구성 요소를 빌드합니다. 이 방법은 새 템플릿 또는 일회성 이메일을 만드는 데 가장 적합합니다.
+* 시각적 디자인 인터페이스를 사용하여 [이메일을 처음부터 디자인하기](#build-from-scratch). 빈 캔버스에서 드래그 앤 드롭을 사용하여 구성 요소별로 이메일 레이아웃 구성 요소를 빌드합니다. 이 방법은 새 템플릿 또는 일회성 이메일을 만드는 데 가장 적합합니다.
 
-* [HTML 가져오기](#html) 를 코드 편집기로 가져오거나 시각적 캔버스와 함께 작업합니다.
+* HTML을 코드 편집기로 가져오거나 시각적 캔버스와 나란히 작업할 수 있습니다. .html 및 .zip 업로드가 포함된 전체 HTML 가져오기 워크플로우는 Beta 로드맵에 있습니다.
 
-  <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* 기본 제공 또는 사용자 지정 전자 메일 서식 파일 목록에서 [기존 서식 파일을 선택하십시오](#select-a-template). 이 방법은 반복 가능한 이메일 사용 사례에 가장 적합합니다.
+* 기본 제공 또는 사용자 지정 전자 메일 서식 파일 목록에서 [기존 서식 파일을 선택하십시오](#create-from-template). 이 방법은 반복 가능한 이메일 사용 사례에 가장 적합합니다.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## 이메일 디자인 도구
+## 이메일 디자인 도구 {#email-design-tools}
 
 * **상단 도구 모음:** 저장, 뒤로, 코드 편집기로 전환, 미리 보기 컨트롤.
 * **왼쪽 레일:** 구조(열 레이아웃), 콘텐츠(텍스트, 단추, 이미지, 분할자, 소셜, HTML), 조각, 템플릿, 탐색 트리(전자 메일의 DOM 스타일 계층 구조).
@@ -140,7 +130,7 @@ HTML 및 CSS 모범 사례를 따르는 것은 이메일 클라이언트 간에 
 
 템플릿은 재사용 가능한 이메일 레이아웃입니다. 이메일 생성 속도를 높이고 브랜드 일관성을 유지하며 팀 공동 작업을 보다 쉽게 수행할 수 있습니다.
 
-### 템플릿 유형
+### 템플릿 유형 {#template-types}
 
 * **샘플 템플릿(기본 제공).** 일반적인 사용 사례(계정 기반 지원, 이벤트 초대, 교육, 제품 공지)를 다루는 20여 개의 준비된 템플릿 모든 고객에게 즉시 제공됩니다.
 * **저장된 템플릿(사용자 지정).** 팀에서 만든 템플릿 - **[!UICONTROL 콘텐츠 관리]** → **[!UICONTROL 템플릿]**&#x200B;에서 처음부터 빌드했거나 &quot;템플릿으로 저장&quot; 옵션을 사용하여 기존 이메일에서 저장했습니다.
@@ -214,7 +204,7 @@ HTML 및 CSS 모범 사례를 따르는 것은 이메일 클라이언트 간에 
 
 Prime은 개인화에 Handlebars 구문을 사용합니다. 전송 시 토큰은 각 수신자의 프로필 데이터에 있는 값으로 대체됩니다.
 
-### 개인화할 수 있는 위치
+### 개인화할 수 있는 위치 {#where-you-can-personalize}
 
 * **제목 줄** — 가장 일반적인 개인화 지점입니다.
 * **Preheader** — 시각적 캔버스 내에 설정되며 프로필 특성 토큰을 지원합니다.

@@ -4,17 +4,11 @@ description: Journey Optimizer B2B Prime에서 이메일 템플릿을 만드는 
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
 autotag-review: '2026-06-12T22:55:41.432Z'
 TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 1%
@@ -41,7 +35,8 @@ ht-degree: 1%
    >
    >이 Beta 릴리스에서는 이메일 템플릿만 지원됩니다.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. 전자 메일 디자인 공간을 열려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하세요.
 
 1. 콘텐츠 디자인 공간에 액세스하려면 **[!UICONTROL 전자 메일 본문 편집]**&#x200B;을 클릭하세요.
@@ -99,7 +94,8 @@ ht-degree: 1%
 1. **[!UICONTROL 템플릿 이름]** 및 선택적 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 1. **[!UICONTROL 채널]**&#x200B;을(를) 전자 메일로 설정합니다.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 ### 템플릿 콘텐츠 생성
