@@ -2,7 +2,7 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B edition Prime에 대해 알아보고 을(를) 하는 데 사용할 수 있는 방법을 알아봅니다.
 hide: true
-source-git-commit: b806577e0eeb57445809e33076a0c30689ecb5ab
+source-git-commit: 5342db511380b4aedcbbd5798800d3900e03045c
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 37%
@@ -56,9 +56,7 @@ ht-degree: 37%
 <!--
    + Business rules
    + Program types
--->
 
-<!-- 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
     + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
