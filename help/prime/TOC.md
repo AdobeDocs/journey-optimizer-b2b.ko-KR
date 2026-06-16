@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B edition Prime에 대해 알아보고 을(를) 하는 데 사용할 수 있는 방법을 알아봅니다.
 hide: true
-source-git-commit: 5342db511380b4aedcbbd5798800d3900e03045c
+source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 37%
+source-wordcount: '116'
+ht-degree: 38%
 
 ---
 
@@ -15,18 +15,19 @@ ht-degree: 37%
 + [Adobe Journey Optimizer B2B Prime 설명서](guide-overview.md)
 + [설정](./start/setup-prime.md)
 + [Home 및 Insights](./home-insights/home-insights.md)
++ [상담원](./agents/agents.md)
 + 마케팅 관리 {#marketing-management}
    + {hide-from-toc}[개요](./marketing/marketing-management.md)
    + [프로그램](./marketing/programs.md)
    + [개인 여정](./marketing/person-journeys.md)
    + 여정 노드 {#journey-nodes}
       + [노드 개요](./marketing/person-journey-nodes.md)
+      + [개인 대상자](./marketing/person-audience-node.md)
       + [액션 취하기](./marketing/action-nodes.md)
       + [이벤트 듣기](./marketing/listen-for-event-nodes.md)
       + [대기](./marketing/wait-nodes.md)
       + [경로 분할 및 병합](./marketing/split-merge-paths-nodes.md)
       + [다음 최적 경로](./marketing/next-best-path.md)
-+ [상담원](./agents/agents.md)
 + 대상자 {#audiences}
    + [대상자 관리](./audiences/audience-management.md)
    + [동적 대상 자격 조건](./audiences/dynamic-audience-qualification.md)

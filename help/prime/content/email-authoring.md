@@ -3,19 +3,11 @@ title: 이메일 작성
 description: 이메일 템플릿, 조각, 개인화, 다크 모드 및 유효성 검사를 포함한 Journey Optimizer B2B Prime의 이메일 디자인 도구를 사용합니다.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
 source-wordcount: 2789
 ht-degree: 1%
@@ -30,7 +22,7 @@ ht-degree: 1%
 >
 >하위 도메인, 인증, IP 풀 및 전자 메일 채널 구성에 대한 관리자 설정은 [전자 메일 배달 기능 및 채널 구성](../admin/configuration-email-deliverability.md)을 참조하십시오.
 
-[!DNL Journey Optimizer B2B Prime]에서 모든 전자 메일은 여정 내의 _[!UICONTROL 전자 메일 보내기]_ 작업과 연결됩니다. 여정 디자인부터 이메일 정의까지 전체 워크플로는 하나의 지속적인 경험에서 발생합니다. [개인 여정에 _전자 메일 보내기_ 노드를 추가](../marketing/person-journey-nodes.md#add-an-action-node)하면 **[!UICONTROL 전자 메일 만들기]**&#x200B;를 클릭하여 전자 메일 콘텐츠 디자인 프로세스를 시작합니다.
+[!DNL Journey Optimizer B2B Prime]에서 모든 전자 메일은 여정 내의 _[!UICONTROL 전자 메일 보내기]_ 작업과 연결됩니다. 여정 디자인부터 이메일 정의까지 전체 워크플로는 하나의 지속적인 경험에서 발생합니다. [개인 여정에 _전자 메일 보내기_ 노드를 추가](../marketing/action-nodes.md#add-an-action-node)하면 **[!UICONTROL 전자 메일 만들기]**&#x200B;를 클릭하여 전자 메일 콘텐츠 디자인 프로세스를 시작합니다.
 
 이 작업은 다음 옵션 중에서 전자 메일을 디자인할 방법을 선택할 수 있는 전자 메일 디자인 공간을 시작합니다.
 
