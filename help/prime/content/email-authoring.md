@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
 source-wordcount: 2789
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 >
 >하위 도메인, 인증, IP 풀 및 전자 메일 채널 구성에 대한 관리자 설정은 [전자 메일 배달 기능 및 채널 구성](../admin/configuration-email-deliverability.md)을 참조하십시오.
 
-[!DNL Journey Optimizer B2B Prime]에서 모든 전자 메일은 여정 내의 _[!UICONTROL 전자 메일 보내기]_ 작업과 연결됩니다. 여정 디자인부터 이메일 정의까지 전체 워크플로는 하나의 지속적인 경험에서 발생합니다. [개인 여정에 _전자 메일 보내기_ 노드를 추가](../marketing/person-journey-nodes.md#add-an-action-node)하면 **[!UICONTROL 전자 메일 만들기]**&#x200B;를 클릭하여 전자 메일 콘텐츠 디자인 프로세스를 시작합니다.
+[!DNL Journey Optimizer B2B Prime]에서 모든 전자 메일은 여정 내의 _[!UICONTROL 전자 메일 보내기]_ 작업과 연결됩니다. 여정 디자인부터 이메일 정의까지 전체 워크플로는 하나의 지속적인 경험에서 발생합니다. [개인 여정에 _전자 메일 보내기_ 노드를 추가](../marketing/action-nodes.md#add-an-action-node)하면 **[!UICONTROL 전자 메일 만들기]**&#x200B;를 클릭하여 전자 메일 콘텐츠 디자인 프로세스를 시작합니다.
 
 이 작업은 다음 옵션 중에서 전자 메일을 디자인할 방법을 선택할 수 있는 전자 메일 디자인 공간을 시작합니다.
 

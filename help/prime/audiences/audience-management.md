@@ -12,16 +12,14 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 4%
+source-wordcount: 474
+ht-degree: 3%
 
 ---
 
 # 대상자 관리
-
-대상은 AJO B2B Prime에서 어떻게 재생됩니까?
 
 마케팅 관리 허브에서 오른쪽 탐색에 있는 **[!UICONTROL 사람 목록]**&#x200B;을 클릭합니다.
 
@@ -74,9 +72,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## 사람 목록 만들기
 
 
-새 동적 또는 정적 목록을 만들려면 다음 작업을 수행하십시오.
+동적 또는 정적 목록을 만들려면 다음 작업을 수행하십시오.
 
-1. _[!UICONTROL 사람 목록]_ 페이지의 오른쪽 상단에 있는 **목록 만들기**&#x200B;를 클릭합니다.
+1. _[!UICONTROL 사람 목록]_ 페이지의 오른쪽 상단에 있는 **[!UICONTROL 목록 만들기]**&#x200B;를 클릭합니다.
 1. 목록의 **[!UICONTROL 상위]**(으)로 프로그램을 선택하십시오.
 1. **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]** 목록을 입력하십시오(선택 사항).
 1. **[!UICONTROL Type]**&#x200B;을(를) 나열하려면 선택하십시오.
@@ -93,6 +91,10 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## 정적 목록
 
 정적 목록 멤버십은 사용자 특성 및 활동을 참조하는 간단한 필터로 정의됩니다. 구성원이 자격을 수동으로 부여하거나 자격을 박탈하지 않는 한 멤버십은 변경되지 않습니다.
+
+>[!NOTE]
+>
+>정적 목록 필터 정의는 목록에 멤버를 추가하거나 목록에서 제거할 때 한 번만 적용됩니다. 정의된 필터는 나중에 사용할 수 없습니다. 필터를 사용하여 일관된 대상 정의를 유지하려면 동적 목록을 대신 사용하십시오.
 
 ### 구성원 추가
 
