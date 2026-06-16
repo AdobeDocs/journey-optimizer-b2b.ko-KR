@@ -26,7 +26,7 @@ TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 857
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="GenStudio에서 제작된 템플릿 사용하기"
->abstract="Adobe GenStudio for Performance Marketing과의 통합을 사용하여 Adobe AI 기술로 향상된 GenStudio 템플릿을 가져옵니다."
+>abstract="Adobe GenStudio for Performance Marketing과의 통합 기능을 사용하여 Adobe AI 기술로 향상된 GenStudio 템플릿을 가져올 수 있습니다."
 
 >[!AVAILABILITY]
 >

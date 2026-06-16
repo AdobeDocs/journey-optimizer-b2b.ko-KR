@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 2476
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="AI 콘텐츠 생성"
->abstract="레이아웃을 만든 후 [!DNL Journey Optimizer B2B Edition]에서 생성 AI 도구를 사용하여 콘텐츠를 개선합니다. 이 기능은 프롬프트에 따라 콘텐츠를 미세 조정하여 개인화 및 콘텐츠 개선을 간소화합니다."
+>abstract="레이아웃을 만든 후에는 [!DNL Journey Optimizer B2B Edition]에서 생성형 AI 도구를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 사용자의 프롬프트에 따라 콘텐츠를 세부 조정하는 방식으로 개인화 및 콘텐츠 개선을 간소화합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="참조 콘텐츠"
->abstract="_참조 콘텐츠_&#x200B;를 사용하여 [!DNL Journey Optimizer B2B Edition]의 생성 AI에 대한 컨텍스트를 제공하는 자산 파일을 업로드하거나 선택하십시오. 이를 통해 생성된 콘텐츠의 품질과 관련성을 향상시킬 수 있습니다."
+>abstract="[!DNL Journey Optimizer B2B Edition]에서 생성형 AI에 컨텍스트를 제공하는 에셋 파일을 업로드하거나 선택하려면  _참조 콘텐츠_&#x200B;를 사용하십시오. 이 옵션을 사용하면 생성된 콘텐츠의 품질과 관련성을 향상시키기 위한 자료를 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 생성형 AI 약관"
->abstract="이 기능에 액세스하려면 Adobe Experience Cloud 생성 AI 사용자 지침에 동의해야 합니다. 이 기능을 통한 모든 출력 내용이 정확한지 검토하고 사용 사례에 적합한지 확인해 보시기 바랍니다."
+>abstract="이 기능에 액세스하려면 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 대한 사용자의 동의가 있어야 합니다. 이 기능을 통한 모든 출력 내용이 정확한지 검토하고 사용 사례에 적합한지 확인해 보시기 바랍니다."
 >additional-url="https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 생성형 AI 사용자 가이드라인"
 
 Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 [!DNL Adobe Journey Optimizer B2B Edition]의 콘텐츠에 대한 생성 AI는 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다. 다양한 주요 제목과 이미지를 테스트하여 콘텐츠에 미치는 영향을 최적화합니다.
