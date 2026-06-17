@@ -29,7 +29,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::: landing-cards-container
 
 :::
-![개인 대상 노드](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![개인 대상 노드](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
 
 개인 대상 노드
 
@@ -39,7 +39,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![작업 노드](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![작업 노드](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 작업 노드
 
@@ -49,7 +49,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![이벤트 노드](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![이벤트 노드](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 이벤트 노드
 
@@ -59,7 +59,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![대기 노드](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![대기 노드](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
 
 대기 노드
 
@@ -69,7 +69,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![경로 노드 분할 및 병합](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![경로 노드 분할 및 병합](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 경로 노드 분할 및 병합
 
@@ -79,7 +79,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![다음 최상의 경로 노드](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![다음 최상의 경로 노드](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ko)
 
 다음 최적 경로 노드
 
