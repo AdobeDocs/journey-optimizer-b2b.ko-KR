@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B edition Prime에 대해 알아보고 을(를) 하는 데 사용할 수 있는 방법을 알아봅니다.
 hide: true
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 38%
 
 ---
@@ -29,13 +29,15 @@ ht-degree: 38%
       + [경로 분할 및 병합](./marketing/split-merge-paths-nodes.md)
       + [다음 최적 경로](./marketing/next-best-path.md)
 + 대상자 {#audiences}
-   + [대상자 관리](./audiences/audience-management.md)
+   + [사용자 목록](./audiences/people-lists.md)
+   + [대상](./audiences/destinations.md)
    + [동적 대상 자격 조건](./audiences/dynamic-audience-qualification.md)
    + [이벤트 기반 대상](./audiences/event-based-audiences.md)
 + 콘텐츠 {#content}
    + 이메일 {#emails}
       + [이메일 작성](./content/email-authoring.md)
       + [다크 모드 디자인](./content/email-dark-mode.md)
+   + [WhatsApp 메시지](./content/whatsapp-authoring.md)
    + 템플릿 {#templates}
       + [개요](./content/templates.md)
       + [템플릿 만들기](./content/templates-create.md)

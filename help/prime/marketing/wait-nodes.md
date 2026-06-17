@@ -1,6 +1,6 @@
 ---
 title: 대기 노드
-description: 플레이스홀더
+description: Journey Optimizer B2B edition Prime에서 대기 노드를 구성합니다. 기간, 날짜 또는 고급 일 및 시간 예약별로 여정 진행을 일시 중지합니다.
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
 product_v2:
@@ -12,10 +12,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 1%
+source-wordcount: 690
+ht-degree: 0%
 
 ---
 
@@ -28,30 +28,30 @@ ht-degree: 1%
 * 여정의 다음 노드로 이동하려는 특정 날짜
 * 상대적 기간(분, 시간, 일, 주 또는 개월 수)
 
-## 대기 노드 추가
+## 대기 노드 추가 {#add-wait-node}
 
-1. 여정 맵으로 이동합니다.
+1. 여정 캔버스로 이동합니다.
 
 1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 대기]**&#x200B;를 선택합니다.
 
-<!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+   ![여정 경로에서 추가 아이콘 클릭](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. 여정이 경로의 다음 노드로 진행되기 전에 기다리는 시간을 설정하려면 오른쪽의 노드 속성을 사용하여 **[!UICONTROL Type]**&#x200B;을(를) 설정하십시오.
 
    * **[!UICONTROL 기간]** - 대기 노드의 시작과 종료 사이에 경과할 특정 일, 시간 또는 분을 정의합니다.
    * **[!UICONTROL 날짜]** - 종료 날짜 및 시간을 지정합니다.
 
-<!-- ![Journey node - wait](./assets/node-wait.png){width="500"} -->
+   ![여정 노드 - 대기](./assets/wait-node.png){width="500"}
 
-## 고급 대기 설정
+## 고급 대기 설정 {#advanced-wait-settings}
 
 **[!UICONTROL 다음에서 끝나야 함]** 옵션을 사용하여 _고급 대기 단계_&#x200B;를 구성하고 메시지가 최적의 순간에 사람 및 계정 구성원에게 도달하는지 확인하십시오. 이 구성을 사용하면 개인 또는 계정이 대기 단계를 종료하고 여정의 다음 노드로 진행되는 시기를 정확하게 제어할 수 있습니다. 시작부터 종료까지 고정된 시간 또는 일 수가 아니라 특정 시간 및 특정 요일에 실행되도록 작업을 예약할 수 있습니다.
 
 _고급 대기 단계_&#x200B;를 사용하면 단순히 기다리는 시간이 아니라 사용자 또는 계정이 종료되는 **_시기_**&#x200B;를 정의합니다.
 
-<!-- ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"} -->
+![여정 노드 - 고급 대기 단계](./assets/wait-node-advanced.png){width="500"}
 
-### 대기 유형
+### 대기 유형 {#wait-types}
 
 | 대기 유형 | 설명 | 구성 |
 | --------- | ----------- | ------------- |
@@ -60,7 +60,7 @@ _고급 대기 단계_&#x200B;를 사용하면 단순히 기다리는 시간이 
 | **일 범위 또는 조합** | 범위 내(예: 월요일-금요일) 또는 지정된 날짜 중 하나까지 보류 | 목표 일자를 선택합니다. 시간을 지정하지 않으면 선택한 시간대의 자정에 일치하는 다음 날에 종료됩니다. |
 | **시간 + 일 조합** | 정확한 예약을 위해 두 옵션을 결합합니다(예: 화요일 오전 10:00). | 목표 일수를 선택하고 목표 시간을 설정합니다. 다음 날/시간 발생 시 종료(선택한 시간대에 대해). |
 
-### 일반적인 시나리오
+### 일반적인 시나리오 {#common-scenarios}
 
 다음 시나리오에서는 일반적인 예를 대기 노드 구성에 적용하는 방법을 보여 줍니다.
 
@@ -88,7 +88,7 @@ _고급 대기 단계_&#x200B;를 사용하면 단순히 기다리는 시간이 
 
 +++
 
-### 시작 및 종료 예
+### 시작 및 종료 예 {#entry-exit-examples}
 
 | 대기 구성 | 계정/잠재 고객 입력 | 계정/리드 종료 |
 | ------------------ | ------------------- | ------------------ |

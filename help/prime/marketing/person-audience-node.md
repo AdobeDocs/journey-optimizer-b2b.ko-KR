@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: 197
 ht-degree: 0%
 
 ---
@@ -25,19 +25,23 @@ ht-degree: 0%
 
 _개인 대상_ 노드는 여정에 들어오는 개인 프로필을 지정합니다. [개인 여정을 만듭니다](./person-journeys.md). 여정은 항상 입력을 정의하는 개인 대상 노드로 시작합니다. 개인 대상 노드에는 정적 사람 목록과 동적 사람 목록의 두 대상 입력 유형 중 하나가 있을 수 있습니다.
 
-개인 여정에 필요한 사람 목록이 이미 없는 경우 [사람 목록을 만들고](../audiences/audience-management.md#create-a-people-list) Peson 대상 노드를 구성하십시오.
+개인 여정에 필요한 사람 목록이 이미 없는 경우 [사람 목록을 만들고](../audiences/people-lists.md#create-a-people-list) Peson 대상 노드를 구성하십시오.
 
-## 개인 대상 노드에 대한 대상 설정
+## 대상자 설정
 
 1. **[!UICONTROL 개인 대상]** 노드를 클릭합니다.
 
    이 작업은 오른쪽에 노드 속성을 표시합니다.
 
-   <!-- ![Person audience journey node](./assets/person-journey-person-audience-node.png){width="700" zoomable="yes"} -->
+   ![개인 대상 여정 노드](./assets/person-audience-node-properties.png){width="500" zoomable="yes"}
 
-1. 오른쪽의 노드 속성 패널에서 개인 대상 여정 노드에 대해 다음 입력 옵션 중 하나를 사용합니다.
+1. 개인 대상에 대해 다음 대상 구성 옵션 중 하나를 사용합니다.
 
    * **[!UICONTROL 동적 목록]** - 규칙 기반의 동적 사용자 목록을 사용합니다. 목록 규칙은 여정 런타임 시 평가되어 여정 멤버를 우량으로 선별합니다. 나중에 다이내믹 목록의 자격을 박탈하는 사람은 여정에서 제거되지 않습니다.
 
-   * **[!UICONTROL 정적 목록]** - 여정 구성원으로 정적 사용자 목록을 사용합니다. 현재 목록 멤버십은 여정 런타임 시 평가되어 여정에 멤버를 우량으로 합니다. 나중에 정적 목록에서 제거되는 사람은 여정에서 제거되지 않습니다.
+   * **[!UICONTROL 이벤트 대상]** - 이벤트 대상을 사용하면 자격 있는 이벤트를 기반으로 여정 대상을 정의할 수 있습니다. 개인 프로필 필터링을 사용하여 대상 구성원을 정의하고 이벤트 기준을 사용하여 여정 항목을 트리거합니다.
+
+## 이벤트 대상자 정의
+
+PM에서 정보를 가져오는 경우 를 추가합니다.
 

@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 11%
@@ -50,7 +50,7 @@ ht-degree: 11%
 
 ### 계정 이벤트 추가
 
-1. 여정 맵으로 이동합니다.
+1. 여정 캔버스로 이동합니다.
 
 1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 이벤트 수신]**&#x200B;을 선택합니다.
 
@@ -102,7 +102,7 @@ ht-degree: 11%
 
 ### 인물 이벤트 추가
 
-1. 여정 맵으로 이동합니다.
+1. 여정 캔버스로 이동합니다.
 
 1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 이벤트 수신]**&#x200B;을 선택합니다.
 
@@ -118,7 +118,7 @@ ht-degree: 11%
 
 연결된 Marketo Engage 인스턴스에 웹 페이지가 있는 경우 이러한 웹 페이지에 대한 방문/방문 없음뿐만 아니라 작성되지 않았거나 작성되지 않은 Marketo Engage 양식에 따라 이벤트를 트리거할 수 있습니다.
 
-1. 여정 맵에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
+1. 여정 캔버스에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
 
 1. 오른쪽의 노드 속성에서 이벤트 유형으로 **[!UICONTROL 사람]**&#x200B;을(를) 선택합니다.
 
@@ -147,7 +147,7 @@ ht-degree: 11%
 
 1. 필요한 경우 **[!UICONTROL 시간 초과]** 옵션을 설정하여 이벤트를 수신할 기간을 제한하십시오([이벤트 노드에 시간 초과 추가](#add-a-timeout-to-an-event-node) 참조).
 
-1. 여정 맵에서 이벤트가 발생할 때 실행할 다음 노드를 추가합니다.
+1. 여정 캔버스에서 이벤트가 발생할 때 실행할 다음 노드를 추가합니다.
 
 ### 경험 이벤트 수신 {#listen-for-an-experience-event}
 
@@ -163,7 +163,7 @@ ht-degree: 11%
 
 여정에 경험 이벤트를 포함하려면(_T):_
 
-1. 여정 맵에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
+1. 여정 캔버스에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
 
 1. (계정 여정 전용) 오른쪽의 노드 속성에서 이벤트 유형으로 **[!UICONTROL 사용자]**&#x200B;를 선택합니다.
 
@@ -197,7 +197,7 @@ ht-degree: 11%
 
 1. 필요한 경우 **[!UICONTROL 시간 초과]** 옵션을 설정하여 이벤트를 수신할 기간을 제한하십시오([이벤트 노드에 시간 초과 추가](#add-a-timeout-to-an-event-node) 참조).
 
-1. 여정 맵에서 이벤트가 발생할 때 실행할 다음 노드를 추가합니다.
+1. 여정 캔버스에서 이벤트가 발생할 때 실행할 다음 노드를 추가합니다.
 
 1. 여정의 나머지 노드를 완료하고 [게시](./journeys-overview.md)하십시오.
 
