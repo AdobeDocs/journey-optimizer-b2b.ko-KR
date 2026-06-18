@@ -3,14 +3,9 @@ title: WhatsApp 채널 구성
 description: Meta의 Cloud API를 통해 WhatsApp 비즈니스 계정을 연결하여 Journey Optimizer B2B Prime 개인 여정에서 WhatsApp 메시지를 활성화합니다.
 autotag-review: '2026-06-12T22:42:51.072Z'
 TQID: 'https://experienceleague.adobe.com/eXXIyzNkDD-54QcqkT2xR8qVB5pLyUByCc0NwBViV-Q'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
 workflow-type: tm+mt
 source-wordcount: 1487
@@ -79,7 +74,7 @@ WhatsApp 메시지를 보내기 전에 Journey Optimizer B2B Prime 환경을 구
    * **[!UICONTROL API 토큰]** - API 토큰을 입력하십시오. 자세한 내용은 [Meta 설명서](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)를 참조하세요.
    * **[!UICONTROL 비즈니스 계정 ID]** - 비즈니스 포트폴리오와 관련된 고유 번호를 입력합니다. 자세한 내용은 [Meta 설명서](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)를 참조하세요.
 
-   ![WhatsApp 설정 API 자격 증명 &#x200B;](../../user/admin/assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![WhatsApp 설정 API 자격 증명 ](../../user/admin/assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
