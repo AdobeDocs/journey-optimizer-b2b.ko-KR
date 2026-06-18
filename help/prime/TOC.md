@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B edition Prime에 대해 알아보고 을(를) 하는 데 사용할 수 있는 방법을 알아봅니다.
 hide: true
-source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
+source-git-commit: f471a870b1e54b4588317d495eb7f7625051ac65
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 38%
+source-wordcount: '128'
+ht-degree: 39%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 38%
 # Journey Optimizer B2B Prime 사용 안내서 {#prime}
 
 + [Adobe Journey Optimizer B2B Prime 설명서](guide-overview.md)
-+ [설정](./start/setup-prime.md)
++ 시작하기 {#start}
+   + [체크리스트 설정](./start/setup-prime.md)
+   + [사용자 관리](./start/user-management.md)
 + [Home 및 Insights](./home-insights/home-insights.md)
 + [상담원](./agents/agents.md)
 + 마케팅 관리 {#marketing-management}
@@ -28,6 +30,7 @@ ht-degree: 38%
       + [대기](./marketing/wait-nodes.md)
       + [경로 분할 및 병합](./marketing/split-merge-paths-nodes.md)
       + [다음 최적 경로](./marketing/next-best-path.md)
+   + [이메일 전송 시간 최적화](./marketing/email-send-time-optimization.md)
 + 대상자 {#audiences}
    + [사용자 목록](./audiences/people-lists.md)
    + [대상](./audiences/destinations.md)

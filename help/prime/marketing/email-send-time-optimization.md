@@ -1,29 +1,69 @@
 ---
-title: 전송 시간 최적화
-description: 플레이스홀더
-hide: true
-autotag-review: '2026-06-12T22:59:17.581Z'
+title: 이메일 전송 시간 최적화
+description: Adobe Journey Optimizer B2B Prime의 STO(전송 시간 최적화)는 개인 여정에 대한 이메일 전달을 개인화합니다. STO를 활성화하고 참여를 개선하는 방법을 알아봅니다.
+autotag-review: '2026-06-17T20:52:02.535Z'
 TQID: 'https://experienceleague.adobe.com/wlxhS7E8DnbThm5ge-wzTkMcn-eBzFUXfw3ZGrfcRHA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
-source-wordcount: 8
-ht-degree: 100%
+source-wordcount: 403
+ht-degree: 0%
 
 ---
 
-# 전송 시간 최적화
+# 이메일 전송 시간 최적화
 
-TBD
+STO(전송 시간 최적화) 기능을 사용하여 각 프로필이 참여할 가능성이 가장 높은 시점을 예측하여 [개인 여정](./person-journeys.md)에 대한 이메일 게재 타이밍을 개인화합니다. STO는 고정된 전송 시간 대신 과거 이메일 참여 신호를 사용하여 각 수신자에게 최적의 시간에 게재를 예약함으로써 전반적인 참여도를 향상시킵니다.
+
+STO는 큰 언어 모델을 사용하여 각 프로필의 참여 기록을 분석합니다. 잠재적인 전송 시간을 예측하고 등급을 지정한 다음 최적화 기간 내에서 가장 높은 순위의 시간에 게재를 예약합니다.
+
+<!-- Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant. -->
+
+>[!BEGINSHADEBOX]
+
+STO에 대해 **_향후 개선 사항_**&#x200B;이 많이 예정되어 있습니다.
+
+* _[!UICONTROL 관리자]_ 영역의 전역 STO 구성
+* 여정 수준 STO 지원
+* 구성 가능한 테스트 / 제어 분할
+
+>[!ENDSHADEBOX]
+
+## 구성 {#configuration}
+
+[개인 여정에 _[!UICONTROL 작업 수행]_ 노드 추가](./action-nodes.md)하고 **[!UICONTROL 전자 메일 보내기]** 작업을 선택하면 전송 시간 최적화를 구성할 수 있습니다.
+
+1. _전자 메일 보내기_ 여정 작업 노드를 선택하십시오.
+
+1. 오른쪽의 노드 속성에서 **[!UICONTROL 전송 시간 최적화]** 옵션을 사용하도록 설정합니다.
+
+   ![전자 메일 여정 노드 보내기 - 전송 시간 최적화 옵션](./assets/email-node-send-time-optimization.png){width="450" zoomable="no"}
+
+1. 창과 테스트 배포를 지정하려면 STO 옵션을 설정합니다.
+
+   * **[!UICONTROL 다음 날짜 이내에 보내기]** - 이 값은 전자 메일이 배달될 수 있는 시간 범위인 최적화 기간(일)을 결정합니다. 예를 들어 5일 후에 발생하는 웨비나의 경우 4일 또는 5일 기간을 설정할 수 있습니다. STO는 이 창 내에서 각 프로필에 대해 가장 잘 예측된 전송 시간을 선택합니다.
+
+   * **STO/고정 배포** - STO는 _테스트 및 제어 분할_&#x200B;을 자동으로 만들어 적격한 프로필을 최적화된 전송 시간과 고정된 전송 시간 간에 나눕니다. 분할을 통해 직접적인 성능 비교를 수행할 수 있습니다. (사용자 정의 분할 비율을 허용하도록 향후 개선 사항이 계획되었습니다.)
+
+   >[!NOTE]
+   >
+   >강한 참여 기록이 있는 프로필은 STO 영향을 측정하기 위해 제어 및 테스트 그룹으로 균등하게 분할됩니다. 통계적으로 신뢰할 수 있는 결과를 보장하기 위해, STO 대 비 STO 분할은 30%와 70% 사이에서 제한된다. 이는 소규모 집단이 결과를 왜곡하는 것을 방지하고 의미 있는 비교를 보장하는 데 도움이 됩니다.
+
+1. _[!UICONTROL 전자 메일 보내기]_ 노드 바로 뒤에 [_대기_ 노드를 추가](./wait-nodes.md)합니다.
+
+   대기 노드는 즉시 STO 사용 이메일 작업 다음에 와야 합니다. 이 노드를 추가하면 전체 최적화 창이 지워지고 모든 STO 전송이 완료될 때까지 프로필이 여정에 남아 있게 됩니다. 이 노드를 생략하면 시스템이 구성을 유효하지 않은 것으로 플래그를 지정합니다.
+
+1. 나머지 개인 여정을 완료한 후 [게시](./person-journeys.md#publish)를 진행합니다.
+
+## 보고
+
+
