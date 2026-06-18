@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 541
 ht-degree: 12%
@@ -119,3 +119,4 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 1. **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
    양식 사전 설정이 _게시됨_ 상태로 나열되면 양식 만들기에 사용할 수 있습니다.
+<!-- -->

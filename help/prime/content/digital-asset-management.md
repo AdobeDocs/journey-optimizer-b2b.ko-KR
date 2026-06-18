@@ -16,7 +16,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 85f61c8fa8eda07dfe8ea1e83f3c261c9159976f
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 495
 ht-degree: 3%
@@ -93,3 +93,4 @@ _[!UICONTROL Assets]_ 라이브러리에 처음 액세스하면 _[!UICONTROL Gen
 업로드가 완료되면 시스템에서 설명을 자동으로 생성하고, 태그와 키워드를 지정하며, 제목 및 설정과 같은 시각적 속성을 추출합니다. 수동 태깅은 필요하지 않습니다. 이 프로세스가 완료될 때까지 새 이미지가 _[!UICONTROL 처리 중]_ 상태로 표시됩니다.
 
 ![처리 중인 새 이미지 자산](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+<!-- -->

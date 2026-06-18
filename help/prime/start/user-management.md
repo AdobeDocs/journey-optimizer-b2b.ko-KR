@@ -1,7 +1,7 @@
 ---
 title: 사용자 액세스 및 권한
 description: 'Adobe Admin Console에서 사용자 액세스 관리: Journey Optimizer B2B edition Prime에 대한 사용자 그룹 만들기, 제품 프로필 할당 및 역할 기반 권한 설정.'
-source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 70%
@@ -55,7 +55,7 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
 
 ![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Adobe Journey Optimizer B2B edition 제품 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다.
 
@@ -305,3 +305,4 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 사용자 정의 역할이 구성되었으며 할당된 그룹의 사용자가 이제 선택한 Journey Optimizer B2B edition 기능에 액세스할 수 있습니다.
+<!-- -->
