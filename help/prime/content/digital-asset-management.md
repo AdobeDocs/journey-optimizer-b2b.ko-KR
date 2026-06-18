@@ -1,0 +1,89 @@
+---
+title: 자산
+description: 이메일, 템플릿 및 시각적 조각에 대한 Journey Optimizer B2B edition의 이미지 에셋을 관리합니다.
+feature: Assets, Content
+role: User
+badge: label="Beta" type="Informative"
+autotag-review: '2026-06-18T20:11:57.611Z'
+TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 85f61c8fa8eda07dfe8ea1e83f3c261c9159976f
+workflow-type: tm+mt
+source-wordcount: 495
+ht-degree: 3%
+
+---
+
+# 자산
+
+[!DNL Adobe Journey Optimizer B2B Prime]에서 에셋은 일반적으로 여정을 지원하는 콘텐츠를 디자인할 때 사용되는 이미지입니다. 자산 선택기의 이메일, 이메일 템플릿 및 시각적 조각 또는 시각적 디자인 공간 내의 간단한 드래그 앤 드롭 인터페이스에서 이러한 이미지를 사용할 수 있습니다.
+
+지원되는 파일 형식: JPG, JPEG, GIF, PNG, EPS, SVG 및 RGB
+
+
+>>
+Marketo Engage DAM과 같은 외부 시스템에서 에셋을 가져오고 미리 채워진 에셋 라이브러리에 액세스할 수 없습니다. 향후 릴리스에는 기존 시스템의 자산 가져오기, 폴더 지원 및 확장된 자산 관리 기능이 포함될 것으로 예상됩니다.
+
+<!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
+
+**Assets** 라이브러리는 이미지 및 기타 크리에이티브 자산을 저장하고 관리하기 위한 중앙 저장소에 대한 액세스를 제공합니다. 여기에는 메타데이터를 자동으로 생성하고 자연어 검색을 가능하게 하는 AI 기반의 기능이 포함되어 있습니다.
+
+왼쪽 탐색에서 **[!UICONTROL 콘텐츠 관리]**&#x200B;를 확장하고 **[!UICONTROL Assets]**&#x200B;을 선택합니다.
+
+>[!NOTE]
+>
+>이 Beta 릴리스에서는 이메일 캔버스 내부에 직접 Marketo Engage 에셋 라이브러리의 일회성 복사본에서 이미지 및 에셋을 선택할 수 있습니다. _[!UICONTROL Assets]_ 라이브러리 또는 콘텐츠 디자인 공간에서 추가 이미지 에셋을 업로드할 수도 있습니다. 업로드된 이러한 자산은 [!DNL Adobe Journey Optimizer B2B Prime] 인스턴스에서만 사용할 수 있습니다.
+
+![Assets 라이브러리](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+_[!UICONTROL Assets]_ 라이브러리에 처음 액세스하면 _[!UICONTROL Generative AI 사용 약관]_&#x200B;을 검토하고 **[!UICONTROL 동의 및 계속]**&#x200B;을 클릭하세요.
+
+![Assets 라이브러리](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+
+>[!ENDSHADEBOX]
+
+라이브러리는 다음 두 가지 레이아웃 옵션을 지원합니다.
+
+* **[!UICONTROL 목록]** — 메타데이터 열이 있는 정렬 가능한 테이블에 에셋을 표시하려면 _목록 보기_( ![목록 보기 아이콘](../../assets/do-not-localize/icon-falco-list-view.svg) ) 아이콘을 클릭합니다.
+* **[!UICONTROL 갤러리]** — 자산을 시각적 썸네일 격자로 표시하려면 _갤러리 보기_( ![갤러리 보기 아이콘](../../assets/do-not-localize/icon-falco-gallery-view.svg)) 아이콘을 클릭합니다.
+
+## 자산 검색 {#find-assets}
+
+필요한 내용을 자연어로 설명하여 자산을 찾으려면 _[!UICONTROL 검색]_ 필드를 사용하십시오. 검색 결과는 AI가 생성한 메타데이터를 기반으로 하므로 파일 이름별로 검색하도록 제한되지 않습니다.
+
+**예:**
+
+* `team members`
+* `nature`
+* `exercise`
+
+![Assets 라이브러리의 검색 결과에서 선택한 이미지](./assets/dam-asset-library-select-image.png){width="700" zoomable="yes"}
+
+## 자산 세부 사항 보기 {#view-details}
+
+세부 사항 보기를 열 자산을 선택합니다. 세부 사항 보기에는 AI가 생성한 설명, 태그 및 키워드와 추가 메타데이터 필드가 표시됩니다. 에셋이 업로드되면 이 정보가 자동으로 생성됩니다.
+
+목록 또는 갤러리 보기에서 에셋을 선택하여 오른쪽에 세부 사항 보기를 엽니다. AI 생성 설명, 태그 및 메타데이터를 보려면 AI 메타데이터 탭을 선택합니다.
+
+![Assets 라이브러리의 검색 결과에서 선택한 이미지](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
+
+## 에셋 업로드 {#upload}
+
+1. 오른쪽 상단의 **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
+
+1. 대화 상자에서 로컬 시스템에서 파일을 끌어서 놓습니다.
+
+   ![이미지 자산 업로드](./assets/dam-upload-assets-dialog.png){width="450"}
+
+   또는 **[!UICONTROL 컴퓨터에서 파일 선택]**&#x200B;을 클릭하여 로컬 파일 시스템을 사용하여 파일을 찾아 선택할 수 있습니다.
+
+1. **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 파일을 확인하고 저장소에 업로드합니다.
+
+업로드가 완료되면 시스템에서 설명을 자동으로 생성하고, 태그와 키워드를 지정하며, 제목 및 설정과 같은 시각적 속성을 추출합니다. 수동 태깅은 필요하지 않습니다. 이 프로세스가 완료될 때까지 새 이미지가 _[!UICONTROL 처리 중]_ 상태로 표시됩니다.
+
+![처리 중인 새 이미지 자산](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}

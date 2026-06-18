@@ -3,17 +3,11 @@ title: 작업 노드 수행
 description: 플레이스홀더
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1d0093ad5298593d291372d838794fe8cab5f646
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 2%
@@ -155,7 +149,7 @@ ht-degree: 2%
 
 ![작업 수행 - 전자 메일 보내기](./assets/person-action-node-send-email.png){width="450"}
 
-이메일을 만들거나 기존 이메일을 편집하거나 AI가 개인화한 이메일을 사용할 수 있습니다. 전자 메일 만들기 및 편집에 대한 자세한 내용은 [전자 메일 작성](../content/email-authoring.md)을 참조하세요.
+이메일을 만들거나 기존 이메일을 편집하거나 AI가 개인화한 이메일을 사용할 수 있습니다. 전자 메일 만들기 및 편집에 대한 자세한 내용은 [전자 메일 채널](../marketing/email-channel.md)을 참조하세요.
 
 [전송 시간 최적화](../marketing/email-send-time-optimization.md)를 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 이메일 게재 시기를 개인화할 수 있습니다.
 

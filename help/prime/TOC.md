@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B edition Prime에 대해 알아보고 을(를) 하는 데 사용할 수 있는 방법을 알아봅니다.
 hide: true
-source-git-commit: f471a870b1e54b4588317d495eb7f7625051ac65
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 39%
+source-wordcount: '131'
+ht-degree: 42%
 
 ---
 
@@ -30,17 +30,19 @@ ht-degree: 39%
       + [대기](./marketing/wait-nodes.md)
       + [경로 분할 및 병합](./marketing/split-merge-paths-nodes.md)
       + [다음 최적 경로](./marketing/next-best-path.md)
-   + [이메일 전송 시간 최적화](./marketing/email-send-time-optimization.md)
+   + 이메일 채널 {#email-channel}
+      + [개요](./marketing/email-channel.md)
+      + [이메일 전송 시간 최적화](./marketing/email-send-time-optimization.md)
+      + [이메일 작성](./content/email-authoring.md)
+      + [어두운 모드 디자인](./content/email-dark-mode.md)
+   + [WhatsApp 채널](./content/whatsapp-authoring.md)
 + 대상자 {#audiences}
    + [사용자 목록](./audiences/people-lists.md)
    + [대상](./audiences/destinations.md)
    + [동적 대상 자격 조건](./audiences/dynamic-audience-qualification.md)
    + [이벤트 기반 대상](./audiences/event-based-audiences.md)
 + 콘텐츠 {#content}
-   + 이메일 {#emails}
-      + [이메일 작성](./content/email-authoring.md)
-      + [다크 모드 디자인](./content/email-dark-mode.md)
-   + [WhatsApp 메시지](./content/whatsapp-authoring.md)
+   + [자산](./content/digital-asset-management.md)
    + 템플릿 {#templates}
       + [개요](./content/templates.md)
       + [템플릿 만들기](./content/templates-create.md)

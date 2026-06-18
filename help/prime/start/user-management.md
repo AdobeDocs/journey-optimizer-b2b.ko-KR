@@ -1,10 +1,10 @@
 ---
 title: 사용자 액세스 및 권한
 description: 'Adobe Admin Console에서 사용자 액세스 관리: Journey Optimizer B2B edition Prime에 대한 사용자 그룹 만들기, 제품 프로필 할당 및 역할 기반 권한 설정.'
-source-git-commit: f471a870b1e54b4588317d495eb7f7625051ac65
+source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 75%
+source-wordcount: '1725'
+ht-degree: 70%
 
 ---
 
@@ -12,14 +12,16 @@ ht-degree: 75%
 
 프로비저닝이 완료되고 샌드박스가 바인딩되면 다음 단계를 완료하여 팀과 사용자에게 Adobe Journey Optimizer B2B edition 액세스를 제공합니다.
 
-1. Admin Console에서 [Adobe Journey Optimizer B2B edition 제품 프로필 만들기](#ajo-b2b-profile)(1회/초기 설정만 해당).
+1. Admin Console에서 [Adobe Journey Optimizer B2B edition 제품 프로필 만들기](#create-profile)(1회/초기 설정만 해당).
 1. Admin Console에서 [사용자 그룹 추가](#add-user-group).
 1. Adobe Experience Platform 권한에서 Journey Optimizer B2B edition 권한을 사용하여 [기본 제공 역할을 편집](#edit-roles-for-product-permissions) 또는 [사용자 지정 역할을 만들기](#create-a-custom-role)합니다.
 1. Adobe Experience Platform의 역할에 [사용자 추가](#add-users-to-a-role) 또는 [그룹](#add-user-groups-to-a-role).
 
+## 제품 프로필 구성 {#config-profile}
+
 관리자는 Adobe 제품 라이선스와 사용자를 관리하고 관리하는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서는 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html) 페이지를 참조하세요.
 
-## Admin Console 액세스
+### Admin Console 액세스
 
 Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Admin Console에 액세스하고 적절한 권한을 보유할 수 있는지 확인해야 합니다.
 
@@ -49,15 +51,13 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
    * **[!UICONTROL 관리자 역할]** 열의 값에 `System`이(가) 표시되면 사용자(또는 표시된 사용자)가 시스템 관리자임을 알 수 있습니다.
 
-## Adobe Journey Optimizer B2B edition 제품 프로필 만들기 {#ajo-b2b-profile}
+### Adobe Journey Optimizer B2B edition 제품 프로필 만들기 {#create-profile}
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Adobe Journey Optimizer B2B edition 제품 관리자는 다음 단계를 수행할 수 있습니다.
-
-1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에 로그인합니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Adobe Journey Optimizer B2B edition 제품 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다.
 
 1. **[!UICONTROL 제품]** 탭을 선택합니다.
 
@@ -69,15 +69,13 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 사용자 그룹 추가 {#add-user-group}
+### 사용자 그룹 추가 {#add-user-group}
 
 사용자 그룹은 공유 사용 권한 집합이 부여된 사용자 컬렉션입니다. 사용자 그룹의 사용자를 추가하거나 제거할 수 있습니다. 그룹 내의 사용자가 변경되는 동안 그룹 권한은 동일하게 유지됩니다.
 
 사용자 그룹을 사용하여 권한을 관리하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/user-groups.html){target="_blank"}를 참조하십시오.
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자는 다음 단계를 수행할 수 있습니다.
-
-1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에 로그인합니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다.
 
 1. **[!UICONTROL 사용자]** 탭을 선택합니다.
 
@@ -89,39 +87,11 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
    ![관리 콘솔 - 사용자 그룹 추가](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
 
-## 새 그룹에 사용자 추가 {#add-users}
+### 제품 프로필 할당 {#assign-profile}
 
-사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [_Adobe Admin Console 사용자_](https://helpx.adobe.com/kr/enterprise/using/users.html){target="_blank"}를 참조하십시오.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 제품 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다.
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 제품 관리자는 다음 단계를 수행할 수 있습니다. 제품 관리자는 해당 조직에 이미 존재하는 사용자만 추가할 수 있습니다.
-
-1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com)&#x200B;(으)로 이동합니다.
-
-1. _[!UICONTROL 빠른 링크]_&#x200B;에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
-
-1. 각 사용자 추가:
-
-   * 사용자의 이메일 주소, 이름 및 성을 입력합니다.
-
-     ![관리 콘솔 - 새 그룹에 대한 사용자 프로필 추가](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
-
-   * **[!UICONTROL 사용자 그룹]**&#x200B;의 경우 **+**&#x200B;을(를) 클릭합니다.
-
-   * 이전에 생성한 사용자 그룹을 선택합니다.
-
-   * **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
-
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-## 제품 프로필 할당 {#assign-profile}
-
->[!IMPORTANT]
->
->사용자 그룹을 구성할 때는 제품 프로필을 그룹에 할당하기 전에 항상 사용자를 그룹에 추가하십시오. 빈 사용자 그룹에 제품 프로필을 할당하고 나중에 사용자를 추가해도 액세스가 제대로 전파되지 않습니다. 권한이 적용되도록 하려면 먼저 사용자 그룹을 구성원으로 채운 다음 제품 프로필을 할당합니다.
-
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 제품 관리자는 다음 단계를 수행할 수 있습니다.
-
-1. 사용자를 추가한 사용자 그룹을 클릭합니다.
+1. 생성한 사용자 그룹을 클릭합니다.
 
 1. **[!UICONTROL 할당된 제품 프로필]** 탭을 선택하고 **[!UICONTROL 프로필 할당]**&#x200B;을 클릭합니다.
 
@@ -136,13 +106,55 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
+### 새 그룹에 사용자 추가 {#add-users}
+
+사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [_Adobe Admin Console 사용자_](https://helpx.adobe.com/kr/enterprise/using/users.html){target="_blank"}를 참조하십시오.
+
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 제품 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다. 제품 관리자는 해당 조직에 이미 존재하는 사용자만 추가할 수 있습니다.
+
+1. 사용자가 아직 조직의 멤버가 아닌 경우 각 사용자를 추가합니다.
+
+   * _[!UICONTROL 빠른 링크]_&#x200B;에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+
+   * 사용자의 전자 메일 주소를 입력하고 **[!UICONTROL 새 사용자로 추가]**&#x200B;를 클릭합니다.
+
+     ![관리 콘솔 - 새 그룹에 대한 사용자 프로필 추가](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
+
+   * 이름과 성을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+1. 그룹에 각 사용자를 추가합니다.
+
+   * 사용자 이름을 클릭합니다.
+
+   * 사용자 세부 정보 페이지에서 **[!UICONTROL 사용자 그룹]**(으)로 스크롤합니다.
+
+   * 왼쪽의 _자세히_( **...**) 아이콘을 클릭하고 **[!UICONTROL 사용자 그룹 편집]**&#x200B;을 선택합니다.
+
+   * **[!UICONTROL 사용자 그룹]** 아래의 _추가_( **+**) 아이콘을 클릭합니다.
+
+     ![관리 콘솔 - 사용자에 대한 사용자 그룹 선택](./assets/admin-console-user-edit-user-groups.png){width="600" zoomable="yes"}
+
+   * 이전에 만든 사용자 그룹을 선택하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+
+   * 사용자 변경 내용을 보려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
+
 ## 제품 권한에 대한 역할 편집 {#edit-roles-for-product-permissions}
 
 권한은 제품 프로필에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 Journey Optimizer B2B edition의 기능을 나타내는 여정 또는 구매 그룹과 같은 기능으로 그룹화됩니다.
 
 Adobe Experience Platform의 _권한_ 영역에서 관리자는 사용자 역할과 액세스 정책을 정의하여 제품 응용 프로그램 내의 기능 및 개체에 대한 액세스 권한을 관리할 수 있습니다. 이 앱에서는 역할을 만들고 관리하며, 이러한 역할에 대해 원하는 리소스 권한을 할당할 수 있습니다. 또한 권한을 사용하여 특정 역할과 연관된 샌드박스 및 사용자를 관리할 수 있습니다.
 
-Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
+Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
+
+1. [experience.adobe.com](https://experience.adobe.com/)&#x200B;(으)로 이동합니다.
+
+1. _[!UICONTROL 빠른 액세스]_ 패널에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+
+   >[!NOTE]
+   >
+   >_[!UICONTROL 권한]_&#x200B;이 표시되지 않으면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하고 사용 가능한 응용 프로그램에서 선택해야 할 수 있습니다.
+
+   ![Experience Platform - 액세스 권한](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 <!--
 
@@ -160,18 +172,19 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 | B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
 | B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
 | Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
--->
 
-### B2B 기본 제공 역할 {#b2b-built-in-roles}
+### B2B built-in roles {#b2b-built-in-roles}
 
-조직에 Journey Optimizer B2B edition 제품이 프로비저닝되면 Experience Platform에는 제품 기능에 대한 액세스를 관리하는 데 사용할 수 있는 기본 제공(기본) 역할 세트가 포함됩니다.
+When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
-| 역할 | 권한 |
+| Role | Permissions |
 | ---- | ----------- |
-| B2B 여정 관리자 | <li>B2B 여정 관리 <li>B2B 구매 그룹 관리 <li>B2B 계정 목록 관리 <li>B2B 참여 대시보드 보기 <li>B2B 통찰력 대시보드 보기 |
-| B2B 채널 관리자 | <li>B2B Assets 관리 <li>B2B 템플릿 관리 <li>B2B 조각 관리 |
-| B2B 시스템 관리자 | <li>B2B 채널 구성 관리 <li>B2B 관리 구성 관리 |
-| B2B 영업 사용자 | <li>B2B 참여 대시보드 보기 <li>B2B 구매 그룹 보기 <li>In-CRM Insights 액세스 |
+| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
+| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
+| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
+| B2B Sales User | <li>View B2B Engagement Dashboard <li>View B2B Buying Groups <li>Access In-CRM Insights |
+
+-->
 
 ### 역할 권한 편집 {#edit-role-permissions}
 
@@ -184,16 +197,6 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 >Admin Console 시스템 관리자는 다음 단계를 수행할 수 있습니다.
 
 :_역할에 대한 권한을 변경하려면(_T)
-
-1. [experience.adobe.com](https://experience.adobe.com/)&#x200B;(으)로 이동합니다.
-
-1. _[!UICONTROL 빠른 액세스]_ 패널에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
-
-   >[!NOTE]
-   >
-   >_[!UICONTROL 권한]_&#x200B;이 표시되지 않으면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하고 사용 가능한 응용 프로그램에서 선택해야 할 수 있습니다.
-
-   ![Experience Platform - 액세스 권한](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. 왼쪽 탐색에서 **[!UICONTROL 역할]**&#x200B;을(를) 선택합니다.
 
@@ -265,7 +268,7 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 
 1. 추가할 모든 그룹을 선택한 경우 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 사용자 정의 역할 만들기 {#create-a-custom-role}
+### 사용자 정의 역할 만들기 {#create-a-custom-role}
 
 ![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
 
