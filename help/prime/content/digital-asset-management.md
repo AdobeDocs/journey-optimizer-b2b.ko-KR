@@ -6,17 +6,11 @@ role: User
 badge: label="Beta" type="Informative"
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 85f61c8fa8eda07dfe8ea1e83f3c261c9159976f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 495
 ht-degree: 3%
@@ -30,7 +24,7 @@ ht-degree: 3%
 지원되는 파일 형식: JPG, JPEG, GIF, PNG, EPS, SVG 및 RGB
 
 
-&#x200B;>>
+>>
 Marketo Engage DAM과 같은 외부 시스템에서 에셋을 가져오고 미리 채워진 에셋 라이브러리에 액세스할 수 없습니다. 향후 릴리스에는 기존 시스템의 자산 가져오기, 폴더 지원 및 확장된 자산 관리 기능이 포함될 것으로 예상됩니다.
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
@@ -93,3 +87,4 @@ _[!UICONTROL Assets]_ 라이브러리에 처음 액세스하면 _[!UICONTROL Gen
 업로드가 완료되면 시스템에서 설명을 자동으로 생성하고, 태그와 키워드를 지정하며, 제목 및 설정과 같은 시각적 속성을 추출합니다. 수동 태깅은 필요하지 않습니다. 이 프로세스가 완료될 때까지 새 이미지가 _[!UICONTROL 처리 중]_ 상태로 표시됩니다.
 
 ![처리 중인 새 이미지 자산](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+<!-- -->
