@@ -3,20 +3,14 @@ title: 랜딩 페이지
 description: 개인 여정을 위한 랜딩 페이지를 만들고, 디자인하고, 게시합니다. Journey Optimizer B2B Prime에서 처음부터 빌드하고, HTML을 가져오고, 양식을 추가하고, 콘텐츠를 개인화하고, 이메일을 통해 연결합니다.
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
 source-wordcount: 2180
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -136,12 +130,12 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_primary_page"
 >title="기본 페이지 설정 정의"
->abstract="수신자가 랜딩 페이지 링크를 클릭할 때(예: 이메일 또는 웹 사이트에서) 즉시 표시되는 기본 페이지를 정의합니다."
+>abstract="수신자가 이메일 또는 웹 사이트에서 랜딩 페이지 링크를 클릭하면 즉시 표시될 기본 페이지를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="랜딩 페이지 URL 정의"
->abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분을 사용하려면 이전에 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다."
+>abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분의 경우 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 이전에 설정해 두었어야 합니다."
 
 기본 페이지는 수신자가 랜딩 페이지 링크를 클릭할 때(예: 이메일 또는 웹 사이트에서) 즉시 표시되는 페이지입니다.
 
@@ -173,7 +167,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_preview_lp_profiles"
 >title="랜딩 페이지 미리보기 및 테스트"
->abstract="랜딩 페이지 설정 및 콘텐츠를 정의한 후 테스트 프로필을 사용하여 페이지를 미리 봅니다."
+>abstract="랜딩 페이지 설정 및 콘텐츠가 정의된 후 테스트 프로필을 사용하여 페이지를 미리보기할 수 있습니다."
 
 랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 페이지를 미리 볼 수 있습니다. [개인 맞춤화된 콘텐츠](email-authoring.md#personalization)를 삽입한 경우 테스트 프로필 데이터를 사용하여 랜딩 페이지에 이 콘텐츠가 어떻게 표시되는지 확인할 수 있습니다.
 

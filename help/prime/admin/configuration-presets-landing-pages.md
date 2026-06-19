@@ -3,22 +3,14 @@ title: 랜딩 페이지 구성
 description: 플레이스홀더
 autotag-review: '2026-06-12T22:45:35.906Z'
 TQID: 'https://experienceleague.adobe.com/wLeiKuegGFhAA73dOrwF9lmsZrDWhUiZXWSzwMpQwxk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a96755d6-1f54-4f3f-a971-d31f83705ab7id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -45,7 +37,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
->abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인이 하나 이상 구성되어 있는지 확인하십시오."
+>abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인이 하나 이상 구성되어 있는지 확인합니다."
 
 구성된 랜딩 페이지 하위 도메인을 검토하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동하십시오. 탐색 창의 _[!UICONTROL 랜딩 페이지]_&#x200B;에서 **[!UICONTROL 랜딩 페이지 하위 도메인]**&#x200B;을 선택합니다.
 
@@ -119,7 +111,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_lp_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="새 랜딩 페이지 하위 도메인을 구성하려면 Journey Optimizer B2B 인터페이스에 표시된 Adobe 이름 서버 정보를 복사하여 도메인 호스팅 솔루션에 붙여 넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 성공하면 하위 도메인을 사용하여 랜딩 페이지 사전 설정을 만들 수 있습니다."
+>abstract="새 랜딩 페이지 하위 도메인을 구성하려면 Journey Optimizer B2B 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 완료되면 이제 랜딩 페이지 사전 설정 만들기에 하위 도메인을 사용할 수 있습니다."
 
 1. **[!UICONTROL 랜딩 페이지 하위 도메인 설정]**&#x200B;을 클릭합니다.
 
@@ -219,7 +211,7 @@ _To add a landing page subdomain:_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain_header"
 >title="랜딩 페이지 사전 설정 만들기"
->abstract="랜딩 페이지를 만들고 Journey Optimizer B2B edition을 통해 활용하려면 사용할 하위 도메인을 포함하는 랜딩 페이지 사전 설정을 만들어야 합니다."
+>abstract="랜딩 페이지를 빌드하고 Journey Optimizer B2B Edition을 통해 활용하려면 사용할 하위 도메인이 포함된 랜딩 페이지 사전 설정을 만들어야 합니다."
 
 마케터는 랜딩 페이지를 만들 때 랜딩 페이지를 빌드하고 [!DNL Journey Optimizer B2B Edition]을(를) 통해 활용할 수 있도록 랜딩 페이지 사전 설정을 선택해야 합니다. 사전 설정에는 랜딩 페이지에 사용할 하위 도메인이 포함됩니다.
 

@@ -3,22 +3,14 @@ title: Forms 구성
 description: 플레이스홀더
 autotag-review: '2026-06-12T22:44:42.084Z'
 TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -32,7 +24,7 @@ ht-degree: 12%
 
 ## 필요 조건
 
-웹 양식을 사용하려면 Adobe Experience Platform에 하나 이상의 _&#x200B;**HTTP API 스트리밍 연결**&#x200B;_&#x200B;이 정의되어 있어야 합니다. 사용하려는 각 연결이 다음 요구 사항을 충족하는지 확인하십시오.
+웹 양식을 사용하려면 Adobe Experience Platform에 하나 이상의 _**HTTP API 스트리밍 연결**_&#x200B;이 정의되어 있어야 합니다. 사용하려는 각 연결이 다음 요구 사항을 충족하는지 확인하십시오.
 
 * 데이터 유형은 원시 데이터가 아닌 XDM으로 설정되어야 합니다.
 * 인증을 사용하지 않도록 설정해야 합니다(인증되지 않은 연결).
@@ -76,7 +68,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="데이터 세트 선택"
->abstract="양식 응답을 저장 및 반영하는 데이터 세트를 정의합니다. 특정 데이터 세트를 검색하려면 텍스트를 입력하거나 목록에서 선택하십시오."
+>abstract="양식 응답이 저장되고 반영될 데이터 세트를 정의합니다. 텍스트를 입력하여 특정 데이터 세트를 검색하거나 목록에서 선택할 수 있습니다."
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동합니다.
 
