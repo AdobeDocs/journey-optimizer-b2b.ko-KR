@@ -1,7 +1,7 @@
 ---
 title: 사용자 액세스 및 권한
 description: 'Adobe Admin Console에서 사용자 액세스 관리: Journey Optimizer B2B edition Prime에 대한 사용자 그룹 만들기, 제품 프로필 할당 및 역할 기반 권한 설정.'
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 70%
@@ -305,4 +305,3 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 사용자 정의 역할이 구성되었으며 할당된 그룹의 사용자가 이제 선택한 Journey Optimizer B2B edition 기능에 액세스할 수 있습니다.
-<!-- -->

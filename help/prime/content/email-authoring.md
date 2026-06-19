@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 2789
+source-wordcount: 2753
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Prime을 사용하면 이메일 디자인 공간에서 기존 Marketo Design Stu
 
 >[!IMPORTANT]
 >
->Prime의 자산 가용성은 Marketo Design Studio에서 가져온 자산의 **일회성 복사본**&#x200B;을 기반으로 합니다. 초기 복사 후 Marketo에서 자산을 다시 업로드하거나 수정하면 **이(가) Prime에 반영되지 않습니다**. 이 릴리스에서는 Prime에 직접 이미지를 업로드할 수도 없습니다. 업로드, 폴더 탐색, 검색 및 이미지 편집 등 Prime 내의 기본 디지털 에셋 관리는 Beta 범위의 일부입니다.
+>Prime의 자산 가용성은 Marketo Design Studio에서 가져온 자산의 **일회성 복사본**&#x200B;을 기반으로 합니다. 초기 복사 후 Marketo Engage에서 자산을 수정하는 것은 [!DNL Journey Optimizer B2B Prime]에 반영되는 **not**&#x200B;입니다.
 
 ### 지원되는 파일 유형 {#asset-file-types}
 

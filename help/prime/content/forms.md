@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 2281
 ht-degree: 1%
@@ -349,4 +349,3 @@ Forms은 재사용을 위해 디자인되었으며 [랜딩 페이지](./landing-
 랜딩 페이지 디자인 공간에서 양식을 선택하면 이러한 작업은 컨텍스트 도구 모음과 오른쪽의 속성 패널에서 사용할 수 있습니다.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
-<!-- -->

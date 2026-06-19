@@ -14,7 +14,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +42,22 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>Adobe Admin Console에서 Marketo Engage 제품 프로필 만들기(새 Marketo Engage 인스턴스만 해당)</td>
 <td><a href="./user-management.md#create-profile">자세히 알아보기</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>프로필에 대한 사용자 그룹 추가</td>
 <td><a href="./user-management.md#add-user-group">자세히 알아보기</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>B2B 사용자 역할 구성</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">자세히 알아보기</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>역할에 사용자 또는 그룹 추가</td>
 <td><a href="./user-management.md#add-users-to-a-role">자세히 알아보기</a></td>
 </tr>
@@ -81,26 +81,25 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>Adobe에 하위 도메인 위임</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">완전히 위임됨</a> 또는 <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>하위 도메인용 DMARC 구성</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">자세히 알아보기</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>IP 풀 검토 및 할당</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">자세히 알아보기</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
 <td>이메일 채널 구성 만들기</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">자세히 알아보기</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 
