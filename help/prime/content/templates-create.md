@@ -4,17 +4,11 @@ description: Journey Optimizer B2B Prime에서 이메일 템플릿을 만드는 
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
 autotag-review: '2026-06-12T22:55:41.432Z'
 TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 880
 ht-degree: 1%
@@ -171,4 +165,3 @@ ht-degree: 1%
 * 여정에서 템플릿을 사용하기 전에 이메일 클라이언트와 장치에서 렌더링을 테스트합니다.
 * 브랜드 색상, 글꼴 및 스타일 지침과의 정렬을 확인합니다.
 * 이미지 대체 텍스트를 포함하여 접근성을 검토하고 향상합니다.
-<!-- -->
