@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1034
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
->abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인이 하나 이상 구성되어 있는지 확인하십시오."
+>abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인이 하나 이상 구성되어 있는지 확인합니다."
 
 구성된 랜딩 페이지 하위 도메인을 검토하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동하십시오. 탐색 창의 _[!UICONTROL 랜딩 페이지]_&#x200B;에서 **[!UICONTROL 랜딩 페이지 하위 도메인]**&#x200B;을 선택합니다.
 
@@ -121,7 +121,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_lp_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="새 랜딩 페이지 하위 도메인을 구성하려면 Journey Optimizer B2B 인터페이스에 표시된 Adobe 이름 서버 정보를 복사하여 도메인 호스팅 솔루션에 붙여 넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 성공하면 하위 도메인을 사용하여 랜딩 페이지 사전 설정을 만들 수 있습니다."
+>abstract="새 랜딩 페이지 하위 도메인을 구성하려면 Journey Optimizer B2B 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 완료되면 이제 랜딩 페이지 사전 설정 만들기에 하위 도메인을 사용할 수 있습니다."
 
 1. **[!UICONTROL 랜딩 페이지 하위 도메인 설정]**&#x200B;을 클릭합니다.
 
@@ -221,7 +221,7 @@ _To add a landing page subdomain:_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_config_lp_subdomain_header"
 >title="랜딩 페이지 사전 설정 만들기"
->abstract="랜딩 페이지를 만들고 Journey Optimizer B2B edition을 통해 활용하려면 사용할 하위 도메인을 포함하는 랜딩 페이지 사전 설정을 만들어야 합니다."
+>abstract="랜딩 페이지를 빌드하고 Journey Optimizer B2B Edition을 통해 활용하려면 사용할 하위 도메인이 포함된 랜딩 페이지 사전 설정을 만들어야 합니다."
 
 마케터는 [랜딩 페이지를 만들기](../content/landing-pages-create-publish.md#create-landing-page)할 때 랜딩 페이지를 만들고 [!DNL Journey Optimizer B2B Edition]을(를) 통해 활용할 수 있도록 랜딩 페이지 사전 설정을 선택해야 합니다. 사전 설정에는 랜딩 페이지에 사용할 하위 도메인이 포함됩니다.
 

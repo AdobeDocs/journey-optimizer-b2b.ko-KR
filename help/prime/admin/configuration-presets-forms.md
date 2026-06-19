@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -76,7 +76,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="데이터 세트 선택"
->abstract="양식 응답을 저장 및 반영하는 데이터 세트를 정의합니다. 특정 데이터 세트를 검색하려면 텍스트를 입력하거나 목록에서 선택하십시오."
+>abstract="양식 응답이 저장되고 반영될 데이터 세트를 정의합니다. 텍스트를 입력하여 특정 데이터 세트를 검색하거나 목록에서 선택할 수 있습니다."
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동합니다.
 

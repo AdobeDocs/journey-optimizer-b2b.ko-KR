@@ -16,7 +16,7 @@ role_v2:
 source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
 source-wordcount: 2180
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -136,12 +136,12 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_primary_page"
 >title="기본 페이지 설정 정의"
->abstract="수신자가 랜딩 페이지 링크를 클릭할 때(예: 이메일 또는 웹 사이트에서) 즉시 표시되는 기본 페이지를 정의합니다."
+>abstract="수신자가 이메일 또는 웹 사이트에서 랜딩 페이지 링크를 클릭하면 즉시 표시될 기본 페이지를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="랜딩 페이지 URL 정의"
->abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분을 사용하려면 이전에 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다."
+>abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분의 경우 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 이전에 설정해 두었어야 합니다."
 
 기본 페이지는 수신자가 랜딩 페이지 링크를 클릭할 때(예: 이메일 또는 웹 사이트에서) 즉시 표시되는 페이지입니다.
 
@@ -173,7 +173,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_preview_lp_profiles"
 >title="랜딩 페이지 미리보기 및 테스트"
->abstract="랜딩 페이지 설정 및 콘텐츠를 정의한 후 테스트 프로필을 사용하여 페이지를 미리 봅니다."
+>abstract="랜딩 페이지 설정 및 콘텐츠가 정의된 후 테스트 프로필을 사용하여 페이지를 미리보기할 수 있습니다."
 
 랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 페이지를 미리 볼 수 있습니다. [개인 맞춤화된 콘텐츠](email-authoring.md#personalization)를 삽입한 경우 테스트 프로필 데이터를 사용하여 랜딩 페이지에 이 콘텐츠가 어떻게 표시되는지 확인할 수 있습니다.
 

@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -84,12 +84,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="기본 페이지 설정 정의"
->abstract="수신자가 랜딩 페이지 링크를 클릭할 때(예: 이메일 또는 웹 사이트에서) 즉시 표시되는 기본 페이지를 정의합니다."
+>abstract="수신자가 이메일 또는 웹 사이트에서 랜딩 페이지 링크를 클릭하면 즉시 표시될 기본 페이지를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="랜딩 페이지 URL 정의"
->abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분을 사용하려면 이전에 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다."
+>abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분의 경우 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 이전에 설정해 두었어야 합니다."
 
 1. 필요에 따라 **[!UICONTROL 페이지 이름]**&#x200B;을 변경합니다. 기본적으로 _기본 페이지_&#x200B;입니다.
 
@@ -246,7 +246,7 @@ Adobe Journey Optimizer B2B edition은 고유한 랜딩 페이지 및 랜딩 페
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="랜딩 페이지 미리보기 및 테스트"
->abstract="랜딩 페이지 설정 및 콘텐츠를 정의한 후 테스트 프로필을 사용하여 페이지를 미리 봅니다."
+>abstract="랜딩 페이지 설정 및 콘텐츠가 정의된 후 테스트 프로필을 사용하여 페이지를 미리보기할 수 있습니다."
 
 랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 페이지를 미리 볼 수 있습니다. [개인 맞춤화된 콘텐츠](./personalization.md)를 삽입한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 랜딩 페이지에 표시되는 방식을 확인할 수 있습니다.
 
