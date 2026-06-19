@@ -1,7 +1,8 @@
 ---
-title: 이메일 채널
-description: 계정 여정에 이메일 작업 노드 추가 - 새 이메일을 만들거나 Journey Optimizer B2B edition의 타깃팅된 커뮤니케이션에 기존 Marketo Engage 이메일을 사용합니다.
-feature: Email Authoring, Account Journeys
+title: 여정에 이메일 추가
+description: Journey Optimizer B2B Prime에서 개인 여정에 이메일 작업 노드를 추가하고 타겟팅된 커뮤니케이션용 새 이메일을 만듭니다.
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
+feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
@@ -16,36 +17,44 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 2%
+source-wordcount: 1037
+ht-degree: 1%
 
 ---
 
-# 이메일 채널
+# 여정에 이메일 추가
 
-[!DNL Adobe Journey Optimizer B2B Prime]은(는) B2B 마케터에게 현대적인 엔터프라이즈급 이메일 작성 및 게재 환경을 제공합니다. 이 릴리스에는 새롭게 디자인된 이메일 디자인 도구 및 전체 이메일 전달성 제어 세트가 도입되었습니다.
+[!DNL Adobe Journey Optimizer B2B Prime]은(는) B2B 마케터에게 현대적인 엔터프라이즈급 이메일 작성 및 게재 환경을 제공합니다.
 
 >[!NOTE]
 >
->전자 메일을 처음 보내는 경우 [전자 메일 채널 및 게재 기능](../admin/configuration-email-deliverability.md)이 구성되어 있는지 확인하십시오.
+>전자 메일을 처음 보내는 경우 [전자 메일 게재 기능](../start/email-deliverability.md) 및 필요한 [전자 메일 채널](../admin/email-channel-configuration.md)이 구성되어 있는지 확인하십시오.
 
-## 이메일 채널 개요 {#overview}
+<!-- 
+* **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
+* **Email deliverability controls** - Set up your email deliverability channel, including subdomain delegation (Fully Delegated and CNAME methods), DMARC, SPF/DKIM auto-configuration, and shared IP pool support.
+* **Send Email action** - From a journey, add a _Send email_ action node, including personalization using profile attributes (Handlebars syntax).
+* **Visual drag-and-drop email design tools** -  Design your email content with structures, content components, themes, dark-mode support, and reusable visual fragments.
+* **Marketo Design Studio assets** — Choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas.
+* **Reusable templates and fragments** — Save common headers, footers, CTAs, and full email layouts and reuse them across journeys.
+* **Role-Based Access Control (RBAC)** — Apply granular permissions for creating, editing, approving, and sending email. 
+-->
 
-* **전자 메일 채널 구성** - 보낸 사람 ID, 회신 동작, 마케팅과 트랜잭션 메시지 유형 및 추적을 관리합니다.
-* **전자 메일 배달 가능성 컨트롤** - 하위 도메인 위임(완전히 위임됨 및 CNAME 메서드), DMARC, SPF/DKIM 자동 구성 및 공유 IP 풀 지원을 포함하여 전자 메일 배달 가능성 채널을 설정합니다.
-* **전자 메일 보내기 작업** - 여정에서 프로필 특성(Handlebars 구문)을 사용한 개인화를 포함하여 _전자 메일 보내기_ 작업 노드를 추가하십시오.
-* **시각적 드래그 앤 드롭 이메일 디자인 도구** - 구조, 콘텐츠 구성 요소, 테마, 다크 모드 지원 및 재사용 가능한 시각적 조각을 사용하여 이메일 콘텐츠를 디자인할 수 있습니다.
-* **Marketo Design Studio 자산** — 전자 메일 캔버스 바로 내부에서 Marketo Engage 자산 라이브러리의 일회성 복사본에서 이미지와 자산을 선택합니다.
-* **재사용 가능한 템플릿 및 조각** — 일반적인 머리글, 바닥글, CTA 및 전체 이메일 레이아웃을 저장하고 여정 간에 재사용합니다.
-* **RBAC(역할 기반 액세스 제어)** - 전자 메일 만들기, 편집, 승인 및 전송에 세부적인 권한을 적용합니다.
+## 현재 제한 사항 {#limitations}
+
+* 이 릴리스에서는 **테스트 프로필, 콘텐츠 시뮬레이션 및 증명 보내기**&#x200B;를 사용할 수 없습니다. Litmus 렌더링 및 SpamAssassin 기반 스팸 보고서는 GA 로드맵에 있습니다.
+* 이 릴리스에서는 **계정 수준 개인화 및 사용자 지정 개체 데이터**&#x200B;를 사용할 수 없습니다. 프로필 속성을 사용합니다.
+* 기존 Marketo Engage 템플릿의 **Velocity-to-Handlebars 자동 마이그레이션**&#x200B;이(가) GA에 제공됩니다.
+* **이메일에 대한 댓글 및 공동 작업**(인라인 댓글, @mentions, 요청 검토 워크플로)은 예정된 릴리스에 제공됩니다.
+* **AEM Assets, AEM 콘텐츠 조각 및 Adobe Express** 통합이 _빠른 후속_ 로드맵에 있습니다.
 
 ## 주요 개념 {#key-concepts}
 
 개인 여정을 위한 이메일을 만들고 이메일 콘텐츠를 작성하기 전에 다음 개념을 검토하십시오.
 
-| 개념 | [!DNL Journey Optimizer B2B Prime] Prime |
+| 개념 | [!DNL Adobe Journey Optimizer B2B Prime]에서 |
 | ------- | ---------------------- |
 | **_전자 메일 디자인 공간_** | 이메일 콘텐츠를 구성하는 데 사용되는 시각적 캔버스 및 디자인 도구입니다. 여기에는 드래그 앤 드롭 레이아웃 구성 요소, 템플릿, 조각, 테마 및 개인화 편집기가 포함되어 있습니다. |
 | **_템플릿_** | 새 이메일을 만드는 데 사용할 수 있는 재사용 가능한 이메일 레이아웃. Adobe에서 제공하는 내장 샘플 템플릿 또는 팀에서 만드는 사용자 지정 빌드 템플릿일 수 있습니다. |
@@ -56,68 +65,67 @@ ht-degree: 2%
 
 ## 여정에서 이메일 추가
 
-여정에서 전자 메일을 보내려면 _작업 수행_ 노드를 추가하고 전자 메일을 보내도록 구성하십시오.
+여정에서 전자 메일을 보내려면 [_작업 수행_ 노드를 추가하고](action-nodes.md#add-an-action-node)전자 메일을 보내도록 구성하십시오.
 
 1. 여정 캔버스에서 **+** 아이콘을 클릭하고 **[!UICONTROL 작업 수행]**&#x200B;을 선택합니다.
 
 1. 오른쪽의 노드 속성에서 작업을 **[!UICONTROL 전자 메일 보내기]**(으)로 설정합니다.
 
-   ![작업 수행 - 전자 메일 보내기](./assets/person-action-node-send-email.png){width="450"}
+   ![작업 수행 - 전자 메일 보내기](./assets/person-action-node-send-email.png){width="500"}
 
 1. 이메일 소스 선택:
 
    * **전자 메일 만들기/편집** - 전자 메일 디자인 공간에 제목란, 보낸 사람 정보 및 전자 메일 본문을 포함하는 전자 메일 콘텐츠를 정의하려면 이 옵션을 선택하십시오.
 
-   * **[!UICONTROL AI 개인화 전자 메일 사용]** - 전자 메일 디자인 공간에서 AI 생성 전자 메일을 개선하려면 이 옵션을 선택하십시오. 이러한 이메일은 AI 지원 받은 편지함 클라이언트가 오퍼 및 작업 호출에서 요약 및 답변을 작성하도록 최적화되었습니다.
+   * **[!UICONTROL AI 개인화 이메일 사용]** - (_Beta에서는 사용할 수 없음_) 이메일 디자인 공간에서 AI 생성 이메일을 세분화하려면 이 옵션을 선택하십시오. 이러한 이메일은 AI 지원 받은 편지함 클라이언트가 오퍼 및 작업 호출에서 요약 및 답변을 작성하도록 최적화되었습니다.
 
 1. **[!UICONTROL 전자 메일 만들기]**&#x200B;를 클릭합니다.
 
 1. _[!UICONTROL 전자 메일 만들기]_ 대화 상자에서 고유한 **[!UICONTROL 이름]**(필수)과 **[!UICONTROL 설명]**(선택 사항)을 입력하십시오.
 
+   ![전자 메일 대화 상자 만들기](./assets/email-channel-create-email-dialog.png){width="400"}
+
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-## 이메일 속성 및 작업 정의
+선택적 [전송 시간 최적화](email-send-time-optimization.md)의 경우 전자 메일을 만든 후 여정 작업 노드를 구성하십시오.
 
-1. 여정 캔버스에서 _[!UICONTROL 전자 메일 보내기]_ 노드를 선택한 상태에서 오른쪽의 노드 속성에서 **[!UICONTROL 전자 메일 편집]**&#x200B;을 클릭합니다.
+## 이메일 속성 및 작업 정의 {#define-email-properties}
 
-<!-- Staging environment broken -->
+전자 메일 페이지는 _[!UICONTROL 전자 메일 보내기]_ 노드에 대한 전자 메일을 만들 때 열립니다. 전자 메일을 만든 후 오른쪽의 노드 속성에서 **[!UICONTROL 전자 메일 편집]**&#x200B;을 클릭하여 이 페이지에 액세스할 수도 있습니다.
 
-전자 메일 및 **[!UICONTROL 제목 줄]**&#x200B;의 경우.
+1. (선택 사항) **[!UICONTROL 속성]** 탭에서 전자 메일에 대해 캡처할 설명 정보를 입력합니다.
 
-사용할 전자 메일 구성을 선택하거나 만들 수 있는 **[!UICONTROL 작업]** 탭이 열립니다.
+1. **[!UICONTROL 작업]** 탭을 선택하고 전자 메일에 대한 기능 설정을 완료합니다.
 
-1. (선택 사항) 비즈니스 규칙에서 규칙 세트를 선택하여 전자 메일 작업에 최대 가용량 규칙을 적용합니다.
+   * **[!UICONTROL 전자 메일]** - 사용할 **[!UICONTROL 전자 메일 채널 구성]**&#x200B;을 선택하거나 만듭니다.
 
-[전송 시간 최적화 옵션](./email-send-time-optimization.md)을 사용하여 과거 열기 및 클릭률에 따라 참여를 극대화하기 위해 메시지를 보내는 최적의 시간을 예측할 수 있습니다. 방법 알아보기
+     발신자 ID, 회신 주소, 하위 도메인, IP 풀, 이메일 유형(마케팅 또는 트랜잭션) 및 추적을 정의하는 재사용 가능한 이메일 게재 설정 세트입니다. _보기_ 아이콘을 클릭하여 선택한 구성에 대한 설정을 검토합니다.
 
-콘텐츠 편집 버튼을 선택하고 이메일 Designer을 사용하여 원하는 콘텐츠를 만듭니다.
+     관리자는 [전자 메일 채널 구성](../admin/email-channel-configuration.md)에서 구성을 만듭니다.
 
-여정 캔버스로 돌아갑니다. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다.
+   * **[!UICONTROL 비즈니스 규칙]** - (선택 사항) 규칙 집합을 선택하여 전자 메일 작업에 최대 가용량 규칙을 적용합니다.
 
-여정 만들기, 구성 및 게시 방법에 대한 자세한 내용은 이 페이지를 참조하십시오.
+   * **[!UICONTROL 작업 추적]** - 전자 메일에 대해 추적할 작업의 확인란을 선택합니다.
 
+   ![전자 메일 채널 - 작업 탭](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
-### 이메일 설정 정의 {#email-settings}
+1. **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하거나 **[!UICONTROL 콘텐츠]** 탭을 선택하십시오.
 
-노드 요약 패널의 **[!UICONTROL 세부 정보]** 탭에서 설정을 구성합니다.
+1. 전자 메일의 제목 필드에 표시할 **[!UICONTROL 제목 줄]** 텍스트를 입력하십시오.
 
-| 설정 | 설명 |
-| ------- | ----------- |
-| **[!UICONTROL 이름에서]** | 이메일 헤더에 표시된 발신자 이름. 개인화 토큰을 지원합니다. |
-| **[!UICONTROL 전자 메일]** | 보낸 사람 이메일 주소. 기본값은 채널 구성입니다. 개인화를 지원합니다. |
-| **[!UICONTROL 회신 주소]** | 수신자로부터 회신을 받는 주소입니다. 개인화를 지원합니다. |
-| **[!UICONTROL 제목 줄]** | 이메일 제목 줄. 생성 시 입력한 값에서 편집할 수 있습니다. |
-| **[!UICONTROL 브랜딩 도메인]** | 브랜드별 전송에 사용되는 도메인. |
-| **[!UICONTROL 전용 IP]** | 전달성 추적을 위한 특정 IP 주소입니다. |
-| **[!UICONTROL 운영 전자 메일]** | 활성화되면 옵트아웃 및 구독 취소 비표시 오류(Suppression)를 우회합니다. 합법적인 운영 메시지에만 사용합니다. |
-| **[!UICONTROL 보기를 웹 페이지로 포함]** | 이메일 콘텐츠에 대한 웹 페이지 링크를 생성합니다. |
-| **[!UICONTROL 열린 추적 사용 안 함]** | 이메일 열기 활동을 추적하지 않습니다. |
-| **[!UICONTROL 사전 머리글]** | 받은 편지함 미리 보기의 제목 줄 뒤에 표시되는 짧은 요약 텍스트입니다. |
-| **[!UICONTROL 참조 주소]** | 최대 25개의 리드 또는 회사 이메일 필드를 추가하여 복사본을 받습니다. |
+   필드에서 개인화 토큰을 사용하려면 _개인화_ 아이콘( ![개인화 아이콘](../../user/assets/do-not-localize/icon-personalize.svg))을 클릭하십시오.
+
+1. (선택 사항) 게시 프로세스 중에 이메일 HTML의 크기를 줄이려면 **[!UICONTROL HTML 크기 최적화]** 확인란을 선택합니다.
+
+   이렇게 하면 100KB를 초과하는 메시지를 자르는 Gmail과 같은 클라이언트의 이메일 클리핑을 방지할 수 있습니다. 자세한 내용은 [_이메일 HTML 크기 최적화_](#optimize-html-size)&#x200B;를 참조하십시오.
+
+1. **[!UICONTROL 전자 메일 본문 편집]**&#x200B;을 클릭하여 시각적 디자인 도구에 액세스하고 [콘텐츠 빌드](../content/email-authoring.md)를 시작합니다.
+
+   또는 **[!UICONTROL 코드 편집기]**&#x200B;를 클릭하여 일반 HTML에서 자신의 콘텐츠를 코딩할 수 있습니다. 이메일 디자인에 재사용할 기존 HTML이 있는 경우 이를 복사하여 편집기에 붙여넣을 수 있습니다.
 
 ### 경고 확인 {#alerts}
 
-[!DNL Journey Optimizer B2B Prime]은(는) 전자 메일 편집기의 오른쪽 상단 모서리에서 문제를 표시합니다. 여정 활성화 전에 모든 오류를 해결하십시오. 경고는 권장 사항만 해당됩니다.
+[!DNL Adobe Journey Optimizer B2B Prime]은(는) 전자 메일 페이지의 오른쪽 상단 모서리에서 문제를 표시합니다. 여정을 활성화하기 전에 모든 오류를 해결하십시오. 경고는 권장 사항만 해당됩니다.
 
 **오류**(여정 활성화 금지):
 
@@ -131,3 +139,62 @@ ht-degree: 2%
 * HTML의 텍스트 버전이 비어 있음
 * 빈 링크가 검색됨
 * 이메일이 100K를 초과함
+
+## 이메일 HTML 크기 최적화 {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_email_minification"
+>title="HTML 크기 축소"
+>abstract="이 옵션을 활성화하면 불필요한 공백, 들여쓰기 및 불필요한 주석을 제거하여 게시하는 동안 이메일 HTML을 압축할 수 있습니다. 이렇게 하면 100KB를 초과하는 메시지를 자르는 Gmail과 같은 클라이언트의 이메일 클리핑을 방지할 수 있습니다."
+
+[!DNL Journey Optimizer B2B Prime]을(를) 사용하면 불필요한 공백, 들여쓰기 및 불필요한 설명을 제거하여 게시 프로세스 중에 전자 메일 HTML 버전을 압축할 수 있습니다. HTML 크기를 작게 유지하면 다음과 같은 이점이 있습니다.
+
+* **전자 메일 클리핑** 방지 - Gmail과 같은 일부 클라이언트는 ~100KB보다 큰 메시지를 잘라내어 수신자가 전체 콘텐츠를 볼 수 없습니다.
+* 받는 사람의 받은 편지함에서 **전자 메일 로드 시간**&#x200B;을 개선합니다.
+* **전달성**&#x200B;을 개선하고 대역폭 사용을 줄입니다.
+
+이 최적화는 자동으로 적용되지 않습니다. _[!UICONTROL 콘텐츠]_ 탭에서 활성화해야 합니다.
+
+<!-- ![](assets/email-optimize-html-size.png) -->
+
+>[!IMPORTANT]
+>
+> HTML 크기 감소는 게시 시간에만 적용됩니다.
+
+최적화는 이메일 클라이언트 안전 장치입니다.
+
+* MSO/Outlook 조건부 주석을 보존합니다.
+* 실제 콘텐츠, 이미지 또는 비디오는 변경되지 않습니다.
+
+>[!NOTE]
+>
+>이메일 크기의 감소는 이메일의 원래 HTML 구조에 따라 다릅니다. 콘텐츠가 이미 컴팩트하거나 이메일 페이로드가 매우 큰 경우, 감소는 최소화될 수 있으며 모든 경우에 클리핑을 완전히 방지할 수 없습니다.
+
+<!-- 
+Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
+
+### Test HTML size optimization {#optimize-html-proof}
+
+If you have enabled the [HTML size optimization](#optimize-html-size) option, you can evaluate its impact before publishing when sending proofs. Follow the following steps.
+
+1. In the email design space, click the _Issues_ icon on the top right. If the rendered email size exceeds 100 KB, a message is displayed to warn you that this may cause truncation in some email clients.
+
+1. Click **[!UICONTROL Simulate content]**.
+
+1. To test the optimized version, click the **[!UICONTROL Send proof]** button and select the **[!UICONTROL Optimize HTML size]** option. This will send a proof with the reduced HTML size to your test recipients.
+
+    >[!NOTE]
+    >
+    >This setting is independent from the email editor — the proof reflects what you select in the proof, regardless of whether the option is enabled or disabled in the email itself.
+
+1. Select the test recipients and click **[!UICONTROL Send proof]**.
+
+1. Back in the **[!UICONTROL Simulate]** screen, click the **[!UICONTROL View Proof]** button.
+
+1. Click the _Information_ icon next to the status of the proof.
+
+   The optimization details are displayed in a pop-up window, including the original HTML size, the optimized HTML size, and the size reduction percentage.
+    
+    Use this information to validate the optimized output and confirm the email stays within the recommended 100 KB threshold before publishing.
+
+-->

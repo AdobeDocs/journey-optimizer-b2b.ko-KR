@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B edition Prime에 대해 알아보고 을(를) 하는 데 사용할 수 있는 방법을 알아봅니다.
 hide: true
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 42%
 + 시작하기 {#start}
    + [체크리스트 설정](./start/setup-prime.md)
    + [사용자 관리](./start/user-management.md)
+   + [이메일 전달성](./start/email-deliverability.md)
 + [Home 및 Insights](./home-insights/home-insights.md)
 + [상담원](./agents/agents.md)
 + 마케팅 관리 {#marketing-management}
@@ -33,7 +34,7 @@ ht-degree: 42%
    + 이메일 채널 {#email-channel}
       + [개요](./marketing/email-channel.md)
       + [이메일 전송 시간 최적화](./marketing/email-send-time-optimization.md)
-      + [이메일 작성](./content/email-authoring.md)
+      + [콘텐츠 작성](./content/email-authoring.md)
       + [어두운 모드 디자인](./content/email-dark-mode.md)
    + [WhatsApp 채널](./content/whatsapp-authoring.md)
 + 대상자 {#audiences}
@@ -54,9 +55,9 @@ ht-degree: 42%
 + 관리 {#admin}
    + {hide-from-toc}[관리](./admin/admin.md)
    + 채널 {#channels}
-      + [이메일 전달성 및 채널 구성](./admin/configuration-email-deliverability.md)
-      + [SMS 채널 구성](./admin/configuration-channels-sms.md)
-      + [웹 채널 구성](./admin/configuration-channels-web.md)
+      + [이메일 채널 구성](./admin/email-channel-configuration.md)
+      + {hide-from-toc}[SMS 채널 구성](./admin/configuration-channels-sms.md)
+      + {hide-from-toc}[웹 채널 구성](./admin/configuration-channels-web.md)
       + [WhatsApp 채널 구성](./admin/configuration-channels-whatsapp.md)
       + [랜딩 페이지 구성](./admin/configuration-presets-landing-pages.md)
       + [양식 사전 설정 구성](./admin/configuration-presets-forms.md)
