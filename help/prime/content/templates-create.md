@@ -4,19 +4,13 @@ description: Journey Optimizer B2B Prime에서 이메일 템플릿을 만드는 
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
 autotag-review: '2026-06-12T22:55:41.432Z'
 TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 880
+source-wordcount: 885
 ht-degree: 1%
 
 ---
@@ -24,7 +18,7 @@ ht-degree: 1%
 
 # 이메일 템플릿 만들기
 
-다음 세 가지 방법으로 [!DNL Journey Optimizer B2B Edition Prime]에서 전자 메일 템플릿을 만들 수 있습니다.
+다음 세 가지 방법으로 [!DNL Adobe Journey Optimizer B2B Prime]에서 전자 메일 템플릿을 만들 수 있습니다.
 
 * **새 템플릿 만들기** — 시각적 전자 메일 디자인 공간을 사용하여 템플릿 라이브러리에 템플릿을 만듭니다.
 * **여정 전자 메일에서 저장** — 여정에서 작성한 전자 메일을 재사용 가능한 템플릿으로 저장합니다.
@@ -65,13 +59,13 @@ ht-degree: 1%
 
 원본 여정 이메일은 영향을 받지 않습니다. 저장된 템플릿은 샌드박스의 모든 사용자의 템플릿 라이브러리에서 사용할 수 있습니다. 생성된 템플릿을 업데이트하여 재사용을 최적화할 수 있습니다.
 
-* 텍스트를 편집하고 [개인화](email-authoring.md#personalization) 토큰을 추가하십시오.
+* 텍스트를 편집하고 [개인화](email-authoring.md#personalize-content) 토큰을 추가하십시오.
 * 이미지를 업데이트하거나 바꾸고 링크를 추가합니다.
 * [콘텐츠 잠금](template-content-governance.md)을 구성하십시오.
 
 ## 이미지를 템플릿으로 변환 {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime]은(는) 생성 AI를 사용하여 정적 이미지(예: Figma 또는 Photoshop의 목업)를 편집 가능한 이메일 템플릿으로 변환할 수 있습니다. 이렇게 하면 디자인 파일에서 레이아웃을 수동으로 다시 빌드할 필요가 없으며, 다른 플랫폼에서 기존 이메일 디자인을 마이그레이션하는 데 이상적입니다. 이 기능은 이메일 콘텐츠 템플릿에만 사용할 수 있습니다.
+[!DNL Adobe Journey Optimizer B2B Prime]은(는) 생성 AI를 사용하여 정적 이미지(예: Figma 또는 Photoshop의 목업)를 편집 가능한 이메일 템플릿으로 변환할 수 있습니다. 이렇게 하면 디자인 파일에서 레이아웃을 수동으로 다시 빌드할 필요가 없으며, 다른 플랫폼에서 기존 이메일 디자인을 마이그레이션하는 데 이상적입니다. 이 기능은 이메일 콘텐츠 템플릿에만 사용할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +89,7 @@ ht-degree: 1%
 
 ### 템플릿 만들기
 
-1. **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 템플릿]**(으)로 이동합니다.
+1. 왼쪽 탐색에서 **[!UICONTROL 콘텐츠 관리]**&#x200B;를 확장하고 **[!UICONTROL 템플릿]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 템플릿 이름]** 및 선택적 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 1. **[!UICONTROL 채널]**&#x200B;을(를) 전자 메일로 설정합니다.
@@ -138,7 +132,7 @@ ht-degree: 1%
 
 변환된 템플릿 콘텐츠는 디자인 공간에서 완전히 편집 가능한 이메일 템플릿으로 열립니다. 표준 콘텐츠 디자인 도구를 사용하여 다음을 수행할 수 있습니다.
 
-* 텍스트를 편집하고 [개인화](email-authoring.md#personalization) 토큰을 추가하십시오.
+* 텍스트를 편집하고 [개인화](email-authoring.md#personalize-content) 토큰을 추가하십시오.
 * 이미지를 업데이트하거나 바꾸고 링크를 추가합니다.
 * 색상, 글꼴 및 간격을 조정합니다.
 * 콘텐츠 구성 요소를 추가, 제거 또는 재배열합니다.
