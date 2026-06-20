@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2180
+source-wordcount: 2164
 ht-degree: 7%
 
 ---
@@ -30,12 +30,12 @@ ht-degree: 7%
 * 통신을 보내기 전에 동의를 수집하고 옵트인 또는 옵트아웃 시 확인 이메일을 보냅니다.
 * 랜딩 페이지의 양식을 사용하여 프로필 데이터(점진적 프로파일링, 환경 설정, 등록 및 유사한 시나리오)를 캡처하거나 업데이트합니다.
 * 여정 오케스트레이션에 맞게 디자인된 캠페인 관련 정보를 대상자에게 안내합니다.
-* Journey Optimizer B2B Prime 외부에서 외부 페이지를 작성하지 않고 전용 웹 양식으로 사용자를 리디렉션합니다.
+* [!DNL Journey Optimizer B2B Prime] 외부에서 외부 페이지를 만들지 않고 전용 웹 양식으로 사용자를 리디렉션합니다.
 
 <!-- 
 ## Landing page workflow
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
@@ -51,7 +51,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ## 랜딩 페이지 액세스 및 관리 {#access-manage-landing-pages}
 
-Journey Optimizer B2B Prime의 랜딩 페이지에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 클릭하십시오. 이 작업은 인스턴스에서 만든 모든 랜딩 페이지 목록을 표시합니다.
+[!DNL Journey Optimizer B2B Prime]의 랜딩 페이지에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 클릭하십시오. 이 작업은 인스턴스에서 만든 모든 랜딩 페이지 목록을 표시합니다.
 
 목록은 _[!UICONTROL 수정됨]_ 열에 따라 정렬되며 가장 최근에 업데이트된 항목이 맨 위에 있습니다. 오름차순과 내림차순 간을 변경하려면 열 제목을 클릭합니다.
 
@@ -78,7 +78,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 | 상태 | 설명 |
 | -------------------- | ----------- |
 | 초안 | 랜딩 페이지를 만들 때 초안 상태입니다. 이 상태는 시각적 콘텐츠를 정의하거나 편집할 때 호스팅되는 페이지로 게시할 때까지 이 상태로 유지됩니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집</li><li>링크 URL 편집</li><li>시각적 디자인 공간에서 편집</li><li>게시</li><li>복제</li><li>삭제</li></ul> |
-| 게시일 | 랜딩 페이지를 게시하면 Journey Optimizer B2B Prime 인스턴스에서 호스팅되며 이메일 또는 SMS 메시지 콘텐츠에서 연결할 수 있습니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집</li><li>링크 URL 편집</li><li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가</li><li>초안 버전 만들기</li><li>복제</li><li>삭제</li></ul> |
+| 게시일 | 랜딩 페이지를 게시하면 [!DNL Journey Optimizer B2B Prime] 인스턴스에서 호스팅되며 이메일 또는 SMS 메시지 콘텐츠에서 연결할 수 있습니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집</li><li>링크 URL 편집</li><li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가</li><li>초안 버전 만들기</li><li>복제</li><li>삭제</li></ul> |
 | 초안과 함께 게시됨 | 게시된 랜딩 페이지에서 초안을 만들면 게시된 버전이 유지되고 시각적 디자인 공간에서 초안 콘텐츠를 수정할 수 있습니다. 초안 버전을 게시하면 현재 게시된 버전이 대체되고 호스팅된 페이지에서 콘텐츠가 업데이트됩니다. 사용 가능한 작업: <br/><ul><li>이름 또는 설명 편집</li><li>링크 URL 편집</li><li>이메일 또는 SMS 메시지 콘텐츠에 링크 추가</li><li>시각적 디자인 공간에서 초안 버전 편집</li><li>초안 버전 게시</li><li>복제</li><li>삭제(두 버전 모두 삭제)</li><li>초안 삭제(게시된 상태로 돌아가기)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
@@ -175,7 +175,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >title="랜딩 페이지 미리보기 및 테스트"
 >abstract="랜딩 페이지 설정 및 콘텐츠가 정의된 후 테스트 프로필을 사용하여 페이지를 미리보기할 수 있습니다."
 
-랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 페이지를 미리 볼 수 있습니다. [개인 맞춤화된 콘텐츠](email-authoring.md#personalization)를 삽입한 경우 테스트 프로필 데이터를 사용하여 랜딩 페이지에 이 콘텐츠가 어떻게 표시되는지 확인할 수 있습니다.
+랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 페이지를 미리 볼 수 있습니다. [개인 맞춤화된 콘텐츠](email-authoring.md#personalize-content)를 삽입한 경우 테스트 프로필 데이터를 사용하여 랜딩 페이지에 이 콘텐츠가 어떻게 표시되는지 확인할 수 있습니다.
 
 >[!PREREQUISITES]
 >
@@ -299,7 +299,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ## 랜딩 페이지 링크 {#link-to-landing-page}
 
-이메일, 조각 및 페이지 콘텐츠를 생성하는 마케터 또는 크리에이티브는 Journey Optimizer B2B Prime 인스턴스에 생성된 게시된(라이브) 랜딩 페이지에 대한 링크를 포함할 수 있습니다.
+이메일, 조각 및 페이지 콘텐츠를 생성하는 마케터 또는 크리에이티브로서 [!DNL Journey Optimizer B2B Prime] 인스턴스에 만들어진 게시된(라이브) 랜딩 페이지에 대한 링크를 포함할 수 있습니다.
 
 1. 조각, 이메일, 랜딩 페이지 또는 템플릿에 대한 시각적 디자인 공간에서 작업할 때 링크의 텍스트 일부, 버튼 구성 요소 또는 이미지 구성 요소를 선택합니다.
 

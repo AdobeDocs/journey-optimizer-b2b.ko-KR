@@ -1,6 +1,6 @@
 ---
 title: 자산
-description: 이메일, 템플릿 및 시각적 조각에 대한 Journey Optimizer B2B edition의 이미지 에셋을 관리합니다.
+description: 이메일, 템플릿 및 시각적 조각에 대한 Journey Optimizer B2B Prime의 이미지 에셋을 관리합니다.
 feature: Assets, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 5%
+source-wordcount: 786
+ht-degree: 18%
 
 ---
 
@@ -91,3 +91,29 @@ Assets 라이브러리의 ![생성 AI 사용 약관 계약 대화 상자](./asse
 업로드가 완료되면 시스템에서 설명을 자동으로 생성하고, 태그와 키워드를 지정하며, 제목 및 설정과 같은 시각적 속성을 추출합니다. 수동 태깅은 필요하지 않습니다. 이 프로세스가 완료될 때까지 새 이미지가 _[!UICONTROL 처리 중]_ 상태로 표시됩니다.
 
 ![처리 중인 새 이미지 자산](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+
+## 자산을 사용하여 콘텐츠 작성 {#assets-authoring}
+
+자산을 사용하여 이메일, 이메일 템플릿 및 시각적 조각을 작성할 수 있습니다. 시각적 콘텐츠 편집기에서 _Assets_ 라이브러리의 이미지에 액세스할 수 있습니다. 이미지 에셋을 업로드하여 내부 에셋 저장소에 배치할 수도 있습니다.
+
+이미지 구성 요소에 대한 설정을 편집할 때 또는 캔버스에서 직접 이미지 에셋을 선택할 수 있습니다.
+
+* **_구성 요소 비어 있음_** - 캔버스에 이미지 구성 요소를 추가하면 해당 구성 요소가 비어 있고 이미지 파일을 선택하거나 가져올 수 있는 간편한 액세스를 제공합니다.
+
+  ![소스를 선택하여 빈 이미지 구성 요소에 대한 이미지 파일 선택](./assets/dam-assets-image-component-empty.png){width="500"}
+
+* **_이미지 구성 요소 도구 모음_** - 캔버스에서 이미지 구성 요소를 선택한 경우 도구 모음을 통해 소스를 선택하고 이미지 파일을 선택할 수 있습니다.
+
+  ![도구 모음을 사용하여 이미지 구성 요소에 대한 이미지 파일을 선택할 소스 선택](./assets/dam-assets-image-toolbar-settings.png){width="500"}
+
+* **_이미지 구성 요소 설정_** - 캔버스에서 이미지 구성 요소를 선택한 경우 오른쪽 패널에서 설정을 보고 편집할 수 있습니다. 구성 요소에 표시되는 이미지 파일을 추가하거나 변경하려면 소스 유형을 선택하고 이미지 파일을 선택합니다.
+
+  ![오른쪽 패널에서 이미지 구성 요소 설정 편집](./assets/dam-assets-image-settings.png){width="350"}
+
+[!DNL Journey Optimizer B2B Prime] 자산 저장소에서 이미지를 선택할 수 있는 자산 선택기를 열려면 **[!UICONTROL 자산 선택]**&#x200B;을 클릭합니다.
+
+![이미지 자산 선택](./assets/dam-assets-internal-image-selected.png){width="700" zoomable="yes"}
+
+검색어와 필터를 사용하여 원하는 이미지 자산을 찾을 수 있습니다. 자산을 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭하여 이미지 구성 요소에 사용합니다.
+
+구조 구성 요소의 배경 설정에서 이미지 자산을 선택할 수도 있습니다.

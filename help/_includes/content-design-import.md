@@ -1,9 +1,9 @@
 ---
 title: 컨텐츠 작성 - HTML 가져오기
 description: HTML 컨텐츠 작성에서 가져오기에 대한 섹션 재사용
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '139'
 ht-degree: 17%
 
 ---
@@ -21,6 +21,6 @@ ht-degree: 17%
 
 HTML 콘텐츠가 포함된 파일을 가져오려면(_T):_
 
-1. _[!UICONTROL 템플릿 디자인]_ 홈 페이지에서 **[!UICONTROL HTML 가져오기]** 옵션을 선택합니다.
+1. 디자인 홈 페이지에서 **[!UICONTROL HTML 가져오기]** 옵션을 선택합니다.
 
 1. HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 드래그 앤 드롭하고 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
