@@ -6,19 +6,13 @@ feature: Content Design Tools
 role: User
 autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +39,7 @@ ht-degree: 5%
 >title="구조 구성 요소 정보"
 >abstract="구조 구성 요소는 템플릿의 구조를 디자인하는 데 사용할 수 있는 레이아웃 요소입니다."
 
-시각적 디자인 공간에서 _구조 구성 요소_&#x200B;를 사용하여 콘텐츠의 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠 레이아웃의 모양을 빠르게 정의할 수 있습니다. 각 구조 구성 요소는 가로 공간에 걸쳐 있으며 이를 스택하여 레이아웃을 세로로 작성할 수 있습니다. 각 구성 요소를 열로 나누어 필요한 각 콘텐츠 블록을 구성한 다음, 그 안에 [콘텐츠 구성 요소](./content-components.md)를 추가하여 레이아웃을 채웁니다.
+시각적 디자인 공간에서 _구조 구성 요소_&#x200B;를 사용하여 콘텐츠의 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠 레이아웃의 모양을 빠르게 정의할 수 있습니다. 각 구조 구성 요소는 가로 공간에 걸쳐 있으며 이를 스택하여 레이아웃을 세로로 작성할 수 있습니다. <!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## 구조 라이브러리 {#structure-library}
 
