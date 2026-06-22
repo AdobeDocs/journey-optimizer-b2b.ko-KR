@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 224d6a6f8ca33d2f0d675254bf010f76a5c30e99
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: 495
 ht-degree: 1%
 
 ---
@@ -87,4 +87,4 @@ ht-degree: 1%
 
 ## 이메일에서 템플릿 사용 {#use-in-journey}
 
-여정에서 전자 메일을 작성할 때 **[!UICONTROL 디자인 템플릿 선택]** 섹션을 통해 저장된 템플릿 또는 샘플 템플릿 중에서 선택할 수 있습니다. 미리 보려면 서식 파일 미리 보기를 클릭한 다음 **[!UICONTROL 이 서식 파일을 사용]**&#x200B;하여 적용하세요. 템플릿 선택이 전체 전자 메일 워크플로에 적합한 위치에 대해서는 [전자 메일 콘텐츠 작성](./email-authoring.md)을 참조하십시오.
+여정에서 전자 메일을 작성할 때 **[!UICONTROL 디자인 템플릿 선택]** 섹션을 통해 저장된 템플릿 또는 샘플 템플릿 중에서 선택할 수 있습니다. 미리 보려면 서식 파일 미리 보기를 클릭한 다음 **[!UICONTROL 이 서식 파일을 사용]**&#x200B;하여 적용하세요. 전자 메일 작성 워크플로에서 템플릿을 사용하는 방법에 대한 자세한 내용은 [전자 메일 콘텐츠 작성](./email-authoring.md#templates)을 참조하십시오.

@@ -16,9 +16,9 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: 2820
 ht-degree: 7%
 
 ---
@@ -45,7 +45,9 @@ ht-degree: 7%
 >title="콘텐츠 구성 요소 정보"
 >abstract="콘텐츠 구성 요소는 템플릿을 디자인하는 데 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
-전자 메일, 랜딩 페이지, 템플릿 및 시각적 조각에 대한 콘텐츠를 디자인할 때 [!UICONTROL 콘텐츠 구성 요소]를 사용하여 시각적 디자인 요소를 추가합니다. 레이아웃을 정의하는 하나 이상의 [구조 구성 요소](./structure-components.md) 내에 필요한 만큼 콘텐츠 구성 요소를 추가할 수 있습니다.
+전자 메일, 랜딩 페이지, 템플릿 및 시각적 조각에 대한 콘텐츠를 디자인할 때 [!UICONTROL 콘텐츠 구성 요소]를 사용하여 시각적 디자인 요소를 추가합니다.
+
+<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
 
 ## 컨텐츠 라이브러리
 

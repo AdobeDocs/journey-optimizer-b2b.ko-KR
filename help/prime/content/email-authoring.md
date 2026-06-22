@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2209
+source-wordcount: 2192
 ht-degree: 1%
 
 ---
@@ -136,7 +136,9 @@ HTML 및 CSS 모범 사례를 따르는 것은 이메일 클라이언트 간에 
 
 ### 구조 및 콘텐츠 구성 요소 추가 {#components}
 
-[구조 구성 요소](./structure-components.md) 및 [콘텐츠 구성 요소](./content-components.md)를 캔버스에 추가하여 전자 메일 레이아웃을 빌드합니다. 왼쪽 패널의 **[!UICONTROL 구조]** 및 **[!UICONTROL 내용]** 섹션에서 항목을 드래그한 다음 오른쪽의 _[!UICONTROL 설정]_ 및 _[!UICONTROL 스타일]_ 탭에서 각 구성 요소를 구성합니다.
+<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+
+왼쪽 패널의 **[!UICONTROL 구조]** 및 **[!UICONTROL 내용]** 섹션에서 항목을 드래그한 다음 오른쪽의 _[!UICONTROL 설정]_ 및 _[!UICONTROL 스타일]_ 탭에서 각 구성 요소를 구성합니다.
 
 ### 사용자 정의 CSS 추가 {#custom-css}
 
@@ -219,7 +221,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 
 ### 레이어, 설정 및 스타일 탐색 {#navigation-layers}
 
-탐색 트리를 사용하여 구성 요소와 열을 선택한 다음, 오른쪽 패널에서 해당 설정과 스타일을 조정합니다. [탐색 트리](./structure-components.md#navigation-tree)를 참조하세요.
+탐색 트리를 사용하여 구성 요소와 열을 선택한 다음, 오른쪽 패널에서 해당 설정과 스타일을 조정합니다. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
 
 ### 콘텐츠 개인화 {#personalize-content}
 
@@ -281,7 +283,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 
 저장하기 전에 전자 메일 레이아웃을 검토하려면 전자 메일 디자인 공간 도구 모음에서 데스크톱 및 모바일 미리 보기 컨트롤을 사용하십시오. 가독성과 대비를 확인하려면 다크 모드 미리 보기로 전환하십시오([이메일 콘텐츠의 다크 모드](./email-dark-mode.md) 참조).
 
-이 Beta 릴리스에서는 테스트 프로필, **[!UICONTROL 콘텐츠 시뮬레이션]** 및 증명 전송 워크플로우를 사용할 수 없습니다. 전자 메일 채널 개요에서 [현재 제한 사항](../marketing/email-channel.md#limitations)을 참조하십시오.
+이 Beta 릴리스에서는 테스트 프로필, [!UICONTROL 콘텐츠 시뮬레이션] 및 증명 전송 워크플로우를 사용할 수 없습니다. 전자 메일 채널 개요에서 [현재 제한 사항](../marketing/email-channel.md#limitations)을 참조하십시오.
 
 여정 활성화 전에 해결해야 하는 콘텐츠 경고에 대한 [전자 메일 콘텐츠 유효성 검사](#validation)을 검토합니다.
 
