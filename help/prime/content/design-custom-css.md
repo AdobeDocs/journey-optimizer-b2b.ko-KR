@@ -3,21 +3,16 @@ title: 콘텐츠에 대한 사용자 지정 CSS 추가
 description: Journey Optimizer B2B Prime의 표준 구성 요소를 넘어 고급 스타일 및 정밀한 디자인 제어를 위해 이메일 및 랜딩 페이지에 사용자 지정 CSS를 추가합니다.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
 autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 567
 ht-degree: 0%
 
 ---
@@ -200,7 +195,7 @@ body {
 
 이메일 또는 랜딩 페이지 디자인 공간으로 가져온 콘텐츠와 함께 사용자 지정 CSS를 사용하려면 다음을 고려하십시오.
 
-* CSS를 포함한 외부 HTML 콘텐츠를 가져오는 경우 <!-- unless converting that content, -->이(가) [!UICONTROL 호환성 모드]에서 채워지고 [!UICONTROL CSS 스타일] 섹션을 사용할 수 없습니다.
+* CSS를 포함한 외부 HTML 콘텐츠를 가져오는 경우 [!UICONTROL 호환성 모드]에서 채워지고 [!UICONTROL CSS 스타일] 섹션을 사용할 수 없습니다.
 
 * [!UICONTROL 사용자 지정 CSS 추가] 옵션을 사용하여 전자 메일 또는 랜딩 페이지 디자인 공간에서 원래 만들어진 콘텐츠를 가져오는 경우 적용된 CSS가 동일한 옵션에서 표시되고 편집할 수 있습니다.
 
