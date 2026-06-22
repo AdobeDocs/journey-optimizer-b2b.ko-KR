@@ -6,19 +6,13 @@ feature: Content Design Tools
 role: User
 autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: 2820
+source-wordcount: 2840
 ht-degree: 7%
 
 ---
@@ -47,7 +41,7 @@ ht-degree: 7%
 
 전자 메일, 랜딩 페이지, 템플릿 및 시각적 조각에 대한 콘텐츠를 디자인할 때 [!UICONTROL 콘텐츠 구성 요소]를 사용하여 시각적 디자인 요소를 추가합니다.
 
-<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
+레이아웃을 정의하는 하나 이상의 [구조 구성 요소](./structure-components.md) 내에 필요한 만큼 콘텐츠 구성 요소를 추가할 수 있습니다.
 
 ## 컨텐츠 라이브러리
 
