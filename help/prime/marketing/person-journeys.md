@@ -1,6 +1,7 @@
 ---
 title: 사용자 여정
 description: Journey Optimizer B2B edition Prime에서 개인 여정 만들기, 게시 및 관리 - 여정 목록을 탐색하고, 다중 단계 흐름을 디자인하고, 여정을 복제하거나 삭제합니다.
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
 product_v2:
@@ -12,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1432
 ht-degree: 19%
 
 ---
