@@ -34,7 +34,7 @@ Sales Qualifier는 [!DNL Adobe Journey Optimizer B2B Prime]에서 사용할 수 
 
 BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outlook 내에서 직접 비즈니스 인텔리전스에 액세스할 수 있습니다. 다음 비디오에서는 Sales Qualifier와 Account Qualification Agent에 대해 간략하게 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
 
 ## 애플리케이션 홈 {#application-home}
 
