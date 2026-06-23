@@ -1,6 +1,7 @@
 ---
 title: 경로 노드 분할 및 병합
 description: 개인 여정에서 분할 및 병합 경로 노드를 사용하여 정의된 조건을 기반으로 개인을 개별 경로로 세그먼트화한 다음 공통 지점 다운스트림에서 다시 통합하는 방법에 대해 알아봅니다.
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:
@@ -13,10 +14,10 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 658
-ht-degree: 0%
+source-wordcount: 668
+ht-degree: 2%
 
 ---
 

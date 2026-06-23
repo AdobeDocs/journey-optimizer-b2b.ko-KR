@@ -1,6 +1,7 @@
 ---
 title: 영업 구분자
 description: Journey Optimizer B2B Prime용 Sales Qualifier는 AI 잠재 고객 자격, 아웃바운드 워크플로, CRM 통합, 작업 및 BDR에 대한 프로필 설정을 제공합니다.
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-22T18:49:11.199Z'
 TQID: 'https://experienceleague.adobe.com/pfm5edN0IqvzhCaQIVC43i0Mwckmc6UVkUAC5eGrF4Y'
 product_v2:
@@ -20,9 +21,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a3ed5ce067dab46abccd3dbe584e073449394393
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 4575
+source-wordcount: 4585
 ht-degree: 1%
 
 ---

@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B Prime과 이를 사용하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -17,10 +17,11 @@ ht-degree: 51%
    + [체크리스트 설정](./start/setup-prime.md)
    + [사용자 관리](./start/user-management.md)
    + [이메일 전달성](./start/email-deliverability.md)
-+ [Home 및 Insights](./home-insights/home-insights.md)
-+ [상담원](./agents/agents.md)
++ [홈 페이지](./home-insights/home-page.md)
++ [채팅 인터페이스](./agents/chat-interface.md)
++ [영업 구분자](./sales-qualifier/sales-qualifier.md)
 + 마케팅 관리 {#marketing-management}
-   + {hide-from-toc}[개요](./marketing/marketing-management.md)
+   + [개요](./marketing/marketing-management.md)
    + [프로그램](./marketing/programs.md)
    + [개인 여정](./marketing/person-journeys.md)
    + 여정 노드 {#journey-nodes}
@@ -55,7 +56,6 @@ ht-degree: 51%
       + [구조 구성 요소](./content/structure-components.md)
       + [콘텐츠 구성 요소](./content/content-components.md)
       + [사용자 정의 CSS](./content/design-custom-css.md)
-+ {hide-from-toc}[판매 한정자](./sales-qualifier/sales-qualifier.md)
 + 관리 {#admin}
    + 채널 {#channels}
       + [이메일 채널 구성](./admin/email-channel-configuration.md)
