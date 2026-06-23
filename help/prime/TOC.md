@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B Prime과 이를 사용하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 53%
+source-wordcount: '138'
+ht-degree: 51%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 53%
 + [영업 구분자](./sales-qualifier/sales-qualifier.md)
 + 마케팅 관리 {#marketing-management}
    + [개요](./marketing/marketing-management.md)
-   + [프로그램](./marketing/programs.md)
+   + 프로그램 {#programs}
+      + [개요](./marketing/programs.md)
+      + [개인화를 위한 사용자 지정 토큰](./marketing/personalization-my-tokens.md)
    + [개인 여정](./marketing/person-journeys.md)
    + 여정 노드 {#journey-nodes}
       + [노드 개요](./marketing/person-journey-nodes.md)
@@ -36,7 +38,7 @@ ht-degree: 53%
       + [개요](./marketing/email-channel.md)
       + [이메일 전송 시간 최적화](./marketing/email-send-time-optimization.md)
       + [콘텐츠 작성](./content/email-authoring.md)
-      + [어두운 모드 디자인](./content/email-dark-mode.md)
+      + [다크 모드 디자인](./content/email-dark-mode.md)
    + [WhatsApp 채널](./content/whatsapp-authoring.md)
 + 대상자 {#audiences}
    + [사용자 목록](./audiences/people-lists.md)
@@ -62,10 +64,10 @@ ht-degree: 53%
       + [WhatsApp 채널 구성](./admin/configuration-channels-whatsapp.md)
       + [랜딩 페이지 구성](./admin/configuration-presets-landing-pages.md)
       + [양식 사전 설정 구성](./admin/configuration-presets-forms.md)
+   + [프로그램 유형](./admin/program-types.md)
 
 <!--
    + Business rules
-   + Program types
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
