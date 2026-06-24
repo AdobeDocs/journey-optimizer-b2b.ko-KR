@@ -6,21 +6,14 @@ feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
 source-wordcount: 1037
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -117,7 +110,7 @@ ht-degree: 1%
 
 1. (선택 사항) 게시 프로세스 중에 이메일 HTML의 크기를 줄이려면 **[!UICONTROL HTML 크기 최적화]** 확인란을 선택합니다.
 
-   이렇게 하면 100KB를 초과하는 메시지를 자르는 Gmail과 같은 클라이언트의 이메일 클리핑을 방지할 수 있습니다. 자세한 내용은 [_이메일 HTML 크기 최적화_](#optimize-html-size)&#x200B;를 참조하십시오.
+   이를 통해 100KB를 초과하는 메시지를 잘라버리는 Gmail 등의 클라이언트에서 이메일 클리핑을 방지할 수 있습니다. 자세한 내용은 [_이메일 HTML 크기 최적화_](#optimize-html-size)&#x200B;를 참조하십시오.
 
 1. **[!UICONTROL 전자 메일 본문 편집]**&#x200B;을 클릭하여 시각적 디자인 도구에 액세스하고 [콘텐츠 빌드](../content/email-authoring.md)를 시작합니다.
 
@@ -145,7 +138,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
 >title="HTML 크기 축소"
->abstract="이 옵션을 활성화하면 불필요한 공백, 들여쓰기 및 불필요한 주석을 제거하여 게시하는 동안 이메일 HTML을 압축할 수 있습니다. 이렇게 하면 100KB를 초과하는 메시지를 자르는 Gmail과 같은 클라이언트의 이메일 클리핑을 방지할 수 있습니다."
+>abstract="이 옵션을 활성화하면 게시 시 불필요한 공백, 들여쓰기 및 불필요한 주석을 제거하여 이메일 HTML을 압축할 수 있습니다. 이를 통해 100KB를 초과하는 메시지를 잘라버리는 Gmail 등의 클라이언트에서 이메일 클리핑을 방지할 수 있습니다."
 
 [!DNL Journey Optimizer B2B Prime]을(를) 사용하면 불필요한 공백, 들여쓰기 및 불필요한 설명을 제거하여 게시 프로세스 중에 전자 메일 HTML 버전을 압축할 수 있습니다. HTML 크기를 작게 유지하면 다음과 같은 이점이 있습니다.
 
