@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B Prime과 이를 사용하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: f96698d0d3931be9206245d44131d06c998304ca
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '151'
 ht-degree: 47%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 47%
    + [사용자 관리](./start/user-management.md)
    + [이메일 전달성](./start/email-deliverability.md)
 + [홈 페이지](./home-insights/home-page.md)
-+ [채팅 인터페이스](./agents/chat-interface.md)
++ AI 어시스턴트 {#ai-assistant}
+   + [채팅 인터페이스](./agents/chat-interface.md)
+   + [간단한 방법으로 프로그램 만들기](./agents/program-from-brief.md)
 + [영업 구분자](./sales-qualifier/sales-qualifier.md)
 + 마케팅 관리 {#marketing-management}
    + [개요](./marketing/marketing-management.md)
@@ -78,9 +80,5 @@ ht-degree: 47%
     + [Question guidance](./ai-assistant/question-guidance.md)
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
     + [Generative AI for content](./ai-assistant/generative-ai-content.md)
-    + Agents {#agents}
-       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-       + [Journey Agent B2B](./agents/journey-agent.md)
-       + [Account Qualification](./agents/sales-qualifier.md)
 
 -->
