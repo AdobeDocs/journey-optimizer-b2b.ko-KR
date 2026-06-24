@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: 650
 ht-degree: 2%
 
 ---
@@ -53,15 +53,15 @@ Journey Optimizer B2B Prime의 Beta 릴리스의 경우 직책 속성에 따라 
 
 ## 파생 성향으로 필터링 {#derived-persona-filter}
 
-Journey Optimizer B2B Prime은 정의된 담당자에게 레코드의 속성을 평가하여 각 개인 레코드에 대한 담당자를 파생합니다. 사용자 목록 또는 사용자 여정의 대상자를 정의할 때 유추된 결과(_파생된 사용자_)를 필터로 사용할 수 있습니다.
+Journey Optimizer B2B Prime은 정의된 담당자에게 레코드의 속성을 평가하여 각 개인 레코드에 대한 담당자를 파생합니다. 사용자 목록에 대한 대상자를 정의하거나 사용자 여정에서 세그먼트화할 때 추론된 결과(_파생된 사용자_)를 필터로 사용할 수 있습니다.
 
 _[!UICONTROL 파생 사용자]_ 필터는 **[!UICONTROL 개인 특성]** 범주 아래의 필터 패널에 표시됩니다.
-
-![구성된 가상 사용자에 액세스](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
 ### 사용자 목록 {#people-lists}
 
 [정적 사용자 목록](./people-lists.md#static-list)에서 구성원을 추가하거나 제거할 때 또는 [동적 사용자 목록](./people-lists.md#dynamic-lists)에 대한 구성원 규칙을 정의할 때, 파생된 성향별로 필터링하여 특성이 구성된 특정 성향과 일치하는 모든 사람을 대상으로 할 수 있습니다.
+
+![사람 목록에 대해 파생된 사용자 필터링](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
 
 **정적 목록 — 구성원 추가**
 
@@ -90,6 +90,8 @@ _[!UICONTROL 파생 사용자]_ 필터는 **[!UICONTROL 개인 특성]** 범주 
 ### 개인 여정 {#person-journeys}
 
 [_분할 경로_ 여정](../marketing/split-merge-paths-nodes.md)에서 개인 여정에 대한 세분화를 구성할 때 파생된 담당자를 개인 프로필 필터로 사용하여 경로를 입력하는 사용자를 제어할 수 있습니다.
+
+![분할 경로 조건에 대해 파생된 사용자 필터링](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
 
 1. 여정 캔버스에서 **[!UICONTROL 경로 분할]** 노드를 클릭합니다.
 
