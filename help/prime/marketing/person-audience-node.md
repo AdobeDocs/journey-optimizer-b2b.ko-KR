@@ -15,16 +15,16 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: 225
 ht-degree: 4%
 
 ---
 
 # 개인 대상 노드
 
-_개인 대상_ 노드는 여정에 들어오는 개인 프로필을 지정합니다. [개인 여정을 만듭니다](./person-journeys.md). 여정은 항상 입력을 정의하는 개인 대상 노드로 시작합니다. 개인 대상 노드에는 정적 사람 목록과 동적 사람 목록의 두 대상 입력 유형 중 하나가 있을 수 있습니다.
+_개인 대상_ 노드는 여정에 들어오는 개인 프로필을 지정합니다. [개인 여정을 만듭니다](./person-journeys.md). 여정은 항상 입력을 정의하는 개인 대상 노드로 시작합니다. 개인 대상 노드에는 동적 사람 목록 또는 이벤트 트리거와 같은 두 가지 대상 입력 유형 중 하나가 있을 수 있습니다.
 
 사용자 여정에 필요한 동적 사용자 목록이 이미 없는 경우 [사용자 목록을 만들고](../audiences/people-lists.md#create-a-people-list) 사용자 대상 노드를 구성하십시오.
 
