@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B Prime과 이를 사용하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 46%
+source-wordcount: '149'
+ht-degree: 47%
 
 ---
 
@@ -49,7 +49,6 @@ ht-degree: 46%
    + [개인 참여 점수](./audiences/engagement-scores.md)
    + [파생 가상 사용자](./audiences/personas.md)
    + [대상](./audiences/destinations.md)
-   + [동적 대상 자격 조건](./audiences/dynamic-audience-qualification.md)
 + 콘텐츠 {#content}
    + [자산](./content/digital-asset-management.md)
    + 템플릿 {#templates}

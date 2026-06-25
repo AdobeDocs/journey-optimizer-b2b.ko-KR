@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 641
 ht-degree: 4%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 4%
 사용자 지정 토큰을 전자 메일에 추가하면 `{{my.TokenName}}`(으)로 표시됩니다. 예를 들어 예정된 웨비나와 관련된 이메일 콘텐츠를 관리하기 위해 만든 토큰이 `{{my.EventDate}}` 또는 `{{my.WebinarSpeaker}}`개일 수 있습니다.
 
 프로그램 또는 폴더에만 해당되는 _내 토큰_ 외에도 개인화를 위해 표준(기본 제공) 토큰을 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>_내 토큰_&#x200B;은(는) 현재 이 Beta 릴리스의 Personalization 편집기에서 사용할 수 없습니다.
 
 ## 토큰 액세스
 
