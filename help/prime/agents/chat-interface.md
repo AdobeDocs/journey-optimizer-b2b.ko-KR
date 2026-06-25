@@ -4,19 +4,13 @@ description: Journey Optimizer B2B Prime의 AI Assistant 채팅 패널을 사용
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-12T22:46:23.441Z'
 TQID: 'https://experienceleague.adobe.com/XyBLmqv63kNBcw-Jo4hKvUKIn2la7kac7-kTbNEU5aE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a30218bb-f80a-4410-8ac4-b039e99a15b4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 878
 ht-degree: 1%
 
 ---
@@ -85,9 +79,11 @@ ht-degree: 1%
 
 스킬은 에이전트가 실행 방법을 알고 있는 패키지화된 워크플로우로서, `/` 메뉴와 자연어 요청 모두의 뒤에 기본 요소가 있습니다. 각 스킬은 단계별 지침 및 한 작업에 필요한 특정 도구(예: &quot;여정 게시&quot;, &quot;두 사람 목록 비교&quot;, &quot;채점 모델 구축&quot;)를 번들로 제공합니다.
 
+현재 지원되는 전체 기술 목록은 _[AI 지원 기술](./skills.md)_&#x200B;을 참조하십시오.
+
 기술에 대해 알아야 할 주요 사항:
 
-* **스킬은 제품 범위입니다.** AJO B2B Prime에서 AJO B2B 스킬(여정, 사람 목록, 점수, 채널, 전송 시간 최적화 등)을 볼 수 있습니다. 몇 가지 기술은 Marketo 전용이며 두 제품(리드 가져오기, 제품 지식)에서 몇 가지 작업이 가능합니다. 현재 위치와 관련된 스킬만 표시됩니다.
+* **스킬은 제품 범위입니다.** [!DNL Journey Optimizer B2B Prime]에서 다양한 제품별 기술(여정, 사람 목록, 점수, 채널, 전송 시간 최적화 등)을 볼 수 있습니다. 일부 스킬은 [!DNL Marketo Engage]만 사용할 수 있으며 두 제품(리드 가져오기, 제품 지식)에서 두 가지 작업이 모두 가능합니다. 현재 위치와 관련된 스킬만 표시됩니다.
 * **기술 이름을 기억할 필요가 없습니다.** 목표를 설명하고 에이전트가 일치하는 스킬을 선택합니다. `/` 메뉴는 동일한 워크플로우에 대한 검색 가능한 빠른 단축키입니다.
 * **일부 스킬은 읽기만 하고 다른 스킬은 변경합니다.** 조사 및 보고 기술(예: 리드 조사, 의도 쿼리, 전송 시간 보고서)은 데이터만 읽습니다. 스킬 구축 및 구성(예: 여정 생성, 채점) 데이터 생성 또는 변경.
 
