@@ -4,20 +4,13 @@ description: Journey Optimizer B2B Prime에 대한 하위 도메인 위임, DMAR
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 1918
+source-wordcount: 1920
 ht-degree: 1%
 
 ---
@@ -47,7 +40,7 @@ ht-degree: 1%
 
 ## 현재 제한 사항 {#limitations}
 
-* 하위 도메인 위임에 대한 **사용자 지정 위임 방법**&#x200B;을 아직 사용할 수 없습니다. 완전히 위임되었거나 CNAME을 사용하십시오. 사용자 지정 위임은 GA를 타깃팅합니다.
+* 하위 도메인 위임에 대한 **사용자 지정 위임 방법**&#x200B;을 아직 사용할 수 없습니다. 완전히 위임되었거나 CNAME을 사용하십시오. 사용자 지정 위임은 GA 릴리스를 대상으로 합니다.
 * Beta에서 **전용 IP 풀**&#x200B;을(를) 사용할 수 없습니다. 공유 IP 풀만 선택할 수 있습니다. 전용 IP는 IP 웜업 계획 및 PTR 기록 관리를 포함하여 GA 시점에 제공됩니다.
 
 ## 주요 개념 {#key-concepts}

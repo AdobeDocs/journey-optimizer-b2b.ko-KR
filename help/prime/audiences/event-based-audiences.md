@@ -4,18 +4,13 @@ description: Journey Optimizer B2B Prime의 이벤트 기반 대상을 사용하
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-25T17:59:01.953Z'
 TQID: 'https://experienceleague.adobe.com/04J58rjKw0hCoTOeYheZIPaX-YR8GwP-k6-Wn3XCetU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +19,7 @@ ht-degree: 3%
 
 [!DNL Adobe Journey Optimizer B2B Prime]에서 _이벤트 기반 대상_&#x200B;을(를) 사용하면 [!DNL Marketo Engage] 활동이 발생할 때 거의 실시간으로 실시간 [개인 여정](../marketing/person-journeys.md)에 대상 구성원을 추가할 수 있습니다. 여정 캔버스의 대상 노드에서 이벤트 기반 대상을 구성합니다.
 
-* 하나 이상의 Marketo 활동(표준 또는 사용자 지정)을 자격 이벤트로 선택합니다.
+* 하나 이상의 [!DNL Marketo Engage] 활동(표준 또는 사용자 지정)을 자격 이벤트로 선택합니다.
 * 개인 프로필 필터(예: 산업, 지역 또는 라이프사이클 단계)를 추가하여 사용자가 입력할 수 있는 범위를 좁힐 수 있습니다(선택적).
 * 선택적으로 활동 속성 제한(예: 특정 양식, URL 또는 프로그램)을 정의하여 각 활동의 발생 횟수를 좁힐 수 있습니다.
 
