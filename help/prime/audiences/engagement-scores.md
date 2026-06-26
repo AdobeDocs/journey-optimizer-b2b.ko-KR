@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
 ht-degree: 6%
@@ -157,9 +157,7 @@ _[!UICONTROL 개인 참여 점수]_ 필터는 **[!UICONTROL 개인 특성]** 범
 
 1. 채팅 입력 필드에 슬래시 명령을 입력한 다음 해당 명령을 입력합니다. 예:
 
-   ```text
-   /engagement-configuration Configure activity weights for the person engagement score model
-   ```
+   `/engagement-configuration Configure activity weights for the person engagement score model`
 
    `/`을(를) 입력하면 AI Assistant에 사용 가능한 슬래시 명령 및 스킬 목록이 표시됩니다. 참여 구성 명령은 참여 점수 가중치 페이지로 직접 라우팅됩니다.
 

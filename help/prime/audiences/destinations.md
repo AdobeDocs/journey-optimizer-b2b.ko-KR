@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 289
 ht-degree: 2%
@@ -95,7 +95,7 @@ Destination activations reflect the membership state of the static list at the t
 
 1. 구성된 대상 연결에 대한 확인란을 선택합니다.
 
-   ![구성된 대상을 활성화하도록 사용](./assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+   ![구성된 대상을 활성화하도록 사용](./assets/static-list-activate-destination-select.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

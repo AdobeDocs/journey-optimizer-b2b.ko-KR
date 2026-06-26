@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 9711cdf8f172523a32d8b64f0597d5ee14e7722b
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::: landing-cards-container
 
 :::
-![개인 대상 노드](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko) -->
 
 개인 대상 노드
 
@@ -39,7 +39,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![작업 노드](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko) -->
 
 작업 노드
 
@@ -49,7 +49,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![이벤트 노드](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko) —>
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko) -->
 
 이벤트 노드
 
@@ -59,7 +59,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![대기 노드](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko) -->
 
 대기 노드
 
@@ -69,7 +69,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![경로 노드 분할 및 병합](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko) -->
 
 경로 노드 분할 및 병합
 
@@ -79,7 +79,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![다음 최상의 경로 노드](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ko)
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ko) -->
 
 다음 최적 경로 노드
 
