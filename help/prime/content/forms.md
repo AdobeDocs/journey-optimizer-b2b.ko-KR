@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -354,3 +354,4 @@ Forms은 재사용을 위해 디자인되었으며 [랜딩 페이지](./landing-
 랜딩 페이지 디자인 공간에서 양식을 선택하면 이러한 작업은 컨텍스트 도구 모음과 오른쪽의 속성 패널에서 사용할 수 있습니다.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
+
