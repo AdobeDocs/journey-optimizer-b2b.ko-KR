@@ -110,7 +110,7 @@ ht-degree: 2%
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 _[!UICONTROL Forms]_ 목록 페이지의 오른쪽 상단에 있는 **[!UICONTROL 양식 만들기]**&#x200B;를 클릭하여 [!DNL Journey Optimizer B2B Prime]에서 양식을 만들 수 있습니다.
