@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 332
 ht-degree: 3%
@@ -66,4 +66,3 @@ ht-degree: 3%
    필터를 추가하는 경우 개인은 구성된 활동 조건 및 구성된 필터를 하나 이상 충족해야 합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-

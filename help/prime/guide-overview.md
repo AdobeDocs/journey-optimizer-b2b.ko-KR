@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 20%
+source-wordcount: 494
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 20%
 초기 설정 및 구성을 완료한 다음 애플리케이션을 탐색하고 홈 페이지를 사용하는 방법을 알아봅니다.
 
 [관리자 설정](./start/setup-prime.md)
+
 [홈 페이지](./home-insights/home-page.md)
 :::
 
@@ -48,7 +49,8 @@ AI 어시스턴트
 자연어를 사용하여 아젠틱 AI 기술로 프로그램을 계획하고, 여정을 구축하고, 대상을 관리하고, 콘텐츠를 만들 수 있습니다.
 
 [채팅 인터페이스](./agents/chat-interface.md)
-[사용 가능한 기술](./agents/skills.md)
+
+[사용 가능한 스킬](./agents/skills.md)
 :::
 
 :::
@@ -69,6 +71,7 @@ AI 어시스턴트
 캠페인을 프로그램으로 구성하고, 다중 채널 콘텐츠로 개인 여정을 디자인하고, 사용자 지정 토큰으로 개인화할 수 있습니다.
 
 [마케팅 개요](./marketing/marketing-management.md)
+
 [개인 여정](./marketing/person-journeys.md)
 :::
 
@@ -79,7 +82,8 @@ AI 어시스턴트
 
 직원 목록을 빌드 및 유지 관리하고, 이벤트 기반 대상자를 정의하고, 사용자 기반 점수를 통해 참여를 추적합니다.
 
-[명 목록](./audiences/people-lists.md)
+[사용자 목록](./audiences/people-lists.md)
+
 [참여 점수](./audiences/engagement-scores.md)
 :::
 
@@ -90,8 +94,10 @@ AI 어시스턴트
 
 이메일 및 WhatsApp 메시지 작성, 템플릿 및 에셋 관리, 랜딩 페이지 및 양식 만들기, 개인화 적용.
 
-[전자 메일 작성](./content/email-authoring.md)
+[이메일 작성](./content/email-authoring.md)
+
 [템플릿](./content/templates.md)
+
 [랜딩 페이지](./content/landing-pages.md)
 :::
 

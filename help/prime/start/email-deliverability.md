@@ -15,7 +15,7 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ## 현재 제한 사항 {#limitations}
 
-* 하위 도메인 위임에 대한 **사용자 지정 위임 방법**&#x200B;을 아직 사용할 수 없습니다. 완전히 위임되었거나 CNAME을 사용하십시오. 사용자 지정 위임은 GA 릴리스를 대상으로 합니다.
+* 하위 도메인 위임에 대한 **사용자 지정 위임 방법**&#x200B;을 아직 사용할 수 없습니다. 완전히 위임되거나 CNAME을 사용합니다. 사용자 지정 위임은 GA 릴리스를 대상으로 합니다.
 * Beta에서 **전용 IP 풀**&#x200B;을(를) 사용할 수 없습니다. 공유 IP 풀만 선택할 수 있습니다. 전용 IP는 IP 웜업 계획 및 PTR 기록 관리를 포함하여 GA 시점에 제공됩니다.
 
 ## 주요 개념 {#key-concepts}
