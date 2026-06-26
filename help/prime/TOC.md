@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B Prime과 이를 사용하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 7ad94f63f181d3e51c00c9629f3b2347c0eba04f
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 47%
+source-wordcount: '157'
+ht-degree: 45%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 47%
    + [채팅 인터페이스](./agents/chat-interface.md)
    + [스킬](./agents/skills.md)
    + [간단한 방법으로 프로그램 만들기](./agents/program-from-brief.md)
+   + [프로그램의 대상 만들기](./agents/audience-creation.md)
+   + [사용자 지정 점수 모델 만들기](./agents/lead-scoring-model.md)
 + [영업 구분자](./sales-qualifier/sales-qualifier.md)
 + 마케팅 관리 {#marketing-management}
    + [개요](./marketing/marketing-management.md)

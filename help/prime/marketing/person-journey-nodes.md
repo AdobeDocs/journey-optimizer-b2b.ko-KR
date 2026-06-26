@@ -3,20 +3,14 @@ title: 개인 여정 노드
 description: Journey Optimizer B2B edition Prime의 개인 여정 노드(대상, 작업, 이벤트, 대기, 경로 분할 및 AI 기반 다음 최적 경로 라우팅)에 대해 알아봅니다.
 autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9711cdf8f172523a32d8b64f0597d5ee14e7722b
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 0%
 
 ---
 
@@ -29,7 +23,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::: landing-cards-container
 
 :::
-![개인 대상 노드](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 개인 대상 노드
 
@@ -39,7 +33,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![작업 노드](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 작업 노드
 
@@ -49,7 +43,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![이벤트 노드](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko) —>
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 이벤트 노드
 
@@ -59,7 +53,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![대기 노드](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 대기 노드
 
@@ -69,7 +63,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![경로 노드 분할 및 병합](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 경로 노드 분할 및 병합
 
@@ -79,7 +73,7 @@ _[!UICONTROL 개인 대상]_ 노드는 자동으로 여정의 첫 번째 노드�
 :::
 
 :::
-![다음 최상의 경로 노드](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ko)
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 다음 최적 경로 노드
 
