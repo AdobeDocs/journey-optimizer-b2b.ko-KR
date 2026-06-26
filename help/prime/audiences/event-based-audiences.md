@@ -4,16 +4,11 @@ description: Journey Optimizer B2B Prime의 이벤트 기반 대상을 사용하
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-25T17:59:01.953Z'
 TQID: 'https://experienceleague.adobe.com/04J58rjKw0hCoTOeYheZIPaX-YR8GwP-k6-Wn3XCetU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 332
 ht-degree: 3%
@@ -66,3 +61,4 @@ ht-degree: 3%
    필터를 추가하는 경우 개인은 구성된 활동 조건 및 구성된 필터를 하나 이상 충족해야 합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
