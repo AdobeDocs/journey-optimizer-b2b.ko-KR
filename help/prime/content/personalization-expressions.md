@@ -19,16 +19,16 @@ role_v2:
 source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
 source-wordcount: 1015
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# Personalization 편집기
+# 개인화 편집기
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
 >title="개인화 편집기 정보"
->abstract="개인화 편집기를 사용하면 프로필 속성을 선택하고, 정렬하고, 맞춤화하고, 유효성을 검사하여 개인화된 콘텐츠를 만들 수 있습니다."
+>abstract="개인화 편집기를 통해 프로필 속성을 선택하고, 배열하고, 사용자 정의하고 검증하여 개인 맞춤화된 콘텐츠를 제작할 수 있습니다."
 
 개인화 편집기는 [!DNL Journey Optimizer B2B Prime]에서 개인화의 중심입니다. 이메일, WhatsApp 메시지, 랜딩 페이지 및 URL 필드 등 다이내믹 컨텐츠가 필요한 곳에서 사용할 수 있습니다.
 
@@ -81,7 +81,7 @@ _개인화_( ![개인화 아이콘](../../user/assets/do-not-localize/icon-perso
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_perso_editor_autocomplete"
 >title="자동 완성"
->abstract="이 옵션을 토글하여 활성화하면 코드 입력 시 시스템이 자동으로 코드를 제안하고 완성합니다. 이 기능은 HTML 및 텍스트 형식에만 사용할 수 있으며 프로필 속성을 지원합니다. 이 옵션을 토글하여 비활성화하면 편집기는 기본 HTML 코드 자동 완성 기능을 대신 제공합니다."
+>abstract="이 옵션을 토글하여 활성화하면 코드 입력 시 시스템이 자동으로 코드를 제안하고 완성합니다. 이 기능은 HTML 및 텍스트 형식에 대해서만 사용할 수 있으며, 프로필 속성을 지원합니다. 이 옵션을 토글하여 비활성화하면 편집기는 기본 HTML 코드 자동 완성 기능을 대신 제공합니다."
 
 중앙 작업 영역은 개인화 구문을 작성하는 위치입니다. 특성을 사용하여 메시지를 개인화하려면 왼쪽 탐색 창에서 특성을 찾은 다음 `+` 단추를 클릭하여 식에 추가하십시오.
 
@@ -109,7 +109,7 @@ _개인화_( ![개인화 아이콘](../../user/assets/do-not-localize/icon-perso
 
 1. **[!UICONTROL 찾기]** / **[!UICONTROL 찾기 및 바꾸기]**: 식을 검색하고 코드 부분을 자동으로 바꿉니다.
 1. **[!UICONTROL 실행 취소]** / **[!UICONTROL 다시 실행]**: 마지막 작업을 실행 취소/다시 실행합니다.
-1. **[!UICONTROL 자동 완성]**: 입력할 때 코드를 자동으로 제안하고 완료합니다. 이 기능은 HTML 및 텍스트 형식에만 사용할 수 있으며 프로필 속성을 지원합니다. 이 옵션을 토글하여 비활성화하면 편집기는 기본 HTML 코드 자동 완성 기능을 대신 제공합니다.
+1. **[!UICONTROL 자동 완성]**: 입력할 때 코드를 자동으로 제안하고 완료합니다. 이 기능은 HTML 및 텍스트 형식에 대해서만 사용할 수 있으며, 프로필 속성을 지원합니다. 이 옵션을 토글하여 비활성화하면 편집기는 기본 HTML 코드 자동 완성 기능을 대신 제공합니다.
 
    <!-- ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"} -->
 
