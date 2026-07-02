@@ -4,29 +4,23 @@ description: AI 비서 채팅 인터페이스의 Scoring Studio 기술을 사용
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-25T21:20:26.754Z'
 TQID: 'https://experienceleague.adobe.com/-D5EaJ-3GQ5iwaE6hChscZGEdflKmZ3tdp6VUNuPjWk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# 사용자 지정 점수 모델 만들기
+# 사용자 정의 점수 모델 만들기
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="Scoring Studio 스킬을 사용하여 AI 도우미 채팅 인터페이스를 통해 사용자 정의 리드 점수 모델을 만들고, 구성하고, 게시합니다."
+>abstract="Scoring Studio 기술을 사용하여 AI 어시스턴트 채팅 인터페이스를 통해 사용자 정의 리드 점수 모델을 만들고, 구성하고, 게시합니다."
 
 [!DNL Adobe Journey Optimizer B2B Prime]의 [_Scoring Studio_ 스킬](./skills.md#scoring-signals)은(는) 잠재 고객 스코어링 모델을 만들고, 구성하고, 게시할 수 있도록 하는 AI 기반 잠재 고객 스코어링 솔루션을 제공합니다. Studio는 에이전트 기반 워크플로를 시각적 UI와 결합합니다. [AI Assistant 채팅 인터페이스](./chat-interface.md)에서 자연어 프롬프트를 통해 또는 UI 컨트롤과 직접 상호 작용하여 채점 모델을 만들 수 있습니다.
 
