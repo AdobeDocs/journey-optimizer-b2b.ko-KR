@@ -17,16 +17,16 @@ role_v2:
 source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# 사용자 지정 점수 모델 만들기
+# 사용자 정의 점수 모델 만들기
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="Scoring Studio 스킬을 사용하여 AI 도우미 채팅 인터페이스를 통해 사용자 정의 리드 점수 모델을 만들고, 구성하고, 게시합니다."
+>abstract="Scoring Studio 기술을 사용하여 AI 어시스턴트 채팅 인터페이스를 통해 사용자 정의 리드 점수 모델을 만들고, 구성하고, 게시합니다."
 
 [!DNL Adobe Journey Optimizer B2B Prime]의 [_Scoring Studio_ 스킬](./skills.md#scoring-signals)은(는) 잠재 고객 스코어링 모델을 만들고, 구성하고, 게시할 수 있도록 하는 AI 기반 잠재 고객 스코어링 솔루션을 제공합니다. Studio는 에이전트 기반 워크플로를 시각적 UI와 결합합니다. [AI Assistant 채팅 인터페이스](./chat-interface.md)에서 자연어 프롬프트를 통해 또는 UI 컨트롤과 직접 상호 작용하여 채점 모델을 만들 수 있습니다.
 

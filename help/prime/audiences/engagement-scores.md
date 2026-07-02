@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
 >title="개인 참여 점수"
->abstract="개인 참여 점수는 최근 활동을 기반으로 한 개별 잠재 고객의 참여 수준을 반영합니다."
+>abstract="개인 참여 점수는 최근 활동을 기반으로 한 개별 리드의 참여 수준을 반영합니다."
 
 개인 참여 점수는 개별 잠재 고객에 대한 참여 수준을 반영하는 숫자입니다. 점수는 개인이 수행하는 활동을 기반으로 하며, 각 활동 유형에는 가중치가 적용됩니다. 일관된 비교를 가능하게 하고 실행 가능한 통찰력을 허용하기 위해 인스턴스(테넌트) 내에서 점수가 표준화됩니다.
 
