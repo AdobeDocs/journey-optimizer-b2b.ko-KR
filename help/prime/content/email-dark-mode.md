@@ -3,10 +3,18 @@ title: 이메일 콘텐츠의 다크 모드
 description: Journey Optimizer B2B Prime의 다크 모드 이메일 디자인에 대해 알아봅니다. 이메일 클라이언트 간 렌더링 미리 보기, 설정 사용자 지정 및 테스트.
 autotag-review: '2026-06-12T22:52:18.591Z'
 TQID: 'https://experienceleague.adobe.com/RelbNk1wrLqx3G6UGmOFu-AXJUudJgXPAt9DVmyQ-6c'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1478
@@ -28,7 +36,7 @@ ht-degree: 7%
 
 _어두운 모드_&#x200B;를 사용하면 지원하는 전자 메일 클라이언트 또는 앱에서 텍스트, 단추 및 기타 시각적 요소에 대해 어두운 배경과 밝은 색상의 전자 메일을 표시할 수 있습니다. 이러한 유형의 디스플레이는 눈의 피로를 줄이고, 배터리 수명을 절약하며, 저조도 환경에서 가독성을 향상시켜 보다 편안한 시청 경험을 제공할 수 있다. 주요 운영 체제 및 앱에서 증가하는 추세로서, 이제 모든 사용자가 콘텐츠를 읽을 수 있고 시각적으로 호소력 있게 사용할 수 있도록 하는 것이 최신 이메일 디자인에서 중요한 고려 사항입니다.
 
-[!DNL Journey Optimizer B2B Prime] 시각적 디자인 공간에서 [이메일 콘텐츠를 만들기](./email-authoring.md)할 때 _**[!UICONTROL 어두운 모드]**_ 보기로 전환할 수 있습니다. 이 보기에서 다크 모드가 활성화되면 이메일 클라이언트 지원을 위한 특정 사용자 지정 설정을 정의할 수도 있습니다.
+[!DNL Journey Optimizer B2B Prime] 시각적 디자인 공간에서 [이메일 콘텐츠를 만들기](./email-authoring.md)할 때 _&#x200B;**[!UICONTROL 어두운 모드]**&#x200B;_ 보기로 전환할 수 있습니다. 이 보기에서 다크 모드가 활성화되면 이메일 클라이언트 지원을 위한 특정 사용자 지정 설정을 정의할 수도 있습니다.
 
 ## 이메일 클라이언트 고려 사항 {#email-client-considerations}
 
