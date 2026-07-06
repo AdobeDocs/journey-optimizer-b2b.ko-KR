@@ -3,24 +3,17 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c556fb63675dfd1d6e03f6b0143b3d3bd619557e
+source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
 workflow-type: tm+mt
-source-wordcount: 5167
-ht-degree: 66%
+source-wordcount: 5271
+ht-degree: 65%
 
 ---
 
@@ -32,6 +25,22 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
+## 2026.6 릴리스 노트 {#rel-2026-6}
+
+**배포 날짜**: 2026년 7월 10일
+
+<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
+
+| 유형 | 항목 | 설명 |
+| ---- | ---- | ----------- |
+| 개선 사항 | 분할 경로 여정 노드 - 변형 | 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. |
+| 개선 사항 | 외부 분할 경로 여정 노드 - 개인 여정 | 이제 개인 여정에 대해 외부 분할 경로 여정 노드 지원을 사용할 수 있습니다. |
+| 개선 사항 | 외부 작업 여정 노드 - 개인 여정 | 이제 개인 여정에 대해 외부 작업 여정 노드에 대한 지원을 사용할 수 있습니다. |
+
+>[!NOTE]
+>
+>이러한 릴리스 변경 사항은 2026년 7월 10일에 배포되며 각 기능의 단계적 롤아웃 및 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+
 ## 2026.5 릴리스 노트 {#rel-2026-5}
 
 **배포 날짜**: 2026년 5월 22일
@@ -42,7 +51,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | 랜딩 페이지 | 랜딩 페이지는 Journey Optimizer B2B edition에서 여정 및 프로그램 _(이전에는 Beta 프로그램 기능)_&#x200B;을(를) 지원할 수 있습니다. <ul><li>관리자는 랜딩 페이지 게시 활성화를 위해 랜딩 페이지 하위 도메인 및 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-landing-pages.md)</li><li>마케터는 개인화된 웹 콘텐츠로 여정을 지원하기 위해 랜딩 페이지를 만들고, 디자인하고, 게시할 수 있습니다. [자세히 알아보기](../content/landing-pages.md)</li></ul> |
 | 기능 | 양식 | 이제 Journey Optimizer B2B edition은 재사용 가능한 양식 구성 요소를 지원하여 랜딩 페이지 _(이전에는 Beta 프로그램 기능)_&#x200B;에서 데이터를 제출할 수 있도록 합니다. <ul><li>관리자는 다양한 데이터 세트 조합과 스트리밍 연결을 사용하여 여러 양식 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-forms.md)</li><li>이제 마케터는 재사용 가능한 양식 구성 요소를 정의하여 웹 페이지 방문자의 정보를 캡처할 수 있습니다. [자세히 알아보기](../content/forms.md)</li></ul> |
-| 기능 | 계정 구성원 목록 필터 | 계정 여정의 오케스트레이션 지점으로 계정 목록 멤버십을 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. |
+| 기능 | 계정 목록 필터 멤버 | 계정 목록 멤버십을 계정 여정의 오케스트레이션 지점으로 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. |
 | 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 기능 | 다음 최적 경로 여정 노드 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. [자세히 알아보기](../journeys/next-best-path-node.md) |
 | 기능 | 이메일 성능 대시보드 | 이메일 성능 대시보드는 마케터에게 Adobe Journey Optimizer B2B edition의 모든 여정에 대한 이메일 활동을 통합적으로 볼 수 있도록 합니다. [자세히 알아보기](../dashboards/email-performance-dashboard.md) |
