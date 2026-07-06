@@ -15,7 +15,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 2%
@@ -102,3 +102,4 @@ _[!UICONTROL 파생 사용자]_ 필터는 **[!UICONTROL 개인 특성]** 범주 
 1. 필터 조건에서 **[!UICONTROL is]**&#x200B;을(를) 선택하고 목록에서 가상 사용자를 하나 이상 선택합니다.
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭하여 경로에 대한 필터를 저장합니다.
+
