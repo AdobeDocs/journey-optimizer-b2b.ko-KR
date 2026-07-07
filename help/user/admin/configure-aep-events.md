@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
+source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 10%
@@ -63,13 +63,13 @@ ht-degree: 10%
 
 * 여러 여정에서 경험 이벤트를 참조하거나 동일한 여정에서 두 번 이상 사용할 수 있습니다.
 
+>[!NOTE]
+>
+>_[!UICONTROL Standard]_, _[!UICONTROL Relational]_ 또는 _[!UICONTROL Events]_&#x200B;에 대한 XDM 필드를 선택할 때는 기본 데이터 형식(문자열, 정수, 실수, 부울)만 지원됩니다. 배열과 개체는 허용되지 않습니다.
+
 >[!ENDSHADEBOX]
 
 ## 경험 이벤트 관리 {#manage-experience-events}
-
->[!NOTE]
->
->_[!UICONTROL Standard]_, [!UICONTROL Relational] 또는 [!UICONTROL Events]에 대한 XDM 필드를 선택할 때는 기본 데이터 형식(문자열, 정수, 실수, 부울)만 지원됩니다. 배열과 개체는 허용되지 않습니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 구성]**&#x200B;을 선택합니다.
 
