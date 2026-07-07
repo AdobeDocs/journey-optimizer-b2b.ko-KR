@@ -4,20 +4,14 @@ description: Journey Optimizer B2B Prime에 대한 전체 설명서 - 온보딩,
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c260820ff5e4ce44759bb9c74aef877dfc6267b8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: f467931a-9b22-4ca8-869f-adfbd64061ce
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 64ff7b95a5d96376be096ba4d957fdb8020d4e7e
 workflow-type: tm+mt
-source-wordcount: 505
-ht-degree: 10%
+source-wordcount: 436
+ht-degree: 5%
 
 ---
 
@@ -25,105 +19,142 @@ ht-degree: 10%
 
 [!DNL Adobe Journey Optimizer B2B Prime]은(는) 마케터와 비즈니스 개발 담당자가 프로그램을 계획하고, 개인화된 개인 여정을 조정하고, 잠재 고객을 검증할 수 있는 AI 우선 마케팅 자동화 솔루션입니다. 대화형 AI를 사용하여 캠페인을 구축하고, 대상을 관리하고, 이메일 및 WhatsApp 채널 전반에 콘텐츠를 제공할 수 있습니다.
 
-## 주요 제품 기능 살펴보기 {#section-explore}
+## 기본 사항부터 시작 {#basics}
 
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="https://cdn.experienceleague.adobe.com/icons/circle-play.svg"  alt="체크리스트 설정"></a> </td>
+  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="https://cdn.experienceleague.adobe.com/icons/home.svg"  alt="홈 페이지"></a> </td>
+  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="https://cdn.experienceleague.adobe.com/icons/comment-dots.svg"  alt="AI Assistant 채팅 인터페이스"></a> </td>
+  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/users-gear.svg"  alt="마케팅 활동 허브"></a> </td>
+  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/images.svg"  alt="디지털 자산 관리"></a> </td>
+  <tr style="border: 0;">
+    <td valign="top">
+    <div><strong>설정</strong><br/><br/>초기 설정 및 구성을 완료하여 마케팅 팀이 시작할 수 있도록 합니다.</div>
+    </td>
+    <td valign="top">
+    <div><strong>홈 페이지</strong><br/><br/>홈 페이지 중심의 응용 프로그램에서 탐색 필수 사항을 살펴봅니다.</div>
+    </td>
+    <td valign="top">
+    <div><strong>AI 도우미</strong><br/><br/>자연어를 사용하여 프로그램을 계획하고, 여정을 구축하고, 대상을 관리하고, 아젠틱 AI 기술을 사용하여 콘텐츠를 만들 수 있습니다.
+    </div>
+    </td>
+    <td valign="top">
+    <div><strong>마케팅 허브</strong><br/><br/>캠페인을 프로그램으로 구성하고, 다중 채널 콘텐츠로 개인 여정을 디자인하고, 사용자 지정 토큰으로 개인화합니다.</div>
+    </td>
+    <td valign="top">
+    <div><strong>에셋 관리</strong><br/><br/>이메일, 템플릿 및 시각적 조각에서 로컬 및 Marketo Engage 이미지 에셋을 사용합니다.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="/help/prime/setup-prime.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/home-insights/home-page.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/agents/chat-interface.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/marketing/marketing-management.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/content/digital-asset-management.md"><img src="../assets/learn-more.svg"></a></td>
+    </tr>
+</table>
+
+<!-- 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-시작
+Get Started
 
-초기 설정 및 구성을 완료한 다음 애플리케이션을 탐색하고 홈 페이지를 사용하는 방법을 알아봅니다.
+Complete initial setup and configuration, then learn how to navigate the application and use the home page.
 
-[관리자 설정](./start/setup-prime.md) <br/>
-[홈 페이지](./home-insights/home-page.md)
+[Administrator setup](./start/setup-prime.md) <br/>
+[Home page](./home-insights/home-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
-AI 어시스턴트
+AI Assistant
 
-자연어를 사용하여 아젠틱 AI 기술로 프로그램을 계획하고, 여정을 구축하고, 대상을 관리하고, 콘텐츠를 만들 수 있습니다.
+Use natural language to plan programs, build journeys, manage audiences, and create content with agentic AI skills.
 
-[채팅 인터페이스](./agents/chat-interface.md) <br/>
-[사용 가능한 기술](./agents/skills.md)
+[Chat interface](./agents/chat-interface.md) <br/>
+[Available skills](./agents/skills.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-영업 구분자
+Sales Qualifier
 
-잠재 고객을 AI로 인증하고, 아웃바운드 워크플로우를 실행하고, CRM 작업을 BDR 활동과 연결합니다.
+Qualify prospects with AI, run outbound workflows, and connect CRM tasks with BDR activities.
 
-[Sales Qualifier에 대해 알아보기](./sales-qualifier/sales-qualifier.md)
+[Learn about Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-마케팅 관리
+Marketing Management
 
-캠페인을 프로그램으로 구성하고, 다중 채널 콘텐츠로 개인 여정을 디자인하고, 사용자 지정 토큰으로 개인화할 수 있습니다.
+Organize campaigns into programs, design person journeys with multi-channel content, and personalize with custom tokens.
 
-[마케팅 개요](./marketing/marketing-management.md) <br/>
-[개인 여정](./marketing/person-journeys.md)
+[Marketing overview](./marketing/marketing-management.md) <br/>
+[Person journeys](./marketing/person-journeys.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
-대상자
+Audiences
 
-직원 목록을 빌드 및 유지 관리하고, 이벤트 기반 대상자를 정의하고, 사용자 기반 점수를 통해 참여를 추적합니다.
+Build and maintain people lists, define event-based audiences, and track engagement with persona-based scoring.
 
-[사람 목록](./audiences/people-lists.md) <br/>
-[참여 점수](./audiences/engagement-scores.md)
+[People lists](./audiences/people-lists.md) <br/>
+[Engagement scores](./audiences/engagement-scores.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-콘텐츠
+Content
 
-이메일 및 WhatsApp 메시지 작성, 템플릿 및 에셋 관리, 랜딩 페이지 및 양식 만들기, 개인화 적용.
+Author emails and WhatsApp messages, manage templates and assets, create landing pages and forms, and apply personalization.
 
-[전자 메일 작성](./content/email-authoring.md) <br/>
-[템플릿](./content/templates.md) <br/>
-[랜딩 페이지](./content/landing-pages.md)
+[Email authoring](./content/email-authoring.md) <br/>
+[Templates](./content/templates.md) <br/>
+[Landing pages](./content/landing-pages.md)
 :::
 
 ::::
+
+-->
 
 ## 설명서 살펴보기
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="시작하기"><br/>
       <strong>시작</strong><br/><a href="./start/setup-prime.md">검사 목록 설정</a><br/><a href="./start/user-management.md">사용자 관리</a><br/><a href="./start/email-deliverability.md">전자 메일 게재 기능</a>
     </td>
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="AI 어시스턴트"><br/>
       <strong>AI 도우미</strong><br/><a href="./agents/chat-interface.md">채팅 인터페이스</a><br/><a href="./agents/skills.md">기술</a><br/><a href="./agents/program-from-brief.md">간단한 프로그램을 만듭니다</a><br/><a href="./agents/audience-creation.md">프로그램을 위한 대상 만들기</a>
     </td>
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="마케팅 관리"><br/>
       <strong>마케팅 관리</strong><br/><a href="./marketing/programs.md">프로그램</a><br/><a href="./marketing/person-journeys.md">개인 여정</a><br/><a href="./marketing/email-channel.md">전자 메일 채널</a><br/><a href="./content/whatsapp-authoring.md">WhatsApp 채널</a>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="대상자"><br/>
       <strong>대상</strong><br/><a href="./audiences/people-lists.md">사람 목록</a><br/><a href="./audiences/event-based-audiences.md">이벤트 기반 대상</a><br/><a href="./audiences/engagement-scores.md">참여 점수</a><br/><a href="./audiences/personas.md">파생 가상 사용자</a><br/><a href="./audiences/destinations.md">대상</a>
     </td>
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="콘텐츠"><br/>
       <strong>콘텐츠</strong><br/><a href="./content/email-authoring.md">이메일 작성</a><br/><a href="./content/templates.md">템플릿</a><br/><a href="./content/landing-pages.md">랜딩 페이지</a><br/><a href="./content/forms.md">Forms</a><br/><a href="./content/personalization-expressions.md">Personalization</a>
     </td>
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px" alt="관리"><br/>
       <strong>관리</strong><br/><a href="./admin/email-channel-configuration.md">전자 메일 구성</a><br/><a href="./admin/configuration-channels-whatsapp.md">WhatsApp 구성</a><br/><a href="./admin/program-types.md">프로그램 유형</a>
     </td>
@@ -135,15 +166,15 @@ AI 어시스턴트
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/kr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
 </tr></table>
 
