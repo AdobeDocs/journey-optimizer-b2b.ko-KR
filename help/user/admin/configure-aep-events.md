@@ -5,38 +5,30 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
 workflow-type: tm+mt
-source-wordcount: 1603
-ht-degree: 11%
+source-wordcount: 1632
+ht-degree: 10%
 
 ---
 
 # 경험 이벤트 및 필드 선택
 
-관리자는 경험 이벤트 유니온 스키마 내에서 특정 [AEP 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
+관리자는 경험 이벤트 유니온 스키마 내에서 특정 Adobe Experience Platform(AEP) [경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->Journey Optimizer B2B edition에서 경험 이벤트 및 필드를 사용하려면 프로필이 활성화된 경험 이벤트 스키마가 필요합니다. 자세한 내용은 Experience Platform 자습서에서 [실시간 고객 프로필 활성화](https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}를 참조하십시오.
+>Journey Optimizer B2B edition에서 경험 이벤트 및 필드를 사용하려면 프로필이 활성화된 경험 이벤트 스키마가 필요합니다. 자세한 내용은 Experience Platform 자습서에서 [실시간 고객 프로필 활성화](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}를 참조하십시오.
 
-여정에서 AEP 경험 이벤트 사용은 두 단계 프로세스입니다.
+여정에서 AEP Experience Event 사용은 두 단계 프로세스입니다.
 
 1. 관리자 [이(가) AEP B2B edition 구성에 Journey Optimizer Experience Events 및 필드를 추가](#add-an-event)합니다.
 
@@ -66,6 +58,10 @@ ht-degree: 11%
 >[!ENDSHADEBOX]
 
 ## 경험 이벤트 관리 {#manage-experience-events}
+
+>[!NOTE]
+>
+>_[!UICONTROL Standard]_, [!UICONTROL Relational] 또는 [!UICONTROL Events]에 대한 XDM 필드를 선택할 때는 기본 데이터 형식(문자열, 정수, 실수, 부울)만 지원됩니다. 배열과 개체는 허용되지 않습니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 구성]**&#x200B;을 선택합니다.
 
@@ -487,5 +483,5 @@ _[!UICONTROL 이벤트]_ 탭의 목록에 저장된 이벤트가 표시됩니다
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448690/?captions=kor&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->
