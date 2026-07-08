@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
+source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
 workflow-type: tm+mt
-source-wordcount: 5271
+source-wordcount: 5232
 ht-degree: 65%
 
 ---
@@ -40,13 +40,17 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 개선 사항 | 분할 경로 여정 노드 - 변형 | 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. |
-| 개선 사항 | 외부 분할 경로 여정 노드 - 개인 여정 | 이제 개인 여정에 대해 외부 분할 경로 여정 노드 지원을 사용할 수 있습니다. |
-| 개선 사항 | 외부 작업 여정 노드 - 개인 여정 | 이제 개인 여정에 대해 외부 작업 여정 노드에 대한 지원을 사용할 수 있습니다. |
+| 기능 | 분할 경로 여정 노드 - 변형 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. |
 
 >[!NOTE]
 >
 >이러한 릴리스 변경 사항은 2026년 7월 10일에 배포되며 각 기능의 단계적 롤아웃 및 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+
+<!-- 
+Add for 2026.8 release
+| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
+| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+-->
 
 ## 2026.5 릴리스 노트 {#rel-2026-5}
 
