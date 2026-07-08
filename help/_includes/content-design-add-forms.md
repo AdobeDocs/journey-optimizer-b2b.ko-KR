@@ -1,7 +1,7 @@
 ---
 title: 컨텐츠 작성 - 양식 추가
 description: 랜딩 페이지 및 템플릿에서 양식 추가에 대한 섹션 재사용
-source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >전자 메일 내의 전체 수평 레이아웃을 차지하도록 양식을 추가하려면 1:1 열 구조를 추가한 다음 양식을 끌어서 놓습니다.
+   >페이지 내의 전체 수평 레이아웃을 차지하도록 양식을 추가하려면 1:1 열 구조를 추가한 다음 양식을 끌어서 놓습니다.
 
 1. 구성 요소 도구 모음에서 _양식_ 아이콘을 클릭하거나 오른쪽의 **[!UICONTROL 양식 포함]** 속성을 사용하여 게시된 양식을 선택합니다.
 
