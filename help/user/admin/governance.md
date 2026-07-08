@@ -1,35 +1,45 @@
 ---
-title: 거버넌스 기능
+title: 거버넌스 및 개인 정보 보호 기능
 description: 현재 Journey Optimizer B2B edition에서 사용할 수 있는 거버넌스 기능에 대해 알아봅니다.
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: 697
 ht-degree: 0%
 
 ---
 
-# 거버넌스 기능
+# 거버넌스 및 개인 정보 보호 기능
 
-Journey Optimizer B2B edition은 통합 Adobe Experience Platform 앱입니다. 비즈니스 관행, 법적 의무 및 개발 프로세스를 준수하여 수집된 경험 데이터를 제어하는 여러 가지 도구와 서비스를 사용합니다. 아래 섹션에서는 이러한 각 거버넌스 기능에 대한 요약을 제공합니다.
+[!DNL Journey Optimizer B2B Edition]은(는) 통합 Adobe Experience Platform 앱입니다. 비즈니스 관행, 법적 의무 및 개발 프로세스를 준수하여 수집된 경험 데이터를 제어하는 여러 가지 도구와 서비스를 사용합니다. 아래 섹션에서는 이러한 각 거버넌스 기능에 대한 요약을 제공합니다.
 
-## 개인 정보 - GDPR
+## 개인 정보 보호
 
-Journey Optimizer B2B edition은 Privacy Service 및 Marketo Privacy Broker Service에서 제공하는 기존 Marketo Engage GDPR 거버넌스 기능을 사용합니다.
+위에 언급된 각 지역 또는 국가(유럽 연합, 캘리포니아, 태국, 브라질, 뉴질랜드)에 있는 데이터 주체의 데이터를 보유하고 있는 [!DNL Journey Optimizer B2B Edition] 고객에게 적용되는 다양한 규정이 있습니다. 이 페이지의 정보는 법률적인 조언이 아니며, 해당 법률의 준수를 보증하지 않습니다.
+
+### GDPR
+
+GDPR(General Data Protection Regulation)은 EU 국가의 [데이터 보호 요구 사항](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다.
+
+[!DNL Journey Optimizer B2B Edition]은(는) Privacy Service 및 Marketo Privacy Broker Service에서 제공하는 기존 Marketo Engage GDPR 거버넌스 기능을 사용합니다.
+
+### CNIL
+
+2026년 4월 14일, CNIL(Commission national de l&#39;informatique et des libertés) [이메일 내의 픽셀 추적 사용에 대한 권장 사항을 게시](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf)했습니다. 안내서에서는 동의가 필요한 시기를 명확히 설명하고 이메일 픽셀 추적에 대한 적절한 동의 사례의 중요성을 강조합니다. 이 정책은 프랑스에 기반을 둔 구독자에게 이메일을 보내는 모든 엔터티에 영향을 줍니다.
+
+CNIL은 기업이 이메일 수신자에게 추적 픽셀 유무, 목적, 수신자의 옵트아웃 권리 등을 알리도록 권고일로부터 3개월의 기간을 제공했다. 이 전환 기간 동안 Marketo Engage 사용자는 수신자에게 픽셀 추적에 대해 알리고 필요한 경우 옵트아웃을 제공합니다. CNIL은 2026년 7월 14일 이후 집행 활동을 시작할 것으로 예상된다.
+
+CNIL과 기타 규제 기관이 픽셀 추적 및 관련 문제에 대한 지침을 명확히 함에 따라 Adobe은 업데이트를 계속 모니터링하고 기술 기능의 변경에 대해 알려드립니다.
+
+[!DNL Journey Optimizer B2B Edition]에서는 전자 메일 수준에서 열린 추적을 관리하는 데 도움이 되는 컨트롤을 제공합니다. 사용자는 해당 CNIL 지침 및 기타 법률에 따라 자신의 준수 의무를 결정할 책임이 있습니다. 이러한 기능을 사용하여 전자 메일 열기 추적을 관리하는 방법에 대한 자세한 내용은 [_전자 메일 추적 관리_](../content/email-tracking-manage.md)&#x200B;를 참조하십시오.
 
 ## RBAC(역할 기반 액세스 제어)
 
