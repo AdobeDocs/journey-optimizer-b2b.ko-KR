@@ -21,18 +21,26 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # 이메일 열기 추적 관리
 
-해당 관할 구역 지침 및 법률에 따라 귀하의 준수 의무를 결정할 책임이 있지만, 다음 [!DNL Journey Optimizer B2B Edition] 기능을 사용하여 귀하의 준수 노력을 지원할 수 있습니다.
-
 개별 이메일에 대한 공개 추적을 비활성화하거나 Adobe Experience Platform에서 각 개인의 추적 환경 설정을 캡처하고 분할 경로를 사용하여 사람들을 추적 및 비추적 이메일 변형으로 라우팅할 수 있습니다.
+
+>[!BEGINSHADEBOX &quot;전자 메일 추적 픽셀에 대한 CNIL 지침&quot;]
+
+2026년 4월 14일, *CNIL(Commission Nationale de l&#39;Informatique et des Libertés)에서 [이메일 내 픽셀 추적 사용에 대한 권장 사항](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)을 게시했습니다.*&#x200B;안내서에서는 동의가 필요한 시기를 명확히 설명하고 이메일 픽셀 추적에 대한 적절한 동의 사례의 중요성을 강조합니다. 이 정책은 프랑스에 기반을 둔 구독자에게 이메일을 게재하는 모든 엔터티의 전송 사례에 영향을 줄 수 있습니다.
+
+이메일 추적 픽셀은 이메일의 HTML에 임베드된 1x1 투명 이미지입니다. 수신자의 이메일 클라이언트가 해당 이미지를 로드할 때 픽셀은 타임스탬프, 디바이스 유형, 이메일 클라이언트 및 경우에 따라 대략적인 위치에 대한 IP 주소와 같은 데이터를 기록하는 서버를 ping합니다. 그러면 해당 로그가 수신자의 레코드에 연결되어 마케터는 이메일이 열렸는지 여부를 알 수 있습니다.
+
+여기에 설명된 [!UICONTROL Journey Optimizer B2B edition] 제품 기능은 적절하게 구성 및 작동되어 호환되는 구현을 지원할 수 있는 기본 구성입니다. 각 고객은 해당 법률에 따라 자신의 의무를 결정하고 준수할 책임이 있습니다.
+
+>[!ENDSHADEBOX]
 
 ## 단일 이메일에 대한 추적 비활성화 {#disable-tracking-single-email}
 
