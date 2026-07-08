@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B Prime과 이를 사용하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 7ad94f63f181d3e51c00c9629f3b2347c0eba04f
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 45%
+source-wordcount: '160'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 45%
    + [스킬](./agents/skills.md)
    + [간단한 방법으로 프로그램 만들기](./agents/program-from-brief.md)
    + [프로그램의 대상 만들기](./agents/audience-creation.md)
-   + [사용자 지정 점수 모델 만들기](./agents/lead-scoring-model.md)
+   + [사용자 정의 점수 모델 만들기](./agents/lead-scoring-model.md)
 + [영업 구분자](./sales-qualifier/sales-qualifier.md)
 + 마케팅 관리 {#marketing-management}
    + [개요](./marketing/marketing-management.md)
@@ -58,7 +58,9 @@ ht-degree: 45%
       + [템플릿 만들기](./content/templates-create.md)
       + [콘텐츠 거버넌스](./content/template-content-governance.md)
    + [랜딩 페이지](./content/landing-pages.md)
-   + [양식](./content/forms.md)
+   + 양식 {#forms}
+      + [개요](./content/forms.md)
+      + [양식 디자인](./content/form-design.md)
    + [개인화](./content/personalization-expressions.md)
    + 콘텐츠 디자인 도구 {#content-design}
       + [구조 구성 요소](./content/structure-components.md)
