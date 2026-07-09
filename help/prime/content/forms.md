@@ -107,7 +107,7 @@ ht-degree: 2%
 >id="ajo-b2b-prime_lp_form_preset"
 >title="사전 설정 선택"
 >abstract="사용할 연결이 포함된 사전 정의 사전 설정과 양식에 맞는 사전 정의 데이터 세트를 선택합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="양식 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="양식 사전 설정 만들기"
 
 _[!UICONTROL Forms]_ 목록 페이지의 오른쪽 상단에 있는 **[!UICONTROL 양식 만들기]**&#x200B;를 클릭하여 [!DNL Journey Optimizer B2B Prime]에서 양식을 만들 수 있습니다.
 
