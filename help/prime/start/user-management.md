@@ -1,6 +1,6 @@
 ---
 title: 사용자 액세스 및 권한
-description: 'Adobe Admin Console에서 사용자 액세스 관리: Journey Optimizer B2B edition Prime에 대한 사용자 그룹 만들기, 제품 프로필 할당 및 역할 기반 권한 설정.'
+description: 'Adobe Admin Console에서 사용자 액세스 관리: 사용자 그룹을 만들고, 제품 프로필을 할당하고, Journey Optimizer B2B Prime에 대한 역할 기반 권한을 설정합니다.'
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
@@ -16,20 +16,22 @@ subfeature_v2:
   - id: bd42eee1-e206-4826-91ea-88dc726d858e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 70%
+source-wordcount: 1710
+ht-degree: 61%
 
 ---
 
 # 사용자 액세스 및 권한
 
-프로비저닝이 완료되고 샌드박스가 바인딩되면 다음 단계를 완료하여 팀과 사용자에게 Adobe Journey Optimizer B2B edition 액세스를 제공합니다.
+프로비저닝이 완료되고 샌드박스가 바인딩되면 다음 단계를 완료하여 팀 및 사용자에게 [!DNL Journey Optimizer B2B Prime] 액세스 권한을 제공하십시오.
 
-1. Admin Console에서 [Adobe Journey Optimizer B2B edition 제품 프로필 만들기](#create-profile)(1회/초기 설정만 해당).
+1. Admin Console에서 [제품 프로필 만들기 [!DNL Journey Optimizer B2B Edition] 제품 프로필 만들기](#create-profile)(1회/초기 설정만 해당).
 1. Admin Console에서 [사용자 그룹 추가](#add-user-group).
-1. Adobe Experience Platform 권한에서 Journey Optimizer B2B edition 권한을 사용하여 [기본 제공 역할을 편집](#edit-role-permissions) 또는 [사용자 지정 역할을 만들기](#create-a-custom-role)합니다.
+1. Admin Console의 사용자 그룹에 [제품 프로필을 할당](#assign-profile)합니다.
+1. Admin Console에서 [사용자를 새 그룹에 추가](#add-users)합니다.
+1. Adobe Experience Platform에서 [기본 제공 역할을 편집](#edit-role-permissions) 또는 [사용자 지정 역할을 만들기](#create-a-custom-role) 권한을 사용하여 [!DNL Journey Optimizer B2B Edition].
 1. Adobe Experience Platform의 역할에 [사용자 추가](#add-users-to-a-role) 또는 [그룹](#add-user-groups-to-a-role).
 
 ## 제품 프로필 구성 {#config-profile}
@@ -66,17 +68,17 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
    * **[!UICONTROL 관리자 역할]** 열의 값에 `System`이(가) 표시되면 사용자(또는 표시된 사용자)가 시스템 관리자임을 알 수 있습니다.
 
-### Adobe Journey Optimizer B2B edition 제품 프로필 만들기 {#create-profile}
+### [!DNL Journey Optimizer B2B Edition] 제품 프로필 만들기 {#create-profile}
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
 사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Adobe Journey Optimizer B2B edition 제품 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 [!DNL Experience Platform] 제품 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다.
 
 1. **[!UICONTROL 제품]** 탭을 선택합니다.
 
-1. 프로필을 추가할 Adobe Journey Optimizer B2B edition 인스턴스를 열고 **[!UICONTROL 새 프로필]**&#x200B;을 클릭합니다.
+1. 프로필을 추가할 [!DNL Journey Optimizer B2B Edition] 인스턴스를 열고 **[!UICONTROL 새 프로필]**&#x200B;을 클릭합니다.
 
    ![Experience Platform - 사용자 그룹의 제품 프로필](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}
 
@@ -98,7 +100,7 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 1. 오른쪽 상단의 **[!UICONTROL 새 사용자 그룹]**&#x200B;을 클릭합니다.
 
-1. _B2B 여정 사용자_&#x200B;와 같은 사용자 그룹의 이름을 입력하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. _B2B 사용자_&#x200B;와 같은 사용자 그룹의 이름을 입력하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![관리 콘솔 - 사용자 그룹 추가](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
 
@@ -175,7 +177,7 @@ Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Pl
 
 ### B2B product permissions {#b2b-product-permissions}
 
-The following permissions govern access to Journey Optimizer B2B Edition capabilities:
+The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
 
 | Category | Description | Permissions |
 | -------- | ----------- | ---------- |
@@ -190,7 +192,7 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
-When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
 | Role | Permissions |
 | ---- | ----------- |
@@ -205,7 +207,9 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 기본 제공 또는 사용자 지정 역할의 경우 언제든지 권한을 추가하거나 삭제할 것을 결정할 수 있습니다. 기본 또는 사용자 정의 역할을 수정하는 경우 해당 역할에 할당된 모든 사용자에게 영향을 줍니다.
 
-다음 예에서는 B2B 채널 관리자 역할에 할당된 사용자의 B2B 여정 리소스와 관련된 권한을 추가하려고 합니다. 이 변경 사항을 통해 해당 역할의 사용자는 계정 여정을 관리할 수도 있습니다.
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer B2B Prime] 액세스를 사용하려면 명명 규칙(Marketo Engage 구독 접두사 + Prime)을 사용하여 프로비저닝된 특정 샌드박스를 활성화해야 합니다. 예를 들어 연결된 Marketo Engage 구독 접두사가 _AcmeAssoc_&#x200B;인 경우 [!DNL Journey Optimizer B2B Prime] 액세스에 필요한 샌드박스는 _AcmeAssocPrime_&#x200B;입니다.
 
 >[!NOTE]
 >
@@ -219,17 +223,19 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. 세부 정보 페이지에서 오른쪽 상단의 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-   ![Experience Platform - 역할 편집](../../user/admin/assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform - 역할 편집](./assets/aep-permissions-role-prime-edit.png){width="800" zoomable="yes"}
 
-   역할 편집기에서 _[!UICONTROL 리소스]_ 메뉴에 Experience Cloud - Platform 기반 응용 프로그램 제품에 적용되는 리소스 목록이 표시됩니다.
+   역할 편집기에서 _[!UICONTROL 리소스]_ 메뉴에 Experience Cloud - 플랫폼 기반 애플리케이션에 적용되는 리소스 목록이 표시됩니다.
 
-   검색 도구에 _B2B_&#x200B;을(를) 입력하여 B2B 제품 권한 목록을 필터링할 수 있습니다.
+1. [!DNL Journey Optimizer B2B Prime] 액세스(`<Marketo subscription prefix>Prime`)에 대해 프로비전된 샌드박스를 선택하십시오.
 
-1. B2B 여정 리소스에 대한 _추가_ 아이콘(**+**)을 클릭합니다.
+   ![Experience Platform - 새 역할에 대한 샌드박스 추가](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
+
+1. 각 B2B 리소스에 대해 _추가_ 아이콘(**+**)을 클릭합니다.
 
    ![Experience Platform - B2B 여정 리소스가 채널 관리자 역할에 추가됨](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL B2B 여정]_ 권한 카드에서 **[!UICONTROL B2B 계정 여정 관리]**&#x200B;를 선택합니다.
+1. 각 리소스에 대한 특정 권한을 추가하거나 **[!UICONTROL 모두 추가]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -239,7 +245,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 ### 역할에 사용자 추가 {#add-users-to-a-role}
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Experience Platform 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. 역할 세부 정보를 열고 **[!UICONTROL 사용자]** 탭을 선택합니다.
 
@@ -247,7 +253,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
-   ![Experience Platform - 역할에 사용자 추가](../../user/admin/assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
+   ![Experience Platform - 역할에 사용자 추가](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL 사용자 추가]_ 대화 상자에서 역할에 추가할 사용자를 찾아 선택합니다.
 
@@ -263,7 +269,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [_Adobe Admin Console 사용자_](https://helpx.adobe.com/kr/enterprise/using/users.html){target="_blank"}를 참조하십시오.
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Experience Platform 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. 역할 세부 정보를 열고 **[!UICONTROL 사용자 그룹]** 탭을 선택합니다.
 
@@ -271,7 +277,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. **[!UICONTROL 그룹 추가]**&#x200B;를 클릭합니다.
 
-   ![Experience Platform - 역할에 그룹 추가](../../user/admin/assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - 역할에 그룹 추가](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL 그룹 추가]_ 대화 상자에서 역할에 추가할 그룹을 찾아 선택합니다.
 
@@ -285,7 +291,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 ### 사용자 정의 역할 만들기 {#create-a-custom-role}
 
-![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 AEP 제품 관리자는 다음 단계를 수행할 수 있습니다.
+![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Experience Platform 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 역할]**&#x200B;을(를) 선택하고 **[!UICONTROL 역할 만들기]**&#x200B;를 선택합니다.
 
@@ -293,9 +299,9 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-1. 샌드박스를 선택합니다.
+1. [!DNL Journey Optimizer B2B Prime] 액세스(`<Marketo subscription prefix>Prime`)에 대해 프로비전된 샌드박스를 선택하십시오.
 
-   ![Experience Platform - 새 역할에 대한 샌드박스 추가](../../user/admin/assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![Experience Platform - 새 역할에 대한 샌드박스 추가](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
 
 1. B2B 제품 권한 추가:
 
@@ -313,10 +319,8 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. **[!UICONTROL 그룹 추가]**&#x200B;를 클릭합니다.
 
-   ![Experience Platform - 사용자 지정 역할에 대한 사용자 그룹 선택](../../user/admin/assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
-
 1. 이전에 Admin Console에서 만든 사용자 그룹 옆의 확인란을 선택합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-사용자 정의 역할이 구성되었으며 할당된 그룹의 사용자가 이제 선택한 Journey Optimizer B2B edition 기능에 액세스할 수 있습니다.
+사용자 지정 역할이 구성되었으며 할당된 그룹의 사용자가 이제 선택한 [!DNL Journey Optimizer B2B Prime] 기능에 액세스할 수 있습니다.

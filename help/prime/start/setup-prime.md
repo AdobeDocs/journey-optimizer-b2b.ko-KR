@@ -15,10 +15,10 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 11%
+source-wordcount: 261
+ht-degree: 10%
 
 ---
 
@@ -51,6 +51,16 @@ ht-degree: 11%
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="작업에 대한 확인란"/></td>
 <td>Admin Console에서 사용자 그룹 추가</td>
 <td><a href="./user-management.md#add-user-group">사용자 그룹 추가</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="작업에 대한 확인란"/></td>
+<td>Admin Console에서 사용자 그룹에 제품 프로필을 할당합니다</td>
+<td><a href="./user-management.md#assign-profile">제품 프로필 할당</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="작업에 대한 확인란"/></td>
+<td>Admin Console에서 사용자 그룹에 사용자 추가</td>
+<td><a href="./user-management.md#add-users">사용자 추가</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="작업에 대한 확인란"/></td>
