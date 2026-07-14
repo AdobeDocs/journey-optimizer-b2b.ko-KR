@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B Prime과 이를 사용하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: edb7bf983c8eba432604cf9bffc65e0be1ddee99
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 53%
+source-wordcount: '175'
+ht-degree: 54%
 
 ---
 
@@ -57,6 +57,9 @@ ht-degree: 53%
       + [개요](./content/templates.md)
       + [템플릿 만들기](./content/templates-create.md)
       + [콘텐츠 거버넌스](./content/template-content-governance.md)
+   + 조각 {#visual-fragments}
+      + [개요](./content/fragments.md)
+      + [조각 작성](./content/fragment-authoring.md)
    + 랜딩 페이지 {#landing-pages}
       + [개요](./content/landing-pages.md)
       + [랜딩 페이지 만들기 및 게시](./content/landing-pages-create-publish.md)
@@ -65,6 +68,7 @@ ht-degree: 53%
       + [개요](./content/forms.md)
       + [양식 디자인](./content/form-design.md)
    + [개인화](./content/personalization-expressions.md)
+   + [조건부 콘텐츠](./content/conditional-content.md)
    + 콘텐츠 디자인 도구 {#content-design}
       + [구조 구성 요소](./content/structure-components.md)
       + [콘텐츠 구성 요소](./content/content-components.md)
