@@ -3,23 +3,16 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항으로 최신 정보를 유지합니다.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
+source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
 workflow-type: tm+mt
-source-wordcount: 5232
+source-wordcount: 5234
 ht-degree: 65%
 
 ---
@@ -36,11 +29,9 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 **배포 날짜**: 2026년 7월 10일
 
-<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
-
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 분할 경로 여정 노드 - 변형 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. |
+| 기능 | 분할 경로 여정 노드 - 변형 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. [자세히 알아보기](../journeys/variant-split-paths-nodes.md) |
 
 >[!NOTE]
 >
