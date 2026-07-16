@@ -3,7 +3,7 @@ title: 콘텐츠 작성 - 이메일 템플릿 선택
 description: 콘텐츠 작성을 위한 이메일 템플릿 선택에 대한 재사용 섹션
 source-git-commit: 985b0ac83f21e5ec0bf8d49d3d94deb5035789be
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * **저장된 템플릿**. _[!UICONTROL 템플릿]_ 메뉴를 사용하여 처음부터 만들거나 _[!UICONTROL 콘텐츠 템플릿으로 저장]_ 옵션을 사용하여 전자 메일에서 여정에 저장한 저장된 사용자 지정 템플릿을 사용하십시오.
 
-_[!UICONTROL 디자인 템플릿 선택]_ 섹션을 사용하여 템플릿에서 콘텐츠 작성을 시작하십시오. Journey Optimizer B2B 에디션 인스턴스에서 샘플 템플릿 또는 저장된 사용자 지정 이메일 템플릿을 사용할 수 있습니다.
+_[!UICONTROL 디자인 템플릿 선택]_ 섹션을 사용하여 템플릿에서 콘텐츠 작성을 시작하십시오. Journey Optimizer B2B edition 인스턴스에서 샘플 템플릿 또는 저장된 사용자 지정 이메일 템플릿을 사용할 수 있습니다.
 
 >[!BEGINTABS]
 
@@ -40,8 +40,8 @@ _템플릿 디자인_ 홈 페이지에서 기본적으로 _샘플 템플릿_ 탭
 
 >[!TAB 샘플 템플릿]
 
-Adobe Journey Optimizer B2B 에디션은 _기본 제공_&#x200B;된 이메일 템플릿을 제공합니다. 이 템플릿은 이메일 및 이메일 템플릿을 만드는 데 사용할 수 있습니다.
+Adobe Journey Optimizer B2B edition은 _즉시 사용 가능한_ 이메일 템플릿을 제공합니다. 이 템플릿은 이메일 및 이메일 템플릿을 만드는 데 사용할 수 있습니다.
 
-![Adobe이 제공한 템플릿 선택](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
+![Adobe에서 제공한 템플릿 선택](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
