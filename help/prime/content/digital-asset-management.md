@@ -6,20 +6,14 @@ role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 747
+ht-degree: 19%
 
 ---
 
@@ -29,13 +23,16 @@ ht-degree: 18%
 
 지원되는 파일 형식: JPG, JPEG, GIF, PNG, EPS, SVG 및 RGB
 
+<!--
 >[!NOTE]
 >
->이 Beta 릴리스에서는 이메일 캔버스 내부에 직접 Marketo Engage 에셋 라이브러리의 일회성 복사본에서 이미지 및 에셋을 선택할 수 있습니다. 초기 복사 후 Marketo Engage에서 자산을 수정하는 것은 [!DNL Journey Optimizer B2B Prime]에 반영되는 **not**&#x200B;입니다.
->
->_[!UICONTROL Assets]_ 라이브러리 또는 콘텐츠 디자인 공간에서 추가 이미지 에셋을 업로드할 수 있습니다. 업로드된 이러한 자산은 [!DNL Journey Optimizer B2B Prime] 인스턴스에서만 사용할 수 있습니다.
->
->외부 시스템에서 에셋을 가져오고 미리 채워진 에셋 라이브러리에 액세스할 수 없습니다. 향후 릴리스에는 기존 시스템의 자산 가져오기, 폴더 지원 및 확장된 자산 관리 기능이 포함될 것으로 예상됩니다.
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+-->
+
+>>
+_[!UICONTROL Assets]_ 라이브러리 또는 콘텐츠 디자인 공간에서 추가 이미지 에셋을 업로드할 수 있습니다. 업로드된 이러한 자산은 [!DNL Journey Optimizer B2B Prime] 인스턴스에서만 사용할 수 있습니다.
+>>
+외부 시스템에서 에셋을 가져오고 미리 채워진 에셋 라이브러리에 액세스할 수 없습니다. 향후 릴리스에는 기존 시스템의 자산 가져오기, 폴더 지원 및 확장된 자산 관리 기능이 포함될 것으로 예상됩니다.
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
