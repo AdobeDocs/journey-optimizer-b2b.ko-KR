@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: d7237ad4dfb17b8177315d942bb273422153ce23
 workflow-type: tm+mt
-source-wordcount: 1185
-ht-degree: 71%
+source-wordcount: 1140
+ht-degree: 70%
 
 ---
 
@@ -124,17 +124,13 @@ _[!UICONTROL 표준]_ 탭에서 표준 클래스에 대한 _관리되는 필드_
 
 ### 관계형 스키마
 
-관계형 스키마를 사용하면 사용자 정의 데이터 클래스를 생성할 수 있습니다. 여러 데이터 세트에 액세스하여 데이터 요구 사항에 맞게 클래스를 만들 수 있습니다. 여정 결정 및 이메일 개인화에서 구매, 라이선스 및 이벤트 등록과 같은 비즈니스 엔터티에 대해 관계형 스키마를 사용합니다. 스키마당 최대 20개의 스키마와 최대 50개의 필드를 선택할 수 있습니다.
+관계형 스키마를 사용하면 사용자 정의 데이터 클래스를 생성할 수 있습니다. 여러 데이터 세트에 액세스하여 데이터 요구 사항에 맞게 클래스를 만들 수 있습니다. 여정 결정 및 전자 메일 개인화에서 구매, 라이선스 및 이벤트 등록과 같은 비즈니스 엔터티에 대해 [관계형 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational#)를 사용하십시오. 스키마당 최대 20개의 스키마와 최대 50개의 필드를 선택할 수 있습니다.
 
 구성된 관계형 스키마 및 필드의 사용을 지원하는 여러 기능이 있습니다.
 
 * [콘텐츠 개인화](../content/personalization.md#custom-datasets)
 * [여정 의사 결정(경로 분할)](../journeys/split-merge-paths-nodes.md#custom-data-filtering)
 * [그룹 역할 구매](../buying-groups/buying-groups-role-templates.md#add-the-template-roles)(B2B 개인용 전용)
-
->[!AVAILABILITY]
->
->[관계형 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational#)는 [!DNL Journey Optimizer B2B Edition]에서 제한된 가용성 릴리스로 사용할 수 있습니다. [!DNL Journey Optimizer Orchestrated Campaigns] 라이선스 소유자는 Data Mirror 및 관계형 스키마를 사용할 수 있습니다. 라이선스 및 기능 활성화에 따라 [!DNL Customer Journey Analytics] 사용자에 대해 관계형 스키마를 제한된 릴리스로 사용할 수도 있습니다. 액세스하려면 Adobe 담당자에게 문의하십시오.
 
 >[!NOTE]
 >

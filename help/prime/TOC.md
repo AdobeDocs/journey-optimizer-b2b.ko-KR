@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime 설명서
 user-guide-description: Adobe Journey Optimizer B2B Prime과 이를 사용하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: edb7bf983c8eba432604cf9bffc65e0be1ddee99
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 54%
+source-wordcount: '179'
+ht-degree: 55%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 54%
    + [WhatsApp 채널](./content/whatsapp-authoring.md)
 + 대상자 {#audiences}
    + [사용자 목록](./audiences/people-lists.md)
+   + [개인 정보](./audiences/person-details.md)
    + [이벤트 기반 대상](./audiences/event-based-audiences.md)
    + [개인 참여 점수](./audiences/engagement-scores.md)
    + [파생 가상 사용자](./audiences/personas.md)
@@ -79,10 +80,10 @@ ht-degree: 54%
       + [WhatsApp 채널 구성](./admin/configuration-channels-whatsapp.md)
       + [랜딩 페이지 구성](./admin/configuration-presets-landing-pages.md)
       + [양식 사전 설정 구성](./admin/configuration-presets-forms.md)
+   + [비즈니스 규칙](./admin/business-rules.md)
    + [프로그램 유형](./admin/program-types.md)
 
 <!--
-   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}

@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: 1060
 ht-degree: 7%
 
 ---
@@ -103,7 +103,9 @@ ht-degree: 7%
 
      관리자는 [전자 메일 채널 구성](../admin/email-channel-configuration.md)에서 구성을 만듭니다.
 
-   * **[!UICONTROL 비즈니스 규칙]** - (선택 사항) 규칙 집합을 선택하여 전자 메일 작업에 최대 가용량 규칙을 적용합니다.
+   * **[!UICONTROL 비즈니스 규칙]** - (선택 사항) 규칙 집합을 선택하여 전자 메일 작업에 최대 가용량 또는 자동 시간 규칙을 적용합니다.
+
+     비즈니스 규칙과 채널 통신을 위한 규칙 집합을 정의하고 활성화하는 방법에 대한 자세한 내용은 [_비즈니스 규칙_](../admin/business-rules.md)&#x200B;을 참조하세요.
 
    * **[!UICONTROL 작업 추적]** - 전자 메일에 대해 추적할 작업의 확인란을 선택합니다.
 

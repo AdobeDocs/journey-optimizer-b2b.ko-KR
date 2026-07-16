@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
+source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
 workflow-type: tm+mt
-source-wordcount: 5232
+source-wordcount: 5234
 ht-degree: 65%
 
 ---
@@ -36,11 +36,9 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 **배포 날짜**: 2026년 7월 10일
 
-<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
-
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 분할 경로 여정 노드 - 변형 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. |
+| 기능 | 분할 경로 여정 노드 - 변형 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. [자세히 알아보기](../journeys/variant-split-paths-nodes.md) |
 
 >[!NOTE]
 >
