@@ -4,18 +4,13 @@ description: Journey Optimizer B2B edition Prime에서 개인 여정 만들기, 
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 19%
 
 ---
@@ -75,11 +70,11 @@ ht-degree: 19%
 
 | 상태 | 설명 | 사용 가능한 액션 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**초안**&#x200B;_ | 편집 가능한 게시되지 않은 여정입니다. | [게시](#publish-a-journey), [복제](#duplicate-a-journey), [삭제](#delete-a-journey) |
-| _&#x200B;**라이브**&#x200B;_ | 여정을 게시하면 여정 상태가 _초안_&#x200B;에서 _라이브_(으)로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | [복제](#duplicate-a-journey), [새 항목에 닫기](#close-to-new-entries), [중단](#abort-a-journey) |
-| _&#x200B;**새로운 참여 마감됨**&#x200B;_ | 여정 헤더에서 **[!UICONTROL 새 항목에 닫기]**&#x200B;를 클릭하면 여정 상태가 _Live_&#x200B;에서 _새 항목에 닫힘_(으)로 변경됩니다. | [복제](#duplicate-a-journey), [중단](#abort-a-journey) |
-| _&#x200B;**중단됨**&#x200B;_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | [복제](#duplicate-a-journey), [삭제](#delete-a-journey) |
-| _&#x200B;**완료됨**&#x200B;_ | 여정의 모든 개인 대상 구성원이 여정을 완료하면 상태가 _Live_ 또는 _새 항목으로 닫힘_&#x200B;에서 _완료됨_(으)로 변경됩니다. | [복제](#duplicate-a-journey), [삭제](#delete-a-journey) |
+| _**초안**_ | 편집 가능한 게시되지 않은 여정입니다. | [게시](#publish-a-journey), [복제](#duplicate-a-journey), [삭제](#delete-a-journey) |
+| _**라이브**_ | 여정을 게시하면 여정 상태가 _초안_&#x200B;에서 _라이브_(으)로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | [복제](#duplicate-a-journey), [새 항목에 닫기](#close-to-new-entries), [중단](#abort-a-journey) |
+| _**새로운 참여 마감됨**_ | 여정 헤더에서 **[!UICONTROL 새 항목에 닫기]**&#x200B;를 클릭하면 여정 상태가 _Live_&#x200B;에서 _새 항목에 닫힘_(으)로 변경됩니다. | [복제](#duplicate-a-journey), [중단](#abort-a-journey) |
+| _**중단됨**_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | [복제](#duplicate-a-journey), [삭제](#delete-a-journey) |
+| _**완료됨**_ | 여정의 모든 개인 대상 구성원이 여정을 완료하면 상태가 _Live_ 또는 _새 항목으로 닫힘_&#x200B;에서 _완료됨_(으)로 변경됩니다. | [복제](#duplicate-a-journey), [삭제](#delete-a-journey) |
 
 ## 개인 여정 만들기 {#create-a-person-journey}
 
@@ -105,12 +100,12 @@ ht-degree: 19%
 
 * 여정 이름 또는 설명 정보를 변경하려면 _편집_ 아이콘( ![편집 아이콘](../../assets/do-not-localize/icon-react-edit.svg))을 클릭하십시오.
 * 여정 시작 및 반복을 변경하려면 **[!UICONTROL 여정 설정]**&#x200B;을 클릭하세요.
-* **[!UICONTROL 클릭... 여정 작업을 적용하거나 트래픽 제어 및 다시 시작을 활성화/비활성화하려면]**&#x200B;을(를) 더 추가합니다.
+* **[!UICONTROL 클릭... 여정 작업을 적용하거나 [여정 트래픽 제어](./journey-traffic-control.md)를 활성화/비활성화하고 다시 입력하려면]**&#x200B;을(를) 더 추가하십시오.
 * 모든 오류가 해결되고 여정을 활성화하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
 ### 여정 디자인 {#journey-design}
 
-_여정 캔버스_&#x200B;는 여정 작업 영역의 중앙 영역입니다. 여기에서 여정 노드를 추가하고 구성할 수 있습니다. 노드를 클릭하여 패널에서 레이아웃 오른쪽에 있는 속성을 열고 디자인에 따라 설정합니다. 개인 여정은 항상 [_[!UICONTROL 개인 대상&#x200B;]_&#x200B;노드](./person-audience-node.md)(으)로 시작하며, 여기서 여정에 대한 입력을 정의할 수 있습니다.
+_여정 캔버스_&#x200B;는 여정 작업 영역의 중앙 영역입니다. 여기에서 여정 노드를 추가하고 구성할 수 있습니다. 노드를 클릭하여 패널에서 레이아웃 오른쪽에 있는 속성을 열고 디자인에 따라 설정합니다. 개인 여정은 항상 [_[!UICONTROL 개인 대상&#x200B;]_노드](./person-audience-node.md)(으)로 시작하며, 여기서 여정에 대한 입력을 정의할 수 있습니다.
 
 개인 여정을 만들고 개인 대상자를 정의한 후 노드를 사용하여 여정을 빌드합니다. 여정 캔버스에서는 다음 노드 유형을 사용하여 다단계 B2B 마케팅 사용 사례를 빌드하여 여정을 구성할 수 있는 시각적 디자인 공간을 제공합니다.
 
