@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 2209
-ht-degree: 1%
+source-wordcount: 2300
+ht-degree: 2%
 
 ---
 
@@ -94,7 +94,22 @@ HTML 및 CSS 모범 사례를 따르는 것은 이메일 클라이언트 간에 
 
 ## 기존 HTML 콘텐츠 가져오기 {#import-html-content}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+가져온 콘텐츠는 다음과 같을 수 있습니다.
+
+* 통합 스타일시트가 있는 HTML 파일
+* HTML 파일, 스타일 시트(.css) 및 이미지가 포함된 .zip 파일
+
+  >[!NOTE]
+  >
+  >.zip 파일 구조에는 제한 사항이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조와 일치해야 합니다. 이미지는 항상 [자산 저장소](./digital-asset-management.md)에 업로드됩니다.
+
+HTML 콘텐츠가 포함된 파일을 가져오려면(_T):_
+
+1. 디자인 홈 페이지에서 **[!UICONTROL HTML 가져오기]** 옵션을 선택합니다.
+
+1. HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 드래그 앤 드롭하고 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
 
 ![zip 파일에서 html 콘텐츠 가져오기](../../user/content/assets/email-import-zip-file.png){width="500"}
 

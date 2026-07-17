@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: fac47361b0a597e26ca31b0901634fc00f20ae61
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 746
+ht-degree: 19%
 
 ---
 
@@ -29,11 +29,15 @@ ht-degree: 18%
 
 지원되는 파일 형식: JPG, JPEG, GIF, PNG, EPS, SVG 및 RGB
 
+<!--
+
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+
+-->
+
 >[!NOTE]
 >
->이 Beta 릴리스에서는 이메일 캔버스 내부에 직접 Marketo Engage 에셋 라이브러리의 일회성 복사본에서 이미지 및 에셋을 선택할 수 있습니다. 초기 복사 후 Marketo Engage에서 자산을 수정하는 것은 [!DNL Journey Optimizer B2B Prime]에 반영되는 **not**&#x200B;입니다.
->
->_[!UICONTROL Assets]_ 라이브러리 또는 콘텐츠 디자인 공간에서 추가 이미지 에셋을 업로드할 수 있습니다. 업로드된 이러한 자산은 [!DNL Journey Optimizer B2B Prime] 인스턴스에서만 사용할 수 있습니다.
+>_[!UICONTROL Assets]_ 라이브러리 또는 콘텐츠 디자인 공간에서 이미지 에셋을 업로드할 수 있습니다. 업로드된 이러한 자산은 [!DNL Journey Optimizer B2B Prime] 인스턴스에서만 사용할 수 있습니다.
 >
 >외부 시스템에서 에셋을 가져오고 미리 채워진 에셋 라이브러리에 액세스할 수 없습니다. 향후 릴리스에는 기존 시스템의 자산 가져오기, 폴더 지원 및 확장된 자산 관리 기능이 포함될 것으로 예상됩니다.
 

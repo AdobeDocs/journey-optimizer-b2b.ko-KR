@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 10%
+source-wordcount: 1562
+ht-degree: 11%
 
 ---
 
@@ -162,7 +162,22 @@ ht-degree: 10%
 
 ### HTML 가져오기 {#import-html}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+가져온 콘텐츠는 다음과 같을 수 있습니다.
+
+* 통합 스타일시트가 있는 HTML 파일
+* HTML 파일, 스타일 시트(.css) 및 이미지가 포함된 .zip 파일
+
+  >[!NOTE]
+  >
+  >.zip 파일 구조에는 제한 사항이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조와 일치해야 합니다. 이미지는 항상 [자산 저장소](./digital-asset-management.md)에 업로드됩니다.
+
+HTML 콘텐츠가 포함된 파일을 가져오려면(_T):_
+
+1. 디자인 홈 페이지에서 **[!UICONTROL HTML 가져오기]** 옵션을 선택합니다.
+
+1. HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 드래그 앤 드롭하고 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
 
 ![zip 파일에서 HTML 콘텐츠 가져오기](../../user/content/assets/templates-import-zip-file.png){width="500"}
 
@@ -170,7 +185,7 @@ ht-degree: 10%
 >
 >`<table>` 태그를 HTML 파일의 첫 번째 레이어로 사용하면 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
 
-필요에 따라 시각적 디자인 공간을 사용하여 가져온 콘텐츠를 개인화할 수 있습니다.
+필요에 따라 시각적 디자인 도구를 사용하여 가져온 콘텐츠를 개인화할 수 있습니다.
 
 ## 경고 확인 {#check-alerts}
 
