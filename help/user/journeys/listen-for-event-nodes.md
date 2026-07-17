@@ -4,22 +4,17 @@ description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: e369d695d565c361738b045211c5012d20b1a1a0
 workflow-type: tm+mt
-source-wordcount: 1880
-ht-degree: 11%
+source-wordcount: 1834
+ht-degree: 12%
 
 ---
 
@@ -27,7 +22,9 @@ ht-degree: 11%
 
 이벤트가 발생할 때 대상을 여정의 다음 단계로 이동하려면 _이벤트 수신_ 노드를 추가하십시오.
 
-![비디오](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [개요 비디오 보기](#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
+-->
 
 >[!NOTE]
 >
@@ -151,17 +148,11 @@ ht-degree: 11%
 
 ### 경험 이벤트 수신 {#listen-for-an-experience-event}
 
-관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 선택하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있습니다. 여정에서 경험 이벤트 사용은 두 단계 프로세스입니다.
-
-1. [&#x200B; 관리자가 여정에서 사용할 수 있도록 이벤트 유형 및 관심 필드 &#x200B;](../admin/configure-aep-events.md#add-an-event)을(를) 추가합니다.
-
-2. 여정에서 _이벤트 수신_ 노드를 추가하고 사용자 기반 이벤트에 대한 Experience Platform 이벤트 유형을 선택합니다.
-
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
--->
-
-여정에 경험 이벤트를 포함하려면(_T):_
+>[!PREREQUISITES]
+>
+>관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 구성하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있도록 합니다.
+>
+>여정이 Experience Event를 사용할 수 있도록 하려면 제품 관리자가 먼저 [!DNL Journey Optimizer B2B Edition]에 [이벤트 유형 및 관심 필드를 추가](../admin/configure-aep-events.md#add-an-event)해야 합니다.
 
 1. 여정 캔버스에서 **[!UICONTROL 이벤트 수신]** 노드를 선택하십시오.
 
@@ -242,5 +233,5 @@ ht-degree: 11%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?captions=kor&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->
