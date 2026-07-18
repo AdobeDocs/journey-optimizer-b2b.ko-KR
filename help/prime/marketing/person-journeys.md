@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 19%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 19%
 
 * 여정 이름 또는 설명 정보를 변경하려면 _편집_ 아이콘( ![편집 아이콘](../../assets/do-not-localize/icon-react-edit.svg))을 클릭하십시오.
 * 여정 시작 및 반복을 변경하려면 **[!UICONTROL 여정 설정]**&#x200B;을 클릭하세요.
-* **[!UICONTROL 클릭... 여정 작업을 적용하거나 트래픽 제어 및 다시 시작을 활성화/비활성화하려면]**&#x200B;을(를) 더 추가합니다.
+* **클릭... 여정 작업을 적용하거나 [여정 트래픽 제어](./journey-traffic-control.md)를 활성화/비활성화하고 다시 입력하려면**&#x200B;을(를) 더 추가하십시오.
 * 모든 오류가 해결되고 여정을 활성화하려면 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
 ### 여정 디자인 {#journey-design}
