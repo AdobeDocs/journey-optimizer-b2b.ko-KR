@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
+source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
 workflow-type: tm+mt
-source-wordcount: 5234
-ht-degree: 65%
+source-wordcount: 5349
+ht-degree: 64%
 
 ---
 
@@ -38,7 +38,10 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 분할 경로 여정 노드 - 변형 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. [자세히 알아보기](../journeys/variant-split-paths-nodes.md) |
+| 기능 | _분할 경로_ 여정 노드 - 변형 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. [자세히 알아보기](../journeys/variant-split-paths-nodes.md) |
+| 개선 사항 | _이벤트 수신_ 여정 노드 | 이제 이벤트 리스너 노드를 트리거할 여러 여정으로 구성할 수 있습니다. 첫 번째 자격 이벤트는 여정에서 레코드를 앞으로 진행합니다. (향후 릴리스에 대한 계정 여정의 지원이 예정되어 있습니다.) [자세히 알아보기](../journeys/listen-for-event-nodes.md#person-journeys) |
+| 개선 사항 | _이벤트 수신_ 여정 노드 | 사용자/사용자 이벤트에 대한 _[!UICONTROL 필터]_ 탭이 단일 작업 선택기에서 규칙 빌더 인터페이스로 변경되었습니다. 구성된 경험 이벤트를 사용하는 여러 활동 구성을 지원합니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#filters-people-event) |
+| 개선 사항 | _작업 수행_ 여정 노드 | 이제 계정 여정 및 개인 여정의 사용자 컨텍스트에 대해 추가 작업을 사용할 수 있습니다. _개인 여정에 추가_ 및 _개인 여정에서 제거_. |
 
 >[!NOTE]
 >
