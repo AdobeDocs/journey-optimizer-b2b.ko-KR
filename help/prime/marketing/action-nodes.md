@@ -1,22 +1,16 @@
 ---
 title: 작업 노드 수행
-description: 플레이스홀더
+description: 사람, 목록, 프로그램 및 대상을 추가, 제거 또는 업데이트하거나, 개인 여정의 노드에 도달하면 메시지를 보내도록 Journey Optimizer B2B edition Prime에서 작업 수행 노드를 구성합니다.
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 2%
+source-wordcount: 1125
+ht-degree: 1%
 
 ---
 
@@ -28,7 +22,7 @@ ht-degree: 2%
 
 | 액션 | 제한 |
 | ------ | ----------- |
-| **[!UICONTROL 대상에 활성화]** | <li>정적 목록 선택 또는 만들기 <li>목록에 활성화된 대상이 없으면 목록을 활성화합니다 |
+| **[!UICONTROL 대상에 활성화]** | <li>정적 목록 선택 또는 만들기 <li>목록에 활성화된 대상이 없으면 하나 이상의 대상에 목록을 활성화합니다 |
 | **[!UICONTROL 여정에 사용자 추가]** | <li>예약된 또는 라이브 여정 선택 <li>대상 여정의 대상 기준이 적용되지 않습니다 |
 | **[!UICONTROL 목록에 추가]** | <li>새 정적 목록 만들기 또는 기존 정적 목록 선택 |
 | **[!UICONTROL Marketo 목록에 추가]** | <li>Marketo Engage에서 정적 목록 선택 |
@@ -54,15 +48,44 @@ ht-degree: 2%
 
 +++대상에 활성화
 
-이 작업을 사용하여 여정에서 직접 Experience Platform 대상으로 사용자를 활성화합니다. 대상을 선택하고 대상 이름을 입력하여 대상에서 활성화된 대상을 식별합니다.
+이 작업을 사용하여 정적 목록에 사용자를 추가하고 여정에서 직접 대상에 해당 목록을 활성화할 수 있습니다. 기존 정적 목록을 사용하거나 여정에 특별히 정적 목록을 만들 수 있습니다.
+
+>[!PREREQUISITES]
+>
+>_대상에 활성화_ 여정 노드를 설정하기 전에 [!DNL Journey Optimizer B2B Prime] 샌드박스에 대해 하나 이상의 [구성된 대상](../audiences/destinations.md)이 있어야 합니다.
 
 ![동작 수행 - 대상에 활성화](./assets/person-action-node-activate-to-destination.png){width="450"}
+
+**[!UICONTROL 목록에 추가]**&#x200B;에서 다음 옵션 중 하나를 선택하십시오.
+
+* **[!UICONTROL 만들기]** — 새 정적 목록을 만들고 사용자를 추가합니다. 이 목록은 **[!UICONTROL 사람 목록]**&#x200B;에서 즉시 사용할 수 있습니다.
+
+  목록에 대한 상위 프로그램을 선택하고 **[!UICONTROL 이름]**(필수) 및 **[!UICONTROL 설명]**(선택 사항)을 입력하십시오. 노드의 새 목록을 추가하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하십시오.
+
+  ![여정 노드에 사용할 정적 목록을 만듭니다](./assets/person-action-node-destination-create-list.png){width="375"}
+
+* **[!UICONTROL 선택]** — 노드에 연결된 사용자를 추가할 기존 정적 목록을 선택합니다.
+
+  기존 정적 목록의 확인란을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+  ![여정 노드에 사용할 정적 목록을 선택하십시오](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+
+노드에 도달하는 모든 사용자가 선택한 정적 목록에 추가되지만 목록이 대상에 활성화될 때까지 작업이 완료되지 않습니다.
+
+* 선택한 목록이 이미 활성화된 경우 해당 대상이 **[!UICONTROL 대상]** 아래에 표시되고 작업이 준비됩니다.
+* 그렇지 않으면 _대상이 하나 이상 필요합니다_ 메시지가 나타납니다. **[!UICONTROL 대상에 목록 활성화]**&#x200B;를 클릭하고 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 확인 대화 상자에서 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
+
+![구성된 대상을 활성화하도록 사용](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+
+활성화가 완료되면 대상이 **[!UICONTROL 대상]** 아래에 표시되고 작업이 준비됩니다. 필요한 경우 추가 대상에 대해 목록을 활성화할 수 있습니다.
+
+노드에 도달하는 모든 사람은 선택한 대상에 활성화되는 선택한 정적 목록에 추가되므로 해당 대상 대상자에 추가되고, 결과적으로 대상자가 피딩하는 모든 캠페인에 추가됩니다.
 
 +++
 
 +++[!UICONTROL 여정에 사용자 추가]
 
-이 작업을 사용하여 다른 예약 또는 라이브 여정에 사용자를 추가합니다. 이 작업을 통해 추가된 직원은 대상 여정의 대상에 즉시 추가됩니다. 여정의 대상 기준은 적용되지 않습니다.
+이 작업을 사용하여 다른 예약 또는 라이브 여정에 사용자를 추가합니다. 이 작업을 통해 추가된 직원은 대상 여정의 대상에 즉시 추가됩니다. 대상 여정의 대상 기준은 적용되지 않습니다.
 
 ![작업 수행 - 여정에 사용자 추가](./assets/person-action-node-add-to-journey.png){width="450"}
 
@@ -155,9 +178,9 @@ ht-degree: 2%
 
 ![작업 수행 - 전자 메일 보내기](./assets/person-action-node-send-email.png){width="450"}
 
-이메일을 만들거나 기존 이메일을 편집하거나 AI가 개인화한 이메일을 사용할 수 있습니다. 전자 메일 만들기 및 편집에 대한 자세한 내용은 [전자 메일 채널](../marketing/email-channel.md)을 참조하세요.
+이메일을 만들거나 기존 이메일을 편집하거나 AI가 개인화한 이메일을 사용할 수 있습니다. 전자 메일 만들기 및 편집에 대한 자세한 내용은 [전자 메일 채널](./email-channel.md)을 참조하세요.
 
-[전송 시간 최적화](../marketing/email-send-time-optimization.md)를 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 이메일 게재 시기를 개인화할 수 있습니다.
+[전송 시간 최적화](./email-send-time-optimization.md)를 사용하여 각 프로필이 참여할 가능성이 가장 높은 시기를 예측하여 이메일 게재 시기를 개인화할 수 있습니다.
 
 +++
 
