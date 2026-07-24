@@ -16,13 +16,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->의도 데이터는 Journey Optimizer B2B edition 인스턴스에 대해 구성될 때 포함됩니다. 또한 하나 이상의 게시된 여정 **또는**&#x200B;이(가) 구매 그룹을 만들어야 합니다. Intent Detection 모델 및 키워드, 제품 및 범주를 제출하는 방법에 대한 자세한 내용은 [Intent Data](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)를 참조하십시오.
+>의도 데이터는 Journey Optimizer B2B edition 인스턴스에 대해 구성될 때 포함됩니다. 또한 하나 이상의 게시된 여정 **또는**&#x200B;이(가) 구매 그룹을 만들어야 합니다. Intent Detection 모델 및 키워드, 제품 및 범주를 제출하는 방법에 대한 자세한 내용은 [Intent Data](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)를 참조하십시오.
 
 ## AEM Assets 라이선스 노트 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 팀에 문의하십시오.<br/>
+>AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 팀에 문의하십시오.<br/>
 >계약과 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
 
 ## 콘텐츠 작성 - 구성 요소 - 구조 단계 {#structures-step}
