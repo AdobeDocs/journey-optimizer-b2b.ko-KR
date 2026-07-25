@@ -1,6 +1,6 @@
 ---
 title: 개인 세부 정보
-description: Journey Optimizer B2B edition의 구매 그룹 구성원에 대한 AI 요약, 참여 점수, 활동 추적 및 의도 감지로 개인 인사이트를 봅니다.
+description: AI가 생성한 요약, 참여 점수, 활동 추적 및 Journey Optimizer B2B edition 구매 그룹 구성원에 대한 의도 감지로 개인 인사이트를 봅니다.
 feature: Account Insights
 role: User
 exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:21:27.328Z
 TQID: https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: 300
 ht-degree: 6%
 
 ---
