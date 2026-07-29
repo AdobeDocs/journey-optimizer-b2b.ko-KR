@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
+source-git-commit: 32756215b4df116f3a70b494820ad91a4feeb46a
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 85%
 
 ---
@@ -14,165 +14,166 @@ ht-degree: 85%
 + [Adobe Journey Optimizer B2B Ultimate 설명서](guide-overview.md)
 + [릴리스 정보](./release-notes/release-notes.md)
 + 시작하기 {#get-started}
-   + [Journey Optimizer B2B Edition 개요](about-journey-optimizer-b2b-edition.md)
-   + 환경 설정 {#admin-setup}
-      + [체크리스트 설정](./setup-ultimate.md)
-      + [네임스페이스 및 스키마](./data/namespaces-schemas.md)
-      + [XDM 필드 선택](./admin/xdm-field-management.md)
-      + [경험 이벤트 및 필드](./admin/configure-aep-events.md)
-      + [브랜딩 도메인](./start/branding-domains.md)
-      + [이메일 추적 및 게재](./start/email-protocols.md)
-      + [이메일 설정](./start/email-setup.md)
-      + [Marketo Engage 여정 작업](./admin/marketo-actions-connect.md)
-      + [사용자 관리](./admin/user-management.md)
-   + [사용자 온보딩](./start/get-started.md)
-   + [로그인 및 홈 페이지](home-page.md)
+  + [Journey Optimizer B2B Edition 개요](about-journey-optimizer-b2b-edition.md)
+  + 환경 설정 {#admin-setup}
+    + [체크리스트 설정](./setup-ultimate.md)
+    + [네임스페이스 및 스키마](./data/namespaces-schemas.md)
+    + [XDM 필드 선택](./admin/xdm-field-management.md)
+    + [경험 이벤트 및 필드](./admin/configure-aep-events.md)
+    + [브랜딩 도메인](./start/branding-domains.md)
+    + [이메일 추적 및 게재](./start/email-protocols.md)
+    + [이메일 설정](./start/email-setup.md)
+    + [Marketo Engage 여정 작업](./admin/marketo-actions-connect.md)
+    + [사용자 관리](./admin/user-management.md)
+  + [사용자 온보딩](./start/get-started.md)
+  + [로그인 및 홈 페이지](home-page.md)
 + AI 어시스턴트 {#ai-assistant}
-   + [개요](./ai-assistant/ai-assistant-overview.md)
-   + [AI 어시스턴트 액세스 활성](./ai-assistant/enable-ai-assistant-access.md)
-   + [질문 지침](./ai-assistant/question-guidance.md)
-   + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
-   + [콘텐츠용 생성형 AI](./ai-assistant/generative-ai-content.md)
-   + 상담원 {#ai-agents}
-      + [Audience Agent](./agents/audience-agent-b2b.md)
-      + [Journey Agent](./agents/journey-agent.md)
-      + [영업 구분자](./agents/sales-qualifier.md)
+  + [개요](./ai-assistant/ai-assistant-overview.md)
+  + [AI 어시스턴트 액세스 활성](./ai-assistant/enable-ai-assistant-access.md)
+  + [질문 지침](./ai-assistant/question-guidance.md)
+  + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
+  + [콘텐츠용 생성형 AI](./ai-assistant/generative-ai-content.md)
+  + 상담원 {#ai-agents}
+    + [Audience Agent](./agents/audience-agent-b2b.md)
+    + [Journey Agent](./agents/journey-agent.md)
+    + [영업 구분자](./agents/sales-qualifier.md)
 + 여정 관리 {#journeys}
-   + [계정 및 개인 여정](./journeys/journeys-overview.md)
-   + [여정 생성 및 게시](./journeys/create-publish-journey.md)
-   + [여정 재입력](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[여정 노드](./journeys/journey-nodes.md)
-   + 여정 노드 {#journey-nodes}
-      + [계정 대상자](./journeys/account-audience-nodes.md)
-      + [개인 대상(Beta)](./journeys/person-audience-nodes.md)
-      + [액션 취하기](./journeys/action-nodes.md)
-      + [이벤트 듣기](./journeys/listen-for-event-nodes.md)
-      + [경로 분할 및 병합](./journeys/split-merge-paths-nodes.md)
-      + [변형 분할 경로(Beta)](./journeys/variant-split-paths-nodes.md)
-      + [다음 최적 경로](./journeys/next-best-path-node.md)
-      + [대기](./journeys/wait-nodes.md)
-      + [외부 노드](./journeys/external-nodes.md)
-   + [여정 세부 정보](./journeys/journey-details.md)
+  + [계정 및 개인 여정](./journeys/journeys-overview.md)
+  + [여정 생성 및 게시](./journeys/create-publish-journey.md)
+  + [여정 재입력](./journeys/journey-re-entry.md)
+  + {hide-from-toc}[여정 노드](./journeys/journey-nodes.md)
+  + 여정 노드 {#journey-nodes}
+    + [계정 대상자](./journeys/account-audience-nodes.md)
+    + [개인 대상(Beta)](./journeys/person-audience-nodes.md)
+    + [액션 취하기](./journeys/action-nodes.md)
+    + [이벤트 듣기](./journeys/listen-for-event-nodes.md)
+    + [경로 분할 및 병합](./journeys/split-merge-paths-nodes.md)
+    + [변형 분할 경로(Beta)](./journeys/variant-split-paths-nodes.md)
+    + [다음 최적 경로](./journeys/next-best-path-node.md)
+    + [대기](./journeys/wait-nodes.md)
+    + [외부 노드](./journeys/external-nodes.md)
+  + [여정 세부 정보](./journeys/journey-details.md)
 + 여정 콘텐츠 {#journey-content}
-   + [SMS 채널](./content/sms-authoring.md)
-   + [WhatsApp 채널](./content/whatsapp-authoring.md)
-   + 이메일 채널 {#email-channel}
-      + [이메일 추가](./content/add-email.md)
-      + [전송 시간 최적화](./content/email-send-time-optimization.md)
-      + [이메일 작성](./content/email-authoring.md)
-      + [이메일 작성을 위한 AI 어시스턴트](./content/ai-assistant-emails.md)
-      + [GenStudio 워크플로](./content/genstudio-email-workflow.md)
-      + [이메일 디자인을 위한 다크 모드](./content/email-dark-mode.md)
-      + [제어되는 템플릿](./content/email-authoring-governance.md)
-      + [판매 알림 이메일](./content/sales-alert-email.md)
-      + [이메일 중복 제거](./content/email-deduplication.md)
-      + [이메일 추적](./content/email-tracking-manage.md)
-   + 웹 채널(Beta) {#web-channel}
-      + [개요](./content/web-experiences.md)
-      + [웹 경험 디자인](./content/web-experience-design.md)
-      + [단일 페이지 애플리케이션](./content/web-single-page-applications.md)
-   + [사용자 정의 개인화 토큰](./content/personalization-my-tokens.md)
-   + [동의 환경 설정](./content/channels-consent-preferences.md)
+  + [SMS 채널](./content/sms-authoring.md)
+  + [WhatsApp 채널](./content/whatsapp-authoring.md)
+  + 이메일 채널 {#email-channel}
+    + [이메일 추가](./content/add-email.md)
+    + [전송 시간 최적화](./content/email-send-time-optimization.md)
+    + [이메일 작성](./content/email-authoring.md)
+    + [이메일 작성을 위한 AI 어시스턴트](./content/ai-assistant-emails.md)
+    + [GenStudio 워크플로](./content/genstudio-email-workflow.md)
+    + [이메일 디자인을 위한 다크 모드](./content/email-dark-mode.md)
+    + [제어되는 템플릿](./content/email-authoring-governance.md)
+    + [판매 알림 이메일](./content/sales-alert-email.md)
+    + [이메일 중복 제거](./content/email-deduplication.md)
+    + [이메일 추적](./content/email-tracking-manage.md)
+  + 웹 채널(Beta) {#web-channel}
+    + [개요](./content/web-experiences.md)
+    + [웹 경험 디자인](./content/web-experience-design.md)
+    + [단일 페이지 애플리케이션](./content/web-single-page-applications.md)
+  + [사용자 정의 개인화 토큰](./content/personalization-my-tokens.md)
+  + [동의 환경 설정](./content/channels-consent-preferences.md)
 + 대상자 {#audiences}
-   + [Experience Platform 대상](./audiences/account-audience-overview.md)
-   + [외부 대상 타기팅](./audiences/target-external-audience.md)
-   + [LinkedIn 계정 일치 대상](./data/linkedin-account-matched-audiences.md)
-   + [기본 XDM 필드](./admin/field-mapping.md)
-   + [테스트 프로필](./audiences/test-profiles.md)
+  + [Experience Platform 대상](./audiences/account-audience-overview.md)
+  + [외부 대상 타기팅](./audiences/target-external-audience.md)
+  + [LinkedIn 계정 일치 대상](./data/linkedin-account-matched-audiences.md)
+  + [기본 XDM 필드](./admin/field-mapping.md)
+  + [테스트 프로필](./audiences/test-profiles.md)
 + 계정 {#accounts}
-   + 구매 그룹 {#buying-groups}
-      + [개요](./buying-groups/buying-groups-overview.md)
-      + [솔루션 관심 분야](./buying-groups/solution-interests.md)
-      + [역할 템플릿](./buying-groups/buying-groups-role-templates.md)
-      + [기본 및 사용자 정의 역할](./buying-groups/default-custom-roles.md)
-      + [역할 인사이트](./buying-groups/buying-group-role-insights.md)
-      + 구매 그룹 점수 {#scoring}
-         + [참여 점수](./buying-groups/engagement-scores.md)
-         + [완성도 점수](./buying-groups/completeness-scores.md)
-      + [구매 그룹 단계](./buying-groups/buying-group-stages.md)
-      + [구매 그룹 만들기](./buying-groups/buying-groups-create.md)
-      + [계정 내보내기](./audiences/account-list-export.md)
-      + [Marketo Engage의 구매 그룹 필터](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-      + [In-CRM 인사이트](./buying-groups/incrm-insights.md)
-   + 계정 목록 {#account-lists}
-      + [개요](./accounts/account-lists.md)
-      + [여정 및 프로그램에서 사용](./accounts/account-lists-journeys.md)
-   + 판매 경험 {#sales-experience}
-      + [계정 세부 정보](./accounts/account-details.md)
-      + [구매 그룹 세부 정보](./buying-groups/buying-group-details.md)
-      + [개인 정보](./accounts/person-details.md)
-      + [CRM 연결](./accounts/crm-linking.md)
+  + 구매 그룹 {#buying-groups}
+    + [개요](./buying-groups/buying-groups-overview.md)
+    + [솔루션 관심 분야](./buying-groups/solution-interests.md)
+    + [역할 템플릿](./buying-groups/buying-groups-role-templates.md)
+    + [기본 및 사용자 정의 역할](./buying-groups/default-custom-roles.md)
+    + [역할 인사이트](./buying-groups/buying-group-role-insights.md)
+    + 구매 그룹 점수 {#scoring}
+      + [참여 점수](./buying-groups/engagement-scores.md)
+      + [완성도 점수](./buying-groups/completeness-scores.md)
+    + [구매 그룹 단계](./buying-groups/buying-group-stages.md)
+    + [구매 그룹 만들기](./buying-groups/buying-groups-create.md)
+    + [계정 내보내기](./audiences/account-list-export.md)
+    + [Marketo Engage의 구매 그룹 필터](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+    + [In-CRM 인사이트](./buying-groups/incrm-insights.md)
+  + 계정 목록 {#account-lists}
+    + [개요](./accounts/account-lists.md)
+    + [여정 및 프로그램에서 사용](./accounts/account-lists-journeys.md)
+  + 판매 경험 {#sales-experience}
+    + [계정 세부 정보](./accounts/account-details.md)
+    + [구매 그룹 세부 정보](./buying-groups/buying-group-details.md)
+    + [개인 정보](./accounts/person-details.md)
+    + [CRM 연결](./accounts/crm-linking.md)
 + 콘텐츠 관리 {#content-management}
-   + 이메일 {#emails}
-      + [이메일 콘텐츠 작업](./content/emails-list.md)
-      + 미리보기 및 유효성 검사 {#preview}
-         + [콘텐츠 시뮬레이션](./content/email-simulate-content.md)
-         + [이메일 렌더링 테스트](./content/email-test-rendering.md)
-         + [스팸 보고서](./content/email-spam-report.md)
-      + [이메일 공동 작업](./content/email-collaboration-tools.md)
-   + 자산 {#assets}
-      + [개요](./content/assets-overview.md)
-      + 내부 자산 {#internal-dam}
-         + [내부 자산 작업](./content/internal-image-assets.md)
-         + [Adobe Express를 사용하여 이미지 편집](./content/image-edit-adobe-express.md)
-      + [Experience Manager 이미지 자산](./content/aem-assets.md)
-   + 템플릿 {#templates}
-      + [콘텐츠 거버넌스](./content/template-content-governance.md)
-      + 이메일 템플릿 {#email-templates}
-         + [개요](./content/email-templates.md)
-         + [이메일 템플릿 작성](./content/email-template-authoring.md)
-         + [고급 HTML 편집](./content/email-template-advanced-html.md)
-         + [이미지를 템플릿으로 변환](./content/email-template-image-convert.md)
-      + 랜딩 페이지 템플릿 (Beta) {#landing-page-templates}
-         + [개요](./content/landing-page-templates.md)
-         + [랜딩 페이지 템플릿 디자인](./content/landing-page-template-design.md)
-   + 조각 {#visual-fragments}
-      + [개요](./content/fragments.md)
-      + [조각 작성](./content/fragment-authoring.md)
-   + 양식 {#forms}
-      + [개요](./content/forms.md)
-      + [양식 디자인](./content/form-design.md)
-   + 랜딩 페이지 {#landing-pages}
-      + [개요](./content/landing-pages.md)
-      + [만들기 및 게시](./content/landing-pages-create-publish.md)
-      + [랜딩 페이지 디자인](./content/landing-page-design.md)
-      + [랜딩 페이지 콘텐츠에 대한 AI 지원](./content/ai-assistant-landing-pages.md)
-   + 콘텐츠 디자인 도구 {#content-design}
-      + [구조 구성 요소](./content/structure-components.md)
-      + [콘텐츠 구성 요소](./content/content-components.md)
-      + [사용자 정의 CSS](./content/design-custom-css.md)
-   + 브랜드 (Beta) {#brands}
-      + [개요](./content/brands-overview.md)
-      + [관리 및 만들기](./content/brands-manage-create.md)
-      + [생성 AI 모델](./content/generative-ai-models.md)
-   + [브랜드 테마](./content/brand-themes.md)
-   + [콘텐츠 평가](./content/content-evaluation.md)
-   + [조건부 콘텐츠](./content/conditional-content.md)
-   + [컨텐츠 액세스 가능성](./content/accessible-content.md)
-   + 개인 맞춤화 {#personalization}
-      + [개요](./content/personalization.md)
-      + [개인화 구문](./content/personalization-syntax.md)
-      + [도우미 함수 목록](./content/personalization-helper-functions.md)
+  + 이메일 {#emails}
+    + [이메일 콘텐츠 작업](./content/emails-list.md)
+    + 미리보기 및 유효성 검사 {#preview}
+      + [콘텐츠 시뮬레이션](./content/email-simulate-content.md)
+      + [이메일 렌더링 테스트](./content/email-test-rendering.md)
+      + [스팸 보고서](./content/email-spam-report.md)
+    + [이메일 공동 작업](./content/email-collaboration-tools.md)
+  + 자산 {#assets}
+    + [개요](./content/assets-overview.md)
+    + 내부 자산 {#internal-dam}
+      + [내부 자산 작업](./content/internal-image-assets.md)
+      + [Adobe Express를 사용하여 이미지 편집](./content/image-edit-adobe-express.md)
+    + [Experience Manager 이미지 자산](./content/aem-assets.md)
+  + 템플릿 {#templates}
+    + [콘텐츠 거버넌스](./content/template-content-governance.md)
+    + 이메일 템플릿 {#email-templates}
+      + [개요](./content/email-templates.md)
+      + [이메일 템플릿 작성](./content/email-template-authoring.md)
+      + [고급 HTML 편집](./content/email-template-advanced-html.md)
+      + [이미지를 템플릿으로 변환](./content/email-template-image-convert.md)
+    + 랜딩 페이지 템플릿 (Beta) {#landing-page-templates}
+      + [개요](./content/landing-page-templates.md)
+      + [랜딩 페이지 템플릿 디자인](./content/landing-page-template-design.md)
+  + 조각 {#visual-fragments}
+    + [개요](./content/fragments.md)
+    + [조각 작성](./content/fragment-authoring.md)
+  + 양식 {#forms}
+    + [개요](./content/forms.md)
+    + [양식 디자인](./content/form-design.md)
+  + 랜딩 페이지 {#landing-pages}
+    + [개요](./content/landing-pages.md)
+    + [만들기 및 게시](./content/landing-pages-create-publish.md)
+    + [랜딩 페이지 디자인](./content/landing-page-design.md)
+    + [랜딩 페이지 콘텐츠에 대한 AI 지원](./content/ai-assistant-landing-pages.md)
+  + 콘텐츠 디자인 도구 {#content-design}
+    + [구조 구성 요소](./content/structure-components.md)
+    + [콘텐츠 구성 요소](./content/content-components.md)
+    + [사용자 정의 CSS](./content/design-custom-css.md)
+  + 브랜드 (Beta) {#brands}
+    + [개요](./content/brands-overview.md)
+    + [관리 및 만들기](./content/brands-manage-create.md)
+    + [생성 AI 모델](./content/generative-ai-models.md)
+  + [브랜드 테마](./content/brand-themes.md)
+  + [콘텐츠 평가](./content/content-evaluation.md)
+  + [조건부 콘텐츠](./content/conditional-content.md)
+  + [컨텐츠 액세스 가능성](./content/accessible-content.md)
+  + 개인 맞춤화 {#personalization}
+    + [개요](./content/personalization.md)
+    + [개인화 구문](./content/personalization-syntax.md)
+    + [도우미 함수 목록](./content/personalization-helper-functions.md)
+    + [스크립트 빌더(Beta)](./content/script-builder.md)
 + 지능형 대시보드 {#dashboards}
-   + [Insights 대시보드](./dashboards/intelligent-dashboard.md)
-   + [참여 대시보드](./dashboards/engagement-dashboard.md)
-   + [웹 참여 대시보드](./dashboards/web-engagement-dashboard.md)
-   + [이메일 성과 보고서](./dashboards/email-performance-dashboard.md)
-   + [구매 그룹 대시보드](./dashboards/buying-groups-dashboard.md)
-   + [여정 대시보드](./dashboards/journeys-dashboard.md)
+  + [Insights 대시보드](./dashboards/intelligent-dashboard.md)
+  + [참여 대시보드](./dashboards/engagement-dashboard.md)
+  + [웹 참여 대시보드](./dashboards/web-engagement-dashboard.md)
+  + [이메일 성과 보고서](./dashboards/email-performance-dashboard.md)
+  + [구매 그룹 대시보드](./dashboards/buying-groups-dashboard.md)
+  + [여정 대시보드](./dashboards/journeys-dashboard.md)
 + 관리 {#admin}
-   + [거버넌스 및 개인 정보 보호](./admin/governance.md)
-   + [페르소나 매핑](./admin/persona-mapping.md)
-   + 구성 {#configurations}
-      + [AEM Assets 저장소](./admin/configure-aem-repositories.md)
-      + [의도 데이터](./admin/intent-data.md)
-      + [참여 점수 가중치](./admin/engagement-score-weighting.md)
-      + [외부 작업](./admin/configure-external-actions.md)
-      + {hide-from-toc}[이벤트 컬렉션에 대한 데이터스트림 구성](./data/aep-event-collection.md)
-   + 채널 {#channels}
-      + [이메일 구성](./admin/configure-channels-emails.md)
-      + [SMS 구성](./admin/configure-channels-sms.md)
-      + [WhatsApp 구성](./admin/configure-channels-whatsapp.md)
-      + [웹 채널 구성(Beta)](./admin/configure-channels-web.md)
-      + [랜딩 페이지 구성](./admin/configure-channels-landing-pages.md)
-      + [Forms 구성](./admin/configure-channels-forms.md)
+  + [거버넌스 및 개인 정보 보호](./admin/governance.md)
+  + [페르소나 매핑](./admin/persona-mapping.md)
+  + 구성 {#configurations}
+    + [AEM Assets 저장소](./admin/configure-aem-repositories.md)
+    + [의도 데이터](./admin/intent-data.md)
+    + [참여 점수 가중치](./admin/engagement-score-weighting.md)
+    + [외부 작업](./admin/configure-external-actions.md)
+    + {hide-from-toc}[이벤트 컬렉션에 대한 데이터스트림 구성](./data/aep-event-collection.md)
+  + 채널 {#channels}
+    + [이메일 구성](./admin/configure-channels-emails.md)
+    + [SMS 구성](./admin/configure-channels-sms.md)
+    + [WhatsApp 구성](./admin/configure-channels-whatsapp.md)
+    + [웹 채널 구성(Beta)](./admin/configure-channels-web.md)
+    + [랜딩 페이지 구성](./admin/configure-channels-landing-pages.md)
+    + [Forms 구성](./admin/configure-channels-forms.md)
