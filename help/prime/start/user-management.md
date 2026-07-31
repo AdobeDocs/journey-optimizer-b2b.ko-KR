@@ -1,25 +1,17 @@
 ---
 title: 사용자 액세스 및 권한
 description: 'Adobe Admin Console에서 사용자 액세스 관리: 사용자 그룹을 만들고, 제품 프로필을 할당하고, Journey Optimizer B2B Prime에 대한 역할 기반 권한을 설정합니다.'
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: bd42eee1-e206-4826-91ea-88dc726d858e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5c78cc54f46f47809b80bb6df1066f0f35c52e8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7id: bd42eee1-e206-4826-91ea-88dc726d858e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a2fcdae381cba44c7f1458be3e851628e7e11b26
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 58%
+source-wordcount: 2294
+ht-degree: 44%
 
 ---
 
@@ -36,7 +28,7 @@ ht-degree: 58%
 
 ## 제품 프로필 구성 {#config-profile}
 
-관리자는 Adobe 제품 라이선스와 사용자를 관리하고 관리하는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서는 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) 페이지를 참조하세요.
+관리자는 Adobe 제품 라이선스와 사용자를 관리하고 관리하는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서는 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) 페이지를 참조하세요.
 
 ### Admin Console 액세스 {#admin-console}
 
@@ -72,7 +64,7 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/kr/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"}를 참조하십시오.
 
 ![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 [!DNL Experience Platform] 제품 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다.
 
@@ -90,7 +82,7 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 사용자 그룹은 공유 사용 권한 집합이 부여된 사용자 컬렉션입니다. 사용자 그룹의 사용자를 추가하거나 제거할 수 있습니다. 그룹 내의 사용자가 변경되는 동안 그룹 권한은 동일하게 유지됩니다.
 
-사용자 그룹을 사용하여 권한을 관리하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [사용자 그룹 관리](https://helpx.adobe.com/kr/business/enterprise/manage-users/user-groups.html){target="_blank"}를 참조하십시오.
+사용자 그룹을 사용하여 권한을 관리하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [사용자 그룹 관리](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"}를 참조하십시오.
 
 ![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다.
 
@@ -125,7 +117,7 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 ### 새 그룹에 사용자 추가 {#add-users}
 
-사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [_Adobe Admin Console 사용자_](https://helpx.adobe.com/kr/business/enterprise/manage-users/users.html){target="_blank"}를 참조하십시오.
+사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [_Adobe Admin Console 사용자_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}를 참조하십시오.
 
 ![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 제품 관리자는 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 다음 단계를 수행할 수 있습니다. 제품 관리자는 해당 조직에 이미 존재하는 사용자만 추가할 수 있습니다.
 
@@ -157,11 +149,11 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 ## 제품 권한 할당 {#assign-product-permissions}
 
-권한은 제품 프로필에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 [!DNL Journey Optimizer B2B Prime]의 기능을 나타내는 여정 또는 구매 그룹과 같은 기능으로 그룹화됩니다.
+권한은 제품 프로필에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 [!DNL Journey Optimizer B2B Prime]의 기능을 나타내는 개인 여정 또는 콘텐츠와 같은 기능 아래에 그룹화됩니다.
 
 Adobe Experience Platform의 _권한_ 영역에서 관리자는 사용자 역할과 액세스 정책을 정의하여 제품 응용 프로그램 내의 기능 및 개체에 대한 액세스 권한을 관리할 수 있습니다. 이 앱에서는 역할을 만들고 관리하며, 이러한 역할에 대해 원하는 리소스 권한을 할당할 수 있습니다. 또한 권한을 사용하여 특정 역할과 연관된 샌드박스 및 사용자를 관리할 수 있습니다.
 
-Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
+Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
 
 1. [experience.adobe.com](https://experience.adobe.com/)&#x200B;(으)로 이동합니다.
 
@@ -173,22 +165,51 @@ Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Pl
 
    ![Experience Platform - 액세스 권한](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-<!--
+### 권한 {#permissions}
 
-### B2B product permissions {#b2b-product-permissions}
+다음 권한은 [!DNL Journey Optimizer B2B Prime]의 채널 구성, 콘텐츠 관리 및 개인 여정 기능에 대한 액세스를 제어합니다.
 
-The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
-
-| Category | Description | Permissions |
+| 카테고리 | 사용 권한 | 설명 |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments <li>Manage B2B Emails |
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
-| Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
+| B2B 채널 구성 | B2B 이메일 설정 보기 | 이메일 설정(하위 도메인, PTR 레코드, IP 풀, 제외 목록, 시드 목록, IP 준비 계획) 보기. |
+| | B2B 이메일 설정 관리 | 이메일 설정(하위 도메인, PTR 레코드, IP 풀, 제외 목록, 시드 목록, IP 준비 계획)을 구성합니다. 사용자가 이메일을 보낼 수 있으려면 이러한 설정이 필요합니다. |
+| | B2B 채널 구성 관리 | 왼쪽 탐색 및 모든 채널 구성 작업에서 _채널_ 메뉴 항목에 액세스합니다. |
+| | B2B WhatsApp 사전 설정 관리 | WhatsApp 메시지 사전 설정 및 관련 SMS 설정을 만들고, 보고, 삭제합니다. |
+| B2B 여정 | B2B 개인 여정 관리 | _개인 여정_ 목록 및 모든 개인 여정 작업에 액세스합니다. |
+| B2B Assets | 콘텐츠 템플릿 보기 | 콘텐츠 템플릿 목록 및 세부 정보를 봅니다. |
+| | B2B 템플릿 관리 | 콘텐츠 템플릿을 만들고, 편집하고, 삭제합니다. |
+| | B2B 조각 보기 | 콘텐츠 조각 목록 및 세부 정보를 봅니다. |
+| | B2B 조각 관리 | 콘텐츠 조각을 만들고, 편집하고, 삭제합니다. |
+| | B2B 조각 게시 | 템플릿, 이메일 및 랜딩 페이지에서 사용할 콘텐츠 조각을 게시합니다. |
+| | B2B Assets 보기 | Assets 라이브러리 및 자산 파일 세부 사항을 봅니다. |
+| | B2B Assets 관리 | 에셋 파일을 만들고, 편집하고, 삭제합니다. |
+| | B2B 이메일 보기 | 이메일 메시지를 봅니다. |
+| | B2B 이메일 관리 | 이메일 메시지 작성, 편집 및 삭제 |
+| | B2B 메시지 내보내기 관리 | 이메일 섹션 아래에서 메시지 보고서를 내보냅니다. |
+| Journey Optimizer 라이브러리 | B2B 라이브러리 항목 관리 | 라이브러리에 저장된 표현식을 추가하고 삭제합니다. |
+| 데이터 거버넌스 | B2B 관리 사용 레이블 삭제 | 데이터 세트 및 스키마에 적용된 DULE(데이터 사용 레이블)를 보고, 만들고, 삭제합니다. |
+| 샌드박스 관리 | B2B 패키지 관리 | 샌드박스 패키지 만들기, 내보내기, 가져오기, 복사 및 삭제 |
+
+[!DNL Journey Optimizer B2B Prime]에서 외부 대상을 지원하려면 다음 권한이 필요합니다.
+
+| 카테고리 | 사용 권한 | 설명 |
+| -------- | ----------- | ---------- |
+| 대시보드 | 표준 대시보드 보기 | _프로필_, _대상_ 및 _세그먼트_ 대시보드에 대한 보기 전용 액세스입니다. 왼쪽 탐색 영역에서 _대시보드_&#x200B;에 액세스하고 _대시보드_ 인벤토리 및 통합 탭에 액세스할 수도 있습니다. |
+| | 표준 대시보드 관리 | Data Warehouse에 아직 없는 사용자 지정 특성을 추가합니다. |
+| 대상 | 대상 보기 | _카탈로그_ 탭에서 사용 가능한 대상 및 _찾아보기_ 탭에서 인증된 대상을 볼 수 있는 보기 전용 액세스입니다. |
+| | 대상 관리 | 대상 연결 및 대상 계정을 보고, 만들고, 삭제합니다. |
+| | 대상 활성화 | 활성 대상에 데이터를 활성화합니다. 이 기능에 액세스하려면 _대상 보기_ 또는 _대상 관리_&#x200B;도 필요합니다. |
+| | 매핑 없이 세그먼트 활성화 | 매핑 단계를 표시하지 않고 기존 대상에 대상을 활성화합니다. 사용자는 활성화 워크플로에서 대상을 추가하거나 제거할 수 있지만 매핑된 속성 또는 ID를 추가하거나 제거할 수 없습니다. 이 함수에 액세스하려면 _대상 보기_ 권한도 필요합니다. |
+| | 데이터 세트 대상 관리 및 활성화 | 데이터 세트 내보내기 흐름을 보고, 만들고, 편집하고, 비활성화할 수 있을 뿐만 아니라 데이터를 활성 데이터 세트로 활성화할 수 있습니다. 이 함수에 액세스하려면 _대상 보기_ 권한도 필요합니다. |
+| | 대상 작성 | Adobe Experience Platform Destination SDK을 사용하여 대상을 작성할 수 있습니다. |
+| 데이터 거버넌스 | 데이터 사용 정책 보기 | 조직에 속한 데이터 사용 정책에 대한 보기 전용 액세스입니다. |
+| | 데이터 사용 정책 관리 | 데이터 사용 정책을 보고, 만들고, 편집하고, 삭제합니다. |
+| 데이터 수집 | 소스 보기 | _카탈로그_ 탭의 사용 가능한 소스와 _찾아보기_ 탭의 인증된 소스에 대한 보기 전용 액세스 권한입니다. |
+| | 소스 관리 | 소스를 보고 만들고 편집하고 비활성화합니다. |
+| 프로필 관리 | 프로필 설정 보기 | 모든 프로필 설정에 대한 보기 전용 액세스 권한. |
+| | 프로필 설정 관리 | 모든 프로필 설정을 보고 편집합니다. |
+
+<!--
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -267,7 +288,7 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 ### 역할에 사용자 그룹 추가 {#add-user-groups-to-a-role}
 
-사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [_Adobe Admin Console 사용자_](https://helpx.adobe.com/kr/business/enterprise/manage-users/users.html){target="_blank"}를 참조하십시오.
+사용자 관리에 대한 자세한 내용은 Admin Console 설명서에서 [_Adobe Admin Console 사용자_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}를 참조하십시오.
 
 ![관리자 역할 요구 사항](../../assets/do-not-localize/icon-admin-user.svg){width="30"} 시스템 관리자 또는 Experience Platform 관리자는 다음 단계를 수행할 수 있습니다.
 
@@ -305,11 +326,11 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 1. B2B 제품 권한 추가:
 
-   <!-- To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions). -->
+   역할에 대해 원하는 제품 기능을 확인하려면 [제품 권한](#permissions) 목록을 참조하세요.
 
    왼쪽의 _[!UICONTROL 리소스]_ 목록에서 B2B 항목을 찾은 다음 _추가_(**+**) 아이콘을 클릭하여 역할에 사용할 각 특성을 추가합니다.
 
-   검색 도구에 _B2B_&#x200B;을(를) 입력하여 B2B 제품 권한 목록을 필터링할 수 있습니다.
+   검색 도구에 _B2B_&#x200B;을(를) 입력하여 많은 B2B 제품 권한 목록을 필터링할 수 있습니다.
 
    ![Experience Platform - B2B 권한](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
