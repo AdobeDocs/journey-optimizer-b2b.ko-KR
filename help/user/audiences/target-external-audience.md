@@ -124,4 +124,4 @@ Adobe Target을 통해 외부 대상자를 활성화하는 2단계 워크플로�
 
    ![Experience Platform - 대상 - 대상 활성화 - 검토](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-활성화하면 [Adobe Target 대상](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}에서 대상을 보고 Adobe Target 활동에서 사용할 수 있습니다.
+활성화하면 [Adobe Target 대상](https://experienceleague.adobe.com/ko/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}에서 대상을 보고 Adobe Target 활동에서 사용할 수 있습니다.

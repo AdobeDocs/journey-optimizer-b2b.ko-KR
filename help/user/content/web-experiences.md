@@ -49,7 +49,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
 * 제품 관리자가 웹 경험에 포함할 URL(페이지)을 정의하도록 하나 이상의 웹 채널을 구성했습니다. 자세한 내용은 [웹 채널 구성](../admin/configure-channels-web.md)을 참조하십시오.
 
-* 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
+* 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
 
 * 여정에서 웹 경험을 만들고 관리하는 데 필요한 [권한](../admin/user-management.md#b2b-product-permissions)이 있습니다.
   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 관리]_ - 웹 개인화 작업 노드를 추가하거나 업데이트하는 데 필요합니다.
@@ -208,13 +208,13 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
 * Adobe Experience Platform 데이터 수집에서 데이터 스트림이 정의되어 있는지 확인합니다. Adobe Experience Platform 서비스에서 Adobe Journey Optimizer B2B edition 옵션이 활성화되어 있는지 확인합니다.
 
-  이 구성은 Adobe Experience Platform Edge이 인바운드 이벤트를 올바르게 처리할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  이 구성은 Adobe Experience Platform Edge이 인바운드 이벤트를 올바르게 처리할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
 
 * Adobe Experience Platform에서 _[!UICONTROL Active-On-Edge 병합 정책]_ 옵션이 활성화된 하나의 병합 정책이 있는지 확인하십시오.
 
-  Experience Platform의 고객 > 프로필 > 병합 정책 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Experience Platform의 고객 > 프로필 > 병합 정책 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B edition 인바운드 채널은 이 병합 정책을 사용하여 에지에서 인바운드 웹 경험을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B edition 인바운드 채널은 이 병합 정책을 사용하여 에지에서 인바운드 웹 경험을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 문제 해결
 
