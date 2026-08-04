@@ -4,27 +4,22 @@ description: Journey Optimizer B2B edition에서 AI가 생성한 요약, 의도 
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 6%
 
 ---
 
 # 계정 세부 정보
 
-Journey Optimizer B2B edition의 아무 곳에서나 계정 이름을 클릭하면 _계정 세부 정보_ 페이지가 표시됩니다. 이 페이지는 생성 AI 요약을 포함하여 계정에 대한 유용한 정보를 제공합니다. 계정과 연결된 연락처에 대해 실행할 수 있는 [작업](#account-actions)도 있습니다.
+Journey Optimizer B2B edition의 아무 곳에서나 계정 이름을 클릭하면 _계정 세부 정보_ 페이지가 표시됩니다. 이 페이지에서는 생성 AI 요약을 포함하여 계정에 대한 정보를 제공합니다. 계정과 연결된 연락처에 대해 실행할 수 있는 [작업](#send-email)도 있습니다.
 
 ![계정 세부 정보에 액세스](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -63,7 +58,7 @@ Journey Optimizer B2B edition에서 의도 감지 모델은 계정 연락처 활
 
 ![계정 연락처 범위](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-_[!UICONTROL 연락처 범위]_ 섹션에는 솔루션 관심사와 관련된 특정 역할을 가진 계정의 연락처 수가 표시됩니다. 역할 및 솔루션 관심사 할당은 구매 그룹 역할 템플릿을 기반으로 합니다. 셀을 눌러 다음 세부 정보를 표시합니다.
+_[!UICONTROL 연락처 범위]_ 섹션에는 솔루션 관심사와 관련된 특정 역할을 가진 계정 연락처 수가 표시됩니다. 역할 및 솔루션 관심사 할당은 구매 그룹 역할 템플릿을 기반으로 합니다. 셀을 눌러 다음 세부 정보를 표시합니다.
 
 * 설명, 다음 형식입니다. _x명의 사용자에게 z 솔루션 관심 영역에 대한 y 역할이 있음_
 * 열
@@ -91,7 +86,7 @@ _[!UICONTROL 연락처 겹치기]_ 섹션에는 여러 솔루션 관심 분야�
 * 계정
 * 솔루션 관심 분야
 
-연락처 이름 옆의 _정보_( ![정보 아이콘](../assets/do-not-localize/icon-info.svg) )을 클릭하여 다음 세부 정보가 포함된 표를 표시합니다.
+연락처 이름 옆의 _정보_( ![정보 아이콘](../assets/do-not-localize/icon-info.svg)) 아이콘을 클릭하면 다음 세부 정보가 포함된 표를 표시할 수 있습니다.
 
 * 구매 그룹([구매 그룹 세부 정보를 열려면 이름을 클릭하세요](../buying-groups/buying-group-details.md))
 * 역할

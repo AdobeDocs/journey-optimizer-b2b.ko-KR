@@ -6,22 +6,16 @@ role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
-ht-degree: 7%
+source-wordcount: 1625
+ht-degree: 6%
 
 ---
 
@@ -47,7 +41,7 @@ ht-degree: 7%
 >title="구조 구성 요소 정보"
 >abstract="구조 구성 요소는 템플릿의 구조를 디자인하는 데 사용할 수 있는 레이아웃 요소입니다."
 
-시각적 디자인 공간에서 _구조 구성 요소_&#x200B;를 사용하여 콘텐츠의 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠 레이아웃의 모양을 빠르게 정의할 수 있습니다. 각 구조 구성 요소는 가로 공간에 걸쳐 있으며 이를 스택하여 레이아웃을 세로로 작성할 수 있습니다. 각 구성 요소를 열로 나누어 필요한 각 콘텐츠 블록을 만듭니다.
+시각적 디자인 공간에서 _구조 구성 요소_&#x200B;를 사용하여 콘텐츠의 구조를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠 레이아웃의 구조를 빠르게 정의할 수 있습니다. 각 구조 구성 요소는 가로 공간에 걸쳐 있으며 이를 스택하여 레이아웃을 세로로 작성할 수 있습니다. 필요한 각 콘텐츠 블록을 구성하려면 각 구성 요소를 열로 나눕니다.
 
 ## 구조 라이브러리
 
@@ -56,12 +50,12 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 | 아이콘 | 구성 요소. | 설명 |
 | ----- | ----------- | ----------- |
 | ![1:1 열 아이콘](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 열] | 스페이스의 너비를 채우는 단일 열 컨테이너입니다. |
-| ![1:2 열 아이콘](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 열 왼쪽] | 1:2 비율을 사용하여 공간의 너비를 채우는 2열 컨테이너입니다. 첫째 열(왼쪽)은 너비의 3분의 1을, 둘째 열(오른쪽)은 나머지 3분의 2를 차지한다. |
-| ![1:3 열 아이콘](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 열 왼쪽] | 1:3 비율을 사용하여 공간의 너비를 채우는 2열 컨테이너입니다. 첫 번째 (왼쪽) 열은 너비의 4분의 1을 차지하고 두 번째 (오른쪽)열은 나머지 3/4을 차지합니다. |
+| ![1:2 열 아이콘](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 열 왼쪽] | 1:2 비율을 사용하여 공간 너비를 채우는 2열 컨테이너입니다. 첫째 열(왼쪽)은 너비의 3분의 1을, 둘째 열(오른쪽)은 나머지 3분의 2를 차지한다. |
+| ![1:3 열 아이콘](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 열 왼쪽] | 1:3 비율을 사용하여 공간 너비를 채우는 2열 컨테이너입니다. 첫 번째 (왼쪽) 열은 너비의 4분의 1을 차지하고 두 번째 (오른쪽)열은 나머지 3/4을 차지합니다. |
 | ![2:1 열 아이콘](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 열 오른쪽] | 2:1 비율을 사용하여 공간의 너비를 채우는 2열 컨테이너입니다. 첫째 열(왼쪽)은 폭의 2/3를 차지하고 둘째 열(오른쪽)은 나머지 1/3을 차지한다. |
-| ![2:2 열 아이콘](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 열] | 2:2 비율을 사용하여 공간의 너비를 채우는 2열 컨테이너입니다. 왼쪽 열과 오른쪽 열의 너비는 같습니다. |
-| ![3:1 열 아이콘](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 열 오른쪽] | 3:1 비율을 사용하여 공간의 너비를 채우는 2열 컨테이너입니다. 첫 번째(왼쪽) 열은 너비의 3/4(75%)를 차지하고 두 번째(오른쪽)는 나머지 1/4(25%)를 차지합니다. |
-| ![3:3 열 아이콘](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 열] | 3:3 비율을 사용하여 공간의 너비를 채우는 3열 컨테이너입니다. 세 열 모두 너비가 같습니다. |
+| ![2:2 열 아이콘](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 열] | 2:2 비율을 사용하여 공간 너비를 채우는 2열 컨테이너입니다. 왼쪽 열과 오른쪽 열의 너비는 같습니다. |
+| ![3:1 열 아이콘](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 열 오른쪽] | 3:1 비율을 사용하여 공간 너비를 채우는 2열 컨테이너입니다. 첫 번째(왼쪽) 열은 너비의 3/4(75%)를 차지하고 두 번째(오른쪽)는 나머지 1/4(25%)를 차지합니다. |
+| ![3:3 열 아이콘](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 열] | 3:3 비율을 사용하여 공간 너비를 채우는 3열 컨테이너입니다. 세 열 모두 너비가 같습니다. |
 | ![4:4 열 아이콘](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 열] | 4:4 비율을 사용하여 공간의 너비를 채우는 4열 컨테이너입니다. 네 개의 열 너비는 모두 같습니다. |
 | ![n:n 열 아이콘](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n 열] | 사용자가 정의하는 열에 따라 공간을 채우는 사용자 지정 가능한 열 구조입니다. 열의 수(2~10개)를 설정하고 각 열의 너비를 개별적으로 설정합니다. [자세히 알아보기](#change-nn-columns) |
 
@@ -111,7 +105,7 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 작은 화면이나 표시 창의 경우 기본 설정을 변경하지 않는 한 구조 구성 요소의 열이 스택되어 표시됩니다. 다중 열 구조 구성 요소를 선택한 상태에서 토글 슬라이더를 오른쪽으로 이동하여 **[!UICONTROL 모바일에서 열을 스택하지 않음]** 설정을 변경합니다.
 
-![모바일 &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}에서 열을 스택하지 마십시오.
+![모바일 ](./assets/structure-component-settings-stack-columns.png){width="250"}에서 열을 스택하지 마십시오.
 
 ## 구성 요소 스타일
 
@@ -127,9 +121,9 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 ![배경색 선택기](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL 배경 이미지]
+#### [!UICONTROL 배경 이미지] {#background-image}
 
-토글 선택기를 이동하여 배경 이미지 설정을 활성화합니다.
+배경 이미지 설정을 활성화하려면 토글 선택기를 이동합니다.
 
 ![배경 이미지 설정](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +153,7 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 ### 기타 스타일
 
-다른 구조 구성 요소 스타일을 적용하여 이메일 메시지 또는 랜딩 페이지에서의 표시를 조정할 수 있습니다.
+이메일 메시지 또는 랜딩 페이지에서의 표시를 조정하려면 다른 구조 구성 요소 스타일을 적용할 수 있습니다.
 
 +++테두리
 
@@ -209,7 +203,7 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 ### 열 스타일
 
-캔버스에서 열을 선택하면 해당 열에 적용할 스타일을 설정할 수 있습니다.
+해당 열에 적용할 스타일을 설정하려면 캔버스에서 열을 선택합니다.
 
 +++배경
 
@@ -217,7 +211,7 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
   ![배경색 선택기](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL 배경 이미지]** - 배경 이미지 설정을 활성화하려면 토글 선택기를 이동합니다.
+* **[!UICONTROL 배경 이미지]** - 배경 이미지 설정을 사용하려면 토글 선택기를 이동하세요.
 
   ![배경 이미지 설정](./assets/structure-components-background-image-settings.png){width="250"}
 

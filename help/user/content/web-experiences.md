@@ -7,23 +7,13 @@ badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한�
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
 autotag-review: '2026-05-27T16:20:23.362Z'
 TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 3%
@@ -37,7 +27,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 웹 경험을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * 타겟팅된 웹 사이트 방문자에게 개인화된 콘텐츠 수정 사항 제공
-* 계정 속성을 사용하여 배너, 텍스트, 이미지 및 버튼과 같은 웹 사이트 요소 맞춤화
+* 계정 속성을 사용하여 배너, 텍스트, 이미지 및 버튼과 같은 웹 사이트 요소 사용자 정의
 * URL 일치 규칙을 사용하여 특정 페이지를 타깃팅하거나 여러 페이지에 변경 사항 적용
 * 참여를 추적하고 웹 개인화 노력의 영향을 모니터링합니다.
 
@@ -49,12 +39,12 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
 * 제품 관리자가 웹 경험에 포함할 URL(페이지)을 정의하도록 하나 이상의 웹 채널을 구성했습니다. 자세한 내용은 [웹 채널 구성](../admin/configure-channels-web.md)을 참조하십시오.
 
-* 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
+* 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
 
 * 여정에서 웹 경험을 만들고 관리하는 데 필요한 [권한](../admin/user-management.md#b2b-product-permissions)이 있습니다.
-   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 관리]_ - 웹 개인화 작업 노드를 추가하거나 업데이트하는 데 필요합니다.
-   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 보기]_ - 웹 개인화 작업 노드에 대한 세부 정보를 보는 데 필요합니다.
-   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 승인 및 게시]_ - 하나 이상의 웹 개인화 작업 노드가 있는 여정을 게시하는 데 필요합니다.
+  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 관리]_ - 웹 개인화 작업 노드를 추가하거나 업데이트하는 데 필요합니다.
+  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 보기]_ - 웹 개인화 작업 노드에 대한 세부 정보를 보는 데 필요합니다.
+  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 승인 및 게시]_ - 하나 이상의 웹 개인화 작업 노드가 있는 여정을 게시하는 데 필요합니다.
 
 * 웹 브라우저용으로 Adobe Experience Cloud [Visual Editing Helper 브라우저 확장 기능](#install-the-visual-editing-helper-extension)이 설치되어 있습니다. 이 확장은 Journey Optimizer B2B edition 콘텐츠 디자인 공간에서 웹 페이지를 안정적으로 열고, 작성하고, 미리 보는 데 필요합니다.
 
@@ -72,7 +62,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
    [!DNL Microsoft Edge]을(를) 사용하는 경우 상단 배너의 다른 스토어에서 _확장 허용_&#x200B;을(를) 선택하십시오. 이 옵션을 활성화하면 [!DNL Chrome Web Store]에서 [!DNL Microsoft Edge]&#x200B;(으)로 확장을 추가할 수 있습니다.
 
-1. _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;브라우저 확장을 검색하여 탐색합니다.
+1. _[!DNL Adobe Experience Cloud Visual Editing Helper]_브라우저 확장을 검색하여 탐색합니다.
 
    ![Google Chrome용 Adobe Experience Cloud Visual Editing Helper 확장 기능](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -134,7 +124,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
 1. 오른쪽 패널에서 정의 및 관리 방법에 따라 웹 경험 속성을 설정합니다.
 
-   * **[!UICONTROL 시각적 편집기]** - 웹 경험 수정 디자인을 위해 [시각적 및 비시각적 편집기](./web-experience-design.md#web-design-tools) 간을 전환합니다.
+   * **[!UICONTROL 시각적 편집기]** - 웹 경험 수정 디자인을 위해 [시각적 및 비시각적 편집기](./web-experience-design.md#web-experience-editors) 간을 전환합니다.
    * **[!UICONTROL 방문자 리디렉션]** - 콘텐츠 탭에서 새 변형을 작성하는 대신 [방문자를 다른 기존 URL로 리디렉션](#redirect-to-url)하려면 이 옵션을 사용합니다.
 
    ![시각적 편집기의 속성을 전환하고 URL을 리디렉션합니다](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
@@ -208,13 +198,13 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
 * Adobe Experience Platform 데이터 수집에서 데이터 스트림이 정의되어 있는지 확인합니다. Adobe Experience Platform 서비스에서 Adobe Journey Optimizer B2B edition 옵션이 활성화되어 있는지 확인합니다.
 
-  이 구성은 Adobe Experience Platform Edge이 인바운드 이벤트를 올바르게 처리할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
+  이 구성은 Adobe Experience Platform Edge이 인바운드 이벤트를 올바르게 처리할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * Adobe Experience Platform에서 _[!UICONTROL Active-On-Edge 병합 정책]_ 옵션이 활성화된 하나의 병합 정책이 있는지 확인하십시오.
 
-  Experience Platform의 고객 > 프로필 > 병합 정책 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Experience Platform의 고객 > 프로필 > 병합 정책 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B edition 인바운드 채널은 이 병합 정책을 사용하여 에지에서 인바운드 웹 경험을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B edition 인바운드 채널은 이 병합 정책을 사용하여 에지에서 인바운드 웹 경험을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 문제 해결
 

@@ -1,24 +1,16 @@
 ---
 title: 개인 참여 점수
 description: Journey Optimizer B2B edition Prime에서 가중 활동과 30일 채점 기간을 사용하여 잠재 고객에 대한 개인 참여 점수를 계산합니다.
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한적으로 베타 출시되었습니다"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -30,7 +22,7 @@ ht-degree: 8%
 >title="개인 참여 점수"
 >abstract="개인 참여 점수는 최근 활동을 기반으로 한 개별 리드의 참여 수준을 반영합니다."
 
-개인 참여 점수는 개별 잠재 고객에 대한 참여 수준을 반영하는 숫자입니다. 점수는 개인이 수행하는 활동을 기반으로 하며, 각 활동 유형에는 가중치가 적용됩니다. 일관된 비교를 가능하게 하고 실행 가능한 통찰력을 허용하기 위해 인스턴스(테넌트) 내에서 점수가 표준화됩니다.
+개인 참여 점수는 개별 잠재 고객에 대한 참여 수준을 반영하는 숫자입니다. 점수는 개인이 수행하는 활동을 기반으로 하며, 여기서 각 활동 유형에는 가중치가 적용됩니다. 일관된 비교를 가능하게 하고 실행 가능한 통찰력을 허용하기 위해 인스턴스(테넌트) 내에서 점수가 표준화됩니다.
 
 점수 계산은 매일 실행됩니다. 지난 30일 이내에 개인이 수행한 참여 가중 활동이 점수에 기여합니다. 이 30일 순환 기간을 사용하면 이전 활동 발생이 만료되고 시간이 지남에 따라 점수가 감소할 수 있습니다(점수 감소). 표시된 점수는 반올림됩니다(예: 75.89999 점수가 76으로 표시됨).
 
@@ -38,7 +30,7 @@ ht-degree: 8%
 
 ![개인 참여 점수 보고서 데이터](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-사용자 참여 점수는 사용자 목록 및 사용자 여정 내 분할 경로 노드에서 [필터 조건](#engagement-score-filter)(으)로 사용할 수 있는 특성입니다.
+사용자 참여 점수는 사용자 목록에서 [필터 조건](#engagement-score-filter)(으)로 사용할 수 있고 사용자 여정에서 경로 노드를 분할할 수 있는 특성입니다.
 
 ## 참여 점수에 사용되는 활동 {#activities}
 
@@ -89,11 +81,11 @@ ht-degree: 8%
 
 1. 활동 유형별 일일 활동을 합산하고, 여기에 관련 가중치를 곱한 다음, 전환 확인 기간의 모든 일에 걸쳐 결과를 합산하여 원시 참여 점수를 계산합니다.
 
-1. 이상값의 영향을 줄여 분산을 안정시키려면 _전원 변환_(제곱근)을 적용하세요.
+1. 이상값의 영향을 줄여 분산을 안정시키려면 _전원 변환_(제곱근)을 적용합니다.
 
    이 변환은 왜곡을 줄이고 데이터의 패턴을 더 선형적으로 만든다.
 
-1. _크기 조정된 정규화_ 변환을 적용하여 점수가 0에서 100 사이의 전체 범위를 사용하도록 합니다.
+1. 점수가 0에서 100 사이의 전체 범위를 사용하도록 하려면 _크기 조정된 정규화_ 변형을 적용하세요.
 
 ## 참여 점수로 필터링 {#engagement-score-filter}
 
@@ -103,7 +95,7 @@ _[!UICONTROL 개인 참여 점수]_ 필터는 **[!UICONTROL 개인 특성]** 범
 
 ### 사용자 목록 {#people-lists}
 
-[정적 사용자 목록](./people-lists.md#static-list)에서 구성원을 추가하거나 제거할 때 또는 [동적 사용자 목록](./people-lists.md#dynamic-lists)에 대한 구성원 규칙을 정의할 때, 개인 참여 점수별로 필터링하여 특성이 채점 기준과 일치하는 모든 사용자를 타깃팅할 수 있습니다.
+[정적 사용자 목록](./people-lists.md#static-lists)에서 구성원을 관리하거나 [동적 사용자 목록](./people-lists.md#dynamic-lists)에 대한 규칙을 정의할 때, 개인 참여 점수별로 필터링하여 조건에 맞는 사람을 타깃팅할 수 있습니다.
 
 ![사용자 목록에 대한 사용자 참여 점수 필터링](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -151,7 +143,7 @@ _[!UICONTROL 개인 참여 점수]_ 필터는 **[!UICONTROL 개인 특성]** 범
 
 [!DNL Journey Optimizer B2B Prime]에서 [AI Assistant 채팅 인터페이스](../agents/chat-interface.md)에서 직접 참여 점수 가중치를 구성할 수 있습니다.
 
-참여 점수 모델, 가중치 밴드 및 활동 가중치에 대한 배경에 대해서는 [사용자 지정 참여 점수 가중치 구성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)을 참조하십시오.
+참여 점수 모델, 가중치 밴드 및 활동 가중치에 대한 배경에 대해서는 [사용자 지정 참여 점수 가중치 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)을 참조하십시오.
 
 1. 화면 왼쪽(채팅 아이콘)에서 **[!UICONTROL AI Assistant]** 채팅 패널을 엽니다.
 
@@ -205,13 +197,13 @@ _[!UICONTROL 개인 참여 점수]_ 필터는 **[!UICONTROL 개인 특성]** 범
 
 1. 활동 테이블에서 업데이트할 참여 활동을 찾습니다.
 
-1. 해당 활동에 대한 **[!UICONTROL 가중치]** 아래쪽 화살표를 클릭하고 적절한 가중치 대역을 선택합니다(예: `Important`,`Trivial`, `Minor`, `Normal` 및 `Vital`).
+1. 해당 활동에 대한 **[!UICONTROL 가중치]** 아래쪽 화살표를 클릭하고 적절한 가중치 대역을 선택합니다(예: `Important`, `Trivial`, `Minor`, `Normal` 및 `Vital`).
 
    변경 사항은 자동으로 저장됩니다. 명시적인 저장 작업이 필요하지 않습니다.
 
 >[!NOTE]
 >
->활성 모델 또는 보관된 모델을 편집하려면 해당 모델을 복제하여 새 도면 모델을 만든 다음, 복제를 편집하고 활성화할 수 있습니다. 활성 모델은 제자리에서 편집할 수 없습니다.
+>활성 또는 보관된 모델을 편집하려면 해당 모델을 복제하여 새 도면 모델을 만든 다음 복제를 편집하고 활성화합니다. 활성 모델은 제자리에서 편집할 수 없습니다.
 
 ### 초안 모델 활성화 {#activate-weighting-model}
 

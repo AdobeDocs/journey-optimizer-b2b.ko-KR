@@ -5,21 +5,15 @@ feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 2%
 
 ---
@@ -32,7 +26,7 @@ ht-degree: 2%
 
 **전제 조건**
 
-웹 채널을 사용하려면 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이 구현되어 있어야 합니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
+웹 채널을 사용하려면 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이 구현되어 있어야 합니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
 
 Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](../admin/user-management.md#b2b-product-permissions)이 필요합니다.
 
@@ -63,7 +57,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
      ![단일 페이지 웹 채널 구성에 대한 페이지 URL 선택](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 페이지 일치 규칙]** - 동일한 규칙과 일치하는 여러 URL을 타겟팅하려면 [페이지 일치 규칙을 빌드](#build-a-pages-matching-rule)하고 **[!UICONTROL 기본 작성 및 미리 보기 URL]**&#x200B;을(를) 입력하십시오.
+   * **[!UICONTROL 페이지 일치 규칙]** - 동일한 규칙과 일치하는 여러 URL을 타겟팅하려면 [페이지 일치 규칙을 빌드](#build-a-rule)하고 **[!UICONTROL 기본 작성 및 미리 보기 URL]**&#x200B;을(를) 입력하십시오.
 
 1. 변경 내용을 저장하려면 **[!UICONTROL 제출]**&#x200B;을 클릭하세요.
 
@@ -75,7 +69,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
 웹 구성을 만들 때 동일한 규칙과 일치하는 여러 URL을 대상으로 _[!UICONTROL 페이지 일치 규칙]_&#x200B;을(를) 만들 수 있습니다. 이러한 규칙을 사용하면 여러 페이지에 동일한 콘텐츠 변경 사항을 적용할 수 있습니다.
 
-예를 들어 전체 웹 사이트에서 영웅 배너에 변경 사항을 적용하거나 모든 제품 페이지에 표시되는 상위 이미지를 추가할 수 있습니다.
+예를 들어 전체 웹 사이트에서 영웅 배너에 변경 사항을 적용하거나 모든 제품 페이지에 표시되는 상위 이미지를 추가합니다.
 
 ### 규칙 작성
 
@@ -122,9 +116,9 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
    * 다른 규칙 사이에 **[!UICONTROL Or]** 또는 **[!UICONTROL Exclude]** 연산자를 사용하십시오.
 
-     _[!UICONTROL Or]_&#x200B;은(는) 여러 규칙을 정의하는 기본 연산자이며 일치시킬 수 있는 여러 기준 정의를 추가하는 데 유용합니다.
+     _[!UICONTROL Or]_ [!UICONTROL Or] 연산자는 여러 규칙을 정의하는 기본 연산자이며 일치시킬 수 있는 여러 기준 정의를 추가하는 데 유용합니다.
 
-     _[!UICONTROL Exclude]_&#x200B;은(는) 정의된 규칙과 일치하는 페이지 중 하나를 타깃팅해서는 안 되는 경우에 유용합니다. 예를 들어 `lumasecure`이(가) 들어 있지만 블로그 페이지(예: `bodea.com/blogs/lumasecure/latest-release`)를 제외한 모든 `bodea.com` 페이지를 대상으로 지정할 수 있습니다.
+     _[!UICONTROL 제외]_ [!UICONTROL 제외] 연산자는 정의된 규칙과 일치하는 페이지 중 하나를 타깃팅하지 말아야 할 때 유용합니다. 예를 들어 `lumasecure`이(가) 포함된 모든 `bodea.com` 페이지를 대상으로 하지만 블로그 페이지(예: `bodea.com/blogs/lumasecure/latest-release`)는 제외할 수 있습니다.
 
    ![제외가 있는 규칙과 일치하는 페이지](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +138,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
 1. 매개변수를 편집하려면 복제된 웹 채널의 이름을 누릅니다.
 
-   * 규칙의 목적 또는 항목과 일치하도록 이름 및 설명을 변경합니다.
+   * 규칙의 목적과 일치시키려면 이름과 설명을 변경합니다.
    * 필요한 경우 단일 페이지 URL을 변경합니다.
    * 필요한 경우 요구 사항에 따라 페이지 일치 규칙을 변경합니다.
 

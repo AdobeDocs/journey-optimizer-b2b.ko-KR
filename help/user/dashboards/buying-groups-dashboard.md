@@ -4,22 +4,16 @@ description: 완료 점수, 참여 지표 및 솔루션 관심 분야 분석으�
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +27,7 @@ ht-degree: 3%
 * **데이터 전달**: 마케팅은 _준비_ 대상 데이터를 식별하며 CSV 형식으로 영업에 액세스할 수 있도록 합니다. 
 * **판매 수락**: 판매에서 수동으로 _준비_ 대상을 파이프라인에 통합합니다.
 
-이 대시보드에 액세스하려면 왼쪽 탐색에서 **[!UICONTROL 계정]**&#x200B;을 확장한 다음 **[!UICONTROL 구매 그룹]**&#x200B;을 선택하십시오. 기본적으로 표시되지 않으면 **[!UICONTROL 개요]** 탭을 선택하십시오.
+이 대시보드에 액세스하려면 왼쪽 탐색에서 **[!UICONTROL 계정]**&#x200B;을 확장한 다음 **[!UICONTROL 구매 그룹]**&#x200B;을 선택하십시오. 시스템이 기본적으로 표시하지 않는 경우 **[!UICONTROL 개요]** 탭을 선택합니다.
 
 ![구매 그룹 개요](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +45,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## 구매 그룹 완료 점수 분포
 
-이 시각화는 완료 점수를 기반으로 구매 그룹의 분포를 보여 주며, 4개의 개별 점수 밴드로 분류됩니다. 중앙 그림은 총 구매 그룹 수를 나타내며 전반적인 진행에 대한 빠른 스냅샷을 제공합니다. 세분화된 색상은 각 점수범위 내 구매군 비중을 나타내므로 완급추세를 한눈에 파악할 수 있다.
+이 시각화는 완료 점수를 기반으로 구매 그룹의 분포를 보여 주며, 4개의 개별 점수 밴드로 분류됩니다. 중심 수치는 총 구매그룹 수를 나타내며, 전반적인 진행에 대한 요약을 제공한다. 세분화된 색상은 각 점수범위 내 구매군 비중을 나타내므로 완급추세를 한눈에 파악할 수 있다.
 
 자세한 정보를 보려면 오른쪽 상단의 **..** 메뉴 아이콘을 클릭합니다.
 
@@ -84,7 +78,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ![특성별로 표시된 데이터를 필터링합니다](./assets/buying-group-overview-filters.png){width="500"}
 
-데이터를 필터링하는 데 사용할 각 특성의 값을 선택하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+데이터를 필터링하는 데 사용할 각 특성의 값을 원하는 만큼 선택하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
 ## 데이터 활용
 
@@ -100,7 +94,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 _자세히_(**...**)을 클릭할 수 있습니다. 오른쪽 상단의 메뉴를 선택하고 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하여 [확장 데이터 보기](#view-more)를 선택합니다.
 
-### [!UICONTROL 자세히 보기]
+### [!UICONTROL 자세히 보기] {#view-more}
 
 확장된 데이터와 통찰력을 보려면 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하세요.
 

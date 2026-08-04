@@ -4,22 +4,15 @@ description: 시각적 디자인 도구, HTML 가져오기 또는 템플릿을 �
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1380
 ht-degree: 2%
 
 ---
@@ -30,7 +23,7 @@ ht-degree: 2%
 
 오른쪽 패널의 _[!UICONTROL 세부 정보]_ 탭에서 **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
-![전자 메일 콘텐츠 편집 &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
+![전자 메일 콘텐츠 편집 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
 
 이 작업은 이메일 디자인 도구를 실행하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
 
@@ -44,11 +37,11 @@ ht-degree: 2%
 
 >[!TIP]
 >
->생성 AI에서 제공하는 Adobe Journey Optimizer B2B edition의 AI Assistant를 사용하여 콘텐츠를 개선합니다. AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠를 생성하고, 대상자에게 반향을 일으키는 이미지에 대한 AI Assistant 권장 사항을 얻음으로써 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. [자세히 알아보기](./ai-assistant-emails.md)
+>생성 AI에서 제공하는 Adobe Journey Optimizer B2B edition의 AI Assistant를 사용하여 콘텐츠를 개선합니다. AI Assistant를 사용하면 전체 이메일 및 타겟팅된 텍스트 콘텐츠를 생성하고 대상자에게 반향을 일으키는 이미지에 대한 권장 사항을 제공하여 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. [자세히 알아보기](./ai-assistant-emails.md)
 
 ## 이메일 콘텐츠 처음부터 만들기 {#design-from-scratch}
 
-시각적 콘텐츠 디자인 공간을 사용하여 이메일의 구조와 콘텐츠를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 이메일 콘텐츠의 레이아웃 및 구성을 초 이내에 디자인할 수 있습니다.
+시각적 콘텐츠 디자인 공간을 사용하여 이메일의 구조와 콘텐츠를 정의합니다. 간단한 드래그 앤 드롭 작업으로 구조 구성 요소를 추가 및 이동하여 이메일 콘텐츠의 레이아웃 및 구성을 신속하게 디자인할 수 있습니다.
 
 1. _[!UICONTROL 템플릿 디자인]_ 홈 페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
 
@@ -60,7 +53,7 @@ ht-degree: 2%
 
 1. 템플릿에 [구조 및 콘텐츠 추가](./email-authoring.md#structure-content).
 
-1. [링크 검토 및 업데이트](#preview-and-edit-linked-urls).
+1. [링크 검토 및 업데이트](#edit-linked-url-tracking).
 
 1. [이메일을 테스트합니다](#check-and-test-the-email).
 
@@ -146,11 +139,11 @@ ht-degree: 2%
 
 Marketo Engage을 통한 이메일 게재 시스템은 전송 시 HTML 이메일의 모든 URL을 고유한 추적 리디렉션으로 자동 래핑합니다. **[!UICONTROL 추적 형식]**&#x200B;을(를) 사용하여 링크 추적을 제어합니다.
 
-* **[!UICONTROL 토큰 없이 추적]** - 시스템이 클릭을 등록하지만 사용자가 웹 페이지에서 다음에 수행하는 작업을 추적합니다. 이는 mkt_tok를 올바르게 처리하지 못할 수 있는 서드파티 시스템을 처리하는 경우와 같은 특정 기술 사례에서 중요할 수 있습니다. 그러나 후속 웹 추적은 제한됩니다.
+* **[!UICONTROL 토큰 없이 추적]** - 시스템이 클릭을 등록하지만 사용자가 웹 페이지에서 다음에 수행하는 작업은 추적하지 않습니다. 이 동작은 mkt_tok를 올바르게 처리하지 않는 서드파티 시스템을 처리하는 경우와 같은 특정 기술 사례에서 중요합니다. 그러나 후속 웹 추적은 제한됩니다.
 
 * **[!UICONTROL mkt-tok로 추적]** - 추적 토큰(mkt_tok)을 사용하여 Munchkin을 통해 후속 웹 활동을 추적합니다. 수신자가 링크를 클릭하면 활동 로그에 _이메일 클릭_ 이벤트를 등록하고, 해당 활동을 안전하게 추적하며, 쿠키를 적용하여 향후 사이트 상호 작용을 모니터링합니다.
 
-* **[!UICONTROL 추적하지 않음]** - 시스템이 링크와 연결된 활동을 추적하지 않습니다. 이 기능은 대상 페이지가 URL 매개 변수를 지원하지 않아 링크가 끊어질 수 있는 경우에 유용합니다.
+* **[!UICONTROL 추적하지 않음]** - 시스템이 링크와 연결된 활동을 추적하지 않습니다. 이 옵션은 대상 페이지가 URL 매개 변수를 지원하지 않아 링크가 끊어진 경우에 유용합니다.
 
   >[!NOTE]
   >
@@ -171,8 +164,8 @@ _어두운 모드_&#x200B;를 사용하여 전자 메일 클라이언트의 어�
 * 사전 설정된 확대/축소 옵션에서 콘텐츠를 확대/축소합니다.
 
 * 데스크탑, 모바일 또는 텍스트 전용/일반 텍스트에서 컨텐츠 보기 간에 전환합니다.
-   * 여러 장치에서 콘텐츠를 미리 보려면 _보기_ 아이콘을 클릭하십시오.
-   * 미리 정의된 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
+  * 여러 장치에서 콘텐츠를 미리 보려면 _보기_ 아이콘을 클릭하십시오.
+  * 미리 정의된 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
 
 ## 추가 옵션
 

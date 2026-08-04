@@ -4,36 +4,29 @@ description: Journey Optimizer B2B Edition에서 특정 계정 대상 세분화�
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-03-30T19:50:18.033Z
 TQID: https://experienceleague.adobe.com/JvPzSX83WY7Edws8IMHseCSwqFR4Ro-jy-UO-WvRgDc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 92%
+source-wordcount: 600
+ht-degree: 74%
 
 ---
 
 # 계정 대상자
 
-대상자는 유사한 행동 및/또는 특성을 공유하는 사용자 집합입니다. Journey Optimizer B2B Edition은 Adobe Real-Time Customer Data Platform B2B 및 B2P 에디션에서 제공되는 계정 세분화 기능을 사용합니다. 계정 세분화를 통해 사용자는 시스템 내 모든 B2B 엔티티의 데이터를 활용하여 계정 대상자를 생성할 수 있습니다. 이러한 계정 대상자는 Journey Optimizer B2B Edition 계정 여정에 대한 입력 역할을 하며 원활한 활성화 및 개인화 기능을 용이하게 합니다.
+대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. Journey Optimizer B2B Edition은 Adobe Real-Time Customer Data Platform B2B 및 B2P 에디션에서 제공되는 계정 세분화 기능을 사용합니다. 계정 세분화를 통해 사용자는 시스템 내 모든 B2B 엔티티의 데이터를 활용하여 계정 대상자를 생성할 수 있습니다. 이러한 계정 대상자는 Journey Optimizer B2B Edition 계정 여정에 대한 입력 역할을 하며 원활한 활성화 및 개인화 기능을 용이하게 합니다.
 
 [Adobe Experience Platform 세분화 서비스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}에서 계정 대상자와 이를 정의하는 방법에 대해 자세히 알아보십시오.
 
 ## 계정 대상자 워크플로
 
-Journey Optimizer B2B Edition은 대상 카탈로그에 나타나지 않는 Experience Platform(AEP) 대상이라고 생각하면 됩니다. 다음 단계에 따라 Journey Optimizer B2B Edition에 대한 계정 대상자를 활성화할 수 있습니다.
+Journey Optimizer B2B edition은 대상 카탈로그에 표시되지 않는 Experience Platform(AEP) 대상으로 작동합니다. 다음 단계에 따라 Journey Optimizer B2B Edition에 대한 계정 대상자를 활성화할 수 있습니다.
 
 1. AEP에서 데이터에 대한 스키마를 만듭니다.
 1. 데이터를 AEP에 수집합니다.
@@ -48,7 +41,7 @@ Journey Optimizer B2B Edition을 사용하면 왼쪽 탐색 영역에서 직접 
 
 ## 계정 대상자 만들기
 
-계정 세분화를 통해 계정 대상자를 정의합니다. Journey Optimizer B2B Edition 애플리케이션 내에서 직접 계정 세분화를 만들 수도 있고, [세그먼트 빌더 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}를 사용할 수도 있습니다. 다음은 Journey Optimizer B2B Edition에서 계정 세분화를 만드는 데 사용할 수 있는 단계입니다.
+계정 세그먼트를 만들어 계정 대상자를 정의합니다. Journey Optimizer B2B edition 애플리케이션 내에서 직접 계정 세그먼트를 만들 수 있는 옵션이 있거나 [세그먼트 빌더 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}를 사용할 수 있습니다. 다음은 Journey Optimizer B2B edition에서 계정 세그먼트를 만드는 데 사용할 수 있는 단계입니다.
 
 1. 왼쪽 탐색 영역에서 **[!UICONTROL 계정]** > **[!UICONTROL 대상자]**&#x200B;를 선택합니다.
 
@@ -56,7 +49,7 @@ Journey Optimizer B2B Edition을 사용하면 왼쪽 탐색 영역에서 직접 
 
 1. 세그먼트 정의를 작성합니다.
 
-   계정 속성과 대상자는 왼쪽 탐색 막대에 표시됩니다. _[!UICONTROL 속성]_ 탭에서 Platform에서 생성된 속성과 사용자 정의 속성을 모두 추가할 수 있습니다. 각 속성을 드래그하여 세그먼트에 대한 논리를 작성합니다.
+   계정 속성과 대상자는 왼쪽 탐색 막대에 표시됩니다. _[!UICONTROL 속성]_ 탭에서 Platform에서 생성된 속성과 사용자 정의 속성을 모두 추가할 수 있습니다. 세그먼트에 대한 논리를 작성하려면 각 속성을 드래그합니다.
 
    >[!TIP]
    >
@@ -64,7 +57,7 @@ Journey Optimizer B2B Edition을 사용하면 왼쪽 탐색 영역에서 직접 
    >
    >_[!UICONTROL 대상자]_ 탭에서는 이전에 만든 사람 기반 대상자를 추가하여 고유한 대상자를 만들 때 활용할 수 있습니다.
 
-   다음 예에서는 `Country Code`, `Revenue Amount` 및 `Market segment`를 사용하여 생성된 대상자를 정의합니다. 영어로 된 쿼리는 “I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M.”가 됩니다.
+   다음 예제에서는 `Country Code`, `Revenue Amount` 및 `Market segment`을(를) 사용하여 만든 대상을 정의합니다. 영어로 된 질의는 &quot;나는 수입이 1백만 달러를 초과하는 재무 부문에 있는 모든 미국 계정을 원한다.&quot;이다.
 
    ![계정 대상자 세그먼트 빌더 예](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
@@ -78,4 +71,4 @@ Journey Optimizer B2B Edition을 사용하면 왼쪽 탐색 영역에서 직접 
 
 1. 오른쪽 상단에 있는 **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭합니다.
 
-Journey Optimizer B2B Edition에 대한 계정 대상자를 활성화하려면 [해당 계정 대상자를 계정 여정에 추가](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey)하고 [여정을 게시](../journeys/journeys-overview.md)해야 합니다.
+Journey Optimizer B2B Edition에 대한 계정 대상자를 활성화하려면 [해당 계정 대상자를 계정 여정에 추가](../journeys/account-audience-nodes.md)하고 [여정을 게시](../journeys/journeys-overview.md)해야 합니다.

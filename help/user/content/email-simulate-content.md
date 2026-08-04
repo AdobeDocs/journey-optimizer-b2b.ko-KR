@@ -5,22 +5,16 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: 574
 ht-degree: 7%
 
 ---
@@ -36,11 +30,11 @@ _콘텐츠 시뮬레이션_ 기능을 사용하여 전자 메일 콘텐츠를 �
 
 >[!IMPORTANT]
 >
->오류가 있는 경우 이메일을 미리 볼 수 없습니다. 미리 보기 기능을 차단하는 오류가 없는지 확인하려면 _경고_&#x200B;를 확인하세요. 경고는 미리 보기를 차단하지 않지만, 이메일 게재를 트리거하는 여정을 게시하기 전에 경고를 해결해야 합니다.
+>오류가 있는 경우 이메일을 미리 볼 수 없습니다. 미리 보기 기능을 차단하는 오류가 없는지 확인하려면 _경고_&#x200B;를 확인하세요. 경고는 미리 보기를 차단하지 않지만 이메일 게재를 트리거하는 여정을 게시하기 전에 해결합니다.
 
 ## 이메일 미리 보기 표시
 
-[전자 메일 디자인 스페이스](./email-authoring.md) 또는 [전자 메일 목록에서 전자 메일을 열면 _[!UICONTROL 요약]_&#x200B;에서 렌더링 미리 보기에 액세스할 수 있습니다](./emails-list.md#edit-emails).
+[전자 메일 디자인 스페이스](./email-authoring.md) 또는 [전자 메일 목록에서 전자 메일을 열면 _[!UICONTROL 요약]_&#x200B;에서 렌더링 미리 보기에 액세스할 수 있습니다](./emails-list.md#open-and-edit-emails).
 
 1. 맨 위에 있는 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다.
 

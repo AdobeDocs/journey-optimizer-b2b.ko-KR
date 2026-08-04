@@ -4,20 +4,16 @@ description: 조건부 자동 할당을 사용하여 역할 템플릿을 만들�
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 4%
+source-wordcount: 1577
+ht-degree: 5%
 
 ---
 
@@ -49,7 +45,7 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 >
 >* 개인 특성 필터에 대한 [개인 프로필 필드 매핑](../admin/field-mapping.md#xdm-business-person-attributes)
 >* 역할 조건에 의도 필터를 사용하는 경우 [의도 데이터](../admin/intent-data.md)
->* 여섯 가지 기본값 이상의 역할이 필요한 경우 [사용자 지정 구매 그룹 역할](./default-custom-roles.md#custom-roles)(선택 사항)
+>* 여섯 가지 기본값 이상의 역할이 필요한 경우 [사용자 지정 구매 그룹 역할](./default-custom-roles.md#create-a-custom-role)(선택 사항)
 
 ## 역할 템플릿 액세스 및 찾아보기 {#access-and-browse-role-templates}
 
@@ -70,7 +66,7 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
    * [!UICONTROL 게시일]
    * [!UICONTROL 게시자]
 
-   이 목록은 기본적으로 _[!UICONTROL 마지막 업데이트]_&#x200B;별로 정렬됩니다. 모든 역할 템플릿의 상태가 `Draft` 또는 `Live`입니다.
+   기본적으로 _[!UICONTROL 마지막 업데이트]_&#x200B;별로 목록이 정렬됩니다. 모든 역할 템플릿의 상태가 `Draft` 또는 `Live`입니다.
 
 1. 이름별로 목록을 필터링하려면 목록 맨 위에 있는 검색 필드를 사용하십시오.
 
@@ -109,7 +105,7 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 
    * 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
 
-     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. _역할_ 목록[&#128279;](./default-custom-roles.md#custom-roles)에 정의된 사용자 지정 역할도 목록에 포함됩니다.
+     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. _역할_ 목록](./default-custom-roles.md#create-a-custom-role)에 정의된 [사용자 지정 역할도 목록에 포함됩니다.
 
      ![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -161,7 +157,7 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 
 Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버십을 확인하여 리드가 중복 이메일을 받지 않고 동시에 여러 이메일 스트림의 멤버가 아닌지 확인합니다. Journey Optimizer B2B에서 역할 템플릿에 대한 조건으로 Marketo Engage 목록 멤버십을 확인하여 구매 그룹 멤버십 및 여정 활동의 중복을 제거할 수 있습니다.
 
-목록 멤버십을 역할 조건으로 사용하려면 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 목록의 멤버]** 조건을 필터 공간으로 끌어서 놓습니다. 그런 다음 필터 정의를 완료하여 하나 이상의 Marketo Engage 목록에서 멤버십을 평가합니다.
+목록 멤버십을 역할 조건으로 사용하려면 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 목록의 멤버]** 조건을 필터 공간으로 끌어서 놓습니다. 하나 이상의 Marketo Engage 목록에서 멤버십을 평가하려면 필터 정의를 완료하십시오.
 
 Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
@@ -178,7 +174,7 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 기본적으로 역할에 대한 완성도는 역할에 할당된 하나의 멤버로 정의됩니다. 구매 그룹 완전성을 사용하여 판매 준비를 나타내는 경우 이러한 설정을 사용하여 영업 기회를 마감하는 데 필요한 멤버 수에 맞게 점수를 조정합니다.
 
-예를 들어, 솔루션 _X_&#x200B;에 대한 거래를 닫으려면 조직의 여러 마케팅 팀이 솔루션을 사용하므로 여러 마케팅 의사 결정자를 식별하고 참여시켜야 합니다. 이 경우 최소 두 명 이상의 마케팅 의사 결정자를 요구하여 _complete_ 구매 그룹을 계산하기 위한 임계값을 늘리려고 합니다.
+예를 들어, 솔루션 _X_&#x200B;에 대한 거래를 종료하려면 조직 내 여러 마케팅 팀이 솔루션을 사용하기 때문에 여러 마케팅 의사 결정자를 식별하고 참여시켜야 합니다. 이 경우 최소 두 명 이상의 마케팅 의사 결정자를 요구하여 _complete_ 구매 그룹을 계산하기 위한 임계값을 늘리려고 합니다.
 
 완성도 점수 및 계산에 대한 자세한 내용은 [완성도 점수](./completeness-scores.md)를 참조하십시오.
 
@@ -188,7 +184,7 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 1. 필요에 따라 대화 상자에서 정의된 각 역할에 대해 **[!UICONTROL 필요한 구성원]** 값을 변경합니다.
 
-   값을 입력하거나 **&plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수 있습니다.
+   값을 입력하거나 **&amp;plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수 있습니다.
 
    ![역할 템플릿 완성도 점수 설정 대화 상자](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -198,7 +194,7 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 템플릿을 사용할 준비가 되었으면 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-템플릿을 게시하면 상태가 _Live_(으)로 설정되고 솔루션 관심사와 연결할 수 있습니다. 역할 템플릿을 게시하려면 정의된 역할이 하나 이상 있어야 합니다.
+솔루션 관심 분야와 연결할 수 있도록 템플릿을 사용하려면 해당 템플릿을 게시하여 상태를 _Live_(으)로 설정하십시오. 역할 템플릿을 게시하려면 정의된 역할이 하나 이상 있어야 합니다.
 
 게시 후 템플릿 상태는 **[!UICONTROL 역할 템플릿]** 탭의 _Live_&#x200B;이며 [관심 솔루션을 만들](./solution-interests.md) 때 선택할 수 있습니다.
 
@@ -206,13 +202,13 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 역할 템플릿이 _초안_ 상태인 경우 정의된 역할을 계속 편집할 수 있습니다. 모든 변경 사항은 자동으로 저장됩니다.
 
-구매 그룹 역할, 가중치, 자동 지정 또는 완전성 점수부여 요구사항과 같은 역할 카드 헤더 설정을 변경합니다.
+역할, 가중치, 자동 지정 또는 완전성 요구 사항과 같은 역할 카드 헤더 설정을 변경합니다.
 
 ![구매 그룹 역할 속성 변경](./assets/roles-template-role-properties.png){width="600"}
 
 ### 역할 조건 수정
 
-역할에 대한 조건/필터링 논리를 변경하려면 역할 카드의 오른쪽 상단에 있는 _편집_( ![편집 아이콘](../assets/do-not-localize/icon-edit.svg)) 아이콘을 클릭하십시오. 이 작업은 기존 필터를 수정하거나, 필터를 추가 또는 제거하거나, 필터 논리를 변경할 수 있는 _[!UICONTROL 조건]_ 작업 영역을 엽니다.
+역할에 대한 조건/필터링 논리를 변경하려면 역할 카드의 오른쪽 상단에 있는 _편집_( ![편집 아이콘](../assets/do-not-localize/icon-edit.svg)) 아이콘을 클릭합니다. 이 작업은 기존 필터를 수정하거나, 필터를 추가 또는 제거하거나, 필터 논리를 변경할 수 있는 _[!UICONTROL 조건]_ 작업 영역을 엽니다.
 
 ### 역할 카드 삭제
 
@@ -240,4 +236,4 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453308/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

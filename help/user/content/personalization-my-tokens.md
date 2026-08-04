@@ -6,28 +6,22 @@ role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
 autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # 이메일 개인화를 위한 사용자 지정 토큰
 
-콘텐츠 개인화는 토큰을 콘텐츠 아티팩트가 생성될 때 채워지는 자리 표시자 또는 변수로 사용합니다. 표준 개인화 토큰은 이메일, 랜딩 페이지, 조각 및 템플릿에 사용할 수 있습니다. 계정 여정에 고유한 값을 사용하여 사용자 지정 토큰 세트를 정의할 수도 있습니다. 이 사용자 지정 토큰 집합을 _내 토큰_&#x200B;이라고 하며 이러한 사용자 지정 토큰은 [여정 전자 메일을 작성](./email-authoring.md#content-authoring---personalization)할 때 개인화됩니다.
+콘텐츠 개인화는 토큰을 콘텐츠 아티팩트가 생성될 때 채워지는 자리 표시자 또는 변수로 사용합니다. 표준 개인화 토큰은 이메일, 랜딩 페이지, 조각 및 템플릿에 사용할 수 있습니다. 계정 여정에 고유한 값을 사용하여 사용자 지정 토큰 세트를 정의할 수도 있습니다. 이 사용자 지정 토큰 집합을 _내 토큰_&#x200B;이라고 하며 이러한 사용자 지정 토큰은 [여정 전자 메일을 작성](./email-authoring.md#personalize-content)할 때 개인화에 사용할 수 있습니다.
 
 계정 여정에 해당하는 _내 토큰_ 외에도 전자 메일 개인화에 표준(기본 제공) 토큰을 사용할 수 있습니다.
 
@@ -35,7 +29,7 @@ ht-degree: 2%
 
 _내 토큰_&#x200B;은(는) 초안 상태의 계정 여정에 대해 만들거나 수정하는 사용자 지정 변수입니다. 이 사용자 지정 토큰 세트는 현재 텍스트 및 숫자 토큰 정의를 지원합니다.
 
-사용자 지정 토큰을 전자 메일에 추가하면 `{{my.TokenName}}`(으)로 표시됩니다. 예를 들어 예정된 웨비나와 관련된 이메일 콘텐츠를 관리하기 위해 만든 토큰이 `{{my.EventDate}}` 또는 `{{my.WebinarSpeaker}}`개일 수 있습니다.
+사용자 지정 토큰을 전자 메일에 추가하면 `{{my.TokenName}}`(으)로 표시됩니다. 예를 들어 예정된 웨비나와 관련된 이메일 콘텐츠를 관리하기 위해 만들어진 토큰이 `{{my.EventDate}}` 또는 `{{my.WebinarSpeaker}}`개입니다.
 
 계정 여정 :_의 사용자 지정 토큰에 액세스하려면(_T)
 
@@ -61,7 +55,7 @@ _내 토큰_&#x200B;은(는) 초안 상태의 계정 여정에 대해 만들거�
 
    ![텍스트 토큰의 이름과 값을 입력하십시오](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   토큰 이름에는 공백이나 특수 문자를 사용할 수 없습니다. `EventType`과(와) 같은 _카멜 대/소문자_&#x200B;을(를) 사용하여 쉽게 식별할 수 있는 여러 단어 이름을 사용할 수 있습니다.
+   토큰 이름에는 공백이나 특수 문자를 사용할 수 없습니다. `EventType`과(와) 같은 낙타 대소문자를 사용하여 쉽게 식별할 수 있는 여러 단어 이름을 사용할 수 있습니다.
 
    _숫자_ 토큰을 정의하는 경우 값에는 숫자만 사용할 수 있습니다. 십진수 값을 사용할 수 있습니다.
 
