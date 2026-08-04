@@ -226,4 +226,4 @@ _Live_, _새 항목으로 닫힘_, _중단됨_ 또는 _완료됨_ 상태의 게�
 
 ## 계정 여정 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443214/?captions=kor&learn=on)
