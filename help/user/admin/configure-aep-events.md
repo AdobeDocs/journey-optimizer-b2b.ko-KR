@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
+source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 10%
@@ -42,7 +42,7 @@ ht-degree: 10%
 
 1. 여정에서 마케터는 다음 두 가지 방법 중 하나로 구성된 이벤트를 사용합니다.
 
-   * _이벤트 수신_ 노드를 추가하고 [경험 이벤트를 선택하여](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) 여정 동안의 실시간 이벤트 활동에 따라 여정 진행률을 트리거합니다.
+   * _이벤트 수신_ 노드를 추가하고 [경험 이벤트를 선택하여](../journeys/listen-for-event-nodes.md#experience-events-account-people) 여정 동안의 실시간 이벤트 활동에 따라 여정 진행률을 트리거합니다.
    * _사람별로 경로 분할_ 노드를 추가하고 **[!UICONTROL 이벤트 기록]** 폴더에서 [이벤트에 대한 필터](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)에 대한 경로를 구성합니다.
 
 >[!BEGINSHADEBOX]

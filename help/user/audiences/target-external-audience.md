@@ -21,10 +21,10 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 2%
 
 계정 여정을 통해 [!DNL Adobe Target]의 외부 대상자에 대한 경험을 활성화하고 개인화할 수 있습니다. 이 통합을 사용하여 참여를 늘리는 고급 맞춤 개인화를 수행하고 [!DNL Target] 및 [!DNL Journey Optimizer B2B Edition]에서 플랫폼 간 일관성을 유지할 수 있습니다. 이러한 일관성을 통해 팀은 전체 B2B 구매자 여정 동안 구매 그룹을 위한 웹 채널을 조정하고 개인화할 수 있습니다.
 
-Adobe Target을 통해 외부 대상자를 활성화하는 2단계 워크플로우입니다.
+Adobe Target을 통해 외부 대상자를 활성화하는 2단계 워크플로가 있습니다.
 
 1. 여정에서 [외부 고객 대상에 추가](#add-to-customer-external-audience-from-a-journey)합니다.
 2. [외부 대상을 활성화](#activate-the-external-audience-to-target-as-a-destination)하여 [!DNL Target]을(를) Experience Platform의 대상으로 지정합니다.
 
 ## 여정에서 고객 외부 대상자에 추가
 
-여정에서 [_동작 추가_ 노드 추가](../journeys/action-nodes.md)하여 _[!UICONTROL 외부 고객 대상에 추가]_ 동작을 실행합니다. 작업은 일반적으로 이벤트나 이전 작업과 같은 일종의 트리거 결과로 발생하려는 작업입니다. 여정은 개인 프로필이 있는 자격 있는 계정이 노드에 도달하면 작업을 실행합니다.
+여정에서 [_동작 추가_ 노드 추가](../journeys/action-nodes.md)하여 _[!UICONTROL 외부 고객 대상에 추가]_ 동작을 실행합니다. 작업은 일반적으로 이벤트 또는 이전 작업과 같은 트리거의 결과입니다. 여정은 개인 프로필이 있는 자격 있는 계정이 노드에 도달하면 작업을 실행합니다.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Adobe Target을 통해 외부 대상자를 활성화하는 2단계 워크플로�
 
 1. 오른쪽의 노드 속성에서 외부 대상을 설정합니다.
 
-   * 이미 만들어진 외부 대상이 하나 이상 있는 경우 **[!UICONTROL 기존 대상 선택]** 및 [사용할 대상을 선택](#choose-an-external-audience)할 수 있습니다.
+   * 이미 만들어진 외부 대상이 하나 이상 있는 경우 **[!UICONTROL 기존 대상 선택]** 및 [사용할 대상을 선택](#select-an-external-audience)할 수 있습니다.
 
    * 노드에 사용할 대상을 [만들기](#create-an-external-audience)하려면 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하세요.
 

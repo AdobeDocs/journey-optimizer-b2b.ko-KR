@@ -17,9 +17,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3074
 ht-degree: 6%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 6%
 
 +++
 
-### 기능 도구
+### 기능 도구 {#functional-tools}
 
 | 도구 | 이름 | 사용 |
 | ---- | ---- | ----- |
@@ -233,7 +233,7 @@ ht-degree: 6%
 
    ![콘텐츠 구성 요소의 설정 및 스타일을 정의합니다](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-디자인을 사용하여 작업할 때 구성 요소를 [제거](#remove-a-content-component)하거나 [복제](#duplicate-a-content-component)할 수도 있습니다.
+디자인으로 작업하는 동안 [기능 도구](#functional-tools) 섹션에서 **삭제** 및 **복제** 도구를 사용하여 구성 요소를 제거하거나 복제할 수도 있습니다.
 
 ## 콘텐츠 구성 요소 설정 및 스타일
 
@@ -456,11 +456,11 @@ _[!UICONTROL 스타일]_ 탭을 선택한 오른쪽 패널에서 **[!UICONTROL �
 
 * **[!UICONTROL 너비]** - 픽셀이나 백분율로 너비를 설정하려면 토글을 사용합니다.
 
-   * 백분율 너비의 경우 슬라이더를 사용하여 백분율 값을 설정합니다. 백분율은 포함 블록의 콘텐츠 상자를 기반으로 요소 크기를 결정합니다. 이 콘텐츠 상자에서는 패딩과 테두리가 제외됩니다. 예를 들어 값 50은 요소 너비를 포함된 블록 콘텐츠 너비의 50%로 설정합니다.
+  * 백분율 너비의 경우 슬라이더를 사용하여 백분율 값을 설정합니다. 백분율은 포함 블록의 콘텐츠 상자를 기반으로 요소 크기를 결정합니다. 이 콘텐츠 상자에서는 패딩과 테두리가 제외됩니다. 예를 들어 값 50은 요소 너비를 포함된 블록 콘텐츠 너비의 50%로 설정합니다.
 
   ![분할자 구성 요소에 대한 줄 스타일을 정의합니다](./assets/component-divider-line-options.png){width="250"}
 
-   * 픽셀 기반 너비의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다. 비어 있는 값(자동)은 기본값이며 내용에 따라 요소의 너비를 조정합니다.
+  * 픽셀 기반 너비의 경우 위쪽 및 아래쪽 화살표 아이콘을 클릭하여 픽셀 수를 늘리거나 줄입니다. 비어 있는 값(자동)은 기본값이며 내용에 따라 요소의 너비를 조정합니다.
 
 * **[!UICONTROL 스타일]** - 표준 CSS `line-style` 값 목록에서 값을 선택합니다(예: _Solid_, _Dotted_, _Dashed_).
 
@@ -502,7 +502,7 @@ HTML 구성 요소를 사용하여 기존 HTML의 일부를 추가합니다. 이
 
 1. 캔버스에서 구성 요소를 선택하고 도구 모음에서 _소스 코드 표시_ 아이콘을 클릭합니다.
 
-   [코드 편집기를 열어 HTML 추가](./assets/content-components-html-show-code.png){width="450"}
+   [HTML을 추가하려면 코드 편집기를 엽니다](./assets/content-components-html-show-code.png){width="450"}
 
 1. 텍스트 상자에 HTML을 붙여 넣고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -564,7 +564,7 @@ HTML 구성 요소의 경우 오른쪽 패널에서 전체 HTML 구성 요소에
 
 [자산 원본 유형](./assets-overview.md)을(를) 선택하고 이미지 파일을 선택하십시오.
 
-* **[!UICONTROL Marketo Engage Assets]** - Journey Optimizer B2B edition 라이브러리 또는 연결된 Market Engage 인스턴스에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오.
+* **[!UICONTROL Marketo Engage Assets]** - Journey Optimizer B2B edition 라이브러리 또는 연결된 Marketo Engage 인스턴스에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오.
 
   ![사용 가능한 이미지 자산 찾아보기](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -572,31 +572,31 @@ HTML 구성 요소의 경우 오른쪽 패널에서 전체 HTML 구성 요소에
 
   필요한 에셋을 찾는 데 도움이 되는 도구가 있습니다.
 
-   * 조건에 따라 표시된 항목을 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭하십시오.
+  * 조건에 따라 표시된 항목을 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭하십시오.
 
-   * 표시된 항목을 자산 이름과 일치하도록 필터링하려면 _검색_ 필드에 텍스트를 입력하십시오.
+  * 표시된 항목을 자산 이름과 일치하도록 필터링하려면 _검색_ 필드에 텍스트를 입력하십시오.
 
-     ![필터 및 검색 필드를 사용하여 필요한 자산을 찾습니다](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+    ![필터 및 검색 필드를 사용하여 필요한 자산을 찾습니다](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
 * **[!UICONTROL Experience Manager Assets]** - [구성된 Experience Manage Assets 저장소에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오](../admin/configure-aem-repositories.md).
 
   _[!UICONTROL Assets 선택]_ 대화 상자에서 사용 가능한 도구를 사용하여 이미지를 선택하여 필요한 에셋을 찾은 다음 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-   * 오른쪽 상단에서 **[!UICONTROL 저장소]**&#x200B;를 변경합니다.
+  * 오른쪽 상단에서 **[!UICONTROL 저장소]**&#x200B;를 변경합니다.
 
-   * 오른쪽 상단의 **[!UICONTROL 자산 관리]**&#x200B;를 클릭하여 다른 브라우저 탭에서 Assets 저장소를 열고 AEM Assets 관리 도구를 사용합니다.
+  * 오른쪽 상단의 **[!UICONTROL 자산 관리]**&#x200B;를 클릭하여 다른 브라우저 탭에서 Assets 저장소를 열고 AEM Assets 관리 도구를 사용합니다.
 
-   * 표시를 **[!UICONTROL 목록 보기]**, **[!UICONTROL 눈금 보기]**, **[!UICONTROL 갤러리 보기]** 또는 **[!UICONTROL 폭포 보기]**(으)로 변경하려면 오른쪽 상단의 _보기 유형_ 선택기를 클릭하십시오.
+  * 표시를 **[!UICONTROL 목록 보기]**, **[!UICONTROL 눈금 보기]**, **[!UICONTROL 갤러리 보기]** 또는 **[!UICONTROL 폭포 보기]**(으)로 변경하려면 오른쪽 상단의 _보기 유형_ 선택기를 클릭하십시오.
 
-   * 오름차순과 내림차순 사이의 정렬 순서를 변경하려면 _정렬 순서_ 아이콘을 클릭하십시오.
+  * 오름차순과 내림차순 사이의 정렬 순서를 변경하려면 _정렬 순서_ 아이콘을 클릭하십시오.
 
-     ![Assets 선택 대화 상자에서 도구를 사용하여 이미지 자산을 찾아 선택합니다](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+    ![Assets 선택 대화 상자에서 도구를 사용하여 이미지 자산을 찾아 선택합니다](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
-   * **[!UICONTROL 정렬 기준]** 메뉴 화살표를 클릭하여 정렬 기준을 **[!UICONTROL 이름]**, **[!UICONTROL 크기]** 또는 **[!UICONTROL 수정됨]**(으)로 변경합니다.
+  * **[!UICONTROL 정렬 기준]** 메뉴 화살표를 클릭하여 정렬 기준을 **[!UICONTROL 이름]**, **[!UICONTROL 크기]** 또는 **[!UICONTROL 수정됨]**(으)로 변경합니다.
 
-   * 조건에 따라 표시된 항목을 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭하십시오.
+  * 조건에 따라 표시된 항목을 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭하십시오.
 
-   * 표시된 항목을 자산 이름과 일치하도록 필터링하려면 _검색_ 필드에 텍스트를 입력하십시오.
+  * 표시된 항목을 자산 이름과 일치하도록 필터링하려면 _검색_ 필드에 텍스트를 입력하십시오.
 
   ![필터 및 검색 필드를 사용하여 자산을 찾습니다](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
@@ -705,7 +705,7 @@ _소셜_ 구성 요소를 사용하여 소셜 미디어 페이지에 대한 링�
 소셜 미디어 유형을 선택한 상태에서 해당 유형에 대한 옵션을 설정합니다.
 
 * **[!UICONTROL URL]** - 소셜 미디어 그래픽 또는 아이콘에 연결할 소셜 미디어 URL을 입력합니다.
-* **[!UICONTROL Source]** - 기본 대신 자신의 이미지를 사용하려면 및 이미지 자산을 선택하십시오. 연결된 Marketo Engage 에셋 저장소, Experience Manager Assets 저장소(구성된 경우)에서 이미지를 선택하거나 시스템에서 이미지 파일을 가져올 수 있습니다. 이미지 에셋 선택 및 가져오기에 대한 자세한 내용은 [이미지 구성 요소 정보](#add-the-image-asset)를 참조하세요.
+* **[!UICONTROL Source]** - 기본값 대신 자신의 이미지를 사용하려면 이미지 자산을 선택하십시오. 연결된 Marketo Engage 에셋 저장소, Experience Manager Assets 저장소(구성된 경우)에서 이미지를 선택하거나 시스템에서 이미지 파일을 가져올 수 있습니다. 이미지 에셋 선택 및 가져오기에 대한 자세한 내용은 [이미지 구성 요소 정보](#add-the-image-asset)를 참조하세요.
 * **[!UICONTROL 대체 텍스트]** - 표시된 이미지에 대한 대체 텍스트를 입력합니다.
 
   ![선택한 소셜 미디어 유형에 대한 설정](./assets/content-components-social-settings-for-type.png){width="250"}

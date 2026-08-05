@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 # 구매 그룹 세부 정보
 
-Journey Optimizer B2B edition의 어디에서든 구매 그룹 이름을 클릭하면 구매 그룹 세부 사항이 표시됩니다. 이 개요는 생성 AI 요약을 포함하여 구매 그룹에 대한 유용한 정보를 제공합니다. 계정과 연결된 연락처에 대해 실행할 수 있는 [작업](#buying-group-actions)도 있습니다.
+Journey Optimizer B2B edition의 어디에서든 구매 그룹 이름을 클릭하면 구매 그룹 세부 사항이 표시됩니다. 이 개요는 생성 AI 요약을 포함하여 구매 그룹에 대한 유용한 정보를 제공합니다. 계정과 연결된 연락처에 대해 실행할 수 있는 [작업](#members-tab)도 있습니다.
 
 ![구매 그룹 세부 정보에 액세스](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Journey Optimizer B2B edition의 어디에서든 구매 그룹 이름을 클릭�
 
 ### 의도 데이터
 
-Journey Optimizer B2B edition에서 의도 감지 모델은 구매 그룹 구성원의 활동을 기반으로 충분히 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 집단 구성원의 구매 의도는 상품에 대한 관심을 가질 확률로 해석할 수 있다.
+Journey Optimizer B2B edition에서 의도 탐지 모델은 구매 그룹 구성원의 활동을 기반으로 충분한 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 집단 구성원의 구매 의도는 상품에 대한 관심을 가질 확률로 해석할 수 있다.
 
 {{intent-data-note}}
 

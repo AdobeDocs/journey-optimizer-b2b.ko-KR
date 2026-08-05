@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 3%
@@ -37,7 +37,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 웹 경험을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * 타겟팅된 웹 사이트 방문자에게 개인화된 콘텐츠 수정 사항 제공
-* 계정 속성을 사용하여 배너, 텍스트, 이미지 및 버튼과 같은 웹 사이트 요소 맞춤화
+* 계정 속성을 사용하여 배너, 텍스트, 이미지 및 버튼과 같은 웹 사이트 요소 사용자 정의
 * URL 일치 규칙을 사용하여 특정 페이지를 타깃팅하거나 여러 페이지에 변경 사항 적용
 * 참여를 추적하고 웹 개인화 노력의 영향을 모니터링합니다.
 
@@ -52,9 +52,9 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 * 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
 
 * 여정에서 웹 경험을 만들고 관리하는 데 필요한 [권한](../admin/user-management.md#b2b-product-permissions)이 있습니다.
-   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 관리]_ - 웹 개인화 작업 노드를 추가하거나 업데이트하는 데 필요합니다.
-   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 보기]_ - 웹 개인화 작업 노드에 대한 세부 정보를 보는 데 필요합니다.
-   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 승인 및 게시]_ - 하나 이상의 웹 개인화 작업 노드가 있는 여정을 게시하는 데 필요합니다.
+  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 관리]_ - 웹 개인화 작업 노드를 추가하거나 업데이트하는 데 필요합니다.
+  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 보기]_ - 웹 개인화 작업 노드에 대한 세부 정보를 보는 데 필요합니다.
+  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 승인 및 게시]_ - 하나 이상의 웹 개인화 작업 노드가 있는 여정을 게시하는 데 필요합니다.
 
 * 웹 브라우저용으로 Adobe Experience Cloud [Visual Editing Helper 브라우저 확장 기능](#install-the-visual-editing-helper-extension)이 설치되어 있습니다. 이 확장은 Journey Optimizer B2B edition 콘텐츠 디자인 공간에서 웹 페이지를 안정적으로 열고, 작성하고, 미리 보는 데 필요합니다.
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
 1. 오른쪽 패널에서 정의 및 관리 방법에 따라 웹 경험 속성을 설정합니다.
 
-   * **[!UICONTROL 시각적 편집기]** - 웹 경험 수정 디자인을 위해 [시각적 및 비시각적 편집기](./web-experience-design.md#web-design-tools) 간을 전환합니다.
+   * **[!UICONTROL 시각적 편집기]** - 웹 경험 수정 디자인을 위해 [시각적 및 비시각적 편집기](./web-experience-design.md#web-experience-editors) 간을 전환합니다.
    * **[!UICONTROL 방문자 리디렉션]** - 콘텐츠 탭에서 새 변형을 작성하는 대신 [방문자를 다른 기존 URL로 리디렉션](#redirect-to-url)하려면 이 옵션을 사용합니다.
 
    ![시각적 편집기의 속성을 전환하고 URL을 리디렉션합니다](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}

@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 채점 모델 목록을 표시하려면 중간 패널에서 **[!UICONTROL 참여 점수 가중치]**&#x200B;를 클릭하십시오.
 
-   이 페이지에서 참여 점수 모델을 [생성(복제)](#create-an-engagement-score-model), [활성화](#activate-a-score-model) 및 [편집](#change-the-engagement-weighting-settings)할 수 있습니다.
+   이 페이지에서 참여 점수 모델을 [생성(복제)](#create-a-custom-engagement-scoring-model), [활성화](#activate-a-score-model) 및 [편집](#change-the-engagement-weighting-settings)할 수 있습니다.
 
    ![정의된 참여 점수 모델에 액세스](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ### 참여 가중치 설정 변경
 
-가중치 설정은 모델의 각 활동에 지정할 수 있는 밴드를 정의합니다. 참여를 평가하기 위한 조직의 전략을 반영하도록 밴드를 변경할 수 있습니다. 예를 들어 일반 활동에 더 높은 값을 할당하려면 _보통_ 가중치 대역을 65의 값으로 조정할 수 있습니다. 또는 _보통_&#x200B;과(와) _중요_ 사이의 활동을 캡처하도록 디자인된 가중치 밴드를 추가할 수 있습니다. 이 경우 밴드를 추가하고 _중요_(으)로 레이블을 지정하고 가중치 밴드 값 75을 할당할 수 있습니다.
+가중치 설정은 모델의 각 활동에 지정할 수 있는 밴드를 정의합니다. 참여를 평가하기 위한 조직의 전략을 반영하려면 밴드를 변경하십시오. 예를 들어 일반 활동에 더 높은 값을 할당하려면 _보통_ 가중치 대역을 65의 값으로 조정합니다. 또는 _보통_&#x200B;과(와) _중요_ 사이의 활동을 캡처하도록 디자인된 가중치 밴드를 추가할 수 있습니다. 이 경우 밴드를 추가하고 _중요_(으)로 레이블을 지정하고 가중치 밴드 값 75을 지정하십시오.
 
 1. 점수 모델 세부 정보 페이지에서 맨 위에 있는 **[!UICONTROL 참여 가중치 설정]**&#x200B;을 클릭합니다.
 
@@ -161,7 +161,7 @@ Experience Platform 이벤트에 대한 기본 모델에는 Experience Platform 
 
 초안 점수 모델을 활성화하면 현재 활성화된 모델이 바뀝니다. 현재 활성 모델이 자동으로 보관됩니다.
 
-1. 초안 점수 모델을 열어 세부 정보 페이지를 조회합니다.
+1. 세부 정보 페이지를 보려면 초안 점수 모델을 엽니다.
 
 1. **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 

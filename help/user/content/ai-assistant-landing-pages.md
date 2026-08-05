@@ -22,16 +22,16 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2690
+source-wordcount: 2626
 ht-degree: 0%
 
 ---
 
-# 랜딩 페이지 콘텐츠에 대한 AI 지원 {#generative-full-content}
+# 랜딩 페이지 콘텐츠용 AI 어시스턴트 {#generative-full-content}
 
-[!DNL Adobe Journey Optimizer B2B Edition]의 랜딩 페이지 콘텐츠용 AI 길잡이는 Adobe의 AI 기반 콘텐츠 생성 기능을 사용하여 마케터가 전문적이고 브랜드 일관적인 랜딩 페이지 콘텐츠를 만드는 방식을 혁신합니다. 고급 생성 AI 모델과 브랜드 지침에 대한 깊은 이해를 통해 AI Assistant는 개인화되고 매력적이며 효과적인 콘텐츠를 자동 생성합니다. 마케팅 목표를 사용하고 브랜드 윤곽선 스타일, 레이아웃, 색조 등에 대한 콘텐츠를 최적화합니다. AI Assistant를 사용하면 캠페인과 프로그램 생성 및 실행이 보다 직관적이고 단순하며 번거롭지 않습니다. 워크플로우에 이 기능을 추가하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 얻을 수 있습니다.
+[!DNL Adobe Journey Optimizer B2B Edition]의 랜딩 페이지 콘텐츠용 AI 길잡이는 Adobe의 AI 기반 콘텐츠 생성 기능을 사용하여 마케터가 전문적이고 브랜드 일관적인 랜딩 페이지 콘텐츠를 만드는 방식을 혁신합니다. 고급 생성 AI 모델과 브랜드 지침에 대한 깊은 이해를 통해 AI Assistant는 개인화되고 매력적이며 효과적인 콘텐츠를 자동 생성합니다. 마케팅 목표를 사용하고 브랜드 윤곽선 스타일, 레이아웃, 색조 등에 대한 콘텐츠를 최적화합니다. AI Assistant를 사용하면 캠페인 및 프로그램 생성 및 실행이 보다 직관적이고, 간단하며, 효율적입니다. 워크플로우에 이 기능을 추가하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 얻을 수 있습니다.
 
 텍스트와 이미지를 모두 포함하여 랜딩 페이지에 대한 완전한 콘텐츠 경험을 생성할 수 있습니다. 이 강력한 기능은 대상자와 연결하는 매력적인 브랜드 내 콘텐츠를 만드는 데 도움이 됩니다.
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 ## 지침 및 제한 사항
 
-이 기능을 사용하기 전에 [지침 및 제한 사항](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+이 기능을 사용하기 전에 [지침 및 제한 사항](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-미디어 생성 시 생성 AI 도구 사용의 투명성을 강화하기 위한 Adobe의 약속으로, Adobe은 Firefly 생성 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 다운로드하거나 내보낼 때 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
+생성 AI의 투명성을 높이기 위해 Adobe은 다운로드하거나 내보낼 때 Firefly에서 생성한 에셋에 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
 
 [!DNL Journey Optimizer B2B Edition]에서 랜딩 페이지 콘텐츠 생성에 사용되는 AI Assistant 기능에는 다음 제한 사항과 지침이 적용됩니다.
 
@@ -59,11 +59,11 @@ ht-degree: 0%
 
 ## 콘텐츠 생성을 위한 입력 및 설정
 
-랜딩 페이지 또는 페이지에서 선택한 구성 요소에 대한 전체 콘텐츠를 생성할 수 있습니다. AI 비서 도구를 사용하여 필요한 콘텐츠를 생성하는 경우 프롬프트 및 참조 콘텐츠, 텍스트 및 이미지에 대한 설정 등 입력을 제공합니다.
+랜딩 페이지 또는 페이지에서 선택한 구성 요소에 대한 전체 콘텐츠를 생성할 수 있습니다. AI Assistant 사용 시 텍스트 및 이미지에 대한 입력, 프롬프트, 참조 콘텐츠 및 설정을 제공합니다.
 
 ### 프롬프트
 
-생성 AI 모델이 정확하게 해석되도록 잘 정의된 프롬프트를 사용합니다. 제공하는 마케팅 목표/프롬프트는 생성된 콘텐츠의 품질에 큰 영향을 줍니다.
+생성 AI 모델이 정확하게 해석되도록 잘 정의된 프롬프트를 사용합니다. 제공하는 마케팅 목표/프롬프트는 생성된 콘텐츠의 품질에 영향을 줍니다.
 
 ![프롬프트 필드](./assets/gen-ai-prompt.png){width="320"}
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ![AI 길잡이 - 프롬프트 라이브러리에 액세스](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-의도한 목표를 가장 잘 반영하는 프롬프트를 선택하고 **[!UICONTROL 이 프롬프트 사용]**&#x200B;을 클릭합니다. _[!UICONTROL 프롬프트]_ 필드에서 자리 표시자(예: `[Key Feature/Information]`)를 브랜드, 오퍼, 캠페인 및 사용 사례를 지정하는 필요한 값으로 바꿉니다.
+의도한 목표를 가장 잘 반영하는 프롬프트를 선택하고 **[!UICONTROL 이 프롬프트 사용]**&#x200B;을 클릭합니다. _[!UICONTROL 프롬프트]_ 필드에서 자리 표시자(예: `[Key Feature/Information]`)를 브랜드, 제공, 캠페인 및 사용 사례 세부 정보로 바꿉니다.
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 * **[!UICONTROL 마케팅 여정 단계]** - 메시지를 타깃팅하는 데 사용할 [구매 그룹 단계](../buying-groups/buying-group-stages.md)를 선택합니다.
 * **[!UICONTROL 커뮤니케이션 전략]** - 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
 * **[!UICONTROL 언어]** - 생성된 콘텐츠의 언어를 선택합니다.
-* **[!UICONTROL 음색]** - 음색이 대상자에게 울려 퍼집니다. 예를 들어 메시지를 유익하거나, 장난스럽거나, 설득력 있는 소리로 조정할 수 있습니다.
+* **[!UICONTROL 음색]** - 대상자에게 반향을 일으키는 음색입니다. 예를 들어 메시지를 유익하거나, 장난스럽거나, 설득력 있는 소리로 조정할 수 있습니다.
 
 ![구매 그룹, 마케팅 여정 단계, 커뮤니케이션 전략, 언어 및 색조 옵션을 보여 주는 텍스트 설정 패널](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -99,10 +99,10 @@ ht-degree: 0%
 
 생성된 콘텐츠에 이미지를 포함하려면 오른쪽 패널에서 **[!UICONTROL 이미지 설정]**&#x200B;을 확장하고 옵션을 설정합니다.
 
-**[!UICONTROL AI를 사용하여 이미지 생성]** 옵션은 기본적으로 비활성화되어 있습니다. 이 기능을 활성화하고 다음 옵션을 설정하여 제안된 콘텐츠 변형에 생성된 이미지를 포함합니다.
+기본적으로 **[!UICONTROL AI를 사용하여 이미지 생성]** 옵션이 비활성화됩니다. 이 기능을 활성화하고 다음 옵션을 설정하여 제안된 콘텐츠 변형에 생성된 이미지를 포함합니다.
 
 * **[!UICONTROL 생성 모델]**: 즉시 사용할 수 있는 Adobe 제공 모델, 전문 기능을 위한 파트너 모델 또는 브랜드 자산에 대해 교육된 구성된 사용자 지정 모델 중에서 선택합니다. 생성 모델에 대한 자세한 내용은 _[브랜드 정렬을 위한 생성 AI 모델](generative-ai-models.md)_&#x200B;을 참조하십시오.
-* **[!UICONTROL 종횡비]**: 이미지 구성 요소를 선택하면 이 설정이 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택할 수 있는 옵션이 있거나 사용자 지정 크기를 입력할 수 있습니다.
+* **[!UICONTROL 종횡비]**: 이미지 구성 요소를 선택하면 이 설정이 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택하거나 사용자 지정 크기를 입력합니다.
 * **[!UICONTROL 콘텐츠 형식]**: 이 형식은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 다양한 형식의 시각적 표현을 구별합니다.
 * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어합니다. 낮은 설정(예: 2)은 더 부드럽고 절제된 모양을 만드는 반면 높은 설정(예: 10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
 * **[!UICONTROL 색상 및 색조]**: 이미지 내의 전체 색상 모양과 이미지 내의 분위기 또는 분위기를 전달합니다.
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 >[!TAB 전체 페이지]
 
-기존 랜딩 페이지 템플릿을 개선하여 전체 랜딩 페이지 생성에 AI Assistant를 사용하려면 다음 단계를 따르십시오.
+기존 템플릿을 개선하여 전체 랜딩 페이지를 생성하려면 다음 단계를 수행합니다.
 
 1. [랜딩 페이지를 만든](./landing-pages-create-publish.md#create-landing-page) 후 **[!UICONTROL 랜딩 페이지 편집]**&#x200B;을 클릭합니다.
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
    전체 콘텐츠를 생성하려면 템플릿이 필요합니다. Adobe에서 제공하는 표준 템플릿 또는 저장된 템플릿일 수 있습니다. _[!UICONTROL HTML 가져오기]_ 옵션을 사용하여 템플릿을 가져올 수도 있습니다.
 
-   랜딩 페이지 템플릿 사용에 대한 자세한 내용은 _[저장된 템플릿 또는 샘플 템플릿 선택](./landing-pages.md#select-a-saved-or-sample-template)_&#x200B;을 참조하십시오.
+   랜딩 페이지 템플릿 사용에 대한 자세한 내용은 _[템플릿 선택](./landing-pages-create-publish.md#select-template)_&#x200B;을 참조하세요.
 
 1. 오른쪽 패널의 바깥쪽 레일에서 _AI Assistant_(![AI Assistant for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) 아이콘을 선택합니다.
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용에 대한 설명을 입력합니다.
 
-   효과적인 프롬프트를 만드는 데 도움이 필요하면 [프롬프트 라이브러리](#prompt-library)를 사용하십시오.
+   효과적인 프롬프트를 만드는 데 도움이 필요하면 [프롬프트 라이브러리](#prompts)를 사용하십시오.
 
    ![AI 길잡이 - 랜딩 페이지 콘텐츠를 생성하기 위한 프롬프트 라이브러리](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
@@ -167,7 +167,7 @@ ht-degree: 0%
    >
    >생성된 콘텐츠를 묻는 메시지를 처음 표시하는 경우 _[확인 모범 사례](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;를 검토하십시오.
 
-1. 생성된 콘텐츠를 사용자 지정하려면 콘텐츠 지침 설정을 완료합니다.
+1. 생성된 콘텐츠를 맞춤화하려면 콘텐츠 지침 설정을 완료합니다.
 
    * [**[!UICONTROL 텍스트 설정]**](#text-settings) - 생성된 텍스트 콘텐츠에 대한 지침을 제공합니다.
    * [**[!UICONTROL 이미지 설정]**](#image-settings) - 생성된 콘텐츠에 이미지를 포함하려면 이미지 생성을 활성화하고 지침을 제공하십시오.
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 1. 프롬프트 및 설정이 준비되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
-1. AI 도우미 패널에서 아래로 스크롤하여 생성된 변형을 탐색하여 가장 적합한 변형을 결정합니다.
+1. AI 지원 패널에서 아래로 스크롤하여 생성된 변형을 탐색하여 가장 적합한 변형을 확인합니다.
 
    * _전체 화면_( ![전체 화면 아이콘](../assets/do-not-localize/icon-full-screen.svg)) 아이콘을 클릭하여 _[!UICONTROL 랜딩 페이지 생성]_ 대화 상자를 엽니다
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 >[!TAB 텍스트만]
 
-다음 단계에 따라 AI Assistant를 사용하여 기존 랜딩 페이지에 대한 텍스트 콘텐츠를 세분화하거나 강화합니다.
+기존 랜딩 페이지에 대한 텍스트 콘텐츠를 개선하거나 향상하려면 다음 단계를 수행합니다.
 
 1. 랜딩 페이지 디자인 공간에서 특정 콘텐츠를 타깃팅할 _텍스트_ 구성 요소를 선택합니다.
 
@@ -207,9 +207,9 @@ ht-degree: 0%
 
    ![AI 길잡이 - 텍스트 설정](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   효과적인 프롬프트를 만드는 데 도움이 필요하면 [프롬프트 라이브러리](#prompt-library)를 사용하십시오.
+   효과적인 프롬프트를 만드는 데 도움이 필요하면 [프롬프트 라이브러리](#prompts)를 사용하십시오.
 
-1. 생성된 콘텐츠를 사용자 지정하려면 콘텐츠 지침 설정을 완료합니다.
+1. 생성된 콘텐츠를 맞춤화하려면 콘텐츠 지침 설정을 완료합니다.
 
    * [**[!UICONTROL 텍스트 설정]**](#text-settings) - 생성된 텍스트 콘텐츠에 대한 지침을 제공합니다.
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 >[!TAB 이미지만]
 
-다음 단계에 따라 AI Assistant를 사용하여 기존 랜딩 페이지에 대한 이미지 콘텐츠를 개선하거나 강화합니다.
+기존 랜딩 페이지에 대한 이미지 컨텐츠를 개선하거나 개선하려면 다음 단계를 수행합니다.
 
 1. 랜딩 페이지 디자인 공간에서 특정 콘텐츠를 타깃팅할 _이미지_ 구성 요소를 선택합니다.
 
@@ -249,9 +249,9 @@ ht-degree: 0%
 
    ![AI 길잡이 - 텍스트 설정](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   효과적인 프롬프트를 만드는 데 도움이 필요하면 [프롬프트 라이브러리](#prompt-library)를 사용하십시오.
+   효과적인 프롬프트를 만드는 데 도움이 필요하면 [프롬프트 라이브러리](#prompts)를 사용하십시오.
 
-1. 생성된 콘텐츠를 사용자 지정하려면 콘텐츠 지침 설정을 완료합니다.
+1. 생성된 콘텐츠를 맞춤화하려면 콘텐츠 지침 설정을 완료합니다.
 
    * [**[!UICONTROL 이미지 설정]**](#image-settings) - 생성된 콘텐츠에 이미지를 포함하려면 이미지 생성을 활성화하고 지침을 제공하십시오.
 
@@ -301,7 +301,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 자세히]** - AI Assistant를 통해 특정 주제를 확장하고 더 나은 이해와 참여를 위해 추가 세부 정보를 제공할 수 있습니다.
 
-* **[!UICONTROL 요약]** - 정보가 길면 페이지 뷰어가 오버로드될 수 있습니다. AI Assistant를 사용하여 주요 사항을 명확하고 간결한 요약으로 요약하여 주목 받고 더 자세히 읽을 수 있도록 장려합니다.
+* **[!UICONTROL 요약]** - 정보가 길면 페이지 뷰어가 오버로드될 수 있습니다. AI Assistant를 사용하여 주요 사항을 명확하고 간결한 요약으로 요약하여 수신자에게 주의를 환기시키고 더 자세한 내용을 읽을 수 있도록 하십시오.
 
 * **[!UICONTROL 구문 변경]** - 의미를 유지하면서 메시지를 다시 작성합니다. 이 옵션은 핵심 메시지를 변경하지 않고 대체 단어를 생성하거나, 흐름을 개선하거나, 구문 조정을 하는 데 도움이 됩니다.
 

@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1339
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
 계정 목록을 만들 때 필터 세트를 정의하여 목록을 생성합니다. 예를 들어, 이 데이터 소스를 사용하여 산업이 헬스케어이고 수익이 1억 달러가 넘는 계정 목록을 생성할 수 있습니다.
 
-1. _[!UICONTROL 계정 목록]_ 페이지에서 오른쪽 상단의 **[!UICONTROL 계정 목록 만들기]**&#x200B;를 클릭합니다.
+1. _[!UICONTROL 계정 목록]_ 페이지에서 페이지 오른쪽 상단의 **[!UICONTROL 계정 목록 만들기]**&#x200B;를 클릭합니다.
 
    ![계정 목록 만들기를 클릭합니다](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
@@ -87,25 +87,25 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
 정적 목록의 경우 계속 빈 계정 목록을 게시하고 계정 여정을 통해 계정을 추가할 수 있습니다. 필터 세트를 게시하기 전에 적용하여 계정을 수동으로 추가할 수도 있습니다.
 
-동적 계정 목록의 경우 목록을 게시하기 전에 목록을 자동으로 관리하는 데 사용할 필터 세트를 추가해야 합니다.
+동적 계정 목록에 대해 목록을 자동으로 관리하려면 목록을 게시하기 전에 필터 세트를 추가하십시오.
 
 >[!BEGINTABS]
 
 >[!TAB 정적 계정 목록]
 
-정적 계정 목록을 만든 후 필터 세트를 적용하여 목록을 채울 수 있습니다. 필터 집합을 적용하여 계정을 게시한 후 정적 계정 목록에 추가할 수도 있습니다(_Live_).
+정적 계정 목록을 만든 후 필터 세트를 적용하여 목록을 채울 수 있습니다. 게시(_Live_) 후 정적 계정 목록에 계정을 추가하려면 필터 집합을 적용하세요.
 
 >[!NOTE]
 >
->계정 목록이 비어 있는 것으로 시작하도록 하려면 필터를 선택하지 말고 계정 목록을 게시하십시오. 계정 여정 작업을 통해 구성원을 추가하려는 경우 빈 목록으로 시작하는 것이 유용합니다([작업 노드 사용 - 계정에 추가](#take-an-action-node---add-to-account) 참조).
+>계정 목록이 비어 있는 것으로 시작하도록 하려면 필터를 선택하지 않고 계정 목록을 게시합니다. 계정 여정 작업을 통해 구성원을 추가하려는 경우 빈 목록으로 시작하는 것이 유용합니다([작업 노드 사용 - 계정에 추가](../journeys/action-nodes.md#account-action-constraints) 참조).
 
-1. **[!UICONTROL 계정 추가]**&#x200B;를 클릭하세요.
+1. **[!UICONTROL 계정 추가]**&#x200B;를 클릭합니다.
 
    ![계정 필터를 추가하여 &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"} 목록 채우기
 
    이 함수는 빈 목록 페이지 또는 오른쪽 상단에서 액세스할 수 있습니다.
 
-1. _[!UICONTROL 필터별 계정 추가]_ 대화 상자에서 **[!UICONTROL 계정 필터]** 메뉴를 사용하여 필터 집합을 구성하는 데 사용할 특성 및 활동을 추가합니다.
+1. _[!UICONTROL 필터별 계정 추가]_ 대화 상자에서 **[!UICONTROL 계정 필터]** 메뉴를 사용하여 필요한 특성과 활동을 추가하여 필터 집합을 구성하십시오.
 
    필터는 범주 폴더에 중첩됩니다. 각 폴더를 확장하고 사용 가능한 필터 목록을 스크롤할 수 있습니다. 또는 맨 위에 있는 _검색_ 도구를 사용하여 필요한 필터를 찾습니다.
 
@@ -121,7 +121,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
 1. 필터 집합 및 논리가 완료되면 **[!UICONTROL 계정 채우기]**&#x200B;를 클릭하세요.
 
-   계산 및 채울 계정 수(데이터베이스의 크기 및 선택한 필터 기준)에 따라 채우기 프로세스에 약간의 시간이 걸릴 수 있습니다. 계정이 목록에 채워지는 데 최대 2시간이 소요될 수 있습니다.
+   모집단 프로세스는 평가하고 채울 계정 수(데이터베이스의 크기 및 선택한 필터 기준)에 따라 시간이 소요됩니다. 계정이 목록에 채워지는 데 최대 2시간이 소요될 수 있습니다.
 
 계속해서 목록을 게시하여 계정 여정에서 작업 추가 및 제거에 사용할 수 있도록 할 수 있습니다.
 
@@ -149,7 +149,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
 1. 필터 집합 및 논리가 완료되면 **[!UICONTROL 완료]**&#x200B;를 클릭하세요.
 
-   필터 집합에 만족하면 [목록 게시](#publish-an-account-list)로 진행하여 계정 여정의 시작 [계정 대상 노드](#account-audience-node)에 사용할 수 있도록 할 수 있습니다.
+   필터 집합에 만족하면 [목록 게시](#publish-an-account-list)로 진행하여 계정 여정의 시작 [계정 대상 노드](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)에 사용할 수 있도록 할 수 있습니다.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
    ![정적 계정 목록에 대한 게시 확인](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-정적 계정 목록의 상태가 _[!UICONTROL Live]_(으)로 변경되며 [계정 여정에서 사용](#account-list-usage-in-account-journeys)할 수 있습니다.
+정적 계정 목록의 상태가 _[!UICONTROL Live]_(으)로 변경되며 [계정 여정에서 사용](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)할 수 있습니다.
 
 >[!TAB 동적 계정 목록]
 
@@ -189,7 +189,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
    ![동적 계정 목록에 대한 게시 확인](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-동적 계정 목록의 상태가 _[!UICONTROL Live]_(으)로 변경되며 [계정 여정에서 사용](#account-list-usage-in-account-journeys)할 수 있습니다.
+동적 계정 목록의 상태가 _[!UICONTROL Live]_(으)로 변경되며 [계정 여정에서 사용](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)할 수 있습니다.
 
 >[!ENDTABS]
 

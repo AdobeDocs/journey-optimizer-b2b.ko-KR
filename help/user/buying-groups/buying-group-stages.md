@@ -17,9 +17,9 @@ topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 구매 그룹 단계는 기회를 고객으로 전환함에 있어 구매 그룹의 진행 상황을 추적하기 위해 설계되었습니다. 이 기능을 사용하여 구매 그룹 진행률을 추적하고 구매 그룹 구성원에 대한 다음 최적 작업을 식별합니다.
 
-단일 스테이징 모델 내에서 여러 스테이지를 정의하고 여러 스테이지와 각 스테이지 간의 전환 흐름을 정의합니다. 라이프사이클 진입을 위해 하나 이상의 단계가 지정됩니다. 이 모델에서는 A 단계에서 B, C 또는 D 단계로의 전환과 같이 한 단계에서 다른 단계로의 전환을 지정할 수 있는 비선형 진행도 가능합니다. 구매 또는 체결된 계약과 같이 하나의 단계가 성공 단계로 지정될 것을 요구한다. 다른 공급업체의 경쟁 솔루션 구입 또는 계약 거부와 같이 다른 단계가 실패 단계로 지정되는 것은 선택 사항입니다. 영업 기회를 완료하거나 기회를 고객으로 전환하는 관점에서 구매 그룹이 어떻게 진행되고 있는지 보여 주는 [지능형 대시보드](../dashboards/intelligent-dashboard.md)를 통해 이러한 단계를 모니터링합니다.
+단일 스테이징 모델 내에서 여러 스테이지를 정의하고 여러 스테이지와 각 스테이지 간의 전환 흐름을 정의합니다. 라이프사이클 진입을 위해 하나 이상의 단계가 지정됩니다. 모델은 단계 A에서 단계 B, C 또는 D로 비선형적인 진행을 허용합니다. 구매 또는 서명된 계약과 같이 한 단계를 성공 단계로 지정해야 합니다. 다른 공급업체의 경쟁 솔루션 구매 또는 계약 거부와 같이 다른 단계가 실패 단계로 지정되는 것은 선택 사항입니다. 영업 기회를 완료하거나 기회를 고객으로 전환하는 관점에서 구매 그룹이 어떻게 진행되고 있는지 보여 주는 [지능형 대시보드](../dashboards/intelligent-dashboard.md)를 통해 이러한 단계를 모니터링합니다.
 
 ![그룹 단계 구매 예제](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 * 전환 흐름 정의
 * 시작 및 대상 단계 지정
 
-하나의 모델만 지원되므로 Journey Optimizer B2B edition에서 모델을 만들어 게시하기 전에 마케팅 및 영업 팀에서 조직에 대한 최적의 모델을 계획하는 것이 중요합니다.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+한 가지 모델만 지원됩니다. 최적의 모델을 계획하려면 Journey Optimizer B2B edition에서 만들고 게시하기 전에 마케팅 및 영업 팀과 협력하십시오.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 구매 그룹 단계 모델을 만들 때 자동으로 _초안_ 상태가 되며 삭제하거나 이름을 바꿀 수 없습니다. 단계를 정의하고 단계 간 전환 흐름을 구성할 때 이 상태는 유지됩니다. 모델이 게시됨(_Live_) 상태인 경우 변경할 수 없습니다.
 
@@ -118,11 +118,11 @@ ht-degree: 2%
 
 1. 대상이 아닌 각 단계에 대해 플로우(전환)의 다음에 오는 단계를 하나 이상 정의합니다.
 
-   대상이 아닌 모든 단계에는 최소 하나 이상의 **[!UICONTROL 허용된]** 단계로의 전송이 선택되어야 합니다. 그렇지 않으면 모델 논리가 올바르지 않아 성공 또는 실패로 진행할 방법 없이 해당 단계에서 계정이 _중단_&#x200B;될 수 있습니다.
+   대상이 아닌 모든 단계에는 최소 하나 이상의 **[!UICONTROL 허용된]** 단계로의 전송이 선택되어야 합니다. 그렇지 않으면 모델 논리가 유효하지 않으며 계정은 성공 또는 실패로 진행할 방법 없이 해당 단계에 남아 있을 수 있습니다.
 
    ![대상이 아닌 단계 간 전환 구성](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   선택적으로 실패 단계에서 전환을 지정할 수 있습니다. 예를 들어 _응답 없음_ 단계를 실패 단계로 지정할 수 있습니다. 또한 휴면 계정이 다시 활성화되는 경우를 식별하기 위해 _재확산_ 단계를 가능한 전환으로 지정합니다.
+   선택적으로 실패 단계에서 전환을 지정할 수 있습니다. 예를 들어 _응답 없음_ 단계를 실패 단계로 지정합니다. 또한 휴면 계정이 다시 활성화되는 경우를 식별하기 위해 _재확산_ 단계를 가능한 전환으로 지정합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -227,7 +227,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. _[!UICONTROL 솔루션 관심]_ 탭을 선택합니다.
 
-1. 다음 방법 중 하나를 사용하여 솔루션 관심사를 열고 편집할 솔루션 관심사에 대한 속성을 엽니다.
+1. 다음 방법 중 하나를 사용하여 편집할 솔루션 관심 항목의 속성을 엽니다.
 
    * 솔루션 관심사 이름을 클릭합니다.
    * 줄임표(**...**)를 클릭합니다. 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 선택하세요.
@@ -246,7 +246,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 경로 분할
 
-[분할 경로 노드](../journeys/journey-nodes.md#split-paths)를 사용하면 구매 그룹 단계에 따라 계정 수준 또는 사용자 수준에서 필터링할 수 있습니다. 예를 들어 구매 그룹 구성원을 사용하여 경로를 분할할 때 구매 그룹 단계를 경로 조건으로 추가합니다.
+[분할 경로 노드](../journeys/split-merge-paths-nodes.md#split-paths)를 사용하면 구매 그룹 단계에 따라 계정 수준 또는 사용자 수준에서 필터링할 수 있습니다. 예를 들어 구매 그룹 구성원을 사용하여 경로를 분할할 때 구매 그룹 단계를 경로 조건으로 추가합니다.
 
 >[!BEGINTABS]
 
@@ -264,7 +264,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![경로 노드 분할 - 조건 추가](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 조건 편집기에서 구매 그룹 필터를 추가하여 분할 경로를 정의합니다.
+1. 분할 경로를 정의하려면 조건 편집기에서 구매 그룹 필터를 추가합니다.
 
    * 왼쪽의 맨 아래에 있는 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 구매 그룹 있음]** 특성을 필터 작업 영역으로 끌어서 놓습니다.
 
@@ -298,7 +298,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![경로 노드 분할 - 조건 추가](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 조건 편집기에서 구매 그룹 필터를 추가하여 분할 경로를 정의합니다.
+1. 분할 경로를 정의하려면 조건 편집기에서 구매 그룹 필터를 추가합니다.
 
    * 왼쪽의 맨 아래에 있는 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 구매 그룹의 구성원]** 특성을 필터 작업 영역으로 끌어서 놓습니다.
 
@@ -320,7 +320,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 구매 그룹 단계 계정 작업 업데이트
 
-[계정 작업 노드](../journeys/journey-nodes.md#add-an-account-action)를 사용하여 구매 그룹 단계를 업데이트할 수 있습니다. 이 노드를 정의하는 작업에는 솔루션 관심사를 선택하고 구매 그룹에 대한 새 단계를 정의하는 작업이 포함됩니다.
+[계정 작업 노드](../journeys/action-nodes.md#add-an-account-based-action)를 사용하여 구매 그룹 단계를 업데이트할 수 있습니다. 이 노드를 정의하는 작업에는 솔루션 관심사를 선택하고 구매 그룹에 대한 새 단계를 정의하는 작업이 포함됩니다.
 
 >[!NOTE]
 >
@@ -334,7 +334,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 오른쪽의 노드 속성에서 작업에 대해 **[!UICONTROL 계정]**&#x200B;을(를) 선택합니다.
 
-1. 구매 그룹 단계를 업데이트하는 조치를 정의합니다.
+1. 구매 그룹 단계를 갱신하려면 조치를 정의합니다.
 
    * **[!UICONTROL 계정에 대한 작업]**&#x200B;에 대해 **[!UICONTROL 구매 그룹 단계 업데이트]**&#x200B;를 선택하세요.
 
