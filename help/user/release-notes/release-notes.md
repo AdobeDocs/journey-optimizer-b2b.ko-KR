@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
 workflow-type: tm+mt
-source-wordcount: 5351
-ht-degree: 64%
+source-wordcount: 5552
+ht-degree: 62%
 
 ---
 
@@ -32,13 +32,31 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
+## 2026.8 릴리스 노트 {#rel-2026-8}
+
+**배포 날짜**: 2026년 8월 14일
+
+| 유형 | 항목 | 설명 |
+| ---- | ---- | ----------- |
+| 기능 | 개인 목록 | 이제 정적 및 동적 사용자 목록을 사용할 수 있으므로 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준에 따라 프로필을 타깃팅할 수 있습니다. |
+| 기능 | _다양한 분할 경로_ 여정 노드 | (계정 여정의 이전 베타 버전) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 사용자를 할당하여 계정이나 사용자 여정 내에서 변형을 테스트할 수 있습니다. |
+| 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
+| 개선 사항 | 이벤트 트리거 및 필터 수신 - 계정 여정 | 이제 계정 여정에 대해 _이벤트 수신_ 노드에서 여러 트리거와 필터를 사용할 수 있습니다. |
+| 개선 사항 | 외부 분할 경로 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 분할 경로_ 노드에 대한 지원을 사용할 수 있습니다. |
+| 개선 사항 | 외부 작업 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 작업_ 노드에 대한 지원을 사용할 수 있습니다. |
+| 개선 사항 | AEP 관계 데이터 세트 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
+
+>[!NOTE]
+>
+>이러한 릴리스 변경 사항은 2026년 8월 14일부터 배포되며 각 기능의 단계적 롤아웃과 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+
 ## 2026.6 릴리스 노트 {#rel-2026-6}
 
 **배포 날짜**: 2026년 7월 10일
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | _분할 경로_ 여정 노드 - 변형 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. [자세히 알아보기](../journeys/variant-split-paths-nodes.md) |
+| 기능 | _다양한 분할 경로_ 여정 노드 - 계정 여정 | (Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 인력을 할당하여 여정 내에서 변형을 테스트할 수 있습니다. [자세히 알아보기](../journeys/variant-split-paths-nodes.md) |
 | 개선 사항 | _이벤트 수신_ 여정 노드 | 이제 이벤트 리스너 노드를 트리거할 여러 여정으로 구성할 수 있습니다. 첫 번째 자격 이벤트는 여정에서 레코드를 앞으로 진행합니다. (향후 릴리스에 대한 계정 여정의 지원이 예정되어 있습니다.) [자세히 알아보기](../journeys/listen-for-event-nodes.md#person-journeys) |
 | 개선 사항 | _이벤트 수신_ 여정 노드 | 사용자/사용자 이벤트에 대한 _[!UICONTROL 필터]_ 탭이 단일 작업 선택기에서 규칙 빌더 인터페이스로 변경되었습니다. 구성된 경험 이벤트를 사용하는 여러 활동 구성을 지원합니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#filters-people-event) |
 | 개선 사항 | _작업 수행_ 여정 노드 | 이제 계정 여정 및 개인 여정의 사용자 컨텍스트에 대해 추가 작업을 사용할 수 있습니다. _개인 여정에 추가_ 및 _개인 여정에서 제거_. [자세히 알아보기](../journeys/action-nodes.md#people-actions) |
@@ -46,12 +64,6 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 >[!NOTE]
 >
 >이러한 릴리스 변경 사항은 2026년 7월 10일에 배포되며 각 기능의 단계적 롤아웃 및 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
-
-<!-- 
-Add for 2026.8 release
-| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
-| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
--->
 
 ## 2026.5 릴리스 노트 {#rel-2026-5}
 
@@ -165,7 +177,7 @@ Add for 2026.8 release
 
 ### 업데이트된 아키텍처
 
-업데이트된 아키텍처를 통해 Journey Optimizer B2B edition 및 Marketo Engage은 동일한 시스템 및 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
+업데이트된 아키텍처를 통해 Journey Optimizer B2B edition 및 Marketo Engage은 더 이상 동일한 시스템 및 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
 
 >[!NOTE]
 >
@@ -176,7 +188,7 @@ Add for 2026.8 release
 * **데이터를 쉽게 통합하고 확장**: 업데이트된 플랫폼은 사용자 정의 오브젝트, 구매 그룹 및 계정 이벤트를 포함한 복잡한 데이터 모델을 지원합니다.
 * **여러 Adobe Marketo Engage 인스턴스 연결**: 여러 Adobe Marketo Engage 환경의 데이터를 한 곳에서 관리하고 통합합니다.
 * **데이터를 안전하게 보호**: 고급 개인 정보 보호 및 보안 기능을 통해 고객 정보를 보호할 수 있습니다.
-* **장기적인 확장성을 고려한 설계**: 이 업데이트는 지속적인 개선 및 혁신을 위해 조직을 설정합니다.
+* **장기적인 확장성을 고려한 설계**: 이 업데이트는 지속적인 개선 및 혁신을 위해 조직을 준비합니다.
 
 >[!NOTE]
 >
