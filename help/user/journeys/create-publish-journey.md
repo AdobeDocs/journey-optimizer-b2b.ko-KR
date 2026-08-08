@@ -4,21 +4,16 @@ description: 시각적 캔버스에서 계정 및 사용자 여정을 만들고,
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 6%
 
 ---
@@ -34,7 +29,7 @@ ht-degree: 6%
 왼쪽 탐색 메뉴의 **[!UICONTROL 여정 관리]**&#x200B;에서 만들려는 여정 형식을 선택합니다.
 
 * **[!UICONTROL 계정 여정]**
-* **[!UICONTROL 개인 여정]**(Beta)
+* **[!UICONTROL 개인 여정]**
 
 새 여정 추가(_T):_
 
@@ -50,7 +45,7 @@ ht-degree: 6%
 
 +++
 
-+++개인 여정(Beta)
++++사용자 여정
 
 1. 페이지의 오른쪽 상단에서 **[!UICONTROL 여정 만들기]**&#x200B;를 클릭합니다.
 
@@ -179,4 +174,4 @@ _여정 맵_&#x200B;은(는) 여정 작업 영역의 중앙 영역입니다. 이
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443226/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

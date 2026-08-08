@@ -4,22 +4,17 @@ description: Journey Optimizer B2B edition의 이메일, SMS 및 이벤트 전�
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +28,9 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
   ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [계정 여정 개요 비디오 보기](#overview-video)
 
-* **개인 여정** - (Beta) Experience Platform 대상 및 데이터를 사용하여 리드 기반 마케팅을 조정합니다. 개인 여정을 사용하면 마케팅 작업이 Marketo Engage 또는 Adobe Campaign/B2C 도구 체인에 대한 해결 방법에 의존하지 않으므로 B2B 사용 사례를 지원할 수 있습니다.
+* **개인 여정** - Experience Platform 대상 및 데이터를 사용하여 리드 기반 마케팅을 조정합니다. 개인 여정을 사용하면 마케팅 작업이 Marketo Engage 또는 Adobe Campaign/B2C 도구 체인에 대한 해결 방법에 의존하지 않으므로 B2B 사용 사례를 지원할 수 있습니다.
 
   여정 여정 및 구매 그룹과 함께 사용할 경우 개인 여정은 마케터에게 구매 그룹에 전체 오케스트레이션을 적용할 수 있는 권한을 제공할 수 있습니다.
-
-  +++개인 여정에 대한 현재 제한 사항
-
-  특정 사용 사례를 차단하거나 개인 여정을 만드는 데 어려움을 줄 수 있는 제한이 있습니다. 많은 문제가 초기 베타 프로그램 구현의 결과이며 향후 해결될 문제입니다.
-
-  * 이벤트를 프로필 속성과 결합하여 대상 정의를 좁힐 수 없습니다.
-  * 프로필을 여정에 사용할 수 있는 이벤트의 컨텍스트는 개인화 또는 오케스트레이션에 사용할 수 없습니다.
-  * 여정은 현재 이벤트 및 프로필 세그먼트 항목 기준을 모두 가질 수 없습니다.
-  * 이벤트 리스너는 여러 이벤트를 수신할 수 없습니다.
-  * 현재 대기 노드에는 요일 또는 시간 종료 기준에 대한 전체 옵션 세트가 없습니다.
-  * 이메일 편집기가 계정 여정에 대해서만 사용할 수 있는 기능 및 속성을 잘못 참조합니다.
-  * 사용자 지정 여정 토큰(_내 토큰_)에 대한 지원은 아직 사용할 수 없습니다.
-  * 현재 여정 유형에서 개인 여정 노드 추가 및 제거를 사용할 수 없습니다.
-  * 이벤트 기록은 오케스트레이션 또는 개인화에 사용할 수 없습니다.
-  * 관련 객체(계정, 구매 그룹, 기회 및 사용자 정의 객체)는 오케스트레이션 또는 개인화에 사용할 수 없습니다.
-  * 웹, SMS 및 광고 플랫폼 채널은 현재 지원되지 않습니다.
-
-  +++
 
 ## 여정 시작
 
@@ -75,9 +52,7 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 ![계정 여정 목록 필터링](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB 개인 여정(Beta)]
-
-[!BADGE Beta]{type=Informative tooltip="베타 기능으로 사용 가능"}
+>[!TAB 개인 여정]
 
 왼쪽 탐색에서 **[!UICONTROL 여정 관리]**&#x200B;를 확장하고 **[!UICONTROL 개인 여정]**&#x200B;을 클릭합니다.
 
@@ -114,11 +89,11 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 | 상태 | 설명 | 사용 가능한 액션 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**초안**&#x200B;_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-a-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _&#x200B;**라이브**&#x200B;_ | 여정이 게시되면 여정 상태가 _초안_&#x200B;에서 _라이브_(으)로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
-| _&#x200B;**새로운 참여 마감됨**&#x200B;_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
-| _&#x200B;**중단됨**&#x200B;_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _&#x200B;**완료됨**&#x200B;_ | 여정의 모든 계정 또는 사용자 대상 구성원이 여정을 완료하면 상태가 _Live_ 또는 _새 항목으로 닫힘_&#x200B;에서 _완료됨_(으)로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**초안**_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-a-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**라이브**_ | 여정이 게시되면 여정 상태가 _초안_&#x200B;에서 _라이브_(으)로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
+| _**새로운 참여 마감됨**_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
+| _**중단됨**_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _**완료됨**_ | 여정의 모든 계정 또는 사용자 대상 구성원이 여정을 완료하면 상태가 _Live_ 또는 _새 항목으로 닫힘_&#x200B;에서 _완료됨_(으)로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
 
 ## 여정 맵
 
@@ -144,7 +119,7 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 >[!IMPORTANT]
 >
->여정이 _다른 여정에 있는&#x200B;_[!UICONTROL &#x200B;다른 여정에 계정 추가&#x200B;]_&#x200B;작업으로 작업 수행_ 노드에서 사용되는 경우 여정이 해당 여정에서 해당 작업을 차단합니다.
+>여정이 _다른 여정에 있는_[!UICONTROL &#x200B;다른 여정에 계정 추가&#x200B;]_작업으로 작업 수행_ 노드에서 사용되는 경우 여정이 해당 여정에서 해당 작업을 차단합니다.
 
 1. 여정 이름을 클릭하여 엽니다.
 
@@ -160,7 +135,7 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 >[!IMPORTANT]
 >
->여정이 _다른 여정에서&#x200B;_[!UICONTROL &#x200B;다른 여정에 계정 추가&#x200B;]_&#x200B;작업을 사용하여_ 여정을 사용하는 경우, 새 항목으로 닫으면 해당 계정의 작업을 차단합니다.
+>여정이 _다른 여정에서_[!UICONTROL &#x200B;다른 여정에 계정 추가&#x200B;]_작업을 사용하여_ 여정을 사용하는 경우, 새 항목으로 닫으면 해당 계정의 작업을 차단합니다.
 
 1. 여정 이름을 클릭하여 엽니다.
 
@@ -194,7 +169,7 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
    * **[!UICONTROL 일부 콘텐츠 복제]** - 이 유형을 사용하면 작성된 이메일이나 SMS 메시지를 제외한 여정의 모든 내용을 복사할 수 있습니다. Marketo Engage 이메일 또는 SMS 메시지를 참조하는 노드는 완전히 그대로 유지됩니다.
 
-   * **[!UICONTROL 세부 정보 없이 복제]** - 이 형식을 사용하여 노드 구조 및 경로만 복사합니다. 모든 노드 설정과 경로 조건은 정의되지 않으므로(기본값), 다양한 대상자, 작업 및 경로 분할 설정으로 기본 흐름을 재사용할 수 있습니다. 모든 _대기_ 노드는 기본값인 5일을 사용합니다.
+   * **[!UICONTROL 세부 정보 없이 복제]** - 이 형식을 사용하여 노드 구조 및 경로만 복사합니다. 모든 노드 설정 및 경로 조건은 정의되지 않으므로(기본값) 다른 대상, 작업 및 경로 세분화 설정에서 기본 흐름을 다시 사용할 수 있습니다. 모든 _대기_ 노드는 기본값인 5일을 사용합니다.
 
 1. **[!UICONTROL 복제]**&#x200B;를 클릭합니다.
 
@@ -226,4 +201,4 @@ _Live_, _새 항목으로 닫힘_, _중단됨_ 또는 _완료됨_ 상태의 게�
 
 ## 계정 여정 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443214/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
