@@ -21,10 +21,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 848
-ht-degree: 74%
+source-wordcount: 847
+ht-degree: 73%
 
 ---
 
@@ -156,12 +156,12 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
-<td>DNS 레코드의 링크 추적을 위해 새 CNAME 구성</td>
+<td>DNS 레코드에서 추적 링크용 새 CNAME 구성</td>
 <td><a href="./start/email-protocols.md#create-dns-records-for-landing-pages-and-email">자세히 알아보기</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
-<td>첨부된 Marketo Engage 인스턴스에 대한 브랜딩 도메인 구성</td>
+<td>연결된 Marketo Engage 인스턴스에 대한 브랜딩 도메인 구성</td>
 <td><a href="./start/branding-domains.md">자세히 알아보기</a></td>
 </tr>
 <tr>
@@ -282,7 +282,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 <td><a href="./admin/configure-channels-sms.md">자세히 알아보기</a></td>
 </tr>
 <tr>
-<td colspan="2">Journey Optimizer B2B edition에 대한 <strong>랜딩 페이지</strong>(Beta) 채널 구성.</td>
+<td colspan="2">Journey Optimizer B2B edition에 대한 <strong>랜딩 페이지</strong> 채널 구성.</td>
 <td></td>
 </tr>
 <tr>
@@ -301,7 +301,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
-<td>콘텐츠가 전달되는 URL별로 웹 속성을 추가합니다.</td>
+<td>콘텐츠가 제공되는 URL별로 웹 속성을 추가합니다.</td>
 <td><a href="./admin/configure-channels-web.md">자세히 알아보기</a></td>
 </tr>
 <tr>
@@ -314,7 +314,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 
 ## &#x200B;5. Marketo Engage 인스턴스를 연결하여 여정 작업 지원(선택 사항)
 
-Marketo Engage의 캠페인 및 프로그램을 통해 Journey Optimizer B2B edition 기능을 보완하려는 경우 Marketo Engage 작업에 대한 지원을 설정하십시오. 이러한 작업을 통해 마케팅 팀은 Journey Optimizer B2B edition의 _계정 기반_ 마케팅 및 Marketo Engage의 _리드 기반_ 마케팅 활동을 조정할 수 있습니다.
+Marketo Engage의 캠페인 및 프로그램을 통해 Journey Optimizer B2B Edition 기능을 보완하려는 경우 Marketo Engage 작업에 대한 지원을 설정하십시오. 이러한 작업을 통해 마케팅 팀은 Journey Optimizer B2B edition의 _계정 기반_ 마케팅 및 Marketo Engage의 _리드 기반_ 마케팅 활동을 조정할 수 있습니다.
 
 <table>
 <thead>
@@ -335,7 +335,7 @@ Marketo Engage의 캠페인 및 프로그램을 통해 Journey Optimizer B2B edi
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="확인란"/></td>
-<td>Journey Optimizer B2B edition에서 통합 추가</td>
+<td>Journey Optimizer B2B Edition에서 통합 추가</td>
 <td><a href="./admin/marketo-actions-connect.md#add-the-integration">자세히 알아보기</a></td>
 </tr>
 </tbody>
@@ -343,7 +343,7 @@ Marketo Engage의 캠페인 및 프로그램을 통해 Journey Optimizer B2B edi
 
 ## &#x200B;6. 사용자 액세스 활성화
 
-프로비저닝이 완료되고 샌드박스가 바인딩되며 초기 설정 작업이 완료되면 팀과 사용자에 대한 Journey Optimizer B2B edition 및 Marketo Engage 액세스를 구성합니다.
+프로비전이 완료되고 샌드박스가 바인딩되며 초기 설정 작업이 완료되면 팀과 사용자에 대한 Journey Optimizer B2B Edition 및 Marketo Engage 액세스를 구성합니다.
 
 <table>
 <thead>

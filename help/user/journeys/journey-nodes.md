@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 16%
+source-wordcount: 135
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 대상 노드는 자동으로 여정의 첫 번째 노드입니다.
 
 * [계정 대상자](./account-audience-nodes.md)
-* [개인 대상](./person-audience-nodes.md)(Beta)
+* [개인 대상자](./person-audience-nodes.md)
 
 다양한 작업, 이벤트 및 오케스트레이션 노드를 다중 단계 크로스 채널 시나리오로 결합하여 여정을 구성합니다. 여정의 각 노드는 논리적 경로를 따라 단계를 나타냅니다. 다음 노드 유형을 사용하여 계정 여정을 구성합니다.
 

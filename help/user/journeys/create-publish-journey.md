@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 6%
 왼쪽 탐색 메뉴의 **[!UICONTROL 여정 관리]**&#x200B;에서 만들려는 여정 형식을 선택합니다.
 
 * **[!UICONTROL 계정 여정]**
-* **[!UICONTROL 개인 여정]**(Beta)
+* **[!UICONTROL 개인 여정]**
 
 새 여정 추가(_T):_
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 
 +++
 
-+++개인 여정(Beta)
++++사용자 여정
 
 1. 페이지의 오른쪽 상단에서 **[!UICONTROL 여정 만들기]**&#x200B;를 클릭합니다.
 

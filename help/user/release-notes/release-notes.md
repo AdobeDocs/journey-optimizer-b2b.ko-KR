@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 5552
+source-wordcount: 5580
 ht-degree: 62%
 
 ---
@@ -38,8 +38,9 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
+| 기능 | 개인 여정 | (이전의 Beta, 일반 가용성을 위한 조기 배포) 이제 Experience Platform 대상 및 데이터를 사용하여 리드 기반 마케팅을 오케스트레이션하는 여정을 만들 수 있습니다. [자세히 알아보기](../journeys/journeys-overview.md) |
 | 기능 | 개인 목록 | 이제 정적 및 동적 사용자 목록을 사용할 수 있으므로 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준에 따라 프로필을 타깃팅할 수 있습니다. |
-| 기능 | _다양한 분할 경로_ 여정 노드 | (계정 여정의 이전 베타 버전) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 사용자를 할당하여 계정이나 사용자 여정 내에서 변형을 테스트할 수 있습니다. |
+| 기능 | _다양한 분할 경로_ 여정 노드 | (이전에는 계정 여정의 Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 사람을 할당하여 계정이나 개인 여정 내에서 변형을 테스트할 수 있습니다. |
 | 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
 | 개선 사항 | 이벤트 트리거 및 필터 수신 - 계정 여정 | 이제 계정 여정에 대해 _이벤트 수신_ 노드에서 여러 트리거와 필터를 사용할 수 있습니다. |
 | 개선 사항 | 외부 분할 경로 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 분할 경로_ 노드에 대한 지원을 사용할 수 있습니다. |

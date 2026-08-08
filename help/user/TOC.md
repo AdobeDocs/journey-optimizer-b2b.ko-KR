@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: e009878c46054b6df033ced369423b32cdaa89cf
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 85%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 85%
   + [로그인 및 홈 페이지](home-page.md)
 + AI 어시스턴트 {#ai-assistant}
   + [개요](./ai-assistant/ai-assistant-overview.md)
-  + [AI 어시스턴트 액세스 활성](./ai-assistant/enable-ai-assistant-access.md)
+  + [AI 어시스턴트 액세스 활성화](./ai-assistant/enable-ai-assistant-access.md)
   + [질문 지침](./ai-assistant/question-guidance.md)
   + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
   + [콘텐츠용 생성형 AI](./ai-assistant/generative-ai-content.md)
@@ -44,7 +44,7 @@ ht-degree: 85%
   + {hide-from-toc}[여정 노드](./journeys/journey-nodes.md)
   + 여정 노드 {#journey-nodes}
     + [계정 대상자](./journeys/account-audience-nodes.md)
-    + [개인 대상(Beta)](./journeys/person-audience-nodes.md)
+    + [개인 대상자](./journeys/person-audience-nodes.md)
     + [액션 취하기](./journeys/action-nodes.md)
     + [이벤트 듣기](./journeys/listen-for-event-nodes.md)
     + [경로 분할 및 병합](./journeys/split-merge-paths-nodes.md)
@@ -137,7 +137,7 @@ ht-degree: 85%
     + [개요](./content/landing-pages.md)
     + [만들기 및 게시](./content/landing-pages-create-publish.md)
     + [랜딩 페이지 디자인](./content/landing-page-design.md)
-    + [랜딩 페이지 콘텐츠에 대한 AI 지원](./content/ai-assistant-landing-pages.md)
+    + [랜딩 페이지 콘텐츠용 AI 어시스턴트](./content/ai-assistant-landing-pages.md)
   + 콘텐츠 디자인 도구 {#content-design}
     + [구조 구성 요소](./content/structure-components.md)
     + [콘텐츠 구성 요소](./content/content-components.md)
