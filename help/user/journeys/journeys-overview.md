@@ -4,11 +4,16 @@ description: Journey Optimizer B2B edition의 이메일, SMS 및 이벤트 전�
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
 source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
@@ -89,11 +94,11 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 | 상태 | 설명 | 사용 가능한 액션 |
 | ------ | ----------- | ----------------- |
-| _**초안**_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-a-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _**라이브**_ | 여정이 게시되면 여정 상태가 _초안_&#x200B;에서 _라이브_(으)로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
-| _**새로운 참여 마감됨**_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
-| _**중단됨**_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
-| _**완료됨**_ | 여정의 모든 계정 또는 사용자 대상 구성원이 여정을 완료하면 상태가 _Live_ 또는 _새 항목으로 닫힘_&#x200B;에서 _완료됨_(으)로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _&#x200B;**초안**&#x200B;_ | 편집 가능한 게시되지 않은 여정입니다. | <li>[게시](./create-publish-journey.md#publish-a-journey)<li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _&#x200B;**라이브**&#x200B;_ | 여정이 게시되면 여정 상태가 _초안_&#x200B;에서 _라이브_(으)로 변경됩니다. 이 상태에서는 더 이상 편집할 수 없습니다. | <li>[복제](#duplicate-journey)<li>[새로운 참여 마감](#close-to-new-entries) <li>[중단](#abort-journey) |
+| _&#x200B;**새로운 참여 마감됨**&#x200B;_ | 상단 탐색 영역에서 [!UICONTROL 새로운 참여 마감]을 클릭하면 여정 상태가 _진행 중_&#x200B;에서 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[중단](#abort-journey) |
+| _&#x200B;**중단됨**&#x200B;_ | 여정을 중단하면 여정 상태가 _진행 중_ 또는 _새로운 참여 마감됨_&#x200B;으로 변경됩니다. 중단된 여정은 다시 시작할 수 없습니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
+| _&#x200B;**완료됨**&#x200B;_ | 여정의 모든 계정 또는 사용자 대상 구성원이 여정을 완료하면 상태가 _Live_ 또는 _새 항목으로 닫힘_&#x200B;에서 _완료됨_(으)로 변경됩니다. | <li>[복제](#duplicate-journey) <li>[삭제](#delete-journey) |
 
 ## 여정 맵
 
@@ -119,7 +124,7 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 >[!IMPORTANT]
 >
->여정이 _다른 여정에 있는_[!UICONTROL &#x200B;다른 여정에 계정 추가&#x200B;]_작업으로 작업 수행_ 노드에서 사용되는 경우 여정이 해당 여정에서 해당 작업을 차단합니다.
+>여정이 _다른 여정에 있는&#x200B;_[!UICONTROL &#x200B;다른 여정에 계정 추가&#x200B;]_&#x200B;작업으로 작업 수행_ 노드에서 사용되는 경우 여정이 해당 여정에서 해당 작업을 차단합니다.
 
 1. 여정 이름을 클릭하여 엽니다.
 
@@ -135,7 +140,7 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 >[!IMPORTANT]
 >
->여정이 _다른 여정에서_[!UICONTROL &#x200B;다른 여정에 계정 추가&#x200B;]_작업을 사용하여_ 여정을 사용하는 경우, 새 항목으로 닫으면 해당 계정의 작업을 차단합니다.
+>여정이 _다른 여정에서&#x200B;_[!UICONTROL &#x200B;다른 여정에 계정 추가&#x200B;]_&#x200B;작업을 사용하여_ 여정을 사용하는 경우, 새 항목으로 닫으면 해당 계정의 작업을 차단합니다.
 
 1. 여정 이름을 클릭하여 엽니다.
 
