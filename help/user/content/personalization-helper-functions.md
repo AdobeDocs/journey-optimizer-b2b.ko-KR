@@ -9,24 +9,15 @@ keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
 autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 6%
 
 ---
@@ -1158,7 +1149,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfDay {#truncate-day}
 
-`truncateToStartOfDay` 함수를 사용하여 지정된 날짜-시간을 00:00에 시간이 있는 날의 시작으로 설정합니다.
+`truncateToStartOfDay` 함수를 사용하여 지정된 날짜-시간을 00:00에 시간이 있는 날의 시작으로 설정하여 수정하십시오.
 
 +++구문
 
@@ -1175,7 +1166,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfQuarter {#truncate-quarter}
 
-`truncateToStartOfQuarter` 함수 사용은 00:00에서 날짜-시간을 해당 분기의 첫 번째 날(예: 1월 1일, 4월 1일, 7월 1일, 10월 1일)로 자르는 데 사용됩니다.
+`truncateToStartOfQuarter` 함수 사용은 00:00에 분기 첫째 날(예: 1월 1일, 4월 1일, 7월 1일, 10월 1일)까지 날짜-시간을 자르는 데 사용됩니다.
 
 +++구문
 
@@ -1209,7 +1200,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfYear {#truncate-year}
 
-`truncateToStartOfYear` 함수를 사용하여 지정된 날짜-시간을 00:00에서 연도의 첫째 날(1월 1일)로 자릅니다.
+`truncateToStartOfYear` 함수를 사용하여 지정된 날짜-시간을 해당 연도의 첫째 날(1월 1일) 00:00으로 자르고 수정합니다.
 
 +++구문
 
