@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 6%
 
 ---
@@ -1158,7 +1158,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfDay {#truncate-day}
 
-`truncateToStartOfDay` 함수를 사용하여 지정된 날짜-시간을 00:00에 시간이 있는 날의 시작으로 설정합니다.
+`truncateToStartOfDay` 함수를 사용하여 지정된 날짜-시간을 00:00에 시간이 있는 날의 시작으로 설정하여 수정하십시오.
 
 +++구문
 
@@ -1175,7 +1175,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfQuarter {#truncate-quarter}
 
-`truncateToStartOfQuarter` 함수 사용은 00:00에서 날짜-시간을 해당 분기의 첫 번째 날(예: 1월 1일, 4월 1일, 7월 1일, 10월 1일)로 자르는 데 사용됩니다.
+`truncateToStartOfQuarter` 함수 사용은 00:00에 분기 첫째 날(예: 1월 1일, 4월 1일, 7월 1일, 10월 1일)까지 날짜-시간을 자르는 데 사용됩니다.
 
 +++구문
 
@@ -1209,7 +1209,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfYear {#truncate-year}
 
-`truncateToStartOfYear` 함수를 사용하여 지정된 날짜-시간을 00:00에서 연도의 첫째 날(1월 1일)로 자릅니다.
+`truncateToStartOfYear` 함수를 사용하여 지정된 날짜-시간을 해당 연도의 첫째 날(1월 1일) 00:00으로 자르고 수정합니다.
 
 +++구문
 
