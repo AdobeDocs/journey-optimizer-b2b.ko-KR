@@ -6,20 +6,15 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
 workflow-type: tm+mt
-source-wordcount: 2267
-ht-degree: 81%
+source-wordcount: 2348
+ht-degree: 77%
 
 ---
 
@@ -32,21 +27,21 @@ ht-degree: 81%
 1. Journey Optimizer B2B edition 권한을 사용하여 [기본 제공 역할을 편집](#edit-roles-for-product-permissions) 또는 [사용자 지정 역할을 만들기](#create-a-custom-role)합니다.
 1. 역할에 [사용자 추가](#add-users) 또는 [그룹](#add-user-groups-to-a-role).
 
-관리자는 Adobe 제품 라이선스와 사용자를 관리하고 관리하는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서는 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html) 페이지를 참조하세요.
+관리자는 Adobe 제품 라이선스와 사용자를 관리할 수 있는 중앙 위치인 Adobe Admin Console에서 이러한 작업을 완료할 수 있습니다. Admin Console에서는 다양한 개별 솔루션 내부가 아닌 단일 위치에서 사용자를 만들고 관리할 수 있습니다. 기능 및 기능에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html) 페이지를 참조하세요.
 
 ## Admin Console 액세스
 
-Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Admin Console에 액세스하고 적절한 권한을 보유할 수 있는지 확인해야 합니다.
+Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Admin Console에 액세스할 수 있고 적절한 권한이 있는지 확인해야 합니다.
 
 1. 시스템 관리자는 온보딩 프로세스의 일부로 Adobe에서 여러 개의 이메일을 수신해야 합니다.
 
-   액세스 권한이 부여된 조직 이름에 대한 정보를 제공하는 시작 이메일을 찾습니다.
+   액세스 권한이 부여된 조직 이름에 대한 정보를 제공하는 환영 이메일을 찾습니다.
 
 1. 시작 이메일의 **[!UICONTROL 시작하기]** 링크를 클릭하여 Admin Console으로 이동합니다.
 
    이메일을 찾을 수 없는 경우 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)에서 Admin Console으로 직접 브라우저를 엽니다.
 
-1. Adobe ID을 사용하여 로그인합니다.
+1. Adobe ID를 사용하여 로그인합니다.
 
    로그인에 성공하면 Adobe Admin Console의 _개요_ 페이지가 표시됩니다.
 
@@ -60,7 +55,7 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 1. Adobe ID 이메일, 사용자 이름, 이름 또는 성을 입력하여 검색합니다.
 
-   * 액세스가 올바르게 구성된 경우 검색은 레코드를 반환합니다.
+   * 액세스가 올바르게 구성된 경우 검색은 사용자의 레코드를 반환합니다.
 
    * **[!UICONTROL 관리자 역할]** 열의 값에 `System`이(가) 표시되면 사용자(또는 표시된 사용자)가 시스템 관리자임을 알 수 있습니다.
 
@@ -68,13 +63,13 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
 
 >[!BEGINSHADEBOX]
 
-Marketo Engage 제품 프로필에 사용자를 추가하면 해당 사용자는 나중에 Marketo Engage 구독의 기본 작업 영역 내에서 _표준 사용자_ 역할에 추가됩니다. 이 역할은 해당 작업 영역에서 Marketo Engage에 대한 모든 표준 권한을 부여합니다. 현재 모든 Journey Optimizer B2B edition 사용자는 Marketo Engage 사용자여야 합니다. Marketo Engage 관리자는 _표준 사용자_ 역할에 대한 권한을 업데이트하거나 보다 제한적인 권한이 있는 다른 Marketo Engage 사용자 역할로 사용자를 이동하여 액세스를 제한할 수 있습니다.
+Marketo Engage 제품 프로필에 사용자를 추가하면 해당 사용자는 나중에 Marketo Engage 구독의 기본 작업 영역 내에서 _표준 사용자_ 역할에 추가됩니다. 이 역할은 해당 작업 영역에서 Marketo Engage에 대한 모든 표준 권한을 부여합니다. 현재 모든 Journey Optimizer B2B Edition 사용자는 Marketo Engage 사용자여야 합니다. Marketo Engage 관리자는 _표준 사용자_ 역할에 대한 권한을 업데이트하거나 보다 제한적인 권한이 있는 다른 Marketo Engage 사용자 역할로 사용자를 이동하여 액세스를 제한할 수 있습니다.
 
-Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
+Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -167,26 +162,26 @@ Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한
 
 Adobe Experience Platform의 _권한_ 영역에서 관리자는 사용자 역할과 액세스 정책을 정의하여 제품 응용 프로그램 내의 기능 및 개체에 대한 액세스 권한을 관리할 수 있습니다. 이 앱에서는 역할을 만들고 관리하며, 이러한 역할에 대해 원하는 리소스 권한을 할당할 수 있습니다. 또한 권한을 사용하여 특정 역할과 연관된 샌드박스 및 사용자를 관리할 수 있습니다.
 
-Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
+Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
 
 ### B2B 제품 권한 {#b2b-product-permissions}
 
-Journey Optimizer B2B edition 기능에 대한 액세스를 제어하는 권한은 다음과 같습니다.
+Journey Optimizer B2B Edition 기능에 대한 액세스를 제어하는 권한은 다음과 같습니다.
 
 | 카테고리 | 설명 | 권한 |
 | -------- | ----------- | ---------- |
 | B2B 계정 목록 | B2B 계정 목록에 대한 권한을 구성, 관리, 보기 및 게시합니다. 이러한 권한에는 계정 목록에서 계정 추가, 제거, 가져오기 및 삭제와 같은 작업이 포함됩니다. | <li>B2B 계정 목록 관리 |
 | B2B 관리 구성 | B2B 관리 구성에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 디지털 자산 관리 연결, 자산 저장소 및 이벤트가 포함됩니다. | <li>B2B 관리 구성 관리 |
-| B2B Assets | B2B 자산에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 이메일, SMS, 랜딩 페이지, 조각, 템플릿 및 이미지가 포함됩니다. | <li>B2B Assets 관리 <li>B2B 템플릿 관리 <li>B2B 조각 관리 <li>B2B 이메일 관리 |
+| B2B Assets | B2B 자산에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 이메일, 랜딩 페이지, 양식, 조각, 템플릿 및 이미지가 포함됩니다. | <li>B2B Assets 관리 <li>B2B 템플릿 관리 <li>B2B 조각 관리 <li>B2B 이메일 관리 <li>B2B 템플릿 보기 <li>B2B 조각 보기 <li>B2B 조각 게시 <li>B2B Assets 보기 <li>B2B 이메일 보기 <li>B2B 메시지 내보내기 관리 <li>B2B 랜딩 페이지 보기 <li>B2B 랜딩 페이지 관리 <li>B2B 랜딩 페이지 게시 <li>B2B Forms 보기 <li>B2B Forms 관리 <li>B2B Forms 게시 |
 | B2B 구매 그룹 | B2B 구매 그룹에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 솔루션 관심 분야, 역할 템플릿 및 구매 그룹 상태가 포함됩니다. | <li>B2B 구매 그룹 관리 <li>B2B 솔루션 관심 항목 관리 <li>B2B 역할 템플릿 관리 <li>B2B 단계 관리 <li>B2B 구매 그룹 보기 |
-| B2B 채널 구성 | B2B 채널 구성에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 통신 제한, API 자격 증명 및 보안 설정에 대한 설정이 포함됩니다. | <li>B2B 채널 구성 관리 |
-| B2B 대시보드 | B2B 대시보드에 대한 권한을 구성하고 봅니다. 이러한 권한에는 계정 참여, 구매 그룹 단계, 급증하는 계정 및 연락처 적용 범위가 포함됩니다. | <li>B2B 참여 대시보드 보기 |
-| B2B 여정 | B2B 여정에 대한 권한을 구성, 관리, 보기 및 게시합니다. 이러한 권한에는 계정 및 사용자 작업, 이벤트 리스너 및 분할 경로가 포함됩니다. | <li>B2B 계정 여정 관리 |
+| B2B 채널 구성 | B2B 채널 구성에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 통신 제한, API 자격 증명 및 보안 설정에 대한 설정이 포함됩니다. | <li>B2B 채널 구성 관리 <li>B2B 이메일 설정 보기 <li>B2B 이메일 설정 관리 <li>B2B WhatsApp 사전 설정 관리 <li>B2B 랜딩 페이지 설정 관리 <li>B2B Forms 사전 설정 보기 <li>B2B Forms 사전 설정 관리 <li>B2B Forms 사전 설정 게시 <li>작성자 B2B 웹 경험 <li>B2B WhatsApp 설정 관리 |
+| B2B 대시보드 | B2B 대시보드에 대한 권한을 구성하고 볼 수 있습니다. 이러한 권한에는 계정 참여, 구매 그룹 단계, 급증 계정 및 연락처 적용 범위가 포함됩니다. | <li>B2B 참여 대시보드 보기 |
+| B2B 여정 | B2B 여정에 대한 권한을 구성, 관리, 보기 및 게시합니다. 이러한 권한에는 계정 및 사용자 작업, 이벤트 리스너 및 분할 경로가 포함됩니다. | <li>B2B 계정 여정 관리 <li>B2B 개인 여정 관리 |
 | Journey Optimizer 규칙 | 빈도 규칙(통신 제한)에 액세스하고 구성합니다. 이러한 권한은 제품 관리자로 제한되어야 합니다. | <li>빈도 규칙 보기 <li>빈도 규칙 관리 |
 
 ### B2B 기본 제공 역할 {#b2b-built-in-roles}
 
-조직에 Journey Optimizer B2B edition 제품이 프로비저닝되면 Experience Platform에는 제품 기능에 대한 액세스를 관리하는 데 사용할 수 있는 기본 제공(기본) 역할 세트가 포함됩니다.
+조직에 Journey Optimizer B2B Edition 제품이 프로비저닝되면 Experience Platform에는 제품 기능에 대한 액세스를 관리하는 데 사용할 수 있는 기본 제공(기본) 역할 세트가 포함됩니다.
 
 | 역할 | 권한 |
 | ---- | ----------- |
@@ -197,7 +192,7 @@ Journey Optimizer B2B edition 기능에 대한 액세스를 제어하는 권한�
 
 ### 역할 권한 편집 {#edit-role-permissions}
 
-기본 제공 또는 사용자 지정 역할의 경우 언제든지 권한을 추가하거나 삭제할 것을 결정할 수 있습니다. 기본 또는 사용자 정의 역할을 수정하는 경우 해당 역할에 할당된 모든 사용자에게 영향을 줍니다.
+기본 제공 또는 사용자 지정 역할의 경우 언제든지 권한을 추가하거나 삭제할 수 있습니다. 기본 또는 사용자 정의 역할을 수정하는 경우 해당 역할에 할당된 모든 사용자에게 영향을 줍니다.
 
 다음 예에서는 B2B 채널 관리자 역할에 할당된 사용자의 B2B 여정 리소스와 관련된 권한을 추가하려고 합니다. 이 변경 사항을 통해 해당 역할의 사용자는 계정 여정을 관리할 수도 있습니다.
 
@@ -306,12 +301,12 @@ Journey Optimizer B2B edition 기능에 대한 액세스를 제어하는 권한�
    * 왼쪽의 _[!UICONTROL 리소스]_ 목록에서 **[!UICONTROL 프로필 관리]** 항목을 찾은 다음 _추가_(**+**) 아이콘을 클릭하여 특성을 추가합니다.
 
    * 속성에 대해 다음 권한을 추가합니다.
-      * [!UICONTROL 세그먼트 보기]
-      * [!UICONTROL 세그먼트 관리]
-      * [!UICONTROL 프로필 보기]
-      * [!UICONTROL 프로필 관리]
-      * [!UICONTROL B2B 프로필 보기]
-      * [!UICONTROL B2B 프로필 관리]
+     * [!UICONTROL 세그먼트 보기]
+     * [!UICONTROL 세그먼트 관리]
+     * [!UICONTROL 프로필 보기]
+     * [!UICONTROL 프로필 관리]
+     * [!UICONTROL B2B 프로필 보기]
+     * [!UICONTROL B2B 프로필 관리]
 
    ![Experience Platform - 새 역할에 대한 프로필 추가](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 

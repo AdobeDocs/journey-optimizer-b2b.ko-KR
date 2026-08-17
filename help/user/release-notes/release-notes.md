@@ -3,23 +3,16 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항에 대한 최신 정보를 확인하세요.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: adf6888348795972fe62a6be0180650f649beba5
+source-git-commit: 9ffa5baa0a8967957d5e243e199d6f41da4ab417
 workflow-type: tm+mt
-source-wordcount: 5580
+source-wordcount: 5597
 ht-degree: 62%
 
 ---
@@ -46,6 +39,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 개선 사항 | 외부 분할 경로 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 분할 경로_ 노드에 대한 지원을 사용할 수 있습니다. |
 | 개선 사항 | 외부 작업 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 작업_ 노드에 대한 지원을 사용할 수 있습니다. |
 | 개선 사항 | AEP 관계형 데이터 세트 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
+| 개선 사항 | 제품 권한 - WhatsApp 채널 | 제품 관리자는 이제 _[!UICONTROL B2B 채널 구성]_&#x200B;에 대한 `Manage B2B WhatsApp Settings` 및 `Manage B2B WhatsApp Presets` 권한을 설정할 수 있습니다. |
 
 >[!NOTE]
 >
