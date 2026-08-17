@@ -3,21 +3,14 @@ title: Journey Optimizer B2B Edition 릴리스 정보
 description: Adobe Journey Optimizer B2B Edition의 최신 기능, 개선 사항, 버그 수정 내역을 알아봅니다. 새로운 기능과 제품 개선 사항에 대한 최신 정보를 확인하세요.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa687e409812e70b80c366b7c9bb0274a7a179f7
+source-git-commit: adf6888348795972fe62a6be0180650f649beba5
 workflow-type: tm+mt
 source-wordcount: 5580
 ht-degree: 62%
@@ -39,13 +32,13 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | 개인 여정 | (이전의 Beta, 일반 가용성을 위한 조기 배포) 이제 Experience Platform 대상 및 데이터를 사용하여 리드 기반 마케팅을 오케스트레이션하는 여정을 만들 수 있습니다. [자세히 알아보기](../journeys/journeys-overview.md) |
-| 기능 | 개인 목록 | 이제 정적 및 동적 사용자 목록을 사용할 수 있으므로 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준에 따라 프로필을 타깃팅할 수 있습니다. |
+| 기능 | 사용자 목록 | 이제 정적 및 동적 사용자 목록을 사용할 수 있으므로 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준에 따라 프로필을 타깃팅할 수 있습니다. |
 | 기능 | _분할 경로 변형_ 여정 노드 | (이전에는 계정 여정의 Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 사람을 할당하여 계정이나 개인 여정 내에서 변형을 테스트할 수 있습니다. |
 | 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
 | 개선 사항 | 이벤트 트리거 및 필터 수신 - 계정 여정 | 이제 계정 여정에 대해 _이벤트 수신_ 노드에서 여러 트리거와 필터를 사용할 수 있습니다. |
 | 개선 사항 | 외부 분할 경로 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 분할 경로_ 노드에 대한 지원을 사용할 수 있습니다. |
 | 개선 사항 | 외부 작업 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 작업_ 노드에 대한 지원을 사용할 수 있습니다. |
-| 개선 사항 | AEP 관계 데이터 세트 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
+| 개선 사항 | AEP 관계형 데이터 세트 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
 
 >[!NOTE]
 >
