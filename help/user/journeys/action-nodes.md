@@ -4,22 +4,16 @@ description: 계정 및 사용자 작업에 대한 작업 노드 구성 - 이메
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2319
 ht-degree: 3%
 
 ---
@@ -42,6 +36,7 @@ ht-degree: 3%
 | [!UICONTROL 대상에 활성화] | 대상 선택 |
 | [!UICONTROL 여정에 계정 추가] | 라이브 계정 여정 선택 |
 | [!UICONTROL 계정 목록에 추가] | 라이브 정적 계정 목록 선택 |
+| [!UICONTROL 대상에서 비활성화] | 기존 가상 대상 선택<br/>대상 선택 |
 | [!UICONTROL 여정에서 계정 제거] | 라이브 계정 여정 선택 |
 | [!UICONTROL 계정 목록에서 제거] | 라이브 정적 계정 목록 선택 |
 | [!UICONTROL 판매 알림 보내기] | 솔루션 관심 항목 선택<br/>전자 메일 보내기 |
@@ -71,13 +66,19 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-### LinkedIn 대상에 활성화
+### 대상을 활성화하거나 대상에서 비활성화 {#activate-deactivate-destination}
 
 _대상에 활성화_ 액션을 사용하여 여정에서 직접 Experience Platform 대상에 계정을 활성화합니다. 이 작업을 통해 구매 그룹 필터, 참여 점수 및 기타 기준에 따라 자격을 갖춘 계정을 지원되는 대상의 일치하는 대상자에게 푸시할 수 있습니다.
 
-2025.10 릴리스부터 **_LinkedIn_**&#x200B;은(는) 지원되는 첫 번째 대상 유형입니다. LinkedIn 대상에 대한 작업을 사용하여 다중 시스템 핸드오프를 제거하고 지연을 줄여 캠페인 실행을 간소화합니다. 예를 들어 마케터는 주요 구매 역할이 누락된 경우 재타겟팅을 위해 LinkedIn에 대한 고의도의 계정을 자동으로 활성화하거나 비활성 필터를 기반으로 휴면 계정을 다시 활성화할 수 있습니다.
+이 작업을 나중에 같은 여정에서 _대상에서 비활성화_ 작업과 연결하여 계정을 전환하거나 더 이상 자격이 없는 경우 타깃팅 계정을 중지할 수 있습니다.
 
-LinkedIn 대상에 대해 계정 일치 대상을 사용하는 방법에 대한 자세한 내용은 [LinkedIn 계정 일치 대상](../data/linkedin-account-matched-audiences.md)을 참조하십시오.
+>[!NOTE]
+>
+>2025.10 릴리스부터 **_LinkedIn_**&#x200B;은(는) 지원되는 첫 번째 대상 유형입니다. LinkedIn 대상에 대한 작업을 사용하여 다중 시스템 핸드오프를 제거하고 지연을 줄여 캠페인 실행을 간소화합니다. 예를 들어 마케터는 주요 구매 역할이 누락된 경우 재타겟팅을 위해 LinkedIn에 대한 고의도의 계정을 자동으로 활성화하거나 비활성 필터를 기반으로 휴면 계정을 다시 활성화할 수 있습니다.
+>
+>LinkedIn 대상에 대해 계정 일치 대상을 사용하는 방법에 대한 자세한 내용은 [LinkedIn 계정 일치 대상](../data/linkedin-account-matched-audiences.md)을 참조하십시오.
+
+대상 노드에 활성화 추가(_O):_
 
 1. 여정 캔버스에서 _작업 수행_ 노드를 선택한 상태에서 **[!UICONTROL 계정에 대한 작업]**&#x200B;을(를) **[!UICONTROL 대상에 활성화]**(으)로 설정하십시오.
 
@@ -93,11 +94,23 @@ LinkedIn 대상에 대해 계정 일치 대상을 사용하는 방법에 대한 
 
    ![여정 노드 - 계정에서 작업 수행 - 대상에 활성화 - 완료된 설정](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+대상 노드 :_에서 비활성화 추가(_T)
+
+1. 여정 캔버스에서 _작업 수행_ 노드를 선택한 상태에서 **[!UICONTROL 계정에 대한 작업]**&#x200B;을(를) **[!UICONTROL 대상에서 비활성화]**(으)로 설정합니다.
+
+   ![여정 노드 - 계정에 대해 동작 수행 - 대상 메뉴에서 비활성화](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. **[!UICONTROL 가상 대상]**&#x200B;에서 **[!UICONTROL 기존 가상 대상 선택]**&#x200B;을 클릭하고 대상에서 제거할 계정의 가상 대상을 선택하십시오.
+
+1. **[!UICONTROL 대상에서 비활성화]**&#x200B;에서 **[!UICONTROL 대상 선택]**&#x200B;을(를) 클릭하고 계정을 제거할 대상을 선택하십시오.
+
+   _대상에서 비활성화_ 노드를 구성하면 선택한 가상 대상과 대상이 표시됩니다.
+
 >[!ENDSHADEBOX]
 
 ## 사용자 작업 {#people-actions}
 
-계정 또는 사용자 여정에서 노드 경로의 모든 사용자에게 변경 사항을 적용하려면 사용자에 대한 작업을 사용하십시오. 계정 여정의 경우 _사용자별 분할 경로_ 또는 _계정별 분할 경로_&#x200B;에서 이 노드 유형을 사용할 수 있습니다.
+계정 또는 사용자 여정에서 노드 경로의 모든 사용자에게 변경 사항을 적용하려면 사용자에 대한 작업을 사용하십시오. 계정 여정의 경우 _사람별 분할 경로_ 또는 _계정별 분할 경로_ 노드 내에서 이 노드 유형을 사용할 수 있습니다.
 
 ### 작업 및 제한 {#people-action-constraints}
 
@@ -163,7 +176,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 이 사람 기반 작업을 선택하면 새 외부 대상을 만들거나 기존 외부 대상 목록에서 선택할 수 있습니다.
 
 * 기존 대상의 경우 [!DNL Journey Optimizer B2B Edition]에서만 만들어진 외부 고객 대상 중에서 선택할 수 있습니다.
-* 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 [!DNL Experience Platform] 설명서에서 [새 대상 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} 및 [활성화 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}를 참조하십시오.
+* 대상을 만들고 이 여정 작업에 사용할 때는 대상을 연결해야 합니다. 자세한 내용은 [!DNL Experience Platform] 설명서에서 [새 대상 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} 및 [활성화 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}를 참조하십시오.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [유료 미디어 오케스트레이션에 대한 비디오 개요 보기](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -209,7 +222,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++[!UICONTROL 점수 변경]
 
-이 작업을 사용하여 Marketo Engage에서 개인 점수를 변경합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+이 작업을 사용하여 Marketo Engage에서 개인 점수를 변경합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![동작 수행 - 점수 변경](./assets/node-action-change-score.png){width="300"}
 
@@ -251,7 +264,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 +++[!UICONTROL 전자 메일 보내기]
 
-이 작업을 사용하여 이메일을 보냅니다. 노드에 대해 [전자 메일을 만들고](../content/add-email.md#add-an-email-action-node-in-a-journey)한 후에는 전자 메일 디자인 공간에서 전자 메일 메시지를 디자인하고, 개인화하고, 미리 볼 수 있습니다([전자 메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
+이 작업을 사용하여 이메일을 보냅니다. 노드에 대해 [전자 메일을 만들고](../content/add-email.md#add-an-email-action-node-in-a-journey)한 후에는 전자 메일 디자인 공간에서 전자 메일 메시지를 디자인하고, 개인화하고, 미리 볼 수 있습니다([전자 메일 작성](../content/email-authoring.md) 참조). Marketo Engage에서 [전자 메일](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}을 보낼 수도 있습니다. Marketo Engage 작업 영역을 선택한 다음 전송할 이메일을 선택합니다.
 
 ![작업 수행 - 전자 메일 보내기](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -287,7 +300,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 >[!NOTE]
 >
->_[!UICONTROL 사용자 프로필 업데이트]_&#x200B;가 현재 Journey Optimizer B2B edition 릴리스의 _[!UICONTROL 데이터 값 변경]_ 작업을 대체합니다.<br/>
+>_[!UICONTROL 사용자 프로필 업데이트]_ 작업은 현재 Journey Optimizer B2B edition 릴리스의 _[!UICONTROL 데이터 값 변경]_ 작업을 대체합니다.<br/>
 >
 >관리자는 _[!UICONTROL XDM 구성]_ > [!UICONTROL 표준 클래스]의 필드를 업데이트하여 XDM 개별 프로필에 사용할 수 있는 특성을 구성할 수 있습니다. 자세한 내용은 [표준 스키마](../admin/xdm-field-management.md#standard-schemas)를 참조하십시오.
 
@@ -295,7 +308,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 ### Marketo Engage 작업
 
-Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의 계정 기반 마케팅 오케스트레이션과 Marketo Engage에서의 리드 기반 마케팅 노력을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십을 오케스트레이션하고 캠페인을 요청합니다.
+[!DNL Marketo Engage]명의 사용자 기반 작업은 [!DNL Journey Optimizer B2B Edition]의 Account-Based Marketing 오케스트레이션과 Marketo Engage의 리드 기반 마케팅 활동을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십을 오케스트레이션하고 캠페인을 요청합니다.
 
 >[!NOTE]
 >
@@ -305,7 +318,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo 요청 캠페인에 추가]
 
-연결된 Marketo Engage 인스턴스의 [요청 캠페인](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하려면 이 작업을 사용하십시오.
+연결된 Marketo Engage 인스턴스의 [요청 캠페인](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}에 사용자 프로필을 추가하려면 이 작업을 사용하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 요청 캠페인 이름을 선택합니다.
 
@@ -315,7 +328,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo 목록에 추가]
 
-연결된 Marketo Engage 인스턴스의 [정적 목록](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에 사용자를 추가하려면 이 작업을 사용하십시오.
+연결된 Marketo Engage 인스턴스의 [정적 목록](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에 사용자를 추가하려면 이 작업을 사용하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 목록 이름을 선택합니다.
 
@@ -325,7 +338,7 @@ Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의
 
 +++[!UICONTROL Marketo 목록에서 제거]
 
-Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에서 사용자를 제거하려면 이 작업을 사용하십시오.
+Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}에서 사용자를 제거하려면 이 작업을 사용하십시오.
 
 먼저 연결된 Marketo Engage 인스턴스를 선택합니다. 그런 다음 목록 이름을 선택합니다.
 
@@ -335,4 +348,4 @@ Marketo Engage의 [정적 목록](https://experienceleague.adobe.com/ko/docs/mar
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443252/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
