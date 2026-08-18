@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 이 새로운 기능은 전체 이메일을 생성하거나 이메일 구조 구성 요소 내에서 타겟팅할 수 있도록 프롬프트 기반의 콘텐츠 생성을 제공합니다. 이미지의 경우 입력 브랜드 에셋의 이미지 카탈로그 내에서 새 이미지 에셋을 생성하거나 권장 사항을 생성할 수 있습니다. 또한 이 기능을 사용하여 이메일 열람률에 영향을 주는 최적의 제목 줄과 사전 헤더를 생성할 수 있습니다.
 
->[!IMPORTANT]
+>[!PREREQUISITES]
 >
 >Adobe Journey Optimizer B2B edition에서 이러한 기능에 액세스하려면 _[!UICONTROL AI Assistant]_ > _[!UICONTROL 콘텐츠 생성]_ 권한이 있어야 합니다. 제품 관리자가 기능 권한을 부여하는 방법에 대한 자세한 내용은 [제품 권한에 대한 역할 편집](../admin/user-management.md#edit-roles-for-product-permissions)을 참조하십시오.
 
