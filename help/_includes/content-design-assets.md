@@ -1,9 +1,9 @@
 ---
 title: 콘텐츠 작성 - 에셋
 description: 콘텐츠 작성에 에셋 사용에 대한 재사용 섹션
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '197'
 ht-degree: 4%
 
 ---
@@ -24,4 +24,4 @@ ht-degree: 4%
 
   ![원본 라이브러리에서 자산 선택](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-소스 유형에서 에셋을 사용하는 방법에 대한 자세한 내용은 [콘텐츠 작성에 에셋 사용](../user/content/assets-overview.md#use-assets-for-content-authoring)을 참조하십시오.
+소스 유형에서 에셋을 사용하는 방법에 대한 자세한 내용은 [콘텐츠 작성에 에셋 사용](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)을 참조하십시오.

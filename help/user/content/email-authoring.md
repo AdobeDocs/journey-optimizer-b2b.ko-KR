@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 이 작업은 이메일 디자인 도구를 실행하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
 
-* 시각적 디자인 인터페이스를 사용하여 [이메일을 처음부터 디자인하기](#design-your-email-from-scratch).
+* 시각적 디자인 인터페이스를 사용하여 [이메일을 처음부터 디자인하기](#design-from-scratch).
 
 * 파일이나 .zip 폴더의 [기존 HTML 콘텐츠를 가져옵니다](#import-existing-html-content).
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 1. [링크 검토 및 업데이트](#edit-linked-url-tracking).
 
-1. [이메일을 테스트합니다](#check-and-test-the-email).
+1. [이메일을 테스트합니다](#email-testing).
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
