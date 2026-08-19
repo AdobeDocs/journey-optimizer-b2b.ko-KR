@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. 편집기에 CSS 코드를 입력합니다.
 
-   사용자 지정 CSS가 올바르고 적절한 구문을 따르는지 확인하십시오. 입력한 CSS가 올바르지 않으면 오류 메시지가 표시되고 CSS를 저장할 수 없습니다. 자세한 내용은 [CSS 유효성](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity)을 참조하세요.
+   사용자 지정 CSS가 올바르고 적절한 구문을 따르는지 확인하십시오. 입력한 CSS가 올바르지 않으면 오류 메시지가 표시되고 CSS를 저장할 수 없습니다. 자세한 내용은 [CSS 유효성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity)을 참조하세요.
 
 1. 사용자 지정 CSS를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   사용자 지정 스타일 시트가 기존 콘텐츠에 적용됩니다. 사용자 지정 CSS가 필요에 따라 적용되는지 확인할 수 있습니다. 스타일 시트 응용 프로그램을 변경하고 조정하는 방법에 대한 자세한 내용은 [문제 해결](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting)을 참조하십시오.
+   사용자 지정 스타일 시트가 기존 콘텐츠에 적용됩니다. 사용자 지정 CSS가 필요에 따라 적용되는지 확인할 수 있습니다. 스타일 시트 응용 프로그램을 변경하고 조정하는 방법에 대한 자세한 내용은 [문제 해결](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting)을 참조하십시오.
 
 >[!NOTE]
 >

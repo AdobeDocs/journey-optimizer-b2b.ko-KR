@@ -14,7 +14,7 @@ Journey Optimizer B2B edition에서는 중괄호 `{{}}`로 묶은 개인화된 �
 
 예를 들어 개인화 식을 `Hello {{lead.firstName}} {{lead.lastName}}`(으)로 추가할 수 있습니다. 콘텐츠를 처리할 때 Journey Optimizer B2B edition은 표현식을 Experience Platform 데이터베이스에 포함된 데이터로 대체합니다. 첫 번째 예제는 _Hello John Doe_&#x200B;입니다.
 
-Journey Optimizer B2B edition의 개인화 도구 사용에 대한 자세한 내용은 [콘텐츠 개인화](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/personalization/personalization)를 참조하십시오.
+Journey Optimizer B2B edition의 개인화 도구 사용에 대한 자세한 내용은 [콘텐츠 개인화](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/personalization/personalization)를 참조하십시오.
 
 >[!NOTE]
 >

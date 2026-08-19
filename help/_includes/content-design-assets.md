@@ -24,4 +24,4 @@ ht-degree: 4%
 
   ![원본 라이브러리에서 자산 선택](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-소스 유형에서 에셋을 사용하는 방법에 대한 자세한 내용은 [콘텐츠 작성에 에셋 사용](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)을 참조하십시오.
+소스 유형에서 에셋을 사용하는 방법에 대한 자세한 내용은 [콘텐츠 작성에 에셋 사용](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)을 참조하십시오.
