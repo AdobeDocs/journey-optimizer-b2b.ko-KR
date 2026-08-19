@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2319
 ht-degree: 3%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 3%
 | [!UICONTROL 대상에 활성화] | 대상 선택 |
 | [!UICONTROL 여정에 계정 추가] | 라이브 계정 여정 선택 |
 | [!UICONTROL 계정 목록에 추가] | 라이브 정적 계정 목록 선택 |
+| [!UICONTROL 대상에서 비활성화] | 기존 가상 대상 선택<br/>대상 선택 |
 | [!UICONTROL 여정에서 계정 제거] | 라이브 계정 여정 선택 |
 | [!UICONTROL 계정 목록에서 제거] | 라이브 정적 계정 목록 선택 |
 | [!UICONTROL 판매 알림 보내기] | 솔루션 관심 항목 선택<br/>전자 메일 보내기 |
@@ -71,13 +72,19 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-### LinkedIn 대상에 활성화
+### 대상을 활성화하거나 대상에서 비활성화 {#activate-deactivate-destination}
 
 _대상에 활성화_ 액션을 사용하여 여정에서 직접 Experience Platform 대상에 계정을 활성화합니다. 이 작업을 통해 구매 그룹 필터, 참여 점수 및 기타 기준에 따라 자격을 갖춘 계정을 지원되는 대상의 일치하는 대상자에게 푸시할 수 있습니다.
 
-2025.10 릴리스부터 **_LinkedIn_**&#x200B;은(는) 지원되는 첫 번째 대상 유형입니다. LinkedIn 대상에 대한 작업을 사용하여 다중 시스템 핸드오프를 제거하고 지연을 줄여 캠페인 실행을 간소화합니다. 예를 들어 마케터는 주요 구매 역할이 누락된 경우 재타겟팅을 위해 LinkedIn에 대한 고의도의 계정을 자동으로 활성화하거나 비활성 필터를 기반으로 휴면 계정을 다시 활성화할 수 있습니다.
+이 작업을 나중에 같은 여정에서 _대상에서 비활성화_ 작업과 연결하여 계정을 전환하거나 더 이상 자격이 없는 경우 타깃팅 계정을 중지할 수 있습니다.
 
-LinkedIn 대상에 대해 계정 일치 대상을 사용하는 방법에 대한 자세한 내용은 [LinkedIn 계정 일치 대상](../data/linkedin-account-matched-audiences.md)을 참조하십시오.
+>[!NOTE]
+>
+>2025.10 릴리스부터 **_LinkedIn_**&#x200B;은(는) 지원되는 첫 번째 대상 유형입니다. LinkedIn 대상에 대한 작업을 사용하여 다중 시스템 핸드오프를 제거하고 지연을 줄여 캠페인 실행을 간소화합니다. 예를 들어 마케터는 주요 구매 역할이 누락된 경우 재타겟팅을 위해 LinkedIn에 대한 고의도의 계정을 자동으로 활성화하거나 비활성 필터를 기반으로 휴면 계정을 다시 활성화할 수 있습니다.
+>
+>LinkedIn 대상에 대해 계정 일치 대상을 사용하는 방법에 대한 자세한 내용은 [LinkedIn 계정 일치 대상](../data/linkedin-account-matched-audiences.md)을 참조하십시오.
+
+대상 노드에 활성화 추가(_O):_
 
 1. 여정 캔버스에서 _작업 수행_ 노드를 선택한 상태에서 **[!UICONTROL 계정에 대한 작업]**&#x200B;을(를) **[!UICONTROL 대상에 활성화]**(으)로 설정하십시오.
 
@@ -93,11 +100,23 @@ LinkedIn 대상에 대해 계정 일치 대상을 사용하는 방법에 대한 
 
    ![여정 노드 - 계정에서 작업 수행 - 대상에 활성화 - 완료된 설정](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+대상 노드 :_에서 비활성화 추가(_T)
+
+1. 여정 캔버스에서 _작업 수행_ 노드를 선택한 상태에서 **[!UICONTROL 계정에 대한 작업]**&#x200B;을(를) **[!UICONTROL 대상에서 비활성화]**(으)로 설정합니다.
+
+   ![여정 노드 - 계정에 대해 동작 수행 - 대상 메뉴에서 비활성화](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. **[!UICONTROL 가상 대상]**&#x200B;에서 **[!UICONTROL 기존 가상 대상 선택]**&#x200B;을 클릭하고 대상에서 제거할 계정의 가상 대상을 선택하십시오.
+
+1. **[!UICONTROL 대상에서 비활성화]**&#x200B;에서 **[!UICONTROL 대상 선택]**&#x200B;을(를) 클릭하고 계정을 제거할 대상을 선택하십시오.
+
+   _대상에서 비활성화_ 노드를 구성하면 선택한 가상 대상과 대상이 표시됩니다.
+
 >[!ENDSHADEBOX]
 
 ## 사용자 작업 {#people-actions}
 
-계정 또는 사용자 여정에서 노드 경로의 모든 사용자에게 변경 사항을 적용하려면 사용자에 대한 작업을 사용하십시오. 계정 여정의 경우 _사용자별 분할 경로_ 또는 _계정별 분할 경로_&#x200B;에서 이 노드 유형을 사용할 수 있습니다.
+계정 또는 사용자 여정에서 노드 경로의 모든 사용자에게 변경 사항을 적용하려면 사용자에 대한 작업을 사용하십시오. 계정 여정의 경우 _사람별 분할 경로_ 또는 _계정별 분할 경로_ 노드 내에서 이 노드 유형을 사용할 수 있습니다.
 
 ### 작업 및 제한 {#people-action-constraints}
 
@@ -287,7 +306,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 >[!NOTE]
 >
->_[!UICONTROL 사용자 프로필 업데이트]_&#x200B;가 현재 Journey Optimizer B2B edition 릴리스의 _[!UICONTROL 데이터 값 변경]_ 작업을 대체합니다.<br/>
+>_[!UICONTROL 사용자 프로필 업데이트]_ 작업은 현재 Journey Optimizer B2B edition 릴리스의 _[!UICONTROL 데이터 값 변경]_ 작업을 대체합니다.<br/>
 >
 >관리자는 _[!UICONTROL XDM 구성]_ > [!UICONTROL 표준 클래스]의 필드를 업데이트하여 XDM 개별 프로필에 사용할 수 있는 특성을 구성할 수 있습니다. 자세한 내용은 [표준 스키마](../admin/xdm-field-management.md#standard-schemas)를 참조하십시오.
 
@@ -295,7 +314,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 ### Marketo Engage 작업
 
-Marketo Engage 사용자 기반 작업은 Journey Optimizer B2B edition에서의 계정 기반 마케팅 오케스트레이션과 Marketo Engage에서의 리드 기반 마케팅 노력을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십을 오케스트레이션하고 캠페인을 요청합니다.
+[!DNL Marketo Engage]명의 사용자 기반 작업은 [!DNL Journey Optimizer B2B Edition]의 Account-Based Marketing 오케스트레이션과 Marketo Engage의 리드 기반 마케팅 활동을 조정하도록 설계되었습니다. 이러한 작업을 사용하여 목록 멤버십을 오케스트레이션하고 캠페인을 요청합니다.
 
 >[!NOTE]
 >
