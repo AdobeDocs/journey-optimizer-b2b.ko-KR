@@ -4,10 +4,17 @@ description: 시각적 디자인 도구, HTML 가져오기 또는 템플릿을 �
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
 source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
@@ -23,7 +30,7 @@ ht-degree: 2%
 
 오른쪽 패널의 _[!UICONTROL 세부 정보]_ 탭에서 **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
-![전자 메일 콘텐츠 편집 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
+![전자 메일 콘텐츠 편집 &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
 
 이 작업은 이메일 디자인 도구를 실행하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
 
