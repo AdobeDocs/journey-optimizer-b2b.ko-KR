@@ -4,20 +4,13 @@ description: 시각적 디자인 도구, HTML 가져오기 또는 템플릿을 �
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 2%
@@ -30,11 +23,11 @@ ht-degree: 2%
 
 오른쪽 패널의 _[!UICONTROL 세부 정보]_ 탭에서 **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
-![전자 메일 콘텐츠 편집 &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
+![전자 메일 콘텐츠 편집 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
 
 이 작업은 이메일 디자인 도구를 실행하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
 
-* 시각적 디자인 인터페이스를 사용하여 [이메일을 처음부터 디자인하기](#design-your-email-from-scratch).
+* 시각적 디자인 인터페이스를 사용하여 [이메일을 처음부터 디자인하기](#design-from-scratch).
 
 * 파일이나 .zip 폴더의 [기존 HTML 콘텐츠를 가져옵니다](#import-existing-html-content).
 
@@ -62,7 +55,7 @@ ht-degree: 2%
 
 1. [링크 검토 및 업데이트](#edit-linked-url-tracking).
 
-1. [이메일을 테스트합니다](#check-and-test-the-email).
+1. [이메일을 테스트합니다](#email-testing).
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
