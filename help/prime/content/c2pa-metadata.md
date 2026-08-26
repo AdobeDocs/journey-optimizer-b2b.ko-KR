@@ -6,20 +6,13 @@ role: User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 제한된 베타 릴리스의 일부입니다."
 autotag-review: '2026-07-31T22:31:06.899Z'
 TQID: 'https://experienceleague.adobe.com/fBPnAmupve3xMSw5fZPQBDTUfr-rwiH2-R3wbKvox-E'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d0e408a3684289460bae729577870fc698c70a60
 workflow-type: tm+mt
-source-wordcount: 559
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -39,6 +32,8 @@ ht-degree: 0%
 자산 내역에 대한 포괄적인 정보를 보려면 Adobe Content Authenticity [검사 도구](https://contentauthenticity.adobe.com/inspect)를 사용할 수 있습니다.
 
 C2PA 메타데이터는 이미지 파일과 함께 유지됩니다. 생성 AI로 생성 또는 편집한 이미지를 [!DNL Adobe Journey Optimizer B2B Prime]에 업로드하거나 내보내면 해당 C2PA 메타데이터가 유지됩니다.
+
+Adobe CX 엔터프라이즈 애플리케이션 전반에 걸쳐 C2PA 메타데이터를 자동으로 첨부하는 방법에 대한 자세한 내용은 CX 엔터프라이즈 안내서의 [_생성 AI 콘텐츠 투명도_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
