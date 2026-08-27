@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
+source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 87%
+source-wordcount: '458'
+ht-degree: 86%
 
 ---
 
@@ -27,16 +27,15 @@ ht-degree: 87%
     + [사용자 관리](./admin/user-management.md)
   + [사용자 온보딩](./start/get-started.md)
   + [로그인 및 홈 페이지](home-page.md)
-+ AI 어시스턴트 {#ai-assistant}
++ AI 기능 {#ai-assistant}
   + [개요](./ai-assistant/ai-assistant-overview.md)
   + [AI 어시스턴트 액세스 활성화](./ai-assistant/enable-ai-assistant-access.md)
   + [질문 지침](./ai-assistant/question-guidance.md)
-  + [AI 어시스턴트 사용](./ai-assistant/use-ai-assistant.md)
+  + [채팅 인터페이스](./ai-assistant/use-ai-assistant.md)
   + [콘텐츠용 생성형 AI](./ai-assistant/generative-ai-content.md)
   + 상담원 {#ai-agents}
     + [Audience Agent](./agents/audience-agent-b2b.md)
     + [Journey Agent](./agents/journey-agent.md)
-    + [영업 구분자](./agents/sales-qualifier.md)
 + 여정 관리 {#journeys}
   + [계정 및 개인 여정](./journeys/journeys-overview.md)
   + [여정 생성 및 게시](./journeys/create-publish-journey.md)

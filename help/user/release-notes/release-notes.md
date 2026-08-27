@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
+source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
 workflow-type: tm+mt
-source-wordcount: 5628
+source-wordcount: 5635
 ht-degree: 61%
 
 ---
@@ -148,13 +148,13 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 ## 에이전틱 AI 기능 {#rel-agents}
 
-이제 AI 어시스턴트 인터페이스 내에서 Journey Optimizer B2B Edition에 다음과 같은 에이전틱 AI 기능을 사용할 수 있습니다.
+이제 채팅 인터페이스 내에서 Journey Optimizer B2B edition에 다음과 같은 아젠틱 AI 기능을 사용할 수 있습니다.
 
 | 에이전트 | 업데이트 | 설명 |
 | ----- | ------ | ----------- |
 | 여정 빌드 에이전트 | 신규 및 업데이트됨 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
 | Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
-| 영업 구분자 | 신규 용어 | Sales Qualifier은 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B edition에 대한 AI 기반 추가 기능 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸친 잠재 고객 검증, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](../agents/sales-qualifier.md) |
+| 영업 구분자 | 신규 용어 | Sales Qualifier은 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B edition에 대한 AI 기반 추가 기능 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸친 잠재 고객 검증, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 릴리스 정보 {#rel-2025-10}
 

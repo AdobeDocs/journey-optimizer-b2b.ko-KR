@@ -1,7 +1,7 @@
 ---
 title: Adobe Journey Optimizer B2B Prime 설명서
 description: Journey Optimizer B2B Prime에 대한 전체 설명서 - 온보딩, AI 기반 마케팅 자동화, 개인 여정 및 대상자 관리에 사용할 수 있는 리소스를 살펴봅니다.
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한적으로 베타 출시되었습니다"
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
 product_v2:
@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 62dd893ae6ef8351f6fc7d9301bc3bd1a722b2ed
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 190
-ht-degree: 13%
+source-wordcount: 436
+ht-degree: 5%
 
 ---
 
@@ -93,7 +93,7 @@ Sales Qualifier
 
 Qualify prospects with AI, run outbound workflows, and connect CRM tasks with BDR activities.
 
-[Learn about Sales Qualifier](./sales-qualifier/sales-qualifier.md)
+[Learn about Sales Qualifier](https://experienceleague.adobe.com/ko/docs/sales-qualifier/using/home){target="_blank"}
 :::
 
 :::

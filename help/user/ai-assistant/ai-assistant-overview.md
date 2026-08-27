@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizer B2B edition의 AI 지원
+title: Journey Optimizer B2B edition의 AI 기능
 description: AI 어시스턴트를 사용하여 워크플로 가속화 - Journey Optimizer B2B Edition 제품 지식, 문제 해결 도움말 및 운영 인사이트를 얻을 수 있습니다.
 feature: AI Assistant
 role: User, Admin
@@ -21,20 +21,20 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 1300
+source-wordcount: 1385
 ht-degree: 8%
 
 ---
 
-# Journey Optimizer B2B edition의 AI 지원
+# Journey Optimizer B2B edition의 AI 기능
 
-Journey Optimizer B2B edition의 AI 도우미는 Adobe Experience Platform의 [AI 도우미](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}와 동일한 기술 기반에서 만들어집니다. Adobe Journey Optimizer B2B edition에서 워크플로를 가속화하는 데 사용할 수 있는 대화형 경험입니다. AI Assistant를 사용하여 제품 기능을 보다 깊이 이해하고, 문제를 해결하거나, 정보를 검색하고, Journey Optimizer B2B edition에 대한 운영 통찰력을 찾을 수 있습니다.
+Adobe Journey Optimizer B2B edition의 채팅 인터페이스는 Adobe Experience Platform의 [AI Assistant](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}와 동일한 기술 기반에서 구동됩니다. Journey Optimizer B2B edition에서 워크플로를 가속화하는 데 사용할 수 있는 대화형 경험입니다. 채팅 인터페이스를 사용하여 제품 기능을 더 잘 이해하거나 문제를 해결하거나 정보를 검색하고 Journey Optimizer B2B edition에 대한 운영 통찰력을 찾을 수 있습니다. 이 인터페이스를 사용하여 [Journey Agent](../agents/journey-agent.md) 및 [Audience Agent](../agents/audience-agent-b2b.md)을 호출할 수도 있습니다.
 
 >[!IMPORTANT]
 >
->Journey Optimizer B2B edition에서 AI 도우미를 사용하려면 [사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 이 계약에는 추가 AI Assistant 기능이 베타 용량으로 롤아웃될 때 사용할 수 있도록 공개 베타 계약도 포함되어 있습니다.
+>Journey Optimizer B2B edition에서 AI 도우미를 사용하려면 [사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 이 계약에는 추가 AI Assistant 기능을 사용할 수 있도록 공개 베타 계약도 포함되어 있습니다.
 
 +++사용자 계약 인터페이스 보기
 
@@ -44,11 +44,21 @@ Journey Optimizer B2B edition의 AI 도우미는 Adobe Experience Platform의 [A
 
 +++
 
+>[!BEGINSHADEBOX]
+
+## 영업 구분자
+
+Sales Qualifier은 Journey Optimizer B2B edition과 함께 사용할 수 있는 AI 기반 애플리케이션입니다. Account Qualification Agent을 구현하고 BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. Sales Qualifier은 채널 전반에서 잠재 고객 자격, 지원 및 구매자 참여 워크플로우를 자동화합니다. 엔터프라이즈 B2B 기업의 수동 BDR 로드를 줄이고 파이프라인 속도를 가속화합니다.
+
+자세한 내용은 [Sales Qualifier 설명서](https://experienceleague.adobe.com/ko/docs/sales-qualifier/using/home){target="_blank"}를 참조하세요.
+
+>[!ENDSHADEBOX]
+
 ## Journey Optimizer B2B edition의 AI Assistant 기능
 
-제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터의 내부 표현이며, 지정된 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 컬렉션인 _&#x200B;**_지식 그래프_**&#x200B;_&#x200B;라고도 합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
+제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터인 _&#x200B;**지식 그래프**&#x200B;_&#x200B;의 내부 표현이며 주어진 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 컬렉션을 제공합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
 
-* Experience League 설명서입니다.
+* Adobe Experience League 설명서.
 * 스키마, 필드, 대상 및 여정 등 운영 객체
 
 AI Assistant 쿼리를 제출하기 전에 필요한 조회 유형을 고려하십시오.
@@ -78,17 +88,17 @@ _운영 인사이트_&#x200B;는 AI Assistant가 메타데이터 개체(특성, 
 | 속성/필드 | <li>속성 이름 검색 <li>속성 - 스키마 관계 <li>속성 - 데이터 세트 관계 <li>속성 - 대상 관계 <li>속성 - 대상 관계 | <li>Attribute 클래스 <li>감사 <li>사용 중단 상태 <li>레이블 <li>속성에 저장된 값 |
 | 계정 대상 <br><br>**_Note:_** Journey Optimizer B2B edition 컨텍스트에서 AI Assistant는 계정 대상에 대한 대상 질문에만 답할 수 있습니다. Experience Platform 컨텍스트에서 AI Assistant는 개인 대상에 대해서만 질문에 답변할 수 있습니다. | <li>대상자 수 <li>대상자 유형(스트리밍 또는 일괄 처리) <li>생성/수정 날짜 <li>활성화 상태 <li>구성원 수 <li>중복 대상자 <li>이름 및 ID 검색 | <li>대상자 오버랩 <li>대상자 활성화 <li>감사 <li>만들기/수정 <li>레이블 <li>멤버 자격 트렌드 |
 | 데이터 흐름 | <li>데이터 흐름 카운트 <li>데이터 흐름 상태 <li>데이터 흐름 - 데이터 세트 관계 <li>데이터 흐름 - 소스 관계 | <li>생성/수정 <li>데이터 흐름 일괄 처리 관계 <li>프로필 개수 수집 |
-| 데이터 세트 | <li>데이터 세트 수 <li>프로필 활성화 상태 <li>생성/수정 날짜 <li>데이터 세트 - 스키마 관계 <li>데이터 세트 - 대상 관계 <li>데이터 세트 - 속성 관계 <li>데이터 세트 - 데이터 흐름 관계 <li>이름 검색 <li>이름 및 ID 검색 | <li>감사 <li>제작자 <li>데이터 세트 - 일괄 처리 관계 <li>데이터 세트 생성/수정 <li>데이터 세트 크기 <li>프로필 수 <li>행 수 <li>값 검색 |
+| 데이터 세트 | <li>데이터 세트 수 <li>프로필 활성화 상태 <li>생성/수정 날짜 <li>데이터 세트 - 스키마 관계 <li>데이터 세트 - 대상 관계 <li>데이터 세트 - 속성 관계 <li>데이터 세트 - 데이터 흐름 관계 <li>이름 검색 <li>이름 및 ID 검색 | <li>감사 <li>생성한 사람 <li>데이터 세트 - 일괄 처리 관계 <li>데이터 세트 생성/수정 <li>데이터 세트 크기 <li>프로필 수 <li>행 수 <li>값 검색 |
 | 대상 | <li>구성된 대상 카운트 <li>대상 - 대상 관계 <li>대상 속성 관계 | <li>계정 설정 <li>계정 자격 증명 정보 <li>고유 프로필 활성화됨 |
 | 여정(계정 여정) | <li>계수 <li>이름 및 ID 검색 <li>여정 상태 <li>생성/수정 날짜 | <li>속성 - 여정 관계 감사 <li>생성/수정 <li>제작자 |
-| 스키마 | <li>스키마 카운트 <li>생성/수정 날짜 <li>스키마 - 속성 관계 <li>스키마 - 데이터 세트 관계 <li>스키마 - 대상 관계 <li>프로필 활성화 상태 <li>이름 검색 <li>이름 및 ID 검색 | <li>감사 <li>생성/수정 <li>제작자 <li>필드 그룹 <li>ID <li>ID 네임스페이스 <li>레이블 <li>프로필 수 |
+| 스키마 | <li>스키마 카운트 <li>생성/수정 날짜 <li>스키마 - 속성 관계 <li>스키마 - 데이터 세트 관계 <li>스키마 - 대상 관계 <li>프로필 활성화 상태 <li>이름 검색 <li>이름 및 ID 검색 | <li>감사 <li>생성/수정 <li>생성한 사람 <li>필드 그룹 <li>ID <li>ID 네임스페이스 <li>레이블 <li>프로필 수 |
 | 소스 | <li>계정 수 <li>계정 상태 <li>각 계정에 대한 활성/비활성 데이터 흐름 <li>Source 커넥터 - 데이터 흐름 관계 <li>Source 계정 - 데이터 흐름 관계 | <li>계정 자격 증명 정보 <li>계정 설정데이터 수집 지표 <li>프로필 수소스 - 배치 관계 |
 | 구매 그룹 템플릿 | <li>카운트 <li>상태 <li>역할 <li>이름 및 ID 검색 | <li>역할 규칙 |
 | 솔루션 관심 분야 | <li>카운트 <li>상태 <li>솔루션 관심사 - 구매 그룹 템플릿 관계 <li>이름 및 ID 검색 | <li>솔루션 관심사 - 구매 그룹 관계 |
 
 {style="table-layout:fixed"}
 
-운영 통찰력 질문에 대한 답변이 UI의 현재 상태를 반영하지 않을 수 있습니다. 이러한 질문을 뒷받침하는 데이터는 24시간마다 한 번씩 업데이트됩니다. 예를 들어 사용자가 낮에 Real-Time CDP에서 수행하는 변경 사항은 밤에 데이터 스토어와 동기화된 다음 아침에 사용자 질문에 대해 사용할 수 있게 됩니다. 샌드박스에 로그인하여 객체와 관련된 특정 데이터를 조회합니다.
+운영 통찰력 질문에 대한 답변이 UI의 현재 상태를 반영하지 않을 수 있습니다. 이러한 질문을 뒷받침하는 데이터는 24시간마다 한 번씩 업데이트됩니다. 예를 들어 사용자가 낮에 Real-Time CDP에서 수행하는 변경 사항은 밤에 데이터 스토어와 동기화된 다음 아침에 사용자 질문에 대해 사용할 수 있게 됩니다. 객체와 관련된 특정 데이터를 조회하려면 샌드박스에 로그인합니다.
 
 ### 기능 범위
 
@@ -108,9 +118,9 @@ Journey Optimizer B2B edition의 AI Assistant는 개인 정보, 보안 및 거�
 
 * AI Assistant와 상호 작용하려면 명시적인 권한이 있어야 합니다.
 
-   * 관리자는 [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} 및 [Admin Console](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/browse){target="_blank"}을 사용하여 권한을 설정할 수 있습니다.
+  * 관리자는 [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} 및 [Admin Console](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/browse){target="_blank"}을 사용하여 권한을 설정할 수 있습니다.
 
-   * 권한은 세분화되며 샌드박스 관리자는 다양한 질문 카테고리(AI Assistant를 통한 제품 지식 기반 질문 또는 운영 통찰력에 대한 질문)를 물을 수 있는 사용자를 구성할 수 있습니다.
+  * 권한은 세분화되며 샌드박스 관리자는 다양한 질문 카테고리(AI Assistant를 통한 제품 지식 기반 질문 또는 운영 통찰력에 대한 질문)를 물을 수 있는 사용자를 구성할 수 있습니다.
 
 * AI Assistant와의 이전 상호 작용에 대한 30일 로그를 볼 수 있습니다.
 
@@ -132,7 +142,7 @@ AI Assistant는 Adobe 제품 지식 쿼리를 처리할 수 있으며 운영 객
 
 **AI 관리자가 고객 데이터에 대한 정보를 제공할 수 있습니까?**
 
-아니요. AI Assistant는 고객 데이터에 액세스할 수 없으므로 보거나 사용하지 않습니다.
+아니요. AI Assistant는 고객 데이터에 액세스할 수 없으므로 액세스하거나 사용할 수 없습니다.
 
 **AI Assistant의 교육 데이터에 내 개인 정보가 사용됩니까?**
 
