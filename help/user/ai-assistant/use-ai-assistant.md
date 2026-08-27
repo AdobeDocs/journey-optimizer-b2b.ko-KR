@@ -7,35 +7,28 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 970
+source-wordcount: 954
 ht-degree: 1%
 
 ---
 
-# Journey Optimizer B2B edition에서 AI Assistant 사용
+# 채팅 인터페이스 사용
 
-Journey Optimizer B2B edition에서 AI Assistant는 제품 개념을 이해하고, 제품 기능을 빠르게 탐색 및 학습하며, 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Experience Cloud의 여러 제품에서도 사용할 수 있습니다.
+Journey Optimizer B2B edition에서 AI Assistant는 제품 개념을 이해하고, 제품 기능을 빠르게 탐색하고 학습하며, 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 채팅 인터페이스를 제공합니다. Adobe Experience Cloud의 여러 제품에서도 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->AI Assistant를 사용하려면 Adobe Experience Cloud 생성 AI 사용자 지침에 대한 동의가 필요합니다. 이 계약 및 사용 지침에 대한 자세한 내용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)을 참조하십시오.
+>AI Assistant를 사용하려면 Adobe Experience Cloud 생성 AI 사용자 지침에 대한 동의가 필요합니다. 이 계약 및 사용 지침에 대한 자세한 내용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)을 참조하십시오.
 
-AI Assistant에 액세스하려면 헤더에서 아이콘을 클릭합니다. AI Assistant가 오른쪽 패널에서 열립니다.
+채팅 인터페이스에 액세스하려면 헤더에서 아이콘을 클릭합니다.
 
 ![아이콘을 클릭하여 AI Assistant에 액세스합니다](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -67,7 +60,7 @@ Adobe Journey Optimizer B2B edition에서 AI Assistant는 다음과 같은 사�
 
 ## 운영 통찰력 질문
 
-Operational insights 질문은 조직 샌드박스의 여정 개체에 대한 것입니다. 계정 대상자, 여정, 솔루션 관심사 및 구매 그룹 템플릿과 같은 운영 객체에 대한 질문을 할 수 있습니다. Operational Insights 질문 또는 프롬프트의 몇 가지 예는 다음과 같습니다.
+Operational insights 질문은 조직 샌드박스의 여정 개체에 대한 것입니다. 대상, 여정, 솔루션 관심사 및 구매 그룹 템플릿과 같은 운영 아티팩트에 대해 질문할 수 있습니다. Operational Insights 질문 또는 프롬프트의 몇 가지 예는 다음과 같습니다.
 
 * Adobe Journey Optimizer B2B edition에는 라이브 여정이 몇 개 있습니까?
 * 모든 예약된 여정 목록 제공
@@ -93,7 +86,7 @@ AI Assistant에서 전체 테이블을 보려면 _최대화_( ![최대화 아이
 
 ## 응답 확인
 
-AI Assistant에는 응답을 확인하고 검증하는 데 사용할 수 있는 도구가 포함되어 있습니다.
+채팅 인터페이스에는 응답을 확인하고 확인하는 데 사용할 수 있는 도구가 포함되어 있습니다.
 
 ### 제품 지식 소스
 

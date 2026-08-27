@@ -1,22 +1,16 @@
 ---
 title: 채팅 인터페이스
 description: Journey Optimizer B2B Prime의 AI Assistant 채팅 패널을 사용하여 자연어 또는 슬래시(/) 메뉴를 사용하여 프로그램, 여정 및 목록을 빌드합니다.
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한적으로 베타 출시되었습니다"
 autotag-review: '2026-06-12T22:46:23.441Z'
 TQID: 'https://experienceleague.adobe.com/XyBLmqv63kNBcw-Jo4hKvUKIn2la7kac7-kTbNEU5aE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a30218bb-f80a-4410-8ac4-b039e99a15b4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: 955
 ht-degree: 1%
 
 ---
@@ -38,6 +32,16 @@ ht-degree: 1%
 
 * 메시지를 추가하고 **Enter**&#x200B;을 눌러 보내세요(**Shift+Enter**&#x200B;이(가) 새 행을 삽입합니다).
 * _첨부_ 아이콘을 사용하여 파일을 첨부합니다(지원되는 형식: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). CSV 및 스프레드시트 업로드를 사용하여 리드 가져오기를 시작합니다.
+
+>[!BEGINSHADEBOX]
+
+## 영업 구분자
+
+Sales Qualifier은 Journey Optimizer B2B Prime과 함께 사용할 수 있는 AI 기반 애플리케이션입니다. Account Qualification Agent을 구현하고 BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. Sales Qualifier은 채널 전반에서 잠재 고객 자격, 지원 및 구매자 참여 워크플로우를 자동화합니다. 엔터프라이즈 B2B 기업의 수동 BDR 로드를 줄이고 파이프라인 속도를 가속화합니다.
+
+자세한 내용은 [Sales Qualifier 설명서](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}를 참조하세요.
+
+>[!ENDSHADEBOX]
 
 ## AI 지원에 문의
 
