@@ -4,11 +4,17 @@ description: 여정의 이메일 전송 작업 노드의 경우 Journey Optimize
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
 source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
@@ -32,7 +38,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 계정 여정을 통해 고�
 
 [여정에 _[!UICONTROL 작업 추가]_ 노드 추가](../journeys/action-nodes.md)하고 다음을 수행하면 노드에서 전자 메일 게재를 설정할 수 있습니다.
 
-1. _(계정 여정 전용)_ ]_대상에 대한_[!UICONTROL  Action의 경우 **[!UICONTROL 사용자]**&#x200B;를 선택하세요.
+1. _(계정 여정 전용)_ _대상에 대한_ Action의 경우 **[!UICONTROL 사용자]**&#x200B;를 선택하세요.
 
 1. 작업에 대해 **[!UICONTROL 전자 메일 보내기]**&#x200B;를 선택하세요.
 
