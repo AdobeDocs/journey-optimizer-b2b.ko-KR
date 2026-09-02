@@ -1,9 +1,9 @@
 ---
 title: 스니펫
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 2%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->의도 데이터는 Journey Optimizer B2B edition 인스턴스에 대해 구성될 때 포함됩니다. 또한 하나 이상의 게시된 여정 **또는**&#x200B;이(가) 구매 그룹을 만들어야 합니다. Intent Detection 모델 및 키워드, 제품 및 범주를 제출하는 방법에 대한 자세한 내용은 [Intent Data](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)를 참조하십시오.
+>의도 데이터는 Journey Optimizer B2B edition 인스턴스에 대해 구성될 때 포함됩니다. 또한 하나 이상의 게시된 여정 **또는**&#x200B;이(가) 구매 그룹을 만들어야 합니다. Intent Detection 모델 및 키워드, 제품 및 범주를 제출하는 방법에 대한 자세한 내용은 [Intent Data](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)를 참조하십시오.
 
 ## AEM Assets 라이선스 노트 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 센터에 문의하십시오.<br/>
+>AEM Assets as a Cloud Service 및 Dynamic Media 라이선스는 통합을 위한 필수 요건입니다. [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}이(가) 활성화되어 있는지 확인하십시오. 통합은 _게재 계층_&#x200B;의 저장소로 제한됩니다. _작성자 계층_&#x200B;을 사용하고 이 계층을 변환하려면 Adobe Experience Manager 지원 센터에 문의하십시오.<br/>
 >계약 및 구성에 따라 시각적 컨텐츠를 디자인할 때 Adobe Experience Manager Assets as a Cloud Service에서 Adobe Journey Optimizer B2B edition에 직접 액세스할 수 있습니다.
 
 ## 콘텐츠 작성 - 구성 요소 - 구조 단계 {#structures-step}
@@ -213,9 +213,9 @@ _[!UICONTROL 스타일]_ 탭을 선택한 오른쪽 패널에서 **[!UICONTROL �
 
   ![글꼴 색상 선택기](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## 컨텐츠 - 이미지 선택 - Marketo DAM {#me-dam}
+## 콘텐츠 - 이미지 선택 - 내부 DAM {#internal-dam}
 
-Journey Optimizer B2B edition 라이브러리 또는 연결된 Market Engage 인스턴스에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택합니다.
+Journey Optimizer B2B edition 라이브러리에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오.
 
 ![사용 가능한 이미지 자산 찾아보기](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -231,7 +231,7 @@ Journey Optimizer B2B edition 라이브러리 또는 연결된 Market Engage 인
 
 ## 컨텐츠 - 이미지 선택 - AEM Assets {#aem-assets-dam}
 
-[구성된 Experience Manage Assets 저장소](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오.
+[구성된 Experience Manage Assets 저장소](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오.
 
 _[!UICONTROL Assets 선택]_ 대화 상자에서 사용 가능한 도구를 사용하여 이미지를 선택하여 필요한 에셋을 찾은 다음 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
@@ -259,7 +259,7 @@ _[!UICONTROL Assets 선택]_ 대화 상자에서 사용 가능한 도구를 사�
 
 _[!UICONTROL 이미지 업로드]_ 대화 상자에서 시스템의 파일을 파일 상자로 끌어서 놓습니다. 최대 파일 크기는 100MB입니다.
 
-![이미지 파일을 &#x200B;](../user/content/assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
+![이미지 파일을 ](../user/content/assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
 
 선택한 이미지의 파일 이름이 대화 상자에 표시됩니다. 에셋 파일 이름은 폴더 간에 고유해야 하며 이름의 파일이 이미 있는 경우 메시지가 표시됩니다. 이름에는 최대 100자를 사용할 수 있으며 특수 문자(예: `;`, `:`, `\` 및 `|`)를 사용할 수 없습니다.
 

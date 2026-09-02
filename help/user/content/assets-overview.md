@@ -4,22 +4,17 @@ description: 이메일, 템플릿 및 조각에 대한 Journey Optimizer B2B edi
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 61%
+source-wordcount: 848
+ht-degree: 62%
 
 ---
 
@@ -35,7 +30,7 @@ ht-degree: 61%
 
 ### 내부 자산
 
-내부 에셋 저장소는 기본적으로 [!DNL Journey Optimizer B2B Edition] 구독마다 제공됩니다. 즉, 연결된 [!DNL Adobe Marketo Engage] 자산 파일 시스템에 저장된 이미지 자산에 액세스할 수 있습니다. 이 저장소를 로컬 자산 라이브러리로 사용할 수 있으며, 자산 업로드 및 다운로드 기능도 제공됩니다. 이들 자산을 여정 콘텐츠에도 사용할 수 있습니다.
+내부 에셋 저장소는 기본적으로 [!DNL Journey Optimizer B2B Edition] 구독마다 제공됩니다. 이 저장소를 로컬 자산 라이브러리로 사용할 수 있으며, 자산 업로드 및 다운로드 기능도 제공됩니다. 이들 자산을 여정 콘텐츠에도 사용할 수 있습니다.
 
 [Adobe Express을 사용하여 이러한 에셋을 편집](./image-edit-adobe-express.md)하고 폴더로 이동하여 이메일, 템플릿 및 조각에서 사용할 수 있도록 구성할 수 있습니다.
 
@@ -57,7 +52,7 @@ ht-degree: 61%
 
 ## 자산을 사용하여 콘텐츠 작성
 
-자산을 사용하여 이메일, 이메일 템플릿 및 시각적 조각을 작성할 수 있습니다. 시각적 콘텐츠 편집기에서 연결된 자산 저장소의 이미지에 액세스할 수 있습니다. Experience Manager Assets as a Cloud Service에 대한 구독이 있는 경우 두 소스 중 하나에서 이미지 에셋을 선택할 수 있습니다. 이미지 에셋을 업로드하여 내부 에셋 저장소에 배치할 수도 있습니다.
+이메일, 이메일 템플릿 및 시각적 조각을 작성할 때 에셋을 사용하십시오. 시각적 콘텐츠 편집기에서 연결된 자산 저장소의 이미지에 액세스할 수 있습니다. Experience Manager Assets as a Cloud Service에 대한 구독이 있는 경우 두 소스 중 하나에서 이미지 에셋을 선택할 수 있습니다. 이미지 에셋을 업로드하여 내부 에셋 저장소에 배치할 수도 있습니다.
 
 이미지 구성 요소의 설정을 편집할 때 이미지 소스를 선택할 수도 있고, 캔버스에서 직접 이미지 소스를 선택할 수도 있습니다.
 
@@ -73,7 +68,7 @@ ht-degree: 61%
 
   ![도구 모음을 사용하여 이미지 구성 요소에 대한 이미지 파일을 선택할 소스 선택](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-콘텐츠를 작성할 때 이미지 자산 소스에 따라 이미지 자산을 추가할 수 있습니다. 구조 구성 요소의 배경 설정에서 이미지 자산을 선택할 수도 있습니다.
+콘텐츠를 작성할 때 이미지 에셋 소스에 따라 이미지 에셋을 추가할 수 있습니다. 구조 구성 요소의 배경 설정에서 이미지 에셋을 선택할 수도 있습니다.
 
 >[!BEGINTABS]
 
