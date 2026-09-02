@@ -154,7 +154,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ----- | ------ | ----------- |
 | 여정 빌드 에이전트 | 신규 및 업데이트됨 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
 | Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
-| 영업 구분자 | 신규 용어 | Sales Qualifier은 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B edition에 대한 AI 기반 추가 기능 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸친 잠재 고객 검증, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
+| 영업 구분자 | 신규 용어 | Sales Qualifier은 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B edition에 대한 AI 기반 추가 기능 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸친 잠재 고객 검증, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 릴리스 정보 {#rel-2025-10}
 
