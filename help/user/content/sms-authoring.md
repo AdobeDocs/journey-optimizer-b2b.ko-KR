@@ -6,25 +6,15 @@ role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 1207
+source-wordcount: 1251
 ht-degree: 3%
 
 ---
@@ -95,33 +85,29 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 1. 메시지 텍스트를 입력한 후 텍스트 메시지 상자 오른쪽에 있는 _링크_ 아이콘(![링크 아이콘](../assets/do-not-localize/icon-link.svg))을 클릭합니다.
 
-1. 링크의 **[!UICONTROL URL]**&#x200B;을(를) 입력하십시오.
-
-
 1. 대화 상자에서 연결할 URL 유형을 선택합니다.
 
    * **[!UICONTROL 랜딩 페이지]** - 게시된 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오.
 
-   * **[!UICONTROL 외부 URL]** - 이 형식은 텍스트 상자에 입력하는 모든 외부 URL입니다.
+   * **[!UICONTROL 외부 URL]** - 외부 URL을 연결하려면 이 옵션을 선택하십시오. 링크의 **[!UICONTROL URL]**&#x200B;을(를) 입력하십시오.
+
+     ![SMS 메시지에 링크 대화 상자 추가](./assets/sms-add-link-dialog.png){width="470"}
+
+1. (선택 사항) 추적 옵션을 설정합니다.
+
+   * **[!UICONTROL 링크 추적 사용]** - 이 확인란을 선택하여 추적을 사용하도록 설정합니다. 이렇게 하려면 URL을 _단축_&#x200B;해야 합니다. 단축된 URL 형식의 샘플이 표시됩니다. 실제 URL은 SMS가 수신자에게 전송될 때 만들어집니다.
+
+   * **[!UICONTROL 잠재 고객 추적 사용]** - 이 확인란을 선택하여 사용자에 대한 활동을 추적합니다.</br>
 
 <!--
-
-1. If you choose to use a Marketo Engage landing page, set the tracking options.
-
-   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
-
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
-
       >[!NOTE] 
       >
-      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
-      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+      >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
-![SMS 메시지에 링크 대화 상자 추가](./assets/sms-add-link-dialog.png){width="470"}
-
-1. 링크 옵션이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 변경 내용을 저장하고 SMS 메시지에 URL 링크를 추가합니다.
+1. 링크 옵션이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 SMS 메시지에 URL 링크를 추가합니다.
 
 ### SMS 속성 설정 {#sms-properties}
 
@@ -183,7 +169,7 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 ## SMS 동의 관리 {#consent-management}
 
-수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하고 이러한 선택을 준수하는 것은 법적 요구 사항입니다. 이러한 규정을 준수하지 않으면 브랜드에 대한 법적 위험이 발생합니다. 이 함수를 사용하면 원하지 않는 커뮤니케이션을 수신자에게 보내지 않습니다. 이렇게 하면 메시지가 스팸으로 표시되지 않고 사용자의 평판을 손상시킬 수 있습니다.
+수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하고 이러한 선택을 준수하는 것은 법적 요구 사항입니다. 이러한 규정을 준수하지 않으면 브랜드에 대한 법적 위험이 발생합니다. 이 함수를 사용하면 원하지 않는 커뮤니케이션을 수신자에게 보내지 않습니다. 이렇게 하면 메시지가 스팸으로 표시되지 않고 평판이 손상되지 않습니다.
 
 이 옵션을 제공하면 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. 모든 표준 옵트인 및 옵트아웃 키워드는 SMS 서비스 공급자로 구성된 모든 사용자 지정 키워드와 마찬가지로 지원 및 적용됩니다. 구독을 취소하면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.
 
