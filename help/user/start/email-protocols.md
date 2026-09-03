@@ -18,22 +18,18 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 2333
-ht-degree: 81%
+source-wordcount: 2303
+ht-degree: 79%
 
 ---
 
 # 이메일 추적 및 게재 설정
 
-Adobe Journey Optimizer B2B edition은 연결된 Marketo Engage 인스턴스의 이메일 채널 기능 및 이벤트 추적을 활용합니다. 일부 조직에서는 제한적 방화벽 또는 프록시 서버 설정을 사용합니다. 이러한 조직에서 이메일 전달이 예상대로 작동하도록 하려면 시스템 관리자가 허용 목록에 특정 도메인 및 IP 주소 범위를 추가해야 합니다.
+Adobe Journey Optimizer B2B Edition은 연결된 Marketo Engage 인스턴스의 이메일 채널 기능 및 이벤트 추적을 활용합니다. 일부 조직에서는 제한적 방화벽 또는 프록시 서버 설정을 사용합니다. 이러한 조직에서 이메일 전달이 예상대로 작동하도록 하려면 시스템 관리자가 특정 도메인과 IP 주소 범위를 허용 목록에 추가하다에 추가해야 합니다.
 
->[!NOTE]
->
->조직에서 이미 연결된 Marketo Engage 인스턴스를 사용하여 마케팅 작업을 실행하는 경우 이러한 프로토콜 및 구성이 이미 준비되었습니다.
-
-모든 Marketo Engage 리소스 및 웹 소켓을 활성화하려면 허용 목록에 다음 도메인(별표 포함)을 추가해야 합니다.
+모든 Marketo Engage 리소스와 웹 소켓을 활성화하려면 다음 도메인(별표 포함)을 허용 목록에 추가해야 합니다.
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -55,9 +51,9 @@ Adobe Journey Optimizer B2B edition은 연결된 Marketo Engage 인스턴스의 
 
 ## 랜딩 페이지 및 이메일에 대한 DNS 레코드 만들기
 
-CNAME 레코드를 연결하면 마케터는 일관된 브랜딩을 적용하여 이메일, 랜딩 페이지, 블로그의 웹 버전을 호스팅할 수 있어 트래픽과 전환율이 향상됩니다. 마케팅에 중점을 둔 웹 자산을 호스팅하려면 Marketo Engage의 루트 도메인 호스트에 CNAME을 추가하는 것이 좋습니다.
+CNAME 레코드를 구성하면 마케터가 일관된 브랜딩으로 트래픽 및 전환을 개선하여 이메일, 랜딩 페이지 및 블로그의 웹 버전을 호스팅할 수 있습니다. Marketo Engage가 마케팅 중심 웹 에셋을 호스팅할 수 있도록 루트 도메인 호스트에 CNAME을 추가하는 것이 좋습니다.
 
-두 개의 CNAME 레코드를 계획 및 구현하려면 마케팅 팀과 관리자로 협력합니다. 첫 번째는 랜딩 페이지 URL용으로서, 랜딩 페이지는 Adobe Marketo Engage(실제 호스트)가 아니라 도메인을 반영하는 URL에 표시됩니다. 두 번째는 Marketo Engage을 통해 전송된 이메일에 포함된 추적 링크에 대한 것입니다.
+두 개의 CNAME 레코드를 계획 및 구현하려면 마케팅 팀과 관리자로 협력합니다. 첫 번째는 랜딩 페이지 URL용으로서, 랜딩 페이지는 Adobe Marketo Engage(실제 호스트)가 아니라 도메인을 반영하는 URL에 표시됩니다. 두 번째는 Marketo Engage를 통해 전송된 이메일에 포함된 추적 링크에 대한 것입니다.
 
 ### 랜딩 페이지에 대한 CNAME 추가
 
@@ -91,7 +87,7 @@ SSL 인증서 프로비전 프로세스를 시작하려면 [Adobe 지원 센터]
 
 마케팅 팀은 DNS 리소스 레코드에 추가할 DKIM(Domain Keys Identified Mail) 정보를 제공해야 합니다. DKIM 및 SPF(Sender Policy Framework)를 구성하려면 다음 단계를 수행한 다음 업데이트되면 마케팅 팀에 알립니다.
 
-프로덕션 Marketo Engage 인스턴스 및 첨부된 Journey Optimizer B2B edition 인스턴스에 대해 동일한 DKIM 구성을 사용할 수 있습니다. 첨부된 인스턴스에서 Marketo Engage 인스턴스와 정확히 동일한 도메인을 만듭니다. 선택기와 암호화 값은 일치하지 않아도 됩니다. 도메인이 Journey Optimizer B2B edition 인스턴스에 추가되면 Adobe 지원 티켓을 열어 Marketo Engage 인스턴스에서 새 인스턴스로 DKIM 구성을 공유하도록 요청합니다. Marketo Engage 접두사(Munchkin ID)와 새 Journey Optimizer B2B edition 접두사(Munchkin ID)를 입력합니다.
+프로덕션 Marketo Engage 인스턴스 및 첨부된 Journey Optimizer B2B Edition 인스턴스에 대해 동일한 DKIM 구성을 사용할 수 있습니다. 첨부된 인스턴스에서 Marketo Engage 인스턴스와 정확히 동일한 도메인을 만듭니다. 선택기와 암호화 값은 일치하지 않아도 됩니다. 도메인이 Journey Optimizer B2B edition 인스턴스에 추가되면 Adobe 지원 티켓을 열어 Marketo Engage 인스턴스에서 새 인스턴스로 DKIM 구성을 공유하도록 요청합니다. Marketo Engage 접두사(Munchkin ID)와 새 Journey Optimizer B2B Edition 접두사(Munchkin ID)를 입력합니다.
 
 1. SPF를 설정하려면 DNS 항목에 다음 줄을 추가합니다.
 
@@ -120,7 +116,7 @@ SSL 인증서 프로비전 프로세스를 시작하려면 [Adobe 지원 센터]
 
 ## DMARC 설정
 
-DMARC(도메인 기반 메시지 인증, 보고 및 적합성)는 무단 사용으로부터 도메인을 보호하기 위해 조직에서 사용하는 인증 프로토콜입니다. SPF 및 DKIM과 같은 기존 인증 프로토콜을 확장하여 도메인에서 인증 실패가 발생할 경우 취해야 할 액션을 수신 서버에 알립니다. DMARC은 선택 사항이지만 브랜드와 평판을 보호하는 데 도움이 되므로 적극 권장합니다. Google 및 Yahoo와 같은 주요 제공업체는 2024년 2월부터 대량 발신자에게 DMARC 사용을 의무화하기 시작했습니다.
+DMARC(도메인 기반 메시지 인증, 보고 및 적합성)는 무단 사용으로부터 도메인을 보호하기 위해 조직에서 사용하는 인증 프로토콜입니다. SPF 및 DKIM과 같은 기존 인증 프로토콜을 확장하여 도메인에서 인증 실패가 발생할 경우 취해야 할 조치를 수신자 서버에 알립니다. DMARC은 선택 사항이지만 브랜드와 평판을 보호하는 데 도움이 되므로 사용하는 것이 좋습니다. Google 및 Yahoo와 같은 주요 제공업체는 2024년 2월부터 대량 발신자에게 DMARC 사용을 의무화하기 시작했습니다.
 
 DMARC가 작동하려면 다음 DNS TXT 레코드 중 하나 이상이 있어야 합니다.
 
@@ -137,7 +133,7 @@ DMARC가 작동하려면 다음 DNS TXT 레코드 중 하나 이상이 있어야
 
 DMARC 보고서를 받으면 다음 작업을 수행하십시오.
 
-1. `p=none`을 사용하여 받은 피드백과 보고서를 분석합니다. 보고서는 수신자에게 인증에 실패한 메시지에 대해 아무런 액션을 취하지 말 것을 지시하고, 발신자에게 이메일 보고서를 보냅니다.
+1. `p=none`을 사용하여 받은 피드백과 보고서를 분석합니다. 이 보고서는 수신자에게 인증에 실패한 메시지에 대해 아무 작업도 수행하지 않고 전자 메일 보고서를 보낸 사람에게 보내도록 지시합니다.
 
    * 정상적인 메시지가 인증에 실패하는 경우 SPF/DKIM 문제를 검토하여 수정합니다.
 
@@ -151,7 +147,7 @@ DMARC 보고서를 받으면 다음 작업을 수행하십시오.
 
 1. `p=quarantine` 수준의 메시지 동작이 만족스러우면 정책을 (`p=reject`)(으)로 조정할 수 있습니다.
 
-   거부 정책은 수신자에게 인증 실패한 도메인의 이메일을 거부(바운스)하라고 지시합니다. 이 정책을 활성화하면 도메인에서 100% 인증된 것으로 확인된 이메일만 받은 편지함을 배치할 수 있습니다.
+   거부 정책은 수신자에게 인증 실패한 도메인의 이메일을 거부(바운스)하라고 지시합니다. 이 정책을 활성화하면 도메인에서 100% 인증된 것으로 확인된 이메일만 받은 편지함에 배치될 가능성이 있습니다.
 
    >[!CAUTION]
    >
@@ -163,7 +159,7 @@ DMARC는 SPF/DKIM에 실패한 이메일에 대한 보고서를 수신할 수 �
 
 * **집계 보고서(RUA)**: GDPR(일반정보보호 규정)에 따라 민감할 수 있는 PII(개인 식별 정보)를 포함하지 않습니다.
 
-* **포렌식 보고서(RUF)** - GDPR에 따라 민감한 이메일 주소를 포함합니다. 이 보고서를 실행하기 전에 GDPR 준수가 필요한 정보를 처리하기 위한 조직 정책을 확인합니다.
+* **포렌식 보고서(RUF)** - GDPR에 따라 민감한 이메일 주소를 포함합니다. 이 보고서를 구현하기 전에 GDPR 준수가 필요한 정보를 처리하기 위한 조직 정책을 확인합니다.
 
 이러한 보고서의 주요 용도는 스푸핑을 시도하는 이메일의 개요를 수신하는 것입니다. 매우 기술적인 보고서이며 서드파티 도구를 통해 가장 잘 분석됩니다.
 
@@ -184,7 +180,7 @@ DMARC 레코드에는 _DMARC 태그_&#x200B;라는 여러 구성 요소가 있�
 | `fo` | 선택 사항입니다 | 도메인 소유자가 보고 옵션을 지정할 수 있습니다. | `0`: SPF와 DKIM 모두 실패하면 보고서 생성 <br> `1` - SPF 또는 DKIM이 실패하면 보고서 생성 <br> `d` - DKIM이 실패하면 보고서 생성 <br> `s` - SPF가 실패하면 보고서 생성 | `1` (DMARC 보고서에 권장됨) |
 | `pct` | 선택 사항입니다 | 필터링 대상 메시지의 비율을 지정합니다. | `pct=20` | `100` |
 | `rua` | 선택 사항 (권장) | 집계 보고서가 게재되는 위치를 지정합니다. | `rua=mailto:aggrep@example.com` | - |
-| `ruf` | 선택 사항 (권장) | 포렌식 보고서가 게재되는 장소를 지정합니다. | `ruf=mailto:authfail@example.com` | - |
+| `ruf` | 선택 사항 (권장) | 포렌식 보고서가 게재되는 위치를 지정합니다. | `ruf=mailto:authfail@example.com` | - |
 | `sp` | 선택 사항입니다 | 상위 도메인의 하위 도메인에 대한 DMARC 정책을 지정합니다. | `sp=reject` | - |
 | `adkim` | 선택 사항입니다 | 엄격한(`s`) 또는 완화된(`r`) 정렬을 지정합니다. 완화된 정렬은 도메인이 DKIM 서명에 사용되고 `From:` 주소의 하위 도메인이 될 수 있음을 의미합니다. 엄격한 정렬은 도메인이 DKIM 서명에 사용되고 `From:` 주소에 사용된 도메인과 정확히 일치해야 함을 의미합니다. | `adkim=r` | `r` |
 | `aspf` | 선택 사항입니다 | 엄격하거나(`s`) 완화될(`r`) 수 있습니다. 완화 모드는 반환 경로 도메인이 `From:` 주소의 하위 도메인이 될 수 있음을 의미합니다. 엄격 모드는 반환 경로 도메인이 `From:` 주소와 정확히 일치해야 함을 의미합니다. | `aspf=r` | `r` |
@@ -199,9 +195,9 @@ DMARC에는 두 가지 유형의 정렬이 있습니다.
 
   DKIM 정렬은 발신자가 도메인에서 메일을 보낼 수 있는 권한이 있는지 확인하고 이메일 전송 중에 콘텐츠가 변경되지 않았는지 확인합니다. DKIM에 정렬된 DMARC를 구현하려면:
 
-   * 메시지의 MAIL FROM 도메인에 대한 DKIM을 설정합니다. Marketo Engage 문서의 [지침](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}을 사용합니다.
+  * 메시지의 MAIL FROM 도메인에 대한 DKIM을 설정합니다. Marketo Engage 문서의 [지침](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}을 사용합니다.
 
-   * DKIM MAIL FROM 도메인에 대해 DMARC를 구성합니다.
+  * DKIM MAIL FROM 도메인에 대해 DMARC를 구성합니다.
 
   >[!NOTE]
   >
@@ -209,12 +205,12 @@ DMARC에는 두 가지 유형의 정렬이 있습니다.
 
 * **SPF**(발신자 정책 프레임워크) 정렬: `From:` 헤더의 도메인은 Return-Path: 헤더의 도메인과 일치해야 합니다. 두 DNS 도메인이 동일하면 SPF가 일치(정렬)되어 통과 결과가 나옵니다. SPF에 정렬된 DMARC를 구현하려면:
 
-   * 브랜드 Return-Path 도메인을 설정합니다.
+  * 브랜드 Return-Path 도메인을 설정합니다.
 
-      * 적절한 SPF 레코드를 구성합니다.
-      * 메일을 보낸 데이터 센터의 기본 MX를 가리키도록 MX 레코드를 변경합니다
+    * 적절한 SPF 레코드를 구성합니다.
+    * 메일을 보내는 데이터 센터의 기본 MX를 가리키려면 MX 레코드를 변경합니다.
 
-   * 브랜드 Return-Path 도메인에 대해 DMARC를 구성합니다.
+  * 브랜드 Return-Path 도메인에 대해 DMARC를 구성합니다.
 
   >[!NOTE]
   >
@@ -228,15 +224,15 @@ Marketo Engage를 통해 전용 IP로 메일을 보내고 브랜드 return-path�
 
 **Journey Optimizer B2B edition으로 전용 IP 마이그레이션**
 
-전용 IP가 있는 경우 기존 Journey Optimizer 인스턴스와 동일한 영역에서 새 Marketo Engage B2B edition 인스턴스를 만들어야 합니다. 새 인스턴스가 다른 지역에 있는 경우 기존 IP를 공유할 수 없습니다. 지역이 일치하는 경우 [Adobe 지원](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support){target="_blank"}에서 티켓을 열고 기존 IP 및 바인딩 그룹을 새 인스턴스와 공유하도록 요청하십시오. Marketo Engage 접두사(Munchkin ID)와 새 Journey Optimizer B2B edition 접두사(Munchkin ID)를 입력합니다.
+전용 IP가 있는 경우 기존 Marketo Engage 인스턴스와 동일한 지역에서 새 Journey Optimizer B2B Edition 인스턴스를 만들어야 합니다. 새 인스턴스가 다른 지역에 있는 경우 기존 IP를 공유할 수 없습니다. 지역이 일치하는 경우 [Adobe 지원](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support){target="_blank"}에서 티켓을 열고 기존 IP 및 바인딩 그룹을 새 인스턴스와 공유하도록 요청하십시오. Marketo Engage 접두사(Munchkin ID)와 새 Journey Optimizer B2B Edition 접두사(Munchkin ID)를 입력합니다.
 
-이 요청을 통해 Adobe은 기존 Marketo Engage 인스턴스와 동일한 IP, 바인딩 그룹 및 구성된 반환 경로 도메인을 복제합니다. IP가 Marketo Engage 및 Journey Optimizer B2B edition 인스턴스 간에 공유되면 동시에 사용됩니다.
+이 요청을 통해 Adobe는 기존 Marketo Engage 인스턴스와 동일한 IP, 바인딩 그룹 및 구성된 반환 경로 도메인을 복제합니다. Marketo Engage 및 Journey Optimizer B2B edition 인스턴스 간에 IP가 공유되면 두 인스턴스 모두 동시에 해당 IP를 사용합니다.
 
 >[!ENDSHADEBOX]
 
-신뢰할 수 있는 IP는 월 75,000건 미만을 보내는 저용량 사용자를 위해 예약된 공유 IP 풀로, 전용 IP에 적합하지 않습니다. 이러한 사용자는 모범 사례 요구 사항도 충족해야 합니다.
+신뢰할 수 있는 IP는 월 75k 미만의 전송 볼륨을 제공하는 저용량 사용자를 위해 예약되고 전용 IP에 대한 요구 사항을 충족하지 않는 IP의 공유 풀입니다. 이러한 사용자는 모범 사례 요구 사항도 충족해야 합니다.
 
-* Marketo Engage를 통해 공유 IP 풀을 사용하여 메일을 보내는 경우, [신뢰할 수 있는 IP 전송 범위 프로그램을 신청](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}하여 신뢰할 수 있는 IP에 적합한지 확인할 수 있습니다. Marketo Engage의 신뢰할 수 있는 IP에서 보내는 경우 브랜드 return-path가 포함됩니다. 이 프로그램에 승인되면 Adobe 지원 센터에 연락하여 브랜드 return-path를 설정합니다.
+* Marketo Engage를 통해 공유 IP 풀을 사용하여 메일을 보내는 경우, [신뢰할 수 있는 IP 전송 범위 프로그램을 신청](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}하여 신뢰할 수 있는 IP에 적합한지 확인할 수 있습니다. Marketo Engage의 신뢰할 수 있는 IP에서 보내는 경우 브랜드 return-path가 포함됩니다. 이 프로그램에 승인되면 브랜드 return-path를 설정하려면 Adobe 지원 센터에 문의하십시오.
 
 * 한 달에 10만 개 이상의 메시지를 보내고 공유 IP를 사용하여 Marketo Engage를 통해 이메일을 보내려는 경우 Adobe 계정 팀(계정 관리자)에 문의하여 전용 IP를 구매하십시오.
 
@@ -244,11 +240,11 @@ Marketo Engage를 통해 전용 IP로 메일을 보내고 브랜드 return-path�
 
 ## 도메인에 대한 MX 레코드 설정
 
-MX 레코드를 사용하면 이메일을 보내는 도메인으로 메일을 수신하여 답장과 자동 응답을 처리할 수 있습니다. 회사 도메인에서 보내는 경우 이미 구성되어 있을 수 있습니다. 그렇지 않은 경우 일반적으로 회사 도메인 MX 레코드에 매핑하도록 설정할 수 있습니다.
+MX 레코드를 사용하면 이메일을 보내는 도메인으로 메일을 수신하여 답장과 자동 응답을 처리할 수 있습니다. 회사 도메인에서 보내는 경우 이미 구성되어 있을 수 있습니다. 그렇지 않은 경우 회사 도메인 MX 레코드에 매핑하도록 설정합니다.
 
 ## 아웃바운드 IP 주소
 
-Marketo Engage이 귀하를 대신하여 인터넷 서버에 아웃바운드 연결을 만듭니다. IT 조직과 일부 파트너/공급업체는 허용 목록을 사용하여 서버에 대한 액세스를 제한할 수 있습니다. 그렇다면 Marketo Engage 아웃바운드 IP 주소 블록을 제공하여 허용 목록에 추가합니다.
+Marketo Engage이 귀하를 대신하여 인터넷 서버에 아웃바운드 연결을 만듭니다. IT 조직과 일부 파트너/공급업체는 허용 목록을 사용하여 서버에 대한 액세스를 제한합니다. 그렇다면 Marketo Engage 아웃바운드 IP 주소 블록을 제공하여 허용 목록에 추가합니다.
 
 <!--
 Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.

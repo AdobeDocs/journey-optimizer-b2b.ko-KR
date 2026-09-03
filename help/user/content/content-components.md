@@ -17,10 +17,10 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 6%
+source-wordcount: 2658
+ht-degree: 8%
 
 ---
 
@@ -564,51 +564,23 @@ HTML 구성 요소의 경우 오른쪽 패널에서 전체 HTML 구성 요소에
 
 [자산 원본 유형](./assets-overview.md)을(를) 선택하고 이미지 파일을 선택하십시오.
 
-* **[!UICONTROL Marketo Engage Assets]** - Journey Optimizer B2B edition 라이브러리 또는 연결된 Marketo Engage 인스턴스에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오.
++++[!UICONTROL 자산 선택]
 
-  ![사용 가능한 이미지 자산 찾아보기](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+{{internal-dam}}
 
-  대화 상자에서 선택한 저장소에서 이미지를 선택할 수 있습니다. 자산을 추가하려면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
++++
 
-  필요한 에셋을 찾는 데 도움이 되는 도구가 있습니다.
++++[!UICONTROL 미디어 가져오기]
 
-  * 조건에 따라 표시된 항목을 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭하십시오.
+{{image-upload}}
 
-  * 표시된 항목을 자산 이름과 일치하도록 필터링하려면 _검색_ 필드에 텍스트를 입력하십시오.
++++
 
-    ![필터 및 검색 필드를 사용하여 필요한 자산을 찾습니다](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
++++[!UICONTROL Experience Manager Assets]
 
-* **[!UICONTROL Experience Manager Assets]** - [구성된 Experience Manage Assets 저장소에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오](../admin/configure-aem-repositories.md).
+{{aem-assets-dam}}
 
-  _[!UICONTROL Assets 선택]_ 대화 상자에서 사용 가능한 도구를 사용하여 이미지를 선택하여 필요한 에셋을 찾은 다음 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
-
-  * 오른쪽 상단에서 **[!UICONTROL 저장소]**&#x200B;를 변경합니다.
-
-  * 오른쪽 상단의 **[!UICONTROL 자산 관리]**&#x200B;를 클릭하여 다른 브라우저 탭에서 Assets 저장소를 열고 AEM Assets 관리 도구를 사용합니다.
-
-  * 표시를 **[!UICONTROL 목록 보기]**, **[!UICONTROL 눈금 보기]**, **[!UICONTROL 갤러리 보기]** 또는 **[!UICONTROL 폭포 보기]**(으)로 변경하려면 오른쪽 상단의 _보기 유형_ 선택기를 클릭하십시오.
-
-  * 오름차순과 내림차순 사이의 정렬 순서를 변경하려면 _정렬 순서_ 아이콘을 클릭하십시오.
-
-    ![Assets 선택 대화 상자에서 도구를 사용하여 이미지 자산을 찾아 선택합니다](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
-
-  * **[!UICONTROL 정렬 기준]** 메뉴 화살표를 클릭하여 정렬 기준을 **[!UICONTROL 이름]**, **[!UICONTROL 크기]** 또는 **[!UICONTROL 수정됨]**(으)로 변경합니다.
-
-  * 조건에 따라 표시된 항목을 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭하십시오.
-
-  * 표시된 항목을 자산 이름과 일치하도록 필터링하려면 _검색_ 필드에 텍스트를 입력하십시오.
-
-  ![필터 및 검색 필드를 사용하여 자산을 찾습니다](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
-
-* **[!UICONTROL 미디어 가져오기]** - 시스템에서 파일을 선택하고 Journey Optimizer B2B edition 자산 라이브러리로 가져오려면 이 유형을 선택하십시오.
-
-  _[!UICONTROL 이미지 업로드]_ 대화 상자에서 시스템의 파일을 파일 상자로 끌어서 놓습니다. 최대 파일 크기는 100MB입니다.
-
-  ![이미지 파일을 &#x200B;](./assets/email-designer-image-upload.png){width="450"}(으)로 가져오기
-
-  선택한 이미지의 파일 이름이 대화 상자에 표시됩니다. 에셋 파일 이름은 폴더 간에 고유해야 하며 이름의 파일이 이미 있는 경우 메시지가 표시됩니다. 이름에는 최대 100자를 사용할 수 있으며 특수 문자(예: `;`, `:`, `\` 및 `|`)를 사용할 수 없습니다.
-
-  **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
++++
 
 오른쪽 패널에서 이미지 제목과 이미지에 대한 대체 텍스트를 추가할 수 있습니다.
 
@@ -705,7 +677,7 @@ _소셜_ 구성 요소를 사용하여 소셜 미디어 페이지에 대한 링�
 소셜 미디어 유형을 선택한 상태에서 해당 유형에 대한 옵션을 설정합니다.
 
 * **[!UICONTROL URL]** - 소셜 미디어 그래픽 또는 아이콘에 연결할 소셜 미디어 URL을 입력합니다.
-* **[!UICONTROL Source]** - 기본값 대신 자신의 이미지를 사용하려면 이미지 자산을 선택하십시오. 연결된 Marketo Engage 에셋 저장소, Experience Manager Assets 저장소(구성된 경우)에서 이미지를 선택하거나 시스템에서 이미지 파일을 가져올 수 있습니다. 이미지 에셋 선택 및 가져오기에 대한 자세한 내용은 [이미지 구성 요소 정보](#add-the-image-asset)를 참조하세요.
+* **[!UICONTROL Source]** - 기본 대신 자신의 이미지를 사용하려면 이미지 자산을 선택하거나 시스템에서 이미지 파일을 가져옵니다. 이미지 에셋 선택 및 가져오기에 대한 자세한 내용은 [이미지 구성 요소 정보](#add-the-image-asset)를 참조하세요.
 * **[!UICONTROL 대체 텍스트]** - 표시된 이미지에 대한 대체 텍스트를 입력합니다.
 
   ![선택한 소셜 미디어 유형에 대한 설정](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -758,8 +730,6 @@ _Social_ 구성 요소에 대해 다음 스타일 옵션을 설정할 수 있습
 
 ### 양식(랜딩 페이지만) {#form}
 
-[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta 기능"}
-
 _Form_ 구성 요소를 사용하여 게시된 양식을 랜딩 페이지 또는 랜딩 페이지 템플릿에 추가하십시오. 양식을 만들고 게시하는 방법에 대한 자세한 내용은 [Forms](./forms.md)을 참조하세요.
 
 1. 구성 요소 도구 모음에서 _양식_ 도구를 클릭하거나 오른쪽의 **[!UICONTROL 양식 포함]** 속성을 사용하여 게시된 양식을 선택합니다.
@@ -772,7 +742,7 @@ _Form_ 구성 요소를 사용하여 게시된 양식을 랜딩 페이지 또는
 
    * **[!UICONTROL 페이지에서 유지]** - 양식을 제출할 때 방문자를 동일한 페이지에 유지하려면 이 옵션을 선택하십시오.
 
-   * **[!UICONTROL 랜딩 페이지]** - 후속 작업으로 Journey Optimizer B2B edition 또는 Marketo Engage 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오.
+   * **[!UICONTROL 랜딩 페이지]** - 후속 작업으로 Journey Optimizer B2B edition 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오.
 
    * **[!UICONTROL 외부 URL]** - URL을 후속 페이지로 지정하려면 이 옵션을 선택하십시오. 방문자가 양식을 제출하면 브라우저가 지정된 URL을 로드합니다.
 

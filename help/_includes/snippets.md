@@ -1,9 +1,9 @@
 ---
 title: 스니펫
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 2%
 
 ---
@@ -213,9 +213,9 @@ _[!UICONTROL 스타일]_ 탭을 선택한 오른쪽 패널에서 **[!UICONTROL �
 
   ![글꼴 색상 선택기](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## 컨텐츠 - 이미지 선택 - Marketo DAM {#me-dam}
+## 콘텐츠 - 이미지 선택 - 내부 DAM {#internal-dam}
 
-Journey Optimizer B2B edition 라이브러리 또는 연결된 Market Engage 인스턴스에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택합니다.
+Journey Optimizer B2B edition 라이브러리에서 이미지 에셋을 찾아보고 선택하려면 이 유형을 선택하십시오.
 
 ![사용 가능한 이미지 자산 찾아보기](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

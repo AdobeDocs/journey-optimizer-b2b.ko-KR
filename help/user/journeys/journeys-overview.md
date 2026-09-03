@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1312
-ht-degree: 46%
+source-wordcount: 1308
+ht-degree: 45%
 
 ---
 
@@ -172,7 +172,7 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 1. 복제 **[!UICONTROL 유형]** 선택:
 
-   * **[!UICONTROL 일부 콘텐츠 복제]** - 이 유형을 사용하면 작성된 이메일이나 SMS 메시지를 제외한 여정의 모든 내용을 복사할 수 있습니다. Marketo Engage 이메일 또는 SMS 메시지를 참조하는 노드는 완전히 그대로 유지됩니다.
+   * **[!UICONTROL 일부 콘텐츠 복제]** - 이 유형을 사용하면 작성된 이메일이나 SMS 메시지를 제외한 여정의 모든 내용을 복사할 수 있습니다. SMS 메시지를 참조하는 노드는 완전히 그대로 유지됩니다.
 
    * **[!UICONTROL 세부 정보 없이 복제]** - 이 형식을 사용하여 노드 구조 및 경로만 복사합니다. 모든 노드 설정 및 경로 조건은 정의되지 않으므로(기본값) 다른 대상, 작업 및 경로 세분화 설정에서 기본 흐름을 다시 사용할 수 있습니다. 모든 _대기_ 노드는 기본값인 5일을 사용합니다.
 

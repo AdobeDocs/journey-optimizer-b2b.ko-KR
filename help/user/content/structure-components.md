@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 1625
+source-wordcount: 1624
 ht-degree: 6%
 
 ---
@@ -135,21 +135,21 @@ _[!UICONTROL 구성 요소]_ 라이브러리의 맨 위에 있는 **[!UICONTROL 
 
 [자산 원본 유형](./assets-overview.md)을(를) 선택하고 이미지 파일을 선택하십시오.
 
-+++[!UICONTROL Marketo Engage 자산]
++++[!UICONTROL 자산 선택]
 
-{{me-dam}}
-
-+++
-
-+++[!UICONTROL Experience Manager Assets]
-
-{{aem-assets-dam}}
+{{internal-dam}}
 
 +++
 
 +++[!UICONTROL 미디어 가져오기]
 
 {{image-upload}}
+
++++
+
++++[!UICONTROL Experience Manager Assets]
+
+{{aem-assets-dam}}
 
 +++
 

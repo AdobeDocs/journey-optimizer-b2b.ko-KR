@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -162,7 +162,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 여정 대상에 활성화 | 새로운 _대상에 활성화_ 회사 계정 액션을 사용하여 개인이 아닌 회사로 직접 활성화합니다. (이 릴리스에서는 LinkedIn 회사로 제한됩니다.) [자세히 알아보기](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 기능 | 여정 대상에 활성화 | 새로운 _대상에 활성화_ 회사 계정 액션을 사용하여 개인이 아닌 회사로 직접 활성화합니다. (이 릴리스에서는 LinkedIn 회사로 제한됩니다.) [자세히 알아보기](../journeys/action-nodes.md#activate-deactivate-destination) |
 | 기능 | 브랜드 테마 | 브랜드 테마를 사용하면 기술 전문가가 아닌 사용자가 이제 표준 템플릿 위에 사용자 지정 스타일을 추가하여 특정 브랜드 및 디자인 언어에 맞는 재사용 가능한 콘텐츠를 만들 수 있습니다. [자세히 알아보기](../content/brand-themes.md) |
 | 기능 | 이메일 템플릿 - 이미지를 HTML으로 변환 | 이제 JPG 또는 PNG 이미지 파일로 저장된 디자인 파일을 사용하여 이메일 템플릿을 자동으로 생성할 수 있습니다. [자세히 알아보기](../content/email-template-image-convert.md) |
 | 기능 | 페르소나 매핑 | 속성 매핑을 통해 계정 구성원과 설정된 페르소나를 매핑합니다. [자세히 알아보기](../admin/persona-mapping.md) |
@@ -254,7 +254,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | CRM 내에서 세부 정보 페이지 액세스 | 이제 Salesforce 또는 Microsoft Dynamics와 같은 고객 관계 관리(CRM) 도구에서 계정, 연락처 및 리드에 대한 Journey Optimizer B2B Edition 세부 정보 페이지로 직접 연결되는 링크를 구성할 수 있습니다. [자세히 알아보기](../accounts/crm-linking.md) |
 | 기능 | 콘텐츠 디자인을 위한 사용자 정의 CSS 지원 | 이제 디자인 공간에서 이메일 및 랜딩 페이지 콘텐츠를 작성할 때 사용자 정의 CSS를 추가할 수 있습니다. [자세히 알아보기](../content/design-custom-css.md) |
 | 기능 | 의도 키워드 매핑 구성 | 이제 관리자는 의도 감지 모델을 활성화하고 관리하기 위해 스프레드시트를 업로드하여 의도 데이터 매핑 카테고리를 정의할 수 있습니다. [자세히 알아보기](../admin/intent-data.md) |
-| 개선 사항 | 이메일 요약에서 콘텐츠 시뮬레이션 | 이제 이메일 목록에서 이메일을 열 때 이메일 요약(세부 정보 및 속성)에서 _콘텐츠 시뮬레이션_ 도구에 액세스할 수 있습니다. 이 액세스는 이메일 디자인 공간에 추가됩니다. [자세히 알아보기](../content/email-simulate-content.md#display-the-email-preview) |
+| 개선 사항 | 이메일 요약에서 콘텐츠 시뮬레이션 | 이제 이메일 목록에서 이메일을 열 때 이메일 요약(세부 정보 및 속성)에서 _콘텐츠 시뮬레이션_ 도구에 액세스할 수 있습니다. 이 액세스는 이메일 디자인 공간에 추가됩니다. [자세히 알아보기](../content/email-simulate-content.md#display-preview) |
 | 개선 사항 | 역할 템플릿 목록에 총 개수 표시 | _[!UICONTROL 역할 템플릿]_ 목록 페이지에 검색 창 옆에 총 개수 표시 기능이 추가되어 향상되었습니다. |
 
 ## 2025.5 릴리스 정보 {#rel-2025-5}
@@ -280,7 +280,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | 계정 목록 | 이제 업계, 위치 또는 회사 규모와 같은 정의된 기준에 따라 지정된 계정을 타기팅하기 위해 정적 또는 동적 계정 목록을 만들 수 있습니다. <a href="../accounts/account-lists.md">자세히 알아보기</a> |
 | 기능 | 계정 목록 여정 오케스트레이션 | 여정 작업 노드를 사용하여 정적 계정 목록에 계정을 추가하거나 제거할 수 있습니다. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">자세히 알아보기</a> |
-| 개선 사항 | Marketo Engage에서 여정 멤버십 필터링 | 여정 대상자에 Adobe Journey Optimizer B2B Edition 계정 목록을 사용한 다음 Marketo Engage 스마트 목록에서 _계정 목록 멤버_ 필터를 적용합니다. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">자세히 알아보기</a> |
+| 개선 사항 | Marketo Engage에서 여정 멤버십 필터링 | 여정 대상자에 Adobe Journey Optimizer B2B Edition 계정 목록을 사용한 다음 Marketo Engage 스마트 목록에서 _계정 목록 멤버_ 필터를 적용합니다. |
 | 기능 | 비활동 필터 | 이메일 비활동, 즐거운 순간, 데이터 가치 변화, 방문한 웹 페이지 등을 포함하여 Marketo Engage 캠페인과 프로그램 내의 비활동에 따라 조율되는 여정입니다. |
 | 개선 사항 | 방문한 웹 페이지 필터 | Marketo Engage 캠페인 및 프로그램과 관련된 방문한 웹 페이지의 활동을 기반으로 여정을 조율합니다. |
 | 개선 사항 | 이메일 목록 | 활성 및 초안 이메일의 글로벌 목록을 조회하고, 연관된 계정 여정 전반에 걸쳐 이를 검색, 검토 및 업데이트합니다. <a href="../content/emails-list.md">자세히 알아보기</a> |
