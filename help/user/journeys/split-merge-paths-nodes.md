@@ -288,4 +288,4 @@ _[!UICONTROL 특수 필터]_ 섹션 내에는 구매 그룹에서 개인의 멤�
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443263/?captions=kor&learn=on)
