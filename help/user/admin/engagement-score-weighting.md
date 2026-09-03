@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -58,10 +58,6 @@ ht-degree: 0%
 시스템은 _활동 가중치 모델 1_&#x200B;이라는 초기 참여 점수 모델을 만듭니다. 참여 활동은 표준 및 사용자 지정 Experience Platform 이벤트를 기반으로 합니다. 모든 활동의 가중치는 기본적으로 0입니다.
 
 ![Experience Platform 이벤트에 대한 기본 참여 점수 가중치 모델](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
-
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 사용자 지정 모델을 활성화하면 활성 모델이 _보관됨_ 상태로 변경됩니다. 기본 참여 점수 모델로 되돌리기로 결정한 경우 원래 기본 모델을 복제한 다음 활성화하거나 다른 사용자 정의 모델의 시작점으로 사용할 수 있습니다.
 
@@ -138,14 +134,6 @@ Experience Platform 이벤트에 대한 기본 모델에는 Experience Platform 
 </td>
 </tbody>
 </table>
-
-+++
-
-+++표준 아키텍처를 위한 활동
-
-표준 아키텍처의 기본 모델에는 기본 가중치가 연결된 [!DNL Marketo Engage]개의 추적된 활동이 포함됩니다. 이 모델을 복제할 때 필요에 따라 가중치를 변경할 수 있습니다. 최대 일별 빈도는 변경할 수 없습니다.
-
-{{engagement-activities-me}}
 
 +++
 

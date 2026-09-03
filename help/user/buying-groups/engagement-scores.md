@@ -17,10 +17,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
-ht-degree: 31%
+source-wordcount: 1229
+ht-degree: 30%
 
 ---
 
@@ -116,10 +116,6 @@ ht-degree: 31%
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
 
->[!NOTE]
->
->참여 점수 활동은 개인의 Marketo Engage 활동 로그에 기록됩니다. 연결된 Marketo Engage 인스턴스에서 이 로그에 액세스할 수 있습니다. 자세한 내용은 Marketo Engage 설명서에서 [사용자에 대한 활동 로그 찾기](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}를 참조하십시오.
-
 ## 역할 템플릿 가중치 {#engagement-score-weighting}
 
 >[!CONTEXTUALHELP]
@@ -131,7 +127,7 @@ ht-degree: 31%
 
 ![역할 템플릿에서 각 역할에 대한 가중치 설정](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-각 가중치 수준은 참여 점수를 계산하는 데 사용되는 값으로 변환됩니다.
+각 가중치 수준은 참여 점수를 계산하는 데 사용되는 값으로 변환됩니다:
 
 * [!UICONTROL 매우 사소] = 20
 * [!UICONTROL 사소] = 40
@@ -176,7 +172,7 @@ _[!UICONTROL 매우 중요]_, _[!UICONTROL 중요]_, _[!UICONTROL 보통]_&#x200
 |               |          | 게시물을 다운로드함 | 1 | 2 | 1 + 2 | 3 |
 | **실무자 총점** |         |             |                 |             |      | **17** |
 
-최종 참여 점수는 각 역할 점수에 대한 가중치를 적용하여 계산됩니다.
+최종 참여 점수는 각 역할 점수에 대한 가중치를 적용하여 계산됩니다:
 
 | 역할 | 역할 총점 | 역할 가중치 % | 점수 X 가중치 % |
 |-------------- |---------------- |------------- |---------------- |

@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
 source-wordcount: 5633
 ht-degree: 61%
@@ -328,7 +328,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | Adobe Express 이미지 편집 | Adobe Express 빠른 작업을 사용하면 이미지를 간단히 편집(자르기, 크기 조정 등)하여 콘텐츠를 더욱 세련되게 만들 수 있습니다. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">자세히 알아보기</a>  <p>보다 포괄적인 디자인 도구 세트를 제공하기 위해, 이 통합을 통해 Journey Optimizer B2B Edition에서 전체 Adobe Express 라이선스를 사용할 수 있습니다. 이 설정을 사용하면 로컬 자산 작업 영역에서 전체 Adobe Express 사용자 인터페이스에 액세스할 수 있습니다. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">자세히 알아보기</a> |
 | 기능 | 구매 그룹 역할을 위한 의도 필터 | 의도 키워드를 제출하면 의도 감지 모델이 리드의 활동을 기반으로 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. <a href="../admin/intent-data.md">자세히 알아보기</a> <p>이 의도 데이터는 구매 그룹 역할 조건을 정의하는 데 사용할 수 있습니다. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">자세히 알아보기</a> |
 | 개선 사항 | 여정에서 Marketo Engage 이벤트 지원 | _이벤트 수신_ 여정 노드는 이제 사용자 수준에서 두 개의 Marketo Engage 이벤트를 지원합니다. _웹 페이지 방문_ 및 _양식 작성_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">자세히 알아보기</a> |
-| 개선 사항 | Marketo Engage 스마트 목록을 위한 구매 그룹 필터 | Marketo Engage에서 구매 그룹 필터를 사용하여 스마트 목록을 보고 만들 수 있습니다. 이러한 추가 필터를 사용하면 Journey Optimizer B2B Edition 내의 계정 여정에서 Marketo Engage 캠페인 및 프로그램 전반에 걸쳐 구매 그룹 멤버를 제외하거나 포함할 수 있습니다. <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">자세히 알아보기</a> |
+| 개선 사항 | Marketo Engage 스마트 목록을 위한 구매 그룹 필터 | Marketo Engage에서 구매 그룹 필터를 사용하여 스마트 목록을 보고 만들 수 있습니다. 이러한 추가 필터를 사용하면 Journey Optimizer B2B Edition 내의 계정 여정에서 Marketo Engage 캠페인 및 프로그램 전반에 걸쳐 구매 그룹 멤버를 제외하거나 포함할 수 있습니다. _사용되지 않는 기능_ |
 | 개선 사항 | 여정 및 역할을 위한 Marketo Engage 목록 멤버십 필터 | Journey Optimizer B2B에서는 Marketo Engage 목록 멤버십을 _사용자별 경로 분할_ 노드의 조건으로 설정하여 여정 활동에서 중복을 제거할 수 있습니다. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">자세히 알아보기</a> <p> 구매 그룹 역할 템플릿의 경우 역할 조건으로 목록 멤버십을 사용합니다. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">자세히 알아보기</a> |
 | 개선 사항 | 참여 개요 대시보드 | 이 대시보드는 참여에 대한 포괄적인 보기를 제공하도록 업데이트되었습니다. 여기에는 시간 경과에 따른 스냅샷 원형 차트와 추세를 보여 주는 선형 차트를 통해 계정 및 개별 상호 작용에 대한 실시간 지표가 표시됩니다. <a href="../dashboards/engagement-dashboard.md">자세히 알아보기</a> |
 

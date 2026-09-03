@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2184
 ht-degree: 3%
 
 ---
@@ -125,7 +125,6 @@ _대상에 활성화_ 액션을 사용하여 여정에서 직접 Experience Plat
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 다른 여정에 사용자 추가] | <li>계정 여정(사람에 대한 작업) <li>사용자 여정 | <li>실시간 사용자 여정 선택 |
 | | [!UICONTROL 외부 고객 대상에 추가] | <li>계정 여정 <li>사용자 여정 | <li>외부 고객 대상자 선택 |
 | | [!UICONTROL 구매 그룹에 할당] | <li>계정 여정 | <li>솔루션 관심 분야 선택 <li>역할 선택 |
-| | [!UICONTROL 점수 변경] | <li>계정 여정 | <li>점수 이름 <li>점수 변경 |
 | | [!UICONTROL 즐거운 인물] | <li>계정 여정 <li>사용자 여정 | <li>유형 <li>설명 |
 | | [!UICONTROL 웹 경험 개인화]&#x200B;(Beta) | <li>계정 여정 | <li>웹 경험 만들기/편집 |
 | | [!UICONTROL 구매 그룹에서 제거] | <li>계정 여정 | <li>솔루션 관심 분야 선택 |

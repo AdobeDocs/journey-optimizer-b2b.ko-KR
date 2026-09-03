@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1339
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
@@ -33,13 +33,9 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 * **정적** - 정적 계정 목록이 있는 경우 계정을 추가할 때만 목록이 변경됩니다. 필터 세트를 적용하여 현재 계정 데이터를 기준으로 목록을 채워 수동으로 계정을 추가하거나 계정 여정을 통해 계정을 추가 및 제거할 수 있습니다.
 * **동적** - 동적 계정 목록을 사용하여 목록을 자동으로 조정하기 위한 필터 집합을 정의합니다. 시스템은 이 필터 세트를 사용하여 계정 정보의 변경에 따라 계정을 추가하고 제거합니다. 이 목록 관리는 [실시간 고객 데이터 플랫폼의 대상 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}와 비슷합니다.
 
-계정 목록이 _Live_(게시됨) 상태인 경우 [계정 여정 및 Marketo Engage 프로그램에서 사용](./account-lists-journeys.md)할 수 있습니다.
+계정 목록이 _Live_(게시됨) 상태일 때는 계정 여정 [사용](./account-lists-journeys.md)할 수 있습니다.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [비디오 개요 보기](#overview-video)
-
->[!NOTE]
->
->계정 목록은 Marketo Engage의 계정 데이터를 활용하여 계정 세그먼트와 목록을 만듭니다. 즉, Adobe Experience Platform의 계정 세그먼트가 Marketo Engage에 적극적으로 동기화되지 않는 경우 해당 Experience Platform 세그먼트의 계정을 Journey Optimizer B2B edition 계정 목록에서 사용할 수 없습니다. 그런 다음 Marketo Engage에 동기화된 Experience Platform 세그먼트의 계정의 사람만 개인 멤버십 수에 포함되고 이벤트가 트리거됩니다.
 
 ## 계정 목록 액세스 및 찾아보기
 
