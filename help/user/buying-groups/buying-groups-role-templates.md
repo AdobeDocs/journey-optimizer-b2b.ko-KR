@@ -223,4 +223,4 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453308/?captions=kor&learn=on)
