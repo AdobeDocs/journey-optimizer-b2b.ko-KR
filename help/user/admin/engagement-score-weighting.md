@@ -4,21 +4,15 @@ description: ' [!DNL Journey Optimizer B2B Edition]에서 구매 그룹 참여 �
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -59,10 +53,6 @@ ht-degree: 0%
 
 ![Experience Platform 이벤트에 대한 기본 참여 점수 가중치 모델](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
-
 사용자 지정 모델을 활성화하면 활성 모델이 _보관됨_ 상태로 변경됩니다. 기본 참여 점수 모델로 되돌리기로 결정한 경우 원래 기본 모델을 복제한 다음 활성화하거나 다른 사용자 정의 모델의 시작점으로 사용할 수 있습니다.
 
 ### 초안 모델 삭제
@@ -102,7 +92,7 @@ ht-degree: 0%
 1. 각 가중치 밴드에 대해 필요에 따라 이름 또는 값을 조정합니다.
 
    * _[!UICONTROL 가중치 대역]_ 필드에서 이름을 변경합니다.
-   * 새 값을 입력합니다. **&plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
+   * 새 값을 입력합니다. **&amp;plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
 
    ![참여 가중치 설정](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -138,14 +128,6 @@ Experience Platform 이벤트에 대한 기본 모델에는 Experience Platform 
 </td>
 </tbody>
 </table>
-
-+++
-
-+++표준 아키텍처를 위한 활동
-
-표준 아키텍처의 기본 모델에는 기본 가중치가 연결된 [!DNL Marketo Engage]개의 추적된 활동이 포함됩니다. 이 모델을 복제할 때 필요에 따라 가중치를 변경할 수 있습니다. 최대 일별 빈도는 변경할 수 없습니다.
-
-{{engagement-activities-me}}
 
 +++
 

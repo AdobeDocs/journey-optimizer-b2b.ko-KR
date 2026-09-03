@@ -4,19 +4,15 @@ description: 조건부 자동 할당을 사용하여 역할 템플릿을 만들�
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -109,7 +105,7 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 
    * 목록에서 **[!UICONTROL 구매 그룹 역할]**&#x200B;을(를) 선택하십시오.
 
-     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. _역할_ 목록[&#128279;](./default-custom-roles.md#create-a-custom-role)에 정의된 사용자 지정 역할도 목록에 포함됩니다.
+     6개의 기본 역할이 있습니다. `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` 및 `Other`. _역할_ 목록](./default-custom-roles.md#create-a-custom-role)에 정의된 [사용자 지정 역할도 목록에 포함됩니다.
 
      ![그룹 역할 목록 구매](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -157,23 +153,6 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 
    변경 사항이 _초안_ 상태로 자동 저장됩니다. 역할 템플릿을 게시할 준비가 되지 않은 경우 페이지 상단의 왼쪽(뒤로) 화살표를 클릭하고 _[!UICONTROL 역할 템플릿]_ 목록으로 돌아갑니다.
 
->[!BEGINSHADEBOX &quot;Marketo Engage 목록 구성원&quot;]
-
-Marketo Engage에서 _스마트 캠페인_&#x200B;은(는) 프로그램 멤버십을 확인하여 리드가 중복 이메일을 받지 않고 동시에 여러 이메일 스트림의 멤버가 아닌지 확인합니다. Journey Optimizer B2B에서 역할 템플릿에 대한 조건으로 Marketo Engage 목록 멤버십을 확인하여 구매 그룹 멤버십 및 여정 활동의 중복을 제거할 수 있습니다.
-
-목록 멤버십을 역할 조건으로 사용하려면 **[!UICONTROL 특수 필터]**&#x200B;를 확장하고 **[!UICONTROL 목록의 멤버]** 조건을 필터 공간으로 끌어서 놓습니다. 하나 이상의 Marketo Engage 목록에서 멤버십을 평가하려면 필터 정의를 완료하십시오.
-
-Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**기능 사용 중단**
->
->현재 Journey Optimizer B2B edition 릴리스에서는 Marketo Engage 인스턴스의 목록 또는 프로그램 구성원을 기반으로 하는 필터링이 더 이상 지원되지 않습니다.
-
->[!ENDSHADEBOX]
-
 ### 완성도 점수 설정 변경 {#change-the-completeness-score-settings}
 
 기본적으로 역할에 대한 완성도는 역할에 할당된 하나의 멤버로 정의됩니다. 구매 그룹 완전성을 사용하여 판매 준비를 나타내는 경우 이러한 설정을 사용하여 영업 기회를 마감하는 데 필요한 멤버 수에 맞게 점수를 조정합니다.
@@ -188,7 +167,7 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 1. 필요에 따라 대화 상자에서 정의된 각 역할에 대해 **[!UICONTROL 필요한 구성원]** 값을 변경합니다.
 
-   값을 입력하거나 **&plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수 있습니다.
+   값을 입력하거나 **&amp;plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수 있습니다.
 
    ![역할 템플릿 완성도 점수 설정 대화 상자](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -240,4 +219,4 @@ Marketo Engage 목록 멤버십에 대한 ![역할 템플릿 조건](assets/role
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453308/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
