@@ -4,11 +4,19 @@ description: Journey Optimizer B2B edition의 타깃팅된 여정 오케스트�
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
 source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
@@ -89,7 +97,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
 1. **[!UICONTROL 계정 추가]**&#x200B;를 클릭합니다.
 
-   ![계정 필터를 추가하여 ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"} 목록 채우기
+   ![계정 필터를 추가하여 &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"} 목록 채우기
 
    이 함수는 빈 목록 페이지 또는 오른쪽 상단에서 액세스할 수 있습니다.
 
@@ -101,7 +109,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
    * 일치 평가 정의를 완료합니다.
    * 포함할 각 필터에 대해 이러한 작업을 반복합니다.
 
-     ![필터를 추가하여 계정 목록 ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"} 채우기
+     ![필터를 추가하여 계정 목록 &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"} 채우기
 
    * 맨 위에 있는 **[!UICONTROL 필터 논리]**&#x200B;를 적용하여 조건을 미세 조정할 수 있습니다. 모든 속성 조건 또는 모든 조건을 일치시키도록 선택할 수 있습니다.
 
@@ -119,7 +127,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
 
 1. **[!UICONTROL 필터 선택]**&#x200B;을 클릭합니다.
 
-   ![목록을 동적으로 채우는 데 사용되는 필터 선택 ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![목록을 동적으로 채우는 데 사용되는 필터 선택 &#x200B;](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL 필터별 계정 추가]_ 대화 상자에서 **[!UICONTROL 계정 필터]** 메뉴를 사용하여 필터 집합을 구성하는 데 사용할 특성 및 특수 필터를 추가합니다.
 
@@ -129,7 +137,7 @@ Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 �
    * 일치 평가 정의를 완료합니다.
    * 포함할 각 필터에 대해 이러한 작업을 반복합니다.
 
-     ![필터를 추가하여 계정 목록 ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"} 채우기
+     ![필터를 추가하여 계정 목록 &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"} 채우기
 
    * 맨 위에 있는 **[!UICONTROL 필터 논리]**&#x200B;를 적용하여 조건을 미세 조정할 수 있습니다. 모든 속성 조건 또는 모든 조건을 일치시키도록 선택할 수 있습니다.
 

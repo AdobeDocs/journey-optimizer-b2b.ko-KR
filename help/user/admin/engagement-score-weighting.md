@@ -4,10 +4,16 @@ description: ' [!DNL Journey Optimizer B2B Edition]에서 구매 그룹 참여 �
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
 source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
@@ -92,7 +98,7 @@ ht-degree: 0%
 1. 각 가중치 밴드에 대해 필요에 따라 이름 또는 값을 조정합니다.
 
    * _[!UICONTROL 가중치 대역]_ 필드에서 이름을 변경합니다.
-   * 새 값을 입력합니다. **&amp;plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
+   * 새 값을 입력합니다. **&plus;** 또는 **−**&#x200B;을(를) 클릭하여 값을 늘리거나 줄일 수도 있습니다.
 
    ![참여 가중치 설정](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
