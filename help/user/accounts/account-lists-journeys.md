@@ -4,10 +4,14 @@ description: 여정 오케스트레이션에서 계정 목록을 사용하고 Jo
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-27T22:29:03.719Z
 TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
 source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
@@ -47,7 +51,7 @@ ht-degree: 0%
 >
 >노드가 실행될 때 계정이 이미 목록에 있는 경우 작업이 무시됩니다.
 
-1. ]_**[!UICONTROL 계정]**에 대한_[!UICONTROL &#x200B;작업 옵션을 선택하십시오.
+1. _&#x200B;**[!UICONTROL 계정]**&#x200B;에 대한_&#x200B;작업 옵션을 선택하십시오.
 
 1. _[!UICONTROL 계정에 대한 작업]_&#x200B;의 경우 **[!UICONTROL 계정 목록에 추가]**&#x200B;를 선택하세요.
 
@@ -69,7 +73,7 @@ ht-degree: 0%
 >
 >계정이 제거가 예약된 목록에 없으면 작업이 무시됩니다.
 
-1. ]_**[!UICONTROL 계정]**에 대한_[!UICONTROL &#x200B;작업 옵션을 선택하십시오.
+1. _&#x200B;**[!UICONTROL 계정]**&#x200B;에 대한_&#x200B;작업 옵션을 선택하십시오.
 
 1. _[!UICONTROL 계정에 대한 작업]_&#x200B;의 경우 **[!UICONTROL 계정 목록에서 제거]**&#x200B;를 선택하세요.
 
