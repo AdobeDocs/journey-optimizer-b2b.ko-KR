@@ -4,21 +4,15 @@ description: 현재 Journey Optimizer B2B edition에서 사용할 수 있는 거
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 692
 ht-degree: 0%
 
 ---
@@ -29,13 +23,13 @@ ht-degree: 0%
 
 ## 개인 정보 보호
 
-위에 언급된 각 지역 또는 국가(유럽 연합, 캘리포니아, 태국, 브라질, 뉴질랜드)에 있는 데이터 주체의 데이터를 보유하고 있는 [!DNL Journey Optimizer B2B Edition] 고객에게 적용되는 다양한 규정이 있습니다. 이 페이지의 정보는 법률적인 조언이 아니며, 해당 법률의 준수를 보증하지 않습니다.
+EU, 캘리포니아, 태국, 브라질 및 뉴질랜드와 같은 지역의 데이터 주체의 데이터를 보유하고 있는 [!DNL Journey Optimizer B2B Edition]명의 사용자에게는 다양한 규정이 적용됩니다. 이 페이지에 제공된 정보는 법률적인 조언이 아니며, 적용 가능한 법률에 대한 귀하의 준수를 보증하지 않습니다.
 
 ### GDPR
 
 GDPR(General Data Protection Regulation)은 EU 국가의 [데이터 보호 요구 사항](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다.
 
-[!DNL Journey Optimizer B2B Edition]은(는) Privacy Service 및 Marketo Privacy Broker Service에서 제공하는 기존 Marketo Engage GDPR 거버넌스 기능을 사용합니다.
+[!DNL Journey Optimizer B2B Edition]은(는) Privacy Service에서 제공하는 기존 Experience Platform GDPR 거버넌스 기능을 사용합니다. 액세스 및 삭제 요청 제출 및 관리에 대한 자세한 내용은 [_개인 정보 관리_](./privacy-management.md)&#x200B;를 참조하세요.
 
 ### CNIL
 
@@ -43,7 +37,7 @@ GDPR(General Data Protection Regulation)은 EU 국가의 [데이터 보호 요�
 
 CNIL은 기업이 이메일 수신자에게 추적 픽셀 유무, 목적, 수신자의 옵트아웃 권리 등을 알리도록 권고일로부터 3개월의 기간을 제공했다. 이 전환 기간 동안 Marketo Engage 사용자는 수신자에게 픽셀 추적에 대해 알리고 필요한 경우 옵트아웃을 제공합니다. CNIL은 2026년 7월 14일 이후 집행 활동을 시작할 것으로 예상된다.
 
-CNIL과 기타 규제 기관이 픽셀 추적 및 관련 문제에 대한 지침을 명확히 함에 따라 Adobe은 업데이트를 계속 모니터링하고 기술 기능의 변경에 대해 알려드립니다.
+CNIL 및 기타 규제 기관이 픽셀 추적 및 관련 문제에 대한 지침을 명확히 함에 따라 Adobe은 업데이트를 모니터링하고 기술 기능의 변화를 알려줍니다.
 
 [!DNL Journey Optimizer B2B Edition]에서는 전자 메일 수준에서 열린 추적을 관리하는 데 도움이 되는 컨트롤을 제공합니다. 사용자는 해당 CNIL 지침 및 기타 법률에 따라 자신의 준수 의무를 결정할 책임이 있습니다. 이러한 기능을 사용하여 전자 메일 열기 추적을 관리하는 방법에 대한 자세한 내용은 [_전자 메일 추적 관리_](../content/email-tracking-manage.md)&#x200B;를 참조하십시오.
 
@@ -67,7 +61,7 @@ Journey Optimizer B2B edition은 Adobe Experience Platform XDM 프로필에 저�
 
 ## 샌드박스 재설정
 
-샌드박스 재설정은 Adobe Journey Optimizer B2B edition에 대해 현재 지원되지 않습니다&#x200B;**.** Journey Optimizer B2B edition에 매핑된 샌드박스를 재설정하거나 삭제하면 영구적인 데이터 손실이 발생할 수 있으며 새 인스턴스를 프로비저닝해야 합니다.
+샌드박스 재설정은 Adobe Journey Optimizer B2B edition에 대해 현재 지원되지 않습니다&#x200B;**.**[!DNL Journey Optimizer B2B Edition]에 매핑된 샌드박스를 재설정하거나 삭제하면 영구적인 데이터 손실이 발생할 수 있으며 새 인스턴스를 프로비전해야 합니다.
 
 ## 아직 사용할 수 없음
 
