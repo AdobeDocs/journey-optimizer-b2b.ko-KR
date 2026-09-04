@@ -3,10 +3,14 @@ title: 개인 정보 관리
 description: Journey Optimizer B2B edition의 GDPR, CCPA 및 기타 개인 정보 보호 규정을 준수하는 방법을 알아보고 Adobe Privacy Service을 사용하여 요청을 제출합니다.
 feature: Setup, Permissions
 role: Admin
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
 workflow-type: tm+mt
 source-wordcount: 634

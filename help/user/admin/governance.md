@@ -4,10 +4,16 @@ description: 현재 Journey Optimizer B2B edition에서 사용할 수 있는 거
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
 source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
@@ -61,7 +67,7 @@ Journey Optimizer B2B edition은 Adobe Experience Platform XDM 프로필에 저�
 
 ## 샌드박스 재설정
 
-샌드박스 재설정은 Adobe Journey Optimizer B2B edition에 대해 현재 지원되지 않습니다&#x200B;**.**[!DNL Journey Optimizer B2B Edition]에 매핑된 샌드박스를 재설정하거나 삭제하면 영구적인 데이터 손실이 발생할 수 있으며 새 인스턴스를 프로비전해야 합니다.
+샌드박스 재설정은 Adobe Journey Optimizer B2B edition에 대해 현재 지원되지 않습니다&#x200B;**.**&#x200B;[!DNL Journey Optimizer B2B Edition]에 매핑된 샌드박스를 재설정하거나 삭제하면 영구적인 데이터 손실이 발생할 수 있으며 새 인스턴스를 프로비전해야 합니다.
 
 ## 아직 사용할 수 없음
 
