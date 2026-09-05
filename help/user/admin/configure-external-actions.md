@@ -1,6 +1,6 @@
 ---
 title: 외부 작업 구성
-description: 개발자, 관리자 및 마케터가 함께 Journey Optimizer B2B edition을 계정 여정의 외부 서비스와 연결하는 외부 작업을 구현, 구성 및 사용하는 방법에 대해 알아봅니다.
+description: 개발자, 관리자 및 마케터가 함께 Journey Optimizer B2B edition을 여정의 외부 서비스와 연결하는 외부 작업을 구현, 구성 및 사용하는 방법에 대해 알아봅니다.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -14,25 +14,21 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1278
 ht-degree: 1%
 
 ---
 
 # 외부 작업 구성
 
-외부 작업을 사용하면 Journey Optimizer B2B edition의 계정 여정이 여정 캔버스에서 직접 외부 시스템과 연결할 수 있습니다. 계정 대상이 외부 작업 노드에 도달하면 시스템에서 구성된 외부 서비스에 대한 비동기 아웃바운드 호출을 수행하여 계정, 사용자 또는 둘 다에 대한 대상 속성 데이터를 전달합니다. 외부 서비스는 데이터를 처리하고 콜백을 사용하여 응답하며, 여정 실행을 안내하는 데 사용할 수 있는 대상 데이터와 메타데이터를 반환합니다.
+외부 작업을 사용하면 [!DNL Journey Optimizer B2B Edition]의 계정 및 개인 여정이 여정 캔버스에서 직접 외부 시스템과 연결할 수 있습니다. 대상이 외부 작업 노드에 도달하면 시스템에서 구성된 외부 서비스에 대한 비동기 아웃바운드 호출을 수행하여 대상 속성 데이터를 전달합니다. 외부 서비스는 데이터를 처리하고 콜백을 사용하여 응답하며, 여정 실행을 안내하는 데 사용할 수 있는 대상 데이터와 메타데이터를 반환합니다.
 
 이 기능은 다음 두 가지 여정 노드 유형을 지원합니다.
 
-* **외부 작업** - 외부 서비스를 호출하고 하나의 송신 경로를 따라 계속합니다. CRM 레코드 업데이트 또는 다운스트림 알림 트리거와 같은 _실행 후 삭제_ 통합에 이상적입니다.
-* **외부 분할 경로** - 외부 서비스를 호출하고 응답을 평가하여 여러 정의된 경로 중 하나를 따라 계정을 라우팅합니다.
-
->[!NOTE]
->
->외부 작업 서비스는 계정 여정에 대해서만 지원됩니다. 이러한 노드 유형은 개인 여정에 사용할 수 없습니다.
+* **외부 작업** - 외부 서비스를 호출하고 하나의 송신 경로를 따라 계속합니다. CRM 레코드 업데이트 또는 다운스트림 알림 트리거와 같은 비동기 통합에 이상적입니다.
+* **외부 분할 경로** - 외부 서비스를 호출하고 응답을 평가하여 계정 또는 사람을 정의된 여러 경로 중 하나로 라우팅합니다.
 
 ## 구현 개요
 
@@ -42,7 +38,7 @@ ht-degree: 1%
 | ---- | ---- | ---- |
 | 1 | Developer | [외부 서비스 구현 및 게시](#implement-service) |
 | 2 | 관리자 | [Journey Optimizer B2B edition에서 작업 구성](#configure-action) |
-| 3 | 마케터 | [계정 여정에 외부 노드 추가](#add-journey-node) |
+| 3 | 마케터 | [외부 노드를 여정에 추가](#add-journey-node) |
 
 ## 외부 서비스 구현 {#implement-service}
 
@@ -100,7 +96,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
-1. 작업이 외부 서비스와 데이터를 교환하는 방법을 정의하려면 **[!UICONTROL 구성]** 속성을 설정하십시오.
+1. 작업이 외부 서비스와 데이터를 교환하는 방법을 정의하려면 **[!UICONTROL 구성]** 속성을 설정합니다.
 
    >[!NOTE]
    >
@@ -108,20 +104,20 @@ ht-degree: 1%
 
    * **[!UICONTROL 작업 유형]**(_정적_) - 지원되는 여정 노드 유형:
 
-      * [!UICONTROL 외부 작업]&#x200B;(`enableSplitPath` = false)
-      * [!UICONTROL 외부 작업 분할 경로]&#x200B;(`enableSplitPath` = true)
+     * [!UICONTROL 외부 작업]&#x200B;(`enableSplitPath` = false)
+     * [!UICONTROL 외부 작업 분할 경로]&#x200B;(`enableSplitPath` = true)
 
      작업 구성을 만든 후에는 작업 유형을 변경할 수 없습니다.
 
-   * **[!UICONTROL 접근자]**(_정적_) - (외부 작업 분할 경로만 해당) 외부 분할 경로 노드에서 경로 조건으로 사용할 수 있도록 외부 서비스에서 반환하는 변수입니다. (`invocationPayloadDef.accessorsMetadata`)
+   * **[!UICONTROL 접근자]**(_정적_) - (외부 작업 분할 경로만 해당) 외부 서비스가 반환하는 변수는 외부 분할 경로 노드의 경로 조건으로 사용할 수 있습니다. (`invocationPayloadDef.accessorsMetadata`)
 
    * **[!UICONTROL 여정 컨텍스트]**(_정적_) - 요청에서 보낸 대상 데이터의 범위(`supportedEntityType`):
 
-      * [!UICONTROL 계정] - 계정만 보냅니다.
+     * [!UICONTROL 계정] - 계정만 보냅니다.
 
-      * [!UICONTROL 사람] - 사람만 보냅니다.
+     * [!UICONTROL 사람] - 사람만 보냅니다.
 
-      * [!UICONTROL 계정의 사용자] - 계정 및 계정 관련 사용자를 보냅니다.
+     * [!UICONTROL 계정의 사용자] - 계정 및 계정 관련 사용자를 보냅니다.
 
    * **[!UICONTROL 보내는 필드]** - 테이블의 각 필드를 [XDM 필드](../admin/xdm-field-management.md)에 매핑합니다. 이러한 필드는 요청 본문에서 외부 서비스로 전송됩니다. 서비스 정의 속성: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
@@ -139,7 +135,7 @@ ht-degree: 1%
 
 1. 목록으로 돌아가서 작업을 _초안_ 상태로 유지하려면 _뒤로 화살표_&#x200B;를 클릭하십시오.
 
-   또는 **[!UICONTROL 활성화]**&#x200B;를 클릭하여 작업 구성을 _활성_ 상태로 변경합니다. 계정 여정에서 사용할 수 있도록 구성된 외부 작업이 활성화되어 있어야 합니다.
+   또는 **[!UICONTROL 활성화]**&#x200B;를 클릭하여 작업 구성을 _활성_ 상태로 변경합니다. 여정에서 사용할 수 있도록 하려면 구성된 외부 작업이 활성화되어 있어야 합니다.
 
 ### 문제 해결 {#troubleshooting}
 
@@ -149,7 +145,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->다음 오류 중 대부분은 공개 웹 서비스를 만들고 게시한 개발자와 협력하여 해결해야 합니다.
+>다음 오류 중 대부분은 공개 웹 서비스를 만들고 게시한 개발자와 협력하여 문제를 해결해야 합니다.
 
 #### 유효성 검사 오류 세부 정보
 
@@ -182,4 +178,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## 여정에 외부 노드 추가 {#add-journey-node}
 
-작업이 활성화되면 마케터는 계정 여정에 _[!UICONTROL 외부 작업]_ 또는 _[!UICONTROL 외부 분할 경로]_ 노드를 추가할 수 있습니다. 계정 여정 캔버스에서 이러한 노드를 추가하고 사용하는 방법에 대한 자세한 내용은 [외부 노드](../journeys/external-nodes.md)를 참조하십시오.
+작업이 활성화되면 마케터는 모든 계정이나 사용자 여정에 _[!UICONTROL 외부 작업]_ 또는 _[!UICONTROL 외부 분할 경로]_ 노드를 추가할 수 있습니다. 여정 캔버스에서 이러한 노드를 추가하고 사용하는 방법에 대한 자세한 내용은 [외부 노드](../journeys/external-nodes.md)를 참조하십시오.
