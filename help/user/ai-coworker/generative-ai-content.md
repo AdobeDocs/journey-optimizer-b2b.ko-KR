@@ -5,27 +5,17 @@ feature: AI Assistant, Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
+nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 autotag-review: '2026-06-05T16:07:36.688Z'
 TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 7%
@@ -69,7 +59,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 ## 일반 지침 및 제한 사항 {#general-guidelines-and-limitations}
 
-생성 AI 기능의 사용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}의 적용을 받습니다. 미디어 생성을 위한 생성 AI 도구 사용에 대한 Adobe의 노력으로 Adobe은 [!DNL Firefly]에서 생성한 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 대해 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을(를) 다운로드하거나 내보낼 때 적용합니다.
+생성 AI 기능의 사용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}의 적용을 받습니다. 미디어 생성을 위한 생성 AI 도구 사용에 대한 Adobe의 노력으로 Adobe은 [!DNL Firefly]에서 생성한 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 대해 [콘텐츠 자격 증명](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을(를) 다운로드하거나 내보낼 때 적용합니다.
 
 [!DNL Journey Optimizer B2B Edition]의 콘텐츠에 생성 AI를 사용하는 방법에 대한 일반 지침을 검토하십시오.
 
@@ -236,7 +226,7 @@ AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘
 
 **피해야 할 예:**
 
-![빨간색 교차 &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;새 앱 발표&quot;(값 제안 및 컨텍스트 누락)
+![빨간색 교차 ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;새 앱 발표&quot;(값 제안 및 컨텍스트 누락)
 
 ![적십자 외부](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;워크샵에 등록하도록 사용자 지정&quot;(대상 및 혜택에 대한 구체성이 결여)
 
@@ -406,7 +396,7 @@ AI Assistant 콘텐츠 도구의 텍스트 설정에는 명확하고 형식이 �
 
 참조 콘텐츠 파일은 구체적이고 정확한 세부 정보로 생성된 콘텐츠를 보강하는 실제 정보를 제공합니다. 제품 브로셔나 백서 등의 문서를 업로드할 때 포커스가 있는 부품을 포함하도록 프롬프트를 변경합니다.
 
-* **제품 브로셔를 사용합니다.** _대신&quot;_ **&#x200B;**&#x200B;_&quot;고급 보안 기능 및 규정 준수 인증, 특히 SOC 2 규정 준수 및 데이터 암호화에 집중&quot;_
+* **제품 브로셔를 사용합니다.** _대신&quot;_ **** _&quot;고급 보안 기능 및 규정 준수 인증, 특히 SOC 2 규정 준수 및 데이터 암호화에 집중&quot;_
 
 * **대신** _&quot;사례 연구를 참조&quot;_ **사용해야 함** _&quot;의료 클라이언트의 ROI 결과 강조 표시, 특히 지역 의료 센터의 40% 비용 절감&quot;_
 
