@@ -4,18 +4,13 @@ description: Journey Optimizer B2B Edition을 사용해 개인화된 홈 페이�
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 83%
@@ -39,16 +34,16 @@ Adobe Experience Platform에 로그인하고 Adobe Journey Optimizer B2B Edition
 
 ![Journey Optimizer B2B Edition 홈 페이지](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition에는 두 가지 주요 사용자 페르소나, 즉 _&#x200B;**마케터**&#x200B;_&#x200B;와 _&#x200B;**관리자**&#x200B;_&#x200B;가 있습니다. 각 페르소나는 성숙도 단계(신규 또는 고급)에 따라 특정 홈 페이지를 갖습니다. 페이지 내용은 각 페르소나가 필요로 하는 정보와 취해야 할 다음 조치를 기반으로 구성됩니다.
+Journey Optimizer B2B Edition에는 두 가지 주요 사용자 페르소나, 즉 _**마케터**_&#x200B;와 _**관리자**_&#x200B;가 있습니다. 각 페르소나는 성숙도 단계(신규 또는 고급)에 따라 특정 홈 페이지를 갖습니다. 페이지 콘텐츠는 각 페르소나가 필요로 하는 정보와 취해야 할 다음 조치를 기반으로 구성됩니다.
 
 * **마케터 - 신규 사용자** -- 신규 사용자용 _마케터_ 홈 페이지는 신규 사용자가 Journey Optimizer B2B와 그 기능에 익숙해질 수 있도록 도와줍니다. 새로운 마케터가 시스템의 뉘앙스를 이해하고 B2B 마케팅 전략 및 이니셔티브를 개발하는 데 효율적이 될 수 있도록 안내식 설명을 포함합니다.
 * **마케터 - 고급 사용자** -- 고급 마케터용 _마케터_ 홈 페이지는 이니셔티브의 현재 진행 상황과 권장되는 다음 조치를 표시해 주며 관련 섹션에 빠르게 액세스할 수 있도록 해 줍니다.
 * **관리자 - 신규 사용자** -- 신규 관리자용 _관리자_ 홈 페이지는 신규 관리자가 Journey Optimizer B2B Edition과 그 기능에 익숙해지는 데 도움이 됩니다. 여기에는 신규 관리자가 시스템의 미묘한 차이점을 이해하고 B2B 마케팅 전략과 이니셔티브를 효율적으로 개발할 수 있도록 단계별 온보딩 과정을 안내하는 가이드가 포함되어 있습니다.
 * **관리자 - 고급 사용자** -- 고급 관리자용 _관리자_ 홈 페이지는 인스턴스의 현재 상태와 실행 가능한 단계들을 표시해 주어 관리자의 효율성과 효과성을 강화해 줍니다.
 
-_[!UICONTROL 최근에 액세스한 항목]_ 섹션에서는 마케터 또는 관리자가 가장 최근에 액세스한 자산 목록을 제공합니다. 이 목록을 사용하면 일련의 자산 페이지를 탐색하거나 검색하지 않고도 최근에 작업한 자산으로 바로 이동할 수 있습니다.
+_[!UICONTROL 최근에 액세스한 항목]_ 섹션에서는 마케터 또는 관리자가 가장 최근에 액세스한 자산 목록을 제공합니다. 이 목록을 사용하면 일련의 에셋 페이지를 탐색하거나 검색하지 않고도 최근에 작업한 에셋으로 바로 이동할 수 있습니다.
 
-이 페이지에서는 사용자가 필요한 특정 질문이나 주제에 대한 정보를 빠르게 얻는 데 도움이 되는 [AI 어시스턴트](./ai-assistant/ai-assistant-overview.md)에 액세스할 수도 있습니다.<!-- and to obtain specific recommendations for their challenges or objectives-->
+이 페이지에서는 사용자가 필요한 특정 질문이나 주제에 대한 정보를 빠르게 얻는 데 도움이 되는 [AI 어시스턴트](./ai-coworker/ai-assistant-overview.md)에 액세스할 수도 있습니다.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

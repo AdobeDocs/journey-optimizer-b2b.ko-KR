@@ -6,20 +6,14 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2070
 ht-degree: 7%
@@ -169,7 +163,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 
 브랜드에 전체 정의 집합이 포함되어 있고 요구 사항을 충족하면 **[!UICONTROL 게시]**&#x200B;를 클릭하여 브랜드 지침을 콘텐츠 정렬 및 생성에 사용할 수 있도록 합니다.
 
-게시된 브랜드는 AI [브랜드 정렬 점수](./content-evaluation.md#brand-alignment-score) 및 [콘텐츠 생성 도구](../ai-assistant/generative-ai-content.md)의 **[!UICONTROL 브랜드]** 옵션에서 액세스할 수 있습니다.
+게시된 브랜드는 AI [브랜드 정렬 점수](./content-evaluation.md#brand-alignment-score) 및 [콘텐츠 생성 도구](../ai-coworker/generative-ai-content.md)의 **[!UICONTROL 브랜드]** 옵션에서 액세스할 수 있습니다.
 
 ![콘텐츠에 대한 브랜드 옵션](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -211,13 +205,13 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 
      ![브랜드 정보 - 지침 원칙 - 핵심 가치 추가](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL 값]** - 핵심 브랜드 값의 이름을 입력하십시오.
+     * **[!UICONTROL 값]** - 핵심 브랜드 값의 이름을 입력하십시오.
 
-      * **[!UICONTROL 설명]** - 이 값이 브랜드에 어떤 의미가 있는지 설명합니다.
+     * **[!UICONTROL 설명]** - 이 값이 브랜드에 어떤 의미가 있는지 설명합니다.
 
-      * **[!UICONTROL 동작]** - 실제로 이 값을 반영하는 동작 또는 태도에 대한 개요를 제공합니다.
+     * **[!UICONTROL 동작]** - 실제로 이 값을 반영하는 동작 또는 태도에 대한 개요를 제공합니다.
 
-      * **[!UICONTROL 매니페스트]** - 이 값이 실제 브랜딩에서 표현되는 방식에 대한 예제를 제공합니다.
+     * **[!UICONTROL 매니페스트]** - 이 값이 실제 브랜딩에서 표현되는 방식에 대한 예제를 제공합니다.
 
    * 핵심 값을 변경하거나 삭제하려면 _편집_( ![편집 아이콘](../assets/do-not-localize/icon-edit.svg)) 아이콘을 클릭하여 핵심 브랜드 값을 업데이트하거나 삭제합니다.
 
@@ -241,7 +235,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="작성 스타일 정렬 점수"
->abstract="작성 스타일 섹션에서는 명확하고 일관된 콘텐츠를 보장하기 위해 언어, 형식 및 구조에 대한 표준을 정의합니다. 정렬 점수는 높은 순위에서 낮은 순위로 평가되고, 콘텐츠가 이러한 지침을 얼마나 잘 따르고 있는지를 보여 주며, 개선이 필요한 영역을 강조 표시합니다."
+>abstract="작성 스타일 섹션에서는 명확하고 일관된 콘텐츠를 보장하기 위해 언어, 형식 및 구조에 대한 표준을 정의합니다. 정렬 점수는 높음부터 낮음까지로 평가되며, 콘텐츠가 이러한 지침을 얼마나 잘 따르고 있는지를 보여 주고 개선이 필요한 영역을 강조 표시합니다."
 
 _[!UICONTROL 작성 스타일]_ 정의는 콘텐츠 작성에 대한 표준을 요약하며, 모든 자료의 명확성, 일관성 및 일관성을 유지하기 위해 언어, 서식 및 구조를 사용해야 하는 방법에 대해 자세히 설명합니다.
 

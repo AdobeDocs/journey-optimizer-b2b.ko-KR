@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 86%
 
 ---
@@ -28,14 +28,22 @@ ht-degree: 86%
   + [사용자 온보딩](./start/get-started.md)
   + [로그인 및 홈 페이지](home-page.md)
 + AI 기능 {#ai-assistant}
-  + [개요](./ai-assistant/ai-assistant-overview.md)
-  + [AI 어시스턴트 액세스 활성화](./ai-assistant/enable-ai-assistant-access.md)
-  + [질문 지침](./ai-assistant/question-guidance.md)
-  + [채팅 인터페이스](./ai-assistant/use-ai-assistant.md)
-  + [콘텐츠용 생성형 AI](./ai-assistant/generative-ai-content.md)
+  + [개요](./ai-coworker/ai-assistant-overview.md)
+  + [AI 어시스턴트 액세스 활성화](./ai-coworker/enable-ai-assistant-access.md)
+  + [질문 지침](./ai-coworker/question-guidance.md)
+  + [채팅 인터페이스](./ai-coworker/use-ai-assistant.md)
+  + [콘텐츠용 생성형 AI](./ai-coworker/generative-ai-content.md)
+  + [의도 점수](./ai-coworker/intent-scores.md)
   + 상담원 {#ai-agents}
     + [Audience Agent](./agents/audience-agent-b2b.md)
     + [Journey Agent](./agents/journey-agent.md)
++ 지능형 대시보드 {#dashboards}
+  + [Insights 대시보드](./dashboards/intelligent-dashboard.md)
+  + [참여 대시보드](./dashboards/engagement-dashboard.md)
+  + [웹 참여 대시보드](./dashboards/web-engagement-dashboard.md)
+  + [이메일 성과 보고서](./dashboards/email-performance-dashboard.md)
+  + [구매 그룹 대시보드](./dashboards/buying-groups-dashboard.md)
+  + [여정 대시보드](./dashboards/journeys-dashboard.md)
 + 여정 관리 {#journeys}
   + [계정 및 개인 여정](./journeys/journeys-overview.md)
   + [여정 생성 및 게시](./journeys/create-publish-journey.md)
@@ -153,13 +161,6 @@ ht-degree: 86%
     + [개인화 구문](./content/personalization-syntax.md)
     + [도우미 함수 목록](./content/personalization-helper-functions.md)
     + [스크립트 빌더(Beta)](./content/script-builder.md)
-+ 지능형 대시보드 {#dashboards}
-  + [Insights 대시보드](./dashboards/intelligent-dashboard.md)
-  + [참여 대시보드](./dashboards/engagement-dashboard.md)
-  + [웹 참여 대시보드](./dashboards/web-engagement-dashboard.md)
-  + [이메일 성과 보고서](./dashboards/email-performance-dashboard.md)
-  + [구매 그룹 대시보드](./dashboards/buying-groups-dashboard.md)
-  + [여정 대시보드](./dashboards/journeys-dashboard.md)
 + 관리 {#admin}
   + [거버넌스](./admin/governance.md)
   + [개인 정보 관리](./admin/privacy-management.md)
