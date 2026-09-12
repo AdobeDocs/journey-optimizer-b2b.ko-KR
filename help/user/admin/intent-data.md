@@ -1,5 +1,5 @@
 ---
-title: 의도 데이터
+title: 의도 데이터 구성
 description: 키워드 매핑으로 의도 데이터를 구성하여 Journey Optimizer B2B edition에서 계정 기반 마케팅을 위한 고객의 관심사와 구매 신호를 예측합니다.
 feature: Setup, Intent, Account Insights
 roles: Admin
@@ -16,23 +16,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# 의도 데이터
+# 의도 데이터 구성
 
-Journey Optimizer B2B edition에서 의도 감지 모델은 리드의 활동을 기반으로 충분히 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 태그된 콘텐츠와 함께 다른 계정 공동 멤버의 활동도 활용합니다. 사람의 의도는 상품에 대한 관심을 가질 확률로 해석할 수 있다.
+[!DNL Adobe Journey Optimizer B2B Edition]에서 Intent Detection 모델은 리드의 활동을 기반으로 충분히 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 태그된 콘텐츠와 함께 다른 계정 공동 멤버의 활동도 활용합니다. 사람의 의도는 상품에 대한 관심을 가질 확률로 해석할 수 있다.
 
-* 의도 레벨 - 알려진 리드, 계정 및 구매 그룹 레벨에서 사용할 수 있습니다.
-* 의도 신호 유형 - 키워드, 제품 및 솔루션
+의도 점수 계산에 대한 자세한 내용은 [_의도 점수_](../ai-coworker/intent-scores.md)&#x200B;를 참조하십시오.
 
 의도 데이터는 [_지능형 대시보드_](../dashboards/intelligent-dashboard.md), [_계정 세부 정보_ 페이지](../accounts/account-details.md), [_구매 그룹 세부 정보_ 페이지](../buying-groups/buying-group-details.md) 및 [_개인 세부 정보_ 페이지](../accounts/person-details.md)에서 사용됩니다.
-
-![의도 데이터 시각화](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## 의도 매핑 데이터 준비
 

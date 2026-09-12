@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 지침 및 제한 사항
 
-이 기능을 사용하기 전에 [지침 및 제한 사항](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+이 기능을 사용하기 전에 [지침 및 제한 사항](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 Adobe은 다운로드 또는 내보내기 시 Firefly에서 생성한 에셋에 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용하여 투명도를 높입니다.
 
@@ -62,7 +62,7 @@ Adobe은 다운로드 또는 내보내기 시 Firefly에서 생성한 에셋에 
 
 ![프롬프트 필드](./assets/gen-ai-prompt.png){width="320"}
 
-효과적인 프롬프트를 만드는 방법에 대한 자세한 내용은 _[프롬프트 모범 사례](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;를 참조하십시오.
+효과적인 프롬프트를 만드는 방법에 대한 자세한 내용은 _[프롬프트 모범 사례](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;를 참조하십시오.
 
 >[!BEGINSHADEBOX]
 
@@ -119,7 +119,7 @@ Adobe은 다운로드 또는 내보내기 시 Firefly에서 생성한 에셋에 
 
 ### 참조 콘텐츠
 
-참조 컨텐츠 자산을 업로드하여 정확한 브랜드 내 컨텐츠를 생성합니다. 그렇지 않으면 생성된 콘텐츠는 공개적으로 사용 가능한 정보를 기반으로 합니다. 참조 콘텐츠는 콘텐츠 생성 및 이미지 권장 사항의 소스 역할을 합니다. 지침 및 모범 사례에 대해서는 _[최적화된 참조 콘텐츠](../ai-assistant/generative-ai-content.md#reference-content)_&#x200B;를 참조하십시오.
+참조 컨텐츠 자산을 업로드하여 정확한 브랜드 내 컨텐츠를 생성합니다. 그렇지 않으면 생성된 콘텐츠는 공개적으로 사용 가능한 정보를 기반으로 합니다. 참조 콘텐츠는 콘텐츠 생성 및 이미지 권장 사항의 소스 역할을 합니다. 지침 및 모범 사례에 대해서는 _[최적화된 참조 콘텐츠](../ai-coworker/generative-ai-content.md#reference-content)_&#x200B;를 참조하십시오.
 
 **[!UICONTROL 참조 콘텐츠]** 설정에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트에 사용할 콘텐츠가 포함된 에셋을 추가합니다.
 
@@ -273,7 +273,7 @@ Adobe은 다운로드 또는 내보내기 시 Firefly에서 생성한 에셋에 
 
    >[!TIP]
    >
-   >생성된 콘텐츠를 묻는 메시지를 처음 표시하는 경우 _[확인 모범 사례](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;를 검토하십시오.
+   >생성된 콘텐츠를 묻는 메시지를 처음 표시하는 경우 _[확인 모범 사례](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;를 검토하십시오.
 
 1. 생성된 콘텐츠를 맞춤화하려면 콘텐츠 지침 설정을 완료합니다.
 
