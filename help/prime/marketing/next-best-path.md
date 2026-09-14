@@ -1,28 +1,34 @@
 ---
 title: 다음 베스트 경로 노드
 description: 자연어 프롬프트, 경로 시뮬레이션, 신뢰도 점수 및 라이브 분할 경로 결과와 함께 AI 기반 여정 라우팅을 위해 Journey Optimizer B2B Prime의 다음 베스트 경로 노드를 사용하십시오.
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한적으로 베타 출시되었습니다"
 autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+    internal-label: Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1528'
 ht-degree: 1%
-
 ---
-
 # 다음 최적 경로 노드
 
 Journey Optimizer B2B Prime에서 *다음 모범 경로* 노드는 AI 기반 분할 경로 결정을 여정 캔버스로 직접 가져옵니다. [분할된 경로](./split-merge-paths-nodes.md) 노드에서 필터 조건을 구성하는 대신, 자연어로 의도를 설명하고 시스템에서 각 사용자에 대해 가장 관련성이 높은 경로를 결정하도록 합니다.
@@ -84,9 +90,9 @@ B2B 구매에서 프로필은 하나의 유형의 구매자로 보일 수 있지
 
      **3경로 분할에 대한 예제 프롬프트:**
 
-      * *경로 1 - HR 리더:* HR 리더 역할에서 인재 관리 및 직원 경험 컨텐츠에 참여할 가능성이 가장 높은 사람을 식별합니다.
-      * *경로 2 - 기술 평가자:* 제품 아키텍처, 통합 및 구현 콘텐츠에 참여할 가능성이 가장 높은 기술 관련자를 식별합니다.
-      * *경로 3 - 비즈니스 의사 결정자:* ROI, 비즈니스 결과 및 사례 연구 콘텐츠와 관련된 비즈니스 이해 당사자를 식별합니다.
+     * *경로 1 - HR 리더:* HR 리더 역할에서 인재 관리 및 직원 경험 컨텐츠에 참여할 가능성이 가장 높은 사람을 식별합니다.
+     * *경로 2 - 기술 평가자:* 제품 아키텍처, 통합 및 구현 콘텐츠에 참여할 가능성이 가장 높은 기술 관련자를 식별합니다.
+     * *경로 3 - 비즈니스 의사 결정자:* ROI, 비즈니스 결과 및 사례 연구 콘텐츠와 관련된 비즈니스 이해 당사자를 식별합니다.
 
 1. 필요한 경우 경로를 재정렬하여 일치에 대한 우선 순위를 설정합니다.
 
