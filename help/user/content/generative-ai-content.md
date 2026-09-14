@@ -243,7 +243,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 **피해야 할 예:**
 
-![빨간색 교차 ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;새 앱 발표&quot;(값 제안 및 컨텍스트 누락)
+![빨간색 교차 &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;새 앱 발표&quot;(값 제안 및 컨텍스트 누락)
 
 ![적십자 외부](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;워크샵에 등록하도록 사용자 지정&quot;(대상 및 혜택에 대한 구체성이 결여)
 
