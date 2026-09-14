@@ -1,36 +1,41 @@
 ---
 title: 이메일 메시지 작성
-description: 시각적 디자인 도구, HTML 가져오기 또는 템플릿을 사용하여 이메일을 만듭니다. AI Assistant 컨텐츠 생성, 사용자 지정 CSS 및 Journey Optimizer B2B edition의 개인화를 사용합니다.
+description: 시각적 디자인 도구, HTML 가져오기 또는 템플릿을 사용하여 이메일을 만듭니다. 콘텐츠 생성, 사용자 지정 CSS 및 Journey Optimizer B2B edition의 개인화를 사용합니다.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1380
+source-wordcount: '1371'
 ht-degree: 2%
-
 ---
-
 # 이메일 메시지 작성
 
 [여정 작업 노드에 전자 메일 자산을 추가](./add-email.md)한 후 전자 메일 메시지의 콘텐츠를 정의할 수 있습니다.
 
 오른쪽 패널의 _[!UICONTROL 세부 정보]_ 탭에서 **[!UICONTROL 전자 메일 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
-![전자 메일 콘텐츠 편집 &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
+![전자 메일 콘텐츠 편집 ](./assets/add-email-content.png){width="700" zoomable="yes"} 클릭
 
 이 작업은 이메일 디자인 도구를 실행하며, 여기에서 다음 옵션 중 이메일을 디자인할 방법을 선택할 수 있습니다.
 
@@ -44,7 +49,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->생성 AI에서 제공하는 Adobe Journey Optimizer B2B edition의 AI Assistant를 사용하여 콘텐츠를 개선합니다. AI Assistant를 사용하면 전체 이메일 및 타겟팅된 텍스트 콘텐츠를 생성하고 대상자에게 반향을 일으키는 이미지에 대한 권장 사항을 제공하여 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. [자세히 알아보기](./ai-assistant-emails.md)
+>콘텐츠 생성 도구를 사용하여 콘텐츠를 개선합니다. 이러한 도구를 사용하면 전체 이메일 및 타겟팅된 텍스트 콘텐츠를 생성하고 대상자와 관련된 이미지에 대한 권장 사항을 제공하여 게재의 영향을 최적화하는 데 도움이 될 수 있습니다. [자세히 알아보기](./generate-content-emails.md)
 
 ## 이메일 콘텐츠 처음부터 만들기 {#design-from-scratch}
 

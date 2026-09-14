@@ -1,13 +1,11 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 86%
-
+source-wordcount: '448'
+ht-degree: 84%
 ---
-
 
 # Journey Optimizer B2B Edition 사용 안내서 {#user}
 
@@ -32,7 +30,6 @@ ht-degree: 86%
   + [AI 어시스턴트 액세스 활성화](./ai-coworker/enable-ai-assistant-access.md)
   + [질문 지침](./ai-coworker/question-guidance.md)
   + [채팅 인터페이스](./ai-coworker/use-ai-assistant.md)
-  + [콘텐츠용 생성형 AI](./ai-coworker/generative-ai-content.md)
   + [의도 점수](./ai-coworker/intent-scores.md)
   + 상담원 {#ai-agents}
     + [Audience Agent](./agents/audience-agent-b2b.md)
@@ -67,7 +64,7 @@ ht-degree: 86%
     + [이메일 추가](./content/add-email.md)
     + [전송 시간 최적화](./content/email-send-time-optimization.md)
     + [이메일 작성](./content/email-authoring.md)
-    + [이메일 작성을 위한 AI 어시스턴트](./content/ai-assistant-emails.md)
+    + [이메일 콘텐츠 생성](./content/generate-content-emails.md)
     + [GenStudio 워크플로](./content/genstudio-email-workflow.md)
     + [이메일 디자인을 위한 다크 모드](./content/email-dark-mode.md)
     + [제어되는 템플릿](./content/email-authoring-governance.md)
@@ -143,7 +140,7 @@ ht-degree: 86%
     + [개요](./content/landing-pages.md)
     + [만들기 및 게시](./content/landing-pages-create-publish.md)
     + [랜딩 페이지 디자인](./content/landing-page-design.md)
-    + [랜딩 페이지 콘텐츠용 AI 어시스턴트](./content/ai-assistant-landing-pages.md)
+    + [랜딩 페이지 콘텐츠 생성](./content/generate-content-landing-pages.md)
   + 콘텐츠 디자인 도구 {#content-design}
     + [구조 구성 요소](./content/structure-components.md)
     + [콘텐츠 구성 요소](./content/content-components.md)
@@ -153,6 +150,7 @@ ht-degree: 86%
     + [관리 및 만들기](./content/brands-manage-create.md)
     + [생성 AI 모델](./content/generative-ai-models.md)
   + [브랜드 테마](./content/brand-themes.md)
+  + [콘텐츠용 생성형 AI](./content/generative-ai-content.md)
   + [콘텐츠 평가](./content/content-evaluation.md)
   + [조건부 콘텐츠](./content/conditional-content.md)
   + [컨텐츠 액세스 가능성](./content/accessible-content.md)
