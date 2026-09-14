@@ -55,7 +55,7 @@ ht-degree: 0%
 
 이 기능을 사용하기 전에 [지침 및 제한 사항](./generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-Adobe은 다운로드 또는 내보내기 시 Firefly에서 생성한 에셋에 [콘텐츠 자격 증명](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용하여 투명도를 높입니다.
+Adobe은 다운로드 또는 내보내기 시 Firefly에서 생성한 에셋에 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용하여 투명도를 높입니다.
 
 [!DNL Journey Optimizer B2B Edition]의 전자 메일 콘텐츠 생성에 적용되는 제한 사항 및 지침은 다음과 같습니다.
 
