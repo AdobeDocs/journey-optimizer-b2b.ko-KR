@@ -5,16 +5,16 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1163
-ht-degree: 37%
-
+source-wordcount: '1162'
+ht-degree: 32%
 ---
-
 # Adobe Journey Optimizer B2B Edition 설명서
 
 [!DNL Adobe Journey Optimizer B2B Edition]은(는) 마케팅 및 영업 팀이 계정 기반 경험을 조정하고 전체 고객 라이프사이클에서 특정 제품에 대한 구매 그룹의 자격을 부여할 수 있는 최초의 애플리케이션입니다. AI를 사용하여 대상 고객 내에서 구매 그룹을 참여시키고 자격을 부여함으로써 팀이 더 높은 품질의 파이프라인을 생성하고 더 나은 획득, 확장 및 유지 전략을 설계하는 데 도움이 됩니다. 또한 영업 및 마케팅 팀 간에 공유된 통찰력을 사용할 수 있습니다.
@@ -185,7 +185,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="여정 콘텐츠"><br/>
-      <strong>여정 콘텐츠</strong><br/><a href="./content/add-email.md">이메일 채널</a><br/><a href="./content/ai-assistant-emails.md">이메일용 AI 어시스턴트</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio 이메일 경험</a><br/><a href="./content/sales-alert-email.md">판매 알림 이메일</a><br/><a href="./content/sms-authoring.md">SMS 채널</a>
+      <strong>여정 콘텐츠</strong><br/><a href="./content/add-email.md">이메일 채널</a><br/><a href="./content/generate-content-emails.md">이메일 콘텐츠 생성</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio 이메일 경험</a><br/><a href="./content/sales-alert-email.md">판매 경고 이메일</a><br/><a href="./content/sms-authoring.md">SMS 채널</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="콘텐츠 관리"><br/>

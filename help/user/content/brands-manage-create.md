@@ -8,24 +8,28 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2070
-ht-degree: 7%
-
+source-wordcount: '2039'
+ht-degree: 4%
 ---
-
 # 브랜드 생성 및 관리 {#brand-library}
 
 브랜드를 정의하여 시각적 및 언어적 정체성을 설정하는 자세한 규칙 및 표준 세트를 제공합니다. 이 지침은 모든 마케팅 및 커뮤니케이션 플랫폼에서 일관된 브랜드 표현을 유지하기 위한 참조를 제공합니다. 조직은 잘 정의된 브랜드 지침을 활용함으로써 모든 콘텐츠 제작 노력이 전략적 목표와 전반적인 브랜드 정체성에 부합하도록 할 수 있습니다. 이러한 일관성은 브랜드 인지도와 신뢰를 향상시킬 뿐만 아니라 모든 접점에서 보다 통합적이고 영향력 있는 고객 경험에 기여합니다.
@@ -38,7 +42,7 @@ Journey Optimizer B2B edition에서 브랜드 정의 및 에셋을 수동으로 
 >
 ><br>
 >
->Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
 ><br>
 >
@@ -68,7 +72,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 
 ### 기본 브랜드
 
-콘텐츠를 생성하고 콘텐츠를 만드는 동안 정렬 점수를 계산할 때 자동으로 적용할 기본 브랜드를 지정할 수 있습니다. 게시된(_Live_) 브랜드만 기본값이 될 수 있습니다.
+콘텐츠를 생성하고 콘텐츠를 만드는 동안 정렬 점수를 계산할 때 브랜드를 자동으로 적용하려면 기본 브랜드를 지정합니다. 게시된(_Live_) 브랜드만 기본값이 될 수 있습니다.
 
 브랜드 라이브러리에서는 기본 브랜드 카드가 플래그와 함께 표시됩니다.
 
@@ -93,7 +97,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 
 1. 브랜드의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
 
-1. 파일을 드래그 앤 드롭하거나 선택하여 브랜드 지침을 업로드하고 자동으로 관련 브랜드 정보를 추출합니다.
+1. 파일을 드래그 앤 드롭하거나 선택하여 브랜드 지침을 업로드하고 관련 브랜드 정보를 자동으로 추출합니다.
 
    ![새 브랜드 정의](./assets/brands-create-new.png){width="500"}
 
@@ -111,7 +115,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 
 ### 브랜드 가이드라인 세분화 및 업데이트
 
-1. 필요에 따라 더 자세한 정보를 조정하고 정의하려면 다양한 탭을 탐색하십시오.
+1. 필요에 따라 더 자세한 정보를 조정하고 정의하려면 다른 탭을 탐색합니다.
 
    * [!UICONTROL 개요]
 
@@ -163,7 +167,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 
 1. 모든 항목을 정의했으면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   초안 브랜드를 게시할 준비가 될 때까지 계속 변경할 수 있습니다.
+   초안 브랜드를 계속 변경할 수 있습니다. 게시할 준비가 될 때까지 계속합니다.
 
 ### 브랜드 게시
 
@@ -241,9 +245,9 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="작성 스타일 정렬 점수"
->abstract="작성 스타일 섹션에서는 명확하고 일관된 콘텐츠를 보장하기 위해 언어, 형식 및 구조에 대한 표준을 정의합니다. 정렬 점수는 높음부터 낮음까지로 평가되며, 콘텐츠가 이러한 지침을 얼마나 잘 따르고 있는지를 보여 주고 개선이 필요한 영역을 강조 표시합니다."
+>abstract="작성 스타일 섹션은 언어, 서식 및 구조에 대한 표준을 정의합니다. 정렬 점수는 콘텐츠가 이러한 지침을 얼마나 잘 따르는지를 보여 주고 개선 영역을 강조 표시합니다."
 
-_[!UICONTROL 작성 스타일]_ 정의는 콘텐츠 작성에 대한 표준을 요약하며, 모든 자료의 명확성, 일관성 및 일관성을 유지하기 위해 언어, 서식 및 구조를 사용해야 하는 방법에 대해 자세히 설명합니다.
+_[!UICONTROL 작성 스타일]_ 정의는 콘텐츠 작성에 대한 표준을 간략하게 설명하고 모든 자료의 명확성, 일관성 및 일관성을 유지하기 위해 언어, 서식 및 구조를 어떻게 사용해야 하는지 자세히 설명합니다.
 
 **[!UICONTROL 작성 스타일]** 탭을 선택하고 각 범주를 검토합니다.
 
@@ -285,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="시각적 콘텐츠 정렬 점수"
->abstract="시각적 콘텐츠 정렬 점수는 콘텐츠가 구성된 브랜드 가이드라인과 얼마나 잘 일치하는지를 나타냅니다. 높은 점수부터 낮은 점수까지 매겨져 있어 한눈에 정렬 상태를 평가하는 데 도움이 됩니다. 다양한 카테고리를 탐색하여 개선이 필요한 영역을 파악하고 브랜드 이미지에 어긋나는 요소를 정확히 파악하십시오."
+>abstract="시각적 콘텐츠 정렬 점수는 콘텐츠가 구성된 브랜드 가이드라인과 얼마나 잘 일치하는지를 나타냅니다. 정렬을 평가하고 개선을 위한 영역을 식별하는 데 도움이 됩니다."
 
 _[!UICONTROL 시각적 콘텐츠]_ 정의는 이미지 및 디자인에 대한 표준을 요약하고, 통일되고 일관된 브랜드 디자인을 유지하는 데 필요한 사양을 자세히 설명합니다.
 
@@ -312,7 +316,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 #### 이미지 예
 
-올바른 또는 잘못된 사용을 표시하는 이미지를 추가하려면 _[!UICONTROL 지침 추가]_ 또는 _[!UICONTROL 제외 추가]_ 팝업 대화 상자에서 **[!UICONTROL 예]**&#x200B;를 선택하십시오. **[!UICONTROL 이미지 선택]**&#x200B;을 클릭하여 시스템에서 이미지 파일을 선택합니다. 이미지를 업로드하고 영역의 축소판을 표시하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
+올바른 또는 잘못된 사용을 표시하는 이미지를 추가하려면 _[!UICONTROL 지침 추가]_ 또는 _[!UICONTROL 제외 추가]_ 팝업 대화 상자에서 **[!UICONTROL 예]**&#x200B;를 선택하십시오. 시스템에서 이미지 파일을 선택하려면 **[!UICONTROL 이미지 선택]**&#x200B;을 클릭하십시오. 이미지를 업로드하고 영역의 축소판을 표시하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 
 ![예제 이미지 추가](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
 
@@ -326,7 +330,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    이 작업은 브랜드의 초안 사본을 만듭니다.
 
-1. 필요에 따라 브랜드 정보를 업데이트하려면 여러 탭을 탐색하십시오.
+1. 여러 탭을 탐색하고 필요에 따라 브랜드 정보를 업데이트합니다.
 
    * 개요
 

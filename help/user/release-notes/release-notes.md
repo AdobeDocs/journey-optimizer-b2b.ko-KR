@@ -5,25 +5,30 @@ role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d8425054daea287d21419911158908035c1314f6
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 5637
+source-wordcount: '5637'
 ht-degree: 61%
-
 ---
-
 # Journey Optimizer B2B Edition 릴리스 정보
 
 Adobe Journey Optimizer B2B Edition은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다.
@@ -137,7 +142,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | 브랜드 키트 | (Beta) Journey Optimizer B2B edition에서 브랜드를 정의하여 크리에이티브 팀이 시각적 또는 서면 콘텐츠를 만들 때 사용할 수 있는 소스를 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. [자세히 알아보기](../content/brands-overview.md) |
-| 기능 | 이메일 콘텐츠 생성을 위한 브랜드 | 브랜드 지침을 정의하고 이 정보를 사용하여 이메일 콘텐츠를 생성할 수 있습니다. 이 기능을 사용하면 이메일 콘텐츠가 브랜드별 카피 작성 지침, 스타일 및 색조에 맞게 조정됩니다. [자세히 알아보기](../content/ai-assistant-emails.md) |
+| 기능 | 이메일 콘텐츠 생성을 위한 브랜드 | 브랜드 지침을 정의하고 이 정보를 사용하여 이메일 콘텐츠를 생성할 수 있습니다. 이 기능을 사용하면 이메일 콘텐츠가 브랜드별 카피 작성 지침, 스타일 및 색조에 맞게 조정됩니다. [자세히 알아보기](../content/generate-content-emails.md) |
 | 개선 사항 | 여정 _대기_ 노드 - 고급 설정 | 여정의 _대기_ 노드에 대해 마케터는 이제 종료 날짜 및 시간을 지정하고 시간대를 선택할 수 있습니다. 이러한 향상된 기능을 통해 여정 오케스트레이션 및 캠페인 타이밍을 보다 효과적으로 제어할 수 있습니다. [자세히 알아보기](../journeys/wait-nodes.md#advanced-wait-settings) |
 | 개선 사항 | 구매 그룹 구성원 필터 - 제거됨 | _사람별 분할 경로_ 노드의 경우 _[!UICONTROL 구매 그룹의 구성원]_ 필터에 이제 _Is Removed_ 제약 조건이 포함됩니다. 이 필터를 선택하면 필터가 제거된 구매 그룹 구성원을 포함하거나 제외할 수 있습니다. _[!UICONTROL 구매 그룹의 구성원]_ 필터에서 이 새로운 제약 조건을 사용할 수 있는 Marketo Engage 스마트 목록에서도 지원됩니다. |
 | 개선 사항 | 이메일 디자인 - 여러 수준의 글머리 기호 | 이제 이메일 콘텐츠 디자인 공간 도구에서 하위 글머리 기호(글머리 기호 수준)를 지원합니다. |

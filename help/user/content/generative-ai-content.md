@@ -1,38 +1,44 @@
 ---
 title: 콘텐츠용 생성형 AI
-description: 모범 사례를 확인하는 등  [!DNL Journey Optimizer B2B Edition]에서 생성 AI를 사용하여 개인화된 전자 메일 및 랜딩 페이지를 만드는 방법을 알아봅니다.
-feature: AI Assistant, Generative AI, Content
+description: 모범 사례를 확인하는 등 [!DNL Journey Optimizer B2B Edition]에서 생성 AI를 사용하여 개인화된 전자 메일 및 랜딩 페이지를 만드는 방법을 배웁니다.
+feature: Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
 nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-autotag-review: '2026-06-05T16:07:36.688Z'
-TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
+autotag-review: '2026-08-06T18:42:03.734Z'
+TQID: 'https://experienceleague.adobe.com/oqAvHYWEVJQVQDOPWcZHuxlTmKJqAKtRp71pfbYcgys'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Content management
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
+    internal-label: Accessibility
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2476
+source-wordcount: '2430'
 ht-degree: 7%
-
 ---
-
 # 콘텐츠용 생성형 AI {#generative-ai-content}
 
 >[!CONTEXTUALHELP]
@@ -49,9 +55,9 @@ ht-degree: 7%
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 생성형 AI 약관"
 >abstract="이 기능에 액세스하려면 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 대한 사용자의 동의가 있어야 합니다. 이 기능을 통한 모든 출력 내용이 정확한지 검토하고 사용 사례에 적합한지 확인해 보시기 바랍니다."
->additional-url="https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 생성형 AI 사용자 가이드라인"
+>additional-url="https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 생성형 AI 사용자 가이드라인"
 
-Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 [!DNL Adobe Journey Optimizer B2B Edition]의 콘텐츠에 대한 생성 AI는 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다. 다양한 주요 제목과 이미지를 테스트하여 콘텐츠에 미치는 영향을 최적화합니다.
+Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 [!DNL Adobe Journey Optimizer B2B Edition]의 콘텐츠에 대한 생성 AI는 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다. 다양한 주요 제목과 이미지를 테스트하여 콘텐츠에 미치는 영향을 개선합니다.
 
 [!DNL Journey Optimizer B2B Edition]에서 콘텐츠를 만들 때 생성 AI 기능을 사용하여 Adobe의 생성 AI 기능을 활용하십시오. 이메일, SMS 메시지, 랜딩 페이지 등에 대한 개인화된 텍스트 및 시각화를 제작합니다. 캠페인을 빌드하거나 자산을 개선할 때 이러한 기능을 사용하면 시간을 절약하면서 콘텐츠를 브랜드 지침에 맞게 조정할 수 있습니다.
 
@@ -63,18 +69,18 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 >
 >[!DNL Journey Optimizer B2B Edition]에서 이러한 기능에 액세스하려면 _[!UICONTROL AI Assistant]_ > _[!UICONTROL 콘텐츠 생성]_ 권한이 있어야 합니다. 제품 관리자가 기능 권한을 부여하는 방법에 대한 자세한 내용은 [제품 권한에 대한 역할 편집](../admin/user-management.md#edit-roles-for-product-permissions)을 참조하십시오.
 
-콘텐츠 생성을 위한 AI Assistant 도구는 다음 에셋 유형으로 지원됩니다.
+콘텐츠 생성 도구는 다음 에셋 유형으로 지원됩니다.
 
-* [이메일](../content/ai-assistant-emails.md)
-* [!BADGE Beta] [랜딩 페이지](../content/ai-assistant-landing-pages.md)
+* [이메일](./generate-content-emails.md)
+* [!BADGE Beta] [랜딩 페이지](./generate-content-landing-pages.md)
 
 ## 일반 지침 및 제한 사항 {#general-guidelines-and-limitations}
 
-생성 AI 기능의 사용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}의 적용을 받습니다. 미디어 생성을 위한 생성 AI 도구 사용에 대한 Adobe의 노력으로 Adobe은 [!DNL Firefly]에서 생성한 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 대해 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을(를) 다운로드하거나 내보낼 때 적용합니다.
+생성 AI 기능의 사용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}의 적용을 받습니다. 미디어 생성을 위한 생성 AI 도구 사용에 대한 Adobe의 노력으로 Adobe은 [!DNL Firefly]에서 생성한 에셋을 포함하는 모든 콘텐츠 또는 프로젝트에 대해 [C2PA 메타데이터](./c2pa-metadata.md)를 다운로드하거나 내보낼 때 적용합니다.
 
 [!DNL Journey Optimizer B2B Edition]의 콘텐츠에 생성 AI를 사용하는 방법에 대한 일반 지침을 검토하십시오.
 
-* 생성 AI 모델이 정확하게 해석되도록 잘 정의된 프롬프트를 사용합니다. 제공하는 마케팅 목표 또는 프롬프트는 생성된 콘텐츠의 품질에 큰 영향을 줍니다.
+* 생성 AI 모델이 정확하게 해석되도록 잘 정의된 프롬프트를 사용합니다. 제공한 마케팅 목표 또는 프롬프트는 생성된 콘텐츠의 품질에 영향을 줍니다.
 
 * 정확한 브랜드 내 콘텐츠를 갖도록 콘텐츠 참조 파일을 업로드합니다. 그렇지 않으면 콘텐츠는 공개적으로 사용 가능한 정보를 기반으로 합니다. 업로드된 콘텐츠는 PDF, JPEG, PNG 또는 ZIP(지원되는 파일 형식 포함) 파일 형식일 수 있습니다. 업로드된 파일의 최대 크기는 50MB입니다. 파일이 크거나 이미지가 많으면 작동할 수 있지만, 이렇게 하면 처리 시간이 늘어납니다.
 
@@ -91,7 +97,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 이 안내서는 요청을 구조화하고, 의도를 명확하게 전달하며, AI가 브랜드 지침, 대상 요구 사항 및 캠페인 목표에 맞는 메시지를 생성하는지 확인하는 데 도움이 됩니다.
 
-AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘텐츠를 생성할 수 있는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
+목표에 맞는 고품질의 온 브랜드 마케팅 콘텐츠를 생성하는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
 
 ### CO-STAR 프레임워크 사용 {#costar-framework}
 
@@ -324,7 +330,7 @@ AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘
 
 #### 새 콘텐츠 만들기
 
-마케팅 캠페인을 시작하거나, 새 솔루션을 공개하거나, 업데이트/새로 고친 커뮤니케이션을 시작할 때 이 전략을 적용합니다. 이렇게 하면 메시지가 강력하게 시작되고 목표에 맞게 조정됩니다.
+마케팅 캠페인을 시작하거나, 새 솔루션을 공개하거나, 업데이트/새로 고친 커뮤니케이션을 시작할 때 이 전략을 적용합니다. 이를 통해 메시지가 효과적이고 목표에 부합하는지 확인할 수 있습니다.
 
 **메시지를 표시하는 방법** ➤ 새 콘텐츠를 만들 때 기존 콘텐츠를 참조하지 않고 마케팅 목표에 집중하십시오.
 
@@ -342,7 +348,7 @@ AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘
 >
 >정교함, 요약 또는 단순화와 같은 표준 수정 사항의 경우 사용자 지정 프롬프트를 작성하는 대신 **_세분화_**&#x200B;을(를) 선택하십시오.
 
-현재 마케팅 캠페인을 업데이트, 새로 고침 또는 조정해야 하는 경우 수정 프롬프트를 사용하십시오. 이 방법은 증분 개선을 지원하므로 처음부터 새로 시작하지 않고도 메시징의 관련성을 유지할 수 있습니다.
+현재 마케팅 캠페인을 업데이트, 새로 고침 또는 조정해야 하는 경우 수정 프롬프트를 사용하십시오. 이 방법은 증분 개선을 지원하므로 프로세스를 다시 시작하지 않고도 메시징의 관련성을 유지할 수 있습니다.
 
 **확인하는 방법** ➤ 기존 콘텐츠를 수정할 때는 변경할 내용과 변경하는 방법을 명확히 지정하십시오.
 
@@ -356,7 +362,7 @@ AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘
 
 ## 고급 텍스트 설정 {#text-settings}
 
-AI Assistant 콘텐츠 도구의 텍스트 설정에는 명확하고 형식이 잘 지켜진 프롬프트를 사용할 수 있을 뿐만 아니라 생성된 출력을 최적화하는 데 사용할 수 있는 텍스트 설정이 포함되어 있습니다.
+명확하고 올바른 형식의 프롬프트를 사용하는 것 외에도 텍스트 설정을 사용하여 생성된 출력을 최적화합니다.
 
 >[!TIP]
 >
@@ -405,21 +411,21 @@ AI Assistant 콘텐츠 도구의 텍스트 설정에는 명확하고 형식이 �
 >
 >**[!UICONTROL 콘텐츠 참조]** 메뉴를 통해 에셋을 이미 업로드한 경우 프롬프트에서 참조할 필요가 없습니다. 시스템은 선택한 문서를 자동으로 사용합니다.
 
-참조 콘텐츠 파일은 구체적이고 정확한 세부 정보로 생성된 콘텐츠를 보강하는 실제 정보를 제공합니다. 제품 브로셔나 백서 등의 문서를 업로드할 때 포커스가 있는 부품을 포함하도록 프롬프트를 변경합니다.
+참조 콘텐츠 파일은 구체적이고 정확한 세부 정보로 생성된 콘텐츠를 보강하는 실제 정보를 제공합니다. 포커스가 있는 부품을 포함하려면 제품 브로셔나 백서 같은 문서를 업로드할 때 메시지를 변경합니다.
 
-* **제품 브로셔를 사용합니다.** _대신&quot;_ **&#x200B;**&#x200B;_&quot;고급 보안 기능 및 규정 준수 인증, 특히 SOC 2 규정 준수 및 데이터 암호화에 집중&quot;_
+* **제품 브로셔 사용** _대신_ **사용** _&quot;고급 보안 기능 및 규정 준수 인증, 특히 SOC 2 규정 준수 및 데이터 암호화에 집중&quot;_
 
-* **대신** _&quot;사례 연구를 참조&quot;_ **사용해야 함** _&quot;의료 클라이언트의 ROI 결과 강조 표시, 특히 지역 의료 센터의 40% 비용 절감&quot;_
+* **대신** _&quot;사례 연구를 참조&quot;_ **사용** _&quot;의료 클라이언트의 ROI 결과 강조 표시, 특히 지역 의료 센터의 40% 비용 절감&quot;_
 
-* **대신** _&quot;기술 세부 정보를 포함&quot;_ **사용해야 함** _&quot;REST API 끝점 및 99.9% 가동 시간 SLA에 중점을 두고 API 통합 기능 및 개발자 이점 강조&quot;_
+* **대신** _&quot;기술 세부 정보 포함&quot;_ **사용** _&quot;REST API 끝점 및 99.9% 가동 시간 SLA에 중점을 두고 API 통합 기능 및 개발자 이점 강조&quot;_
 
 ### 콘텐츠 세분화
 
 콘텐츠가 생성되면 **_[!UICONTROL Refine]_** 기능을 사용하여 다음 옵션을 사용하여 반복하고 개선합니다.
 
-* **[!UICONTROL 자세히]** - AI Assistant를 통해 특정 주제를 확장하고 더 나은 이해와 참여를 위해 추가 세부 정보를 제공할 수 있습니다.
+* **[!UICONTROL 자세히]** - 특정 주제를 확장하여 이해와 참여를 높일 수 있는 추가 세부 정보를 제공합니다.
 
-* **[!UICONTROL 요약]** - 정보가 길면 페이지 뷰어가 오버로드될 수 있습니다. AI Assistant를 사용하여 주요 사항을 명확하고 간결한 요약으로 요약하여 주목 받고 더 자세히 읽을 수 있도록 장려합니다.
+* **[!UICONTROL 요약]** - 장황한 정보가 독자를 과부하시킬 수 있습니다. 주요 사항을 명확하고 간결한 요약으로 요약하도록 수정하여 주의를 집중하고 더 읽을 수 있도록 장려합니다.
 
 * **[!UICONTROL 구문 변경]** - 의미를 유지하면서 메시지를 다시 작성합니다. 이 옵션은 핵심 메시지를 변경하지 않고 대체 단어를 생성하거나, 흐름을 개선하거나, 구문 조정을 하는 데 도움이 됩니다.
 
