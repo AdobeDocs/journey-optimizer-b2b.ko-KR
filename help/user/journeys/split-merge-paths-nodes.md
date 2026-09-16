@@ -7,24 +7,28 @@ role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: '2349'
 ht-degree: 4%
-
 ---
-
 # 경로 분할 및 병합 {#split-paths}
 
 분할 및 병합 경로 노드를 사용하여 정의한 조건에 따라 사람 또는 계정을 세그먼트화합니다. 조건에 따라 대상자 또는 계정 목록에 대한 경로를 만들고, 세그먼트에 대한 작업 및 이벤트 노드를 사용하여 각 경로를 정의한 다음, 경로를 결합하고 여정을 계속합니다.
@@ -43,7 +47,7 @@ _경로 분할_ 노드는 **_둘 중 하나_** 계정 또는 사람 필터를 �
 
 계정별 분할 경로에는 계정과 사용자 작업 및 이벤트가 모두 포함될 수 있습니다. 이러한 경로는 추가로 분할할 수 있습니다.
 
-_&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
+_**계정 노드별 분할 경로 작동 방식**_
 
 * 추가하는 각 경로에는 각 에지에 노드를 추가할 수 있는 최종 노드가 포함되어 있습니다.
 * 계정 노드로 분할을 중첩시킬 수 있습니다(계정으로 경로를 반복적으로 분할할 수 있음).
@@ -127,7 +131,7 @@ _&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
 
 1. 경로에 대해 모든 조건이 정의된 경우 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-구매 그룹 또는 단계의 상태를 업데이트하거나 식별된 계정에 대한 판매 경고 이메일을 보내려면 경로에 작업 노드를 추가합니다.
+식별된 계정의 구매 그룹 또는 단계 상태를 업데이트하려면 경로에 작업 노드를 추가합니다.
 
 ## 사람별 경로 분할
 
@@ -135,7 +139,7 @@ _(계정 및 사용자 여정)_
 
 사람에 의해 나누기 경로에는 사람 작업만 포함될 수 있습니다. 이러한 경로는 다시 분할하고 자동으로 다시 결합할 수 없습니다.
 
-_&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
+_**people 노드별 분할 경로가 작동하는 방식**_
 
 * _그룹화된 노드_ 분할 병합 조합 내에서 사람 노드로 분할 함수가 작동합니다. 분할된 경로는 모든 사람이 계정 컨텍스트를 잃지 않고 다음 단계로 이동할 수 있도록 자동으로 병합됩니다.
 * 사람 노드로 분할을 중첩할 수 없습니다(이 그룹화된 노드에 있는 경로에 사람에 대한 분할 경로를 추가할 수 없음).
@@ -231,7 +235,7 @@ _&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
 
 >[!BEGINSHADEBOX &quot;비활성 필터링&quot;]
 
-각 _[!UICONTROL 이벤트 기록]_ 필터에 대해 **[!UICONTROL 비활성 필터로 전환]** 옵션을 활성화할 수 있습니다. 이 옵션은 해당 활동 유형이 없는 경우 필터를 평가로 변경합니다. _&#x200B;**이메일을 열지 않은**&#x200B;_ 사용자에 대한 경로를 만들려면 _[!UICONTROL 다이렉트 마케팅 이메일 열림]_ 필터를 추가하십시오. 비활성 옵션을 활성화하고 이메일을 지정합니다.
+각 _[!UICONTROL 이벤트 기록]_ 필터에 대해 **[!UICONTROL 비활성 필터로 전환]** 옵션을 활성화할 수 있습니다. 이 옵션은 해당 활동 유형이 없는 경우 필터를 평가로 변경합니다. _**이메일을 열지 않은**_ 사용자에 대한 경로를 만들려면 _[!UICONTROL 다이렉트 마케팅 이메일 열림]_ 필터를 추가하십시오. 비활성 옵션을 활성화하고 이메일을 지정합니다.
 
 ![사람 비활성 상태별 경로 분할](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -288,4 +292,4 @@ _[!UICONTROL 특수 필터]_ 섹션 내에는 구매 그룹에서 개인의 멤�
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443263/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
