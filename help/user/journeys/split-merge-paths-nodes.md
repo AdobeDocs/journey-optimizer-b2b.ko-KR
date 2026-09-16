@@ -7,24 +7,28 @@ role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: '2349'
 ht-degree: 4%
-
 ---
-
 # 경로 분할 및 병합 {#split-paths}
 
 분할 및 병합 경로 노드를 사용하여 정의한 조건에 따라 사람 또는 계정을 세그먼트화합니다. 조건에 따라 대상자 또는 계정 목록에 대한 경로를 만들고, 세그먼트에 대한 작업 및 이벤트 노드를 사용하여 각 경로를 정의한 다음, 경로를 결합하고 여정을 계속합니다.
@@ -127,7 +131,7 @@ _&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
 
 1. 경로에 대해 모든 조건이 정의된 경우 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-구매 그룹 또는 단계의 상태를 업데이트하거나 식별된 계정에 대한 판매 경고 이메일을 보내려면 경로에 작업 노드를 추가합니다.
+식별된 계정의 구매 그룹 또는 단계 상태를 업데이트하려면 경로에 작업 노드를 추가합니다.
 
 ## 사람별 경로 분할
 

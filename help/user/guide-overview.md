@@ -10,9 +10,9 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1151'
 ht-degree: 32%
 ---
 # Adobe Journey Optimizer B2B Edition 설명서
@@ -185,7 +185,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="여정 콘텐츠"><br/>
-      <strong>여정 콘텐츠</strong><br/><a href="./content/add-email.md">이메일 채널</a><br/><a href="./content/generate-content-emails.md">이메일 콘텐츠 생성</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio 이메일 경험</a><br/><a href="./content/sales-alert-email.md">판매 경고 이메일</a><br/><a href="./content/sms-authoring.md">SMS 채널</a>
+      <strong>여정 콘텐츠</strong><br/><a href="./content/add-email.md">이메일 채널</a><br/><a href="./content/generate-content-emails.md">이메일 콘텐츠 생성</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio 이메일 경험</a><br/><a href="./content/sms-authoring.md">SMS 채널</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="콘텐츠 관리"><br/>

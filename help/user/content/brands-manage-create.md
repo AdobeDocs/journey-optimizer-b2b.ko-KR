@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 4%
@@ -173,7 +173,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 
 브랜드에 전체 정의 집합이 포함되어 있고 요구 사항을 충족하면 **[!UICONTROL 게시]**&#x200B;를 클릭하여 브랜드 지침을 콘텐츠 정렬 및 생성에 사용할 수 있도록 합니다.
 
-게시된 브랜드는 AI [브랜드 정렬 점수](./content-evaluation.md#brand-alignment-score) 및 [콘텐츠 생성 도구](../ai-coworker/generative-ai-content.md)의 **[!UICONTROL 브랜드]** 옵션에서 액세스할 수 있습니다.
+게시된 브랜드는 AI [브랜드 정렬 점수](./content-evaluation.md#brand-alignment-score) 및 [콘텐츠 생성 도구](./generative-ai-content.md)의 **[!UICONTROL 브랜드]** 옵션에서 액세스할 수 있습니다.
 
 ![콘텐츠에 대한 브랜드 옵션](./assets/brand-menu-content-ai-tools.png){width="300"}
 

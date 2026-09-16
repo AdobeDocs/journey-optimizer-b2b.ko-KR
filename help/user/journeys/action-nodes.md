@@ -6,24 +6,28 @@ role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2184
+source-wordcount: '2176'
 ht-degree: 3%
-
 ---
-
 # 액션 취하기
 
 전자 메일 보내기, 점수 변경, 구매 그룹에 할당 등의 작업을 실행하려면 여정에 _[!UICONTROL 작업 수행]_ 노드를 추가하십시오. 작업은 일반적으로 이벤트나 이전 작업과 같은 일종의 트리거 결과로 발생하려는 작업입니다.
@@ -45,7 +49,6 @@ ht-degree: 3%
 | [!UICONTROL 대상에서 비활성화] | 기존 가상 대상 선택<br/>대상 선택 |
 | [!UICONTROL 여정에서 계정 제거] | 라이브 계정 여정 선택 |
 | [!UICONTROL 계정 목록에서 제거] | 라이브 정적 계정 목록 선택 |
-| [!UICONTROL 판매 알림 보내기] | 솔루션 관심 항목 선택<br/>전자 메일 보내기 |
 | [!UICONTROL 계정 프로필 업데이트] | 특성 <br/>새 값 선택 |
 | [!UICONTROL 구매 그룹 단계 업데이트] | 솔루션 관심 분야 선택<br/>구매 그룹 단계 선택 |
 | [!UICONTROL 구매 그룹 상태 업데이트] | 솔루션 관심 항목 선택<br/>상태(필수, 최대 50자) |
