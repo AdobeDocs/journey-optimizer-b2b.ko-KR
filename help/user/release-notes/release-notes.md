@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
 workflow-type: tm+mt
-source-wordcount: '5637'
+source-wordcount: '5645'
 ht-degree: 61%
 ---
 # Journey Optimizer B2B Edition 릴리스 정보
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | _분할 경로 변형_ 여정 노드 | (이전에는 계정 여정의 Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 사람을 할당하여 계정이나 개인 여정 내에서 변형을 테스트할 수 있습니다. [자세히 알아보기](../journeys/variant-split-paths-nodes.md) |
 | 기능 | C2PA 메타데이터 | 생성 AI 도구로 생성 또는 편집된 이미지는 이제 C2PA 메타데이터로 자동 서명돼 콘텐츠 투명성과 AI 공개 요구 사항을 충족하는 데 도움이 된다. [자세히 알아보기](../content/c2pa-metadata.md) |
 | 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
-| 개선 사항 | 이벤트 트리거 및 필터 수신 - 계정 여정 | 이제 계정 여정에 대해 _이벤트 수신_ 노드에서 여러 트리거와 필터를 사용할 수 있습니다. |
+| 개선 사항 | 이벤트 트리거 및 필터 수신 - 계정 여정 | 계정 여정의 경우 이제 _사람_ 이벤트 유형이 있는 _이벤트 수신_ 노드에서 여러 트리거와 필터를 지원할 수 있습니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md) |
 | 개선 사항 | 외부 분할 경로 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 분할 경로_ 노드에 대한 지원을 사용할 수 있습니다. [자세히 알아보기](../journeys/external-nodes.md#external-action) |
 | 개선 사항 | 외부 작업 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 작업_ 노드에 대한 지원을 사용할 수 있습니다. [자세히 알아보기](../journeys/external-nodes.md#external-split-paths) |
 | 개선 사항 | AEP 관계형 데이터 세트 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
