@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 83%
 ---
 
 # Journey Optimizer B2B Edition 사용 안내서 {#user}
@@ -70,7 +70,7 @@ ht-degree: 84%
     + [제어되는 템플릿](./content/email-authoring-governance.md)
     + [이메일 중복 제거](./content/email-deduplication.md)
     + [이메일 추적](./content/email-tracking-manage.md)
-  + 웹 채널(Beta) {#web-channel}
+  + 웹 채널 {#web-channel}
     + [개요](./content/web-experiences.md)
     + [웹 경험 디자인](./content/web-experience-design.md)
     + [단일 페이지 애플리케이션](./content/web-single-page-applications.md)
@@ -172,6 +172,6 @@ ht-degree: 84%
     + [이메일 구성](./admin/configure-channels-emails.md)
     + [SMS 구성](./admin/configure-channels-sms.md)
     + [WhatsApp 구성](./admin/configure-channels-whatsapp.md)
-    + [웹 채널 구성(Beta)](./admin/configure-channels-web.md)
+    + [웹 채널 구성](./admin/configure-channels-web.md)
     + [랜딩 페이지 구성](./admin/configure-channels-landing-pages.md)
     + [Forms 구성](./admin/configure-channels-forms.md)
