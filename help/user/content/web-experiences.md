@@ -80,7 +80,7 @@ Adobe Journey Optimizer B2B Edition의 웹 채널을 사용하면 웹 사이트�
 
    [!DNL Microsoft Edge]을(를) 사용하는 경우 상단 배너의 다른 스토어에서 _확장 허용_&#x200B;을(를) 선택하십시오. 이 옵션을 활성화하면 [!DNL Chrome Web Store]에서 [!DNL Microsoft Edge]&#x200B;(으)로 확장을 추가할 수 있습니다.
 
-1. _[!DNL Adobe Experience Cloud Visual Editing Helper]_브라우저 확장을 검색하여 탐색합니다.
+1. _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;브라우저 확장을 검색하여 탐색합니다.
 
    ![Google Chrome용 Adobe Experience Cloud Visual Editing Helper 확장 기능](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
