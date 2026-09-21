@@ -1,38 +1,46 @@
 ---
 title: 웹 경험
-description: 계정 여정을 위한 개인화된 웹 경험을 만들고, 디자인하고, 게시합니다. - Journey Optimizer B2B edition의 웹 사이트 방문자에게 타겟팅된 콘텐츠 수정 사항을 제공합니다.
+description: 계정 여정을 위한 개인화된 웹 경험을 만들고, 디자인하고, 게시합니다. - Journey Optimizer B2B Edition의 웹 사이트 방문자에게 타겟팅된 콘텐츠 수정 사항을 제공합니다.
 feature: Content, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badge: label="제한 공개" type="Informative"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
 autotag-review: '2026-05-27T16:20:23.362Z'
 TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 1544
+source-wordcount: '1503'
 ht-degree: 3%
-
 ---
-
 # 웹 경험
 
-Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트에서 직접 개인화된 경험을 만들 수 있으므로 의미 있는 방식으로 고객과 연결할 수 있습니다. 이 기능은 맞춤형 콘텐츠와의 참여를 강화하고 이메일 및 SMS와 같은 다른 채널과 원활하게 통합하는 데 사용할 수 있는 유연한 도구 세트를 제공합니다.
+Adobe Journey Optimizer B2B Edition의 웹 채널을 사용하면 웹 사이트에서 직접 개인화된 경험을 만들 수 있으므로 의미 있는 방식으로 고객과 연결할 수 있습니다. 이 기능은 맞춤형 콘텐츠와의 참여를 강화하고 이메일 및 SMS와 같은 다른 채널과 원활하게 통합하는 데 사용할 수 있는 유연한 도구 세트를 제공합니다.
 
 웹 경험을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -52,15 +60,15 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 * 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
 
 * 여정에서 웹 경험을 만들고 관리하는 데 필요한 [권한](../admin/user-management.md#b2b-product-permissions)이 있습니다.
-  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 관리]_ - 웹 개인화 작업 노드를 추가하거나 업데이트하는 데 필요합니다.
-  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 보기]_ - 웹 개인화 작업 노드에 대한 세부 정보를 보는 데 필요합니다.
-  * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 승인 및 게시]_ - 하나 이상의 웹 개인화 작업 노드가 있는 여정을 게시하는 데 필요합니다.
+  * _[!UICONTROL 작성자 B2B 웹 경험]_
+  * _[!UICONTROL B2B 개인 여정 관리]_
+  * _[!UICONTROL B2B 계정 여정 관리]_
 
-* 웹 브라우저용으로 Adobe Experience Cloud [Visual Editing Helper 브라우저 확장 기능](#install-the-visual-editing-helper-extension)이 설치되어 있습니다. 이 확장은 Journey Optimizer B2B edition 콘텐츠 디자인 공간에서 웹 페이지를 안정적으로 열고, 작성하고, 미리 보는 데 필요합니다.
+* 웹 브라우저용으로 Adobe Experience Cloud [Visual Editing Helper 브라우저 확장 기능](#install-the-visual-editing-helper-extension)이 설치되어 있습니다. 이 확장은 Journey Optimizer B2B Edition 콘텐츠 디자인 공간에서 웹 페이지를 안정적으로 열고, 작성하고, 미리 보는 데 필요합니다.
 
   >[!NOTE]
   >
-  >Google Chrome 및 Microsoft Edge은 현재 Journey Optimizer B2B edition에서 웹 페이지 작성을 지원하는 유일한 브라우저입니다.
+  >Google Chrome 및 Microsoft Edge은 현재 Journey Optimizer B2B Edition에서 웹 페이지 작성을 지원하는 유일한 브라우저입니다.
 
 >[!ENDSHADEBOX]
 
@@ -84,11 +92,11 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
    ![Google Chrome 도구 모음의 Adobe Experience Cloud Visual Editing Helper 확장 기능 아이콘](./assets/web-experience-google-chrome-adobe-visual-editing-extension-icon.png){width="450"}
 
-이제 웹 경험용 Journey Optimizer B2B edition 비주얼 편집기에서 웹 사이트를 열면 [!DNL Adobe Experience Cloud Visual Editing Helper]이(가) 자동으로 활성화됩니다. 확장 기능에는 조건부 설정이 없으며 SameSite 쿠키 설정을 포함하여 모든 설정을 자동으로 처리합니다.
+이제 웹 경험용 Journey Optimizer B2B Edition 시각적 편집기에서 웹 사이트를 열면 [!DNL Adobe Experience Cloud Visual Editing Helper]이(가) 자동으로 활성화됩니다. 확장 기능에는 조건부 설정이 없으며 SameSite 쿠키 설정을 포함하여 모든 설정을 자동으로 처리합니다.
 
 >[!NOTE]
 >
->다음 이유 중 하나로 인해 일부 웹 사이트가 Journey Optimizer B2B edition 웹 편집기에서 안정적으로 열리지 않을 수 있습니다.
+>다음 이유 중 하나로 인해 일부 웹 사이트가 Journey Optimizer B2B Edition 웹 편집기에서 안정적으로 열리지 않을 수 있습니다.
 >
 >* 웹 사이트에 엄격한 보안 정책이 있습니다.
 >* 웹 사이트가 iframe으로 되어 있습니다.
@@ -117,8 +125,6 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
    >이름 및 설명 필드는 영문자, 숫자 및 특수 문자를 지원합니다. 예약된 문자(`\ / : * ? " < > |`)는 **_허용되지 않습니다_**.
 
    ![웹 경험 대화 상자 만들기](./assets/web-experience-create-dialog.png){width="400"}
-
-<!-- What is this for? 1. Properties? -->
 
 1. **[!UICONTROL 속성]** 탭에서 웹 경험에 대한 설명을 입력합니다.
 
@@ -172,7 +178,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
 처리 A에서 타겟팅된 모집단의 절반에 대해 콘텐츠 편집기를 사용하여 웹 경험을 작성하십시오.
 
-처리 B에서 대상 모집단의 나머지 절반에 대해 _[!UICONTROL URL로 리디렉션]_ 옵션을 선택합니다. Journey Optimizer B2B edition 외부에서 작성한 대체 디자인이 있는 페이지의 URL을 입력합니다.
+처리 B에서 대상 모집단의 나머지 절반에 대해 _[!UICONTROL URL로 리디렉션]_ 옵션을 선택합니다. Journey Optimizer B2B Edition 외부에서 작성한 대체 디자인이 있는 페이지의 URL을 입력합니다.
 
 ![방문자를 특정 URL로 리디렉션하도록 방문자 리디렉션 설정](./assets/web-experience-journey-node-content-visitor-redirection.png){width="500" zoomable="yes"}
 
@@ -180,7 +186,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 >
 >이 옵션을 선택하면 웹 사이트 미리 보기가 표시되지 않고 _[!UICONTROL 시각적 편집기]_ 전환이 비활성화됩니다.
 
-웹 캠페인이 라이브 상태일 때는 Journey Optimizer B2B edition에서 정의한 웹 경험이 대체 페이지로의 리디렉션을 사용하는 웹 경험에 대해 어떻게 작동하는지 추적할 수 있습니다.
+웹 캠페인이 라이브 상태일 때는 Journey Optimizer B2B Edition에서 정의한 웹 경험이 대체 페이지로의 리디렉션을 사용하는 웹 경험에 대해 어떻게 작동하는지 추적할 수 있습니다.
 
 ## 웹 경험 테스트
 
@@ -206,7 +212,7 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
 웹 경험 전달을 활성화하려면 다음 설정을 정의해야 합니다.
 
-* Adobe Experience Platform 데이터 수집에서 데이터 스트림이 정의되어 있는지 확인합니다. Adobe Experience Platform 서비스에서 Adobe Journey Optimizer B2B edition 옵션이 활성화되어 있는지 확인합니다.
+* Adobe Experience Platform 데이터 수집에서 데이터 스트림이 정의되어 있는지 확인합니다. Adobe Journey Optimizer B2B Edition 서비스 아래에서 Adobe Experience Platform 옵션이 활성화되어 있는지 확인합니다.
 
   이 구성은 Adobe Experience Platform Edge이 인바운드 이벤트를 올바르게 처리할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
 
@@ -214,10 +220,10 @@ Adobe Journey Optimizer B2B edition의 웹 채널을 사용하면 웹 사이트�
 
   Experience Platform의 고객 > 프로필 > 병합 정책 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B edition 인바운드 채널은 이 병합 정책을 사용하여 에지에서 인바운드 웹 경험을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B Edition 인바운드 채널은 이 병합 정책을 사용하여 에지에서 인바운드 웹 경험을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 문제 해결
 
-Adobe Experience Platform Assurance 내의 Edge Delivery 보기를 사용하여 Journey Optimizer B2B edition 웹 경험 전달 문제를 해결할 수 있습니다. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출을 확인하고, 프로필 데이터를 검사할 수 있습니다. 이 프로필 데이터에는 ID 맵, 세그먼트 멤버십 및 동의 설정이 포함됩니다. 요청에 대한 자격 조건을 갖춘 활동 및 자격 조건을 갖추지 않은 활동을 검토할 수도 있습니다.
+Adobe Experience Platform Assurance 내의 Edge Delivery 보기를 사용하여 Journey Optimizer B2B Edition 웹 경험 전달 문제를 해결할 수 있습니다. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출을 확인하고, 프로필 데이터를 검사할 수 있습니다. 이 프로필 데이터에는 ID 맵, 세그먼트 멤버십 및 동의 설정이 포함됩니다. 요청에 대한 자격 조건을 갖춘 활동 및 자격 조건을 갖추지 않은 활동을 검토할 수도 있습니다.
 
 Assurance의 Edge Delivery 보기에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery)를 참조하세요.

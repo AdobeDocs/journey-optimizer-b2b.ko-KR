@@ -1,28 +1,31 @@
 ---
 title: 이벤트 수신
-description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - Journey Optimizer B2B edition에서 구매 그룹 변경 사항, 이메일 클릭 수, 양식 채우기 및 Experience Platform 이벤트를 수신합니다.
+description: 계정 및 사용자 트리거에 대한 이벤트 노드 구성 - Journey Optimizer B2B Edition에서 구매 그룹 변경 사항, 이메일 클릭 수, 양식 채우기 및 Experience Platform 이벤트를 수신합니다.
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: '1783'
 ht-degree: 5%
-
 ---
-
 # 이벤트 듣기
 
 이벤트가 발생할 때 대상을 [여정](./journeys-overview.md)의 다음 단계로 이동하려면 _이벤트 수신_ 노드를 추가하십시오. 여정 유형에 따라 이 노드를 사용하여 사람 또는 계정 이벤트에 따라 여정의 다음 노드를 트리거할 수 있습니다.
@@ -45,80 +48,49 @@ ht-degree: 5%
 
 1. 오른쪽의 노드 속성에서 _이벤트 유형_ 선택기를 사용하여 **[!UICONTROL 계정]**&#x200B;과(와) **[!UICONTROL 사람]** 중에서 선택하십시오.
 
-1. 목록에서 이벤트를 선택합니다.
-
-   * _사람_ 이벤트 유형에 대해 트리거에 사용할 [사람 이벤트](#people-events)를 선택하십시오.
-
-     ![여정 노드 - 사용자의 이벤트를 수신](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
+1. 선택한 이벤트 유형에 대한 이벤트 트리거를 정의합니다.
 
    * _계정_ 이벤트 유형의 경우 트리거에 사용할 [계정 이벤트](#account-events)를 선택하십시오.
 
      ![여정 노드 - 계정에서 이벤트를 수신](./assets/node-listen-events-account.png){width="500" zoomable="yes"}
 
-1. **[!UICONTROL 이벤트 편집]**&#x200B;을 클릭하고 이벤트에 대한 세부 정보를 정의하십시오.
+     **[!UICONTROL 이벤트 편집]**&#x200B;을 클릭하고 [계정 이벤트](#account-events)에 대해 일치하는 조건을 정의합니다.
 
-   선택한 이벤트 유형 및 이벤트에 따라 이벤트 일치 기준을 정의합니다.
+   * _People_ 이벤트 유형에 대해 **[!UICONTROL 이벤트 기준 추가]**&#x200B;를 클릭합니다.
 
-   * [사용자 이벤트](#people-events)
-   * [계정 이벤트](#account-events)
+     ![여정 노드 - 사용자의 이벤트를 수신](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
-   이벤트에 [필터](#filters-people-event)를 포함할 수도 있습니다.
+     _이벤트 편집_ 대화 상자에서 하나 이상의 [사람 이벤트](#people-events)를 빌더 공간으로 끌어다 놓고 각각에 대한 정의를 설정하십시오. 이벤트 일치를 구체화하는 데 사용할 각 제약 조건에 대해 **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭합니다.
+
+     일치시킬 여러 사용자 이벤트를 추가할 수 있습니다. 첫 번째 자격 이벤트는 여정에서 계정을 앞으로 진행합니다.
+
+     ![계정 여정 노드 - 이벤트 수신 - 사람 이벤트 유형 - 이벤트 편집](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
+
+     (선택 사항) **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#filters-people-event)합니다.
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-   이벤트 및 필터 정의는 노드 및 노드 속성에 표시됩니다.
+   이벤트 및 필터 정의는 노드 속성에 표시됩니다.
 
-   ![계정 여정 노드 - 이벤트 수신 - 이벤트 및 필터](./assets/node-listen-events-account-complete.png){width="500"}
+   ![계정 여정 노드 - 이벤트 수신 - 정의된 이벤트](./assets/node-listen-events-account-complete.png){width="500"}
 
 ### 계정 여정에 대한 사용자 이벤트 {#people-events}
 
-계정 여정에서 사용자 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우 사용자를 기반으로 이벤트를 수신할 수 있습니다. 이벤트 내역 및 사용자 속성에 따라 이벤트를 필터링할 수도 있습니다.
+계정 여정에서 개인(잠재 고객) 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우 사용자를 기반으로 하는 이벤트를 수신할 수 있습니다. 이벤트 내역 및 개인 속성에 따라 이벤트를 필터링할 수도 있습니다.
 
 >[!TIP]
 >
->경험 이벤트는 여정 입력 전 _이전_&#x200B;에 발생할 수 있습니다(예: 이전 이메일 클릭 또는 웹 인터랙션). 이러한 이벤트를 기반으로 사용자를 라우팅하려면 [사람별 경로 분할](./split-merge-paths-nodes.md#experience-event-history-filtering) 노드에서 [!UICONTROL 이벤트 기록] 필터를 사용합니다.
+>여정 이벤트는 사용자가 경험에 들어가기에 _이전_&#x200B;일 수 있습니다(예: 이전 이메일 클릭 또는 웹 인터랙션). 이러한 이벤트를 기반으로 사용자를 라우팅하려면 [사람별 경로 분할](./split-merge-paths-nodes.md#experience-event-history-filtering) 노드에서 [!UICONTROL 이벤트 기록] 필터를 사용합니다.
+
+경험 이벤트 사용에 대한 자세한 내용은 [경험 이벤트 트리거](#experience-event-triggers)를 참조하십시오.
 
 #### Journey Optimizer BB 이벤트 {#events-account-people}
 
 | 이벤트 | 제한 |
 | ----- | ----------- |
-| [!UICONTROL 구매 그룹에 할당됨] | 솔루션 관심 영역(필수)<br/><br/>추가 제한(선택 사항): <li>역할</li><li>활동 날짜</li><br/>시간 초과(선택 사항) |
+| [!UICONTROL 구매 그룹에 추가된 리드] | 솔루션 관심 영역(필수)<br/><br/>추가 제한(선택 사항): <li>역할</li><li>활동 날짜</li> |
+| [!UICONTROL 구매 그룹에서 리드가 제거됨] | 솔루션 관심 분야(필수)<br/>활동 날짜(선택 사항) |
 | [!UICONTROL 개인 프로필 변경] | 특성(필수)<br/>활동 날짜(선택 사항)<br/>새 값(선택 사항)<br/>이전 값(선택 사항)<br/>이유(선택 사항)<br/>Source(선택 사항) |
-| [!UICONTROL 구매 그룹에서 제거됨] | 솔루션 관심 분야(필수)<br/>활동 날짜(선택 사항)<br/>시간 초과(선택 사항) |
-
-1. 이벤트에 대해 필요한 값을 일치로 설정합니다.
-
-   필요한 경우 평가를 위해 연산자를 설정합니다.
-
-1. 이벤트 일치에 포함할 각 선택적 제약 조건에 대해 **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 목록에서 제약 조건을 선택하십시오.
-
-   ![계정 여정의 Journey Optimizer B2B 사용자 이벤트에 대한 이벤트 편집 대화 상자](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
-
-1. (선택 사항) **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#filters-people-event)합니다.
-
-1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
-
-#### 경험 이벤트 {#experience-events-account-people}
-
->[!PREREQUISITES]
->
->관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 구성하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있도록 합니다.
->
->여정이 Experience Event를 사용할 수 있도록 하려면 제품 관리자가 먼저 [!DNL Journey Optimizer B2B Edition]에 [이벤트 유형 및 관심 필드를 추가](../admin/configure-aep-events.md#add-an-event)해야 합니다.
-
-1. **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 제약 조건에 사용할 필드를 선택합니다.
-
-   사용 가능한 제약 조건은 이벤트 구성에 대한 관리 필드로 정의됩니다.
-
-1. 제약조건에 대한 조건을 완료합니다.
-
-   기본 **[!UICONTROL is]** 연산자를 사용하여 하나 이상의 필드 값을 일치시킬 수 있습니다. 또는 **[!UICONTROL is not]** 연산자를 사용하여 하나 이상의 지정된 값을 제외한 모든 값을 일치시킬 수 있습니다.
-
-   ![계정 여정의 경험 이벤트에 대한 이벤트 편집 대화 상자](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
-
-1. (선택 사항) **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#filters-people-event)합니다.
-
-1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
 ### 계정 이벤트 {#account-events}
 
@@ -133,7 +105,7 @@ ht-degree: 5%
 | [!UICONTROL 완성도 점수 변경] | 솔루션 관심<br/>추가 제약 조건(선택 사항): <li>새 점수</li><li>이전 점수</li><li>활동 날짜</li><br/> 시간 초과(선택 사항) |
 | [!UICONTROL 참여 점수 변경] | 솔루션 관심<br/>추가 제약 조건(선택 사항): <li>새 점수</li><li>이전 점수</li><li>활동 날짜</li><br/> 시간 초과(선택 사항) |
 
-1. 이벤트에 대해 일치시킬 필수 제약 조건을 설정합니다.
+1. 이벤트를 일치시키려면 필수 제약 조건을 설정합니다.
 
 1. 이벤트 일치에 포함할 각 선택적 제약 조건에 대해 **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 필드를 선택합니다.
 
@@ -206,7 +178,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. 이벤트를 추가하고 트리거에 대해 일치시킬 제약 조건을 설정합니다.
 
-   [경험 이벤트](#experience-events-person) 및 [개인 프로필 변경](#person-profile-changes)을 사용하여 이벤트 트리거를 정의할 수 있습니다.
+   [경험 이벤트](#experience-event-triggers) 및 [개인 프로필 변경](#person-profile-changes)을 사용하여 이벤트 트리거를 정의할 수 있습니다.
 
    이벤트 트리거를 빌더 공간으로 끌어서 놓고 정의를 설정합니다. 이벤트 일치를 구체화하는 데 사용할 각 제약 조건에 대해 **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭합니다.
 
@@ -216,19 +188,39 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-   이벤트 및 필터 정의는 노드 및 노드 속성에 표시됩니다.
+   이벤트 및 필터 정의는 노드 속성에 표시됩니다.
 
    ![여정 노드 - 이벤트 수신 - 이벤트 및 필터](./assets/node-listen-events-person-complete.png){width="450"}
 
-### 개인 여정에 대한 경험 이벤트 {#experience-events-person}
+### 사용자 프로필 변경 사항 {#person-profile-changes}
+
+개인 여정의 경우 B2B 개인 프로필 속성의 변경 내용을 사용하여 _이벤트 수신_ 노드를 트리거할 수 있습니다.
+
+1. _[!UICONTROL **]_ 목록에서 [!UICONTROL **개인 프로필 변경]을(를) 이벤트 일치 빌더 공간으로 끌어서 놓습니다.
+
+1. **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 이벤트 트리거에 사용할 특성 변경을 선택합니다.
+
+   일치시킬 변경 내용에 따라 필드 값을 설정하십시오.
+
+   ![개인 여정 - 개인 프로필 변경 이벤트 수신](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+
+1. (선택 사항) 이벤트 트리거 또는 [경험 이벤트](#experience-event-triggers)로 사용할 다른 _개인 프로필 변경_ 특성을 추가합니다.
+
+   일치시킬 여러 이벤트를 추가하면 첫 번째 자격 이벤트는 여정에서 개인 프로필을 앞으로 진행합니다.
+
+1. (선택 사항) **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#filters-people-event)합니다.
+
+1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+
+## 경험 이벤트 트리거 {#experience-event-triggers}
+
+여정 여정은 개인 사용자가 사용하거나 계정 이벤트에서 _사용자_ 이벤트 유형을 사용할 때 사용할 수 있습니다. _[!UICONTROL 이벤트 편집]_ 대화 상자를 사용하여 _이벤트 수신_ 노드를 트리거하기 위한 경험 이벤트를 하나 이상 추가하십시오.
 
 >[!PREREQUISITES]
 >
 >관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 구성하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있도록 합니다.
 >
 >여정이 Experience Event를 사용할 수 있도록 하려면 제품 관리자가 먼저 [!DNL Journey Optimizer B2B Edition]에 [이벤트 유형 및 관심 필드를 추가](../admin/configure-aep-events.md#add-an-event)해야 합니다.
-
-Experience Events를 사용하여 _[!UICONTROL 여정 편집]_ 대화 상자에서 직접 노드를 트리거할 수 있습니다.
 
 1. 왼쪽의 _[!UICONTROL 트리거]_ 목록에서 **[!UICONTROL 사파이어 AEP 이벤트]**&#x200B;를 확장합니다.
 
@@ -242,31 +234,15 @@ Experience Events를 사용하여 _[!UICONTROL 여정 편집]_ 대화 상자에�
 
    ![개인 여정의 경험 이벤트에 대한 이벤트 편집 대화 상자](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
 
-1. 이벤트 필드에 대해 연산자 및 값을 일치시키려면 설정합니다.
+1. 이벤트 필드와 일치시키려면 연산자 및 값을 설정합니다.
 
-1. (선택 사항) 다른 경험 이벤트 또는 [개인 프로필 변경](#person-profile-changes)을(를) 추가합니다.
+1. (선택 사항) 다른 이벤트를 추가합니다.
 
-   일치시킬 여러 이벤트를 추가하는 경우. 첫 번째 자격 이벤트는 여정에서 개인 프로필을 앞으로 진행합니다.
+   노드를 트리거하는 데 여러 경험 이벤트를 사용할 수 있습니다.
 
-1. (선택 사항) **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#filters-people-event)합니다.
+   개인 프로필의 경우 [개인 여정 변경](#person-profile-changes)도 추가할 수 있습니다. 계정 여정(사용자 이벤트 유형)의 경우 [Journey Optimizer B2B 이벤트](#events-account-people)를 추가할 수도 있습니다.
 
-1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
-
-### 사용자 프로필 변경 사항 {#person-profile-changes}
-
-B2B 개인 여정 특성을 변경하여 _[!UICONTROL 이벤트 편집]_ 대화 상자에서 노드를 개인 프로필로 트리거할 수 있습니다.
-
-1. _[!UICONTROL **]_ 목록에서 [!UICONTROL **개인 프로필 변경]을(를) 이벤트 일치 빌더 공간으로 끌어서 놓습니다.
-
-1. **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭하고 이벤트 트리거에 사용할 특성 변경을 선택합니다.
-
-   일치시킬 변경 내용에 따라 필드 값을 설정하십시오.
-
-   ![개인 여정 - 개인 프로필 변경 이벤트 수신](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
-
-1. (선택 사항) 이벤트 트리거 또는 [경험 이벤트](#experience-events-person)로 사용할 다른 _개인 프로필 변경_ 특성을 추가합니다.
-
-   일치시킬 여러 이벤트를 추가하는 경우. 첫 번째 자격 이벤트는 여정에서 개인 프로필을 앞으로 진행합니다.
+   일치시킬 여러 이벤트를 추가하면 첫 번째 자격 이벤트는 여정에서 개인 프로필을 앞으로 진행합니다.
 
 1. (선택 사항) **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#filters-people-event)합니다.
 
@@ -306,12 +282,11 @@ B2B 개인 여정 특성을 변경하여 _[!UICONTROL 이벤트 편집]_ 대화 
 
 1. 이벤트 및 필터 정의가 완료되면 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-
 ## 이벤트 노드에 시간 초과 추가 {#timeouts}
 
 필요한 경우 여정이 이벤트를 기다리는 시간을 정의합니다. 다른 노드를 추가할 수 있는 시간 제한 경로를 정의하지 않는 한 시간 제한 후 여정이 종료됩니다.
 
-_이벤트 수신_ 노드에 대한 시간 제한을 지정하려면 노드 속성에서 **[!UICONTROL 시간 제한]** 옵션을 활성화하십시오.
+_이벤트 수신_ 노드에 대한 시간 제한을 지정하려면 노드 속성에서 **[!UICONTROL 시간 제한]** 옵션을 사용하도록 설정하십시오.
 
 1. 옵션을 활성화한 상태에서 _Type_&#x200B;을(를) 선택하고 시간 초과에 대한 매개 변수를 지정합니다.
 
@@ -333,7 +308,7 @@ _이벤트 수신_ 노드에 대한 시간 제한을 지정하려면 노드 속�
 
 1. 시간 제한 경로를 정의합니다.
 
-   **[!UICONTROL 시간 제한 경로 설정]** 옵션이 기본적으로 선택됩니다. 이 경로를 사용하여 이벤트 노드 수신 시간이 초과된 경우 수행할 작업을 정의할 수 있습니다. 이벤트가 발생하지 않을 때 개인 프로필에 적용되는 대체 작업 및 이벤트를 추가할 수 있습니다.
+   시스템은 기본적으로 **[!UICONTROL 시간 제한 경로 설정]** 옵션을 선택합니다. 이 경로를 사용하여 _이벤트 수신_ 노드가 시간 초과된 경우 발생하는 작업을 정의할 수 있습니다. 이벤트가 발생하지 않을 때 개인 프로필에 적용되는 대체 작업 및 이벤트를 추가할 수 있습니다.
 
    ![여정 이벤트 노드 - 시간 제한 경로 설정](./assets/node-event-timeout-set-path.png){width="600" zoomable="yes"}
 

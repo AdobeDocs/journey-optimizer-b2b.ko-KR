@@ -1,36 +1,43 @@
 ---
 title: 단일 페이지 애플리케이션
-description: 단일 페이지 애플리케이션(SPA)을 위한 웹 환경 만들기 - Journey Optimizer B2B edition에서 보기 추적을 구성하고, 다이내믹 콘텐츠를 처리하고, 클라이언트측 탐색을 관리합니다.
+description: 단일 페이지 애플리케이션(SPA)을 위한 웹 환경 만들기 - Journey Optimizer B2B Edition에서 보기 추적을 구성하고, 동적 콘텐츠를 처리하고, 클라이언트측 탐색을 관리합니다.
 feature: Channels, Personalization
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badge: label="제한 공개" type="Informative"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 846
-ht-degree: 2%
-
+source-wordcount: '838'
+ht-degree: 1%
 ---
-
 # 단일 페이지 애플리케이션
 
-단일 페이지 애플리케이션(SPA)은 전체 페이지를 다시 로드하지 않고 페이지 콘텐츠를 동적으로 업데이트하므로 웹 개인화에 고유한 문제를 제공합니다. Journey Optimizer B2B edition은 SPA 개인화를 효과적으로 처리할 수 있는 전문 도구를 제공합니다.
+단일 페이지 애플리케이션(SPA)은 전체 페이지를 다시 로드하지 않고 페이지 콘텐츠를 동적으로 업데이트하므로 웹 개인화에 고유한 문제를 제공합니다. Journey Optimizer B2B Edition은 SPA 개인화를 효과적으로 처리할 수 있는 전문 도구를 제공합니다.
 
 ## SPA 이해
 
@@ -43,7 +50,7 @@ ht-degree: 2%
 
 ## SPA 지원 구성
 
-SPA를 효과적으로 개인화하려면 Journey Optimizer B2B edition에서 사용자가 가상 보기 사이를 이동하는 시기를 식별할 수 있도록 보기 추적을 구성해야 합니다.
+SPA를 효과적으로 개인화하려면 Journey Optimizer B2B Edition에서 사용자가 가상 보기 사이를 이동하는 시기를 식별할 수 있도록 보기 추적을 구성해야 합니다.
 
 ### 보기 선언 설정
 
@@ -121,7 +128,7 @@ SPA는 종종 초기 페이지 렌더링 후 콘텐츠를 동적으로 로드합
 
 ### SPA 프레임워크
 
-Journey Optimizer B2B edition 웹 경험은 인기 있는 SPA 프레임워크에서 작동합니다.
+Journey Optimizer B2B Edition 웹 경험은 인기 있는 SPA 프레임워크에서 작동합니다.
 
 | 프레임워크 | 고려 사항 |
 | --------- | -------------- |
@@ -179,27 +186,27 @@ SPA 디자인 변경 사항을 검토할 때 다음 권장 사항을 사용하�
 
 * **수정 사항이 표시되지 않음** - SPA에 수정 사항이 표시되지 않는 경우:
 
-   1. **보기 추적 확인** - `sendEvent` 호출에 올바른 보기 이름이 포함되어 있는지 확인하십시오.
+  1. **보기 추적 확인** - `sendEvent` 호출에 올바른 보기 이름이 포함되어 있는지 확인하십시오.
 
-   1. **요소 존재 확인** - 수정 사항이 적용될 때 대상 요소가 DOM에 있는지 확인합니다.
+  1. **요소 존재 확인** - 수정 사항이 적용될 때 대상 요소가 DOM에 있는지 확인합니다.
 
-   1. **선택기 검토** - CSS 선택기가 실제 DOM 구조와 일치하는지 확인합니다.
+  1. **선택기 검토** - CSS 선택기가 실제 DOM 구조와 일치하는지 확인합니다.
 
-   1. **콘솔 확인** - 수정을 방지할 수 있는 JavaScript 오류를 찾습니다.
+  1. **콘솔 확인** - 수정을 방지할 수 있는 JavaScript 오류를 찾습니다.
 
 * **수정 사항이 잠시 나타났다가 사라짐** - 이 문제는 일반적으로 SPA가 다시 렌더링하고 수정된 요소를 대체할 때 발생합니다.
 
-   1. 렌더링 간 안정적인 상태를 유지하는 보다 구체적인 CSS 선택기를 사용하십시오.
+  1. 렌더링 간 안정적인 상태를 유지하는 보다 구체적인 CSS 선택기를 사용하십시오.
 
-   1. 요소를 다시 만들 때 변형 관찰자가 수정 사항을 다시 적용할 수 있도록 합니다.
+  1. 요소를 다시 만들 때 변형 관찰자가 수정 사항을 다시 적용할 수 있도록 합니다.
 
-   1. 개발 팀과 함께 타겟 요소에 안정적인 특성을 추가합니다.
+  1. 개발 팀과 함께 타겟 요소에 안정적인 특성을 추가합니다.
 
 * **중복 수정** - 수정 내용이 여러 번 나타나는 경우:
 
-   1. 보기 추적 이벤트가 보기 전환당 한 번만 발생하는지 확인합니다.
+  1. 보기 추적 이벤트가 보기 전환당 한 번만 발생하는지 확인합니다.
 
-   1. 수정 사항이 전체적으로 적용되지 않고 특정 보기에 범위가 지정되는지 확인합니다.
+  1. 수정 사항이 전체적으로 적용되지 않고 특정 보기에 범위가 지정되는지 확인합니다.
 
 ## 관련 항목
 

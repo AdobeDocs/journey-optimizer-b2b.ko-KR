@@ -1,29 +1,33 @@
 ---
 title: 웹 채널 구성
-description: Journey Optimizer B2B edition에서 컨텐츠 전달에 대한 웹 속성 및 페이지 일치 규칙을 정의하기 위해 웹 채널 설정을 구성하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B Edition에서 컨텐츠 전달에 대한 웹 속성 및 페이지 일치 규칙을 정의하기 위해 웹 채널 설정을 구성하는 방법에 대해 알아봅니다.
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badge: label="제한 공개" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
 workflow-type: tm+mt
-source-wordcount: 1077
-ht-degree: 2%
-
+source-wordcount: '1049'
+ht-degree: 1%
 ---
-
 # 웹 채널 구성
 
 웹 구성은 콘텐츠가 전달되는 URL로 식별되는 웹 속성입니다. 웹 경험이 하나 또는 여러 웹 페이지에서 수정 사항을 전달할 수 있도록 단일 페이지 URL 또는 여러 페이지를 일치시킬 수 있습니다. 이러한 구성은 마케터가 [여정에 웹 개인화 작업 노드를 추가](../content/web-experiences.md#create-a-web-experience)하고 [캠페인에 대한 경험 수정 사항을 디자인](../content/web-experience-design.md)하는 데 필요합니다.
@@ -34,10 +38,9 @@ ht-degree: 2%
 
 웹 채널을 사용하려면 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이 구현되어 있어야 합니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
 
-Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](../admin/user-management.md#b2b-product-permissions)이 필요합니다.
+Journey Optimizer B2B Edition에서 웹 채널을 구성하려면 다음 [권한](../admin/user-management.md#b2b-product-permissions)이 필요합니다.
 
-* _[!UICONTROL 채널 구성]_ > _[!UICONTROL 메시지 사전 설정 관리]_ - 웹 채널 구성을 만들고 업데이트하고 삭제하는 데 필요합니다.
-* _[!UICONTROL 채널 구성]_ > _[!UICONTROL 메시지 사전 설정 보기]_ - 웹 채널 구성을 보는 데 필요합니다.
+* _[!UICONTROL B2B 채널 구성 관리]_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +48,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동합니다.
 
-1. 탐색 패널의 _[!UICONTROL 웹]_&#x200B;에서 **[!UICONTROL 채널 구성]**&#x200B;을 선택합니다.
+1. 탐색 패널의 _[!UICONTROL 일반 설정]_&#x200B;에서 **[!UICONTROL 채널 구성]**&#x200B;을 선택합니다.
 
    ![웹 채널 구성에 액세스](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -138,7 +141,7 @@ Journey Optimizer B2B edition의 웹 채널을 구성하려면 다음 [권한](.
 
 1. _추가 메뉴_ 아이콘(**...**)을 클릭합니다. 변형에 대해 **[!UICONTROL 복제]**&#x200B;를 선택합니다.
 
-   ![기존 웹 채널 구성을 복제하려면 [더 보기] 아이콘을 클릭하세요](./assets/config-web-channels-more-menu.png){width="450"}
+   ![기존 웹 채널 구성을 복제하려면 추가 메뉴 아이콘을 클릭하세요](./assets/config-web-channels-more-menu.png){width="350"}
 
    이 작업을 수행하면 이름에 `_Copy_nnn`이(가) 추가된 중복 웹 채널이 만들어집니다.
 

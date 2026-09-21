@@ -1,34 +1,42 @@
 ---
 title: 웹 경험 디자인
-description: 시각적 및 비시각적 편집기로 웹 경험 디자인 - Journey Optimizer B2B edition에서 수정 사항 추가, 콘텐츠 업데이트 관리, 클릭 추적 활성화 및 콘텐츠 개인화.
+description: 시각적 및 비시각적 편집기를 사용하여 웹 경험 디자인 - 수정 사항 추가, 콘텐츠 업데이트 관리, 클릭 추적 활성화 및 Journey Optimizer B2B Edition 콘텐츠 개인화.
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badge: label="제한 공개" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 2339
+source-wordcount: '2317'
 ht-degree: 4%
-
 ---
-
 # 웹 경험 디자인
 
 [웹 경험을 만들기](./web-experiences.md#create-a-web-experience)한 후 콘텐츠 디자인 공간을 사용하여 웹 페이지에 적용할 수정 사항을 정의합니다.
@@ -44,20 +52,21 @@ ht-degree: 4%
 * 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전 2.16 이상이 필요합니다.
 
 * 여정에서 웹 경험을 만들고 관리하는 데 필요한 [권한](../admin/user-management.md#b2b-product-permissions)이 있습니다.
-   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 관리]_ - 웹 개인화 작업 노드를 추가하거나 업데이트하는 데 필요합니다.
-   * _[!UICONTROL 캠페인]_ > _[!UICONTROL 캠페인 보기]_ - 웹 개인화 작업 노드에 대한 세부 정보를 보는 데 필요합니다.
+  * _[!UICONTROL 작성자 B2B 웹 경험]_
+  * _[!UICONTROL B2B 개인 여정 관리]_
+  * _[!UICONTROL B2B 계정 여정 관리]_
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->웹 경험을 디자인하기 전에 웹 브라우저용으로 설치된 Adobe Experience Cloud Visual Editing Helper 브라우저 확장이 있는지 확인하십시오. 이 확장은 Journey Optimizer B2B edition 웹 경험 디자인 공간에서 웹 페이지를 안정적으로 열고, 작성하고, 미리 보는 데 필요합니다.<br/>
+>웹 경험을 디자인하기 전에 웹 브라우저용으로 설치된 Adobe Experience Cloud Visual Editing Helper 브라우저 확장이 있는지 확인하십시오. 이 확장은 Journey Optimizer B2B Edition 웹 경험 디자인 공간에서 웹 페이지를 안정적으로 열고, 작성하고, 미리 보는 데 필요합니다.<br/>
 >
->Google Chrome 및 Microsoft Edge은 현재 Journey Optimizer B2B edition에서 웹 경험의 확장 및 작성을 지원하는 유일한 브라우저입니다. 자세한 내용은 [Visual Editing Helper 확장 기능 설치](./web-experiences.md#install-the-visual-editing-helper-extension)를 참조하십시오.
+>Google Chrome 및 Microsoft Edge은 현재 Journey Optimizer B2B Edition에서 웹 경험의 확장 및 작성을 지원하는 유일한 브라우저입니다. 자세한 내용은 [Visual Editing Helper 확장 기능 설치](./web-experiences.md#install-the-visual-editing-helper-extension)를 참조하십시오.
 
 ## 웹 경험 편집기
 
-Journey Optimizer B2B edition은 웹 수정 사항 디자인을 위한 두 가지 유형의 편집기를 제공합니다.
+Journey Optimizer B2B Edition은 웹 수정 사항 디자인을 위한 두 가지 유형의 편집기를 제공합니다.
 
 | 편집자 | 설명 | 다음에 최적 |
 | ------ | ----------- | -------- |
@@ -103,7 +112,7 @@ Journey Optimizer B2B edition은 웹 수정 사항 디자인을 위한 두 가�
 
    * 페이지에서 기존 요소를 선택하고 [웹 환경에 맞게 수정](#modify-elements)합니다.
 
-   * 참여를 측정하고 인사이트를 수집할 요소에 대한 [클릭 추적을 추가](#click-tracking-for-web-experiences)합니다.
+   * 참여를 측정하고 인사이트를 수집할 요소에 대한 [클릭 추적을 추가](#web-click-tracking)합니다.
 
 1. 웹 경험에 포함할 다른 페이지를 로드하려면 2단계를 반복합니다. 3단계를 반복하여 페이지 수정 사항을 정의합니다.
 
@@ -171,7 +180,7 @@ Journey Optimizer B2B edition은 웹 수정 사항 디자인을 위한 두 가�
 
 +++
 
-+++ 컨테이너 요소
++++컨테이너 요소
 
 1. 페이지에서 컨테이너 요소를 선택합니다.
 
@@ -196,8 +205,8 @@ Journey Optimizer B2B edition은 웹 수정 사항 디자인을 위한 두 가�
 
 표시된 버튼 중 하나를 클릭하여 구성 요소를 배치합니다.
 
-* ***[!UICONTROL 다음 항목 앞에 삽입]** - 선택한 요소 앞에 구성 요소를 삽입합니다.
-* ***[!UICONTROL 다음 항목 뒤에 삽입]** - 선택한 요소 뒤에 구성 요소를 삽입합니다.
+* **[!UICONTROL 다음 항목 앞에 삽입]** - 선택한 요소 앞에 구성 요소를 삽입합니다.
+* **[!UICONTROL 다음 항목 뒤에 삽입]** - 선택한 요소 뒤에 구성 요소를 삽입합니다.
 
 삽입할 구성 요소 유형을 선택 취소하려면 페이지 맨 위에 표시된 파란색 상황에 맞는 배너에서 **[!UICONTROL ESC]**&#x200B;을(를) 클릭합니다.
 
@@ -224,9 +233,9 @@ Journey Optimizer B2B edition은 웹 수정 사항 디자인을 위한 두 가�
 
    * 유형에 따라 수정 매개변수를 구성합니다.
 
-      * **[!UICONTROL CSS 선택기]** - 특정 요소를 타깃팅할 올바른 CSS 선택기를 입력하십시오.
-      * **[!UICONTROL 작업 유형]** - 수행할 작업(편집, 숨기기, 삭제, 삽입, 바꾸기)을 선택합니다.
-      * **[!UICONTROL 콘텐츠]** - 적용할 콘텐츠 또는 스타일을 제공합니다.
+     * **[!UICONTROL CSS 선택기]** - 특정 요소를 타깃팅할 올바른 CSS 선택기를 입력하십시오.
+     * **[!UICONTROL 작업 유형]** - 수행할 작업(편집, 숨기기, 삭제, 삽입, 바꾸기)을 선택합니다.
+     * **[!UICONTROL 콘텐츠]** - 적용할 콘텐츠 또는 스타일을 제공합니다.
 
 1. 수정 사항을 적용하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
