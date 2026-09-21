@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 4%
+ht-degree: 6%
 ---
 # 브랜드 생성 및 관리 {#brand-library}
 
@@ -245,7 +245,7 @@ Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 �
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="작성 스타일 정렬 점수"
->abstract="작성 스타일 섹션은 언어, 서식 및 구조에 대한 표준을 정의합니다. 정렬 점수는 콘텐츠가 이러한 지침을 얼마나 잘 따르는지를 보여 주고 개선 영역을 강조 표시합니다."
+>abstract="작성 스타일 섹션은 언어, 형식 및 구조에 대한 표준을 정의합니다. 정렬 점수는 콘텐츠가 이러한 지침을 얼마나 잘 따르고 있는지를 보여주며, 개선이 필요한 영역을 강조 표시합니다."
 
 _[!UICONTROL 작성 스타일]_ 정의는 콘텐츠 작성에 대한 표준을 간략하게 설명하고 모든 자료의 명확성, 일관성 및 일관성을 유지하기 위해 언어, 서식 및 구조를 어떻게 사용해야 하는지 자세히 설명합니다.
 
@@ -289,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="시각적 콘텐츠 정렬 점수"
->abstract="시각적 콘텐츠 정렬 점수는 콘텐츠가 구성된 브랜드 가이드라인과 얼마나 잘 일치하는지를 나타냅니다. 정렬을 평가하고 개선을 위한 영역을 식별하는 데 도움이 됩니다."
+>abstract="시각적 콘텐츠 정렬 점수는 콘텐츠가 구성된 브랜드 가이드라인과 얼마나 잘 일치하는지를 나타냅니다. 이는 정렬을 평가하고 개선을 위한 영역 식별을 도와줍니다."
 
 _[!UICONTROL 시각적 콘텐츠]_ 정의는 이미지 및 디자인에 대한 표준을 요약하고, 통일되고 일관된 브랜드 디자인을 유지하는 데 필요한 사양을 자세히 설명합니다.
 
