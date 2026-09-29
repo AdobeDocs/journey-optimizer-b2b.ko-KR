@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
+source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
 workflow-type: tm+mt
-source-wordcount: '5645'
+source-wordcount: '5708'
 ht-degree: 61%
 ---
 # Journey Optimizer B2B Edition 릴리스 정보
@@ -37,6 +37,21 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 권한, 성능 가드레일 및 제한 사항에 대한 정보는 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}을 검토하십시오.
 
+## 2026.9 릴리스 정보 {#rel-2026-9}
+
+**배포 날짜**: 2026년 9월 25일
+
+| 유형 | 항목 | 설명 |
+| ---- | ---- | ----------- |
+| 기능 | 사용자 목록 | 이제 정적 및 동적 사용자 목록을 사용할 수 있으므로 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준에 따라 프로필을 타깃팅할 수 있습니다. |
+| 기능 | 서비스 상태 대시보드 | 성공/오류 지표를 수집하고 관리자가 서비스 성능을 모니터링할 수 있는 대시보드를 제공하여 외부 작업의 운영 상태를 추적합니다. |
+| 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
+
+>[!NOTE]
+>
+>이러한 릴리스 변경 사항은 2026년 9월 25일에 배포로 시작되며, 각 기능의 단계적 롤아웃과 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
+
+
 ## 2026.8 릴리스 노트 {#rel-2026-8}
 
 **배포 날짜**: 2026년 8월 14일
@@ -44,10 +59,8 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | 개인 여정 | (이전의 Beta, 일반 가용성을 위한 조기 배포) 이제 Experience Platform 대상 및 데이터를 사용하여 리드 기반 마케팅을 오케스트레이션하는 여정을 만들 수 있습니다. [자세히 알아보기](../journeys/journeys-overview.md) |
-| 기능 | 사용자 목록 | 이제 정적 및 동적 사용자 목록을 사용할 수 있으므로 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준에 따라 프로필을 타깃팅할 수 있습니다. |
 | 기능 | _분할 경로 변형_ 여정 노드 | (이전에는 계정 여정의 Beta) 이제 마케터는 정의된 백분율을 기준으로 다른 여정 경로에 계정이나 사람을 할당하여 계정이나 개인 여정 내에서 변형을 테스트할 수 있습니다. [자세히 알아보기](../journeys/variant-split-paths-nodes.md) |
 | 기능 | C2PA 메타데이터 | 생성 AI 도구로 생성 또는 편집된 이미지는 이제 C2PA 메타데이터로 자동 서명돼 콘텐츠 투명성과 AI 공개 요구 사항을 충족하는 데 도움이 된다. [자세히 알아보기](../content/c2pa-metadata.md) |
-| 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
 | 개선 사항 | 이벤트 트리거 및 필터 수신 - 계정 여정 | 계정 여정의 경우 이제 _사람_ 이벤트 유형이 있는 _이벤트 수신_ 노드에서 여러 트리거와 필터를 지원할 수 있습니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md) |
 | 개선 사항 | 외부 분할 경로 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 분할 경로_ 노드에 대한 지원을 사용할 수 있습니다. [자세히 알아보기](../journeys/external-nodes.md#external-action) |
 | 개선 사항 | 외부 작업 노드 - 개인 여정 | 이제 개인 여정에 대해 _외부 작업_ 노드에 대한 지원을 사용할 수 있습니다. [자세히 알아보기](../journeys/external-nodes.md#external-split-paths) |
@@ -82,11 +95,11 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | 랜딩 페이지 | 랜딩 페이지는 Journey Optimizer B2B edition에서 여정 및 프로그램 _(이전에는 Beta 프로그램 기능)_&#x200B;을(를) 지원할 수 있습니다. <ul><li>관리자는 랜딩 페이지 게시 활성화를 위해 랜딩 페이지 하위 도메인 및 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-landing-pages.md)</li><li>마케터는 개인화된 웹 콘텐츠로 여정을 지원하기 위해 랜딩 페이지를 만들고, 디자인하고, 게시할 수 있습니다. [자세히 알아보기](../content/landing-pages.md)</li></ul> |
-| 기능 | 양식 | 이제 Journey Optimizer B2B edition은 재사용 가능한 양식 구성 요소를 지원하여 랜딩 페이지 _(이전에는 Beta 프로그램 기능)_&#x200B;에서 데이터를 제출할 수 있도록 합니다. <ul><li>관리자는 다양한 데이터 세트 조합과 스트리밍 연결을 사용하여 여러 양식 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-forms.md)</li><li>이제 마케터는 재사용 가능한 양식 구성 요소를 정의하여 웹 페이지 방문자의 정보를 캡처할 수 있습니다. [자세히 알아보기](../content/forms.md)</li></ul> |
+| 기능 | 양식 | 이제 Journey Optimizer B2B Edition은 재사용 가능한 양식 구성 요소를 지원하여 랜딩 페이지 _(이전에는 Beta 프로그램 기능)_&#x200B;에서 데이터를 제출할 수 있도록 합니다. <ul><li>관리자는 다양한 데이터 세트 조합과 스트리밍 연결을 사용하여 여러 양식 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-forms.md)</li><li>이제 마케터는 재사용 가능한 양식 구성 요소를 정의하여 웹 페이지 방문자의 정보를 캡처할 수 있습니다. [자세히 알아보기](../content/forms.md)</li></ul> |
 | 기능 | 계정 목록 필터 멤버 | 계정 목록 멤버십을 계정 여정의 오케스트레이션 지점으로 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. |
 | 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 기능 | 다음 최적 경로 여정 노드 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. [자세히 알아보기](../journeys/next-best-path-node.md) |
-| 기능 | 이메일 성능 대시보드 | 이메일 성능 대시보드는 마케터에게 Adobe Journey Optimizer B2B edition의 모든 여정에 대한 이메일 활동을 통합적으로 볼 수 있도록 합니다. [자세히 알아보기](../dashboards/email-performance-dashboard.md) |
+| 기능 | 이메일 성능 대시보드 | 이메일 성능 대시보드는 마케터에게 Adobe Journey Optimizer B2B Edition의 모든 여정에 대한 이메일 활동을 통합적으로 볼 수 있도록 합니다. [자세히 알아보기](../dashboards/email-performance-dashboard.md) |
 | 개선 사항 | Audience Agent B2B 스킬 | AI 기반 구매 그룹 템플릿 생성을 포함하여 Audience Agent B2B 기술이 업데이트됩니다. 자사 의도 및 사용자 매핑을 사용하여 구매 그룹 템플릿을 생성하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 게시하기 전에 자연어로 템플릿을 다듬으십시오. [자세히 알아보기](../agents/audience-agent-b2b.md) |
 | 개선 사항 | 여정 개요 대시보드 - 개인 여정 | 이제 개인 여정(Beta)에 여정 완료율 분포, 참여 유형별 여정, 드릴스루 및 내보내기 작업을 포함하여 계정 여정과 동일한 분석을 사용하는 _[!UICONTROL 개요]_ 탭이 포함됩니다. [자세히 알아보기](../dashboards/journeys-dashboard.md) |
 | 개선 사항 | AEP 관계형 데이터 세트 지원 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
