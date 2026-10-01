@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
+source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 61%
+source-wordcount: '5744'
+ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 릴리스 정보
 
@@ -45,6 +45,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | 사용자 목록 | 이제 정적 및 동적 사용자 목록을 사용할 수 있으므로 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준에 따라 프로필을 타깃팅할 수 있습니다. |
 | 기능 | 서비스 상태 대시보드 | 성공/오류 지표를 수집하고 관리자가 서비스 성능을 모니터링할 수 있는 대시보드를 제공하여 외부 작업의 운영 상태를 추적합니다. |
+| 개선 사항 | 프로필 대상자 필터 구성원 | 이제 이 필터를 사용자 여정 분할 경로 조건, 계정 여정 사용자 분할 경로 조건 및 사용자 목록에서 대상 멤버십에 따라 프로필을 포함하거나 제외할 수 있습니다. |
 | 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
 
 >[!NOTE]
@@ -94,7 +95,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 랜딩 페이지 | 랜딩 페이지는 Journey Optimizer B2B edition에서 여정 및 프로그램 _(이전에는 Beta 프로그램 기능)_&#x200B;을(를) 지원할 수 있습니다. <ul><li>관리자는 랜딩 페이지 게시 활성화를 위해 랜딩 페이지 하위 도메인 및 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-landing-pages.md)</li><li>마케터는 개인화된 웹 콘텐츠로 여정을 지원하기 위해 랜딩 페이지를 만들고, 디자인하고, 게시할 수 있습니다. [자세히 알아보기](../content/landing-pages.md)</li></ul> |
+| 기능 | 랜딩 페이지 | 랜딩 페이지는 Journey Optimizer B2B Edition에서 여정 및 프로그램 _(이전에는 Beta 프로그램 기능)_&#x200B;을(를) 지원하는 데 사용할 수 있습니다. <ul><li>관리자는 랜딩 페이지 게시 활성화를 위해 랜딩 페이지 하위 도메인 및 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-landing-pages.md)</li><li>마케터는 개인화된 웹 콘텐츠로 여정을 지원하기 위해 랜딩 페이지를 만들고, 디자인하고, 게시할 수 있습니다. [자세히 알아보기](../content/landing-pages.md)</li></ul> |
 | 기능 | 양식 | 이제 Journey Optimizer B2B Edition은 재사용 가능한 양식 구성 요소를 지원하여 랜딩 페이지 _(이전에는 Beta 프로그램 기능)_&#x200B;에서 데이터를 제출할 수 있도록 합니다. <ul><li>관리자는 다양한 데이터 세트 조합과 스트리밍 연결을 사용하여 여러 양식 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-forms.md)</li><li>이제 마케터는 재사용 가능한 양식 구성 요소를 정의하여 웹 페이지 방문자의 정보를 캡처할 수 있습니다. [자세히 알아보기](../content/forms.md)</li></ul> |
 | 기능 | 계정 목록 필터 멤버 | 계정 목록 멤버십을 계정 여정의 오케스트레이션 지점으로 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. |
 | 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
@@ -154,7 +155,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 브랜드 키트 | (Beta) Journey Optimizer B2B edition에서 브랜드를 정의하여 크리에이티브 팀이 시각적 또는 서면 콘텐츠를 만들 때 사용할 수 있는 소스를 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. [자세히 알아보기](../content/brands-overview.md) |
+| 기능 | 브랜드 키트 | (Beta) Journey Optimizer B2B Edition에서 브랜드를 정의하여 크리에이티브 팀이 시각적 또는 기록된 콘텐츠를 만들 때 사용할 진실의 소스를 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. [자세히 알아보기](../content/brands-overview.md) |
 | 기능 | 이메일 콘텐츠 생성을 위한 브랜드 | 브랜드 지침을 정의하고 이 정보를 사용하여 이메일 콘텐츠를 생성할 수 있습니다. 이 기능을 사용하면 이메일 콘텐츠가 브랜드별 카피 작성 지침, 스타일 및 색조에 맞게 조정됩니다. [자세히 알아보기](../content/generate-content-emails.md) |
 | 개선 사항 | 여정 _대기_ 노드 - 고급 설정 | 여정의 _대기_ 노드에 대해 마케터는 이제 종료 날짜 및 시간을 지정하고 시간대를 선택할 수 있습니다. 이러한 향상된 기능을 통해 여정 오케스트레이션 및 캠페인 타이밍을 보다 효과적으로 제어할 수 있습니다. [자세히 알아보기](../journeys/wait-nodes.md#advanced-wait-settings) |
 | 개선 사항 | 구매 그룹 구성원 필터 - 제거됨 | _사람별 분할 경로_ 노드의 경우 _[!UICONTROL 구매 그룹의 구성원]_ 필터에 이제 _Is Removed_ 제약 조건이 포함됩니다. 이 필터를 선택하면 필터가 제거된 구매 그룹 구성원을 포함하거나 제외할 수 있습니다. _[!UICONTROL 구매 그룹의 구성원]_ 필터에서 이 새로운 제약 조건을 사용할 수 있는 Marketo Engage 스마트 목록에서도 지원됩니다. |
@@ -166,13 +167,13 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 ## 에이전틱 AI 기능 {#rel-agents}
 
-이제 채팅 인터페이스 내에서 Journey Optimizer B2B edition에 다음과 같은 아젠틱 AI 기능을 사용할 수 있습니다.
+이제 채팅 인터페이스 내에서 Journey Optimizer B2B Edition에 다음 Agentic AI 기능을 사용할 수 있습니다.
 
 | 에이전트 | 업데이트 | 설명 |
 | ----- | ------ | ----------- |
 | 여정 빌드 에이전트 | 신규 및 업데이트됨 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
 | Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
-| 영업 구분자 | 신규 용어 | Sales Qualifier은 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B edition에 대한 AI 기반 추가 기능 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸친 잠재 고객 검증, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/sales-qualifier/using/home){target="_blank"} |
+| 영업 구분자 | 신규 용어 | Sales Qualifier은 Account Qualification Agent이 포함된 Adobe Journey Optimizer B2B Edition에 대한 AI 기반 추가 기능 애플리케이션으로, BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸친 잠재 고객 검증, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 릴리스 정보 {#rel-2025-10}
 
@@ -198,11 +199,11 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 ### 업데이트된 아키텍처
 
-업데이트된 아키텍처를 통해 Journey Optimizer B2B edition 및 Marketo Engage은 더 이상 동일한 시스템 및 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
+업데이트된 아키텍처를 통해 Journey Optimizer B2B Edition 및 Marketo Engage은 더 이상 동일한 시스템 및 데이터 저장소에 있지 않습니다. Journey Optimizer B2B Edition은 Adobe Experience Platform에서 데이터를 수신합니다. 하지만 계속해서 Marketo Engage 자격 및 일부 구성 기능을 사용하여 시스템을 프로비저닝하고 구성합니다.
 
 >[!NOTE]
 >
->이전 릴리스 노트에서 이 배포를 *간소화된 아키텍처*(으)로 언급했습니다. 해당 모델이 이제 기본 Journey Optimizer B2B edition 구현입니다.
+>이전 릴리스 노트에서 이 배포를 *간소화된 아키텍처*(으)로 언급했습니다. 이제 해당 모델이 기본 Journey Optimizer B2B Edition 구현입니다.
 
 이 구현은 다음과 같은 여러 이점을 제공합니다.
 
@@ -223,7 +224,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 여러 Marketo Engage 활성화 | 원격 Marketo Engage 인스턴스에 대한 연결을 구성하고 해당 연결을 사용하여 여정에 대한 Marketo Engage 작업을 설정합니다. 목록에서 사람 추가/제거 또는 요청 캠페인에 사람 추가와 같은 이러한 작업은 지정된 Marketo Engage 인스턴스에 적용됩니다. [자세히 알아보기](../admin/marketo-actions-connect.md) |
 | 기능 | 이메일 피로도 중복 제거 | 이제 여정에서 동일한 이메일이 동일한 주소로 여러 번 전송되지 않도록 이메일 중복 제거를 활성화할 수 있습니다. 중복 주소는 해당 이메일 주소가 있는 첫 번째 레코드가 여정을 완료할 때까지 차단됩니다.  [자세히 알아보기](../content/email-deduplication.md) |
 | 개선 사항 | 참여 점수 가중치 - AEP 이벤트 | 참여 점수 가중치는 이제 표준 또는 사용자 지정 Experience Platform 이벤트를 포함할 수 있으며 필요에 따라 가중치가 부여됩니다. [자세히 알아보기](../admin/engagement-score-weighting.md) |
-| 개선 사항 | 커뮤니케이션 제한 | 이제 시스템에서는 Marketo Engage 및 Journey Optimizer B2B edition의 결합된 통신 제한을 준수합니다. [자세히 알아보기](../admin/configure-channels-emails.md#communication-limits) |
+| 개선 사항 | 커뮤니케이션 제한 | 이제 시스템은 Marketo Engage과 Journey Optimizer B2B Edition의 결합된 통신 제한을 따릅니다. [자세히 알아보기](../admin/configure-channels-emails.md#communication-limits) |
 
 ## 2025.9 릴리스 정보 {#rel-2025-9}
 
@@ -233,7 +234,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 이메일 콘텐츠 공동 작업 | 이제 마케팅 팀은 이메일 에셋의 컨텍스트에서 동료 Journey Optimizer B2B edition 사용자에게 댓글을 달고 공동 작업을 수행할 수 있습니다. 팀 구성원에 태그를 지정하여 주석의 세부 정보가 포함된 이메일 알림을 받을 수 있습니다. 알림은 또한 펄스 알림으로도 제공됩니다. [자세히 알아보기](../content/email-collaboration-tools.md) |
+| 기능 | 이메일 콘텐츠 공동 작업 | 이제 마케팅 팀은 이메일 에셋의 컨텍스트에서 동료 Journey Optimizer B2B Edition 사용자에게 댓글을 달고 공동 작업을 수행할 수 있습니다. 팀 구성원에 태그를 지정하여 주석의 세부 정보가 포함된 이메일 알림을 받을 수 있습니다. 알림은 또한 펄스 알림으로도 제공됩니다. [자세히 알아보기](../content/email-collaboration-tools.md) |
 | 기능 | 이메일 디자인을 위한 다크 모드 | 이제 이메일 디자인 공간에 _다크 모드_&#x200B;로 전환하는 기능이 포함됩니다. 다크 모드에서 이메일 콘텐츠를 미리 보고 다크 모드로 이메일을 보는 수신자에게 특별히 표시되도록 사용자 정의 설정을 정의할 수 있습니다. [자세히 알아보기](../content/email-dark-mode.md) |
 | 개선 사항 | 여정 - 역할에 있는 사용자 수로 경로 분할 | 계정 노드별 분할 경로를 사용하여 하나 이상의 구매 그룹 역할에 있는 사용자 수로 계정을 타기팅합니다. 경로에서 역할 깊이를 기반으로 판매 알림 및 기타 참여를 위한 구매 그룹 준비 상태를 평가할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
 | 개선 사항 | 여정 - 이벤트에 대한 개인 필터 | 사용자 필터를 사용하여 사용자 이벤트를 수신합니다. 이러한 필터에는 일치하는 구매 그룹의 특정 역할을 대상으로 지정하는 기능이 포함됩니다. [자세히 알아보기](../journeys/listen-for-event-nodes.md#filters-people-event) |
