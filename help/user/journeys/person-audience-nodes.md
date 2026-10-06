@@ -3,7 +3,6 @@ title: 개인 대상 노드
 description: 세그먼트 또는 이벤트 기반 대상자로 개인 대상 노드를 구성하여 Journey Optimizer B2B Edition의 타깃팅된 오케스트레이션에 대한 개인 여정 진입점을 정의합니다.
 feature: Audiences
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -26,10 +25,10 @@ topic_v2:
     internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 8e9c973d83ff0a6332af73f6cb95d251089e0775
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 1%
+source-wordcount: '641'
+ht-degree: 0%
 ---
 # 개인 대상 여정 노드
 
