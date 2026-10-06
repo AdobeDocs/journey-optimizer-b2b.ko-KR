@@ -1,29 +1,38 @@
 ---
 title: 조건부 콘텐츠
-description: Journey Optimizer B2B edition의 개인화된 이메일 및 조각에 대한 프로필 속성 및 이벤트를 기반으로 조건부 규칙을 사용하여 다이내믹 콘텐츠 변형을 만듭니다.
+description: Journey Optimizer B2B Edition의 개인화된 이메일 및 조각에 대한 프로필 속성 및 이벤트를 기반으로 조건부 규칙을 사용하여 다이내믹 콘텐츠 변형을 만듭니다.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+autotag-review: 2026-03-30T22:10:29.308Z
+TQID: 'https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+    internal-label: Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:10:29.308Z
-TQID: https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: '1264'
 ht-degree: 12%
-
 ---
-
 # 조건부 콘텐츠
 
 조건부 콘텐츠를 사용하면 조건부 규칙에 따라 이메일 및 조각 콘텐츠를 조정할 수 있습니다. 이러한 규칙은 프로필 속성 또는 컨텍스트 이벤트를 사용하여 정의됩니다. 규칙 빌더에서 조건부 규칙을 만들고, 이를 저장하여 계정 여정 전반에서 재사용할 수 있습니다.
@@ -118,10 +127,10 @@ ht-degree: 12%
 
 | 조건 유형 | 필터 | 설명 |
 | -------------- | ------- | ----------- |
-| **계정** | 계정 속성 | 다음을 포함한 계정 프로필의 속성: <li>연간 수익</li><li>도시</li><li>국가</li><li>직원 규모</li><li>업종</li><li>이름</li><li>SIC 코드</li><li>주</li> |
+| **계정** | 계정 속성 | 다음을 포함한 계정 프로필의 속성: <li>연간 수익</li><li>구/군/시</li><li>국가</li><li>직원 규모</li><li>업종</li><li>이름</li><li>SIC 코드</li><li>주/도</li> |
 | | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 있음] | 계정에 구매 그룹의 구성원이 있거나 없습니다. 다음 기준 중 하나 이상에 대해 필터를 평가할 수도 있습니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li> |
 | **사용자** | [!UICONTROL 활동 기록] > [!UICONTROL 전자 메일] | 여정과 연계된 이메일 활동: <li>[!UICONTROL 전자 메일에서 링크를 클릭함]</li><li>이메일 열림</li><li>이메일 전달됨</li><li>이메일 전송됨</li> 이러한 조건은 여정 앞부분에서 선택한 이메일 메시지를 사용하여 평가됩니다. |
-|  | [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>도시</li><li>국가</li><li>생년월일</li><li>이메일 주소</li><li>잘못된 이메일</li><li>이메일 중단됨</li><li>이름</li><li>추정 주 지역</li><li>직위</li><li>성</li><li>휴대폰 번호</li><li>전화번호</li><li>우편번호</li><li>주</li><li>구독 취소</li><li>구독 취소 이유</li> |
+|  | [!UICONTROL 사용자 특성] | 다음을 포함한 개인 프로필의 속성: <li>구/군/시</li><li>국가</li><li>생년월일</li><li>이메일 주소</li><li>잘못된 이메일</li><li>이메일 중단됨</li><li>이름</li><li>추정 주 지역</li><li>직위</li><li>성</li><li>휴대폰 번호</li><li>전화번호</li><li>우편번호</li><li>주/도</li><li>구독 취소</li><li>구독 취소 이유</li> |
 | | [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨</li><li>역할</li> |
 
 ### 조건부 규칙 만들기 {#create-condition}

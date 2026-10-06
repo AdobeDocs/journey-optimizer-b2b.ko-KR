@@ -1,38 +1,45 @@
 ---
 title: 이메일 렌더링 테스트
-description: Litmus 통합을 통해 데스크탑, 모바일 및 웹 클라이언트 간의 이메일 렌더링을 테스트하여 Journey Optimizer B2B edition의 받은 편지함 호환성을 확인합니다.
+description: Journey Optimizer B2B Edition에서 받은 편지함 호환성을 보장하기 위해 Litmus 통합을 통해 데스크탑, 모바일 및 웹 클라이언트 간의 이메일 렌더링을 테스트합니다.
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
+autotag-review: 2026-03-30T22:28:13.343Z
+TQID: 'https://experienceleague.adobe.com/G9c2TdbEje4HgE82tKURAn-UYz5wB-9iLsT9805m1JI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:28:13.343Z
-TQID: https://experienceleague.adobe.com/G9c2TdbEje4HgE82tKURAn-UYz5wB-9iLsT9805m1JI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: '376'
 ht-degree: 2%
-
 ---
-
 # Litmus를 사용하여 이메일 렌더링 테스트
 
-이메일을 테스트하려면 Journey Optimizer B2B edition의 [Litmus](https://www.litmus.com/email-testing){target="_blank"} Enterprise 계정을 활용할 수 있습니다. 이 통합을 통해 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 도구를 사용하면 이메일 콘텐츠가 멋진 것처럼 보이고 모든 받은 편지함에서 디자인된 대로 작동하는지 확인할 수 있습니다.
+이메일을 테스트하려면 Journey Optimizer B2B Edition의 [Litmus](https://www.litmus.com/email-testing){target="_blank"} Enterprise 계정을 활용할 수 있습니다. 이 통합을 통해 인기 있는 이메일 클라이언트에서 이메일 렌더링을 미리 볼 수 있습니다. 이 도구를 사용하면 이메일 콘텐츠가 멋진 것처럼 보이고 모든 받은 편지함에서 디자인된 대로 작동하는지 확인할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->이 통합은 Litmus Enterprise 계정이 있는 Journey Optimizer B2B edition 사용자만 사용할 수 있습니다. 자세한 내용은 Litmus 웹 사이트의 [솔루션 페이지](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}를 참조하세요.
+>이 통합은 Litmus Enterprise 계정이 있는 Journey Optimizer B2B Edition 사용자만 사용할 수 있습니다. 자세한 내용은 Litmus 웹 사이트의 [솔루션 페이지](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}를 참조하세요.
 
 1. 이메일 디자인이 완료되어 테스트할 준비가 되면 이메일 디자인 공간에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다.
 
@@ -40,7 +47,7 @@ ht-degree: 2%
 
    ![전자 메일 렌더링 단추](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
 
-   Journey Optimizer B2B edition에서 아직 Litmus 계정에 연결하지 않은 경우 표시된 페이지에서 체험판 계정을 시작하거나 기존 계정에 연결할 수 있는 옵션을 제공합니다.
+   Journey Optimizer B2B Edition에서 아직 Litmus 계정에 연결하지 않은 경우 표시된 페이지에서 체험판 계정을 시작하거나 기존 계정에 연결할 수 있는 옵션을 제공합니다.
 
 1. 오른쪽 상단의 **[!UICONTROL Litmus 계정 연결]**&#x200B;을 클릭하거나 페이지 내부의 링크를 사용하십시오.
 
@@ -48,11 +55,11 @@ ht-degree: 2%
 
 1. Litmus 계정 자격 증명을 입력하고 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL 연결]**&#x200B;을 클릭하여 Litmus와 Journey Optimizer B2B edition 간의 연결을 확인하고 렌더링할 전자 메일 콘텐츠를 보냅니다.
+1. **[!UICONTROL 연결]**&#x200B;을 클릭하여 Litmus와 Journey Optimizer B2B Edition 간의 연결을 확인하고 렌더링할 전자 메일 콘텐츠를 보냅니다.
 
    >[!IMPORTANT]
    >
-   >Litmus 계정을 Journey Optimizer B2B edition과 연결하면 테스트 메시지가 Litmus로 전송되는 데 동의하는 것입니다. 그런 다음 이 콘텐츠는 Adobe이 아닌 Litmus 내에서 관리됩니다. 따라서 테스트 메시지에 포함할 수 있는 개인화 데이터를 포함하여 이러한 이메일에 Litmus 데이터 보존 이메일 정책이 적용됩니다.
+   >Litmus 계정을 Journey Optimizer B2B Edition과 연결하면 테스트 메시지가 Litmus로 전송되는 데 동의하는 것입니다. 그런 다음 이 콘텐츠는 Adobe이 아닌 Litmus 내에서 관리됩니다. 따라서 테스트 메시지에 포함할 수 있는 개인화 데이터를 포함하여 이러한 이메일에 Litmus 데이터 보존 이메일 정책이 적용됩니다.
 
 1. 전자 메일 미리 보기를 생성하려면 오른쪽 상단의 **[!UICONTROL 테스트 실행]**&#x200B;을 클릭하세요.
 

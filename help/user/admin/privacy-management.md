@@ -1,27 +1,34 @@
 ---
 title: 개인 정보 관리
-description: Journey Optimizer B2B edition의 GDPR, CCPA 및 기타 개인 정보 보호 규정을 준수하는 방법을 알아보고 Adobe Privacy Service을 사용하여 요청을 제출합니다.
+description: Journey Optimizer B2B Edition에서 GDPR, CCPA 및 기타 개인 정보 보호 규정을 준수하는 방법을 알아보고 Adobe Privacy Service을 사용하여 요청을 제출합니다.
 feature: Setup, Permissions
 role: Admin
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '634'
 ht-degree: 5%
-
 ---
-
 
 # 개인 정보 관리 {#privacy-management}
 
-[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/home){target="_blank"}은(는) 고객 데이터 요청을 관리하는 데 도움이 되는 RESTful API 및 사용자 인터페이스를 제공합니다. [!DNL Adobe Privacy Service]을(를) 사용하면 Adobe CX 엔터프라이즈 애플리케이션에서 개인 고객 데이터에 액세스하고 삭제하는 요청을 제출할 수 있으므로 법적 및 조직의 개인 정보 보호 규정을 자동으로 준수할 수 있습니다.
+[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/home){target="_blank"}은(는) 고객 데이터 요청을 관리하는 데 도움이 되는 RESTful API 및 사용자 인터페이스를 제공합니다. [!DNL Adobe Privacy Service]을(를) 사용하면 Adobe CX Enterprise 애플리케이션에서 개인 고객 데이터에 액세스하고 삭제하는 요청을 제출할 수 있으므로 법적 및 조직의 개인 정보 보호 규정을 자동으로 준수할 수 있습니다.
 
 [!DNL Adobe Journey Optimizer B2B Edition]은(는) 글로벌 데이터 보호 요구 사항을 충족할 수 있도록 이러한 개인 정보 보호 도구를 제공합니다. [!DNL Privacy Service]을(를) 사용하여 [!DNL Journey Optimizer B2B Edition]에서 수집하고 저장하는 데이터에 대한 액세스 및 관리 요청을 제출하고 관리합니다.
 
@@ -52,7 +59,7 @@ ht-degree: 5%
 * **[!UICONTROL Privacy Service 권한]** - `Privacy Read Permission` 및 `Privacy Write Permission`
 * **[!UICONTROL 데이터 거버넌스]** - `View Privacy Console`
 
-자세한 내용은 [!DNL Privacy Service] 안내서의 [_Privacy Service에 대한 권한 관리_](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/permissions){target="_blank"}를 참조하십시오.
+자세한 내용은 [!DNL Privacy Service] 안내서의 [_Privacy Service에 대한 권한 관리_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +92,7 @@ ht-degree: 5%
 
 1. **[!UICONTROL 제품]**&#x200B;의 경우 **[!UICONTROL Marketo]**&#x200B;을(를) 선택하십시오.
 
-   ![Marketo Engage 및 Journey Optimizer B2B edition에 대한 GDPR 액세스 개인 정보 보호 요청 만들기](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
+   ![Marketo Engage 및 Journey Optimizer B2B Edition에 대한 GDPR 액세스 개인 정보 보호 요청을 만듭니다](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
 
    이 선택 항목에는 [!DNL Journey Optimizer B2B Edition] 및 [!DNL Marketo Engage] 인스턴스의 데이터가 모두 포함됩니다.
 

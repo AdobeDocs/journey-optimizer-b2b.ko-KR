@@ -5,40 +5,45 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: 'https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:58:08.848Z
-TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1632
+source-wordcount: '1632'
 ht-degree: 10%
-
 ---
-
 # 경험 이벤트 및 필드 선택
 
-관리자는 경험 이벤트 유니온 스키마 내에서 특정 Adobe Experience Platform(AEP) [경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
+관리자는 경험 이벤트 유니온 스키마 내에서 특정 Adobe Experience Platform(AEP) [경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} 및 관련 필드를 선택할 수 있습니다. 선택 후 사용자는 의사 결정 규칙을 구성하여 이러한 경험 이벤트를 수신하여 실시간에 가까운 이벤트 데이터를 기반으로 동적이고 타깃팅된 캠페인 작업을 활성화할 수 있습니다.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->Journey Optimizer B2B edition에서 경험 이벤트 및 필드를 사용하려면 프로필이 활성화된 경험 이벤트 스키마가 필요합니다. 자세한 내용은 Experience Platform 자습서에서 [실시간 고객 프로필 활성화](https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}를 참조하십시오.
+>Journey Optimizer B2B Edition에서 경험 이벤트 및 필드를 사용하려면 프로필이 활성화된 경험 이벤트 스키마가 필요합니다. 자세한 내용은 Experience Platform 자습서에서 [실시간 고객 프로필 활성화](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}를 참조하십시오.
 
 여정에서 AEP Experience Event 사용은 두 단계 프로세스입니다.
 
-1. 관리자 [이(가) AEP B2B edition 구성에 Journey Optimizer Experience Events 및 필드를 추가](#add-an-event)합니다.
+1. 관리자 [이(가) AEP 구성에 Journey Optimizer B2B Edition Experience Events 및 필드를 추가](#add-an-event)합니다.
 
 1. 여정에서 마케터는 다음 두 가지 방법 중 하나로 구성된 이벤트를 사용합니다.
 
@@ -55,7 +60,7 @@ ht-degree: 10%
 
 * 여정은 웹 SDK 또는 HTTP API와 같은 Experience Platform 스트리밍 기능을 사용하여 수집되는 Experience 이벤트를 수신할 수 있습니다.
 
-* 과거 경험 이벤트 데이터는 이벤트가 Journey Optimizer B2B edition 데이터베이스에 있을 때 사용자에 대해 누적되기 시작합니다. 이벤트 유형을 처음 구성할 때 이미 존재하는 사용자의 경우 구성 시 채우기 작업이 시작됩니다. 신규 사용자의 경우, 누적은 해당 사용자가 처음 추가될 때 시작됩니다(이전 기록은 소급하여 사용할 수 없음).
+* 과거 경험 이벤트 데이터는 이벤트가 Journey Optimizer B2B Edition 데이터베이스에 있을 때 사용자에 대해 누적되기 시작합니다. 이벤트 유형을 처음 구성할 때 이미 존재하는 사용자의 경우 구성 시 채우기 작업이 시작됩니다. 신규 사용자의 경우, 누적은 해당 사용자가 처음 추가될 때 시작됩니다(이전 기록은 소급하여 사용할 수 없음).
 
 * 현재 누적된 이벤트 내역에 대한 삭제 메커니즘이 없습니다. 장기 보존 정책은 변경될 수 있습니다.
 
@@ -153,7 +158,7 @@ _[!UICONTROL 이벤트]_ 탭의 목록에 저장된 이벤트가 표시됩니다
 
 ## 이벤트 및 필드 {#events-and-fields}
 
-[!DNL Journey Optimizer B2B Edition]의 경우 특정 사용자 수준 활동이 [!DNL Experience Platform] 경험 이벤트로 캡처됩니다. 이러한 이벤트는 XDM 경험 이벤트 스키마를 사용하고 여정 특정 필드 그룹을 포함하는 시스템 데이터 세트에 저장됩니다. 다른 경험 이벤트처럼 [!UICONTROL Journey Optimizer B2B edition]에서 이러한 이벤트를 사용할 수 있습니다.
+[!DNL Journey Optimizer B2B Edition]의 경우 특정 사용자 수준 활동이 [!DNL Experience Platform] 경험 이벤트로 캡처됩니다. 이러한 이벤트는 XDM 경험 이벤트 스키마를 사용하고 여정 특정 필드 그룹을 포함하는 시스템 데이터 세트에 저장됩니다. 다른 경험 이벤트처럼 [!UICONTROL Journey Optimizer B2B Edition]에서 이러한 이벤트를 사용할 수 있습니다.
 
 각 이벤트는 여정 _이벤트 수신_ 노드에서 사용할 수 있는 정의된 필드 집합을 표시합니다(이벤트를 기반으로 의사 결정). 이러한 여정 노드에서 사용할 이벤트 및 필드를 결정하려면 사용 가능한 이벤트 유형 및 해당 필드를 검토하십시오.
 
@@ -491,5 +496,5 @@ _[!UICONTROL 이벤트]_ 탭의 목록에 저장된 이벤트가 표시됩니다
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448690/?captions=kor&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

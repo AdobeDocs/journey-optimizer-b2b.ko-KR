@@ -1,26 +1,33 @@
 ---
 title: 솔루션 관심 분야
-description: 대상 제품에 대한 솔루션 관심사를 생성하고, 역할 템플릿을 사용하여 구매 그룹 생성을 자동화하고, Journey Optimizer B2B edition에서 단계 진행을 관리합니다.
+description: 대상 제품에 대한 솔루션 관심사를 생성하고, 역할 템플릿을 사용하여 구매 그룹 생성을 자동화하고, Journey Optimizer B2B Edition에서 단계 진행을 관리합니다.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
+autotag-review: 2026-03-30T21:38:19.586Z
+TQID: 'https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: 2026-03-30T21:38:19.586Z
-TQID: https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 4%
-
 ---
-
 # 솔루션 관심 분야
 
 구매 그룹을 만들기 전에 무엇을 판매하고 있고 누구를 타깃팅하고 싶은지 알아야 합니다. 구매 그룹에 대한 솔루션 관심을 추가할 수 있도록 마케팅 및 판매 전략을 조정해야 합니다.
@@ -114,4 +121,4 @@ _[!UICONTROL 솔루션 관심 분야]_ 탭에서 **[!UICONTROL 그룹 만들기 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3450120/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

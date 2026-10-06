@@ -1,30 +1,42 @@
 ---
 title: 랜딩 페이지 디자인
-description: 시각적 도구를 사용하여 랜딩 페이지 디자인 - Journey Optimizer B2B edition에서 계정 여정에 대한 콘텐츠 구성 요소, 양식, 사용자 지정 CSS, 개인화 및 장치 미리 보기를 추가합니다.
+description: 시각적 도구를 사용하여 랜딩 페이지 디자인 - Journey Optimizer B2B Edition에서 계정 여정에 대한 콘텐츠 구성 요소, 양식, 사용자 지정 CSS, 개인화 및 장치 미리 보기를 추가합니다.
 feature: Landing Pages, Content Design Tools
 role: User
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+autotag-review: 2026-03-30T23:18:56.836Z
+TQID: 'https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T23:18:56.836Z
-TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 2%
-
+source-wordcount: '411'
+ht-degree: 3%
 ---
-
 # 랜딩 페이지 디자인
 
 [랜딩 페이지를 만들고](./landing-pages-create-publish.md#create-landing-page) 나면 시각적 디자인 공간을 사용하여 페이지의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
@@ -88,8 +100,8 @@ ht-degree: 2%
 * 사전 설정된 확대/축소 옵션에서 콘텐츠를 확대/축소합니다.
 
 * 데스크탑, 모바일 또는 텍스트 전용/일반 텍스트에서 컨텐츠 보기를 전환합니다.
-   * 여러 장치에서 콘텐츠를 미리 보려면 _보기_ 아이콘을 클릭하십시오.
-   * 기본 제공 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
+  * 여러 장치에서 콘텐츠를 미리 보려면 _보기_ 아이콘을 클릭하십시오.
+  * 기본 제공 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
 
 ### 추가 옵션
 

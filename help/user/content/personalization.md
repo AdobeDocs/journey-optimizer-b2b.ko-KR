@@ -1,33 +1,45 @@
 ---
 title: 콘텐츠 개인화
-description: Journey Optimizer B2B edition에서 계정, 사용자 및 시스템 토큰을 사용하여 B2B 이메일을 개인화합니다. 개인화 편집기 및 구문을 사용하는 방법을 알아봅니다.
+description: Journey Optimizer B2B Edition에서 계정, 사용자 및 시스템 토큰을 사용하여 B2B 이메일을 개인화합니다. 개인화 편집기 및 구문을 사용하는 방법을 알아봅니다.
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+autotag-review: 2026-03-30T21:59:25.221Z
+TQID: 'https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T21:59:25.221Z
-TQID: https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 6%
-
+source-wordcount: '751'
+ht-degree: 7%
 ---
-
 # 콘텐츠 개인화 {#add-personalization}
 
 >[!CONTEXTUALHELP]
@@ -39,7 +51,7 @@ ht-degree: 6%
 
 _개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 정렬하고, 사용자 지정하고, 유효성을 검사하여 콘텐츠에 대한 사용자 지정 개인 맞춤화를 만들 수 있습니다. 도우미 함수와 같은 다양한 도구를 사용하여 메시지를 사용자 지정할 수 있습니다. 편집기에서 _Handlebars_&#x200B;을(를) 기반으로 하는 인라인 개인화 구문을 사용합니다. 여기서 식은 중괄호 `{{}}`로 묶은 내용으로 구성됩니다.
 
-메시지를 처리할 때 Journey Optimizer B2B edition은 표현식을 Adobe Experience Platform 데이터 세트 및 로컬 시스템 값에 포함된 데이터로 대체합니다. 예를 들어 `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`은(는) 동적으로 `Hello John Doe`이(가) 됩니다.
+메시지를 처리할 때 Journey Optimizer B2B Edition은 표현식을 Adobe Experience Platform 데이터 세트 및 로컬 시스템 값에 포함된 데이터로 대체합니다. 예를 들어 `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`은(는) 동적으로 `Hello John Doe`이(가) 됩니다.
 
 이 구문을 사용하면 이메일 제목 줄, 메시지 본문 및 발신자 정보를 포함하여 여러 필드에 메시지를 개인화할 수 있습니다.
 
@@ -57,9 +69,9 @@ _개인화 편집기_&#x200B;를 사용하면 모든 데이터를 선택하고, 
 
 >[!NOTE]
 >
->[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
+>[XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 XDM 스키마에 대해 자세히 알아보세요.
 
-## Personalization 편집기
+## 개인화 편집기
 
 개인화 편집기는 이메일 콘텐츠에서 개인화를 정의해야 하는 모든 컨텍스트에서 사용할 수 있습니다. 편집기에서 모든 데이터를 선택하고, 정렬하고, 맞춤화하고, 유효성을 검사하여 콘텐츠에 대한 사용자 지정 개인 맞춤화를 만들 수 있습니다.
 

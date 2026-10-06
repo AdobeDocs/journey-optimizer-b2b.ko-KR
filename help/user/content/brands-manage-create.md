@@ -1,11 +1,13 @@
 ---
 title: 컨텐츠 생성 및 일관성을 위한 브랜드 만들기
-description: 문서에서 자동 추출하거나 수동으로 입력하여 브랜드 지침을 만들고 관리하십시오. - Journey Optimizer B2B edition에서 일관된 콘텐츠에 대한 기본 브랜드를 설정하십시오.
+description: 문서에서 자동 추출하거나 수동으로 입력하여 브랜드 지침을 만들고 관리하십시오. - Journey Optimizer B2B Edition에서 일관된 콘텐츠에 대한 기본 브랜드를 설정하십시오.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+autotag-review: 2026-03-30T21:55:06.504Z
+TQID: 'https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,18 +16,20 @@ feature_v2:
     internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
     internal-label: Content strategy
-autotag-review: 2026-03-30T21:55:06.504Z
-TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 6%
@@ -34,7 +38,7 @@ ht-degree: 6%
 
 브랜드를 정의하여 시각적 및 언어적 정체성을 설정하는 자세한 규칙 및 표준 세트를 제공합니다. 이 지침은 모든 마케팅 및 커뮤니케이션 플랫폼에서 일관된 브랜드 표현을 유지하기 위한 참조를 제공합니다. 조직은 잘 정의된 브랜드 지침을 활용함으로써 모든 콘텐츠 제작 노력이 전략적 목표와 전반적인 브랜드 정체성에 부합하도록 할 수 있습니다. 이러한 일관성은 브랜드 인지도와 신뢰를 향상시킬 뿐만 아니라 모든 접점에서 보다 통합적이고 영향력 있는 고객 경험에 기여합니다.
 
-Journey Optimizer B2B edition에서 브랜드 정의 및 에셋을 수동으로 정의 및 구성하거나 자동 정보 및 시각적 에셋 추출을 위해 브랜드 지침 문서를 업로드할 수 있습니다.
+Journey Optimizer B2B Edition에서 브랜드 정의 및 에셋을 수동으로 정의 및 구성하거나 자동 정보 및 시각적 에셋 추출을 위해 브랜드 지침 문서를 업로드할 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -42,7 +46,7 @@ Journey Optimizer B2B edition에서 브랜드 정의 및 에셋을 수동으로 
 >
 ><br>
 >
->Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer B2B Edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
 ><br>
 >
@@ -50,7 +54,7 @@ Journey Optimizer B2B edition에서 브랜드 정의 및 에셋을 수동으로 
 
 ## 브랜드 라이브러리에 액세스
 
-Adobe Journey Optimizer B2B edition의 브랜드 키트에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 브랜드]**&#x200B;를 클릭하십시오. 이 작업을 수행하면 생성된 브랜드가 카드로 표시되는 페이지가 열립니다.
+Adobe Journey Optimizer B2B Edition에서 브랜드 키트에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 브랜드]**&#x200B;를 클릭하십시오. 이 작업을 수행하면 생성된 브랜드가 카드로 표시되는 페이지가 열립니다.
 
 ![브랜드 라이브러리에 액세스](./assets/brands-library.png){width="800" zoomable="yes"}
 

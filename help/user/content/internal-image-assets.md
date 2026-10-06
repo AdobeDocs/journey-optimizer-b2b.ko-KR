@@ -1,33 +1,39 @@
 ---
 title: 내부 이미지 Assets 작업
-description: Journey Optimizer B2B edition 에셋 검색, 관리 및 사용 - 폴더를 구성하고 이미지를 편집하고 계정 여정을 위한 콘텐츠를 만들 수 있습니다.
+description: Journey Optimizer B2B Edition 에셋 검색, 관리 및 사용 - 폴더를 구성하고 이미지를 편집하고 계정 여정을 위한 콘텐츠를 만듭니다.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # 내부 이미지 자산 작업
 
 내부 이미지 에셋 저장소는 기본 이미지 에셋 소스이며, 사용 가능한 에셋을 쉽게 관리하고 사용하여 계정 여정을 지원하는 콘텐츠를 디자인할 수 있습니다.
 
-Journey Optimizer B2B edition의 모든 에셋 관리 기능을 사용할 수 있습니다. 이러한 함수에는 다음이 포함됩니다.
+Journey Optimizer B2B Edition에는 모든 범위의 에셋 관리 기능이 있습니다. 이러한 함수에는 다음이 포함됩니다.
 
 * [바꾸기](#replace-assets)
 * [삭제](#delete-assets)
@@ -36,7 +42,7 @@ Journey Optimizer B2B edition의 모든 에셋 관리 기능을 사용할 수 �
 
 ## 에셋 검색 및 액세스
 
-Journey Optimizer B2B edition의 내부 자산에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 컨텐츠 관리]** > **[!UICONTROL Assets]**&#x200B;를 클릭하십시오. 이 작업을 수행하면 나열된 모든 자산이 있는 목록 페이지가 열립니다.
+Journey Optimizer B2B Edition에서 내부 자산에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL Assets]**&#x200B;을(를) 클릭하십시오. 이 작업을 수행하면 나열된 모든 자산이 있는 목록 페이지가 열립니다.
 
 ![이미지 자산 찾아보기](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -58,13 +64,13 @@ Journey Optimizer B2B edition의 내부 자산에 액세스하려면 왼쪽 탐�
 
 ## 참조에서 사용하는 자산 보기
 
-에셋 세부 정보 페이지에서 **[!UICONTROL 사용한 사람]** 탭을 클릭하여 이메일, 이메일 템플릿 및 조각에서 Journey Optimizer B2B edition 내에서 에셋이 현재 사용되는 위치에 대한 세부 정보를 봅니다.
+에셋 세부 정보 페이지에서 **[!UICONTROL 사용한 사람]** 탭을 클릭하여 이메일, 이메일 템플릿 및 조각에서 Journey Optimizer B2B Edition 내에서 에셋이 현재 사용되는 위치에 대한 세부 정보를 봅니다.
 
 >[!IMPORTANT]
 >
 >전자 메일, 전자 메일 템플릿 또는 조각 **에서 현재 _사용 중_인 에셋은 삭제할 수 없습니다**.
 
-패널에 카테고리별 참조가 표시됩니다. _이메일_, _이메일 템플릿_ 또는 _조각_. Journey Optimizer B2B edition의 이메일은 여정 내에 임베드되고 작성되므로 자산을 사용하는 이메일의 상위 여정이 참조에 표시됩니다.
+패널에 카테고리별 참조가 표시됩니다. _이메일_, _이메일 템플릿_ 또는 _조각_. Journey Optimizer B2B Edition의 이메일은 여정 내에 임베드되고 작성되므로 자산을 사용하는 이메일의 상위 여정이 참조에 표시됩니다.
 
 링크를 클릭하면 자산이 사용되는 해당 이메일, 이메일 템플릿 또는 조각으로 이동합니다.
 
@@ -72,7 +78,7 @@ Journey Optimizer B2B edition의 내부 자산에 액세스하려면 왼쪽 탐�
 
 ## 에셋 추가
 
-_Assets_ 목록 페이지에서 Journey Optimizer B2B edition 자산 저장소에 이미지 자산을 추가할 수 있습니다.
+_Assets_ 목록 페이지에서 Journey Optimizer B2B Edition 자산 저장소에 이미지 자산을 추가할 수 있습니다.
 
 1. 오른쪽 상단의 **[!UICONTROL Assets 추가]**&#x200B;를 클릭합니다.
 
@@ -112,7 +118,7 @@ _Assets_ 목록 페이지에서 Journey Optimizer B2B edition 자산 저장소�
 
 ## 자산 바꾸기
 
-_[!UICONTROL Journey Optimizer B2B edition]_ 자산 저장소에 있는 자산을 바꾸려면 다음 방법 중 하나를 사용하십시오.
+_[!UICONTROL Journey Optimizer B2B Edition]_ 자산 저장소에 있는 자산을 바꾸려면 다음 방법 중 하나를 사용하십시오.
 
 * 자산 세부 정보로 이동하여 **[!UICONTROL 을(를) 클릭합니다. 오른쪽 상단에서]**&#x200B;을(를) 더 보고 옵션에서 **[!UICONTROL 바꾸기]**&#x200B;을(를) 선택하십시오.
 
@@ -142,7 +148,7 @@ _[!UICONTROL 자산 바꾸기]_ 대화 상자에서 대체 파일을 시스템�
 
 ![선택한 자산](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Journey Optimizer B2B edition]_ 자산 저장소에 있는 선택한 자산에 대해 다음 일괄 작업을 수행할 수 있습니다.
+_[!UICONTROL Journey Optimizer B2B Edition]_ 자산 저장소에 있는 선택한 자산에 대해 다음 일괄 작업을 수행할 수 있습니다.
 
 +++에셋 이동
 
@@ -280,8 +286,8 @@ Assets은 팀의 이메일, 이메일 템플릿 또는 시각적 콘텐츠 편�
 
   필요한 에셋을 찾는 데 도움이 되는 도구가 있습니다.
 
-   * 조건에 따라 표시된 항목을 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭하십시오.
+  * 조건에 따라 표시된 항목을 필터링하려면 왼쪽 상단의 _필터_ 아이콘을 클릭하십시오.
 
-   * 표시된 항목을 자산 이름과 일치하도록 필터링하려면 _검색_ 필드에 텍스트를 입력하십시오.
+  * 표시된 항목을 자산 이름과 일치하도록 필터링하려면 _검색_ 필드에 텍스트를 입력하십시오.
 
   ![필터 및 검색 필드를 사용하여 필요한 자산을 찾습니다](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

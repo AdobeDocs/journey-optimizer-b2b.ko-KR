@@ -19,9 +19,13 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +34,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -113,7 +119,7 @@ ht-degree: 0%
 
 ### 추적 및 비추적 이메일 변형 구성 {#configure-tracking-and-non-tracking-email-variants}
 
-모든 사용자가 추적 기본 설정에 일치하는 전자 메일 변형을 받도록 각 경로에 [_[!UICONTROL 전자 메일 보내기&#x200B;]_&#x200B;작업 노드](./add-email.md)를 추가합니다.
+모든 사용자가 추적 기본 설정에 일치하는 전자 메일 변형을 받도록 각 경로에 [_[!UICONTROL 전자 메일 보내기&#x200B;]_작업 노드](./add-email.md)를 추가합니다.
 
 1. 추적을 사용할 수 있는 경로에서 **[!UICONTROL 전자 메일 보내기]** 작업을 추가하고 평소대로 전자 메일을 선택하거나 만듭니다. 전자 메일 속성에서 **[!UICONTROL 열려 있는 추적 사용 안 함]**&#x200B;을 지웁니다.
 

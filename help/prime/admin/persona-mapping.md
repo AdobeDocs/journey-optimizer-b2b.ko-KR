@@ -2,13 +2,14 @@
 title: 사용자 매핑
 description: Journey Optimizer B2B Prime에서 담당자 매핑을 설정하는 방법을 알아봅니다. 사용자 특성을 매핑하여 사용자를 정의하고 사용자 목록 및 사용자 여정에서 파생된 사용자 필터링을 사용합니다.
 badge: label="GA" type="informative" tooltip="이 기능은 GA 시점까지 사용할 수 없습니다."
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 1%
-
 ---
-
 # 페르소나 매핑
 
 <!-- not available until GA -->

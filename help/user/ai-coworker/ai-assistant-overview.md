@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizer B2B edition의 AI 기능
+title: Journey Optimizer B2B Edition의 AI 기능
 description: AI 어시스턴트를 사용하여 워크플로 가속화 - Journey Optimizer B2B Edition 제품 지식, 문제 해결 도움말 및 운영 인사이트를 얻을 수 있습니다.
 feature: AI Assistant
 role: User, Admin
@@ -9,32 +9,40 @@ autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+    internal-label: Operational Insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7b5a3fdf94725b7cf3c7f4da8ff5d8cce115a3d7
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1385
+source-wordcount: '1385'
 ht-degree: 8%
-
 ---
+# Journey Optimizer B2B Edition의 AI 기능
 
-# Journey Optimizer B2B edition의 AI 기능
-
-Adobe Journey Optimizer B2B edition의 채팅 인터페이스는 Adobe Experience Platform의 [AI Assistant](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}와 동일한 기술 기반에서 구동됩니다. Journey Optimizer B2B edition에서 워크플로를 가속화하는 데 사용할 수 있는 대화형 경험입니다. 채팅 인터페이스를 사용하여 제품 기능을 더 잘 이해하거나 문제를 해결하거나 정보를 검색하고 Journey Optimizer B2B edition에 대한 운영 통찰력을 찾을 수 있습니다. 이 인터페이스를 사용하여 [Journey Agent](../agents/journey-agent.md) 및 [Audience Agent](../agents/audience-agent-b2b.md)을 호출할 수도 있습니다.
+Adobe Journey Optimizer B2B Edition의 채팅 인터페이스는 Adobe Experience Platform의 [AI Assistant](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}와 동일한 기술 기반에서 제공됩니다. Journey Optimizer B2B Edition에서 워크플로를 가속화하는 데 사용할 수 있는 대화형 경험입니다. 채팅 인터페이스를 사용하여 제품 기능을 더 잘 이해하거나 문제를 해결하거나 정보를 검색하고 Journey Optimizer B2B Edition에 대한 운영 통찰력을 찾을 수 있습니다. 이 인터페이스를 사용하여 [Journey Agent](../agents/journey-agent.md) 및 [Audience Agent](../agents/audience-agent-b2b.md)을 호출할 수도 있습니다.
 
 >[!IMPORTANT]
 >
->Journey Optimizer B2B edition에서 AI 도우미를 사용하려면 [사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 이 계약에는 추가 AI Assistant 기능을 사용할 수 있도록 공개 베타 계약도 포함되어 있습니다.
+>Journey Optimizer B2B Edition에서 AI 도우미를 사용하려면 [사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 이 계약에는 추가 AI Assistant 기능을 사용할 수 있도록 공개 베타 계약도 포함되어 있습니다.
 
 +++사용자 계약 인터페이스 보기
 
@@ -48,15 +56,15 @@ Adobe Journey Optimizer B2B edition의 채팅 인터페이스는 Adobe Experienc
 
 ## 영업 구분자
 
-Sales Qualifier은 Journey Optimizer B2B edition과 함께 사용할 수 있는 AI 기반 애플리케이션입니다. Account Qualification Agent을 구현하고 BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. Sales Qualifier은 채널 전반에서 잠재 고객 자격, 지원 및 구매자 참여 워크플로우를 자동화합니다. 엔터프라이즈 B2B 기업의 수동 BDR 로드를 줄이고 파이프라인 속도를 가속화합니다.
+Sales Qualifier은 Journey Optimizer B2B Edition과 함께 사용할 수 있는 AI 기반 애플리케이션입니다. Account Qualification Agent을 구현하고 BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. Sales Qualifier은 채널 전반에서 잠재 고객 자격, 지원 및 구매자 참여 워크플로우를 자동화합니다. 엔터프라이즈 B2B 기업의 수동 BDR 로드를 줄이고 파이프라인 속도를 가속화합니다.
 
 자세한 내용은 [Sales Qualifier 설명서](https://experienceleague.adobe.com/ko/docs/sales-qualifier/using/home){target="_blank"}를 참조하세요.
 
 >[!ENDSHADEBOX]
 
-## Journey Optimizer B2B edition의 AI Assistant 기능
+## Journey Optimizer B2B Edition의 AI Assistant 기능
 
-제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터인 _&#x200B;**지식 그래프**&#x200B;_&#x200B;의 내부 표현이며 주어진 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 컬렉션을 제공합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
+제출된 질문에 대한 답변을 작성하기 위해 AI Assistant는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다. 이 응답은 기본 데이터인 _**지식 그래프**_&#x200B;의 내부 표현이며 주어진 질문에 대한 개념, 데이터 및 메타데이터의 포괄적인 컬렉션을 제공합니다. 지식 그래프는 쿼리가 제출될 때마다 참조되는 하위 그래프로 구성됩니다.
 
 * Adobe Experience League 설명서.
 * 스키마, 필드, 대상 및 여정 등 운영 객체
@@ -65,7 +73,7 @@ AI Assistant 쿼리를 제출하기 전에 필요한 조회 유형을 고려하�
 
 ### 제품 지식
 
-제품 지식은 Adobe Experience League의 Journey Optimizer B2B edition 설명서에 나와 있는 개념과 주제를 나타냅니다. 제품 지식 질문은 다음 하위 그룹에 추가로 지정할 수 있습니다.
+제품 지식은 Adobe Experience League의 Journey Optimizer B2B Edition 설명서에 나와 있는 개념과 주제를 나타냅니다. 제품 지식 질문은 다음 하위 그룹에 추가로 지정할 수 있습니다.
 
 | 제품 지식 | 예 |
 | --- | --- |
@@ -86,7 +94,7 @@ _운영 인사이트_&#x200B;는 AI Assistant가 메타데이터 개체(특성, 
 | 도메인 | 지원되는 메타데이터 | 지원되지 않는 메타데이터 |
 | --- | --- | --- |
 | 속성/필드 | <li>속성 이름 검색 <li>속성 - 스키마 관계 <li>속성 - 데이터 세트 관계 <li>속성 - 대상 관계 <li>속성 - 대상 관계 | <li>Attribute 클래스 <li>감사 <li>사용 중단 상태 <li>레이블 <li>속성에 저장된 값 |
-| 계정 대상 <br><br>**_Note:_** Journey Optimizer B2B edition 컨텍스트에서 AI Assistant는 계정 대상에 대한 대상 질문에만 답할 수 있습니다. Experience Platform 컨텍스트에서 AI Assistant는 개인 대상에 대해서만 질문에 답변할 수 있습니다. | <li>대상자 수 <li>대상자 유형(스트리밍 또는 일괄 처리) <li>생성/수정 날짜 <li>활성화 상태 <li>구성원 수 <li>중복 대상자 <li>이름 및 ID 검색 | <li>대상자 오버랩 <li>대상자 활성화 <li>감사 <li>만들기/수정 <li>레이블 <li>멤버 자격 트렌드 |
+| 계정 대상 <br><br>**_Note:_** Journey Optimizer B2B Edition 컨텍스트에서 AI Assistant는 계정 대상에 대한 대상 질문에만 답할 수 있습니다. Experience Platform 컨텍스트에서 AI Assistant는 개인 대상에 대해서만 질문에 답변할 수 있습니다. | <li>대상자 수 <li>대상자 유형(스트리밍 또는 일괄 처리) <li>생성/수정 날짜 <li>활성화 상태 <li>구성원 수 <li>중복 대상자 <li>이름 및 ID 검색 | <li>대상자 오버랩 <li>대상자 활성화 <li>감사 <li>만들기/수정 <li>레이블 <li>멤버 자격 트렌드 |
 | 데이터 흐름 | <li>데이터 흐름 카운트 <li>데이터 흐름 상태 <li>데이터 흐름 - 데이터 세트 관계 <li>데이터 흐름 - 소스 관계 | <li>생성/수정 <li>데이터 흐름 일괄 처리 관계 <li>프로필 개수 수집 |
 | 데이터 세트 | <li>데이터 세트 수 <li>프로필 활성화 상태 <li>생성/수정 날짜 <li>데이터 세트 - 스키마 관계 <li>데이터 세트 - 대상 관계 <li>데이터 세트 - 속성 관계 <li>데이터 세트 - 데이터 흐름 관계 <li>이름 검색 <li>이름 및 ID 검색 | <li>감사 <li>제작자 <li>데이터 세트 - 일괄 처리 관계 <li>데이터 세트 생성/수정 <li>데이터 세트 크기 <li>프로필 수 <li>행 수 <li>값 검색 |
 | 대상 | <li>구성된 대상 카운트 <li>대상 - 대상 관계 <li>대상 속성 관계 | <li>계정 설정 <li>계정 자격 증명 정보 <li>고유 프로필 활성화됨 |
@@ -104,13 +112,13 @@ _운영 인사이트_&#x200B;는 AI Assistant가 메타데이터 개체(특성, 
 
 현재 AI Assistant의 범위는 다음과 같습니다.
 
-* **제품 지식**: AI Assistant는 Real-Time Customer Data Platform 및 Adobe Journey Optimizer B2B edition에 대한 제품 지식 질문에 답변할 수 있습니다.
+* **제품 지식**: AI Assistant는 Real-Time Customer Data Platform 및 Adobe Journey Optimizer B2B Edition에 대한 제품 지식 질문에 답변할 수 있습니다.
 
 * **운영 인사이트**: 특성, 계정 대상, 데이터 흐름, 데이터 세트, 대상, 계정 여정, 스키마, 소스, 구매 그룹 템플릿 및 솔루션 관심 사항과 같은 데이터 개체에 대한 운영 인사이트에 대해 AI Assistant에 질문할 수 있습니다.
 
 ### 개인 정보, 보안 및 거버넌스
 
-Journey Optimizer B2B edition의 AI Assistant는 개인 정보, 보안 및 거버넌스를 우선시합니다. 다음 정보를 검토하여 AI Assistant에서 기대할 수 있는 고객 신뢰 중심 기능에 대해 알아보십시오.
+Journey Optimizer B2B Edition의 AI Assistant는 개인 정보, 보안 및 거버넌스에 우선 순위를 둡니다. 다음 정보를 검토하여 AI Assistant에서 기대할 수 있는 고객 신뢰 중심 기능에 대해 알아보십시오.
 
 * AI Assistant는 교육 목적으로도 현재 개인 데이터를 사용하지 않습니다.
 
@@ -118,7 +126,7 @@ Journey Optimizer B2B edition의 AI Assistant는 개인 정보, 보안 및 거�
 
 * AI Assistant와 상호 작용하려면 명시적인 권한이 있어야 합니다.
 
-  * 관리자는 [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} 및 [Admin Console](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/browse){target="_blank"}을 사용하여 권한을 설정할 수 있습니다.
+  * 관리자는 [권한 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} 및 [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}을 사용하여 권한을 설정할 수 있습니다.
 
   * 권한은 세분화되며 샌드박스 관리자는 다양한 질문 카테고리(AI Assistant를 통한 제품 지식 기반 질문 또는 운영 통찰력에 대한 질문)를 물을 수 있는 사용자를 구성할 수 있습니다.
 
@@ -130,7 +138,7 @@ Journey Optimizer B2B edition의 AI Assistant는 개인 정보, 보안 및 거�
 
 ### 자주 묻는 질문
 
-다음은 Journey Optimizer B2B edition의 AI Assistant에 대한 FAQ 답변 목록입니다.
+다음은 Journey Optimizer B2B Edition의 AI Assistant에 대한 FAQ 답변 목록입니다.
 
 **AI Assistant의 정보가 실시간으로 제공됩니까?**
 

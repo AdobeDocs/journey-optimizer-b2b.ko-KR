@@ -1,28 +1,35 @@
 ---
 title: 이메일 템플릿 디자인을 위한 고급 HTML 모드
-description: 고급 HTML 모드를 사용하여 Journey Optimizer B2B edition의 이메일 디자인 공간에서 이메일 템플릿 컨텐츠의 원시 HTML 소스를 직접 보고 편집할 수 있습니다.
+description: 고급 HTML 모드를 사용하여 Journey Optimizer B2B Edition의 이메일 디자인 공간에서 이메일 템플릿 컨텐츠의 원시 HTML 소스를 직접 보고 편집할 수 있습니다.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+    internal-label: Experienced
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 0%
-
 ---
-
 # 이메일 템플릿 디자인을 위한 고급 HTML 모드
 
 _고급 HTML 모드_&#x200B;에서는 숙련된 사용자가 전자 메일 템플릿 콘텐츠의 원시 소스 코드를 직접 보고 편집할 수 있는 보기를 제공합니다. 이 모드는 조건부 논리와 같은 복잡한 표현식을 소스에 직접 삽입하려는 경우에 이상적입니다. 또한 시각적 디자인 도구가 노출하는 것을 초과하는 구조적 조정을 수행하는 데에도 유용합니다.

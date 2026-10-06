@@ -1,30 +1,37 @@
 ---
 title: 지능형 대시보드
-description: Journey Optimizer B2B edition에서 참여 지표, 의도 감지 및 예측 분석을 사용하여 그룹 및 계정을 구입하기 위한 AI 기반 인사이트에 액세스합니다.
+description: Journey Optimizer B2B Edition에서 참여 지표, 의도 감지 및 예측 분석을 사용하여 그룹 및 계정을 구매하기 위한 AI 기반 인사이트에 액세스합니다.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+autotag-review: 2026-03-30T22:43:58.948Z
+TQID: 'https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T22:43:58.948Z
-TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1682
+source-wordcount: '1682'
 ht-degree: 16%
-
 ---
-
 # 지능형 대시보드
 
 지능형 대시보드는 [구매 그룹](../buying-groups/buying-groups-overview.md) 및 계정 지표에 대한 포괄적인 보기를 제공하여 마케팅 노력을 보다 효과적으로 모니터링하고 전략화하는 데 도움이 됩니다.
@@ -40,7 +47,7 @@ _지능형 대시보드_&#x200B;에 액세스하려면 왼쪽 탐색에서 **[!U
 
 {{intent-data-note}}
 
-지능형 대시보드에서 제공하는 정보와 통찰력을 활용하려면 Journey Optimizer B2B edition 인스턴스에 필수 항목이 있어야 합니다.
+지능형 대시보드에서 제공하는 정보와 통찰력을 활용하려면 Journey Optimizer B2B Edition 인스턴스에 필수 항목이 있어야 합니다.
 
 | 유형 | 요구 사항 |
 | ---- | ----------- |
@@ -167,7 +174,7 @@ _[!UICONTROL 급증하는 계정]_ 섹션에는 선택한 기간 내에 참여 �
 
 >[!NOTE]
 >
->계정 급증 데이터에는 Journey Optimizer B2B edition이 계정 여정 또는 구매 그룹을 통해 수집하는 계정만 포함됩니다.
+>계정 급증 데이터에는 Journey Optimizer B2B Edition이 계정 여정 또는 구매 그룹을 통해 수집하는 계정만 포함됩니다.
 
 ![계정 서지 데이터 시각화](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -211,7 +218,7 @@ _[!UICONTROL 계정 하이라이트]_ 섹션은 두 행으로 구성되어 조�
 
 >[!NOTE]
 >
->계정 강조 표시 데이터에는 Journey Optimizer B2B edition이 계정 여정 또는 구매 그룹을 통해 수집하는 계정만 포함됩니다.
+>계정 강조 표시 데이터에는 Journey Optimizer B2B Edition이 계정 여정 또는 구매 그룹을 통해 수집하는 계정만 포함됩니다.
 
 ![계정 하이라이트](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -255,13 +262,13 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_coverage"
 >title="연락처 범위"
->abstract="솔루션 관심 분야와 연관된 특정 역할이 있는 연락처 수를 표시합니다. 역할 및 솔루션 관심 분야 할당은 구매 그룹 템플릿을 바탕으로 합니다."
+>abstract="솔루션 관심도와 연관된 특정 역할이 있는 연락처 수를 표시합니다. 역할 및 솔루션 관심 분야 할당은 구매 그룹 템플릿을 바탕으로 합니다."
 
 _[!UICONTROL 연락처 범위]_ 섹션에는 솔루션 관심 분야와 관련된 특정 역할을 가진 연락처 수의 시각화가 표시됩니다. 역할 및 솔루션 관심 분야 할당은 구매 그룹 템플릿을 바탕으로 합니다.
 
 >[!NOTE]
 >
->연락처 범위 데이터는 Journey Optimizer B2B edition 인스턴스에서 생성된 구매 그룹을 기반으로 합니다.
+>연락처 범위 데이터는 Journey Optimizer B2B Edition 인스턴스에서 생성되는 구매 그룹을 기반으로 합니다.
 
 ![계정 서지 데이터 시각화](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -293,7 +300,7 @@ _[!UICONTROL 연락처 겹치기]_ 섹션에는 여러 솔루션 관심 분야�
 
 >[!NOTE]
 >
->연락처 중복 데이터는 Journey Optimizer B2B edition 인스턴스에서 생성되는 구매 그룹을 기반으로 합니다.
+>연락처 중복 데이터는 Journey Optimizer B2B Edition 인스턴스에서 생성되는 구매 그룹을 기반으로 합니다.
 
 ![연락처 중복 표](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

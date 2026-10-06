@@ -1,35 +1,46 @@
 ---
 title: 액세스 가능한 콘텐츠 디자인
-description: Journey Optimizer B2B edition에서 이메일 및 랜딩 페이지에 대한 액세스 가능한 콘텐츠를 디자인하는 방법을 알아봅니다
+description: Journey Optimizer B2B Edition에서 이메일 및 랜딩 페이지에 대한 액세스 가능한 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 1%
-
 ---
-
 # 액세스 가능한 콘텐츠 디자인 {#accessible-content}
 
 [유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}은(는) 회원국 간에 국가 규칙이 서로 달라 발생하는 장벽을 제거하여 액세스 가능한 제품 및 서비스의 내부 시장을 개선하기 위해 고안된 지침입니다.
@@ -40,7 +51,6 @@ ht-degree: 1%
 
 다음 단원에서는 [!DNL Journey Optimizer B2B Edition]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례에 대해 간략히 설명합니다. 이 정보는 장애가 있는 사람이 이메일 메시지 및 랜딩 페이지를 읽고, 이해하고, 상호 작용할 수 있도록 모든 수신자가 액세스할 수 있는 콘텐츠를 디자인하는 데 중점을 둡니다.
  
-
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. 텍스트 구성 요소 스타일에 대한 자세한 내용은 [_콘텐츠 구성 요소_](content-components.md#text)&#x200B;를 참조하십시오.
@@ -62,8 +72,8 @@ ht-degree: 1%
 
 ### 색상 대비
 
-* 텍스트와 배경 사이의 대비 비율을 최소 4.5:1 유지합니다.
-* 큰 텍스트(≥24px 또는 굵은 18px)의 경우, 최소 3:1 대비를 확인합니다.
+* 텍스트와 배경 사이의 대비 비율을 최소 4.5:1로 유지합니다.
+* 큰 텍스트(≥24px 또는 굵은 18px)의 경우, 최소 3:1 대비를 보장합니다.
 * 흰색 배경에 밝은 회색이나 파스텔 텍스트를 사용하지 마십시오.
 * 의미를 전달하기 위해 색상에만 의존하지 말고, 밑줄, 아이콘 등을 사용하십시오.
 
@@ -304,27 +314,27 @@ HTML 컨텐츠에서 테이블은 종종 레이아웃에 사용됩니다. 기본
 랜딩 페이지의 경우, 키보드 탐색 및 포커스 지원을 제공하면 마우스를 사용할 수 없는 사용자가 콘텐츠에 액세스하고 상호 작용할 수 있습니다. 또한 모든 사용자가 정보를 통해 명확하고 일관되게 이동할 수 있는 방법을 제공하여 전반적인 유용성을 향상시킵니다.
 
 * 키보드 탐색 및 포커스
-   * 모든 대화형 요소(예: 단추, 확인란, 링크)에 `tabindex="0"`이(가) 있으므로 기본 탭 순서에 포함되어야 합니다.
-   * 탭과 화살표 키(↑ ↓ ← →)를 사용하여 탐색할 수 있습니다. 이 키는 포커스가 있는 요소를 시각적으로 강조 표시합니다.
+  * 모든 대화형 요소(예: 단추, 확인란, 링크)에 `tabindex="0"`이(가) 있으므로 기본 탭 순서에 포함되어야 합니다.
+  * 탭과 화살표 키(↑ ↓ ← →)를 사용하여 탐색할 수 있습니다. 이 키는 포커스가 있는 요소를 시각적으로 강조 표시합니다.
 * 사용자 지정 포커스 스타일
-   * 실행 가능한 요소에 초점을 맞추기 위해 명확하고 구별 가능한 스타일을 적용합니다.
-     +++예(CSS)
+  * 실행 가능한 요소에 초점을 맞추기 위해 명확하고 구별 가능한 스타일을 적용합니다.
+    +++예(CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * 포커스 표시기가 다음을 포함한 WCAG 2.2 포커스 표시 표준을 충족하는지 확인합니다.
-      * 최소 영역: 2개의 CSS 픽셀 두께 윤곽선입니다.
-      * 대비 비율: ≥ 상태와 비초점 상태 간에 3:1을(를) 사용합니다.
+  * 포커스 표시기가 다음을 포함한 WCAG 2.2 포커스 표시 표준을 충족하는지 확인합니다.
+    * 최소 영역: 2개의 CSS 픽셀 두께 윤곽선입니다.
+    * 명암비: ≥ 상태와 비초점 상태 간에 3:1로 조정됩니다.
 
 * 키보드 활성화 지원
-   * 확인란과 단추가 Enter 키와 Space 키에 응답하는지 확인합니다.
-   * 키보드만 사용하여 상호 작용의 유효성을 검사합니다.
-      * Enter 키 또는 스페이스를 사용하여 확인란을 전환할 수 있습니다.
-      * Enter 키 또는 스페이스가 단추를 트리거해야 합니다.
+  * 확인란과 단추가 Enter 키와 Space 키에 응답하는지 확인합니다.
+  * 키보드만 사용하여 상호 작용의 유효성을 검사합니다.
+    * Enter 키 또는 스페이스를 사용하여 확인란을 전환할 수 있습니다.
+    * Enter 키 또는 스페이스가 단추를 트리거해야 합니다.

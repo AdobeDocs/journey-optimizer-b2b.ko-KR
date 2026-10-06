@@ -1,6 +1,6 @@
 ---
 title: 양식 디자인
-description: Journey Optimizer B2B edition의 비즈니스 데이터 수집을 위한 필드 유형, 유효성 검사, 스타일 지정 및 XDM 스키마 속성이 있는 디자인 양식입니다.
+description: Journey Optimizer B2B Edition의 비즈니스 데이터 수집을 위한 필드 유형, 유효성 검사, 스타일 지정 및 XDM 스키마 속성이 있는 디자인 양식입니다.
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,32 +8,42 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 1%
-
 ---
-
 # 양식 디자인
 
 [양식을 만들기](./forms.md#create-forms)한 후 비주얼 디자인 공간에서 기본 기본 기본 양식 정의가 있는 초안이 열립니다. 오른쪽의 _[!UICONTROL 요약]_ 패널에서 **[!UICONTROL 양식 편집]**&#x200B;을 클릭하고 시각적 디자인 공간을 사용하여 양식 스타일 및 필드 구성 요소를 정의합니다.
 
 ![양식 디자인 공간](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-_&#x200B;**제출**&#x200B;_ 단추(바닥글 필드)는 기본적으로 양식의 일부이므로 제거할 수 없습니다. 양식에서 단추/바닥글 구성 요소를 선택하여 [단추의 텍스트와 스타일을 변경](#submit-button)할 수 있습니다.
+_**제출**_ 단추(바닥글 필드)는 기본적으로 양식의 일부이므로 제거할 수 없습니다. 양식에서 단추/바닥글 구성 요소를 선택하여 [단추의 텍스트와 스타일을 변경](#submit-button)할 수 있습니다.
 
 ## 필드
 
@@ -75,7 +85,7 @@ _&#x200B;**제출**&#x200B;_ 단추(바닥글 필드)는 기본적으로 양식�
    | ---------- | ----- |
    | **[!UICONTROL 확인란]** | 방문자가 _true_(선택됨) 또는 _false_(선택되지 않음) 값을 선택할 수 있도록 이 형식을 사용하십시오. |
    | **[!UICONTROL 확인란 그룹]** | 방문자가 여러 항목에 대해 _true_(선택됨) 또는 _false_(선택되지 않음) 값을 선택할 수 있도록 이 형식을 사용하십시오. |
-   | **[!UICONTROL 통화]** | 이 유형을 사용하여 Journey Optimizer B2B edition 인스턴스에 대해 선택한 기본 통화 유형을 나타내는 부동 소수점 필드를 허용할 수 있습니다. |
+   | **[!UICONTROL 통화]** | 이 유형을 사용하여 Journey Optimizer B2B Edition 인스턴스에 대해 선택한 기본 통화 유형을 나타내는 부동 소수점 필드를 허용할 수 있습니다. |
    | **[!UICONTROL 날짜]** | 이 유형을 사용하여 날짜 형식으로 입력을 제한하고 필드에 달력 선택기를 제공합니다. |
    | **[!UICONTROL 이중]** | IEEE 64비트(8바이트) 부동 소수점 숫자로 저장된 2배(배정밀도 부동 소수점) 변수입니다. |
    | **[!UICONTROL 이메일]** | 이메일 주소 형식으로 입력을 제한하려면 이 유형을 사용하십시오. |

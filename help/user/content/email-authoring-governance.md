@@ -1,27 +1,32 @@
 ---
 title: 관리 템플릿에서 작성자
-description: 잠긴 콘텐츠로 관리 템플릿에서 이메일을 작성합니다. 편집 가능한 영역을 식별하고 Journey Optimizer B2B edition의 거버넌스 제한 내에서 작업합니다.
+description: 잠긴 콘텐츠로 관리 템플릿에서 이메일을 작성합니다. 편집 가능한 영역을 식별하고 Journey Optimizer B2B Edition의 거버넌스 제한 내에서 작업합니다.
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
+autotag-review: 2026-03-30T22:35:16.900Z
+TQID: 'https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:35:16.900Z
-TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: '273'
 ht-degree: 1%
-
 ---
-
 # 관리 템플릿에서 작성자
 
 콘텐츠 디자이너는 전자 메일 템플릿을 만들 때 [거버넌스(_콘텐츠 잠금_)](./template-content-governance.md)을(를) 사용하도록 설정할 수 있습니다. 거버넌스 기능을 사용하면 계정 여정에서 사용할 때 변경할 수 없는 디자인 부분을 지정할 수 있습니다. 전자 메일을 작성하기 위해 [저장된 템플릿을 선택](./email-authoring.md#select-a-template)하면 전자 메일의 기반으로 사용할 수 있도록 시각적 디자인 공간에 템플릿이 로드됩니다.

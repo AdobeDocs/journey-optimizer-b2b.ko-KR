@@ -1,6 +1,6 @@
 ---
 title: 이메일 Personalization에 대한 사용자 지정 토큰
-description: 다이내믹 이메일 개인화를 위한 사용자 지정 내 토큰을 만들고 관리하기 - Journey Optimizer B2B edition에서 계정 여정에 대한 텍스트 및 숫자 변수를 정의합니다.
+description: 다이내믹 이메일 개인화를 위한 사용자 지정 내 토큰을 만들고 관리하기 - Journey Optimizer B2B Edition에서 계정 여정에 대한 텍스트 및 숫자 변수를 정의합니다.
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '606'
 ht-degree: 2%
-
 ---
-
 # 이메일 개인화를 위한 사용자 지정 토큰
 
 콘텐츠 개인화는 토큰을 콘텐츠 아티팩트가 생성될 때 채워지는 자리 표시자 또는 변수로 사용합니다. 표준 개인화 토큰은 이메일, 랜딩 페이지, 조각 및 템플릿에 사용할 수 있습니다. 계정 여정에 고유한 값을 사용하여 사용자 지정 토큰 세트를 정의할 수도 있습니다. 이 사용자 지정 토큰 집합을 _내 토큰_&#x200B;이라고 하며 이러한 사용자 지정 토큰은 [여정 전자 메일을 작성](./email-authoring.md#personalize-content)할 때 개인화에 사용할 수 있습니다.

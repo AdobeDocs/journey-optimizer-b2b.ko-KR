@@ -1,28 +1,34 @@
 ---
 title: 자산
-description: 이메일, 템플릿 및 조각에 대한 Journey Optimizer B2B edition 및 AEM Assets의 이미지 에셋을 관리합니다.
+description: 이메일, 템플릿 및 조각에 대한 Journey Optimizer B2B Edition 및 AEM Assets의 이미지 에셋을 관리합니다.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
+autotag-review: 2026-03-30T22:17:01.501Z
+TQID: 'https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:17:01.501Z
-TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: '848'
 ht-degree: 62%
-
 ---
-
 # 자산
 
 [!DNL Adobe Journey Optimizer B2B Edition]에서 자산은 일반적으로 계정 여정을 지원하는 콘텐츠를 디자인할 때 사용되는 이미지입니다. 이메일, 이메일 템플릿 및 자산 선택기의 조각 또는 시각적 디자인 공간 내의 간단한 드래그 앤 드롭 인터페이스에서 이러한 이미지를 사용할 수 있습니다.
@@ -79,7 +85,7 @@ ht-degree: 62%
 
 >[!TAB 자산 선택]
 
-**[!UICONTROL 에셋 선택]**&#x200B;을 클릭하여 에셋 선택기를 엽니다. 이 선택기에서 Journey Optimizer B2B edition 에셋 저장소에서 이미지를 선택할 수 있습니다.
+**[!UICONTROL 에셋 선택]**&#x200B;을 클릭하여 에셋 선택기를 엽니다. 이 선택기에서 Journey Optimizer B2B Edition 에셋 저장소에서 이미지를 선택할 수 있습니다.
 
 ![이미지 자산 선택](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 

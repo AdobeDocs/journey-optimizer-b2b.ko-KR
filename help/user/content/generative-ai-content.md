@@ -25,6 +25,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
@@ -34,7 +36,7 @@ topic_v2:
     internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2430'
 ht-degree: 7%
@@ -243,7 +245,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 **피해야 할 예:**
 
-![빨간색 교차 &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;새 앱 발표&quot;(값 제안 및 컨텍스트 누락)
+![빨간색 교차 ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;새 앱 발표&quot;(값 제안 및 컨텍스트 누락)
 
 ![적십자 외부](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;워크샵에 등록하도록 사용자 지정&quot;(대상 및 혜택에 대한 구체성이 결여)
 

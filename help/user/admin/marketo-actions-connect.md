@@ -1,34 +1,42 @@
 ---
 title: Marketo Engage을 활성화하여 여정 작업 지원
-description: Marketo Engage 연결을 활성화하여 여정 작업을 지원하면 마케터가 Marketo Engage과 Journey Optimizer B2B edition 간의 캠페인을 조정할 수 있습니다.
+description: Marketo Engage 연결을 활성화하여 여정 액션을 지원하면 마케터가 Marketo Engage와 Journey Optimizer B2B Edition 간의 캠페인을 조정할 수 있습니다.
 feature: Setup, Integrations
 role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
+autotag-review: 2026-03-27T22:48:47.183Z
+TQID: 'https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:48:47.183Z
-TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: '540'
 ht-degree: 71%
-
 ---
-
 # Marketo Engage 연결을 활성화하여 작업 지원
 
 Marketo Engage 작업은 Journey Optimizer B2B edition과 Marketo Engage의 _리드 기반_ 마케팅 활동 간에 _계정 기반_ 마케팅 오케스트레이션을 조정할 수 있는 _사람 기반_ 작업입니다. 이러한 작업을 사용하여 정적 목록 멤버십을 조정하고 사람을 캠페인에 배치합니다.
 
-Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 필요한 자격 증명을 제공하는 [사용자 지정 서비스](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}를 Marketo Engage에 만듭니다. 그런 다음 Journey Optimizer B2B edition의 제품 관리자는 자격 증명을 사용하여 Marketo Engage에 대한 연결을 만듭니다. 그런 다음 Journey Optimizer B2B edition 사용자는 연결을 참조하여 Marketo Engage 작업을 직접 구성할 수 있으며 계정 여정은 다음과 같습니다.
+Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 필요한 자격 증명을 제공하는 [사용자 지정 서비스](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}를 Marketo Engage에 만듭니다. 그런 다음 Journey Optimizer B2B Edition의 제품 관리자는 자격 증명을 사용하여 Marketo Engage에 대한 연결을 만듭니다. 그런 다음 Journey Optimizer B2B Edition 사용자는 연결을 참조하여 Marketo Engage 작업을 직접 구성할 수 있으며 계정 여정은 다음과 같습니다.
 
 * [!UICONTROL Marketo 목록에 추가]
 * [!UICONTROL Marketo 목록에서 제거]
@@ -45,14 +53,14 @@ Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 �
 
 ### Marketo Engage 사용자 정의 서비스 만들기
 
-1. Marketo Engage에 관리자로 로그인하고 [사용자 지정 서비스를 만듭니다](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
-1. Journey Optimizer B2B edition 연결에 사용할 다음 값을 복사합니다.
+1. Marketo Engage에 관리자로 로그인하고 [사용자 지정 서비스를 만듭니다](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Journey Optimizer B2B Edition 연결에 사용할 다음 값을 복사합니다.
 
    * Munchkin ID
    * 클라이언트 ID
    * 클라이언트 암호
 
-사용자 지정 서비스에서 할당된 [역할 권한](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}은(는) 목록 및 캠페인과 같은 에셋에 대한 Marketo Engage 작업 영역 가시성을 제어합니다. 마케터는 여정 내에서 동일한 연결을 여러 번 사용하고 동일한 여정 내에서 다른 Marketo Engage 연결을 사용할 수 있습니다.
+사용자 지정 서비스에서 할당된 [역할 권한](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}은(는) 목록 및 캠페인과 같은 에셋에 대한 Marketo Engage 작업 영역 가시성을 제어합니다. 마케터는 여정 내에서 동일한 연결을 여러 번 사용하고 동일한 여정 내에서 다른 Marketo Engage 연결을 사용할 수 있습니다.
 
 ### 통합 추가
 
@@ -72,7 +80,7 @@ Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 �
 
    >[!NOTE]
    >
-   >개인/잠재 고객은 오류가 발생한 경우를 제외하고 일치 항목에 관계없이 여정을 통해 진행됩니다. 일치하는 레코드가 없는 경우 여정 작업에서 Marketo Engage에 새 개인 레코드를 만들지 않습니다.
+   >개인/리드는 오류가 발생한 경우를 제외하고 일치 항목에 관계없이 여정을 통해 진행됩니다. 일치하는 레코드가 없는 경우 여정 액션은 Marketo Engage에 새 개인 레코드를 만들지 않습니다.
 
 1. 외부 Marketo Engage 인스턴스에서 만든 서비스에 대한 Munchkin ID, 클라이언트 ID 및 클라이언트 암호를 입력합니다.
 1. **[!UICONTROL Marketo에 연결]**&#x200B;을 클릭합니다.
@@ -86,6 +94,6 @@ Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 �
 >
 >여정에서 실행된 Marketo Engage 작업은 연결된 Marketo Engage 인스턴스에 대한 REST API 제한에 적용되지 않습니다.
 
-완료된 통합을 통해 노드 속성의 :_&#x200B;**에 대한**&#x200B;_Actions에서 Marketo Engage 작업을 사용할 수 있습니다.
+완료된 통합을 통해 노드 속성의 :_**에 대한**_Actions에서 Marketo Engage 작업을 사용할 수 있습니다.
 
 ![Marketo 작업 목록](assets/marketo-actions-list.png){width="800" zoomable="yes"}

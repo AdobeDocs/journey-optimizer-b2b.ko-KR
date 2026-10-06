@@ -7,22 +7,31 @@ autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 3%
-
+source-wordcount: '542'
+ht-degree: 4%
 ---
-
 # Forms 구성
 
 마케터가 랜딩 페이지에서 사용할 양식을 [만들고 게시](../content/forms.md)하려면 제품 관리자가 하나 이상의 전용 사전 설정을 만들어야 합니다. 각 사전 설정은 양식 제출 데이터를 전송하는 데 사용되는 연결 끝점과 캡처된 데이터를 저장하는 데 사용되는 데이터 세트를 정의합니다.
@@ -33,14 +42,14 @@ ht-degree: 3%
 
 ## 필요 조건
 
-웹 양식을 사용하려면 Adobe Experience Platform에 하나 이상의 _&#x200B;**HTTP API 스트리밍 연결**&#x200B;_&#x200B;이 정의되어 있어야 합니다. 사용하려는 각 연결이 다음 요구 사항을 충족하는지 확인하십시오.
+웹 양식을 사용하려면 Adobe Experience Platform에 하나 이상의 _**HTTP API 스트리밍 연결**_&#x200B;이 정의되어 있어야 합니다. 사용하려는 각 연결이 다음 요구 사항을 충족하는지 확인하십시오.
 
 * 데이터 유형은 원시 데이터가 아닌 XDM으로 설정되어야 합니다.
 * 인증을 사용하지 않도록 설정해야 합니다(인증되지 않은 연결).
 
 스트리밍 소스 연결 만들기에 대한 자세한 내용은 [_Experience Platform 설명서_](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http)를 참조하세요.
 
-Journey Optimizer B2B edition의 Forms 채널을 구성하려면 다음 [권한](../admin/user-management.md#b2b-product-permissions)이 필요합니다.
+Journey Optimizer B2B Edition에서 Forms 채널을 구성하려면 다음 [권한](../admin/user-management.md#b2b-product-permissions)이 필요합니다.
 
 * _[!UICONTROL B2B 채널 구성]_ > _[!UICONTROL Forms 사전 설정 보기]_ - 양식 사전 설정 구성을 보는 데 필요합니다.
 * _[!UICONTROL B2B 채널 구성]_ > _[!UICONTROL Forms 사전 설정 관리]_ - 양식 사전 설정 구성을 만들고, 업데이트하고, 삭제하는 데 필요합니다.
@@ -58,9 +67,9 @@ Journey Optimizer B2B edition의 Forms 채널을 구성하려면 다음 [권한]
 
 * 각 스트리밍 연결은 다음과 같은 리소스를 자동으로 생성합니다.
 
-   * _Source 연결_ - 데이터가 생성되는 위치입니다.
-   * _대상 연결_ - 데이터가 저장되거나 사용되는 위치입니다.
-   * _Source 흐름_ - 소스 연결에서 Experience Platform으로 데이터를 이동하는 파이프라인입니다. 매핑, 변환 및 유효성 검사를 처리합니다.
+  * _Source 연결_ - 데이터가 생성되는 위치입니다.
+  * _대상 연결_ - 데이터가 저장되거나 사용되는 위치입니다.
+  * _Source 흐름_ - 소스 연결에서 Experience Platform으로 데이터를 이동하는 파이프라인입니다. 매핑, 변환 및 유효성 검사를 처리합니다.
 
 ## 양식 사전 설정 만들기
 

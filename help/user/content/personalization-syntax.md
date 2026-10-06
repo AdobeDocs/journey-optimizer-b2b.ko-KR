@@ -1,6 +1,6 @@
 ---
 title: 개인화 구문
-description: 표현식, 도우미, 리터럴 유형 및 형식 규칙을 포함한 Journey Optimizer B2B edition의 Handlebars 기반 개인화 구문에 대해 알아봅니다.
+description: 표현식, 도우미, 리터럴 유형 및 형식 규칙을 포함한 Journey Optimizer B2B Edition의 Handlebars 기반 개인화 구문에 대해 알아봅니다.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,24 +11,31 @@ autotag-review: '2026-05-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 3%
-
 ---
-
 # 개인화 구문 {#personalization-syntax}
 
 [!DNL Journey Optimizer B2B Edition] [개인화 편집기](./personalization.md#personalization-editor)의 식은 _Handlebars_ 템플릿 구문을 기반으로 합니다. 템플릿과 입력 개체를 사용하여 HTML 또는 기타 텍스트 형식을 생성합니다. Handlebars 템플릿은 포함된 Handlebars 표현식이 있는 일반 텍스트처럼 보입니다.
@@ -50,7 +57,7 @@ Handlebars 및 작동 방식에 대한 자세한 내용은 [HandlebarsJS 설명�
 
   >[!NOTE]
   >
-  >특성 구조가 [Adobe Experience Platform XDM 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에 정의되어 있습니다.
+  >특성 구조가 [Adobe Experience Platform XDM 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에 정의되어 있습니다.
 
 * 식별자는 다음을 제외한 모든 유니코드 문자일 수 있습니다.
 

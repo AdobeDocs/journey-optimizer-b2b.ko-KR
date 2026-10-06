@@ -10,24 +10,33 @@ autotag-review: '2026-05-27T16:14:57.623Z'
 TQID: 'https://experienceleague.adobe.com/LCYTDtFTLBqRjafMWrRZI6TWfJFxRDhxWGdgBBTHYDk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 subfeature_v2:
   - id: a509712a-4df0-4095-9c79-78116d8e3311
+    internal-label: Brand Themes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Artificial intelligence
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 0%
-
 ---
-
 # 브랜드 정렬을 위한 생성 AI 모델
 
 내장된 모델, 맞춤형 Firefly 모델 및 서드파티 이미지 생성 공급자를 통해 AI 이미지 생성 기능을 확장하여 특정 요구 사항을 충족하고 브랜드 정렬을 개선합니다.
@@ -36,11 +45,11 @@ ht-degree: 0%
 - Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다.
 - **[!UICONTROL 사용자 지정 모델]**&#x200B;은(는) 자신의 자산에 대해 교육되고 조직에서 추가한 브랜드별 모델입니다.
 
-[Adobe Firefly 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}에서 사용자 지정 모델에 대해 알아보세요.
+[Adobe Firefly 설명서](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}에서 사용자 지정 모델에 대해 알아보세요.
 
 마케터는 이메일 또는 랜딩 페이지 콘텐츠에 대한 이미지를 생성할 때 활성화된 생성 모델을 선택할 수 있습니다.
 
-## 생성 모델 관리
+## 생성형 모델 관리
 
 중앙 위치에서 사용 가능한 모든 모델을 보고, 필터링 및 검색을 통해 특정 모델을 찾고, 브랜드에 대한 모델 설정을 구성할 수 있습니다.
 
@@ -86,7 +95,7 @@ _필터_ ![필터 아이콘](../../assets/do-not-localize/icon-react-filter.svg)
 
 1. **[!UICONTROL 모델 ID]**&#x200B;을(를) 입력하십시오.
 
-   모델 ID를 찾으려면 Firefly 웹 사이트에 액세스하여 훈련된 모델로 이동합니다. 고유 식별자는 모델이 게시된 후 모델의 관리 섹션에서 사용할 수 있습니다. 자세한 내용은 [Firefly 사용자 지정 모델 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}를 참조하세요.
+   모델 ID를 찾으려면 Firefly 웹 사이트에 액세스하여 훈련된 모델로 이동합니다. 고유 식별자는 모델이 게시된 후 모델의 관리 섹션에서 사용할 수 있습니다. 자세한 내용은 [Firefly 사용자 지정 모델 설명서](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}를 참조하세요.
 
 1. 필요한 경우 모델 및 해당 용도를 식별하는 데 도움이 되도록 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 

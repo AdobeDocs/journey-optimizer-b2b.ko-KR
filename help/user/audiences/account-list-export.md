@@ -1,29 +1,33 @@
 ---
 title: 계정 내보내기
-description: Journey Optimizer B2B Edition에서 구매 그룹 및 참여 점수 필터를 통해 필터링된 계정 목록을 CSV로 내보내 서드파티 플랫폼에서 사용해 보십시오.
+description: Journey Optimizer B2B Edition에서 구매 그룹 및 참여 점수 필터를 사용하여 필터링된 계정 목록을 제3자 플랫폼용 CSV로 내보냅니다.
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
+autotag-review: 2026-03-30T19:51:33.392Z
+TQID: 'https://experienceleague.adobe.com/fvkVLjO9oIF7hOuoqdSS-jU4wAvsrPnKp1fIabH-Ewk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: 2026-03-30T19:51:33.392Z
-TQID: https://experienceleague.adobe.com/fvkVLjO9oIF7hOuoqdSS-jU4wAvsrPnKp1fIabH-Ewk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 261
+source-wordcount: '261'
 ht-degree: 100%
-
 ---
-
 # 계정 내보내기
 
-_계정 내보내기_ 기능을 사용하면 정의한 필터링에 따라 모든 계정이나 계정 세트를 내보낼 수 있습니다. 내보내기 프로세스에서는 CSV 파일이 생성되며 저장된 파일의 URL이 펄스 알림으로 전송됩니다. 필요한 경우 이 기능을 사용하여 계정을 서드파티 플랫폼으로 이동할 수 있습니다.
+_계정 내보내기_ 기능을 사용하면 정의한 필터링에 따라 모든 계정이나 계정 세트를 내보낼 수 있습니다. 내보내기 프로세스에서는 CSV 파일이 생성되며 저장된 파일의 URL이 펄스 알림으로 전송됩니다. 필요한 경우 이 기능을 사용하여 계정을 제3자 플랫폼으로 이동할 수 있습니다.
 
 1. Journey Optimizer B2B Edition의 왼쪽 탐색 영역에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**&#x200B;으로 이동합니다.
 

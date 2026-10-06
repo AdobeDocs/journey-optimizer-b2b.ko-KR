@@ -1,6 +1,6 @@
 ---
 title: 랜딩 페이지 콘텐츠 생성
-description: 랜딩 페이지 콘텐츠 생성 - Journey Optimizer B2B edition에서 참조 에셋 및 구매 그룹 역할 타겟팅을 사용하여 페이지 텍스트 및 이미지를 만듭니다.
+description: 랜딩 페이지 콘텐츠 생성 - Journey Optimizer B2B Edition에서 참조 에셋 및 구매 그룹 역할 타겟팅을 사용하여 페이지 텍스트 및 이미지를 만듭니다.
 feature: Generative AI, Landing Pages, Content
 topic: Artificial Intelligence
 role: User
@@ -25,6 +25,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
@@ -32,7 +34,7 @@ topic_v2:
     internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
-source-git-commit: d8451ab306de70decd11909676d6d9aaf667d466
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2599'
 ht-degree: 0%
@@ -55,7 +57,7 @@ Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 [!DNL Adobe Journey 
 
 이 기능을 사용하기 전에 [지침 및 제한 사항](./generative-ai-content.md#general-guidelines-and-limitations)을 검토하십시오. [!DNL Journey Optimizer B2B Edition]에서 AI 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} 동의가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-생성 AI의 투명성을 높이기 위해 Adobe은 다운로드하거나 내보낼 때 Firefly에서 생성한 에셋에 [콘텐츠 자격 증명](https://helpx.adobe.com/kr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
+생성 AI의 투명성을 높이기 위해 Adobe은 다운로드하거나 내보낼 때 Firefly에서 생성한 에셋에 [콘텐츠 자격 증명](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}을 적용합니다.
 
 [!DNL Journey Optimizer B2B Edition]의 랜딩 페이지에 사용되는 콘텐츠 생성 기능에는 다음 제한 사항과 지침이 적용됩니다.
 

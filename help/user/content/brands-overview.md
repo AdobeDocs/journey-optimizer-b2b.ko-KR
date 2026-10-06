@@ -1,31 +1,39 @@
 ---
 title: 컨텐츠 생성 및 일관성을 위해 브랜드 사용
-description: 일관된 컨텐츠 작성을 위한 브랜드 지침을 정의합니다. Journey Optimizer B2B edition에서 시각적 정체성, 메시징 정렬 및 정품 음성을 유지할 수 있습니다.
+description: 일관된 컨텐츠 생성을 위한 브랜드 지침을 정의합니다. Journey Optimizer B2B Edition에서 시각적 정체성, 메시징 정렬 및 정품 음성을 유지할 수 있습니다.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+autotag-review: 2026-03-30T21:50:39.165Z
+TQID: 'https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T21:50:39.165Z
-TQID: https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '868'
 ht-degree: 12%
-
 ---
-
 # 콘텐츠 생성 및 일관성을 위해 브랜드 사용 {#brands}
 
 >[!CONTEXTUALHELP]
@@ -60,9 +68,9 @@ ht-degree: 12%
 >
 >이 기능은 현재 공개 베타로 사용할 수 있습니다.
 >
->Adobe Journey Optimizer B2B edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer B2B Edition에서 AI 기반 기능을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-정의된 브랜드는 크리에이티브 팀이 시각적 또는 기록된 콘텐츠를 만들 때 사용할 _진실의 원본_&#x200B;을 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. Journey Optimizer B2B edition에서 브랜드 내 컨텐츠 생성을 활성화하려면 다음 작업을 완료하십시오.
+정의된 브랜드는 크리에이티브 팀이 시각적 또는 기록된 콘텐츠를 만들 때 사용할 _진실의 원본_&#x200B;을 제공합니다. 이러한 지침이 컴파일되고 브랜드 자산이 공유되면 모든 팀 구성원 또는 공동 작업자가 제품에 대한 브랜드 내 콘텐츠를 만들 수 있습니다. Journey Optimizer B2B Edition에서 브랜드 내 컨텐츠 생성을 활성화하려면 다음 작업을 완료하십시오.
 
 1. 브랜드 정의를 준비합니다.
 
@@ -72,7 +80,7 @@ ht-degree: 12%
 
 1. 이 정보를 하나 이상의 PDF 파일에 취합합니다.
 
-1. PDF 파일을 사용하여 Journey Optimizer B2B edition에서 [브랜드를 만들기](./brands-manage-create.md#create-and-define-a-brand)하십시오.
+1. PDF 파일을 사용하여 Journey Optimizer B2B Edition에서 [브랜드를 만들기](./brands-manage-create.md#create-and-define-a-brand)하십시오.
 
 1. 사용할 준비가 되면 [브랜드를 게시](./brands-manage-create.md#publish-the-brand)합니다.
 
@@ -85,7 +93,7 @@ ht-degree: 12%
 
 ## 브랜드 관련 권한
 
-제품 관리자는 Adobe Experience Cloud의 _권한_ UI를 통해 **[!UICONTROL 브랜드 키트 관리]** 또는 **[!UICONTROL AI 도우미 사용]** 리소스 권한을 할당하여 브랜드 관리 및 브랜드 정렬 기능에 대한 액세스를 활성화할 수 있습니다.
+제품 관리자는 Adobe Experience Cloud의 _권한_ UI를 통해 **[!UICONTROL 브랜드 키트 관리]** 또는 **[!UICONTROL AI 지원 사용]** 리소스 권한을 할당하여 브랜드 관리 및 브랜드 정렬 기능에 대한 액세스를 활성화할 수 있습니다.
 
 1. 권한 앱에서 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 [역할](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}을 선택합니다.
 

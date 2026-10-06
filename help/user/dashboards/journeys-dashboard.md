@@ -1,6 +1,6 @@
 ---
 title: 여정 개요 대시보드
-description: Journey Optimizer B2B edition의 완료율, 참여 지표 및 채널 효율성 분석을 통해 계정 및 개인 여정 성과를 추적합니다.
+description: Journey Optimizer B2B Edition의 완료율, 참여 지표 및 채널 효율성 분석을 통해 계정 및 개인 여정 성과를 추적합니다.
 feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
@@ -8,24 +8,31 @@ autotag-review: '2026-05-21T21:07:43.367Z'
 TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 2%
-
 ---
-
 # 여정 개요 대시보드
 
 [계정 또는 개인 여정](../journeys/journeys-overview.md)에 대한 개요 대시보드에서는 활성 여정에 대한 포괄적인 스냅숏을 제공합니다. 원 및 막대 차트는 완료 및 참여 활동을 분류하고 수량화하므로 주요 게재 및 참여 지표를 통해 이메일 및 SMS 채널의 효과를 평가할 수 있습니다. 전자 메일 특정 게재 및 참여 데이터의 여정 간 보기에 대해서는 [전자 메일 성능 보고서](email-performance-dashboard.md)를 참조하십시오.
