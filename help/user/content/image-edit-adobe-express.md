@@ -94,7 +94,7 @@ Adobe Express에 대한 Enterprise 라이선스가 있는 경우 Express 편집�
 
 ![Adobe Express 엔터프라이즈 편집기에서 이미지 열기](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/express/web.html){target="_blank"}를 참조하세요.
+사용 가능한 편집 기능에 대한 자세한 내용은 [Adobe Express 사용 안내서](https://helpx.adobe.com/kr/express/web.html){target="_blank"}를 참조하세요.
 
 ## Adobe Express의 빠른 작업
 

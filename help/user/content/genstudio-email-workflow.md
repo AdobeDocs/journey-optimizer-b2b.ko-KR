@@ -60,7 +60,7 @@ ht-degree: 10%
 
 ## GenStudio 컨텐츠 생성 기능
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"}은(는) 마케팅 팀이 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력 있고 개인화된 광고 및 이메일을 만들 수 있도록 해주는 발전적인 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 콘텐츠 작성자가 혁신에 집중할 수 있도록 콘텐츠 작성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/kr/products/genstudio/performance-marketing.html){target="_blank"}은(는) 마케팅 팀이 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력 있고 개인화된 광고 및 이메일을 만들 수 있도록 해주는 발전적인 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 콘텐츠 작성자가 혁신에 집중할 수 있도록 콘텐츠 작성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
 
 ![비디오](../../assets/do-not-localize/icon-video.svg){width="30"} [브랜드 마케팅 이메일 만들기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -98,7 +98,7 @@ GenStudio for Performance Marketing은 가져온 이메일 HTML 내의 특정 �
 
 HTML 파일을 사용하여 GenStudio for Performance Marketing에서 템플릿을 만듭니다.
 
-HTML 템플릿을 Adobe GenStudio for Performance Marketing에 업로드하는 방법에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서에서 [템플릿 추가](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)를 참조하십시오.
+HTML 템플릿을 Adobe GenStudio for Performance Marketing에 업로드하는 방법에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서에서 [템플릿 추가](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)를 참조하십시오.
 
 내보낸 HTML을 템플릿으로 업로드하면 GenStudio for Performance Marketing에서 HTML 파일에서 인식된 필드가 있는지 검사합니다. 미리보기를 사용하여 템플릿 요소를 검토하고 인식된 필드 이름으로 제대로 식별했는지 확인합니다.
 
@@ -106,7 +106,7 @@ HTML 템플릿을 Adobe GenStudio for Performance Marketing에 업로드하는 �
 
 GenStudio for Performance Marketing에서 템플릿을 사용하여 여러 이메일 경험 변형을 만들고 저장합니다.
 
-브랜디드 이메일 경험 생성에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서에서 [이메일 경험 만들기](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)를 참조하십시오.
+브랜디드 이메일 경험 생성에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서에서 [이메일 경험 만들기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)를 참조하십시오.
 
 ## 생성된 이메일 경험을 Journey Optimizer B2B Edition에 추가
 
