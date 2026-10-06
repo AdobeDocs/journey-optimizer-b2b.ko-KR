@@ -94,6 +94,6 @@ Marketo Engage 여정 작업을 사용하려면 관리자가 먼저 인증에 �
 >
 >여정에서 실행된 Marketo Engage 작업은 연결된 Marketo Engage 인스턴스에 대한 REST API 제한에 적용되지 않습니다.
 
-완료된 통합을 통해 노드 속성의 :_**에 대한**_Actions에서 Marketo Engage 작업을 사용할 수 있습니다.
+완료된 통합을 통해 노드 속성의 :_&#x200B;**에 대한**&#x200B;_Actions에서 Marketo Engage 작업을 사용할 수 있습니다.
 
 ![Marketo 작업 목록](assets/marketo-actions-list.png){width="800" zoomable="yes"}

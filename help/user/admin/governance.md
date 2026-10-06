@@ -74,7 +74,7 @@ Journey Optimizer B2B Edition은 Adobe Experience Platform XDM 프로필에 저�
 
 ## 샌드박스 재설정
 
-샌드박스 재설정이 Adobe Journey Optimizer B2B Edition에 대해 현재 지원되지 않음&#x200B;**입니다.**[!DNL Journey Optimizer B2B Edition]에 매핑된 샌드박스를 재설정하거나 삭제하면 영구적인 데이터 손실이 발생할 수 있으며 새 인스턴스를 프로비전해야 합니다.
+샌드박스 재설정이 Adobe Journey Optimizer B2B Edition에 대해 현재 지원되지 않음&#x200B;**입니다.**&#x200B;[!DNL Journey Optimizer B2B Edition]에 매핑된 샌드박스를 재설정하거나 삭제하면 영구적인 데이터 손실이 발생할 수 있으며 새 인스턴스를 프로비전해야 합니다.
 
 ## 아직 사용할 수 없음
 
