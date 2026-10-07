@@ -1,27 +1,32 @@
 ---
 title: 이미지를 이메일 템플릿으로 변환
-description: Journey Optimizer B2B edition을 사용하여 이미지 파일을 HTML 이메일 템플릿으로 변환합니다. PNG/JPEG 파일을 업로드하고 재사용 가능한 이메일 콘텐츠를 자동으로 생성합니다.
+description: Journey Optimizer B2B Edition을 사용하여 이미지 파일을 HTML 이메일 템플릿으로 변환합니다. PNG/JPEG 파일을 업로드하고 재사용 가능한 이메일 콘텐츠를 자동으로 생성합니다.
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+autotag-review: 2026-03-30T22:06:11.745Z
+TQID: 'https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:06:11.745Z
-TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # 이미지를 이메일 템플릿으로 변환
 
 이메일 템플릿을 만들고 업데이트하는 것은 마케팅 컨텐츠 supply chain의 기본 구성 요소이지만, 이러한 작업은 수동 HTML 코딩으로 인해 상당한 시간과 리소스가 필요한 경우가 많습니다. 마케팅 팀은 일반적으로 에이전시 또는 IT 팀에 의존하여 이러한 템플릿을 개발해 왔습니다. 이메일 템플릿을 위한 새로운 이미지-HTML 도구는 마케터가 디자인 파일을 HTML 코드 템플릿으로 변환할 수 있도록 하여 이 프로세스를 간소화합니다. 변환된 HTML은 이메일 디자인 공간에서 추가로 편집할 준비가 되었습니다. 이 도구는 JPEG 및 PNG 파일 유형을 모두 지원하며 드래그 앤 드롭 인터페이스를 제공합니다.
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 **브랜드 테마 사용**
 
-조직에 Journey Optimizer B2B edition에 [브랜드 테마](./brand-themes.md)가 정의되어 있는 경우, 생성된 출력 HTML이 브랜드 테마 매개 변수에 따라 스타일링되도록 브랜드 테마를 입력으로 선택할 수 있습니다. 이 입력을 사용하면 생성된 템플릿에 배경색, 단추 색상, 글꼴, 줄 간격, 여백, 패딩과 같은 스타일이 적용됩니다.  브랜드 테마를 사용하면 스타일링과 서식을 지정하는 추가 디자인 작업을 제거하고 최소한의 편집으로 사용할 준비가 된 템플릿을 생성할 수 있습니다.
+조직에 Journey Optimizer B2B Edition에 [브랜드 테마](./brand-themes.md)가 정의되어 있는 경우, 생성된 출력 HTML이 브랜드 테마 매개 변수에 따라 스타일링되도록 브랜드 테마를 입력으로 선택할 수 있습니다. 이 입력을 사용하면 생성된 템플릿에 배경색, 단추 색상, 글꼴, 줄 간격, 여백, 패딩과 같은 스타일이 적용됩니다.  브랜드 테마를 사용하면 스타일링과 서식을 지정하는 추가 디자인 작업을 제거하고 최소한의 편집으로 사용할 준비가 된 템플릿을 생성할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +60,7 @@ ht-degree: 0%
 
 1. 이미지 파일에 개인 식별 가능한 정보나 개인 데이터가 없는지 확인하고 대화 상자 하단에 있는 확인란을 선택하여 확인합니다.
 
-   지침을 검토하려면 **[!UICONTROL Adobe Experience Cloud Generative AI 사용자 지침]** 링크를 클릭하십시오.
+   지침을 검토하려면 **[!UICONTROL Adobe Experience Cloud 생성 AI 사용자 지침]** 링크를 클릭하십시오.
 
    ![이미지 파일을 전자 메일 템플릿으로 변환하는 전체 매개 변수](./assets/email-template-convert-image-dialog.png){width="400" zoomable="yes"}
 

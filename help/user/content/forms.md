@@ -1,6 +1,6 @@
 ---
 title: 양식
-description: Journey Optimizer B2B edition의 필드를 디자인하고, 감사 페이지를 설정하고, 게시하고, 사용을 추적하는 등 비즈니스 데이터 수집을 위한 재사용 가능한 양식을 만들고 관리합니다.
+description: Journey Optimizer B2B Edition에서 필드 디자인, 감사 페이지 설정, 게시 및 사용 추적 등 비즈니스 데이터 수집을 위한 재사용 가능한 양식을 만들고 관리합니다.
 feature: Forms, Content
 role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2504
+source-wordcount: '2504'
 ht-degree: 2%
-
 ---
-
 # 양식
 
 웹 페이지 방문자의 정보를 캡처하려면 양식을 만들고 랜딩 페이지에 추가합니다. 양식은 백서, 온디맨드 웨비나 무료 체험판 등과 같은 콘텐츠 또는 오퍼를 얻기 위해 페이지 방문자가 작성하고 제출하는 필드 세트입니다.
@@ -35,7 +41,7 @@ ht-degree: 2%
 >
 >마케팅 팀이 양식을 만들고 사용하여 정보를 캡처하려면 먼저 관리자가 하나 이상의 양식 사전 설정을 정의해야 합니다. 자세한 내용은 [_Forms 구성_](../admin/configure-channels-forms.md)&#x200B;을 참조하십시오.
 >
->Journey Optimizer B2B edition에서 양식을 만들려면 다음 [권한](../admin/user-management.md#b2b-product-permissions)이 필요합니다.
+>Journey Optimizer B2B Edition에서 양식을 만들려면 다음 [권한](../admin/user-management.md#b2b-product-permissions)이 필요합니다.
 >
 >* _[!UICONTROL Journey Optimizer 라이브러리]_ > _[!UICONTROL B2C Forms 읽기]_ - 양식에 액세스하고 양식을 보는 데 필요합니다.
 >* _[!UICONTROL Journey Optimizer 라이브러리]_ > _[!UICONTROL B2C Forms 관리]_ - 양식을 만들고 업데이트하고 삭제하는 데 필요합니다.
@@ -43,7 +49,7 @@ ht-degree: 2%
 
 ## 양식 액세스 및 관리 {#view-forms}
 
-Journey Optimizer B2B edition의 양식에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL Forms]**&#x200B;을(를) 클릭하십시오. 이 작업을 수행하면 인스턴스에서 만든 모든 양식을 표시하는 목록 페이지가 열립니다.
+Journey Optimizer B2B Edition에서 양식에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL Forms]**&#x200B;을(를) 클릭하십시오. 이 작업을 수행하면 인스턴스에서 만든 모든 양식을 표시하는 목록 페이지가 열립니다.
 
 ![양식 라이브러리에 액세스](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -77,7 +83,7 @@ Journey Optimizer B2B edition의 양식에 액세스하려면 왼쪽 탐색으�
 
 ## 양식 만들기 {#create-forms}
 
-Journey Optimizer B2B edition에서 재사용 가능한 양식을 작성하기 전에 고려해야 할 몇 가지 사항이 있습니다.
+Journey Optimizer B2B Edition에서 재사용 가능한 양식을 작성하기 전에 고려해야 할 몇 가지 사항이 있습니다.
 
 * 필요한 양식을 결정합니다.
 
@@ -105,7 +111,7 @@ Journey Optimizer B2B edition에서 재사용 가능한 양식을 작성하기 �
 >abstract="사용할 연결이 포함된 사전 정의 사전 설정과 양식에 맞는 사전 정의 데이터 세트를 선택합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="양식 사전 설정 만들기"
 
-_[!UICONTROL Forms]_ 목록 페이지의 오른쪽 상단에 있는 **[!UICONTROL 양식 만들기]**&#x200B;를 클릭하여 Journey Optimizer B2B edition에서 양식을 만들 수 있습니다.
+_[!UICONTROL Forms]_ 목록 페이지의 오른쪽 상단에 있는 **[!UICONTROL 양식 만들기]**&#x200B;를 클릭하여 Journey Optimizer B2B Edition에서 양식을 만들 수 있습니다.
 
 1. _[!UICONTROL 양식 만들기]_ 대화 상자에서 유용한 **[!UICONTROL 이름]**(필수)과 **[!UICONTROL 설명]**(선택 사항)을 입력하십시오.
 
@@ -149,7 +155,7 @@ _[!UICONTROL Forms]_ 목록 페이지의 오른쪽 상단에 있는 **[!UICONTRO
 
 * **[!UICONTROL 페이지에서 유지]** - 양식을 제출할 때 방문자를 동일한 페이지에 유지하려면 이 옵션을 선택하십시오.
 
-* **[!UICONTROL 랜딩 페이지]** - 후속 작업으로 Journey Optimizer B2B edition 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오.
+* **[!UICONTROL 랜딩 페이지]** - 이 옵션을 선택하면 후속 작업으로 Journey Optimizer B2B Edition 랜딩 페이지를 선택할 수 있습니다.
 
 * **[!UICONTROL 외부 URL]** - URL을 후속 페이지로 지정하려면 이 옵션을 선택하십시오. 방문자가 양식을 제출하면 브라우저가 지정된 URL을 로드합니다.
 
@@ -181,7 +187,7 @@ _[!UICONTROL Forms]_ 목록 페이지의 오른쪽 상단에 있는 **[!UICONTRO
 
 ## 참조에서 사용하는 양식 보기
 
-오른쪽의 _[!UICONTROL 요약]_ 패널에서 **[!UICONTROL 사용자]** 탭을 클릭하여 랜딩 페이지 및 랜딩 페이지 템플릿에서 Journey Optimizer B2B edition 내에서 현재 양식을 사용하는 위치에 대한 세부 정보를 볼 수 있습니다.
+오른쪽의 _[!UICONTROL 요약]_ 패널에서 **[!UICONTROL 사용자]** 탭을 클릭하여 랜딩 페이지 및 랜딩 페이지 템플릿에서 Journey Optimizer B2B Edition 내에서 현재 양식의 사용 위치에 대한 세부 정보를 볼 수 있습니다.
 
 >[!IMPORTANT]
 >

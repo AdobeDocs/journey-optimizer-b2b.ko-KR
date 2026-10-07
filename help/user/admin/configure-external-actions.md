@@ -1,26 +1,34 @@
 ---
 title: 외부 작업 구성
-description: 개발자, 관리자 및 마케터가 함께 Journey Optimizer B2B edition을 여정의 외부 서비스와 연결하는 외부 작업을 구현, 구성 및 사용하는 방법에 대해 알아봅니다.
+description: 개발자, 관리자 및 마케터가 함께 Journey Optimizer B2B Edition을 여정의 외부 서비스와 연결하는 외부 작업을 구현, 구성 및 사용하는 방법에 대해 알아봅니다.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1278
+source-wordcount: '1278'
 ht-degree: 1%
-
 ---
-
 # 외부 작업 구성
 
 외부 작업을 사용하면 [!DNL Journey Optimizer B2B Edition]의 계정 및 개인 여정이 여정 캔버스에서 직접 외부 시스템과 연결할 수 있습니다. 대상이 외부 작업 노드에 도달하면 시스템에서 구성된 외부 서비스에 대한 비동기 아웃바운드 호출을 수행하여 대상 속성 데이터를 전달합니다. 외부 서비스는 데이터를 처리하고 콜백을 사용하여 응답하며, 여정 실행을 안내하는 데 사용할 수 있는 대상 데이터와 메타데이터를 반환합니다.
@@ -37,12 +45,12 @@ ht-degree: 1%
 | | 역할 | 작업 |
 | ---- | ---- | ---- |
 | 1 | Developer | [외부 서비스 구현 및 게시](#implement-service) |
-| 2 | 관리자 | [Journey Optimizer B2B edition에서 작업 구성](#configure-action) |
+| 2 | 관리자 | [Journey Optimizer B2B Edition에서 작업 구성](#configure-action) |
 | 3 | 마케터 | [외부 노드를 여정에 추가](#add-journey-node) |
 
 ## 외부 서비스 구현 {#implement-service}
 
-개발자는 [Adobe Journey Optimizer B2B edition 외부 작업 서비스 공급자 인터페이스](https://developer.adobe.com/journey-optimizer-b2b-apis/)를 준수하는 공개 웹 서비스를 만들고 게시해야 합니다.
+개발자는 [Adobe Journey Optimizer B2B Edition 외부 작업 서비스 공급자 인터페이스](https://developer.adobe.com/journey-optimizer-b2b-apis/)를 준수하는 공개 웹 서비스를 만들고 게시해야 합니다.
 
 >[!NOTE]
 >
@@ -158,7 +166,7 @@ ht-degree: 1%
 | `The entity type value is invalid` | 엔터티 형식에 대한 Adobe 전용 `x-` 확장에 인식할 수 없는 값이 있습니다. | 엔티티 유형을 지원되는 값으로 수정합니다. 올바른 옵션은 [개발자 설명서](https://developer.adobe.com/journey-optimizer-b2b-apis/)를 참조하세요. |
 | `The provided document is not a valid OpenAPI specification` | 사양을 구조적으로 구문 분석할 수 없습니다. | OpenAPI 3.0 스키마에 대해 사양을 확인하고 문제를 수정합니다. |
 | `Required OpenAPI field is missing` | 표준 OpenAPI 필수 필드가 없습니다(예: `info` 또는 `paths`). | 누락된 필드를 추가합니다. |
-| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B edition에 필요한 종단점이 사양에 정의되어 있지 않습니다. | 필요한 끝점을 추가합니다. 끝점이 필요한 [개발자 설명서](https://developer.adobe.com/journey-optimizer-b2b-apis/)를 참조하세요. |
+| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B Edition에 필요한 종단점이 사양에 정의되어 있지 않습니다. | 필요한 끝점을 추가합니다. 끝점이 필요한 [개발자 설명서](https://developer.adobe.com/journey-optimizer-b2b-apis/)를 참조하세요. |
 | `Required extension field is missing` | 필수 Adobe `x-` 확장 필드가 사양에 없습니다. | 설명서에 설명된 대로 누락된 확장 필드를 추가합니다. |
 | `Security schemes are missing from the specification` | 세부 항목에 `components`에 정의된 `securitySchemes`이(가) 없습니다. | 최소 하나 이상의 보안 체계를 정의합니다. |
 | `Multiple authentication types are not supported` | 사양이 둘 이상의 인증 체계를 정의합니다. | 단일 인증 유형을 사용하도록 사양을 업데이트합니다. |

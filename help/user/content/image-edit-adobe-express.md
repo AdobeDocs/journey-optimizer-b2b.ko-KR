@@ -1,47 +1,56 @@
 ---
 title: Adobe Express으로 이미지 편집
-description: Journey Optimizer B2B edition의 Adobe Express을 사용하여 기본적으로 이미지를 편집하십시오. 즉, 크기 조정, 자르기, 배경 제거, 형식 변환 및 에셋 저장소에 저장합니다.
+description: Journey Optimizer B2B Edition의 Adobe Express을 사용하여 기본적으로 이미지를 편집하십시오. 즉, 크기 조정, 자르기, 배경 제거, 형식 변환 및 에셋 저장소에 저장할 수 있습니다.
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
+autotag-review: 2026-03-30T21:58:42.309Z
+TQID: 'https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: e66c61b1-1ca4-4c42-8df9-e5cb44b0555c
+    internal-label: Creative Cloud
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-autotag-review: 2026-03-30T21:58:42.309Z
-TQID: https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content and assets
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '860'
 ht-degree: 4%
-
 ---
-
 # Adobe Express를 사용하여 이미지 편집 {#edit-images-adobe-express}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_assets_edit_adobe_express"
 >title="Adobe Express에서 이미지 편집"
->abstract="Adobe Journey Optimizer B2B Edition 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 속도를 높일 수 있습니다."
+>abstract="Adobe Journey Optimizer B2B Edition 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 제작 속도를 높일 수 있습니다."
 
 [!DNL Adobe Journey Optimizer B2B Edition]은(는) 기본적으로 Adobe Express과 통합되어 있으므로 [!DNL Adobe Express] 이미지 편집 도구 집합에 액세스할 수 있습니다. 이러한 도구를 사용하여 [!DNL Journey Optimizer B2B Edition] 자산 저장소에 저장된 이미지를 수정할 수 있습니다. 통합은 다음과 같은 주요 이점을 제공합니다.
 
-* Journey Optimizer B2B edition에서 새 이미지 에셋을 편집하고 저장하여 콘텐츠 재사용을 개선했습니다.
+* Journey Optimizer B2B Edition에서 새 이미지 에셋을 편집하고 저장하여 콘텐츠 재사용을 개선했습니다.
 
 * 이미지 에셋을 업데이트하거나 기존 이미지 에셋의 새 버전을 만드는 데 드는 시간과 노력을 단축했습니다.
 
 >[!NOTE]
 >
->Adobe Express 편집 기능에 대한 권한은 모든 Journey Optimizer B2B edition 구독에 포함됩니다.
+>Adobe Express 편집 기능에 대한 권한은 모든 Journey Optimizer B2B Edition 구독에 포함됩니다.
 
 [!DNL Adobe Express] 함수는 PNG 및 JPEG 이미지 파일 형식을 지원합니다.
 
@@ -59,7 +68,7 @@ ht-degree: 4%
 
    * 선택한 폴더 내에서 이미지 자산을 검색하려면 검색 막대에 텍스트 문자열을 입력합니다.
 
-   ![Journey Optimizer B2B edition 저장소에서 자산 찾아보기](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![Journey Optimizer B2B Edition 저장소에서 자산 찾아보기](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. 이미지 에셋의 이름을 클릭하여 열고 세부 정보를 확인합니다.
 
@@ -81,7 +90,7 @@ Adobe Express에 대한 Enterprise 라이선스가 있는 경우 Express 편집�
 
 >[!NOTE]
 >
->Adobe Express B2B edition에서 이러한 전체 편집기 기능에 액세스하려면 동일한 IMS 조직에서 Journey Optimizer Enterprise 라이선스를 구매해야 합니다. IMS 조직의 개별 구성원은 Adobe Express 인스턴스에 할당된 라이선스가 필요합니다. 그렇지 않으면 Adobe Express 액세스가 Journey Optimizer B2B edition에서 [Adobe Express에 대한 빠른 작업](#quick-actions-in-adobe-express)으로 제한됩니다.
+>Journey Optimizer B2B Edition에서 이러한 전체 편집기 기능에 액세스하려면 동일한 IMS 조직에서 Adobe Express Enterprise 라이선스를 구매해야 합니다. IMS 조직의 개별 구성원은 Adobe Express 인스턴스에 할당된 라이선스가 필요합니다. 그렇지 않으면 Adobe Express 액세스가 Journey Optimizer B2B Edition에서 [Adobe Express에 대한 빠른 작업](#quick-actions-in-adobe-express)(으)로 제한됩니다.
 
 ![Adobe Express 엔터프라이즈 편집기에서 이미지 열기](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
@@ -101,7 +110,7 @@ Adobe Express Enterprise 라이선스가 없는 경우 Adobe Express 빠른 작�
 
    ![이미지를 수정할 편집 형식을 선택하십시오](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. 기본 Adobe Express 빠른 작업 편집기로 돌아가면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 수정된 이미지 파일을 동일한 파일 이름을 사용하여 Journey Optimizer B2B edition 자산 저장소에 저장합니다.
+1. 기본 Adobe Express 빠른 작업 편집기로 돌아가면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 수정된 이미지 파일을 동일한 파일 이름을 사용하여 Journey Optimizer B2B Edition 자산 저장소에 저장합니다.
 
 ### 이미지 크기 조정
 

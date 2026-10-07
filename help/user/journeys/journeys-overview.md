@@ -1,33 +1,39 @@
 ---
 title: 여정 관리
-description: Journey Optimizer B2B edition의 이메일, SMS 및 이벤트 전반에서 구매 그룹 참여를 만들고, 게시하고, 관리하는 여정을 통해 수요 생성을 간소화합니다.
+description: Journey Optimizer B2B Edition의 이메일, SMS 및 이벤트 전반에서 구매 그룹 참여를 만들고, 게시하고, 관리하는 여정을 통해 수요 생성을 간소화합니다.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 45%
-
 ---
-
 # 여정 관리
 
-Journey Optimizer B2B edition에서 여정은 참여, 비즈니스 이벤트 또는 예약된 캠페인에 응답하여 채널 간에 개인화된 경험을 오케스트레이션하는 자동화된 다단계 계정 및 리드 기반 마케팅 플랜입니다. 이메일, SMS 등을 포함하는 판매 주도 참여를 정의하여 인바운드 마케팅을 각 구매 그룹 구성원에 대한 아웃바운드 판매 활동과 조정합니다.
+Journey Optimizer B2B Edition에서 여정은 참여, 비즈니스 이벤트 또는 예약된 캠페인에 응답하여 채널 간에 개인화된 경험을 오케스트레이션하는 자동화된 다단계 계정 및 리드 기반 마케팅 플랜입니다. 이메일, SMS 등을 포함하는 판매 주도 참여를 정의하여 인바운드 마케팅을 각 구매 그룹 구성원에 대한 아웃바운드 판매 활동과 조정합니다.
 
-Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
+Journey Optimizer B2B Edition은 두 가지 여정 유형을 지원합니다.
 
 * **계정 여정** - 수요 생성 및 구매 그룹 자격을 간소화하고 고객 확보, 상향 판매/교차 판매 및 유지 프로그램에 대한 보다 적합한 수요를 창출합니다. 이메일, SMS, 이벤트 등에서 자동화된 참여를 활용하여 각 구매 그룹 및 구매 그룹 멤버에 맞게 여정을 조정할 수 있습니다.
 
@@ -116,7 +122,7 @@ Journey Optimizer B2B edition은 두 가지 여정 유형을 지원합니다.
 
 ## 여정 작업
 
-여정 목록 페이지에는 Journey Optimizer B2B edition 인스턴스의 모든 여정 또는 개인 계정이 포함되어 있습니다. 목록 페이지에서 여정에 여러 작업을 적용할 수 있습니다.
+여정 목록 페이지에는 Journey Optimizer B2B Edition 인스턴스의 모든 여정 또는 개인 계정이 포함되어 있습니다. 목록 페이지에서 여정에 여러 작업을 적용할 수 있습니다.
 
 ### 여정 중단
 

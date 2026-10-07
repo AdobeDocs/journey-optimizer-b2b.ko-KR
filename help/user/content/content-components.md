@@ -1,29 +1,35 @@
 ---
 title: 콘텐츠 구성 요소
-description: 콘텐츠 구성 요소를 사용하여 이메일, 랜딩 페이지 및 조각 디자인 - Journey Optimizer B2B edition에 단추, 텍스트, 이미지, 양식 및 컨테이너를 추가합니다.
+description: 콘텐츠 구성 요소를 사용하여 이메일, 랜딩 페이지 및 조각 디자인 - Journey Optimizer B2B Edition에 단추, 텍스트, 이미지, 양식 및 컨테이너를 추가합니다.
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+autotag-review: 2026-03-30T22:16:05.946Z
+TQID: 'https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-autotag-review: 2026-03-30T22:16:05.946Z
-TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Experience design
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2658
+source-wordcount: '2658'
 ht-degree: 8%
-
 ---
-
 # 콘텐츠 구성 요소 {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -742,7 +748,7 @@ _Form_ 구성 요소를 사용하여 게시된 양식을 랜딩 페이지 또는
 
    * **[!UICONTROL 페이지에서 유지]** - 양식을 제출할 때 방문자를 동일한 페이지에 유지하려면 이 옵션을 선택하십시오.
 
-   * **[!UICONTROL 랜딩 페이지]** - 후속 작업으로 Journey Optimizer B2B edition 랜딩 페이지를 선택하려면 이 옵션을 선택하십시오.
+   * **[!UICONTROL 랜딩 페이지]** - 이 옵션을 선택하면 후속 작업으로 Journey Optimizer B2B Edition 랜딩 페이지를 선택할 수 있습니다.
 
    * **[!UICONTROL 외부 URL]** - URL을 후속 페이지로 지정하려면 이 옵션을 선택하십시오. 방문자가 양식을 제출하면 브라우저가 지정된 URL을 로드합니다.
 

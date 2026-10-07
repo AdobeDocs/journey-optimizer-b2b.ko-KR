@@ -1,9 +1,10 @@
 ---
 title: 작업 수행
-description: 계정 및 사용자 작업에 대한 작업 노드 구성 - 이메일 전송, 구매 그룹 업데이트, 점수 변경 및 Journey Optimizer B2B edition의 Marketo Engage과 통합.
+description: 계정 및 사용자 작업에 대한 작업 노드 구성 - 이메일 전송, 구매 그룹 업데이트, 점수 변경 및 Journey Optimizer B2B Edition의 Marketo Engage과 통합.
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -13,6 +14,8 @@ feature_v2:
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
     internal-label: Journey Actions
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,8 +25,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2176'
 ht-degree: 3%
@@ -55,7 +57,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->_[!UICONTROL 계정 변경 데이터 값]_ 작업은 2025.10 릴리스에서 더 이상 사용되지 않습니다. _[!UICONTROL 계정 프로필 업데이트]_&#x200B;가 Journey Optimizer B2B edition에서 이 작업을 대체합니다.<br/>
+>_[!UICONTROL 계정 변경 데이터 값]_ 작업은 2025.10 릴리스에서 더 이상 사용되지 않습니다. _[!UICONTROL 계정 프로필 업데이트]_&#x200B;가 Journey Optimizer B2B Edition에서 이 작업을 대체합니다.<br/>
 >
 >관리자는 _[!UICONTROL XDM 구성]_ > _[!UICONTROL 표준 클래스]_&#x200B;의 필드를 업데이트하여 XDM 비즈니스 계정에 사용할 수 있는 특성을 구성할 수 있습니다. 자세한 내용은 [표준 스키마](../admin/xdm-field-management.md#standard-schemas)를 참조하십시오.
 
@@ -200,7 +202,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
    >[!NOTE]
    >
-   >Journey Optimizer B2B edition에서 새 외부 고객 대상을 만들면 더미 레코드(`test@email.com`)로 시드됩니다. 이 레코드는 첫 번째 실제 프로필이 여정에서 외부 대상에 추가되자마자 덮어쓰여집니다.
+   >Journey Optimizer B2B Edition에서 새 외부 고객 대상을 만들 때 더미 레코드(`test@email.com`)로 시드됩니다. 이 레코드는 첫 번째 실제 프로필이 여정에서 외부 대상에 추가되자마자 덮어쓰여집니다.
 
 기존 대상을 사용하려면(_T):_
 
@@ -294,7 +296,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 
 >[!NOTE]
 >
->_[!UICONTROL 사용자 프로필 업데이트]_ 작업은 현재 Journey Optimizer B2B edition 릴리스의 _[!UICONTROL 데이터 값 변경]_ 작업을 대체합니다.<br/>
+>_[!UICONTROL 사용자 프로필 업데이트]_ 작업은 현재 Journey Optimizer B2B Edition 릴리스의 _[!UICONTROL 데이터 값 변경]_ 작업을 대체합니다.<br/>
 >
 >관리자는 _[!UICONTROL XDM 구성]_ > _[!UICONTROL 표준 클래스]_&#x200B;의 필드를 업데이트하여 XDM 개별 프로필에 사용할 수 있는 특성을 구성할 수 있습니다. 자세한 내용은 [표준 스키마](../admin/xdm-field-management.md#standard-schemas)를 참조하십시오.
 
@@ -308,7 +310,7 @@ Journey Optimizer B2B 사용자 기반 작업은 구성된 채널을 통해 통�
 >
 >Marketo Engage 작업을 수행하려면 하나 이상의 외부 Marketo Engage 인스턴스와 구성된 통합이 필요합니다. 이 구성에 대한 자세한 내용은 [_작업을 지원하기 위한 Marketo Engage 연결 활성화_](../admin/marketo-actions-connect.md)&#x200B;를 참조하십시오.
 
-예를 들어 Journey Optimizer B2B edition의 구매 그룹에 속하는 사람에 대해 Marketo Engage의 캠페인을 억제합니다. 이 경우 솔루션 관심분야에 특히 적합한 정적 목록을 Marketo Engage에서 만들 수 있습니다. 그런 다음 구매 그룹을 통한 분할 경로에서 여정 노드에서 _Marketo 목록에 추가_ 작업을 사용합니다. 이렇게 하면 연결된 Marketo Engage 인스턴스의 특정 정적 목록에 구매 그룹 구성원이 추가됩니다. 그런 다음 Marketo Engage의 스마트 목록 필터에 대해 솔루션 관심 집중 정적 목록 을 사용하십시오.
+예를 들어 Journey Optimizer B2B Edition의 구매 그룹에 속하는 사람에 대해 Marketo Engage의 캠페인을 억제합니다. 이 경우 솔루션 관심분야에 특히 적합한 정적 목록을 Marketo Engage에서 만들 수 있습니다. 그런 다음 구매 그룹을 통한 분할 경로에서 여정 노드에서 _Marketo 목록에 추가_ 작업을 사용합니다. 이렇게 하면 연결된 Marketo Engage 인스턴스의 특정 정적 목록에 구매 그룹 구성원이 추가됩니다. 그런 다음 Marketo Engage의 스마트 목록 필터에 대해 솔루션 관심 집중 정적 목록 을 사용하십시오.
 
 +++[!UICONTROL Marketo 요청 캠페인에 추가]
 

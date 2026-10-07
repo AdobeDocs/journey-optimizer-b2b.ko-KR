@@ -1,35 +1,44 @@
 ---
 title: GenStudio for Performance Marketing을 사용하여 이메일 콘텐츠 만들기
-description: GenStudio for Performance Marketing을 Journey Optimizer B2B edition과 통합하여 HTML을 내보내고 AI 기반의 이메일 경험을 만들고 브랜드 콘텐츠를 가져옵니다.
+description: GenStudio for Performance Marketing과 Journey Optimizer B2B Edition 통합 - HTML을 내보내고, AI 기반의 이메일 경험을 만들고, 브랜드 콘텐츠를 가져옵니다.
 feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="제한된 가용성" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+autotag-review: 2026-03-30T22:24:40.416Z
+TQID: 'https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: 2026-03-30T22:24:40.416Z
-TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Content production
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 10%
-
 ---
-
 # GenStudio for Performance Marketing을 사용하여 이메일 콘텐츠 생성 {#genstudio-workflow}
 
 >[!CONTEXTUALHELP]
@@ -43,9 +52,9 @@ ht-degree: 10%
 >
 >이 통합은 이메일 채널에만 사용할 수 있습니다.
 
-워크플로우 효율성을 높이고 브랜드 일관성을 유지하기 위해 GenStudio for Performance Marketing 경험을 Adobe Journey Optimizer B2B edition 이메일 오케스트레이션과 결합할 수 있습니다. 확장된 워크플로우를 통해 GenStudio의 AI 기반 콘텐츠 생성 도구를 활용하여 계정 여정을 통해 이메일 커뮤니케이션을 확장하고 극대화할 수 있습니다.
+워크플로우 효율성을 높이고 브랜드 일관성을 유지하기 위해 GenStudio for Performance Marketing 경험을 Adobe Journey Optimizer B2B Edition 이메일 오케스트레이션과 결합할 수 있습니다. 확장된 워크플로우를 통해 GenStudio의 AI 기반 콘텐츠 생성 도구를 활용하여 계정 여정을 통해 이메일 커뮤니케이션을 확장하고 극대화할 수 있습니다.
 
-예를 들어 Journey Optimizer B2B edition을 사용하여 주요 계정에 대한 이메일 통신을 개발 및 자동화하는 기술 마케터는 GenStudio을 사용하여 콘텐츠를 만드는 성능 마케터와 공동 작업을 수행할 수 있습니다. 이 워크플로를 통해 둘 다 협력하여 GenStudio의 온브랜드 콘텐츠를 Journey Optimizer B2B edition 계정 기반 마케팅 자동화로 결합하여 특정 구매 그룹을 타깃팅하고 판매를 촉진하는 매력적인 이메일을 제공할 수 있습니다.
+예를 들어 Journey Optimizer B2B Edition을 사용하여 주요 계정에 대한 이메일 통신을 개발 및 자동화하는 기술 마케터는 GenStudio을 사용하여 콘텐츠를 만드는 성능 마케터와 공동 작업을 수행할 수 있습니다. 이 워크플로를 통해 둘 다 협력하여 GenStudio의 브랜드 내 콘텐츠를 Journey Optimizer B2B Edition 계정 기반 마케팅 자동화로 결합하여 특정 구매 그룹을 타깃팅하고 판매를 촉진하는 매력적인 이메일을 제공할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -59,11 +68,11 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-## Journey Optimizer B2B edition에서 HTML 내보내기
+## Journey Optimizer B2B Edition에서 HTML 내보내기
 
-먼저 Journey Optimizer B2B edition에서 브랜드의 지침이 포함된 이메일에서 HTML을 내보냅니다.
+먼저 Journey Optimizer B2B Edition에서 브랜드의 지침이 포함된 이메일에서 HTML을 내보냅니다.
 
-1. Journey Optimizer B2B edition에서 시각적 디자인 공간의 이메일 콘텐츠에 액세스합니다.
+1. Journey Optimizer B2B Edition에서 시각적 디자인 공간의 이메일 콘텐츠에 액세스합니다.
 
 1. 이메일 디자인 스페이스 상단의 _[!UICONTROL 자세히...]_ 메뉴에서 **[!UICONTROL HTML 내보내기]**&#x200B;를 선택합니다.
 
@@ -99,15 +108,15 @@ GenStudio for Performance Marketing에서 템플릿을 사용하여 여러 이�
 
 브랜디드 이메일 경험 생성에 대한 자세한 내용은 GenStudio for Performance Marketing 설명서에서 [이메일 경험 만들기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)를 참조하십시오.
 
-## 생성된 이메일 경험을 Journey Optimizer B2B edition에 추가
+## 생성된 이메일 경험을 Journey Optimizer B2B Edition에 추가
 
 >[!NOTE]
 >
 >GenStudio for Performance Marketing 통합은 이메일 만들기에만 사용할 수 있으며 이메일 템플릿 만들기에는 사용할 수 없습니다.
 
-내보낸 Journey Optimizer B2B edition 이메일 HTML 파일에서 만든 GenStudio 이메일 변형을 사용하려면 다음 단계를 수행합니다.
+내보낸 Journey Optimizer B2B Edition 이메일 HTML 파일에서 만든 GenStudio 이메일 변형을 사용하려면 다음 단계를 수행합니다.
 
-1. Journey Optimizer B2B edition에서 _[!UICONTROL 작업 수행]_ 노드를 사용하여 계정 여정에 [전자 메일을 추가](./add-email.md)합니다.
+1. Journey Optimizer B2B Edition에서 _[!UICONTROL 작업 수행]_ 노드를 사용하여 계정 여정에 [전자 메일을 추가](./add-email.md)합니다.
 
    * _[!UICONTROL Action on]_ 대상에 대해 **[!UICONTROL 사람]**&#x200B;을 선택하세요.
 
@@ -115,7 +124,7 @@ GenStudio for Performance Marketing에서 템플릿을 사용하여 여러 이�
 
      ![작업 수행 - 전자 메일 보내기](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
-   * _[!UICONTROL 전자 메일 원본]_&#x200B;에 대해 **[!UICONTROL 새 전자 메일 만들기]**&#x200B;를 선택하여 Journey Optimizer B2B edition에서 기본적으로 전자 메일을 만듭니다.
+   * _[!UICONTROL 전자 메일 원본]_&#x200B;에 대해 **[!UICONTROL 새 전자 메일 만들기]**&#x200B;를 선택하여 Journey Optimizer B2B Edition에서 기본적으로 전자 메일을 만듭니다.
 
 1. _전자 메일 만들기_ 페이지에서 **[!UICONTROL HTML 가져오기]**&#x200B;를 선택합니다.
 
@@ -133,7 +142,7 @@ GenStudio for Performance Marketing에서 템플릿을 사용하여 여러 이�
 
    >[!NOTE]
    >
-   >Journey Optimizer B2B edition 또는 Marketo Engage 템플릿에서 만든 GenStudio 경험은 이메일 디자인 공간으로 바로 가져옵니다. Journey Optimizer B2B edition 템플릿 없이 생성된 경험은 호환성 모드로 가져옵니다.
+   >Journey Optimizer B2B Edition 또는 Marketo Engage 템플릿에서 만든 GenStudio 경험은 이메일 디자인 공간으로 바로 가져옵니다. Journey Optimizer B2B Edition 템플릿 없이 생성된 경험은 호환성 모드로 가져옵니다.
 
 1. [전자 메일 콘텐츠 및 개인화 도구](./email-authoring.md)를 사용하여 필요에 따라 전자 메일을 편집하고 저장합니다.
 

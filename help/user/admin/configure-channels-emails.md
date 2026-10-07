@@ -4,26 +4,36 @@ description: Journey Optimizer B2B edition에서 게재 기능을 최적화하�
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+autotag-review: 2026-03-27T22:54:31.660Z
+TQID: 'https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:54:31.660Z
-TQID: https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 97%
-
 ---
-
 # 이메일 채널 구성
 
 Adobe Journey Optimizer B2B edition은 Marketo Engage의 채널 기능 및 이벤트 추적을 활용합니다. 관리자는 마케터에게 채널 제공을 활성화하기 위해 게재 및 추적 구성이 제대로 되어 있는지 확인해야 합니다. Marketo Engage을 통한 전자 메일 배달 및 추적에 필요한 프로토콜에 대한 자세한 내용은 [추적 및 전자 메일 배달에 필요한 프로토콜](../start/email-protocols.md)을 참조하세요.
@@ -80,11 +90,11 @@ _[!UICONTROL 엄격한 전송 보안]_&#x200B;을 사용하도록 설정하면 �
 
 ## 커뮤니케이션 제한
 
-통신 제한은 연락처가 조직에서 받는 전자 메일 수를 제어합니다. 설정한 제한은 Journey Optimizer B2B edition과 연결된 Marketo Engage 인스턴스 간에 공유됩니다. 이러한 제한을 설정하면 한 잠재 고객이 지정된 기간 동안 최대 이메일 수를 넘지 않도록 합니다.
+커뮤니케이션 제한은 연락처가 조직에서 받는 이메일 수를 제어합니다. 설정한 제한은 Journey Optimizer B2B Edition과 연결된 Marketo Engage 인스턴스 간에 공유됩니다. 이러한 제한을 설정하면 한 잠재 고객이 지정된 기간 동안 최대 이메일 수를 넘지 않도록 합니다.
 
 >[!AVAILABILITY]
 >
->Adobe 지원 센터에 문의하거나 지원 티켓을 열어 Journey Optimizer B2B edition과 하나 이상의 Marketo Engage 인스턴스 간에 통신 제한을 공유할 수 있습니다.
+>Journey Optimizer B2B Edition과 하나 이상의 Marketo Engage 인스턴스 간 통신 제한 공유를 활성화하려면 Adobe 지원 센터에 문의하거나 지원 티켓을 여십시오.
 
 >[!BEGINSHADEBOX]
 
@@ -95,13 +105,13 @@ _[!UICONTROL 엄격한 전송 보안]_&#x200B;을 사용하도록 설정하면 �
 
 >[!ENDSHADEBOX]
 
-예를 들어 하루에 5개의 이메일로 정의된 제한을 사용하는 경우 시스템에서는 6번째 이메일을 억제하여 한 연락처가 하루 내에 6번째 이메일을 받지 못하도록 합니다. Journey Optimizer B2B edition과 Marketo Engage 간에 공유된 통신 제한을 통해 통신 제한 규칙이 한 위치에 정의됩니다. 여섯 번째 이메일은 Journey Optimizer B2B edition 또는 Marketo Engage의 보내기 작업과 관계없이 표시되지 않습니다.
+예를 들어 하루에 5개의 이메일로 정의된 제한을 사용하는 경우 시스템에서는 6번째 이메일을 억제하여 한 연락처가 하루 내에 6번째 이메일을 받지 못하도록 합니다. Journey Optimizer B2B edition과 Marketo Engage 간에 공유된 통신 제한을 통해 통신 제한 규칙이 한 위치에 정의됩니다. 여섯 번째 이메일은 Journey Optimizer B2B Edition 또는 Marketo Engage의 보내기 작업과 관계없이 억제됩니다.
 
-모든 Marketo Engage 프로덕션 인스턴스에는 기본적으로 통신 제한이 정의되어 있습니다(자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} 참조). Journey Optimizer B2B edition 및 프로덕션 Marketo Engage 인스턴스에 대해 별도의 통신 제한을 사용할 수 있습니다. 공유 통신 제한을 사용하려면 Journey Optimizer B2B edition에서 규칙을 정의하고 이러한 제한의 공유를 Marketo Munchkin 코드로 확장합니다.
+모든 Marketo Engage 프로덕션 인스턴스에는 기본적으로 통신 제한이 정의되어 있습니다(자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} 참조). Journey Optimizer B2B Edition 및 프로덕션 Marketo Engage 인스턴스에 대해 별도의 통신 제한을 사용할 수 있습니다. 공유 통신 제한을 사용하려면 Journey Optimizer B2B edition에서 규칙을 정의하고 이러한 제한의 공유를 Marketo Munchkin 코드로 확장합니다.
 
 >[!IMPORTANT]
 >
->Marketo Munchkin 코드로 설정된 통신 규칙을 확장하려면 Adobe 계정 관리 팀에 문의하십시오. 이 구성은 일반적으로 온보딩 프로세스의 일부입니다.
+>통신 규칙 세트를 Marketo Munchkin 코드까지 확장하려면 Adobe 계정 관리 팀에 문의하십시오. 이 구성은 일반적으로 온보딩 프로세스의 일부입니다.
 
 통신 제한 규칙을 검토하거나 설정하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동하십시오. 탐색 패널의 _[!UICONTROL 전자 메일]_&#x200B;에서 **[!UICONTROL 통신 제한]**&#x200B;을 선택합니다.
 
@@ -171,7 +181,7 @@ DNS 설정에 SPF(Sender Policy Framework) 및 DKIM(Domain Keys Identified Mail)
 
 `[domain] IN TXT v=spf1 mx ip4:[corpIP] include:mktomail.com ~all`
 
-이 항목에서 `[domain]`을(를) 웹 사이트의 주 도메인(예: `company.com`)으로 바꾸고 `[corpIP]`을(를) 회사 전자 메일 서버의 IP 주소(예: `255.255.255.255`)로 바꿉니다. Marketo Engage을 통해 여러 도메인에서 이메일을 보내는 경우 한 줄에 각 도메인에 대해 이 항목을 추가하십시오.
+이 항목에서 `[domain]`을(를) 웹 사이트의 주 도메인(예: `company.com`)으로 바꾸고 `[corpIP]`을(를) 회사 전자 메일 서버의 IP 주소(예: `255.255.255.255`)로 바꿉니다. Marketo Engage를 통해 여러 도메인에서 이메일을 보내는 경우 한 줄에 각 도메인에 대해 이 항목을 추가하십시오.
 
 DNS 항목에 이미 SPF 레코드가 있는 경우 다음을 추가하기만 하면 됩니다.
 
@@ -181,7 +191,7 @@ DNS 항목에 이미 SPF 레코드가 있는 경우 다음을 추가하기만 �
 
 DKIM은 이메일 수신자가 이메일 메시지 발신자의 유효성을 검사하는 데 사용하는 인증 프로토콜입니다. 수신자는 메시지가 위조가 아님을 확신할 수 있으므로 종종 받은 편지함으로 이메일을 배달하는 기능이 향상됩니다.
 
-DNS 레코드에 공개 키가 있고 연결된 Marketo Engage 인스턴스에서 전송 도메인이 활성화된 경우 보내는 메시지에 사용자 지정 DKIM 서명이 사용됩니다. 사용자 지정 DKIM 서명에는 전송된 각 이메일이 있는 암호화된 디지털 서명이 포함됩니다. 그러면 수신자는 보내는 도메인의 DNS에서 _공개 키_&#x200B;를 조회하여 디지털 서명을 해독할 수 있습니다. 이메일의 키가 DNS 레코드의 키와 일치하는 경우 수신 메일 서버는 Marketo Engage을 통해 전송된 이메일을 수락할 가능성이 높습니다.
+DNS 레코드에 공개 키가 있고 연결된 Marketo Engage 인스턴스에서 전송 도메인이 활성화된 경우 보내는 메시지에 사용자 지정 DKIM 서명이 사용됩니다. 사용자 지정 DKIM 서명에는 전송되는 각 이메일에 암호화된 디지털 서명이 포함됩니다. 그러면 수신자는 보내는 도메인의 DNS에서 _공개 키_&#x200B;를 조회하여 디지털 서명을 해독할 수 있습니다. 이메일의 키가 DNS 레코드의 키와 일치하는 경우 수신 메일 서버는 Marketo Engage를 통해 전송된 이메일을 수락할 가능성이 높습니다.
 
 전자 메일 게재를 위한 사용자 지정 DKIM 서명 구성에 대한 자세한 내용은 [Marketo Engage 설명서](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}를 참조하세요.
 
@@ -189,16 +199,16 @@ DNS 레코드에 공개 키가 있고 연결된 Marketo Engage 인스턴스에�
 
 이메일 봇 활동은 이메일 열기 및 클릭 데이터를 잘못 부풀릴 수 있습니다.
 
-Marketo Engage에서는 보트 활동을 확인하는 두 가지 방법을 사용합니다.
+Marketo Engage에서는 봇 활동을 확인하는 두 가지 방법을 사용합니다.
 
 * **IAB(Interactive Advertising Bureau) 목록과 일치** - IAB UA/IP(사용자 에이전트/IP 주소) 목록에 있는 모든 활동과 일치하는 활동이 봇으로 표시됩니다.
 
 * **근접 패턴과 일치** - 두 개 이상의 활동이 동시에(1초 이내) 발생하면 봇으로 식별됩니다. 이 메서드는 비교를 위해 다음 속성을 고려합니다.
 
-   * 잠재 고객 ID(같아야 함)
-   * 이메일 자산(동일해야 함)
-   * 링크 클릭 또는 이메일 열기
-   * 시간 차이(1초 미만이어야 함)
+  * 잠재 고객 ID(같아야 함)
+  * 이메일 에셋(동일해야 함)
+  * 링크 클릭 또는 이메일 열기
+  * 시간 차이(1초 미만이어야 함)
 
 이메일 링크 클릭 및 이메일 열기 활동의 경우 새 속성이 다음 값으로 채워집니다.
 
@@ -210,7 +220,7 @@ Marketo Engage에서는 보트 활동을 확인하는 두 가지 방법을 사�
 
 ![전자 메일 게재를 위한 봇 활동 구성에 액세스](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
-설정은 Journey Optimizer B2B edition에서 읽기 전용입니다. 연결된 Marketo Engage 인스턴스의 구성 옵션에 액세스하려면 오른쪽 상단의 **[!UICONTROL 설정 편집]**&#x200B;을 클릭하십시오.
+설정은 Journey Optimizer B2B Edition에서 읽기 전용입니다. 연결된 Marketo Engage 인스턴스의 구성 옵션에 액세스하려면 오른쪽 상단의 **[!UICONTROL 설정 편집]**&#x200B;을 클릭하십시오.
 
 >[!NOTE]
 >

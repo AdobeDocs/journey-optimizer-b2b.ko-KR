@@ -1,29 +1,36 @@
 ---
 title: 구매 그룹 단계
-description: 시작, 성공 및 실패 단계를 포함하는 사용자 정의 구매 그룹 단계 모델을 구축하여 진행률을 추적하고 Journey Optimizer B2B edition에서 계정 여정 작업을 트리거합니다.
+description: 시작, 성공 및 실패 단계를 포함하는 사용자 정의 구매 그룹 단계 모델을 구축하여 진행을 추적하고 Journey Optimizer B2B Edition에서 계정 여정 작업을 트리거합니다.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+autotag-review: 2026-03-30T21:47:43.205Z
+TQID: 'https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
-autotag-review: 2026-03-30T21:47:43.205Z
-TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Automated decisioning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2326'
 ht-degree: 2%
-
 ---
-
 # 구매 그룹 단계
 
 구매 그룹 단계는 기회를 고객으로 전환함에 있어 구매 그룹의 진행 상황을 추적하기 위해 설계되었습니다. 이 기능을 사용하여 구매 그룹 진행률을 추적하고 구매 그룹 구성원에 대한 다음 최적 작업을 식별합니다.
@@ -42,7 +49,7 @@ ht-degree: 2%
 * 전환 흐름 정의
 * 시작 및 대상 단계 지정
 
-한 가지 모델만 지원됩니다. 최적의 모델을 계획하려면 Journey Optimizer B2B edition에서 만들고 게시하기 전에 마케팅 및 영업 팀과 협력하십시오.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+한 가지 모델만 지원됩니다. 최적의 모델을 계획하려면 Journey Optimizer B2B Edition에서 모델을 만들고 게시하기 전에 마케팅 및 영업 팀과 협력하십시오.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 구매 그룹 단계 모델을 만들 때 자동으로 _초안_ 상태가 되며 삭제하거나 이름을 바꿀 수 없습니다. 단계를 정의하고 단계 간 전환 흐름을 구성할 때 이 상태는 유지됩니다. 모델이 게시됨(_Live_) 상태인 경우 변경할 수 없습니다.
 

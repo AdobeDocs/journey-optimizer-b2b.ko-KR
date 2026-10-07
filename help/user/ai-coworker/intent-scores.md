@@ -1,35 +1,47 @@
 ---
 title: 의도 점수
-description: Journey Optimizer B2B edition이 개인 참여 및 콘텐츠 관련성에서 의도 점수를 계산하는 방법과 점수를 계정에 합산하는 방법을 이해합니다.
+description: Journey Optimizer B2B Edition이 개인 참여 및 콘텐츠 관련성에서 의도 점수를 계산하는 방법과 점수를 계정에 합산하는 방법을 이해합니다.
 feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
 subfeature_v2:
   - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+    internal-label: Person insights
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Machine learning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 
 # 의도 점수 {#intent-scores}
 
-의도 점수는 개인이나 계정이 키워드, 제품 또는 제품 카테고리에 얼마나 관심이 있는지를 측정합니다. Adobe Journey Optimizer B2B edition은 수동 규칙이나 고정 소수점 시스템이 아닌 의미의 유사성을 측정하는 머신 러닝을 사용하여 점수를 계산합니다. 모든 점수는 0에서 1로 표준화되며 숫자가 높을수록 더 강한 의도를 나타냅니다.
+의도 점수는 개인이나 계정이 키워드, 제품 또는 제품 카테고리에 얼마나 관심이 있는지를 측정합니다. Adobe Journey Optimizer B2B Edition은 수동 규칙이나 고정 소수점 시스템이 아닌 의미의 유사성을 측정하는 머신 러닝을 사용하여 점수를 계산합니다. 모든 점수는 0에서 1로 표준화되며 숫자가 높을수록 더 강한 의도를 나타냅니다.
 
 콘텐츠 관련성은 대략 12시간마다 새로 고침되고 의도 점수는 매일 다시 계산됩니다. 점수는 키워드에서 제품으로, 사용자에서 계정으로 집계됩니다. 의도 점수는 [지능형 대시보드](../dashboards/intelligent-dashboard.md) 전체와 [계정 세부 정보](../accounts/account-details.md), [_구매 그룹 세부 정보_ 페이지](../buying-groups/buying-group-details.md) 및 [사용자 세부 정보](../accounts/person-details.md) 페이지에 표시됩니다.
 
@@ -55,7 +67,7 @@ _[!UICONTROL 의도 매핑]_ 페이지에서 언제든지 분류법 매핑을 �
 
 ### 콘텐츠 관련성 {#content-relevance}
 
-Journey Optimizer B2B edition은 콘텐츠와 분류법을 의미를 수학적으로 표현한 다음 유사성 모델을 사용하여 정렬하는 정도를 측정합니다. 키워드나 제품과 거의 일치하는 콘텐츠는 관련성 점수가 높습니다. 관련 없는 컨텐츠는 낮은 점수를 받습니다.
+Journey Optimizer B2B Edition은 콘텐츠와 분류법을 의미를 수학적으로 표현한 다음 유사성 모델을 사용하여 정렬하는 정도를 측정합니다. 키워드나 제품과 거의 일치하는 콘텐츠는 관련성 점수가 높습니다. 관련 없는 컨텐츠는 낮은 점수를 받습니다.
 
 유사성 모델은 일반 언어에 대해 사전 교육되므로 시작하는 데 고객별 교육이 필요하지 않습니다.
 
@@ -75,7 +87,7 @@ Journey Optimizer B2B edition은 콘텐츠와 분류법을 의미를 수학적�
 
 ### 콘텐츠 추출 {#content-extraction}
 
-관련성에 대해 콘텐츠에 점수를 매기기 전에 Journey Optimizer B2B edition에서 텍스트를 추출하여 읽습니다.
+관련성에 대해 콘텐츠에 점수를 매기기 전에 Journey Optimizer B2B Edition에서 해당 텍스트를 추출하여 읽습니다.
 
 * 각 새로운 콘텐츠에 대해 시스템은 웹 페이지에 있든 이메일에 있든 관계없이 기본 텍스트를 추출합니다.
 * 양식 채우기와 같은 일부 활동 유형은 이미 자체 설명 콘텐츠를 포함하며 이 단계를 건너뜁니다.

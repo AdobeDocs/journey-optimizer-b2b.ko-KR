@@ -1,29 +1,37 @@
 ---
 title: 다음 베스트 경로 노드
-description: AI 기반 의사 결정을 사용하여 Journey Optimizer B2B edition의 자연어 프롬프트, 행동 데이터 및 실시간 프로필 컨텍스트를 기반으로 가장 관련성이 높은 여정 경로를 따라 사람들을 라우팅합니다.
+description: AI 기반 의사 결정을 사용하여 Journey Optimizer B2B Edition의 자연어 프롬프트, 행동 데이터 및 실시간 프로필 컨텍스트를 기반으로 가장 관련성이 높은 여정 경로를 따라 사람들을 라우팅합니다.
 feature: Account Journeys, AI Assistant
 role: User
 autotag-review: '2026-05-20T18:52:08.227Z'
 TQID: 'https://experienceleague.adobe.com/idPaG-ZNnNwJjN8yVC3Ay1FZ2XPgtQgrSMNIus4fReI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Behavioral data
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1913
+source-wordcount: '1913'
 ht-degree: 0%
-
 ---
-
 # 다음 최적 경로 노드
 
 _다음 최적 경로_ 노드는 AI 기반 분할 경로 결정을 여정 캔버스로 직접 가져옵니다. [분할된 경로](./split-merge-paths-nodes.md) 노드에서 필터 조건을 구성하는 대신, 자연어로 의도를 설명하고 시스템에서 각 사용자에 대해 가장 관련성이 높은 경로를 결정하도록 합니다.

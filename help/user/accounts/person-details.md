@@ -1,30 +1,38 @@
 ---
 title: 개인 세부 정보
-description: AI가 생성한 요약, 참여 점수, 활동 추적 및 Journey Optimizer B2B edition 구매 그룹 구성원에 대한 의도 감지로 개인 인사이트를 봅니다.
+description: Journey Optimizer B2B Edition에서 구매 그룹 구성원을 위한 AI 생성 요약, 참여 점수, 활동 추적 및 의도 감지로 개인 인사이트를 봅니다.
 feature: Account Insights
 role: User
 exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+autotag-review: 2026-03-27T22:21:27.328Z
+TQID: 'https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:21:27.328Z
-TQID: https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 6%
-
 ---
-
 # 개인 정보
 
-Journey Optimizer B2B edition의 어디에서든 개인 이름을 클릭하면 개인 세부 정보 페이지가 표시됩니다. 이 페이지에는 강조 표시 및 의도 데이터(구성된 경우)의 생성 AI 요약을 포함하여 계정 또는 구매 그룹과 관련된 사람에 대한 유용한 정보가 포함되어 있습니다. <!-- There are also [actions](#person-actions) that you can execute for the person. -->
+Journey Optimizer B2B Edition의 어디에서든 개인 이름을 클릭하면 개인 세부 정보 페이지가 표시됩니다. 이 페이지에는 강조 표시 및 의도 데이터(구성된 경우)의 생성 AI 요약을 포함하여 계정 또는 구매 그룹과 관련된 사람에 대한 유용한 정보가 포함되어 있습니다. <!-- There are also [actions](#person-actions) that you can execute for the person. -->
 
 ![개인 세부 정보 페이지](./assets/person-details-page.png){width="800" zoomable="yes"}
 
@@ -65,7 +73,7 @@ Journey Optimizer B2B edition의 어디에서든 개인 이름을 클릭하면 �
 
 ## 의도 데이터
 
-Journey Optimizer B2B edition에서 의도 감지 모델은 사람의 활동을 기반으로 충분히 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 태그된 콘텐츠와 함께 다른 계정 공동 멤버의 활동도 활용합니다. 사람의 의도는 상품에 대한 관심을 가질 확률로 해석할 수 있다.
+Journey Optimizer B2B Edition에서 의도 감지 모델은 사람의 활동을 기반으로 충분히 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 태그된 콘텐츠와 함께 다른 계정 공동 멤버의 활동도 활용합니다. 사람의 의도는 상품에 대한 관심을 가질 확률로 해석할 수 있다.
 
 {{intent-data-note}}
 

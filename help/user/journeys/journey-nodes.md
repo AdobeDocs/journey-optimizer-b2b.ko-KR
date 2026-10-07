@@ -1,28 +1,34 @@
 ---
 title: 여정 노드
-description: Journey Optimizer B2B edition의 크로스 채널 마케팅을 위해 작업, 이벤트 및 오케스트레이션 노드(대상, 대기, 분할 및 병합)를 사용하여 여정을 작성합니다.
+description: Journey Optimizer B2B Edition에서 크로스 채널 마케팅을 위해 작업, 이벤트 및 오케스트레이션 노드(대상, 대기, 분할 및 병합)를 사용하여 여정을 작성합니다.
 feature: Account Journeys
 hide: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
+autotag-review: 2026-03-30T23:13:57.315Z
+TQID: 'https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:13:57.315Z
-TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '135'
 ht-degree: 18%
-
 ---
-
 # 여정 노드
 
 여정(계정 여정 또는 개인 여정)를 만든 후 대상을 추가하고 노드를 사용하여 여정을 구성합니다. 여정 맵은 여러 단계의 B2B 마케팅 사용 사례를 빌드할 수 있는 캔버스를 제공합니다.

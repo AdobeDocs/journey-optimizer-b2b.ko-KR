@@ -1,31 +1,35 @@
 ---
 title: 개인 대상 노드
-description: 세그먼트 또는 이벤트 기반 대상자로 개인 대상 노드를 구성하여 Journey Optimizer B2B edition의 타깃팅된 오케스트레이션에 대한 개인 여정 진입점을 정의합니다.
+description: 세그먼트 또는 이벤트 기반 대상자로 개인 대상 노드를 구성하여 Journey Optimizer B2B Edition의 타깃팅된 오케스트레이션에 대한 개인 여정 진입점을 정의합니다.
 feature: Audiences
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 1%
-
+source-wordcount: '641'
+ht-degree: 0%
 ---
-
 # 개인 대상 여정 노드
 
 _개인 대상_ 노드는 여정에 들어오는 개인 프로필을 지정합니다. [개인 여정을 만듭니다](./create-publish-journey.md#create-a-journey). 여정은 항상 입력을 정의하는 개인 대상 노드로 시작합니다. 개인 대상 노드에는 CDP 세그먼트 또는 이벤트 기반 멤버십과 같은 두 가지 대상 입력 유형 중 하나가 있을 수 있습니다. 세그먼트 및 이벤트 기반 대상 정의는 결합할 수 없습니다.
@@ -36,13 +40,9 @@ _개인 대상_ 노드는 여정에 들어오는 개인 프로필을 지정합�
 
 * **이벤트 대상** - 자격을 갖춘 이벤트를 사용하여 대상을 정의합니다. 이러한 이벤트는 노드 구성에 정의되어 있으며 관리 설정에 구성된 [XDM 이벤트](../admin/configure-aep-events.md)를 사용해야 합니다. 이벤트 기반 대상 멤버십에 대해 최대 10개의 이벤트가 지원됩니다. 프로필은 해당 프로필이 취하는 첫 번째 일치 이벤트 후 즉시 여정 자격을 얻습니다.
 
-  >[!NOTE]
-  >
-  >이벤트를 프로필 속성과 결합하여 대상 정의를 좁힐 수 없습니다. 이 제한을 해결하기 위한 개선 사항은 향후 릴리스에서 계획되어 있습니다.
-
 ## 프로필 수집
 
-Journey Optimizer B2B edition에서 야간 대상자 수집 작업은 프로필을 Experience Platform과 동기화합니다. 이벤트 기반 개인 여정은 Journey Optimizer B2B edition에서 사용하는 대상에 없는 프로필에 대해 자격을 부여할 수 있지만, 이러한 프로필은 개인 여정, 계정 여정 또는 구매 그룹에서 사용하는 대상에 참여하지 않는 한 부실 상태로 유지됩니다. 프로필이 수집되고 나중에 대상에 추가되면 프로필 결합이 수행되고 프로필은 Experience Platform과 동기화된 상태로 유지됩니다. 이 프로필 데이터 동기화에 대한 개선은 향후 릴리스에 예정되어 있습니다.
+Journey Optimizer B2B Edition에서 야간 대상자 수집 작업은 프로필을 Experience Platform과 동기화합니다. 이벤트 기반 개인 여정은 Journey Optimizer B2B Edition에서 사용하는 대상에 없는 프로필에 대해 자격을 부여할 수 있지만, 이러한 프로필은 개인 여정, 계정 여정 또는 구매 그룹에서 사용하는 대상에 참여하지 않는 한 부실 상태로 유지됩니다. 프로필이 수집되고 나중에 대상에 추가되면 프로필 결합이 수행되고 프로필은 Experience Platform과 동기화된 상태로 유지됩니다. 이 프로필 데이터 동기화에 대한 개선은 향후 릴리스에 예정되어 있습니다.
 
 이벤트 기반 개인 여정이 수집한 새로 만든 프로필에는 수집 시 업데이트된 프로필 정보가 부족할 수 있습니다. 예를 들어, 양식 채우기 이벤트를 통해 프로필을 만드는 경우 여정이 해당 프로필을 수집할 때 제출된 데이터가 프로필에 동기화되지 않을 수 있습니다. 결과는 개인화를 위한 불완전한 데이터일 수 있습니다(예: 이메일 콘텐츠). 이 프로필 이벤트 데이터 동기화에 대한 개선은 향후 릴리스에 예정되어 있습니다.
 
@@ -50,7 +50,7 @@ Journey Optimizer B2B edition에서 야간 대상자 수집 작업은 프로필�
 
 >[!IMPORTANT]
 >
->현재 Beta 프로그램 동안 개인 여정의 이상적인 사용은 계정 여정 및 구매 그룹 정의에서도 타겟팅하는 프로필만 자격을 부여하는 것입니다. 이렇게 하면 Experience Platform과 동기화된 상태로 유지되는 전체 프로필을 만들 수 있습니다.
+>개인 여정의 이상적인 사용은 계정 여정 및 구매 그룹 정의에서도 타겟팅하는 프로필만 자격을 부여하는 것입니다. 이렇게 하면 Experience Platform과 동기화된 상태로 유지되는 전체 프로필을 만들 수 있습니다.
 
 ## 개인 대상 노드에 대한 대상 설정
 

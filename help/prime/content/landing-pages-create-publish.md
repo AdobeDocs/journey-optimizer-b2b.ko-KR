@@ -8,21 +8,27 @@ autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1562
+source-wordcount: '1562'
 ht-degree: 11%
-
 ---
-
 # 랜딩 페이지 만들기 및 게시
 
 마케터는 여정에 통합할 페이지를 정의하고 게시할 수 있습니다. 새 랜딩 페이지를 추가할 때 기본 페이지와 하위 페이지를 구성하고, 콘텐츠를 디자인하고, 테스트하고, 게시합니다.
@@ -199,15 +205,15 @@ HTML 콘텐츠가 포함된 파일을 가져오려면(_T):_
 
 * 권장 사항 및 모범 사례를 참조하는 **_경고_**:
 
-   * `Placeholder links are present in the landing page body`: 자리 표시자를 올바른 링크로 바꾸는 것을 잊지 마십시오.
+  * `Placeholder links are present in the landing page body`: 자리 표시자를 올바른 링크로 바꾸는 것을 잊지 마십시오.
 
-   * `Text version of HTML is empty`: 페이지 본문의 텍스트 버전을 정의해야 합니다. 텍스트 버전은 HTML 콘텐츠를 표시할 수 없을 때 사용됩니다.
+  * `Text version of HTML is empty`: 페이지 본문의 텍스트 버전을 정의해야 합니다. 텍스트 버전은 HTML 콘텐츠를 표시할 수 없을 때 사용됩니다.
 
-   * `Empty link is present in page body`: 페이지의 모든 링크가 올바른지 확인하십시오.
+  * `Empty link is present in page body`: 페이지의 모든 링크가 올바른지 확인하십시오.
 
 * **_오류_**&#x200B;로 인해 여정을 테스트하거나 활성화할 수 없습니다. 예를 들면 다음과 같습니다.
 
-   * `The landing page content is empty`: 페이지 컨텐츠는 필수입니다.
+  * `The landing page content is empty`: 페이지 컨텐츠는 필수입니다.
 
 ## 랜딩 페이지 테스트 {#test-landing-page}
 

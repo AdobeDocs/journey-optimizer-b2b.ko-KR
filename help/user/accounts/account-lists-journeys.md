@@ -1,26 +1,33 @@
 ---
 title: 여정에서 계정 목록 사용
-description: 여정 오케스트레이션에서 계정 목록을 사용하고 Journey Optimizer B2B edition에서 계정을 동적으로 추가/제거합니다.
+description: 여정 오케스트레이션에서 계정 목록을 사용하고 Journey Optimizer B2B Edition에서 동적으로 계정을 추가/제거합니다.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
+autotag-review: 2026-03-27T22:29:03.719Z
+TQID: 'https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-27T22:29:03.719Z
-TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # 여정에서 계정 목록 사용
 
 여러 가지 방법으로 라이브(게시된) 계정 목록을 계정 여정에 통합할 수 있습니다.

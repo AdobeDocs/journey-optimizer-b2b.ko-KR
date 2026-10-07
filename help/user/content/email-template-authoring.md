@@ -1,29 +1,38 @@
 ---
 title: 이메일 템플릿 작성
-description: Journey Optimizer B2B edition의 계정 여정을 위한 시각적 디자인 도구, 사용자 지정 CSS, 조각 및 개인화를 사용하여 재사용 가능한 이메일 템플릿을 작성합니다.
+description: Journey Optimizer B2B Edition의 계정 여정을 위한 시각적 디자인 도구, 사용자 지정 CSS, 조각 및 개인화를 사용하여 재사용 가능한 이메일 템플릿을 작성합니다.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
 autotag-review: 2026-03-30T22:30:02.360Z
+TQID: 'https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-TQID: https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 547
-ht-degree: 2%
-
+source-wordcount: '547'
+ht-degree: 3%
 ---
-
 # 이메일 템플릿 작성
 
 [전자 메일 템플릿을 만든](./email-templates.md#create-an-email-template) 후 시각적 디자인 공간을 사용하여 전자 메일 템플릿의 구조적 구성 요소와 콘텐츠 구성 요소를 작성합니다.
@@ -83,8 +92,8 @@ _어두운 모드_&#x200B;를 사용하여 전자 메일 클라이언트의 어�
 * 사전 설정된 확대/축소 옵션에서 콘텐츠를 확대/축소합니다.
 
 * 데스크탑, 모바일 또는 텍스트 전용/일반 텍스트에서 컨텐츠 보기를 전환합니다.
-   * 여러 장치에서 콘텐트 미리 보기를 위해 _눈_ 아이콘을 클릭합니다.
-   * 기본 제공 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
+  * 여러 장치에서 콘텐트 미리 보기를 위해 _눈_ 아이콘을 클릭합니다.
+  * 기본 제공 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
 
 ### 추가 옵션
 

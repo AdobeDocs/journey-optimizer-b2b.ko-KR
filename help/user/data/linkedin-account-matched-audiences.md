@@ -4,42 +4,50 @@ description: LinkedIn 계정을 연결하고 계정 구성원의 데이터 흐�
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
+autotag-review: 2026-03-30T22:49:08.608Z
+TQID: 'https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:49:08.608Z
-TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '1015'
 ht-degree: 14%
-
 ---
-
 # LinkedIn 계정 일치 대상
 
 [!DNL Journey Optimizer B2B Edition]은(는) Account Matched Audiences를 통해 LinkedIn 광고 대상을 생성하는 기능을 제공하며, 구매 그룹에서 빈 역할을 채우는 데 도움이 되도록 설계되었습니다. 구매 그룹 필터 세트를 정의하면 LinkedIn 일치 대상자를 유지하여 구매 그룹 매개변수와 일치하는 잠재 고객을 타기팅할 수 있습니다. _작업 수행_ 노드의 계정 여정에서 대상을 활성화할 수도 있습니다.
 
 이 기능은 Experience Platform 대상을 활용하여 통합의 일부 요소를 관리합니다. 데이터 흐름은 10개로 제한됩니다.
 
-Journey Optimizer B2B edition에서 데이터 흐름을 시작하려면 Experience Platform 애플리케이션에 LinkedIn Campaign Manager 계정이 구성된 [(회사) LinkedIn 일치하는 대상 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}의 인스턴스가 하나 이상 있어야 합니다.
+Journey Optimizer B2B Edition에서 데이터 흐름을 시작하려면 먼저 Experience Platform 애플리케이션에 LinkedIn Campaign Manager 계정이 구성된 [(회사) LinkedIn 일치하는 대상 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}의 인스턴스가 하나 이상 있어야 합니다.
 
 ## 새 LinkedIn 계정 연결 구성 {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
 >title="LinkedIn 대상 설정 필요"
->abstract="구매 그룹별로 필터링한 계정을 Linkedin 대상으로 보내 잠재적인 구매 그룹 멤버와 소통합니다. 10개의 필터링된 계정 그룹에 대해 최대 10개의 데이터 흐름을 생성할 수 있습니다. 이 기능을 시작하려면 먼저 Linkedin 대상을 추가하십시오."
+>abstract="구매 그룹별로 필터링한 계정을 LinkedIn 대상으로 보내 잠재적인 구매 그룹 멤버와 소통합니다. 10개의 필터링된 계정 그룹에 대해 최대 10개의 데이터 흐름을 생성할 수 있습니다. 이 기능을 시작하려면 먼저 LinkedIn 대상을 추가하십시오."
 
 1. Experience Platform에서 왼쪽 탐색의 **[!UICONTROL 연결]** > **[!UICONTROL 대상]**(으)로 이동한 다음 **[!UICONTROL 카탈로그]** 탭을 선택합니다.
 
@@ -69,7 +77,7 @@ Journey Optimizer B2B edition에서 데이터 흐름을 시작하려면 Experien
 
 ## 계정 세부 정보 업데이트
 
-LinkedIn 계정의 이름 및 설명은 Journey Optimizer B2B edition의 구매 그룹에 대해 표시됩니다. 구매 그룹으로 작업하는 마케터용으로 쉽게 식별할 수 있도록 이 정보를 업데이트하는 것이 좋습니다. Experience Platform 또는 Journey Optimizer B2B edition UI에서 계정 세부 사항을 변경할 수 있습니다.
+LinkedIn 계정의 이름과 설명은 Journey Optimizer B2B Edition의 구매 그룹에 대해 표시됩니다. 구매 그룹으로 작업하는 마케터용으로 쉽게 식별할 수 있도록 이 정보를 업데이트하는 것이 좋습니다. Experience Platform 또는 Journey Optimizer B2B Edition UI에서 계정 세부 사항을 변경할 수 있습니다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL 연결]** > **[!UICONTROL 대상]**(으)로 이동한 다음 **[!UICONTROL 계정]** 탭을 선택합니다.
 
@@ -87,7 +95,7 @@ LinkedIn 계정의 이름 및 설명은 Journey Optimizer B2B edition의 구매 
 
 >[!NOTE]
 >
->이미 데이터 흐름이 10개인 경우 다른 데이터 흐름을 만들 수 없습니다. 최대 수준인 경우 Experience Platform B2B edition에서 새 항목을 만들기 전에 Journey Optimizer에서 하나를 삭제하십시오.
+>이미 데이터 흐름이 10개인 경우 다른 데이터 흐름을 만들 수 없습니다. 최대 수준인 경우 Journey Optimizer B2B Edition에서 새 항목을 만들기 전에 Experience Platform에서 하나를 삭제하십시오.
 
 1. Journey Optimizer B2B Edition의 왼쪽 탐색 영역에서 **[!UICONTROL 계정]** > **[!UICONTROL 구매 그룹]**&#x200B;으로 이동합니다.
 

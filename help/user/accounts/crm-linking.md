@@ -5,31 +5,39 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+autotag-review: 2026-03-27T22:24:19.286Z
+TQID: 'https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: addf009e-030a-4310-8534-776a3e62ed48
-autotag-review: 2026-03-27T22:24:19.286Z
-TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer lifecycle
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1470'
 ht-degree: 2%
-
 ---
-
 # CRM 내에서 세부 정보 페이지 액세스
 
-Adobe Journey Optimizer B2B edition을 사용하면 영업 및 계정 팀원이 Salesforce 또는 Microsoft Dynamics과 같은 고객 관계 관리(CRM) 도구에서 계정 및 구매 그룹 정보에 대한 세부 페이지에 직접 액세스할 수 있습니다. 이 통합을 통해 영업 담당자는 참여 내역, 의도 신호, AI가 생성한 권장 사항과 같은 실시간 계정 및 구매 그룹 인사이트에 빠르게 액세스할 수 있습니다. 이 기능을 통해 영업 팀은 신속한 지원, 보다 스마트한 우선 순위 지정 및 마케팅에 보다 효과적으로 대응할 수 있습니다.
+Adobe Journey Optimizer B2B Edition을 사용하면 영업 및 계정 팀원이 Salesforce 또는 Microsoft Dynamics과 같은 고객 관계 관리(CRM) 도구에서 계정 및 구매 그룹 정보에 대한 세부 페이지에 직접 액세스할 수 있습니다. 이 통합을 통해 영업 담당자는 참여 내역, 의도 신호, AI가 생성한 권장 사항과 같은 실시간 계정 및 구매 그룹 인사이트에 빠르게 액세스할 수 있습니다. 이 기능을 통해 영업 팀은 신속한 지원, 보다 스마트한 우선 순위 지정 및 마케팅에 보다 효과적으로 대응할 수 있습니다.
 
-영업 및 계정 팀원이 CRM에서 Journey Optimizer B2B edition의 [계정 세부 정보](account-details.md) 및 [개인 세부 정보](person-details.md) 페이지를 볼 수 있도록 하려면 Salesforce 또는 Dynamics 관리자가 계정, 연락처 또는 잠재 고객 보기에서 링크를 추가할 수 있습니다.
+영업 및 계정 팀원이 CRM에서 Journey Optimizer B2B Edition의 [계정 세부 정보](account-details.md) 및 [개인 세부 정보](person-details.md) 페이지를 볼 수 있도록 하려면 Salesforce 또는 Dynamics 관리자가 계정, 연락처 또는 잠재 고객 보기에서 링크를 추가할 수 있습니다.
 
 영업 팀 구성원이 CRM 인스턴스의 링크를 사용하는 경우 샌드박스는 _Prod_&#x200B;여야 하며 IMS 조직은 다음과 같은 순서가 지정된 논리에 따라 결정됩니다.
 
@@ -39,7 +47,7 @@ Adobe Journey Optimizer B2B edition을 사용하면 영업 및 계정 팀원이 
 
 ## Salesforce 링크
 
-_응용 프로그램 사용자 지정_ 권한이 있는 Salesforce 관리자는 계정, 연락처 또는 잠재 고객 레이아웃에서 링크를 구성할 수 있습니다. 구성된 링크를 통해 Sales 사용자는 Adobe Journey Optimizer B2B edition의 해당 계정 세부 정보 또는 개인 세부 정보 페이지에 액세스할 수 있습니다.
+_응용 프로그램 사용자 지정_ 권한이 있는 Salesforce 관리자는 계정, 연락처 또는 잠재 고객 레이아웃에서 링크를 구성할 수 있습니다. 구성된 링크를 통해 Sales 사용자는 Adobe Journey Optimizer B2B Edition에서 해당 계정 세부 정보 또는 개인 세부 정보 페이지에 액세스할 수 있습니다.
 
 Salesforce에서 사용자 지정 링크를 단추, 하이퍼링크 또는 연결된 아이콘으로 추가하고 팀의 환경 설정에 따라 사용자 지정합니다.
 
@@ -47,7 +55,7 @@ Salesforce에서 사용자 지정 링크를 단추, 하이퍼링크 또는 연�
 
 Salesforce에서 사용자 지정 링크를 추가하는 방법에 대한 자세한 내용은 Salesforce 설명서의 [사용자 지정 단추 및 링크 정의](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5)를 참조하십시오.
 
-링크에 대한 대상 URL을 정의할 때 계정, 연락처 또는 잠재 고객 레이아웃을 사용하여 Journey Optimizer B2B edition의 해당 세부 정보 페이지에 연결할 수 있습니다.
+링크에 대한 대상 URL을 정의할 때 계정, 연락처 또는 잠재 고객 레이아웃을 사용하여 Journey Optimizer B2B Edition의 해당 세부 정보 페이지에 연결할 수 있습니다.
 
 * **계정** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[18-character ID of account]`
 
@@ -130,7 +138,7 @@ Salesforce에서 사용자 지정 링크를 추가하는 방법에 대한 자세
 
 ## Microsoft Dynamics 링크
 
-Dynamics 개발자는 Account, Contact 또는 Lead 엔티티를 확장하여 링크 필드를 추가할 수 있습니다. 구성된 링크를 통해 Sales 사용자는 Adobe Journey Optimizer B2B edition의 해당 계정 세부 정보 또는 개인 세부 정보 페이지에 액세스할 수 있습니다.
+Dynamics 개발자는 Account, Contact 또는 Lead 엔티티를 확장하여 링크 필드를 추가할 수 있습니다. 구성된 링크를 통해 Sales 사용자는 Adobe Journey Optimizer B2B Edition에서 해당 계정 세부 정보 또는 개인 세부 정보 페이지에 액세스할 수 있습니다.
 
 사용자 지정 링크를 단추, 하이퍼링크 또는 연결된 아이콘 링크로 추가하고 팀의 기본 설정에 따라 사용자 지정합니다.
 
@@ -138,7 +146,7 @@ Dynamics 개발자는 Account, Contact 또는 Lead 엔티티를 확장하여 링
 
 Power Apps를 사용하여 Dynamics 구성 요소와 같은 Microsoft 모델 기반 앱을 사용자 지정합니다. Power Apps를 사용하여 Dynamics에서 사용자 지정 링크를 추가하는 방법에 대한 자세한 내용은 [PowerApps 설명서](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources)를 참조하십시오.
 
-링크에 대한 대상 URL을 정의하면 계정, 연락처 또는 리드 보기를 사용하여 Journey Optimizer B2B edition의 해당 세부 정보 페이지에 연결할 수 있습니다.
+링크에 대한 대상 URL을 정의할 때 계정, 연락처 또는 리드 보기를 사용하여 Journey Optimizer B2B Edition의 해당 세부 정보 페이지에 연결할 수 있습니다.
 
 * **계정** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[Account ID]`
 

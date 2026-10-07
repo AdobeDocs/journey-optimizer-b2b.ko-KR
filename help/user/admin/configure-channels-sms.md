@@ -1,40 +1,48 @@
 ---
 title: SMS 채널 구성
-description: Sinch, Twilio 및 Infobip과 같은 SMS 공급자를 API 자격 증명과 연결하여 Journey Optimizer B2B edition 여정에서 텍스트 메시지를 사용할 수 있습니다.
+description: Sinch, Twilio 및 Infobip과 같은 SMS 공급자를 API 자격 증명과 연결하여 Journey Optimizer B2B Edition 여정에서 텍스트 메시지를 사용할 수 있습니다.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+autotag-review: 2026-03-27T22:56:54.661Z
+TQID: 'https://experienceleague.adobe.com/JTGUye7nh2sAbpPvqgRNYfkWZtRJCjsvSi3DuOioD-U'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:56:54.661Z
-TQID: https://experienceleague.adobe.com/JTGUye7nh2sAbpPvqgRNYfkWZtRJCjsvSi3DuOioD-U
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 0%
-
 ---
-
 # SMS 채널 구성
 
-Adobe Journey Optimizer B2B edition은 SMS 서비스 공급자(또는 SMS 게이트웨이 공급자)를 통해 텍스트 메시지를 보냅니다. SMS 메시지를 만들기 전에 _관리자_ 설정에서 서비스 공급자를 구성하십시오.
+Adobe Journey Optimizer B2B Edition은 SMS 서비스 공급자(또는 SMS 게이트웨이 공급자)를 통해 텍스트 메시지를 보냅니다. SMS 메시지를 만들기 전에 _관리자_ 설정에서 서비스 공급자를 구성하십시오.
 
 ## SMS 게이트웨이 서비스 공급자
 
-Adobe Journey Optimizer B2B edition은 현재 텍스트 메시지 서비스를 독립적으로 제공하는 서드파티 공급자와 통합됩니다. 텍스트 메시지에 대해 지원되는 공급자는 Sinch, Twilio 및 Infobip입니다.
+Adobe Journey Optimizer B2B Edition은 현재 텍스트 메시지 서비스를 독립적으로 제공하는 서드파티 공급자와 통합됩니다. 텍스트 메시지에 대해 지원되는 공급자는 Sinch, Twilio 및 Infobip입니다.
 
-Adobe Journey Optimizer B2B edition에서 SMS 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 만들어 API 토큰 및 서비스 ID를 가져와야 합니다. Adobe Journey Optimizer B2B edition과 해당 공급자 간의 연결을 구성하는 데 이러한 자격 증명이 필요합니다.
+Adobe Journey Optimizer B2B Edition에서 SMS 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 만들어 API 토큰 및 서비스 ID를 가져와야 합니다. Adobe Journey Optimizer B2B Edition과 해당 공급자 간의 연결을 구성하는 데 이러한 자격 증명이 필요합니다.
 
 >[!IMPORTANT]
 >
->문자 메시지 서비스 사용은 해당 공급자의 추가 약관이 적용됩니다. 타사 솔루션인 Sinch, Twilio 및 Infobip은 통합을 통해 Adobe Journey Optimizer B2B edition 사용자가 사용할 수 있습니다. Adobe은 서드파티 제품을 제어하지 않으며 이에 대해 책임을 지지 않습니다. 문자 메시지 서비스(SMS)와 관련된 문제 또는 지원 요청은 공급자에게 문의하십시오.
+>문자 메시지 서비스 사용은 해당 공급자의 추가 약관이 적용됩니다. 타사 솔루션인 Sinch, Twilio 및 Infobip은 통합을 통해 Adobe Journey Optimizer B2B Edition 사용자에게 제공됩니다. Adobe은 서드파티 제품을 제어하지 않으며 이에 대해 책임을 지지 않습니다. 문자 메시지 서비스(SMS)와 관련된 문제 또는 지원 요청은 공급자에게 문의하십시오.
 
 ## 기존 SMS API 구성 확인
 
@@ -60,7 +68,7 @@ Adobe Journey Optimizer B2B edition에서 SMS 채널을 구성하기 전에 이�
 
 >[!TAB Sinch]
 
-Adobe Journey Optimizer B2B edition을 사용하여 Sinch를 SMS 공급자로 구성하려면(_T):_
+Adobe Journey Optimizer B2B Edition :_을(를) 사용하여 Sinch를 SMS 공급자로 구성하려면(_T)
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 
@@ -82,7 +90,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 Sinch를 SMS 공급자로 �
 
 >[!TAB Twilio]
 
-Adobe Journey Optimizer B2B edition을 사용하여 Twilio를 SMS 공급자로 구성하려면(_T):_
+Adobe Journey Optimizer B2B Edition :_을(를) 사용하여 Twilio를 SMS 공급자로 구성하려면(_T)
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 
@@ -104,7 +112,7 @@ Adobe Journey Optimizer B2B edition을 사용하여 Twilio를 SMS 공급자로 �
 
 >[!TAB Infobip]
 
-Adobe Journey Optimizer B2B edition을 사용하여 Infobip를 SMS 공급자로 구성하려면(_T):_
+Adobe Journey Optimizer B2B Edition :_을(를) 사용하여 Infobip를 SMS 공급자로 구성하려면(_T)
 
 1. 왼쪽 탐색에서 **[!UICONTROL 관리자]** 섹션을 확장하고 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 

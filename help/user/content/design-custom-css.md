@@ -1,30 +1,42 @@
 ---
 title: 콘텐츠에 대한 사용자 지정 CSS 추가
-description: Journey Optimizer B2B edition의 표준 구성 요소를 넘어 고급 스타일 지정 및 정밀한 디자인 제어를 위해 이메일 및 랜딩 페이지에 사용자 지정 CSS를 추가합니다.
+description: Journey Optimizer B2B Edition의 표준 구성 요소를 넘어 고급 스타일 지정 및 정밀한 디자인 제어를 위해 이메일 및 랜딩 페이지에 사용자 지정 CSS를 추가합니다.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
+autotag-review: 2026-03-30T22:36:27.982Z
+TQID: 'https://experienceleague.adobe.com/yOvuidpHGmO0jnf8X0PeWDORJyFf2c8QWnqY9epK0nE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-autotag-review: 2026-03-30T22:36:27.982Z
-TQID: https://experienceleague.adobe.com/yOvuidpHGmO0jnf8X0PeWDORJyFf2c8QWnqY9epK0nE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 # 콘텐츠에 대한 사용자 지정 CSS 추가
 
 이메일 또는 랜딩 페이지 디자인 공간 내에 직접 사용자 지정 CSS를 추가할 수 있습니다. 사용자 지정 CSS를 사용하여 콘텐츠의 모양을 보다 유연하게 제어하고, 고급 및 특정 스타일을 적용할 수 있습니다.

@@ -1,28 +1,34 @@
 ---
 title: 이메일 Collaboration 도구
-description: Journey Optimizer B2B edition에서 이메일에 대해 공동 작업합니다. 팀의 의견을 추가하고, 검토자를 초대하고, 피드백을 해결하고, 검토 워크플로를 간소화합니다.
+description: Journey Optimizer B2B Edition에서 이메일에 대해 공동 작업. 팀의 의견을 추가하고, 검토자를 초대하고, 피드백을 해결하고, 검토 워크플로를 간소화합니다.
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+autotag-review: 2026-03-30T22:09:19.178Z
+TQID: 'https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:09:19.178Z
-TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 4%
-
 ---
-
 # 이메일 공동 작업 도구
 
 [이메일 디자인 공간](./email-authoring.md)에는 댓글 달기 및 해결을 위한 공동 작업 도구가 포함되어 있어 마케팅 팀이 [!DNL Journey Optimizer B2B Edition] 내에서 바로 이메일 자산을 원활하게 검토하고, 논의하고, 마무리할 수 있습니다. 외부 도구(예: 채팅, 이메일 스레드 또는 스프레드시트)를 통해 초안을 공유하는 대신, 사용자는 이메일 디자인 공간 내에서 댓글을 달고, 편집을 제안하고, 피드백을 해결할 수 있습니다. 계정 여정 내에서 이메일 캠페인을 시작하기 전에 다음 도구를 사용하여 워크플로우를 간소화하고, 오류를 줄이고, 관련자들의 협조를 얻으십시오.
@@ -47,7 +53,7 @@ Display visual indicators (badges) for elements with associated comments
 
 ## 검토자를 위한 이메일 공동 작업 도구 활성화
 
-제품 관리자는 Adobe Experience Cloud의 _권한_ UI를 통해 **[!UICONTROL B 전자 메일 관리]** 권한을 할당하여 전자 메일 공동 작업 도구에 액세스할 수 있습니다.
+제품 관리자는 Adobe Experience Cloud의 _권한_ UI를 통해 **[!UICONTROL B 이메일 관리]** 권한을 할당하여 이메일 공동 작업 도구에 액세스할 수 있습니다.
 
 +++ 이메일 권한 활성화
 

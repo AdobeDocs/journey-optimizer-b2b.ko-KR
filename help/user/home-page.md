@@ -4,24 +4,29 @@ description: Journey Optimizer B2B Edition을 사용해 개인화된 홈 페이�
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
+autotag-review: 2026-03-27T22:19:43.813Z
+TQID: 'https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+  - id: c94c7410-5385-5f5d-84b7-99639323828e
+    internal-label: Home Page
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:19:43.813Z
-TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 83%
-
 ---
-
 # 로그인 및 홈 페이지
 
 Adobe Journey Optimizer B2B Edition을 사용하면 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하고, 마케팅 적격 구매 그룹을 사용하여 특정 오퍼에 대한 수요를 극대화할 수 있습니다.

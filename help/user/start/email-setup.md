@@ -4,31 +4,42 @@ description: 기본값, 구독 취소, 웹 보기, Velocity 개체 제한, 추�
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: '1321'
 ht-degree: 70%
-
 ---
-
 # 이메일 설정
 
 첨부된 Marketo Engage 인스턴스에서 제공하는 이메일 게재 인프라를 지원하려면 다음 이메일 옵션을 설정합니다. Marketo Engage 제품 관리자는 Marketo Engage 인스턴스의 **[!UICONTROL 관리자]** 영역으로 이동하여 **[!UICONTROL 전자 메일]**&#x200B;을 선택하여 이러한 설정을 구성할 수 있습니다.
@@ -43,7 +54,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->변경 사항은 사용자가 만든 이메일에만 적용할 수 있으며 다른 Marketo Engage 또는 Journey Optimizer B2B edition 사용자에게는 적용되지 않습니다.
+>변경 사항은 사용자가 만든 이메일에만 적용할 수 있으며 다른 Marketo Engage 또는 Journey Optimizer B2B Edition 사용자에게는 적용되지 않습니다.
 
 1. 첨부된 Marketo Engage 인스턴스의 **[!UICONTROL 관리자]** 영역으로 이동하여 **[!UICONTROL 전자 메일]**&#x200B;을(를) 선택합니다.
 
@@ -89,7 +100,7 @@ ht-degree: 70%
 
 ### 웹 페이지로 보기
 
-이메일 컨텐츠에 표시 기능이 제한되어 있습니다(CSS가 제한되고 JavaScript 또는 양식이 없음). 마케터는 _웹 페이지로 보기_ 옵션을 사용하여 Marketo Munchkin을 사용하여 전자 메일 받는 사람에게 쿠키를 적용할 수 있습니다. 제품 관리자는 마케터가 이 옵션을 선택할 때 채워지는 기본 HTML 및 텍스트를 구성합니다.
+이메일 콘텐츠에 표시 기능이 제한되어 있습니다(CSS가 제한되고 JavaScript 또는 폼이 없음). 마케터는 _웹 페이지로 보기_ 옵션을 사용하여 Marketo Munchkin을 사용하여 전자 메일 받는 사람에게 쿠키를 적용할 수 있습니다. 제품 관리자는 마케터가 이 옵션을 선택할 때 채워지는 기본 HTML 및 텍스트를 구성합니다.
 
 1. 첨부된 Marketo Engage 인스턴스의 **[!UICONTROL 관리자]** 영역으로 이동하여 **[!UICONTROL 전자 메일]**&#x200B;을(를) 선택합니다.
 
@@ -131,7 +142,7 @@ To view this email as a web page, go to the following address:
 
 +++
 
-## 사용자 정의 객체 검색 제한
+## 사용자 정의 오브젝트 검색 제한
 
 [!DNL Velocity Script]을(를) 사용하여 전자 메일에 사용자 지정 개체 데이터를 표시하는 경우 상위 사용자 지정 개체 검색 제한을 조정하십시오. 기본적으로 제한은 Velocity 스크립트에서 10개의 상위 사용자 지정 개체에 대한 액세스를 허용합니다. 필요한 경우 이 제한을 늘릴 수 있습니다.
 
@@ -172,15 +183,15 @@ To view this email as a web page, go to the following address:
 
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
-## 이메일 보트 활동 필터링 {#filter-email-bots}
+## 이메일 봇 활동 필터링 {#filter-email-bots}
 
-NHI(비사람 상호 작용)라고도 하는 이메일 봇 활동은 이메일 _열기_ 및 _클릭 수_ 데이터를 부풀려 참여 지표를 왜곡하고 이벤트 기반 여정 진행을 트리거할 수 있습니다. 이메일 보트 필터링을 사용하여 클릭 참여 지표 및 통찰력의 무결성을 유지합니다. 의심되는 보트 활동을 식별하는 방법에는 두 가지가 있습니다.
+NHI(비사람 상호 작용)라고도 하는 이메일 봇 활동은 이메일 _열기_ 및 _클릭 수_ 데이터를 부풀려 참여 지표를 왜곡하고 이벤트 기반 여정 진행을 트리거할 수 있습니다. 이메일 봇 필터링을 사용하여 클릭 참여 지표 및 통찰력의 무결성을 유지합니다. 의심되는 봇 활동을 식별하는 방법에는 두 가지가 있습니다.
 
 * _&#x200B;**[!UICONTROL IAB 보트 목록과 일치]**&#x200B;_ - [대화형 Advertising Bureau 보트 목록](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}(사용자 에이전트/IP 주소)에 있는 모든 항목과 일치하는 활동이 보트로 표시됩니다.
 * _&#x200B;**[!UICONTROL 근접 패턴과 일치]**&#x200B;_ - 동시에 발생하는 두 개 이상의 활동(초 미만)이 봇으로 식별됩니다. 비교 시 고려되는 속성은 다음과 같습니다.
-   * 잠재 고객 ID(같아야 함)
-   * 이메일 자산(동일해야 함)
-   * 링크 클릭 또는 이메일 열기
+  * 리드 ID(같아야 함)
+  * 이메일 에셋(동일해야 함)
+  * 링크 클릭 또는 이메일 열기
 
 이메일 링크 클릭 및 이메일 열기 활동의 경우 속성은 다음 값으로 채워집니다.
 
@@ -195,7 +206,7 @@ NHI(비사람 상호 작용)라고도 하는 이메일 봇 활동은 이메일 _
 
    ![Marketo Engage 전자 메일 관리자 - 봇 활동 탭](./assets/me-admin-email-bot-activity.png){width="700" zoomable="yes"}
 
-   보트 활동 식별 패널에는 보트 활동을 식별하는 데 사용할 수 있는 두 개의 슬라이더가 표시됩니다.
+   봇 활동 식별 패널에는 봇 활동을 식별하는 데 사용할 수 있는 두 개의 슬라이더가 표시됩니다.
 
 1. 슬라이더를 전환하여 한 개 또는 두 개 모두를 활성화합니다.
 

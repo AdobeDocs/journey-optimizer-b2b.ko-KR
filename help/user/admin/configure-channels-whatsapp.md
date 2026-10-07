@@ -1,33 +1,41 @@
 ---
 title: WhatsApp 채널 설정
-description: Meta의 Cloud API를 통해 WhatsApp 비즈니스 계정을 연결하여 Journey Optimizer B2B edition 계정 여정에서 WhatsApp 메시지를 활성화합니다.
+description: Meta의 Cloud API를 통해 WhatsApp 비즈니스 계정을 연결하여 Journey Optimizer B2B Edition 계정 여정에서 WhatsApp 메시지를 활성화합니다.
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a7692144-1dc6-426f-b00f-fe187797f61d
+    internal-label: Deliverability
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: eec5558d6065501576a91097182201726020213c
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 9%
-
+source-wordcount: '1515'
+ht-degree: 11%
 ---
-
 # WhatsApp 채널 설정
 
-Adobe Journey Optimizer B2B edition은 Meta의 Cloud API를 통해 WhatsApp 메시지를 전송합니다. 마케터가 계정 여정에 대한 WhatsApp 메시지를 만들려면 먼저 제품 관리자가 WhatsApp 채널을 구성해야 합니다.
+Adobe Journey Optimizer B2B Edition은 Meta의 Cloud API를 통해 WhatsApp 메시지를 전송합니다. 마케터가 계정 여정에 대한 WhatsApp 메시지를 만들려면 먼저 제품 관리자가 WhatsApp 채널을 구성해야 합니다.
 
-![Journey Optimizer B2B edition에 대한 WhatsApp 작업 흐름](./assets/whatsapp-flow-diagram.png)
+![Journey Optimizer B2B Edition에 대한 WhatsApp 작업 흐름](./assets/whatsapp-flow-diagram.png)
 
 ## 사전 요구 사항
 
@@ -40,13 +48,13 @@ WhatsApp 채널을 구성하기 전에 다음 사항이 있는지 확인하십�
 
 >[!IMPORTANT]
 >
->WhatsApp 메시징 서비스 사용은 Meta의 약관이 적용됩니다. Journey Optimizer B2B edition을 통해 WhatsApp 메시지에 액세스하면 [Meta WhatsApp 비즈니스 정책](https://whatsappbusiness.com/policy/)을 검토하고 이에 동의하는 것으로 간주됩니다.
+>WhatsApp 메시징 서비스 사용은 Meta의 약관이 적용됩니다. Journey Optimizer B2B Edition을 통해 WhatsApp 메시지에 액세스하면 [Meta WhatsApp 비즈니스 정책](https://whatsappbusiness.com/policy/)을 검토하고 이에 동의하는 것으로 간주됩니다.
 
 ## 제한 사항 {#limitations}
 
 WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
-* Adobe Journey Optimizer B2B edition은 **HIPAA를 준수하지 않고 HIPAA를 준비하지 않습니다**. 또한 서드파티 공급업체는 Adobe의 BAA에 포함되지 않습니다. 자체 규정 준수 및 공급업체 유효성 검사에 대한 책임은 고객에게 있습니다.
+* Adobe Journey Optimizer B2B Edition은 **HIPAA를 준수하지 않고 HIPAA를 준비하지 않습니다**. 또한 서드파티 공급업체는 Adobe의 BAA에 포함되지 않습니다. 자체 규정 준수 및 공급업체 유효성 검사에 대한 책임은 고객에게 있습니다.
 
 * 자동화된 응답 메시지나 사전 정의된 응답 메시지는 아직 지원되지 않습니다.
 
@@ -56,7 +64,7 @@ WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
 ## 채널 구성 완료
 
-WhatsApp 메시지를 보내기 전에 Journey Optimizer B2B edition 환경을 구성하고 WhatsApp 계정과 연결해야 합니다.
+WhatsApp 메시지를 보내기 전에 Journey Optimizer B2B Edition 환경을 구성하고 WhatsApp 계정과 연결해야 합니다.
 
 다음 작업을 완료하십시오.
 
@@ -124,7 +132,7 @@ WhatsApp API 자격 증명을 구성할 때 HTTP 500 오류가 발생하는 경�
    * API 토큰 - 적절한 권한이 있는 올바른 [Meta 액세스 토큰이어야 합니다](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * 비즈니스 계정 ID - [Meta 비즈니스 계정 ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)와 정확히 일치해야 합니다.
 
-1. 자격 증명을 외부에서 테스트합니다. 문제에 자격 증명 또는 Journey Optimizer B2B edition 자격 증명 처리가 포함되어 있는지 확인하려면 Meta API로 자격 증명을 확인합니다.
+1. 자격 증명을 외부에서 테스트합니다. 문제에 자격 증명 또는 Journey Optimizer B2B Edition 자격 증명 처리가 포함되어 있는지 확인하려면 Meta API로 자격 증명을 확인합니다.
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -167,7 +175,7 @@ do we have advanced logs? How are they enabled?
 
 >[!ENDSHADEBOX]
 
-웹후크를 사용하면 Journey Optimizer B2B edition이 WhatsApp 비즈니스 계정에서 인바운드 메시지, 동의 응답 및 게재 알림을 받을 수 있습니다. 적절한 동의 관리 및 메시지 추적을 보장하기 위해 웹후크를 구성합니다.
+웹후크를 사용하면 Journey Optimizer B2B Edition이 WhatsApp 비즈니스 계정에서 인바운드 메시지, 동의 응답 및 게재 알림을 받을 수 있습니다. 적절한 동의 관리 및 메시지 추적을 보장하기 위해 웹후크를 구성합니다.
 
 >[!NOTE]
 >
@@ -262,7 +270,7 @@ Webhook이 제출되면 토큰과 URL 값을 검색한 다음 Meta에 등록할 
 
    ![WhatsApp 채널 구성 세부 정보](./assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. (현재 Journey Optimizer B2B edition에 적용할 수 없음) **[!UICONTROL WhatsApp 실행 필드]**&#x200B;의 경우 수신자가 여러 개의 전화 번호를 사용할 수 있는 경우 우선 순위 전화 번호로 사용할 프로필 특성을 선택하십시오.
+1. (현재 Journey Optimizer B2B Edition에 적용할 수 없음) **[!UICONTROL WhatsApp 실행 필드]**&#x200B;의 경우 수신자가 여러 개의 전화 번호를 사용할 수 있는 경우 우선 순위 전화 번호로 사용할 프로필 특성을 선택하십시오.
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 저장하거나 **[!UICONTROL 초안으로 저장]**&#x200B;을 클릭하여 나중에 구성을 완료하고 제출합니다.
 

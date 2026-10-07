@@ -1,41 +1,54 @@
 ---
 title: 채널 메시징 동의
-description: Journey Optimizer B2B edition에서 AEP XDM 프로필 동의 환경 설정을 읽고 이메일, SMS 및 WhatsApp 채널에 대한 메시지 게재 시간에 옵트인 및 옵트아웃을 적용하는 방법에 대해 알아봅니다.
+description: Journey Optimizer B2B Edition에서 AEP XDM 프로필 동의 환경 설정을 읽고 이메일, SMS 및 WhatsApp 채널에 대한 메시지 게재 시간에 옵트인 및 옵트아웃을 적용하는 방법에 대해 알아봅니다.
 feature: Setup, Channels
 role: Admin, User
 autotag-review: '2026-05-19T16:18:37.228Z'
 TQID: 'https://experienceleague.adobe.com/-c0dJnpfiIcj0B5gViyEQ7E1Ws0BwP864OLF003rOjw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 1%
-
 ---
-
 # 채널 메시징 동의
 
-Adobe Journey Optimizer B2B edition은 Adobe Experience Platform XDM 프로필에 저장된 개인별 동의 환경 설정을 읽고 앱의 [거버넌스 컨트롤](../admin/governance.md)의 일부로 메시지 배달 시간에 적용합니다. 채널을 옵트아웃한 사람은 채널 또는 다운스트림 메시징 공급자에서 콘텐츠를 전송하기 전에 게재에서 제외됩니다.
+Adobe Journey Optimizer B2B Edition은 Adobe Experience Platform XDM 프로필에 저장된 개인별 동의 환경 설정을 읽고 앱의 [거버넌스 컨트롤](../admin/governance.md)의 일부로 메시지 배달 시간에 적용합니다. 채널을 옵트아웃한 사람은 채널 또는 다운스트림 메시징 공급자에서 콘텐츠를 전송하기 전에 게재에서 제외됩니다.
 
-다음 섹션에서는 Journey Optimizer B2B edition이 지원되는 각 채널에 대한 메시지 전송 시 동의를 평가하는 방법을 설명합니다.
+다음 섹션에서는 Journey Optimizer B2B Edition이 지원되는 각 채널에 대해 메시지 전송 시 동의를 평가하는 방법을 설명합니다.
 
 ## 이메일 {#email}
 
-Journey Optimizer B2B edition은 [전자 메일 채널](../admin/configure-channels-emails.md)에서 메시지를 보낼 때 전자 메일 동의에 대해 다음 XDM 특성을 평가합니다.
+Journey Optimizer B2B Edition은 [전자 메일 채널](../admin/configure-channels-emails.md)에서 메시지를 보낼 때 전자 메일 동의에 대해 다음 XDM 특성을 평가합니다.
 
 | XDM 속성 | `y` | `n` | 값 없음 |
 | --- | --- | --- | --- |
@@ -50,7 +63,7 @@ Journey Optimizer B2B edition은 [전자 메일 채널](../admin/configure-chann
 
 ## SMS {#sms}
 
-Journey Optimizer B2B edition은 [SMS 채널](../admin/configure-channels-sms.md)을 통해 메시지를 보낼 때 SMS 동의에 대해 다음 XDM 특성을 평가합니다.
+Journey Optimizer B2B Edition은 [SMS 채널](../admin/configure-channels-sms.md)을 통해 메시지를 보낼 때 SMS 동의에 대해 다음 XDM 특성을 평가합니다.
 
 | XDM 속성 | `y` | `n` | 값 없음 |
 | --- | --- | --- | --- |
@@ -67,7 +80,7 @@ SMS 동의에 대한 다음 사항을 고려하십시오.
 
 ## WhatsApp {#whatsapp}
 
-Journey Optimizer B2B edition은 구성된 [WhatsApp 채널](../admin/configure-channels-whatsapp.md)을 통해 메시지를 보낼 때 WhatsApp 동의에 대해 다음 XDM 특성을 평가합니다.
+Journey Optimizer B2B Edition은 구성된 [WhatsApp 채널](../admin/configure-channels-whatsapp.md)을 통해 메시지를 보낼 때 WhatsApp 동의에 대해 다음 XDM 특성을 평가합니다.
 
 | XDM 속성 | `y` | `n` | 값 없음 |
 | --- | --- | --- | --- |
@@ -82,7 +95,7 @@ WhatsApp 동의에 대해 다음 사항을 고려하십시오.
 
 ## 지원되지 않음 {#not-supported}
 
-다음 동의 관련 기능은 현재 Journey Optimizer B2B edition에서 지원되지 않습니다.
+다음 동의 관련 기능은 현재 Journey Optimizer B2B Edition에서 지원되지 않습니다.
 
 * AEP 동의 정책
 * 마케팅 기본 설정 특성(`consents.marketing.preferred`)

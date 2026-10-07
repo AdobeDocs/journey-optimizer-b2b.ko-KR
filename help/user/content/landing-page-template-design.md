@@ -1,32 +1,41 @@
 ---
 title: 랜딩 페이지 템플릿 디자인
-description: 재사용을 위한 랜딩 페이지 템플릿 디자인 - Journey Optimizer B2B edition에서 콘텐츠 구성 요소, 양식, 사용자 지정 CSS, 개인화 및 디바이스 미리 보기.
+description: 재사용을 위한 랜딩 페이지 템플릿 디자인 - Journey Optimizer B2B Edition에서 콘텐츠 구성 요소, 양식, 사용자 지정 CSS, 개인화 및 디바이스 미리 보기.
 feature: Templates, Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 릴리스에 있습니다"
+badgeBeta: label="Beta" type="informative" tooltip="이 기능은 현재 제한된 베타 버전으로 제공됩니다"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
 autotag-review: '2026-05-27T16:15:29.609Z'
 TQID: 'https://experienceleague.adobe.com/vWu6NGGG-pyhypi4RR76gMO8Jx3YnumXuJlDdbS9qTc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 6%
-
+source-wordcount: '353'
+ht-degree: 7%
 ---
-
 # 랜딩 페이지 템플릿 디자인
 
 [랜딩 페이지 템플릿을 만들기](./landing-page-templates.md#create-a-landing-page-template)한 후에는 시각적 디자인 공간을 사용하여 페이지 템플릿의 구조 및 콘텐츠 구성 요소를 작성합니다.
@@ -79,8 +88,8 @@ You can continue to make edits to the draft page template. When you are ready to
 * 사전 설정된 확대/축소 옵션에서 콘텐츠를 확대/축소합니다.
 
 * 데스크탑, 모바일 또는 텍스트 전용/일반 텍스트에서 컨텐츠 보기를 전환합니다.
-   * 여러 장치에서 콘텐츠를 미리 보려면 _보기_ 아이콘을 클릭하십시오.
-   * 기본 제공 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
+  * 여러 장치에서 콘텐츠를 미리 보려면 _보기_ 아이콘을 클릭하십시오.
+  * 기본 제공 장치 중 하나를 선택하거나 사용자 지정 차원을 입력하여 콘텐츠를 미리 봅니다.
 
 ### 추가 옵션
 

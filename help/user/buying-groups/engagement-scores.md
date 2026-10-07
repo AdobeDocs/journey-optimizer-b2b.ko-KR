@@ -1,29 +1,36 @@
 ---
 title: 구매 그룹에 대한 참여 점수
-description: Journey Optimizer B2B edition에서 가중 활동, 역할 기반 계산 및 30일 채점 기간을 사용하여 구매 그룹 및 개인 참여 점수를 계산합니다.
+description: Journey Optimizer B2B Edition에서 가중 활동, 역할 기반 계산 및 30일 채점 기간을 사용하여 구매 그룹 및 개인 참여 점수를 계산합니다.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+autotag-review: 2026-03-30T21:43:47.624Z
+TQID: 'https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T21:43:47.624Z
-TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: '1229'
 ht-degree: 30%
-
 ---
-
 # 참여 점수 {#engagement-scores}
 
 >[!CONTEXTUALHELP]
@@ -31,7 +38,7 @@ ht-degree: 30%
 >title="참여 점수"
 >abstract="참여 점수는 구매 그룹 멤버의 참여 수준을 결정합니다."
 
-참여 점수는 구매 그룹의 구성원에 대한 참여 수준을 나타내는 숫자입니다. 이러한 점수는 구매 집단 구성원 활동, 가중 행위 및 가중 역할을 기준으로 합니다. 결과 점수는 일관된 비교를 활성화하고 실행 가능한 통찰력을 허용하기 위해 테넌트(인스턴스) 내에서 표준화됩니다. 구매 그룹을 생성하면 바로 점수 계산이 시작됩니다. Journey Optimizer B2B edition 데이터 허브 시스템은 매일 점수를 계산하여 수집 서비스를 사용하여 MLM(Multi-Level Marketing) MySQL 시스템에 업로드합니다.
+참여 점수는 구매 그룹의 구성원에 대한 참여 수준을 나타내는 숫자입니다. 이러한 점수는 구매 집단 구성원 활동, 가중 행위 및 가중 역할을 기준으로 합니다. 결과 점수는 일관된 비교를 활성화하고 실행 가능한 통찰력을 허용하기 위해 테넌트(인스턴스) 내에서 표준화됩니다. 구매 그룹을 생성하면 바로 점수 계산이 시작됩니다. Journey Optimizer B2B Edition 데이터 허브 시스템은 매일 점수를 계산하여 수집 서비스를 사용하여 MLM(Multi-Level Marketing) MySQL 시스템에 업로드합니다.
 
 참여 점수에는 두 가지 유형이 있습니다.
 

@@ -1,36 +1,49 @@
 ---
 title: 체크리스트 설정
-description: Journey Optimizer B2B edition을 설정합니다. XDM 스키마, 이메일/SMS 채널, Marketo Engage 여정 작업 및 사용자를 구성합니다.
+description: Journey Optimizer B2B Edition을 설정합니다. XDM 스키마, 이메일/SMS 채널, Marketo Engage 여정 작업 및 사용자를 구성합니다.
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
+autotag-review: '2026-03-27T22:15:07.682Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 847
+source-wordcount: '847'
 ht-degree: 73%
-
 ---
-
 # 체크리스트 설정
 
-Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로 합니다. 이 구현에서 Journey Optimizer B2B edition과 Marketo Engage은 동일한 시스템이나 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B edition은 Experience Platform에서 데이터를 수신합니다. 하지만 시스템을 프로비저닝하고 구성하기 위해 Marketo Engage 권한과 이메일 게재와 같은 일부 백엔드 기능에 계속 의존합니다.
+Adobe Journey Optimizer B2B Edition은 Adobe Experience Platform을 기반으로 합니다. 이 구현에서 Journey Optimizer B2B Edition과 Marketo Engage은 동일한 시스템이나 동일한 데이터 저장소에 있지 않습니다. Journey Optimizer B2B Edition은 Experience Platform에서 데이터를 수신합니다. 하지만 시스템을 프로비저닝하고 구성하기 위해 Marketo Engage 권한과 이메일 게재와 같은 일부 백엔드 기능에 계속 의존합니다.
 
 <!-- 
 >>[!NOTE]
@@ -38,7 +51,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-이 구현은 Journey Optimizer B2B edition에서 기능을 활성화하는 기반입니다.
+이 구현은 Journey Optimizer B2B Edition에서 기능을 활성화하는 기반입니다.
 
 * **데이터 통합 및 크기 조정:** 시스템에서 사용자 지정 개체, 구매 그룹 및 계정 이벤트를 포함한 복잡한 데이터 모델을 지원합니다.
 
@@ -50,7 +63,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 
 구성을 위해 다음 지침을 따르십시오.
 
-이 체크리스트를 사용하여 Journey Optimizer B2B edition 설정을 완료합니다.
+이 체크리스트를 사용하여 Journey Optimizer B2B Edition 설정을 완료합니다.
 
 ## &#x200B;1. B2B 네임스페이스 및 스키마 생성
 
@@ -282,7 +295,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 <td><a href="./admin/configure-channels-sms.md">자세히 알아보기</a></td>
 </tr>
 <tr>
-<td colspan="2">Journey Optimizer B2B edition에 대한 <strong>랜딩 페이지</strong> 채널 구성.</td>
+<td colspan="2">Journey Optimizer B2B Edition에 대한 <strong>랜딩 페이지</strong> 채널 구성.</td>
 <td></td>
 </tr>
 <tr>
@@ -314,7 +327,7 @@ Adobe Journey Optimizer B2B edition은 Adobe Experience Platform을 기반으로
 
 ## &#x200B;5. Marketo Engage 인스턴스를 연결하여 여정 작업 지원(선택 사항)
 
-Marketo Engage의 캠페인 및 프로그램을 통해 Journey Optimizer B2B Edition 기능을 보완하려는 경우 Marketo Engage 작업에 대한 지원을 설정하십시오. 이러한 작업을 통해 마케팅 팀은 Journey Optimizer B2B edition의 _계정 기반_ 마케팅 및 Marketo Engage의 _리드 기반_ 마케팅 활동을 조정할 수 있습니다.
+Marketo Engage의 캠페인 및 프로그램을 통해 Journey Optimizer B2B Edition 기능을 보완하려는 경우 Marketo Engage 작업에 대한 지원을 설정하십시오. 이러한 작업을 통해 마케팅 팀은 Journey Optimizer B2B Edition의 _계정 기반_ 마케팅 및 Marketo Engage의 _리드 기반_ 마케팅 활동을 조정할 수 있습니다.
 
 <table>
 <thead>

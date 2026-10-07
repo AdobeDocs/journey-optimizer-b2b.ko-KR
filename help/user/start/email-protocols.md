@@ -4,27 +4,37 @@ description: 이메일 게재 프로토콜 구성 - Journey Optimizer B2B Editio
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
+autotag-review: 2026-03-30T23:06:01.153Z
+TQID: 'https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T23:06:01.153Z
-TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 79%
-
 ---
-
 # 이메일 추적 및 게재 설정
 
 Adobe Journey Optimizer B2B Edition은 연결된 Marketo Engage 인스턴스의 이메일 채널 기능 및 이벤트 추적을 활용합니다. 일부 조직에서는 제한적 방화벽 또는 프록시 서버 설정을 사용합니다. 이러한 조직에서 이메일 전달이 예상대로 작동하도록 하려면 시스템 관리자가 특정 도메인과 IP 주소 범위를 허용 목록에 추가하다에 추가해야 합니다.
@@ -222,11 +232,11 @@ Marketo Engage를 통해 전용 IP로 메일을 보내고 브랜드 return-path�
 
 >[!BEGINSHADEBOX]
 
-**Journey Optimizer B2B edition으로 전용 IP 마이그레이션**
+**Journey Optimizer B2B Edition으로 전용 IP 마이그레이션**
 
 전용 IP가 있는 경우 기존 Marketo Engage 인스턴스와 동일한 지역에서 새 Journey Optimizer B2B Edition 인스턴스를 만들어야 합니다. 새 인스턴스가 다른 지역에 있는 경우 기존 IP를 공유할 수 없습니다. 지역이 일치하는 경우 [Adobe 지원](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support){target="_blank"}에서 티켓을 열고 기존 IP 및 바인딩 그룹을 새 인스턴스와 공유하도록 요청하십시오. Marketo Engage 접두사(Munchkin ID)와 새 Journey Optimizer B2B Edition 접두사(Munchkin ID)를 입력합니다.
 
-이 요청을 통해 Adobe는 기존 Marketo Engage 인스턴스와 동일한 IP, 바인딩 그룹 및 구성된 반환 경로 도메인을 복제합니다. Marketo Engage 및 Journey Optimizer B2B edition 인스턴스 간에 IP가 공유되면 두 인스턴스 모두 동시에 해당 IP를 사용합니다.
+이 요청을 통해 Adobe는 기존 Marketo Engage 인스턴스와 동일한 IP, 바인딩 그룹 및 구성된 반환 경로 도메인을 복제합니다. Marketo Engage 인스턴스와 Journey Optimizer B2B Edition 인스턴스 간에 IP가 공유되면 두 인스턴스 모두 IP를 동시에 사용합니다.
 
 >[!ENDSHADEBOX]
 

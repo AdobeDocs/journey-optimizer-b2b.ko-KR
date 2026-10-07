@@ -1,30 +1,38 @@
 ---
 title: 계정 세부 정보
-description: Journey Optimizer B2B edition에서 AI가 생성한 요약, 의도 감지, 연락처 범위 분석 및 이메일 커뮤니케이션을 통해 계정 인사이트를 봅니다.
+description: Journey Optimizer B2B Edition에서 AI가 생성한 요약, 의도 감지, 연락처 범위 분석 및 이메일 커뮤니케이션을 통해 계정 인사이트를 봅니다.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+autotag-review: 2026-03-27T22:20:55.565Z
+TQID: 'https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:20:55.565Z
-TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 6%
-
 ---
-
 # 계정 세부 정보
 
-Journey Optimizer B2B edition의 아무 곳에서나 계정 이름을 클릭하면 _계정 세부 정보_ 페이지가 표시됩니다. 이 페이지에서는 생성 AI 요약을 포함하여 계정에 대한 정보를 제공합니다. 계정과 연결된 연락처에 대해 실행할 수 있는 [작업](#send-email)도 있습니다.
+Journey Optimizer B2B Edition의 어디에서든 계정 이름을 클릭하면 _계정 세부 정보_ 페이지가 표시됩니다. 이 페이지에서는 생성 AI 요약을 포함하여 계정에 대한 정보를 제공합니다. 계정과 연결된 연락처에 대해 실행할 수 있는 [작업](#send-email)도 있습니다.
 
 ![계정 세부 정보에 액세스](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -49,7 +57,7 @@ Journey Optimizer B2B edition의 아무 곳에서나 계정 이름을 클릭하�
 
 ### 의도 데이터
 
-Journey Optimizer B2B edition에서 의도 감지 모델은 계정 연락처 활동을 기반으로 충분히 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 거래처 접점의 의도는 상품에 관심이 있을 확률로 해석할 수 있다.
+Journey Optimizer B2B Edition에서 의도 감지 모델은 계정 연락처 활동을 기반으로 충분히 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 거래처 접점의 의도는 상품에 관심이 있을 확률로 해석할 수 있다.
 
 {{intent-data-note}}
 

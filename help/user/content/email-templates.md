@@ -1,29 +1,38 @@
 ---
 title: 이메일 템플릿
-description: 처음부터 재사용 가능한 이메일 템플릿 만들기, HTML 가져오기 또는 기존 디자인 - Journey Optimizer B2B edition에서 계정 여정에 대한 템플릿을 관리합니다.
+description: 처음부터 재사용 가능한 이메일 템플릿 만들기, HTML 가져오기 또는 기존 디자인 - Journey Optimizer B2B Edition에서 계정 여정에 대한 템플릿을 관리합니다.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
+autotag-review: 2026-03-30T22:17:40.055Z
+TQID: 'https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:17:40.055Z
-TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: '1522'
 ht-degree: 0%
-
 ---
-
 # 이메일 템플릿
 
 디자인 프로세스를 가속화하고 개선하기 위해 독립 실행형 전자 메일 템플릿을 만들어 [!DNL Adobe Journey Optimizer B2B Edition] 계정 여정 간에 사용자 지정 콘텐츠를 재사용할 수 있습니다. 콘텐츠 중심 팀원은 템플릿을 통해 여정 외부의 이메일 콘텐츠에서 작업할 수 있습니다. 그런 다음 마케팅 전략가는 이러한 독립형 템플릿을 여정 내에서 재사용하고 조정할 수 있습니다. 예를 들어 한 명의 팀원이 계정 여정에 액세스하지 않고 콘텐츠만 관리합니다. 그러나 마케터가 이메일 커뮤니케이션의 시작점으로 선택할 수 있는 이메일 템플릿을 만들고 여정 요구 사항에 따라 이를 사용자 지정할 수 있습니다.
@@ -96,7 +105,7 @@ _[!UICONTROL 템플릿 디자인]_ 페이지가 열리고 템플릿을 만들기
 
 ### HTML 가져오기
 
-Adobe Journey Optimizer B2B edition을 사용하면 기존 HTML 콘텐츠를 가져와 이메일 템플릿을 디자인할 수 있습니다.
+Adobe Journey Optimizer B2B Edition을 사용하면 기존 HTML 콘텐츠를 가져와 이메일 템플릿을 디자인할 수 있습니다.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -134,7 +143,7 @@ Adobe Journey Optimizer B2B edition을 사용하면 기존 HTML 콘텐츠를 가
 
 ![템플릿 사용량을 확인하려면 [사용] 탭을 클릭하세요](./assets/template-details-used-by.png){width="400"}
 
-Journey Optimizer B2B edition의 이메일은 여정 내에 임베드되고 작성되므로 템플릿을 사용하는 이메일의 상위 여정이 참조에 표시됩니다.
+Journey Optimizer B2B Edition의 이메일은 여정 내에 임베드되고 작성되므로 템플릿을 사용하는 이메일의 상위 여정이 참조에 표시됩니다.
 
 * 링크를 클릭하면 이메일 템플릿이 사용되는 해당 여정 이메일로 이동합니다.
 

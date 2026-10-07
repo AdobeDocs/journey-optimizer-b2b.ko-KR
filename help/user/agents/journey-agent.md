@@ -8,30 +8,42 @@ autotag-review: '2026-06-05T16:42:46.785Z'
 TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1165
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # Journey Agent
 
-Journey Agent B2B는 자연어를 통해 B2B 여정을 디자인, 실행, 최적화 및 모니터링하는 데 도움이 되는 Adobe Journey Optimizer B2B edition의 AI 기반 도우미입니다. 자동화, 데이터 중심의 권장 사항, 실시간 가시성을 결합하여 고객 여정 구축 및 관리에 소요되는 시간과 복잡성을 줄입니다.
+Journey Agent B2B는 자연어를 통해 B2B 여정을 디자인, 실행, 최적화 및 모니터링하는 데 도움이 되는 Adobe Journey Optimizer B2B Edition의 AI 기반 도우미입니다. 자동화, 데이터 중심의 권장 사항, 실시간 가시성을 결합하여 고객 여정 구축 및 관리에 소요되는 시간과 복잡성을 줄입니다.
 
 ![Journey Agent B2B 프롬프트](./assets/journey-agent-prompt.png)
 
@@ -99,7 +111,7 @@ Journey Agent 빌드 기술을 사용하려면 생성하려는 내용을 자연�
 
 여정 가시성 스킬을 사용하면 여정 맵, 로그 또는 대시보드를 자세히 조사하지 않고도 계정과 사용자가 B2B 여정을 통해 어떻게 이동하는지 자연어 질문을 할 수 있습니다. 여정 진행과 데이터 동기화 가시성, 이렇게 두 가지 주요 영역을 다룹니다.
 
-Journey Optimizer B2B edition 내의 두 위치에서 액세스할 수 있습니다.
+Journey Optimizer B2B Edition 내의 두 위치에서 액세스할 수 있습니다.
 
 * **여정 맵의 오른쪽 레일 길잡이** - 여정 맵에서 여정 관련 질문을 직접 합니다. 여정 이름은 컨텍스트에 자동으로 삽입됩니다.
 

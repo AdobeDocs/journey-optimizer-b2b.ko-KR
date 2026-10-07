@@ -1,6 +1,6 @@
 ---
 title: WhatsApp 작성
-description: Journey Optimizer B2B edition에서 승인된 Meta 템플릿, 개인화 토큰 및 게재 설정을 사용하여 계정 여정에 대한 WhatsApp 메시지를 만듭니다.
+description: Journey Optimizer B2B Edition에서 승인된 Meta 템플릿, 개인화 토큰 및 게재 설정을 사용하여 계정 여정에 대한 WhatsApp 메시지를 만듭니다.
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
@@ -8,33 +8,47 @@ autotag-review: '2026-05-27T16:19:44.490Z'
 TQID: 'https://experienceleague.adobe.com/B368ny2Y9BSzsE7CClVIbVr-5Kha5d2pTiNiDGCwML4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '828'
 ht-degree: 1%
-
 ---
-
 # WhatsApp 작성
 
-Adobe Journey Optimizer B2B edition을 사용하여 모바일 장치의 계정 구성원에게 WhatsApp 메시지를 보냅니다. WhatsApp 편집기에서 승인된 Meta 메시지 템플릿을 사용하여 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
+Adobe Journey Optimizer B2B Edition을 사용하여 모바일 장치의 계정 구성원에게 WhatsApp 메시지를 보냅니다. WhatsApp 편집기에서 승인된 Meta 메시지 템플릿을 사용하여 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 계정 여정에 대한 WhatsApp 메시지를 만들기 전에 _[!UICONTROL 관리자]_ 설정에서 필요한 [WhatsApp 채널을 구성](../admin/configure-channels-whatsapp.md)했는지 확인하십시오.
 
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition에서는 _아웃바운드_ WhatsApp 메시지 요소만 지원됩니다.
+>Journey Optimizer B2B Edition에서는 _아웃바운드_ WhatsApp 메시지 요소만 지원됩니다.
 
 +++ 지원되는 메시지 요소 및 콜 투 액션 옵션
 
@@ -99,7 +113,7 @@ WhatsApp 메시지에 사용할 수 있는 call-to-action 옵션은 다음과 �
 
 ### 메시지 템플릿 선택
 
-WhatsApp 메시지는 Meta WhatsApp 비즈니스 계정에서 사전 승인된 메시지 템플릿을 사용하여 전송됩니다. Journey Optimizer B2B edition에서 사용하려면 **Meta에서 템플릿을 검토하고 승인**&#x200B;해야 합니다. 승인을 위해 템플릿을 관리하고 제출하려면 [!DNL Meta Business Manager] 계정 관리자와 협력하십시오.
+WhatsApp 메시지는 Meta WhatsApp 비즈니스 계정에서 사전 승인된 메시지 템플릿을 사용하여 전송됩니다. Journey Optimizer B2B Edition에서 사용하려면 **Meta에서 템플릿을 검토하고 승인**&#x200B;해야 합니다. 승인을 위해 템플릿을 관리하고 제출하려면 [!DNL Meta Business Manager] 계정 관리자와 협력하십시오.
 
 1. **[!UICONTROL 템플릿 범주 선택]**&#x200B;에 대해 다음 중 하나를 선택하십시오.
 

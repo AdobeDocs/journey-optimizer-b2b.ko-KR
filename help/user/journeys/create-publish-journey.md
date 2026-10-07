@@ -1,28 +1,34 @@
 ---
 title: 여정 빌드 및 게시
-description: 시각적 캔버스에서 계정 및 사용자 여정을 만들고, 작업 및 이벤트 노드를 추가하고, 예약을 구성하고, Journey Optimizer B2B edition에서 라이브 오케스트레이션을 위해 게시합니다.
+description: 시각적 캔버스에서 계정 및 사용자 여정을 만들고, 작업 및 이벤트 노드를 추가하고, 예약을 구성하고, Journey Optimizer B2B Edition에서 라이브 오케스트레이션을 위해 게시합니다.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+autotag-review: 2026-03-30T23:14:46.843Z
+TQID: 'https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:14:46.843Z
-TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 6%
-
 ---
-
 # 여정 작성 및 게시
 
 여정을 시작하려면 여정을 만든 다음 여정 맵에서 노드 및 여정 흐름을 구성합니다.

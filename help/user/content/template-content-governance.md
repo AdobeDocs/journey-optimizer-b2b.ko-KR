@@ -1,29 +1,38 @@
 ---
 title: 템플릿 콘텐츠 거버넌스
-description: 브랜드 준수를 위해 이메일 템플릿 구성 요소 잠금 - 거버넌스 모드를 설정하고, 콘텐츠 편집을 제어하고, Journey Optimizer B2B edition에서 계정 여정 작성자에 대한 권한을 관리합니다.
+description: 브랜드 준수를 위해 이메일 템플릿 구성 요소 잠금 - 거버넌스 모드를 설정하고, 콘텐츠 편집을 제어하고, Journey Optimizer B2B Edition에서 계정 여정 작성자에 대한 권한을 관리합니다.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+autotag-review: 2026-03-30T22:19:13.043Z
+TQID: 'https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T22:19:13.043Z
-TQID: https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: '765'
 ht-degree: 0%
-
 ---
-
 # 템플릿 콘텐츠 거버넌스
 
 많은 마케팅 조직 내에는 이메일 캠페인을 디자인하는 콘텐츠 전문가가 있습니다. 지정된 디자인은 조직 전체에서 사용자 지정 계정 여정의 기반으로 사용할 수 있습니다. 승인된 콘텐츠 디자인을 준수하기 위해 콘텐츠 거버넌스 기능을 사용하여 템플릿 구성 요소를 잠글 수 있습니다. 이메일 템플릿에서 콘텐츠 잠금이 활성화되면 마케터는 허용된 요소만 변경하여 콘텐츠 전략과 일치하도록 할 수 있습니다.

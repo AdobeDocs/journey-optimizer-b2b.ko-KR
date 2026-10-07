@@ -1,6 +1,6 @@
 ---
 title: SMS 작성
-description: 개인화, 링크 및 동의 관리를 사용하여 계정 여정을 위한 SMS 메시지를 만듭니다. - Journey Optimizer B2B edition에서 콘텐츠를 미리 보고 게재 설정을 구성합니다.
+description: 개인화, 링크 및 동의 관리를 사용하여 계정 여정을 위한 SMS 메시지를 만듭니다. - Journey Optimizer B2B Edition에서 콘텐츠를 미리 보고 게재 설정을 구성합니다.
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
@@ -8,30 +8,42 @@ autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d66b6f77-1150-58cd-81d8-2a1924d54baa
+    internal-label: SMS Authoring
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+    internal-label: Cross channel delivery
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: '1251'
 ht-degree: 3%
-
 ---
-
 # SMS 작성
 
-Adobe Journey Optimizer B2B edition을 사용하여 모바일 장치에서 고객에게 문자 메시지(SMS)를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
+Adobe Journey Optimizer B2B Edition을 사용하여 모바일 장치에서 고객에게 문자 메시지(SMS)를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
 
 계정 여정에 대한 SMS 메시지를 만들기 전에 _[!UICONTROL 관리자]_ 설정에서 [SMS 서비스 공급자가 구성](../admin/configure-channels-sms.md)되어 있는지 확인하십시오.
 
@@ -183,8 +195,8 @@ _[!UICONTROL 작업 수행]_ 노드를 추가하고 다음을 수행하면 계�
 
 이 옵션을 제공하면 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. 모든 표준 옵트인 및 옵트아웃 키워드는 SMS 서비스 공급자로 구성된 모든 사용자 지정 키워드와 마찬가지로 지원 및 적용됩니다. 구독을 취소하면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.
 
-Journey Optimizer B2B edition은 다음 논리를 사용하여 SMS 메시지에서 옵트아웃을 관리하는 기능을 제공합니다.
+Journey Optimizer B2B Edition은 다음 논리를 사용하여 SMS 메시지에서 옵트아웃을 관리하는 기능을 제공합니다.
 
 * 기본적으로 잠재 고객이 사용자로부터 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 SMS 게재에서 제외됩니다
 
-* 다른 소스(예: AEP 또는 SMS 서비스 공급자)에서 발생하는 이 잠재 고객 동의는 Journey Optimizer B2B edition에 동기화됩니다. 현재 인스턴스 수준에서 리드당 단일 동의 상태만 지원합니다(&#39;John Doe&#39; 리드가 인스턴스의 모든 프로모션 SMS에 구독되거나 구독 취소됨). 현재 브랜드 수준/개별 구독 목록 수준 동의에 대한 이중 옵트인을 지원하지 않습니다.
+* 다른 소스(예: AEP 또는 SMS 서비스 공급자)에서 온 이 잠재 고객 동의가 Journey Optimizer B2B Edition에 동기화됩니다. 현재 인스턴스 수준에서 리드당 단일 동의 상태만 지원합니다(&#39;John Doe&#39; 리드가 인스턴스의 모든 프로모션 SMS에 구독되거나 구독 취소됨). 현재 브랜드 수준/개별 구독 목록 수준 동의에 대한 이중 옵트인을 지원하지 않습니다.

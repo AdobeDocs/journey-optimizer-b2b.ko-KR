@@ -1,33 +1,40 @@
 ---
 title: 이메일 성과 보고서
-description: Journey Optimizer B2B edition의 이메일 성능 보고서를 사용하여 하나의 통합 보기에서 모든 여정의 이메일 전송, 게재, 참여 및 옵트아웃 지표를 모니터링할 수 있습니다.
+description: Journey Optimizer B2B Edition의 이메일 성능 보고서를 사용하여 하나의 통합 보기에서 모든 여정의 이메일 전송, 게재, 참여 및 옵트아웃 지표를 모니터링할 수 있습니다.
 feature: Dashboards, Reporting
 role: User
 autotag-review: '2026-05-21T15:04:51.176Z'
 TQID: 'https://experienceleague.adobe.com/hA63o9-2-atw0kRNFeEu6H449WmZ59CjL3uiVS7nEcA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: '833'
 ht-degree: 4%
-
 ---
-
 # 이메일 성과 보고서
 
-**이메일 성과** 보고서를 통해 마케터는 Adobe Journey Optimizer B2B edition의 모든 여정에서 이메일 활동을 통합적으로 볼 수 있습니다. 전송, 게재, 참여 및 옵트아웃 지표를 집계합니다. 원시 수와 계산된 비율을 모두 표시함으로써 캠페인 상태를 모니터링하고, 이메일 성능을 비교하고, 전달성 또는 참여 문제를 한 눈에 파악할 수 있습니다. 전자 메일 및 SMS 채널에 걸친 여정 수준 지표는 [계정 여정 대시보드](./journeys-dashboard.md)를 참조하십시오.
+**이메일 성과** 보고서를 통해 마케터는 Adobe Journey Optimizer B2B Edition의 모든 여정에서 이메일 활동을 통합적으로 볼 수 있습니다. 전송, 게재, 참여 및 옵트아웃 지표를 집계합니다. 원시 수와 계산된 비율을 모두 표시함으로써 캠페인 상태를 모니터링하고, 이메일 성능을 비교하고, 전달성 또는 참여 문제를 한 눈에 파악할 수 있습니다. 전자 메일 및 SMS 채널에 걸친 여정 수준 지표는 [계정 여정 대시보드](./journeys-dashboard.md)를 참조하십시오.
 
 ## 보고서 액세스
 

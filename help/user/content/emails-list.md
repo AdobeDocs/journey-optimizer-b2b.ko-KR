@@ -1,36 +1,42 @@
 ---
 title: 이메일
-description: 검색, 필터 및 벌크 작업 - Journey Optimizer B2B edition의 여정 외부 이메일, 설정 편집 및 테스트 이메일로 이메일 라이브러리를 관리합니다.
+description: 검색, 필터 및 벌크 작업 - Journey Optimizer B2B Edition의 여정 외부에서 콘텐츠, 설정 편집 및 이메일 테스트를 통해 이메일 라이브러리를 관리합니다.
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
+autotag-review: 2026-03-30T22:28:57.542Z
+TQID: 'https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-autotag-review: 2026-03-30T22:28:57.542Z
-TQID: https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Email marketing
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # 이메일
 
 [전자 메일을 만듭니다](./add-email.md). 여정 노드의 컨텍스트에 전자 메일을 추가합니다. 여정 맵 외부의 전자 메일 콘텐츠로 작업하려면 _[!UICONTROL 전자 메일]_ 목록을 사용하여 전자 메일을 찾아 업데이트합니다. 이메일을 검토하거나 설정 및 콘텐츠를 업데이트할 수 있습니다.
 
 ## 이메일 액세스 및 관리
 
-Adobe Journey Optimizer B2B edition에서 전자 메일에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 전자 메일]**&#x200B;을 클릭합니다. 이 작업을 수행하면 테이블에 나열된 인스턴스에 대해 생성된 모든 이메일이 포함된 목록 페이지가 열립니다.
+Adobe Journey Optimizer B2B Edition에서 전자 메일에 액세스하려면 왼쪽 탐색으로 이동하여 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 전자 메일]**&#x200B;을 클릭합니다. 이 작업을 수행하면 테이블에 나열된 인스턴스에 대해 생성된 모든 이메일이 포함된 목록 페이지가 열립니다.
 
 표는 기본적으로 _[!UICONTROL 수정됨]_ 열을 기준으로 정렬되며 가장 최근에 업데이트된 전자 메일이 맨 위에 있습니다. 오름차순과 내림차순 간을 변경하려면 열 제목을 클릭합니다.
 

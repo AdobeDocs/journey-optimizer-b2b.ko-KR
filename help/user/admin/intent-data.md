@@ -1,28 +1,43 @@
 ---
 title: 의도 데이터 구성
-description: 키워드 매핑으로 의도 데이터를 구성하여 Journey Optimizer B2B edition에서 계정 기반 마케팅을 위한 고객의 관심사와 구매 신호를 예측합니다.
+description: 키워드 매핑으로 의도 데이터를 구성하여 Journey Optimizer B2B Edition에서 계정 기반 마케팅을 위한 고객의 관심사와 구매 신호를 예측합니다.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+autotag-review: 2026-03-27T23:18:01.223Z
+TQID: 'https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T23:18:01.223Z
-TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: '578'
 ht-degree: 1%
-
 ---
-
 # 의도 데이터 구성
 
 [!DNL Adobe Journey Optimizer B2B Edition]에서 Intent Detection 모델은 리드의 활동을 기반으로 충분히 높은 신뢰도로 관심 있는 솔루션/제품을 예측합니다. 태그된 콘텐츠와 함께 다른 계정 공동 멤버의 활동도 활용합니다. 사람의 의도는 상품에 대한 관심을 가질 확률로 해석할 수 있다.

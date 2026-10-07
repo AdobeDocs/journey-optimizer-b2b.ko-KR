@@ -1,36 +1,46 @@
 ---
 title: Experience Manager 자산 저장소 구성
-description: Experience Manager Assets 저장소를 Journey Optimizer B2B edition에 연결하여 컨텐츠 작성에서 원활한 디지털 자산 액세스 제공.
+description: Experience Manager Assets 저장소를 Journey Optimizer B2B Edition에 연결하여 컨텐츠 작성에 원활한 디지털 자산 액세스
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
+autotag-review: 2026-03-27T23:16:47.648Z
+TQID: 'https://experienceleague.adobe.com/SCUDOEQRJb1cx-zj1oC2Qac4tPyZZg2l130MO5ds-DQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T23:16:47.648Z
-TQID: https://experienceleague.adobe.com/SCUDOEQRJb1cx-zj1oC2Qac4tPyZZg2l130MO5ds-DQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 750
-ht-degree: 1%
-
+source-wordcount: '750'
+ht-degree: 4%
 ---
-
 # Experience Manager 자산 저장소 구성
 
 [!DNL Adobe Journey Optimizer B2B Edition]은(는) [!DNL Adobe Experience Manager Assets as a Cloud Service]과(와) 통합되므로 이메일 콘텐츠의 자산을 사용할 수 있습니다. [!DNL Experience Manager Assets]과(와) 정보를 교환하여 투명성을 보장합니다. 이 기능을 사용하려면 [!DNL Adobe Experience Assets]에 대한 연결을 구성하십시오.
 
-Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Adobe Journey Optimizer B2B edition에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
+Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으며 각 프로그램에는 여러 환경과 저장소가 있습니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Adobe Journey Optimizer B2B Edition에서 Adobe Experience Manager Assets을 구성할 때 디지털 에셋에 액세스하는 데 사용할 각 저장소에 대한 연결을 설정합니다.
 
 {{aem-assets-licensing-note}}
 
@@ -38,7 +48,7 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 * AEM Headless Developer Console에서 원하는 환경에 대한 서비스 자격 증명을 생성합니다([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * 연결에 필요한 인증서를 확보합니다. 가장 좋은 방법은 인증서가 만료되기 전에 최소 6개월 이상 남아 있는지 확인하는 것입니다. 인증서는 365일마다 만료됩니다.
-* Adobe Journey Optimizer B2B edition은 한 번에 하나의 디지털 에셋 관리 소스에 대한 액세스를 지원합니다. 전환하기 전에 Adobe Experience Manager에서 필요한 자산을 사용할 수 있는지 확인하십시오.
+* Adobe Journey Optimizer B2B Edition은 한 번에 하나의 디지털 자산 관리 소스에 대한 액세스를 지원합니다. 전환하기 전에 Adobe Experience Manager에서 필요한 자산을 사용할 수 있는지 확인하십시오.
 
 >[!IMPORTANT]
 >
@@ -83,7 +93,7 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B edition은 콘텐츠를 작성할 때 한 번에 하나의 디지털 에셋 관리 소스에 대한 액세스를 지원합니다. 
+>Adobe Journey Optimizer B2B Edition은 콘텐츠를 작성할 때 한 번에 하나의 디지털 에셋 관리 소스에 대한 액세스를 지원합니다. 
 
 ## 인증서 바꾸기
 
@@ -127,7 +137,7 @@ Adobe Experience Manager Cloud Manager은 프로그램으로 구성되어 있으
 
 ## 저장소 연결 삭제
 
-저장소를 삭제하면 Journey Optimizer B2B edition 내의 Experience Manager Assets 환경에 대한 사용자 액세스 권한이 제거됩니다.
+저장소를 삭제하면 Journey Optimizer B2B Edition 내의 Experience Manager Assets 환경에 대한 사용자 액세스 권한이 제거됩니다.
 
 1. _[!UICONTROL 디지털 에셋 관리]_ 페이지에서 구성된 에셋 저장소 목록을 찾습니다.
 
