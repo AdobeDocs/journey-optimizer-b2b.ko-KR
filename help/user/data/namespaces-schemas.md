@@ -40,9 +40,9 @@ Journey Optimizer B2B Edition 설정에는 B2B 소스와 함께 사용되는 Exp
 
 >[!AVAILABILITY]
 >
->- B2B 스키마가 [실시간 고객 프로필](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home){target="_blank"}에 적합하도록 하려면 [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}에 액세스할 수 있어야 합니다.
+>- B2B 스키마가 [실시간 고객 프로필](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home){target="_blank"}에 적합하도록 하려면 [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}에 액세스할 수 있어야 합니다.
 >
->- Experience Platform B2B 엔터티는 [B2B 네임스페이스 및 스키마 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}에 설명된 표준 관계를 사용해야 합니다.
+>- Experience Platform B2B 엔터티는 [B2B 네임스페이스 및 스키마 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}에 설명된 표준 관계를 사용해야 합니다.
 
 B2B 소스에서 사용할 네임스페이스 및 스키마의 기본 설정에 대한 다음 정보를 검토하십시오. 또한 B2B 네임스페이스 및 스키마 생성에 필요한 Postman 자동화 유틸리티 구성에 대한 세부 정보도 제공합니다.
 
@@ -54,8 +54,8 @@ B2B 네임스페이스 및 스키마 자동 생성 유틸리티를 지원하도�
 
 - [GitHub 저장소](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}에서 네임스페이스와 스키마 자동 생성 유틸리티 컬렉션 및 환경을 다운로드합니다.
 - 필요한 헤더에 대한 값을 수집하고 샘플 API 호출을 읽는 방법에 대한 세부 정보를 포함하여 Experience Platform API 사용에 대한 자세한 내용은 [_Adobe Experience Platform API 시작하기_](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}를 참조하십시오.
-- Experience Platform API에 대한 자격 증명을 생성하는 방법에 대한 자세한 내용은 [_Experience Platform API 인증 및 액세스_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}를 참조하십시오.
-- Experience Platform API용 [!DNL Postman] 설정에 대한 자세한 내용은 Adobe Experience Platform의 [_[!DNL Postman]_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}을(를) 참조하십시오.
+- Experience Platform API에 대한 자격 증명을 생성하는 방법에 대한 자세한 내용은 [_Experience Platform API 인증 및 액세스_](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}를 참조하십시오.
+- Experience Platform API용 [!DNL Postman] 설정에 대한 자세한 내용은 Adobe Experience Platform의 [_[!DNL Postman]_](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/postman){target="_blank"}을(를) 참조하십시오.
 
 ### 환경 값
 
@@ -91,7 +91,7 @@ Experience Platform 개발자 콘솔과 [!DNL Postman]을(를) 설정하면 [!DN
 
 ## B2B 네임스페이스
 
-ID 네임스페이스는 ID의 컨텍스트를 구분하는 역할을 하는 Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}의 구성 요소입니다. 정규화된 ID에는 ID 값과 네임스페이스가 포함됩니다. 자세한 내용은 [네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}를 참조하십시오.
+ID 네임스페이스는 ID의 컨텍스트를 구분하는 역할을 하는 Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home){target="_blank"}의 구성 요소입니다. 정규화된 ID에는 ID 값과 네임스페이스가 포함됩니다. 자세한 내용은 [네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}를 참조하십시오.
 
 B2B 네임스페이스는 엔티티의 기본 ID에서 사용됩니다.
 
@@ -115,14 +115,14 @@ Experience Platform은 스키마를 사용하여 데이터의 구조를 일관�
 
 Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구조를 설명하고 각 필드 내에 포함할 수 있는 데이터 유형에 대한 제약 조건을 제공하는 스키마가 있어야 합니다. 스키마는 기본 클래스와 0개 이상의 스키마 필드 그룹으로 구성됩니다.
 
-디자인 원칙 및 모범 사례를 포함하여 스키마 구성 모델에 대한 자세한 내용은 [_스키마 구성 기본 사항_](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}을 참조하십시오.
+디자인 원칙 및 모범 사례를 포함하여 스키마 구성 모델에 대한 자세한 내용은 [_스키마 구성 기본 사항_](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition){target="_blank"}을 참조하십시오.
 
 +++ B2B 계정
 
 <table>
     <tr>
         <td style="width: 30%;">기본 클래스</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM 비즈니스 계정</a></td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM 비즈니스 계정</a></td>
     </tr>
     <tr>
         <td>필드 그룹</td>
@@ -161,7 +161,7 @@ Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구�
 <table>
     <tr>
         <td style="width: 30%;">기본 클래스</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile">XDM 개별 프로필</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/individual-profile">XDM 개별 프로필</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>필드 그룹</td>
@@ -202,7 +202,7 @@ Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -242,7 +242,7 @@ Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -283,7 +283,7 @@ Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -323,7 +323,7 @@ Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -361,7 +361,7 @@ Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -405,7 +405,7 @@ Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -449,7 +449,7 @@ Experience Platform에서 데이터를 수집하려면 먼저 데이터의 구�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
