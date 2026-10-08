@@ -745,7 +745,7 @@ hide: yes
 - 현지화하면 안 되는 이미지는 `do-not-localize/` 하위 폴더로 이동합니다.
 - TOC 파일(`TOC.md`)은 왼쪽 탐색 구조를 정의합니다. 페이지를 추가하거나 제거할 때 페이지를 업데이트합니다.
 - 이 리포지토리의 문서 간 상호 참조에는 루트 상대 링크(`/help/...`)를 사용하십시오.
-- 이 리포지토리 외부의 문서에 연결되는 링크의 경우 절대 `https://experienceleague.adobe.com/...` URL을 사용하십시오.
+- 이 리포지토리 외부의 문서에 연결되는 링크의 경우 절대 `https://experienceleague.adobe.com/ko...` URL을 사용하십시오.
 - 분기 이름 지정: 사용자 이름 접두사가 없습니다. Jira 티켓 번호와 제목 줄 슬러그를 사용합니다(예: `PLAT-12345-Update-Guardrail-Limits`). 동일한 형식을 사용하여 분기 및 PR 제목 이름을 모두 지정합니다.
 - 개별 구성 요소(제목, 펜싱된 코드 블록, 목록)는 빈 라인으로 둘러싸야 합니다.
 - 문서당 H1(`#`)이 하나만 있습니다. 정면의 첫 번째 줄은 H1이어야 합니다.
@@ -832,7 +832,7 @@ hide: yes
 - **로컬라이제이션 태그 참조**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Experience League markdown 구문**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Markdown 치트시트**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **릴리스 노트 스타일 참조**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **릴리스 노트 스타일 참조**: https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest
 
 **로컬 복제:**
 - **작성 안내서 리포지토리:** Adobe Experience League 작성 안내서 또는 공용 설명서의 사용 가능한 체크 아웃을 사용합니다.
