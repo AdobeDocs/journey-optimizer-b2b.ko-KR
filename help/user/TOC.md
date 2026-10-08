@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: e8e17689063cb0c279fca63afbd9c6e865d23772
+source-git-commit: f48abc33799fdcd310b3479d32301795c82a32d0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 83%
+source-wordcount: '451'
+ht-degree: 82%
 ---
 
 # Journey Optimizer B2B Edition 사용 안내서 {#user}
@@ -25,6 +25,9 @@ ht-degree: 83%
     + [사용자 관리](./admin/user-management.md)
   + [사용자 온보딩](./start/get-started.md)
   + [로그인 및 홈 페이지](home-page.md)
++ 데이터 {#data}
+  + [데이터 가용성 및 동기화 시간](./data/data-availability-timing.md)
+  + [내보낸 데이터 세트](./data/aep-exported-datasets.md)
 + AI 기능 {#ai-assistant}
   + [개요](./ai-coworker/ai-assistant-overview.md)
   + [AI 어시스턴트 액세스 활성화](./ai-coworker/enable-ai-assistant-access.md)
@@ -82,8 +85,6 @@ ht-degree: 83%
   + [LinkedIn 계정 일치 대상](./data/linkedin-account-matched-audiences.md)
   + [기본 XDM 필드](./admin/field-mapping.md)
   + [테스트 프로필](./audiences/test-profiles.md)
-+ 데이터 {#data}
-  + [내보낸 데이터 세트](./data/aep-exported-datasets.md)
 + 계정 {#accounts}
   + 구매 그룹 {#buying-groups}
     + [개요](./buying-groups/buying-groups-overview.md)
