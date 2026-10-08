@@ -92,8 +92,8 @@ ht-degree: 0%
 
 * **활동 데이터** - 전자 메일 열기, 링크 클릭, 양식 채우기와 같은 개인 활동 레코드는 [!DNL Journey Optimizer B2B Edition]에 표시되는 데 약 4시간이 걸릴 수 있습니다. 이 시간은 일괄 처리 활동 데이터에 적용됩니다. [!DNL Experience Platform] 경험 이벤트 트리거는 스트리밍 데이터를 사용하며 거의 실시간으로 반응할 수 있습니다.
 * **[!DNL Marketo Engage]작업** - [!DNL Marketo Engage]을(를) 호출하는 여정 작업은 API 호출이므로 실시간에 가깝습니다. 예를 들어 여정 단계에서 [!DNL Marketo] 목록에서 사용자를 추가하거나 제거하면 일반적으로 작업은 30분 이내에 완료됩니다. [여정 작업에 대해 자세히 알아보기](../journeys/action-nodes.md).
-* [!DNL Experience Platform]**을(를) 거치는**&#x200B;작업 - [!DNL Experience Platform]을(를) 먼저 반환하는 모든 작업은 일괄 처리되므로 실시간에 가까운 타이밍이 아닌 일괄 처리 타이밍이 적용됩니다.
-* [!DNL Journey Optimizer B2B Edition]**에 의해 생성된**&#x200B;이벤트 - [!DNL Journey Optimizer B2B Edition]이(가) [!DNL Experience Platform]에서 생성하는 이벤트는 일괄 처리 대상에서만 사용할 수 있습니다.
+* [!DNL Experience Platform]&#x200B;**을(를) 거치는**&#x200B;작업 - [!DNL Experience Platform]을(를) 먼저 반환하는 모든 작업은 일괄 처리되므로 실시간에 가까운 타이밍이 아닌 일괄 처리 타이밍이 적용됩니다.
+* [!DNL Journey Optimizer B2B Edition]&#x200B;**에 의해 생성된**&#x200B;이벤트 - [!DNL Journey Optimizer B2B Edition]이(가) [!DNL Experience Platform]에서 생성하는 이벤트는 일괄 처리 대상에서만 사용할 수 있습니다.
 
 ## 대상 [!DNL LinkedIn]개 {#linkedin-timing}
 
