@@ -2,7 +2,7 @@
 applyTo: "**/*.md"
 source-git-commit: 0f90b37c1ed8e4da0840f64179a0e99e0fe786d7
 workflow-type: tm+mt
-source-wordcount: '5177'
+source-wordcount: '5174'
 ht-degree: 1%
 ---
 
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 Adobe Experience League 공개 설명서 저장소(`journey-optimizer-b2b.en`)에서 기술 작성자를 지원하고 있습니다. 초안, 편집 또는 검토하는 모든 컨텐츠는 아래의 모든 규칙을 따라야 합니다. 용어에 대해 확실하지 않은 경우 Confluence MCP 도구(`mcp__adobe-wiki-confluence`)를 사용하여 참조된 Wiki를 참조하십시오.
 
-&#x200B;---
+---
 
 ## &#x200B;1. 음성, 음색 및 스타일
 
@@ -71,7 +71,7 @@ Adobe Experience League 공개 설명서 저장소(`journey-optimizer-b2b.en`)�
 - 다양한 쿼리 구문 검색을 개선하기 위해 처음 사용할 때 동의어나 대체 용어(예: &quot;ECID(Experience Cloud ID)&quot;)를 포함합니다.
 - 메타데이터 필드(제목, 설명, 기능 태그)가 완전하고 정확한지 확인합니다.
 
-&#x200B;---
+---
 
 ## &#x200B;2. Adobe Markdown 구문(Experience League)
 
@@ -106,7 +106,7 @@ description: Learn how to... or Learn about... (150-160 chars, sentence case).
 - 작업 설명을 &quot;방법 알아보기...&quot;로 시작합니다. 또는 명령형 동사입니다.
 - 제품 이름으로 시작하지 마십시오. SEO용 동사로 시작하십시오.
 - 첫 번째 단락을 축어 (다른 목적)로 복사하지 마십시오.
-- 메타데이터 필드가 `[!DNL]` 또는 &grave;&grave; 태그로 시작되는 경우 전체 필드 값을 따옴표로 묶거나 유효성 검사가 실패합니다.
+- 메타데이터 필드가 `[!DNL]` 또는 `` 태그로 시작되는 경우 전체 필드 값을 따옴표로 묶거나 유효성 검사가 실패합니다.
 
 ### 제목
 
@@ -364,7 +364,7 @@ Multiple paragraphs of preview content here.
 - JavaScript/CSS와 충돌하는 파일 이름을 사용하지 마십시오. `metadata.md`, `search.md`.
 - 에셋 파일 이름: 소문자 우선, 대문자 및 밑줄은 허용되지만 권장되지는 않습니다.
 
-&#x200B;---
+---
 
 ## &#x200B;3. 로컬라이제이션 태그(중요)
 
@@ -400,7 +400,7 @@ Multiple paragraphs of preview content here.
 **서식:**
 - 단계 및 탐색에서 굵게 표시: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - 명확성을 위해 개념 텍스트에서 허용되는 기울임체(비단계).
-- HTML 테이블에서: &grave;&grave; 대신 `<span class="uicontrol">term</span>`을(를) 사용합니다.
+- HTML 테이블에서: `` 대신 `<span class="uicontrol">term</span>`을(를) 사용합니다.
 - 링크 텍스트에서 태그 대괄호를 제거합니다.
 
 **대문자화:** 인터페이스와 정확히 일치합니다.
@@ -429,9 +429,9 @@ Multiple paragraphs of preview content here.
 
 **코드 블록**&#x200B;에 사용할 수 없습니다. 두문자어입니다.
 
-**메타데이터 규칙:** 메타데이터 필드(제목 또는 설명)가 `[!DNL]` 또는 &grave;&grave; 태그로 시작하는 경우 전체 필드 값을 따옴표로 묶거나 유효성 검사가 실패합니다.
+**메타데이터 규칙:** 메타데이터 필드(제목 또는 설명)가 `[!DNL]` 또는 `` 태그로 시작하는 경우 전체 필드 값을 따옴표로 묶거나 유효성 검사가 실패합니다.
 
-&#x200B;---
+---
 
 ## &#x200B;4. 정보 구조 및 콘텐츠 유형
 
@@ -505,7 +505,7 @@ hide: yes
 
 이렇게 하면 페이지가 외부 및 내부 검색 모두에서 제외됩니다. `hide: yes`을(를) 설정하면 `index: no`이(가) 자동으로 설정됩니다. 탐색 및 검색 모두에서 페이지를 숨기려면 `{hide-from-toc}` 외에 이 항목을 사용하십시오.
 
-&#x200B;---
+---
 
 ## &#x200B;5. 용어 및 브랜딩
 
@@ -603,7 +603,7 @@ hide: yes
 | 간격 조정 | 비사용자 대면 광고 용어 |
 | 파이프라인 | 내부 Adobe 인프라 용어 |
 
-&#x200B;---
+---
 
 ## &#x200B;6. 포괄적인 언어 및 접근성
 
@@ -694,7 +694,7 @@ hide: yes
 - 모든 비디오에 의미 있는 캡션을 포함합니다.
 - 가능한 경우 서면 지침으로 연결합니다. &quot;서면 지침의 경우 [link]을(를) 참조하십시오.&quot;
 
-&#x200B;---
+---
 
 ## &#x200B;7. 맞춤법 및 구두점
 
@@ -724,7 +724,7 @@ hide: yes
 - 콜론: 목록을 소개하는 데 사용합니다. 전체 문장이 뒤에 올 때(또는 단어가 고유 명사일 때) 콜론 다음의 첫 단어를 대문자로 표기하십시오.
 - 세미콜론 없음. 대신 마침표와 새 문장을 사용하십시오.
 
-&#x200B;---
+---
 
 ## &#x200B;8. SEO 및 찾기 가능성
 
@@ -736,7 +736,7 @@ hide: yes
 - 설명 메타데이터: 키워드와 함께 자연어를 사용합니다. 무작위 키워드를 크램으로 채우지 마십시오. Google은 키워드 채우기를 위해 콘텐츠를 강등할 수 있습니다.
 - 메타데이터 필드(제목, 설명, 기능 태그)를 완전하고 정확하게 유지 — 검색 표면은 페이지 컨텐츠를 읽기 전에 메타데이터를 사용하여 결과를 필터링하고 등급을 지정합니다.
 
-&#x200B;---
+---
 
 ## &#x200B;9. 파일 및 저장소 규칙
 
@@ -745,12 +745,12 @@ hide: yes
 - 현지화하면 안 되는 이미지는 `do-not-localize/` 하위 폴더로 이동합니다.
 - TOC 파일(`TOC.md`)은 왼쪽 탐색 구조를 정의합니다. 페이지를 추가하거나 제거할 때 페이지를 업데이트합니다.
 - 이 리포지토리의 문서 간 상호 참조에는 루트 상대 링크(`/help/...`)를 사용하십시오.
-- 이 리포지토리 외부의 문서에 연결되는 링크의 경우 절대 `https://experienceleague.adobe.com/ko...` URL을 사용하십시오.
+- 이 리포지토리 외부의 문서에 연결되는 링크의 경우 절대 `https://experienceleague.adobe.com/...` URL을 사용하십시오.
 - 분기 이름 지정: 사용자 이름 접두사가 없습니다. Jira 티켓 번호와 제목 줄 슬러그를 사용합니다(예: `PLAT-12345-Update-Guardrail-Limits`). 동일한 형식을 사용하여 분기 및 PR 제목 이름을 모두 지정합니다.
 - 개별 구성 요소(제목, 펜싱된 코드 블록, 목록)는 빈 라인으로 둘러싸야 합니다.
 - 문서당 H1(`#`)이 하나만 있습니다. 정면의 첫 번째 줄은 H1이어야 합니다.
 
-&#x200B;---
+---
 
 ## &#x200B;10. 검사 목록
 
@@ -781,7 +781,7 @@ hide: yes
 - [ ] 제품 이름 앞에 &quot;the&quot;가 없습니다(예: &quot;the Adobe Experience Platform&quot;가 아님).
 
 **로컬라이제이션 태그**
-- [ 모든 UI 요소 이름에 ] &grave;&grave;이(가) 있습니다. 굵게 단계 표시
+- [ 모든 UI 요소 이름에 ] ``이(가) 있습니다. 굵게 단계 표시
 - [ 모든 제품 및 타사 이름의 ] `[!DNL]`
 - [ ] 부울 연산자에 태그가 지정되었습니다. `[!DNL AND]`, `[!DNL OR]`
 - [ ] 코드 블록 내에 태그가 없습니다.
@@ -811,7 +811,7 @@ hide: yes
 - [ ] 파일 이름은 하이픈이 있는 소문자이고, 설명 슬러그는 `overview.md`이(가) 아닙니다.
 - [ `assets/`에 ]개 이미지, `do-not-localize/`에 현지화되지 않은 이미지
 
-&#x200B;---
+---
 
 ## &#x200B;11. 외부 참조
 
@@ -832,7 +832,7 @@ hide: yes
 - **로컬라이제이션 태그 참조**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Experience League markdown 구문**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Markdown 치트시트**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **릴리스 노트 스타일 참조**: https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest
+- **릴리스 노트 스타일 참조**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
 
 **로컬 복제:**
 - **작성 안내서 리포지토리:** Adobe Experience League 작성 안내서 또는 공용 설명서의 사용 가능한 체크 아웃을 사용합니다.
