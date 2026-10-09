@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
+source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5717'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 릴리스 정보
@@ -43,15 +43,18 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 사용자 목록 | 이제 정적 및 동적 사용자 목록을 사용할 수 있으므로 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준에 따라 프로필을 타깃팅할 수 있습니다. |
 | 기능 | 서비스 상태 대시보드 | 성공/오류 지표를 수집하고 관리자가 서비스 성능을 모니터링할 수 있는 대시보드를 제공하여 외부 작업의 운영 상태를 추적합니다. |
+| 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. [자세히 알아보기](../journeys/journey-re-entry.md) |
 | 개선 사항 | 프로필 대상자 필터 구성원 | 이제 이 필터를 사용자 여정 분할 경로 조건, 계정 여정 사용자 분할 경로 조건 및 사용자 목록에서 대상 멤버십에 따라 프로필을 포함하거나 제외할 수 있습니다. |
-| 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
 
 >[!NOTE]
 >
 >이러한 릴리스 변경 사항은 2026년 9월 25일에 배포로 시작되며, 각 기능의 단계적 롤아웃과 개선 사항이 제공됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
 
+<!--
+Delayed to Oct
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+-->
 
 ## 2026.8 릴리스 노트 {#rel-2026-8}
 
