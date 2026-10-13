@@ -1,8 +1,8 @@
 ---
 applyTo: "**/*.md"
-source-git-commit: 0f90b37c1ed8e4da0840f64179a0e99e0fe786d7
+source-git-commit: d36cfd513df3d363a7bd74b5e09b774426e50b9b
 workflow-type: tm+mt
-source-wordcount: '5174'
+source-wordcount: '5166'
 ht-degree: 1%
 ---
 
@@ -411,12 +411,12 @@ Multiple paragraphs of preview content here.
 - 코드 블록 또는 두문자어
 - 아이콘 설명. 사용 가능한 경우 아이콘의 가리키기/툴팁 이름을 사용하십시오. &quot;연필 아이콘&quot;과 같은 일반 설명에 태그를 지정하지 마십시오.
 
-### `[!DONOTLOCALIZE]`: 전체 섹션 제외
+### `[!DNL]`: 전체 섹션 제외
 
 모든 로케일에서 영어로 유지해야 하는 컨텐츠 줄바꿈:
 
 ```markdown
->[!DONOTLOCALIZE]
+>[!DNL]
 >
 >Content that must not be translated.
 ```
@@ -529,9 +529,8 @@ hide: yes
 | 실시간 고객 프로필 | 실시간 고객 프로필, 통합 프로필 |
 | Adobe Journey Optimizer | AJO |
 | Adobe Journey Optimizer B2B Edition | AJO B2B |
-| Adobe Journey Optimizer Prime | AJO Prime |
 | Adobe Marketo Optimizer | AMO |
-| Adobe Marketo Engage | Marketo (형용사로 사용할 수 있음) |
+| Adobe Marketo Engage | Marketo(형용사로 사용할 수 없음) |
 | Adobe Customer Journey Analytics | CJA |
 | Customer Journey Analytics(보조) | — |
 | Adobe Real-Time CDP Collaboration | RTCDP Collaboration, RTCDP Collab, Collab |
