@@ -3,14 +3,12 @@ title: 콘텐츠 작성 - 조각 사용
 description: 콘텐츠 작성에 조각 사용에 대한 재사용 섹션
 source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # 콘텐츠 작성 - 시각적 조각 사용
 
-시각적 조각은 Adobe Journey Optimizer B2B edition의 여러 콘텐츠 에셋에서 참조할 수 있는 재사용 가능한 디자인 구성 요소입니다. 일반적으로 미리 만들고 빠르게 삽입하여 보다 빠르고 일관성 있는 작성을 가능하게 하는 콘텐츠 블록입니다.
+시각적 조각은 Adobe Journey Optimizer B2B Edition의 여러 콘텐츠 에셋에서 참조할 수 있는 재사용 가능한 디자인 구성 요소입니다. 일반적으로 미리 만들고 빠르게 삽입하여 보다 빠르고 일관성 있는 작성을 가능하게 하는 콘텐츠 블록입니다.
 
 다음 예제에서는 콘텐츠를 작성할 때 조각을 추가하는 단계에 대해 간략하게 설명합니다.
 
