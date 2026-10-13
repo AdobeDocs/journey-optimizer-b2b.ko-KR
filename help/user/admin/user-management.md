@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # 사용자 액세스 및 권한
 
@@ -79,13 +79,13 @@ Admin Console을 사용하여 팀 내의 사용자를 관리하려면 먼저 Adm
 
 사용자에게 Adobe 솔루션에 대한 액세스 권한을 부여할 때 반드시 전체 액세스 권한을 부여할 필요는 없습니다. 제품 프로필을 사용하면 각 솔루션이 고유한 사용자 권한 집합을 가질 수 있습니다. Admin Console을 사용하여 제품 프로필을 할당합니다.
 
-사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
+사용자 자격에 제품 프로필을 사용하는 방법에 대한 자세한 내용은 Admin Console 설명서에서 [_기업 사용자에 대한 제품 프로필 관리_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}를 참조하십시오.
 
 >[!BEGINSHADEBOX]
 
 Marketo Engage 제품 프로필에 사용자를 추가하면 해당 사용자는 나중에 Marketo Engage 구독의 기본 작업 영역 내에서 _표준 사용자_ 역할에 추가됩니다. 이 역할은 해당 작업 영역에서 Marketo Engage에 대한 모든 표준 권한을 부여합니다. 현재 모든 Journey Optimizer B2B Edition 사용자는 Marketo Engage 사용자여야 합니다. Marketo Engage 관리자는 _표준 사용자_ 역할에 대한 권한을 업데이트하거나 보다 제한적인 권한이 있는 다른 Marketo Engage 사용자 역할로 사용자를 이동하여 액세스를 제한할 수 있습니다.
 
-Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
+Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한 내용은 Marketo Engage 설명서의 [사용자 역할 및 권한 관리](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -178,7 +178,7 @@ Marketo Engage에서 이러한 권한을 관리하는 방법에 대한 자세한
 
 Adobe Experience Platform의 _권한_ 영역에서 관리자는 사용자 역할과 액세스 정책을 정의하여 제품 응용 프로그램 내의 기능 및 개체에 대한 액세스 권한을 관리할 수 있습니다. 이 앱에서는 역할을 만들고 관리하며, 이러한 역할에 대해 원하는 리소스 권한을 할당할 수 있습니다. 또한 권한을 사용하여 특정 역할과 연관된 샌드박스 및 사용자를 관리할 수 있습니다.
 
-Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
+Experience Platform의 역할 권한에 대한 자세한 내용은 Experience Platform 설명서에서 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}를 참조하십시오.
 
 ### B2B 제품 권한 {#b2b-product-permissions}
 
@@ -192,8 +192,12 @@ Journey Optimizer B2B Edition 기능에 대한 액세스를 제어하는 권한�
 | B2B 구매 그룹 | B2B 구매 그룹에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 솔루션 관심 분야, 역할 템플릿 및 구매 그룹 상태가 포함됩니다. | <li>B2B 구매 그룹 관리 <li>B2B 솔루션 관심 항목 관리 <li>B2B 역할 템플릿 관리 <li>B2B 단계 관리 <li>B2B 구매 그룹 보기 |
 | B2B 채널 구성 | B2B 채널 구성에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 통신 제한, API 자격 증명 및 보안 설정에 대한 설정이 포함됩니다. | <li>B2B 채널 구성 관리 <li>B2B 이메일 설정 보기 <li>B2B 이메일 설정 관리 <li>B2B WhatsApp 사전 설정 관리 <li>B2B 랜딩 페이지 설정 관리 <li>B2B Forms 사전 설정 보기 <li>B2B Forms 사전 설정 관리 <li>B2B Forms 사전 설정 게시 <li>작성자 B2B 웹 경험 <li>B2B WhatsApp 설정 관리 |
 | B2B 대시보드 | B2B 대시보드에 대한 권한을 구성하고 볼 수 있습니다. 이러한 권한에는 계정 참여, 구매 그룹 단계, 급증 계정 및 연락처 적용 범위가 포함됩니다. | <li>B2B 참여 대시보드 보기 |
-| B2B 여정 | B2B 여정에 대한 권한을 구성, 관리, 보기 및 게시합니다. 이러한 권한에는 계정 및 사용자 작업, 이벤트 리스너 및 분할 경로가 포함됩니다. | <li>B2B 계정 여정 관리 <li>B2B 개인 여정 관리 |
+| B2B 여정 | B2B 여정에 대한 권한을 구성, 관리, 보기 및 게시합니다. 이러한 권한에는 계정 및 사용자 작업, 이벤트 리스너 및 분할 경로가 포함됩니다. | <li>B2B 계정 여정 관리 <li>B2B 개인 여정 관리 <li>B2B 개인 여정 보기 <li>B2B 개인 여정 게시 |
 | Journey Optimizer 규칙 | 빈도 규칙(통신 제한)에 액세스하고 구성합니다. 이러한 권한은 제품 관리자로 제한되어야 합니다. | <li>빈도 규칙 보기 <li>빈도 규칙 관리 |
+
+>[!NOTE]
+>
+>모든 B2B 개인 여정 권한은 현재 개인 여정에 대한 읽기, 쓰기 및 게시 액세스 권한을 부여합니다. 이 알려진 공백은 향후 릴리스에서 해결됩니다.
 
 ### B2B 기본 제공 역할 {#b2b-built-in-roles}
 
