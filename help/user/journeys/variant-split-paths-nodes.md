@@ -172,7 +172,7 @@ _[경로 분할](./split-merge-paths-nodes.md)_&#x200B;과(와) _경로 변형 �
 
    _[!UICONTROL People]_ 형식을 사용하는 경우 _변형 분할 경로 닫기_ 노드가 자동으로 삽입되어 그룹화된 분할을 닫습니다.
 
-   ![여정 캔버스 - 자동으로 삽입된 닫기 노드가 있는 사람이 분할한 변형 ](./assets/node-variant-split-paths-people-canvas.png){width="700" zoomable="yes"}
+   ![여정 캔버스 - 자동으로 삽입된 닫기 노드가 있는 사람이 분할한 변형 &#x200B;](./assets/node-variant-split-paths-people-canvas.png){width="700" zoomable="yes"}
 
 1. 각 경로에 대한 **[!UICONTROL Label]**&#x200B;을(를) 검토하거나 업데이트하십시오.
 
