@@ -1,6 +1,6 @@
 ---
 title: 변형 분할 경로
-description: Journey Optimizer B2B edition에서 백분율 기반 할당을 사용하여 변형 분할 경로 노드를 사용하여 계정이나 사람을 여러 여정 경로에 분산하는 방법을 알아봅니다.
+description: Journey Optimizer B2B Edition에서 백분율 기반 할당을 사용하여 변형 분할 경로 노드를 사용하여 계정이나 사람을 여러 여정 경로에 분산하는 방법을 알아봅니다.
 feature: Account Journeys, Person Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -8,29 +8,29 @@ autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: d130cb9de068b22be540a1fe9a6dc9fcaaad127e
+    internal-label: Experienced
+source-git-commit: c0d976241c5074deaca28d82e71b30718f6cd0c7
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: '1981'
 ht-degree: 1%
-
 ---
-
 # 변형 분할 경로
 
 _Variant 분할 경로_ 노드를 사용하여 사용자가 정의한 백분율 할당에 따라 둘 이상의 여정 경로에 계정이나 사용자를 배포합니다. 이 노드는 조건부 규칙을 적용하지 않고 대상의 세그먼트 간에 다양한 메시징, 타이밍 또는 참여 전술을 테스트하려는 경우 유용합니다.
-
->[!AVAILABILITY]
->
->계정 및 개인 여정에 대한 _Variant 분할 경로_ 노드는 제한된 가용성 기능으로 고객을 선택할 수 있습니다. 액세스하려면 Adobe 담당자에게 문의하십시오.
 
 ## 여정 유형별 비교 {#journey-type-comparison}
 
