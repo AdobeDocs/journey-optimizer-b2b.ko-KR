@@ -320,4 +320,4 @@ _[!UICONTROL 프로필 대상]_ 제약 조건을 사용하여 하나 이상의 �
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443263/?captions=kor&learn=on)
