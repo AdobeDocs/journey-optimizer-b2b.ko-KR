@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 5%
+source-wordcount: '2144'
+ht-degree: 4%
 ---
 # 이벤트 듣기
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
      _이벤트 편집_ 대화 상자에서 하나 이상의 [사람 이벤트](#people-events)를 빌더 공간으로 끌어다 놓고 각각에 대한 정의를 설정하십시오. 이벤트 일치를 구체화하는 데 사용할 각 제약 조건에 대해 **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭합니다.
 
-     일치시킬 여러 사용자 이벤트를 추가할 수 있습니다. 첫 번째 자격 이벤트는 여정에서 계정을 앞으로 진행합니다.
+     일치시킬 여러 사용자 이벤트를 추가할 수 있습니다. 첫 번째 자격 이벤트는 여정의 계정을 진행합니다.
 
      ![계정 여정 노드 - 이벤트 수신 - 사람 이벤트 유형 - 이벤트 편집](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
 
@@ -79,7 +79,7 @@ ht-degree: 5%
 
 ### 계정 여정에 대한 사용자 이벤트 {#people-events}
 
-계정 여정에서 개인(잠재 고객) 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우 사용자를 기반으로 하는 이벤트를 수신할 수 있습니다. 이벤트 내역 및 개인 속성에 따라 이벤트를 필터링할 수도 있습니다.
+계정 여정에서 개인(리드) 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 진행하려는 경우 사용자를 기반으로 하는 이벤트를 수신할 수 있습니다. 이벤트 내역 및 개인 속성에 따라 이벤트를 필터링할 수도 있습니다.
 
 >[!TIP]
 >
@@ -97,7 +97,7 @@ ht-degree: 5%
 
 ### 계정 이벤트 {#account-events}
 
-계정 여정에서 계정 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 앞으로 이동하려는 경우 계정을 기반으로 이벤트를 수신할 수 있습니다.
+계정 여정에서, 계정 활동에 의해 트리거된 이벤트에 따라 여정에서 계정을 진행하려는 경우, 계정을 기반으로 이벤트를 수신할 수 있습니다.
 
 | 이벤트 | 제한 |
 | ----- | ----------- |
@@ -185,7 +185,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    이벤트 트리거를 빌더 공간으로 끌어서 놓고 정의를 설정합니다. 이벤트 일치를 구체화하는 데 사용할 각 제약 조건에 대해 **[!UICONTROL 제약 조건 추가]**&#x200B;를 클릭합니다.
 
-   일치시킬 여러 이벤트를 추가할 수 있습니다. 첫 번째 자격 이벤트는 여정에서 개인 프로필을 앞으로 진행합니다.
+   일치시킬 여러 이벤트를 추가할 수 있습니다. 첫 번째 자격 이벤트는 여정의 개인 프로필을 진행합니다.
 
 1. (선택 사항) **[!UICONTROL 필터]** 탭을 선택하여 [이벤트에 대한 필터를 추가](#filters-people-event)합니다.
 
@@ -260,7 +260,8 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 | [!UICONTROL 이벤트 기록] | 관리자가 구성한 경험 이벤트. _[경험 이벤트 및 필드 선택](../admin/configure-aep-events.md)_&#x200B;을 참조하세요. |
 | [!UICONTROL 사용자 특성] | 다음을 포함한 B2B 개인 프로필의 속성: <li>도시 <li>국가 <li>생년월일 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 중단됨 <li>이름 <li>추정 주 지역<li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주 <li>구독 취소 <li>구독 취소 이유 |
 | [!UICONTROL 사용자 특성] | (개인 여정 전용) 속성 값 |
-| [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨</li><li>역할</li> |
+| [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨(기본값: `false`)</li><li>역할</li> ([구성원 자격 필터링](#membership-filtering) 참조) |
+| [!UICONTROL 특수 필터] > [!UICONTROL 프로필 대상자의 구성원] | 해당 사용자가 하나 이상의 [!DNL Adobe Experience Platform] 프로필 대상자의 멤버이거나 멤버가 아닙니다. ([구성원 자격 필터링](#membership-filtering) 참조) |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -284,6 +285,51 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
      ![이벤트 정의에 사용된 개인 필터](./assets/node-listen-events-filter-logic.png){width="600" zoomable="yes"}
 
 1. 이벤트 및 필터 정의가 완료되면 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+
+### 멤버십 필터링 {#membership-filtering}
+
+_[!UICONTROL 특수 필터]_ 섹션에서 다음 필터를 사용하여 사용자의 멤버십에 따라 이벤트를 일치시킵니다.
+
+* _[!UICONTROL 구매 그룹 구성원]_ - 해당 사용자가 구매 그룹의 구성원인지 여부를 평가합니다.
+* _[!UICONTROL 프로필 대상자의 구성원]_ - 해당 사용자가 [!DNL Adobe Experience Platform] 프로필 대상자의 구성원인지 여부를 평가합니다.
+
+구성원 자격 필터를 추가하려면 _[!UICONTROL 특수 필터]_ 폴더에서 필터 작업 영역으로 끌어다 놓고 구성원을 포함하려면 _true_(으)로 설정하고 구성원을 제외하려면 _false_(으)로 설정하십시오. 두 필터를 동일한 이벤트 정의에서 결합하고 **[!UICONTROL 필터 논리]**&#x200B;를 사용하여 해당 필터를 모두 또는 모두 일치시킬 수 있습니다.
+
+이러한 필터는 [사람 상태별 분할 경로](./split-merge-paths-nodes.md#membership-filtering)에서도 사용할 수 있습니다.
+
+![이벤트 노드 수신 - 멤버십 필터](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**구매 그룹 구성원**
+
+구매 그룹 구성원에 대한 이벤트를 특정 역할과 일치시키려면 구성원 자격을 _true_(으)로 설정하고 하나 이상의 구매 그룹과 연결된 _[!UICONTROL 솔루션 관심 분야]_&#x200B;를 선택하십시오.
+
+필터를 추가하면 시스템은 기본적으로 _[!UICONTROL Is Removed]_ 제약 조건을 포함하며 `false`(으)로 설정하므로 필터는 현재 구매 그룹 구성원만 일치합니다.
+
+추가 구매 그룹 구성원 자격 제한을 포함하려면 **[!UICONTROL 제한 추가]**&#x200B;를 클릭하십시오.
+
+* _[!UICONTROL 그룹 단계 구매]_
+* _[!UICONTROL 그룹 상태 구매]_
+* _[!UICONTROL 완성도 점수]_
+* _[!UICONTROL 참여 점수]_
+* _[!UICONTROL 역할]_
+
+>[!IMPORTANT]
+>
+>_[!UICONTROL 제거됨]_ 제약 조건은 제거된 구매 그룹 구성원을 평가할지 여부를 결정합니다.
+>
+>* `false`(기본값) - 현재 구매 그룹 구성원만 반환합니다. 제거된 멤버는 포함되지 않습니다.
+>* `true` - 제거된 구매 그룹 구성원만 반환합니다. 현재 멤버는 포함되지 않습니다.
+>* 제약 조건 제거됨 - 현재 및 제거된 구매 그룹 구성원을 모두 반환합니다.
+>
+>제한을 제거하면 필터가 더 이상 구매 그룹에 없는 사람을 일치시킬 수 있습니다.
+
+**프로필 대상자의 구성원**
+
+_[!UICONTROL 프로필 대상]_ 제약 조건을 사용하여 하나 이상의 대상을 선택하십시오. 예를 들어, `integroPerson` 대상자를 선택하면 이벤트는 마지막 일괄 처리 수집이 발생했을 때 해당 대상자의 멤버였던 사람만 일치시킵니다.
+
+>[!NOTE]
+>
+>필터는 실시간으로 대상자 멤버십을 계산하지 않습니다. 마지막 배치 대상 섭취 시점의 선택된 대상자에서의 멤버십을 기반으로 사람을 자격을 부여합니다. [!DNL Journey Optimizer B2B Edition]에 수집된 대상만 평가할 수 있습니다.
 
 ## 이벤트 노드에 시간 초과 추가 {#timeouts}
 
