@@ -1,6 +1,6 @@
 ---
 title: 외부 작업 구성
-description: 개발자, 관리자 및 마케터가 함께 Journey Optimizer B2B Edition을 여정의 외부 서비스와 연결하는 외부 작업을 구현, 구성 및 사용하는 방법에 대해 알아봅니다.
+description: 개발자, 관리자 및 마케터가 함께 Journey Optimizer B2B Edition을 여정의 외부 서비스와 연결하는 외부 작업을 구현, 구성 및 사용하는 방법과 관리자가 작업 상태를 모니터링하는 방법에 대해 알아봅니다.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 1%
 ---
 # 외부 작업 구성
@@ -45,7 +45,7 @@ ht-degree: 1%
 | | 역할 | 작업 |
 | ---- | ---- | ---- |
 | 1 | Developer | [외부 서비스 구현 및 게시](#implement-service) |
-| 2 | 관리자 | [Journey Optimizer B2B Edition에서 작업 구성](#configure-action) |
+| 2 | 관리자 | [Journey Optimizer B2B Edition에서 동작 구성](#configure-action) 및 [외부 동작 상태 모니터링](#monitor-external-action-health) |
 | 3 | 마케터 | [외부 노드를 여정에 추가](#add-journey-node) |
 
 ## 외부 서비스 구현 {#implement-service}
@@ -71,6 +71,8 @@ ht-degree: 1%
 1. **[!UICONTROL 관리]** > **[!UICONTROL 구성]**(으)로 이동합니다.
 
 1. 중간 패널에서 **[!UICONTROL 외부 작업]**&#x200B;을 클릭합니다.
+
+1. **[!UICONTROL 찾아보기]** 탭을 선택합니다.
 
    ![외부 작업 구성 공간에 액세스](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## 외부 작업 상태 모니터링 {#monitor-health}
+
+마케터가 여정에서 외부 작업을 사용하기 시작하면 외부 작업 페이지의 _개요_ 탭에서 각 작업이 수행되는 방식을 추적할 수 있습니다. 이 시각화를 사용하여 각 작업이 받는 요청 수, 이러한 요청 중 실패한 요청 수 및 오류율이 가장 높은 작업을 확인합니다.
+
+대시보드를 보려면 다음 작업을 수행하십시오.
+
+1. **[!UICONTROL 관리]** > **[!UICONTROL 구성]**(으)로 이동합니다.
+
+1. 중간 패널에서 **[!UICONTROL 외부 작업]**&#x200B;을 클릭합니다.
+
+   시스템은 기본적으로 지난 7일 동안의 외부 작업 데이터와 함께 **[!UICONTROL 개요]** 탭을 표시합니다.
+
+1. 날짜 범위 메뉴에서 검토할 기간을 선택하거나 날짜 필드에 시작 및 종료 날짜를 입력합니다. 기본 범위는 최근 30일입니다.
+
+   ![외부 작업 상태 대시보드에 날짜 범위 필터, 총 요청, 오류, 오류율 및 작업 성능이 표시됩니다.](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   지표 및 테이블이 업데이트되어 선택한 기간의 활동만 표시됩니다.
+
+### 지표 {#metrics}
+
+_개요_ 섹션에는 선택한 기간 동안의 모든 외부 작업의 성능이 요약되어 있습니다.
+
+| 지표 | 설명 |
+| ---- | ---- |
+| [!UICONTROL 총 작업] | 보고서에 포함된 외부 작업 수입니다. |
+| [!UICONTROL 총 요청] | 모든 작업에서 외부 서비스에 대해 수행된 총 요청 수입니다. |
+| [!UICONTROL 총 오류] | 오류가 발생한 총 요청 수입니다. |
+| [!UICONTROL 오류율] | 오류가 발생한 요청의 비율입니다. |
+
+### 작업 성능 {#actions}
+
+_작업 성능_ 표에는 선택한 기간 동안의 각 외부 작업과 해당 활동이 나열됩니다.
+
+| 열 | 설명 |
+| ---- | ---- |
+| [!UICONTROL 이름] | 외부 작업의 이름입니다. |
+| [!UICONTROL 요청 개수] | 작업의 외부 서비스에 대한 요청 수입니다. |
+| [!UICONTROL 오류 개수] | 오류가 발생한 요청 수입니다. |
+| [!UICONTROL 오류율] | 오류가 발생한 요청의 비율입니다. |
+
+표를 사용하여 작업을 비교하고 주의가 필요한 작업을 찾습니다. 예를 들어 오류율이 높은 작업은 외부 서비스, 해당 인증 자격 증명 또는 구성에 문제가 있음을 나타냅니다. 서비스를 구현한 개발자와 협력하여 원인을 조사하십시오.
+
 ## 여정에 외부 노드 추가 {#add-journey-node}
 
 작업이 활성화되면 마케터는 모든 계정이나 사용자 여정에 _[!UICONTROL 외부 작업]_ 또는 _[!UICONTROL 외부 분할 경로]_ 노드를 추가할 수 있습니다. 여정 캔버스에서 이러한 노드를 추가하고 사용하는 방법에 대한 자세한 내용은 [외부 노드](../journeys/external-nodes.md)를 참조하십시오.
+
+![외부 작업 노드 - 외부 서비스 선택](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}

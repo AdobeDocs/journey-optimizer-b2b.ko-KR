@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
+source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
 workflow-type: tm+mt
-source-wordcount: '5781'
+source-wordcount: '5784'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 릴리스 정보
@@ -43,7 +43,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 서비스 상태 대시보드 | 성공/오류 지표를 수집하고 관리자가 서비스 성능을 모니터링할 수 있는 대시보드를 제공하여 외부 작업의 운영 상태를 추적합니다. |
+| 개선 사항 | 외부 동작 상태 | 이제 관리자는 요청 카운트, 오류 카운트 및 오류율을 보여주는 대시보드에서 외부 작업 성능을 모니터링할 수 있습니다. [자세히 알아보기](../admin/configure-external-actions.md#monitor-health) |
 | 개선 사항 | 프로필 대상자 필터 구성원 | 이제 이 필터를 사용자 여정 분할 경로 조건, 계정 여정 사용자 분할 경로 조건 및 _이벤트 수신_ 노드 필터에서 대상 멤버십에 따라 프로필을 포함하거나 제외할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 개선 사항 | 구매 그룹 구성원 필터 - 기본적으로 제거됨 | _사람별 분할 경로_ 조건 및 _이벤트 수신_ 노드 필터에서 이제 _[!UICONTROL 제거됨]_ 제한이 기본적으로 선택되고 _[!UICONTROL 구매 그룹 구성원]_ 필터를 추가할 때 `false`(으)로 설정됩니다. 제한을 변경하거나 제거하지 않는 한 필터는 현재 구매 그룹 멤버만 반환합니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 개선 사항 | 여정 재입력 - 개인 여정 | 이제 개인 여정에 대해 여정 재입력 지원이 제공됩니다. |
