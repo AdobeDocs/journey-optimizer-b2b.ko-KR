@@ -386,7 +386,7 @@ Multiple paragraphs of preview content here.
 - 두문자어(자동으로 영어 유지)
 - 번역하지 않음 데이터베이스에 이미 있는 용어
 
-**링크 텍스트:** 렌더링 문제를 방지하려면 태그 대괄호를 제거하십시오. `[[!DNL Adobe]](https://www.adobe.com)`이(가) 아닌 `[Adobe](https://www.adobe.com)`을(를) 사용합니다.
+**링크 텍스트:** 렌더링 문제를 방지하려면 태그 대괄호를 제거하십시오. `[[!DNL Adobe]](https://www.adobe.com/kr)`이(가) 아닌 `[Adobe](https://www.adobe.com/kr)`을(를) 사용합니다.
 
 ### `[!UICONTROL Label]`: UI 컨트롤
 
