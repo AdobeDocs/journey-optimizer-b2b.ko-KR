@@ -1,34 +1,40 @@
 ---
 title: 계정 목록
-description: Journey Optimizer B2B edition의 타깃팅된 여정 오케스트레이션 및 계정 기반 마케팅을 위한 맞춤형 필터를 사용하여 정적 및 동적 계정 목록을 만듭니다.
+description: Journey Optimizer B2B Edition에서 타깃팅된 여정 오케스트레이션 및 계정 기반 마케팅을 위한 맞춤형 필터를 사용하여 정적 및 동적 계정 목록을 만듭니다.
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
 source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: '1262'
 ht-degree: 2%
-
 ---
-
 # 계정 목록
 
-Journey Optimizer B2B edition에서 계정 목록은 마케터가 타깃팅된 여정 오케스트레이션에 사용할 수 있는 명명된 계정의 컬렉션입니다. 계정 목록은 업종, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 대상으로 할 수 있습니다. 계정 목록에는 두 가지 유형이 있습니다.
+Journey Optimizer B2B Edition에서 계정 목록은 마케터가 타깃팅된 여정 오케스트레이션에 사용할 수 있는 명명된 계정의 컬렉션입니다. 계정 목록은 업종, 위치 또는 회사 규모 등 정의된 기준에 따라 지정된 계정을 대상으로 할 수 있습니다. 계정 목록에는 두 가지 유형이 있습니다.
 
 * **정적** - 정적 계정 목록이 있는 경우 계정을 추가할 때만 목록이 변경됩니다. 필터 세트를 적용하여 현재 계정 데이터를 기준으로 목록을 채워 수동으로 계정을 추가하거나 계정 여정을 통해 계정을 추가 및 제거할 수 있습니다.
 * **동적** - 동적 계정 목록을 사용하여 목록을 자동으로 조정하기 위한 필터 집합을 정의합니다. 시스템은 이 필터 세트를 사용하여 계정 정보의 변경에 따라 계정을 추가하고 제거합니다. 이 목록 관리는 [실시간 고객 데이터 플랫폼의 대상 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}와 비슷합니다.
