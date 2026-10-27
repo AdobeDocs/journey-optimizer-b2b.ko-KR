@@ -84,4 +84,4 @@ ht-degree: 1%
 
 ## 다음 단계
 
-[!DNL CX Coworker] 앱에서 채팅 기능을 사용하는 방법에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.
+[!DNL CX Coworker] 앱에서 채팅 기능을 사용하는 방법에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.

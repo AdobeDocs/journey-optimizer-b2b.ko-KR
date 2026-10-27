@@ -69,7 +69,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 최신 릴리스 정보
 
@@ -79,7 +79,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 시작
 
@@ -90,7 +90,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 데이터 관리
 
@@ -103,7 +103,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 커뮤니케이션 채널
 
@@ -115,7 +115,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 여정 만들기
 
@@ -125,7 +125,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
 
 구매 그룹 이해
 
@@ -138,7 +138,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
 
 Design Content
 
@@ -194,7 +194,7 @@ Learn how to author and manage content for personalized customer experiences orc
 
 [!DNL Adobe Marketo Qualifier]은(는) [!DNL Journey Optimizer B2B Edition]에서 사용할 수 있는 AI 기반 애플리케이션입니다. 계정 자격 기술을 구현하고 비즈니스 개발 담당자(BDR)를 위한 워크플로를 간소화하도록 설계되었습니다. [!DNL Marketo Qualifier]은(는) 채널 전반에서 잠재 고객 자격, 전달 및 구매자 참여 워크플로를 자동화합니다. 엔터프라이즈 B2B 기업의 수동 BDR 로드를 줄이고 파이프라인 속도를 가속화합니다.
 
-자세한 내용은 [Marketo Qualifier 설명서](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}를 참조하세요.
+자세한 내용은 [Marketo Qualifier 설명서](https://experienceleague.adobe.com/ko/docs/marketo-qualifier/using/home){target="_blank"}를 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -202,10 +202,10 @@ Learn how to author and manage content for personalized customer experiences orc
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
+<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/kr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home" target="_blank">설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">개발자 자습서</a>

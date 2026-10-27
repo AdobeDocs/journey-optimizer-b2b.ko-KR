@@ -56,7 +56,7 @@ ht-degree: 7%
 
 콘텐츠 생성이 아닌 모든 채팅 워크플로에 [!DNL CX Enterprise Coworker] 앱 인터페이스를 사용하십시오. 제품 관련 질문과 운영 통찰력을 살펴보고 B2B 계정 및 사용자에 대한 [여정 기술](../agents/journey-agent.md) 및 [대상 기술](../agents/audience-agent-b2b.md)을 사용하세요. 콘텐츠 생성은 [!DNL Journey Optimizer B2B Edition] 내에서 계속 사용할 수 있습니다.
 
-앱 열기, 대화 시작 및 채팅 기능 사용에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.
+앱 열기, 대화 시작 및 채팅 기능 사용에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.
 
 [!DNL Coworker] 채팅 쿼리를 제출하기 전에 필요한 조회 유형을 고려하십시오.
 
@@ -115,4 +115,4 @@ _Operational insights_&#x200B;는 [!DNL Coworker]이(가) 메타데이터 개체
 
 * [AI 기능 액세스 활성화](./enable-ai-access.md)
 * [질문 지침](./question-guidance.md)
-* [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}
