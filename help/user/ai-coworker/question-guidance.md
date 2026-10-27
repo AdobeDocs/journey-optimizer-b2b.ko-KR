@@ -1,6 +1,6 @@
 ---
-title: AI Assistant에 대한 질문 지침
-description: Journey Optimizer B2B edition에서 최적의 응답을 얻을 수 있는 모범 사례, 예 및 구문 설명과 함께 효과적인 AI 지원 질문을 작성합니다.
+title: '[!DNL Coworker] 채팅에 대한 질문 지침'
+description: Journey Optimizer B2B Edition에서 최적의 응답을 얻을 수 있는 모범 사례, 예제 및 구문 팁을 사용하여 효과적인 [!DNL Coworker] 채팅 질문을 작성하십시오.
 feature: AI Assistant
 role: User
 level: Beginner
@@ -9,53 +9,57 @@ autotag-review: '2026-06-05T16:08:18.792Z'
 TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7b5a3fdf94725b7cf3c7f4da8ff5d8cce115a3d7
+    internal-label: Troubleshooting
+source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
 workflow-type: tm+mt
-source-wordcount: 889
+source-wordcount: '830'
 ht-degree: 1%
-
 ---
+# [!DNL Coworker] 채팅에 대한 질문 지침
 
-# Journey Optimizer B2B edition의 AI Assistant에 대한 질문 지침
-
-Journey Optimizer B2B edition의 AI Assistant 쿼리에 대한 다음 예제 질문을 검토하십시오. 이 정보에는 AI Assistant에서 최적의 응답을 얻기 위해 질문을 구문 분석하는 방법에 대한 팁도 포함되어 있습니다.
+[!DNL Coworker] 쿼리를 위해 다음 예제 질문을 검토하여 [!DNL Adobe Journey Optimizer B2B Edition] 워크플로우를 사용하도록 설정하십시오. 이 정보에는 [!DNL Coworker] 채팅에서 최적의 응답을 얻기 위해 질문을 작성하는 방법에 대한 팁도 포함되어 있습니다.
 
 ## 목표 기반 질문
 
-다음 예제 질문은 AI Assistant를 사용할 때 달성할 수 있는 목표에 따라 그룹화됩니다.
+다음 예제 질문은 [!DNL Coworker] 채팅을 사용할 때 달성할 수 있는 목표에 따라 그룹화됩니다.
 
 | 목표 | 설명 | 예 |
 | --- | --- | --- |
-| 학습 개념 및 지속적인 워크플로 | 초보 사용자는 AI Assistant를 사용하여 Real-Time CDP 및 Adobe Journey Optimizer B2B edition 개념을 학습하고 익숙하지 않은 제품 및 기능을 온보딩할 수 있습니다. <br>숙련된 사용자는 AI Assistant를 사용하여 워크플로를 차단할 수 있는 경계 사례를 해결할 수 있습니다. | <li>Real-Time CDP의 사용 사례를 알려 주십시오. <li>나에게 구매 그룹 개념을 설명하십시오. |
-| 문제 해결 | AI Assistant를 사용하여 워크플로우에서 발생할 수 있는 기본 오류를 디버깅하는 방법을 학습합니다. | <li>이 오류 &lt;ERROR_MESSAGE>은(는) 무엇을 의미합니까? <li>이름이 &quot;..&quot;인 대상자를 삭제할 수 없는 이유는 무엇입니까? |
-| 샌드박스 위생 | AI Assistant를 사용하여 중복 또는 사용하지 않는 오브젝트를 식별하면 샌드박스를 효율적으로 관리할 수 있습니다. | <li>유사한 계정 대상자를 보여줄 수 있습니까? <li>연관된 데이터 세트가 없는 스키마가 있습니까? |
-| 값 분석 | AI Assistant를 사용하여 가장 많이 사용되는 데이터 객체를 식별하고 성능 지표를 평가하거나 가장 중요한 데이터 객체를 찾습니다. | <li>&quot;...&quot;에 계정이 몇 개 있습니까? 세그먼트 정의? <li>대상이 언제 Experience Cloud 대상 대상에 활성화되었습니까? |
-| 검색 | 계정 대상자, 데이터 세트, 대상, 스키마, 소스, 계정 여정, 구매 그룹 템플릿 및 솔루션 관심 항목과 같이 지원되는 Experience Platform 및 Adobe Journey Optimizer B2B edition 개체를 AI Assistant를 사용하여 찾습니다 | <li>계정 여정에 사용된 이름에 &quot;Luma&quot;가 포함된 대상을 나열합니다. <li>Luma: 사용자 지정 작업 XDM 스키마에는 어떤 속성이 있습니까? |
-| 영향 분석 | AI Assistant를 사용하여 특정 워크플로우에서 사용된 데이터 객체를 식별하여 변경 사항의 영향을 평가할 수 있습니다. | <li>대상이 &quot;B2B 사용자&quot; 스키마에서 `workEmail.address`을(를) 사용하는 계정 대상은 무엇입니까? <li>`jobTitle`에 저장된 데이터 세트는 무엇입니까? |
+| 학습 개념 및 지속적인 워크플로 | 초보 사용자는 [!DNL Coworker] 채팅을 사용하여 [!DNL Adobe Real-Time Customer Data Platform] 및 [!DNL Journey Optimizer B2B Edition] 개념을 학습하고 익숙하지 않은 제품 및 기능을 온보딩할 수 있습니다. <br>숙련된 사용자인 경우 [!DNL Coworker] 채팅을 사용하여 워크플로를 차단할 수 있는 경계 사례를 해결할 수 있습니다. | <li>[!DNL Real-Time Customer Data Platform]의 사용 사례를 알려주세요. <li>나에게 구매 그룹 개념을 설명하십시오. |
+| 문제 해결 | [!DNL Coworker] 채팅을 사용하여 워크플로우에서 발생할 수 있는 기본 오류를 디버깅하는 방법을 알아봅니다. | <li>이 오류 &lt;ERROR_MESSAGE>은(는) 무엇을 의미합니까? <li>이름이 &quot;..&quot;인 대상자를 삭제할 수 없는 이유는 무엇입니까? |
+| 샌드박스 위생 | 샌드박스를 효율적으로 유지 관리할 수 있도록 [!DNL Coworker] 채팅을 사용하여 중복되거나 사용되지 않는 개체를 식별하세요. | <li>유사한 계정 대상자를 보여줄 수 있습니까? <li>연관된 데이터 세트가 없는 스키마가 있습니까? |
+| 값 분석 | [!DNL Coworker] 채팅을 사용하여 가장 많이 사용되는 데이터 개체를 식별하고 성능 지표를 평가하거나 가장 중요한 데이터 개체를 찾습니다. | <li>&quot;...&quot;에 계정이 몇 개 있습니까? 세그먼트 정의? <li>대상이 언제 Experience Cloud 대상 대상에 활성화되었습니까? |
+| 검색 | [!DNL Coworker] 채팅을 사용하여 계정 대상자, 데이터 세트, 대상, 스키마, 소스, 계정 여정, 구매 그룹 템플릿 및 솔루션 관심 항목과 같은 지원되는 [!DNL Adobe Experience Platform] 및 [!DNL Journey Optimizer B2B Edition] 개체를 찾습니다 | <li>계정 여정에 사용된 이름에 &quot;Luma&quot;가 포함된 대상을 나열합니다. <li>Luma: 사용자 지정 작업 XDM 스키마에는 어떤 속성이 있습니까? |
+| 영향 분석 | [!DNL Coworker] 채팅을 사용하여 특정 워크플로우에서 사용된 데이터 개체를 식별하여 모든 변경 사항의 영향을 평가할 수 있습니다. | <li>대상이 &quot;B2B 사용자&quot; 스키마에서 `workEmail.address`을(를) 사용하는 계정 대상은 무엇입니까? <li>`jobTitle`에 저장된 데이터 세트는 무엇입니까? |
 
 ## 질문 표현
 
-가능한 한 정확한 응답을 얻으려면 명확성과 컨텍스트를 통해 AI Assistant에 질문을 구하십시오. 컨텍스트에 따라 명확한 질문을 하는 방법에 대한 지침은 다음 팁 목록을 참조하십시오.
+가능한 한 정확한 응답을 받으려면 질문을 [!DNL Coworker] 채팅에 명료하고 정확하게 표현하십시오. 컨텍스트에 따라 명확한 질문을 하는 방법에 대한 지침은 다음 팁 목록을 참조하십시오.
 
 * 작업 및/또는 질문을 간결하게 진술하십시오.
 * 이해가 용이하도록 모호한 언어나 지나치게 복잡한 구문은 피한다.
-* AI Assistant가 더 연관성 있는 응답을 생성하는 데 도움이 될 수 있으므로 작업 및/또는 질문에 대한 관련 컨텍스트를 제공합니다.
+* [!DNL Coworker] 채팅에서 더 연관성 있는 응답을 생성하는 데 도움이 될 수 있으므로 작업 및/또는 질문에 대한 관련 컨텍스트를 제공하십시오.
 
-다음 표는 AI Assistant 사용 시 따를 수 있는 몇 가지 권장 사항을 제공합니다.
+다음 표는 [!DNL Coworker] 채팅을 사용할 때 따라야 할 몇 가지 권장 사항을 제공합니다.
 
 | 실행 | 예 |
 | --- | --- |
 | <li>검색하거나 분석할 개체 또는 정보에 대해 구체적으로 지정합니다. <li>데이터 개체 이름을 따옴표로 묶어 보십시오. <li>개체 이름의 일부만 알고 있는 경우에는 질문에 이를 지정할 수도 있습니다. | <li>다음 중 &quot;B2B 계정&quot; 스키마를 사용하는 데이터 세트는 무엇입니까? <li>이름에 &quot;계정&quot;이 있는 활성화된 대상을 표시합니다. 구성원 수에 따라 순위를 매깁니다. |
-| <li>모호함을 피하고 명확한 언어를 사용하십시오. <li>쿼리의 명확성을 높이려면 정확한 용어를 사용하십시오. <li>Adobe Experience Platform 및 Adobe Journey Optimizer B2B edition과 관련된 질문을 할 때는 Experience Platform 또는 Adobe Journey Optimizer B2B edition에 관련된 용어를 사용하여 응답의 관련성을 개선해 보십시오. | <li>내 계정 대상에는 몇 명의 멤버가 있습니까? <li>얼마나 많은 계정 여정이 계정 대상자 &quot;내 계정 대상자&quot;를 사용합니까? |
+| <li>모호함을 피하고 명확한 언어를 사용하십시오. <li>쿼리의 명확성을 높이려면 정확한 용어를 사용하십시오. <li>[!DNL Experience Platform] 및 [!DNL Journey Optimizer B2B Edition]에 대한 질문을 할 때는 [!DNL Experience Platform] 또는 [!DNL Journey Optimizer B2B Edition]과(와) 관련된 용어를 사용하여 응답의 관련성을 개선해 보십시오. | <li>내 계정 대상에는 몇 명의 멤버가 있습니까? <li>얼마나 많은 계정 여정이 계정 대상자 &quot;내 계정 대상자&quot;를 사용합니까? |
 | <li>컨텍스트를 제공하거나 결과를 필터링할 기준을 지정하십시오. <li>질문의 필터 기준을 사용하여 응답의 데이터 볼륨을 제한합니다. | <li>활성화되지 않았으며 6개월 이상 전에 만들어지고 수정되지 않은 계정 대상을 표시합니다. <li>지난 7일 동안 게시된 계정 여정을 확인하고 구성원이 1000명이 넘는 계정 대상을 사용합니다. |
 
 | 안 함 | 예 |
@@ -68,7 +72,7 @@ Journey Optimizer B2B edition의 AI Assistant 쿼리에 대한 다음 예제 질
 
 ## 지원되지 않는 질문의 예
 
-다음 목록에는 Journey Optimizer B2B edition의 AI Assistant가 현재 지원하지 않는 질문의 예가 포함되어 있습니다.
+다음 목록에는 [!DNL Coworker] 채팅이 현재 [!DNL Journey Optimizer B2B Edition]에서 지원하지 않는 질문의 예제가 포함되어 있습니다.
 
 * 어떤 계정 대상자가 조건에서 ... 필드 그룹의 workEmail.address 필드를 사용합니까? 
 * 10,000개 이상, 5000-10,000개, 1000-5000개 및 1000 미만의 계정 대상을 사용하는 활성 여정 수를 분포 시각적 보기로 표시합니다
@@ -80,4 +84,4 @@ Journey Optimizer B2B edition의 AI Assistant 쿼리에 대한 다음 예제 질
 
 ## 다음 단계
 
-워크플로 중에 AI Assistant 기능을 사용하는 방법에 대한 자세한 내용은 [Journey Optimizer B2B edition에서 AI Assistant 사용](./use-ai-assistant.md)을 참조하십시오.
+[!DNL CX Coworker] 앱에서 채팅 기능을 사용하는 방법에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.

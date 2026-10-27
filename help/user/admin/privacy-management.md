@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 5%
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 5%
 * **[!UICONTROL Privacy Service 권한]** - `Privacy Read Permission` 및 `Privacy Write Permission`
 * **[!UICONTROL 데이터 거버넌스]** - `View Privacy Console`
 
-자세한 내용은 [!DNL Privacy Service] 안내서의 [_Privacy Service에 대한 권한 관리_](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/permissions){target="_blank"}를 참조하십시오.
+자세한 내용은 [!DNL Privacy Service] 안내서의 [_Privacy Service에 대한 권한 관리_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +88,7 @@ ht-degree: 5%
 
      * [!DNL Marketo Engage]에 연결된 잠재 고객.
      * [!DNL Journey Optimizer B2B Edition]에서 만들어진 개인 및 계정 레코드.
-     * 개인의 개인 정보를 참조하는 AI 어시스턴트 대화 내역.
+     * 사용자의 개인 정보를 참조하는 [!DNL Coworker] 채팅 대화 기록.
 
 1. **[!UICONTROL 제품]**&#x200B;의 경우 **[!UICONTROL Marketo]**&#x200B;을(를) 선택하십시오.
 

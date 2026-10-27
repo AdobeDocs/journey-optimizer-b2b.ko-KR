@@ -1,6 +1,6 @@
 ---
 title: 로그인 및 홈 페이지
-description: Journey Optimizer B2B Edition을 사용해 개인화된 홈 페이지 탐색 - 마케터와 관리자를 위한 다양한 보기 기능과 빠른 액세스, AI 어시스턴트를 활용할 수 있습니다.
+description: Journey Optimizer B2B Edition에 액세스하고 맞춤형 홈 페이지를 탐색합니다. 빠른 액세스 및 [!DNL Coworker] 채팅으로 마케터와 관리자의 다양한 보기를 이용할 수 있습니다.
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # 로그인 및 홈 페이지
 
@@ -44,7 +44,7 @@ Adobe Experience Platform에 로그인하고 Adobe Journey Optimizer B2B Edition
 
 ![Journey Optimizer B2B Edition 홈 페이지](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition에는 두 가지 주요 사용자 페르소나, 즉 _&#x200B;**마케터**&#x200B;_&#x200B;와 _&#x200B;**관리자**&#x200B;_&#x200B;가 있습니다. 각 페르소나는 성숙도 단계(신규 또는 고급)에 따라 특정 홈 페이지를 갖습니다. 페이지 콘텐츠는 각 페르소나가 필요로 하는 정보와 취해야 할 다음 조치를 기반으로 구성됩니다.
+Journey Optimizer B2B Edition에는 두 가지 주요 사용자 페르소나, 즉 _**마케터**_&#x200B;와 _**관리자**_&#x200B;가 있습니다. 각 페르소나는 성숙도 단계(신규 또는 고급)에 따라 특정 홈 페이지를 갖습니다. 페이지 콘텐츠는 각 페르소나가 필요로 하는 정보와 취해야 할 다음 조치를 기반으로 구성됩니다.
 
 * **마케터 - 신규 사용자** -- 신규 사용자용 _마케터_ 홈 페이지는 신규 사용자가 Journey Optimizer B2B와 그 기능에 익숙해질 수 있도록 도와줍니다. 새로운 마케터가 시스템의 뉘앙스를 이해하고 B2B 마케팅 전략 및 이니셔티브를 개발하는 데 효율적이 될 수 있도록 안내식 설명을 포함합니다.
 * **마케터 - 고급 사용자** -- 고급 마케터용 _마케터_ 홈 페이지는 이니셔티브의 현재 진행 상황과 권장되는 다음 조치를 표시해 주며 관련 섹션에 빠르게 액세스할 수 있도록 해 줍니다.
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition에는 두 가지 주요 사용자 페르소나, �
 
 _[!UICONTROL 최근에 액세스한 항목]_ 섹션에서는 마케터 또는 관리자가 가장 최근에 액세스한 자산 목록을 제공합니다. 이 목록을 사용하면 일련의 에셋 페이지를 탐색하거나 검색하지 않고도 최근에 작업한 에셋으로 바로 이동할 수 있습니다.
 
-이 페이지에서는 사용자가 필요한 특정 질문이나 주제에 대한 정보를 빠르게 얻는 데 도움이 되는 [AI 어시스턴트](./ai-coworker/ai-assistant-overview.md)에 액세스할 수도 있습니다.<!-- and to obtain specific recommendations for their challenges or objectives-->
+이 페이지에는 필요한 특정 질문이나 주제에 대한 빠른 정보를 얻을 수 있는 [동료 채팅](./ai-coworker/ai-overview.md)에 대한 액세스 권한도 포함되어 있습니다.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

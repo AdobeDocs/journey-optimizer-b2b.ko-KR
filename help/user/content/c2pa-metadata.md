@@ -1,6 +1,6 @@
 ---
 title: C2PA 메타데이터
-description: Adobe Journey Optimizer B2B edition에서 생성 AI 도구로 생성 또는 편집한 이미지에 C2PA 메타데이터를 자동으로 적용하는 방법과 콘텐츠에 대한 의미에 대해 알아봅니다.
+description: Adobe Journey Optimizer B2B Edition에서 생성 AI 도구로 생성 또는 편집한 이미지에 C2PA 메타데이터를 자동으로 적용하는 방법과 콘텐츠에 대한 의미에 대해 알아봅니다.
 feature: Assets, Content
 hide: true
 role: User
@@ -8,21 +8,25 @@ autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
+    internal-label: User
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # C2PA 메타데이터
 
 마케팅 조직들은 콘텐츠 투명성, AI 공시, 자산 변조 방지에 어느 때보다 신경을 곤두세우고 있다. Adobe의 Content Authenticity Initiative(CAI)는 [콘텐츠 증명 및 인증을 위한 연합](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model)&#x200B;(C2PA) 기술 표준을 준수하는 도구를 빌드합니다. _C2PA 메타데이터_&#x200B;은(는) 시청자가 콘텐츠 계보를 이해하고 브랜드 자산의 무결성을 확인하는 데 도움이 되는 변조 가능한 암호화된 정보입니다. 이 정보에는 다음이 포함됩니다.
@@ -39,7 +43,7 @@ ht-degree: 0%
 
 C2PA 메타데이터는 이미지 파일과 함께 유지됩니다. 생성 AI로 생성 또는 편집한 이미지를 [!DNL Adobe Journey Optimizer B2B Edition]에 업로드하거나 내보내면 해당 C2PA 메타데이터가 유지됩니다.
 
-Adobe CX 엔터프라이즈 애플리케이션 전반에 걸쳐 C2PA 메타데이터를 자동으로 첨부하는 방법에 대한 자세한 내용은 CX 엔터프라이즈 안내서의 [_생성 AI 콘텐츠 투명도_](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}를 참조하십시오.
+Adobe CX Enterprise 애플리케이션 전반에 걸쳐 C2PA 메타데이터를 자동으로 첨부하는 방법에 대한 자세한 내용은 CX Enterprise 안내서의 AI 안내서에서 [_생성 AI 콘텐츠 투명도_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -77,7 +81,7 @@ Adobe CX 엔터프라이즈 애플리케이션 전반에 걸쳐 C2PA 메타데�
 * 웹 페이지에 맞게 생성된 배너 이미지를 자릅니다. C2PA 메타데이터는 자르기를 통해 보존됩니다.
 * 업로드한 스톡 사진을 이메일 배경으로 사용하고 화면에 맞게 자릅니다. 스톡 사진에 생성 AI 정보가 없으면 C2PA 메타데이터가 만들어지지 않습니다.
 
-이미지 파일을 요청된 크기로 자르는 등 조정할 때 소스 이미지에 이미 해당 C2PA 메타데이터가 있는 경우에만 해당 C2PA 메타데이터가 유지됩니다. 자르기는 이미지 픽셀을 다시 만듭니다. 이렇게 하면 일반적으로 해당 C2PA 메타데이터가 제거되므로, AI 도우미는 자르기 전에 소스 이미지에서 이미지를 읽은 다음 자른 결과에 다시 만들어 다시 연결합니다. 자르기 자체로는 새로운 생성 AI 작업이 추가되지 않으며 기존 AI 작업을 유지합니다.
+이미지 파일을 요청된 크기로 자르는 등 조정할 때 소스 이미지에 이미 해당 C2PA 메타데이터가 있는 경우에만 해당 C2PA 메타데이터가 유지됩니다. 자르기는 이미지 픽셀을 다시 만듭니다. 이렇게 하면 일반적으로 해당 C2PA 메타데이터가 제거되므로, 생성 AI 도구는 자르기 전에 소스 이미지에서 읽은 후 다시 만들어 자른 결과에 다시 첨부합니다. 자르기 자체로는 새로운 생성 AI 작업이 추가되지 않으며 기존 AI 작업을 유지합니다.
 
 ### 텍스트 오버레이 추가
 
