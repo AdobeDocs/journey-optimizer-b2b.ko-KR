@@ -28,9 +28,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 ---
 # 이메일 전송 시간 최적화
@@ -46,16 +46,16 @@ STO는 큰 언어 모델을 사용하여 각 프로필의 참여 기록을 분�
 * **여정 유형**: 개인 여정
 * **채널**: 전자 메일
 * **구성**: _전자 메일 보내기_ 동작 노드
-* **보고**: 여정 가시성 스킬을 통한 AI 도우미
+* **보고**: [!DNL Coworker] 여정 관찰 스킬을 통해 채팅
 
-  사용, 참여 상승도 및 STO와 비 STO 비교와 같은 성능 통찰력은 AI Assistant의 자연어 쿼리를 통해 사용할 수 있습니다.
+  [!DNL Coworker] 채팅에서 자연어 쿼리를 통해 사용량, 참여 상승도, STO와 비 STO 비교 등 성능 인사이트를 사용할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
 STO에 대해 **_향후 개선 사항_**&#x200B;이 많이 예정되어 있습니다.
 
 * _계정 여정_ 지원
-* _[!UICONTROL 관리자]_ 영역의 전역 STO 구성
+* _[!UICONTROL 관리]_ 영역의 전역 STO 구성
 * 여정 수준 STO 지원
 * 구성 가능한 테스트 / 제어 분할
 * 전용 STO 보고 대시보드
@@ -90,4 +90,4 @@ STO에 대해 **_향후 개선 사항_**&#x200B;이 많이 예정되어 있습�
 
 ## STO 인사이트
 
-STO 인사이트는 Journey Agent [_가시성 기술_](../agents/journey-agent.md#journey-observability-skill)&#x200B;을 사용하여 _AI Assistant_&#x200B;를 통해 제공됩니다. 사용량, 참여 지표, 테스트/제어 결과, 노드 성능 및 전반적인 여정 영향을 쿼리할 수 있습니다.
+STO 인사이트는 [_여정 가시성 기술_](../agents/journey-agent.md#journey-observability-skills)&#x200B;을 사용하여 _[!DNL Coworker]채팅_&#x200B;을 통해 전달됩니다. 사용량, 참여 지표, 테스트/제어 결과, 노드 성능 및 전반적인 여정 영향을 쿼리할 수 있습니다.

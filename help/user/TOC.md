@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: 4bf162645af8589b8e36bb36be1ac6594b7bdeab
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 82%
+source-wordcount: '457'
+ht-degree: 79%
 ---
 
 # Journey Optimizer B2B Edition 사용 안내서 {#user}
@@ -29,15 +29,14 @@ ht-degree: 82%
   + [데이터 가용성 및 동기화 시간](./data/data-availability-timing.md)
   + [내보낸 데이터 세트](./data/aep-exported-datasets.md)
   + [데이터 세트 쿼리](./data/aep-query-examples.md)
-+ AI 기능 {#ai-assistant}
-  + [개요](./ai-coworker/ai-assistant-overview.md)
-  + [AI 어시스턴트 액세스 활성화](./ai-coworker/enable-ai-assistant-access.md)
++ AI 기능 {#ai-capabilities}
+  + [개요](./ai-coworker/ai-overview.md)
+  + [액세스 활성화](./ai-coworker/enable-ai-access.md)
   + [질문 지침](./ai-coworker/question-guidance.md)
-  + [채팅 인터페이스](./ai-coworker/use-ai-assistant.md)
   + [의도 점수](./ai-coworker/intent-scores.md)
-  + 상담원 {#ai-agents}
-    + [Audience Agent](./agents/audience-agent-b2b.md)
-    + [Journey Agent](./agents/journey-agent.md)
+  + 동료 기술 {#coworker-skills}
+    + [B2B 계정 및 사용자를 위한 대상 기술](./agents/audience-agent-b2b.md)
+    + [B2B 여정 기술](./agents/journey-agent.md)
 + 지능형 대시보드 {#dashboards}
   + [Insights 대시보드](./dashboards/intelligent-dashboard.md)
   + [참여 대시보드](./dashboards/engagement-dashboard.md)

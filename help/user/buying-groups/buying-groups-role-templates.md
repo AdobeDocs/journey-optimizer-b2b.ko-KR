@@ -1,26 +1,28 @@
 ---
 title: 그룹 역할 템플릿 구매
-description: 조건부 자동 할당을 사용하여 역할 템플릿을 만들어 Journey Optimizer B2B edition의 구매 그룹에 대한 의사 결정자 및 이해 당사자를 식별합니다.
+description: 조건부 자동 할당을 사용하여 역할 템플릿을 만들어 Journey Optimizer B2B Edition에서 구매 그룹을 위한 의사 결정자 및 이해 당사자를 식별합니다.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1435'
 ht-degree: 5%
-
 ---
-
 # 구매 그룹 역할 템플릿
 
 B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개인들은 조직 내에서 자신의 역할에 따라 의사결정 과정에 참여한다. 각 제품 제공 유형 또는 계정 사용 사례에 따라 역할 정의 그룹을 포함하는 구매 그룹 역할 템플릿을 만듭니다.
@@ -29,9 +31,9 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 
 >[!BEGINSHADEBOX]
 
-## Audience Agent
+## 대상자 스킬
 
-[Audience Agent B2B](../agents/audience-agent-b2b.md)은(는) 자사 의도 감지 및 사용자 매핑에서 구매 그룹 역할 템플릿을 생성할 수 있습니다. 안내가 있는 흐름에서 제품에 연결된 담당자를 식별하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 템플릿을 게시하기 전에 자연어로 세분화할 수 있습니다.
+B2B 계정 및 사용자에 대한 [대상 기술](../agents/audience-agent-b2b.md)을 사용하여 자사 의도 감지 및 사용자 매핑에서 구매 그룹 역할 템플릿을 생성합니다. 안내가 있는 흐름에서 제품에 연결된 담당자를 식별하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 템플릿을 게시하기 전에 자연어로 세분화할 수 있습니다.
 
 **시도하라는 메시지 표시:**
 
@@ -39,7 +41,7 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 * `<persona>`에 매핑된 `<role>` 추가
 * `<role>`/`<persona>` 제거
 
-![Audience Agent B2B 구매 그룹 역할 템플릿 만들기](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![대상자 기술로 생성된 그룹 역할 템플릿을 구입하는 중입니다.](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 

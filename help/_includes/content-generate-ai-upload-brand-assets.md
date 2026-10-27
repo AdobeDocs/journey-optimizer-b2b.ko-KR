@@ -1,13 +1,11 @@
 ---
 title: Content AI Assistant - 브랜드 에셋 업로드
 description: 콘텐츠 생성을 위한 브랜드 자산 업로드 옵션 사용에 대한 섹션을 재사용했습니다.
-source-git-commit: 699a7aaaf7c0b9faebb00e677e9a3a03f1c186f4
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
-
 ---
-
 # Content AI Assistant - 브랜드 에셋 업로드
 
 정확한 브랜드 내 콘텐츠를 갖도록 참조 콘텐츠를 업로드합니다. 이러한 에셋이 없으면 콘텐츠는 공개적으로 사용할 수 있는 정보를 기반으로 합니다.
