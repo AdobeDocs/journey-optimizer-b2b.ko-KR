@@ -57,7 +57,7 @@ ht-degree: 1%
 
 [!DNL Coworker] 응용 프로그램을 열려면 응용 프로그램 상단의 _묻기[!DNL Coworker]_( ![묻기 [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg)) 아이콘을 클릭합니다. 채팅 인터페이스에 자연어 프롬프트를 입력하십시오.
 
-[!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}의 ![대상 프롬프트
+[!DNL CX Coworker]![&#128279;](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}의 대상 프롬프트
 
 ## 대상자 스킬 포커스 영역
 

@@ -73,7 +73,7 @@ ht-degree: 0%
 
 &quot;새 파이프라인을 열 가능성이 가장 높은 참여 계정의 로드쇼에 의사 결정자를 초대하는 B2B 여정을 만듭니다.&quot;
 
-[!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}에서 B2B 프롬프트에 대한 ![여정 만들기 기술
+[!DNL CX Coworker]![&#128279;](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}에서 B2B 프롬프트에 대한 여정 만들기 기술
 
 더 자세한 정보를 제공할수록 답변은 더 좋아집니다. 이벤트 또는 제품을 설명하는 기존 마케팅 자료가 있는 경우, [!DNL Coworker]이(가) 목표를 더 잘 이해할 수 있도록 메시지에 붙여 넣으십시오.
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 여정 가시성 기술을 사용하면 여정 맵, 로그 또는 대시보드를 자세히 살펴보지 않고도 계정과 사용자가 B2B 여정을 통해 어떻게 이동하는지 자연어 질문을 할 수 있습니다. 여정 진행과 데이터 동기화 가시성, 이렇게 두 가지 주요 영역을 다룹니다.
 
-[!DNL CX Coworker]](./assets/journey-observability-prompt-response.png){width="800" zoomable="yes"}의 ![여정 관찰 가능성 프롬프트 및 응답
+[!DNL CX Coworker]![&#128279;](./assets/journey-observability-prompt-response.png){width="800" zoomable="yes"}의 여정 관찰 가능성 프롬프트 및 응답
 
 ### 계정 수준 여정 insight
 

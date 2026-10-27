@@ -47,7 +47,7 @@ Adobe Journey Optimizer B2B Edition을 사용하여 계정 여정을 통해 고�
 
 [여정에 _[!UICONTROL 작업 추가]_ 노드 추가](../journeys/action-nodes.md)하고 다음을 수행하면 노드에서 전자 메일 게재를 설정할 수 있습니다.
 
-1. _(계정 여정 전용)_ ]_대상에 대한_[!UICONTROL  Action의 경우 **[!UICONTROL 사용자]**&#x200B;를 선택하세요.
+1. _(계정 여정 전용)_ _대상에 대한_ Action의 경우 **[!UICONTROL 사용자]**&#x200B;를 선택하세요.
 
 1. 작업에 대해 **[!UICONTROL 전자 메일 보내기]**&#x200B;를 선택하세요.
 
