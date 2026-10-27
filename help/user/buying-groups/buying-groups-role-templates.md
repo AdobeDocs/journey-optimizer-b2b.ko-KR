@@ -225,4 +225,4 @@ B2B 계정 및 사용자에 대한 [대상 기술](../agents/audience-agent-b2b.
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453308/?captions=kor&learn=on)
