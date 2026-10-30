@@ -363,4 +363,4 @@ _이벤트 수신_ 노드에 대한 시간 제한을 지정하려면 노드 속�
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443241/?captions=kor&learn=on)
