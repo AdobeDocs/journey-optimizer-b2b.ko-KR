@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # 이벤트 듣기
 
 이벤트가 발생할 때 대상을 [여정](./journeys-overview.md)의 다음 단계로 이동하려면 _이벤트 수신_ 노드를 추가하십시오. 여정 유형에 따라 이 노드를 사용하여 사람 또는 계정 이벤트에 따라 여정의 다음 노드를 트리거할 수 있습니다.
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![비디오](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [개요 비디오 보기](#overview-video)
 
 ## 계정 여정 {#account-journeys}
 
@@ -221,7 +219,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 구성하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있도록 합니다.
+>관리자는 [Adobe Experience Platform(AEP) 경험 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}를 구성하여 마케터가 이벤트에 반응하는 계정 및 개인 여정을 거의 실시간으로 만들 수 있도록 합니다.
 >
 >여정이 Experience Event를 사용할 수 있도록 하려면 제품 관리자가 먼저 [!DNL Journey Optimizer B2B Edition]에 [이벤트 유형 및 관심 필드를 추가](../admin/configure-aep-events.md#add-an-event)해야 합니다.
 
@@ -347,7 +345,7 @@ _이벤트 수신_ 노드에 대한 시간 제한을 지정하려면 노드 속�
 
      기간을 특정 요일에 종료하려면 **[!UICONTROL 종료해야 함]** 옵션을 사용하도록 설정하십시오. 기본적으로 **[!UICONTROL 모든 날]**&#x200B;이 선택됩니다. 모든 날이 선택됩니다. 확인란을 선택 취소한 다음 종료 날짜에 대해 하나 이상의 요일을 선택합니다. **시간**&#x200B;과 **[!UICONTROL 시간대]**&#x200B;를 선택합니다.
 
-     ![이벤트 노드 수신 - 시간 제한 기간 - &#x200B;](./assets/node-listen-events-timeout-duration-must-end-on.png){width="300"}에 끝나야 함
+     ![이벤트 노드 수신 - 시간 제한 기간 - ](./assets/node-listen-events-timeout-duration-must-end-on.png){width="300"}에 끝나야 함
 
    * **[!UICONTROL 날짜]** - 이 형식을 사용하여 노드의 만료 날짜를 설정합니다. 이벤트가 지정된 날짜/시간까지 트리거되지 않으면 개인 또는 계정이 여정에서 진행되지 않습니다.
 
@@ -363,8 +361,6 @@ _이벤트 수신_ 노드에 대한 시간 제한을 지정하려면 노드 속�
 
    경로를 정의하지 않으려면 _[!UICONTROL 시간 초과 경로 설정]_ 확인란의 선택을 취소합니다.
 
-<!--
- ## Overview video
+## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3443241/?captions=kor&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
