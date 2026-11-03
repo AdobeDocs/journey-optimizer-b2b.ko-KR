@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
+source-git-commit: 15097380d19f8e3748f49fee18aec2fcf43d0af3
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2151'
 ht-degree: 4%
 ---
 # 이벤트 듣기
 
 이벤트가 발생할 때 대상을 [여정](./journeys-overview.md)의 다음 단계로 이동하려면 _이벤트 수신_ 노드를 추가하십시오. 여정 유형에 따라 이 노드를 사용하여 사람 또는 계정 이벤트에 따라 여정의 다음 노드를 트리거할 수 있습니다.
 
-![비디오](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [개요 비디오 보기](#overview-video)
+![비디오](../../assets/do-not-localize/icon-video.svg){width="30" vertical-align="middle"} [개요 비디오 보기](#overview-video)
 
 ## 계정 여정 {#account-journeys}
 
