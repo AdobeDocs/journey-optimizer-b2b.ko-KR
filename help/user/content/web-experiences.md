@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 3%
 ---
 # 웹 경험
@@ -61,7 +61,7 @@ Adobe Journey Optimizer B2B Edition의 웹 채널을 사용하면 웹 사이트�
 
 * 제품 관리자가 웹 경험에 포함할 URL(페이지)을 정의하도록 하나 이상의 웹 채널을 구성했습니다. 자세한 내용은 [웹 채널 구성](../admin/configure-channels-web.md)을 참조하십시오.
 
-* 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
+* 웹 사이트에 방문자 식별 및 컨텐츠 전달을 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)&#x200B;(`alloy.js`)이(가) 구현되었습니다. Adobe Experience Platform Web SDK 버전이 2.16 이상인지 확인하십시오.
 
 * 여정에서 웹 경험을 만들고 관리하는 데 필요한 [권한](../admin/user-management.md#b2b-product-permissions)이 있습니다.
   * _[!UICONTROL 작성자 B2B 웹 경험]_
@@ -84,7 +84,7 @@ Adobe Journey Optimizer B2B Edition의 웹 채널을 사용하면 웹 사이트�
 
    [!DNL Microsoft Edge]을(를) 사용하는 경우 상단 배너의 다른 스토어에서 _확장 허용_&#x200B;을(를) 선택하십시오. 이 옵션을 활성화하면 [!DNL Chrome Web Store]에서 [!DNL Microsoft Edge]&#x200B;(으)로 확장을 추가할 수 있습니다.
 
-1. _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;브라우저 확장을 검색하여 탐색합니다.
+1. _[!DNL Adobe Experience Cloud Visual Editing Helper]_브라우저 확장을 검색하여 탐색합니다.
 
    ![Google Chrome용 Adobe Experience Cloud Visual Editing Helper 확장 기능](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -192,17 +192,19 @@ Adobe Journey Optimizer B2B Edition의 웹 채널을 사용하면 웹 사이트�
 
 웹 캠페인이 라이브 상태일 때는 Journey Optimizer B2B Edition에서 정의한 웹 경험이 대체 페이지로의 리디렉션을 사용하는 웹 경험에 대해 어떻게 작동하는지 추적할 수 있습니다.
 
-## 웹 경험 테스트
+<!--
+## Test the web experience
 
-웹 환경에 대한 콘텐츠 디자인이 완료되면 _콘텐츠 시뮬레이션_ 기능을 사용하여 웹 페이지 수정 사항을 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 사용하여 콘텐츠가 렌더링되는 방식을 확인할 수 있습니다. 시뮬레이션 도구는 웹 환경의 _[!UICONTROL 콘텐츠]_ 탭이나 콘텐츠 비주얼 디자인 편집기에서 사용할 수 있습니다.
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. 오른쪽 상단의 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. 테스트 프로필을 선택합니다.
+1. Select a test profile.
 
-1. 테스트 프로필 데이터를 사용하여 웹 페이지를 확인하려면 테스트 프로필을 추가합니다.
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## 웹 경험 활성화
 
@@ -218,13 +220,13 @@ Adobe Journey Optimizer B2B Edition의 웹 채널을 사용하면 웹 사이트�
 
 * Adobe Experience Platform 데이터 수집에서 데이터 스트림이 정의되어 있는지 확인합니다. Adobe Journey Optimizer B2B Edition 서비스 아래에서 Adobe Experience Platform 옵션이 활성화되어 있는지 확인합니다.
 
-  이 구성은 Adobe Experience Platform Edge이 인바운드 이벤트를 올바르게 처리할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
+  이 구성은 Adobe Experience Platform Edge이 인바운드 이벤트를 올바르게 처리할 수 있도록 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * Adobe Experience Platform에서 _[!UICONTROL Active-On-Edge 병합 정책]_ 옵션이 활성화된 하나의 병합 정책이 있는지 확인하십시오.
 
-  Experience Platform의 고객 > 프로필 > 병합 정책 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Experience Platform의 고객 > 프로필 > 병합 정책 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B Edition 인바운드 채널은 이 병합 정책을 사용하여 에지에서 인바운드 웹 경험을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B Edition 인바운드 채널은 이 병합 정책을 사용하여 에지에서 인바운드 웹 경험을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 문제 해결
 
