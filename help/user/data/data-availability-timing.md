@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # 데이터 가용성 및 동기화 시간 {#data-availability}
@@ -86,14 +86,22 @@ ht-degree: 0%
 * **[!DNL Experience Platform]에서[!DNL Journey Optimizer B2B Edition]**&#x200B;까지 - 데이터가 거의 실시간으로 동기화되며 최대 30분이 소요될 수 있습니다.
 * **[!DNL Journey Optimizer B2B Edition]에서[!DNL Experience Platform]**&#x200B;까지 - 마이크로 배치로 데이터를 동기화하며 최대 4시간 정도 소요될 수 있습니다.
 
+## 프로필 ID 변경 {#profile-identity-changes}
+
+[!DNL Adobe Experience Platform]에서 프로필의 `identityMap`을(를) 변경하면 [!DNL Journey Optimizer B2B Edition]의 기존 개인 레코드와의 연결이 끊어질 수 있습니다. 이전 개인 레코드는 삭제된 것으로 표시되며 더 이상 여정 또는 구매 그룹 처리를 통해 진행되지 않습니다.
+
+프로필이 [!DNL Journey Optimizer B2B Edition]에 대해 활성화된 대상자에 대해 다시 자격을 부여하고 다시 수집해야 합니다. 수집된 레코드에 다른 개인 ID가 있는 경우 새 개인으로 처리됩니다. 여정에 입장하면 이전 레코드의 진행률을 다시 시작하는 대신 처음부터 시작합니다.
+
+과거 여정 상태 카운트에는 삭제된 개인 레코드가 계속 포함됩니다. 그러나 **[!UICONTROL 드릴스루]**&#x200B;에서는 삭제된 레코드가 제외되므로 레코드 수가 차트 수보다 낮을 수 있습니다. 자세한 내용은 [개인 여정 완료 보고](../journeys/journey-details.md#person-journey-completion)를 검토하세요.
+
 ## 활동 이벤트 및 여정 작업 {#activity-and-actions}
 
 활동 데이터 및 여정 작업의 타이밍은 시스템 간에 데이터가 이동하는 방식에 따라 다릅니다.
 
 * **활동 데이터** - 전자 메일 열기, 링크 클릭, 양식 채우기와 같은 개인 활동 레코드는 [!DNL Journey Optimizer B2B Edition]에 표시되는 데 약 4시간이 걸릴 수 있습니다. 이 시간은 일괄 처리 활동 데이터에 적용됩니다. [!DNL Experience Platform] 경험 이벤트 트리거는 스트리밍 데이터를 사용하며 거의 실시간으로 반응할 수 있습니다.
 * **[!DNL Marketo Engage]작업** - [!DNL Marketo Engage]을(를) 호출하는 여정 작업은 API 호출이므로 실시간에 가깝습니다. 예를 들어 여정 단계에서 [!DNL Marketo] 목록에서 사용자를 추가하거나 제거하면 일반적으로 작업은 30분 이내에 완료됩니다. [여정 작업에 대해 자세히 알아보기](../journeys/action-nodes.md).
-* [!DNL Experience Platform]&#x200B;**을(를) 거치는**&#x200B;작업 - [!DNL Experience Platform]을(를) 먼저 반환하는 모든 작업은 일괄 처리되므로 실시간에 가까운 타이밍이 아닌 일괄 처리 타이밍이 적용됩니다.
-* [!DNL Journey Optimizer B2B Edition]&#x200B;**에 의해 생성된**&#x200B;이벤트 - [!DNL Journey Optimizer B2B Edition]이(가) [!DNL Experience Platform]에서 생성하는 이벤트는 일괄 처리 대상에서만 사용할 수 있습니다.
+* [!DNL Experience Platform]**을(를) 거치는**&#x200B;작업 - [!DNL Experience Platform]을(를) 먼저 반환하는 모든 작업은 일괄 처리되므로 실시간에 가까운 타이밍이 아닌 일괄 처리 타이밍이 적용됩니다.
+* [!DNL Journey Optimizer B2B Edition]**에 의해 생성된**&#x200B;이벤트 - [!DNL Journey Optimizer B2B Edition]이(가) [!DNL Experience Platform]에서 생성하는 이벤트는 일괄 처리 대상에서만 사용할 수 있습니다.
 
 ## 대상 [!DNL LinkedIn]개 {#linkedin-timing}
 
