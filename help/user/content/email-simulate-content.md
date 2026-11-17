@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 7%
@@ -84,7 +84,7 @@ _콘텐츠 시뮬레이션_ 기능을 사용하여 전자 메일 콘텐츠를 �
 
 1. 오른쪽 상단의 **[!UICONTROL 증명 보내기]**&#x200B;를 클릭합니다.
 
-   ![증명 보내기](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![증명 보내기](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. _증명 보내기_ 페이지에서 첫 번째 받는 사람의 전자 메일 주소를 입력하세요.
 
