@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 릴리스 정보
@@ -44,7 +44,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
 | 기능 | 사용자 목록 | 정적 및 동적 사람 목록을 사용하여 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준으로 프로필을 타깃팅합니다. [자세히 알아보기](../audiences/people-lists.md) |
-| 기능 | 여정 노드 레이블 | 여정 캔버스에서 여정 노드를 식별할 수 있도록 레이블을 노드에 추가합니다. |
+| 기능 | 여정 노드 레이블 | 여정 캔버스에서 여정 노드를 식별할 수 있도록 레이블을 노드에 추가합니다. [자세히 알아보기](../journeys/create-publish-journey.md#label-a-node) |
 | 개선 사항 | 개인 목록 필터의 구성원 | _[!UICONTROL 사용자 목록의 구성원]_ 필터를 사용하여 정적 또는 동적 사용자 목록 구성원에 따라 프로필을 포함하거나 제외할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 개선 사항 | 사람 목록 여정 작업 | 계정 및 사용자 여정을 통해 정적 사용자 목록에 사용자를 추가하거나 제거할 수 있습니다. [자세히 알아보기](../journeys/action-nodes.md#people-actions) |
 
