@@ -58,7 +58,7 @@ ht-degree: 0%
 >
 >노드가 실행될 때 계정이 이미 목록에 있는 경우 작업이 무시됩니다.
 
-1. ]_**[!UICONTROL 계정]**에 대한_[!UICONTROL &#x200B;작업 옵션을 선택하십시오.
+1. _&#x200B;**[!UICONTROL 계정]**&#x200B;에 대한_&#x200B;작업 옵션을 선택하십시오.
 
 1. _[!UICONTROL 계정에 대한 작업]_&#x200B;의 경우 **[!UICONTROL 계정 목록에 추가]**&#x200B;를 선택하세요.
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 >
 >계정이 제거가 예약된 목록에 없으면 작업이 무시됩니다.
 
-1. ]_**[!UICONTROL 계정]**에 대한_[!UICONTROL &#x200B;작업 옵션을 선택하십시오.
+1. _&#x200B;**[!UICONTROL 계정]**&#x200B;에 대한_&#x200B;작업 옵션을 선택하십시오.
 
 1. _[!UICONTROL 계정에 대한 작업]_&#x200B;의 경우 **[!UICONTROL 계정 목록에서 제거]**&#x200B;를 선택하세요.
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    * 계정 목록을 하나 이상 선택합니다.
 
-     ![개인 계정 구성원이 포함된 경로 조건 편집기 ](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
+     ![개인 계정 구성원이 포함된 경로 조건 편집기 &#x200B;](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
 
    계정 목록 멤버십 필터를 다른 사람 필터와 결합하고 모든 조건 또는 모든 조건을 일치시키도록 선택할 수 있습니다. 맨 위에 있는 **[!UICONTROL 필터 논리]**&#x200B;를 적용하여 조건을 구체화합니다.
 
