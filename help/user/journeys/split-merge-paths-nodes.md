@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 4%
+source-wordcount: '3118'
+ht-degree: 3%
 ---
 # 경로 분할 및 병합 {#split-paths}
 
@@ -50,7 +50,7 @@ _경로 분할_ 노드는 **_둘 중 하나_** 계정 또는 사람 필터를 �
 
 계정별 분할 경로에는 계정과 사용자 작업 및 이벤트가 모두 포함될 수 있습니다. 이러한 경로는 추가로 분할할 수 있습니다.
 
-_&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
+_**계정 노드별 분할 경로 작동 방식**_
 
 * 추가하는 각 경로에는 각 에지에 노드를 추가할 수 있는 최종 노드가 포함되어 있습니다.
 * 계정 노드로 분할을 중첩시킬 수 있습니다(계정으로 경로를 반복적으로 분할할 수 있음).
@@ -65,10 +65,11 @@ _&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
 | 경로 조건 | 설명 |
 | --------------- | ----------- |
 | [!UICONTROL 계정 특성] | 다음을 포함한 계정 프로필의 속성: <li>연간 수익 <li>도시 <li>국가 <li>직원 규모 <li>업종 <li>이름 <li>SIC 코드 <li>주 |
-| [!UICONTROL 사용자 지정 개체] > `<custom object>` 있음 | [!BADGE Beta]{type=Informative tooltip="Beta 기능"} 계정에 관계형 스키마 레코드가 없거나 없습니다. [XDM 관계형 스키마](../admin/xdm-field-management.md#relational-schemas)에 구성된 대로 선택한 사용자 지정 개체 기준에 대해 평가할 수도 있습니다. [사용자 지정 데이터 필터링](#custom-data-filtering)을 참조하세요. |
+| [!UICONTROL 사용자 지정 개체] > `<custom object>` 있음 | [!BADGE Beta]{type=Informative tooltip="Beta 기능"} 계정에 관계형 스키마 레코드가 없거나 없습니다. [XDM 관계형 스키마](../admin/xdm-field-management.md#relational-schemas)에 구성된 대로 선택한 사용자 지정 개체 기준에 대해 평가할 수도 있습니다. [_사용자 지정 데이터 필터링_](#custom-data-filtering)&#x200B;을 참조하세요. |
 | [!UICONTROL 특수 필터] > [!UICONTROL 계정이 구매 그룹과 일치함] | 계정이 하나 이상의 구매 그룹과 일치합니다. 대응 구매 그룹에 대해 다음 제약 조건 중 하나 이상에 대해 평가할 수 있습니다. <li>솔루션 관심 분야 <li>구매 그룹 단계 <li>구매 그룹 상태 <li>참여 점수 <li>완성도 점수 <li> 구매 그룹 역할의 사용자 수 |
+| [!UICONTROL 특수 필터] > [!UICONTROL 계정 목록의 계정 구성원] | 선택한 계정 목록 중 하나 이상에 속해 있거나 속해 있지 않습니다. ([_분할 경로 노드 - 계정 목록의 계정 구성원_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)&#x200B;을 참조하십시오.) |
 
-### 계정 노드별 분할 경로 추가
+### 계정 노드별 분할 경로 추가 {#add-a-split-path-by-account-node}
 
 1. 여정 맵으로 이동합니다.
 
@@ -136,13 +137,19 @@ _&#x200B;**계정 노드별 분할 경로 작동 방식**&#x200B;_
 
 식별된 계정의 구매 그룹 또는 단계 상태를 업데이트하려면 경로에 작업 노드를 추가합니다.
 
+### 계정 목록 필터링 {#account-list-filtering}
+
+_[!UICONTROL 특별 필터]_ > _[!UICONTROL 계정 목록의 계정 구성원]_ 필터를 사용하여 [계정 목록](../accounts/account-lists.md)에서 해당 계정의 구성원 자격을 기반으로 계정에 대한 경로를 정의합니다. 목록에 계정을 포함하려면 구성원 자격을 _true_(으)로 설정하고, 제외하려면 _false_(으)로 설정하고, 계정 목록을 하나 이상 선택하십시오. 예를 들어, 차단 목록에 추가하다의 계정을 경로에서 유지하려면 필터를 추가하고, 멤버십을 _false_(으)로 설정한 다음 차단 목록에 추가하다를 선택합니다.
+
+단계는 [경로 분할 노드 - 계정 목록의 계정 구성원](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)을 참조하십시오.
+
 ## 사람별 경로 분할
 
 _(계정 및 사용자 여정)_
 
 사람에 의해 나누기 경로에는 사람 작업만 포함될 수 있습니다. 이러한 경로는 다시 분할하고 자동으로 다시 결합할 수 없습니다.
 
-_&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
+_**people 노드별 분할 경로가 작동하는 방식**_
 
 * _그룹화된 노드_ 분할 병합 조합 내에서 사람 노드로 분할 함수가 작동합니다. 분할된 경로는 모든 사람이 계정 컨텍스트를 잃지 않고 다음 단계로 이동할 수 있도록 자동으로 병합됩니다.
 * 사람 노드로 분할을 중첩할 수 없습니다(이 그룹화된 노드에 있는 경로에 사람에 대한 분할 경로를 추가할 수 없음).
@@ -159,8 +166,12 @@ _&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
 | [!UICONTROL 사용자 지정 개체] > `<custom object>` 있음 | [!BADGE Beta]{type=Informative tooltip="Beta 기능"} 개인이 관계형 스키마 레코드를 가지고 있거나 가지고 있지 않습니다. [XDM 관계형 스키마](../admin/xdm-field-management.md#relational-schemas)에 구성된 대로 선택한 사용자 지정 개체 기준에 대해 평가할 수도 있습니다. ([사용자 지정 데이터 필터링](#custom-data-filtering) 참조) |
 | [!UICONTROL 이벤트 기록] | 은 여정 입력 전에 발생한 경험 이벤트를 기반으로 사람을 나눕니다. 폴더를 확장하여 [관리자 > XDM 이벤트 구성](../admin/configure-aep-events.md)에 구성된 모든 이벤트 유형을 보고 필터로 추가할 이벤트 유형을 선택하십시오. 제한에는 선택한 이벤트의 필드, 여정에 들어갈 때 다시 측정된 전환 확인 기간 및 선택적 최소 횟수가 포함됩니다. |
 | [!UICONTROL 사용자 특성] | 다음을 포함한 [개인 프로필](../admin/field-mapping.md#xdm-business-person-attributes)의 특성: <li>도시 <li>국가 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 중단됨 <li>이름 <li>추정 주 지역 <li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주 |
-| [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨(기본값: `false`)</li><li>역할</li> ([구성원 자격 필터링](#membership-filtering) 참조) |
-| [!UICONTROL 특수 필터] > [!UICONTROL 프로필 대상자의 구성원] | 해당 사용자가 하나 이상의 [!DNL Adobe Experience Platform] 프로필 대상자의 멤버이거나 멤버가 아닙니다. ([구성원 자격 필터링](#membership-filtering) 참조) |
+| [!UICONTROL 특수 필터] > [!UICONTROL 구매 그룹 구성원] | 개인이 다음 기준 중 하나 이상에 대해 평가된 구매 그룹 구성원이거나 구매 그룹 구성원이 아닙니다. <li>솔루션 관심 분야</li><li>구매 그룹 상태</li><li>완성도 점수</li><li>참여 점수</li><li>제거됨(기본값: `false`)</li><li>역할</li> ([_구성원 자격 필터링_](#membership-filtering) 참조) |
+| [!UICONTROL 특수 필터] > [!UICONTROL 프로필 대상자의 구성원] | 해당 사용자가 하나 이상의 [!DNL Adobe Experience Platform] 프로필 대상자의 멤버이거나 멤버가 아닙니다. ([_구성원 자격 필터링_](#membership-filtering) 참조) |
+| [!UICONTROL 특수 필터] > [!UICONTROL 계정의 사용자 동적 구성원] | (개인 여정 전용) 개인의 계정이 하나 이상의 동적 계정 목록의 구성원이거나 구성원이 아닙니다. (계정 목록의 [_사용자 구성원_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) 참조) |
+| [!UICONTROL 특수 필터] > [!UICONTROL 계정의 사용자 구성원] | (개인 여정 전용) 개인의 계정이 하나 이상의 정적 계정 목록의 멤버이거나 멤버가 아닙니다. (계정 목록의 [_사용자 구성원_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) 참조) |
+| [!UICONTROL 특수 필터] > [!UICONTROL 사람 동적 목록의 사용자 구성원] | 해당 사용자는 하나 이상의 동적 사용자 목록에 속하거나 속하지 않습니다. ([_구성원 자격 필터링_](#membership-filtering) 참조) |
+| [!UICONTROL 특수 필터] > [!UICONTROL People 정적 목록의 사용자 구성원] | 해당 사용자는 하나 이상의 정적 사용자 목록의 멤버이거나 멤버가 아닙니다. ([_구성원 자격 필터링_](#membership-filtering) 참조) |
 
 ### 계정-사용자 경로 조건
 
@@ -239,7 +250,7 @@ _&#x200B;**people 노드별 분할 경로가 작동하는 방식**&#x200B;_
 
 >[!BEGINSHADEBOX &quot;비활성 필터링&quot;]
 
-각 _[!UICONTROL 이벤트 기록]_ 필터에 대해 **[!UICONTROL 비활성 필터로 전환]** 옵션을 활성화할 수 있습니다. 이 옵션은 해당 활동 유형이 없는 경우 필터를 평가로 변경합니다. _&#x200B;**이메일을 열지 않은**&#x200B;_ 사용자에 대한 경로를 만들려면 _[!UICONTROL 다이렉트 마케팅 이메일 열림]_ 필터를 추가하십시오. 비활성 옵션을 활성화하고 이메일을 지정합니다.
+각 _[!UICONTROL 이벤트 기록]_ 필터에 대해 **[!UICONTROL 비활성 필터로 전환]** 옵션을 활성화할 수 있습니다. 이 옵션은 해당 활동 유형이 없는 경우 필터를 평가로 변경합니다. _**이메일을 열지 않은**_ 사용자에 대한 경로를 만들려면 _[!UICONTROL 다이렉트 마케팅 이메일 열림]_ 필터를 추가하십시오. 비활성 옵션을 활성화하고 이메일을 지정합니다.
 
 ![사람 비활성 상태별 경로 분할](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -251,10 +262,14 @@ _[!UICONTROL 특수 필터]_ 섹션 내에서 다음 필터를 사용하여 사�
 
 * _[!UICONTROL 구매 그룹 구성원]_ - 해당 사용자가 구매 그룹의 구성원인지 여부를 평가합니다.
 * _[!UICONTROL 프로필 대상자의 구성원]_ - 해당 사용자가 [!DNL Adobe Experience Platform] 프로필 대상자의 구성원인지 여부를 평가합니다.
+* _[!UICONTROL 계정의 사용자 여정]_ - (사용자 계정만 해당) 사용자의 계정이 동적 계정 목록의 구성원인지 여부를 평가합니다. ([여정에서 계정 목록 사용](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) 참조)
+* _[!UICONTROL 정적 계정의 사용자 구성원]_ - (사용자 여정 전용) 사용자의 계정이 정적 계정 목록의 구성원인지 여부를 평가합니다. ([여정에서 계정 목록 사용](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) 참조)
+* _[!UICONTROL 사람 동적 목록의 사용자 구성원]_ - 사용자가 동적 사람 목록의 구성원인지 여부를 평가합니다.
+* _[!UICONTROL Person 정적 사용자 목록]_ - 해당 사용자가 정적 사용자 목록의 구성원인지 여부를 평가합니다.
 
-구성원 자격 필터를 추가하려면 _[!UICONTROL 특수 필터]_ 폴더에서 조건 작업 영역으로 끌어다 놓고 구성원을 포함하려면 _true_(으)로 설정하고 구성원을 제외하려면 _false_(으)로 설정하십시오. 동일한 경로 조건에서 두 필터를 모두 결합하고 **[!UICONTROL 필터 논리]**&#x200B;를 사용하여 해당 필터를 모두 또는 모두 일치시킬 수 있습니다.
+구성원 자격 필터를 추가하려면 _[!UICONTROL 특수 필터]_ 폴더에서 조건 작업 영역으로 끌어다 놓고 일치 정의를 완료하여 구성원을 포함하거나 제외합니다. 필터에 따라 _true_ 또는 _false_&#x200B;을(를) 선택하거나 _is_ 또는 _is_&#x200B;이(가) 아님을(를) 선택합니다. 이러한 필터를 동일한 경로 조건에서 결합하고 **[!UICONTROL 필터 논리]**&#x200B;를 사용하여 해당 필터를 모두 또는 모두 일치시킬 수 있습니다.
 
-_이벤트 수신_ 노드에서 [이벤트에 대한 필터를 추가](./listen-for-event-nodes.md#membership-filtering)하는 경우에도 이러한 필터를 사용할 수 있습니다.
+_[!UICONTROL 구매 그룹의 구성원]_ 및 _[!UICONTROL 프로필 대상의 구성원]_ 필터는 _이벤트 수신_ 노드에서 [이벤트에 대한 필터를 추가](./listen-for-event-nodes.md#membership-filtering)할 때도 사용할 수 있습니다.
 
 ![그룹 및 프로필 대상자 멤버십을 구매하기 위한 사용자 조건별 경로 분할](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
 
@@ -290,6 +305,20 @@ _[!UICONTROL 프로필 대상]_ 제약 조건을 사용하여 하나 이상의 �
 >
 >필터는 실시간으로 대상자 멤버십을 계산하지 않습니다. 마지막 배치 대상 섭취 시점의 선택된 대상자에서의 멤버십을 기반으로 사람을 자격을 부여합니다. [!DNL Journey Optimizer B2B Edition]에 수집된 대상만 평가할 수 있습니다.
 
+**계정 목록 구성원**
+
+_(개인 여정 전용)_
+
+_[!UICONTROL Person Member of Account 정적 목록]_ 및 _[!UICONTROL Person Member of Account 동적 목록]_ 필터를 사용하여 해당 계정이 [Account 목록](../accounts/account-lists.md)의 구성원인지 여부를 기준으로 경로를 지정합니다. 목록에 계정이 있는 사용자를 포함하거나 제외하려면 _이(가)_&#x200B;이(가) 아닌 사용자를 포함하도록 연산자를 _is_(으)로 설정하고 하나 이상의 계정 목록을 선택하십시오. 예를 들어, 사용자가 차단 목록에 추가된 계정에 포함되지 않도록 하려면 _[!UICONTROL 계정의 사용자 정적 목록]_ 필터를 추가하고 연산자를 _is not_(으)로 설정한 다음 차단 목록에 추가하다를 선택합니다.
+
+단계는 [경로 분할 노드 - 계정 목록의 사용자 구성원](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)을 참조하세요.
+
+**사용자 목록 구성원**
+
+_[!UICONTROL 사람 정적 목록]_ 및 _[!UICONTROL 사람 동적 목록]_ 필터를 사용하여 [사람 목록](../audiences/people-lists.md)의 멤버십에 따라 사람을 라우팅합니다. 연산자를 _is_(으)로 설정하여 목록 구성원을 포함하거나 _is를_(으)로 설정하여 제외하고 하나 이상의 목록을 선택하십시오. 예를 들어 직원과 파트너를 지원 경로에서 제외하려면 _[!UICONTROL 사람 정적 목록]_ 필터를 추가하고 연산자를 _이(가) 아님_(으)로 설정한 다음 제외 목록을 선택하십시오.
+
+단계는 [사람 목록 멤버십별로 경로 분할](../audiences/people-lists-journeys.md#split-paths-by-list-membership)을 참조하십시오.
+
 ## 사용자 정의 데이터 필터링 {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Beta 기능"}
@@ -320,4 +349,4 @@ _[!UICONTROL 프로필 대상]_ 제약 조건을 사용하여 하나 이상의 �
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443263/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

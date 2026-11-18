@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
+source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5899'
 ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 릴리스 정보
@@ -43,10 +43,10 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 유형 | 항목 | 설명 |
 | ---- | ---- | ----------- |
-| 기능 | 사용자 목록 | 정적 및 동적 사람 목록을 사용하여 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준으로 프로필을 타깃팅합니다. |
+| 기능 | 사용자 목록 | 정적 및 동적 사람 목록을 사용하여 인구 통계학적 특성 및 경험 이벤트 내역과 같이 정의된 기준으로 프로필을 타깃팅합니다. [자세히 알아보기](../audiences/people-lists.md) |
 | 기능 | 여정 노드 레이블 | 여정 캔버스에서 여정 노드를 식별할 수 있도록 레이블을 노드에 추가합니다. |
-| 개선 사항 | 사용자 목록 필터 구성원 | _[!UICONTROL 사용자 목록 구성원]_ 필터를 사용하여 사용자 목록 멤버십에 따라 프로필을 포함하거나 제외할 수 있습니다. |
-| 개선 사항 | 사람 목록 여정 작업 | 계정 및 사용자 여정을 통해 정적 사용자 목록에 사용자를 추가하거나 제거할 수 있습니다. |
+| 개선 사항 | 개인 목록 필터의 구성원 | _[!UICONTROL 사용자 목록의 구성원]_ 필터를 사용하여 정적 또는 동적 사용자 목록 구성원에 따라 프로필을 포함하거나 제외할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| 개선 사항 | 사람 목록 여정 작업 | 계정 및 사용자 여정을 통해 정적 사용자 목록에 사용자를 추가하거나 제거할 수 있습니다. [자세히 알아보기](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >이 릴리스 변경 사항은 2026년 11월 6일에 각 기능의 단계적 롤아웃 및 개선 사항과 함께 시작됩니다. 기능 및 개선 사항의 릴리스 일자는 변경될 수 있습니다.
@@ -108,7 +108,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | ---- | ---- | ----------- |
 | 기능 | 랜딩 페이지 | 랜딩 페이지는 Journey Optimizer B2B Edition에서 여정 및 프로그램 _(이전에는 Beta 프로그램 기능)_&#x200B;을(를) 지원하는 데 사용할 수 있습니다. <ul><li>관리자는 랜딩 페이지 게시 활성화를 위해 랜딩 페이지 하위 도메인 및 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-landing-pages.md)</li><li>마케터는 개인화된 웹 콘텐츠로 여정을 지원하기 위해 랜딩 페이지를 만들고, 디자인하고, 게시할 수 있습니다. [자세히 알아보기](../content/landing-pages.md)</li></ul> |
 | 기능 | 양식 | 이제 Journey Optimizer B2B Edition은 재사용 가능한 양식 구성 요소를 지원하여 랜딩 페이지 _(이전에는 Beta 프로그램 기능)_&#x200B;에서 데이터를 제출할 수 있도록 합니다. <ul><li>관리자는 다양한 데이터 세트 조합과 스트리밍 연결을 사용하여 여러 양식 사전 설정을 구성할 수 있습니다. [자세히 알아보기](../admin/configure-channels-forms.md)</li><li>이제 마케터는 재사용 가능한 양식 구성 요소를 정의하여 웹 페이지 방문자의 정보를 캡처할 수 있습니다. [자세히 알아보기](../content/forms.md)</li></ul> |
-| 기능 | 계정 목록 필터 멤버 | 계정 목록 멤버십을 계정 여정의 오케스트레이션 지점으로 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. |
+| 기능 | 계정 목록 필터 멤버 | 계정 목록 멤버십을 계정 여정의 오케스트레이션 지점으로 사용합니다. 마케터는 계정 차단 목록, 우선 순위 목록 또는 기타 모든 종류의 대상자 하위 집합을 만들 수 있으며, 멤버십에 따라 여정에서 계정에 고유한 경험을 제공할 수 있습니다. [자세히 알아보기](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) |
 | 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 기능 | 다음 최적 경로 여정 노드 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. [자세히 알아보기](../journeys/next-best-path-node.md) |
 | 기능 | 이메일 성능 대시보드 | 이메일 성능 대시보드는 마케터에게 Adobe Journey Optimizer B2B Edition의 모든 여정에 대한 이메일 활동을 통합적으로 볼 수 있도록 합니다. [자세히 알아보기](../dashboards/email-performance-dashboard.md) |
