@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 262e06bce2cf9698731eda2cb0a3436c5080fddf
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 26%
+source-wordcount: '1103'
+ht-degree: 23%
 ---
 # Adobe Journey Optimizer B2B Edition 설명서
 
@@ -27,6 +27,18 @@ ht-degree: 26%
 
 >[!BEGINTABS]
 
+>[!TAB 사람 목록]
+
+인구 통계학적 특성 및 경험 이벤트 기록을 사용하여 타겟팅 프로필에 재사용 가능한 정적 및 동적 사용자 목록을 만듭니다. 목록 멤버십을 사용하여 계정 및 개인 여정을 통해 사람들을 라우팅합니다. 여정 작업을 사용하여 정적 목록에 사용자를 추가하거나 정적 목록에서 사용자를 제거합니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/audiences/people-lists.md" tooltip="사용자 목록에 대해 알아보기"}
+
+>[!TAB 여정 노드 레이블]
+
+여정 및 개인 여정의 노드에 표시 레이블을 추가하여 유사한 단계를 구분하고, 캔버스에서 용도를 명확히 합니다.
+
+[!BADGE 자세히 알아보기]{type=Informative url="/help/user/journeys/create-publish-journey.md#label-a-node" tooltip="여정 노드 레이블에 대해 알아보기"}
+
 >[!TAB 개인 여정]
 
 [!DNL Adobe Experience Platform]개의 대상과 데이터를 사용하여 개별 사용자의 참여를 유도하는 잠재 고객 기반 마케팅을 사용자 여정으로 오케스트레이션하십시오. 이제 개인 여정이 _이벤트 수신_, 외부 작업 및 외부 분할 경로 노드 및 여정 재입력을 지원합니다. 계정 여정 및 구매 그룹과 함께 사용하여 전체 구매 여정을 조정합니다.
@@ -38,18 +50,6 @@ ht-degree: 26%
 정의한 백분율을 기준으로 계정이나 인력을 서로 다른 여정 여정에 할당하여 계정이나 개인 경로 내에서 변형을 테스트합니다. 인간 여정에서 할당은 결정론적이므로 각 사람은 항상 동일한 경로를 따르므로 통제된 실험을 지원한다.
 
 [!BADGE 자세히 알아보기]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="변형 분할 경로에 대해 알아보기"}
-
->[!TAB WhatsApp 채널]
-
-개발자와 제품 관리자가 Meta Business Manager 계정과의 통합을 구성할 때 마케터는 Meta Cloud API를 사용하여 계정 여정에서 WhatsApp 메시지를 컨텐츠 채널로 포함할 수 있습니다. WhatsApp은 계정 구성원에게 여정 콘텐츠를 직접 전달할 수 있는 사용 가능한 채널로 이메일 및 SMS에 가입합니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="WhatsApp 채널에 대해 알아보기"}
-
->[!TAB 생성 AI 모델]
-
-이제 이메일 디자이너는 이메일 콘텐츠에 대한 이미지를 생성할 때 표준 [!DNL Firefly] 모델, 브랜드별 자산에 대해 교육된 사용자 지정 [!DNL Firefly] 모델 및 승인된 타사 이미지 모델 중에서 선택할 수 있습니다. 이 선택을 통해 팀은 일반적인 콘텐츠 요구 사항에서 브랜드 또는 특수 사용 사례에 이르기까지 특정 디자인 시나리오에 맞는 모델을 제어할 수 있습니다.
-
-[!BADGE 자세히 알아보기]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="생성 AI 모델 선택에 대해 알아보기"}
 
 >[!TAB 전송 시간 최적화]
 
@@ -69,7 +69,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 최신 릴리스 정보
 
@@ -79,18 +79,19 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작
 
 관리자 및 마케터를 위한 [!DNL Journey Optimizer B2B Edition] 온보딩 지침을 검토하십시오.
 
-[관리자](./setup-ultimate.md)
-[사용자](./start/get-started.md)
+[관리자용 목록 확인](./setup-ultimate.md)
+
+[사용자를 위한 온보딩](./start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 데이터 관리
 
@@ -103,7 +104,7 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 커뮤니케이션 채널
 
@@ -115,30 +116,33 @@ _직접 여정에 이메일 보내기_ 작업 노드의 경우 이제 전송 시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 만들기
 
 개인화된 계정 및 개인 여정을 디자인하고, 조정하고, 관리하고, 최적화합니다.
 
-[여정 탐색](./journeys/journeys-overview.md)
+[여정 살펴보기](./journeys/journeys-overview.md)
+[여정에서 계정 목록 사용](./accounts/account-lists-journeys.md)
+[여정에서 사람 목록 사용](./audiences/people-lists-journeys.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 구매 그룹 이해
 
 효과적인 타기팅을 위해 구매 그룹을 생성, 관리 및 최적화하는 방법에 대한 자세한 지침입니다.
 
-[구매 그룹에 대해 알아보기](./buying-groups/buying-groups-overview.md)
+[구매 그룹 이해](./buying-groups/buying-groups-overview.md)
+[구매 그룹 만들기](./buying-groups/buying-groups-create.md)
 :::
 
 ::::
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -167,8 +171,8 @@ Learn how to author and manage content for personalized customer experiences orc
       <strong>구매 그룹</strong><br/><a href="./buying-groups/buying-groups-overview.md">구매 그룹 개요</a><br/><a href="./buying-groups/buying-groups-role-templates.md">역할 템플릿</a><br/><a href="./buying-groups/solution-interests.md">솔루션 관심 분야</a><br/><a href="./buying-groups/buying-groups-create.md">구매 그룹 만들기</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="계정 여정"><br/>
-      <strong>계정 여정</strong><br/><a href="./journeys/journeys-overview.md">여정 개요</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">계정 여정 만들기</a><br/><a href="./journeys/journey-nodes.md">여정 노드</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="여정"><br/>
+      <strong>여정</strong><br/><a href="./journeys/journeys-overview.md">여정 개요</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">계정 또는 개인 여정 만들기</a><br/><a href="./journeys/journey-nodes.md">여정 노드</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -184,8 +188,7 @@ Learn how to author and manage content for personalized customer experiences orc
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="인사이트 및 대시보드"><br/>
       <strong>인사이트</strong><br/><a href="./dashboards/intelligent-dashboard.md">지능형 대시보드</a><br/><a href="./dashboards/engagement-dashboard.md">참여 대시보드</a><br/><a href="./dashboards/buying-groups-dashboard.md">구매 그룹 대시보드</a><br/><a href="./dashboards/journeys-dashboard.md">여정 대시보드</a><br/><a href="./buying-groups/incrm-insights.md">CRM 내 인사이트</a>
     </td>
-
-</tr>
+   </tr>
 </table>
 
 >[!BEGINSHADEBOX]
@@ -202,10 +205,10 @@ Learn how to author and manage content for personalized customer experiences orc
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">비디오 및 튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">제품 설명</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/kr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
+<a href="https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home" target="_blank">설명서</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home" target="_blank">설명서</a> - <a href="https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">개발자 자습서</a>
