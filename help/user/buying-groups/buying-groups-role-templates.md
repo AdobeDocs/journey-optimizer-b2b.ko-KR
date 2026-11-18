@@ -18,9 +18,9 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1454'
 ht-degree: 5%
 ---
 # 구매 그룹 역할 템플릿
@@ -102,8 +102,8 @@ B2B 계정 및 사용자에 대한 [대상 기술](../agents/audience-agent-b2b.
 | ---- | --------- |
 | [!UICONTROL 사용자 특성] | 다음을 포함한 [개인 프로필](../admin/field-mapping.md#xdm-business-person-attributes)의 특성: <li>도시 <li>국가 <li>이메일 주소 <li>잘못된 이메일 <li>이메일 중단됨 <li>이름 <li>추정 주 지역 <li>직위 <li>성 <li>휴대폰 번호 <li>개인 참여 점수 <li>전화번호 <li>우편번호 <li>주 |
 | [!UICONTROL 사용자 지정 개체] > `<custom object>` 있음 | [!BADGE Beta]{type=Informative tooltip="Beta 기능"} 계정 또는 사용자에게 관계형 스키마 레코드가 없거나 없습니다. 또한 [XDM 관계형 스키마](../admin/xdm-field-management.md#relational-schemas)에 구성된 대로 선택한 사용자 지정 개체 기준에 대해 평가할 수도 있습니다. |
-| 특수 필터 | <li>목록 구성원(삭제 예정) <li>프로그램 구성원(삭제 예정) |
 | 의도 데이터 | <li>범주 의도 <li>제품 의도 <li>키워드 의도 <br/>([_의도 데이터_](../admin/intent-data.md) 참조) |
+| 특수 필터 | <li>[!UICONTROL 계정 관계 있음] <li>[!UICONTROL 구매 그룹 구성원] <li>[!UICONTROL 목록의 구성원]&#x200B;(더 이상 사용되지 않음) <li>[!UICONTROL 프로필 대상자의 구성원] <li>[!UICONTROL 사람 동적 목록의 사용자 구성원] <li>[!UICONTROL People 정적 목록의 사용자 구성원] |
 
 #### 역할 속성 정의
 

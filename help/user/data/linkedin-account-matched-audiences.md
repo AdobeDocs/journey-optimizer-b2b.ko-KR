@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # LinkedIn 계정 일치 대상
 
-[!DNL Journey Optimizer B2B Edition]은(는) Account Matched Audiences를 통해 LinkedIn 광고 대상을 생성하는 기능을 제공하며, 구매 그룹에서 빈 역할을 채우는 데 도움이 되도록 설계되었습니다. 구매 그룹 필터 세트를 정의하면 LinkedIn 일치 대상자를 유지하여 구매 그룹 매개변수와 일치하는 잠재 고객을 타기팅할 수 있습니다. _작업 수행_ 노드의 계정 여정에서 대상을 활성화할 수도 있습니다.
+[!DNL Journey Optimizer B2B Edition]은(는) Account Matched Audiences를 통해 LinkedIn 광고 대상을 생성하는 기능을 제공하며, 구매 그룹에서 빈 역할을 채우는 데 도움이 되도록 설계되었습니다. 구매 그룹 필터 세트를 정의하면 LinkedIn 일치 대상자를 유지하여 구매 그룹 매개변수와 일치하는 잠재 고객을 타기팅할 수 있습니다. [_작업 수행_ 노드의 계정 여정에서 대상을 활성화할 수도 있습니다](../journeys/action-nodes.md).
 
 이 기능은 Experience Platform 대상을 활용하여 통합의 일부 요소를 관리합니다. 데이터 흐름은 10개로 제한됩니다.
 
@@ -91,7 +91,7 @@ LinkedIn 계정의 이름과 설명은 Journey Optimizer B2B Edition의 구매 �
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 구매 그룹에 대한 계정 활성화
+## 구매 그룹 계정 활성화(#activate-buying-group)
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ LinkedIn 계정의 이름과 설명은 Journey Optimizer B2B Edition의 구매 �
 
 1. 오른쪽의 노드 속성에서 대상을 선택합니다.
 
-   * 대상을 하나 이상 만든 경우 **[!UICONTROL 대상 선택]**&#x200B;을 클릭하여 기존 대상을 선택할 수 있습니다.
+   * 대상을 한 개 이상 만든 경우 **[!UICONTROL 대상 선택]**&#x200B;을 클릭하여 기존 대상을 선택하십시오.
 
    * 기존 대상이 없거나 새 대상을 만들려면 **[!UICONTROL 대상 설정]**&#x200B;을 클릭합니다.
 

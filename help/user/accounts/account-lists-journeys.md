@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '914'
 ht-degree: 0%
 ---
 # 여정에서 계정 목록 사용
@@ -89,3 +89,70 @@ ht-degree: 0%
 1. **[!UICONTROL 실시간 정적 계정 목록 선택]**&#x200B;의 경우 계정을 제거할 계정 목록을 선택하십시오.
 
    ![계정 목록에서 제거 선택](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+
+## 분할 경로 노드 - 계정 목록의 계정 멤버 {#split-paths-account-member-of-account-list}
+
+**_계정 여정 전용_**
+
+계정별로 분할되는 [_경로 분할_ 노드](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node)에서 _[!UICONTROL 계정 구성원 목록]_ 필터를 사용합니다. 선택한 계정 목록 중 하나 이상에 속해 있거나 속해 있지 않습니다. 목록에 계정을 포함하려면 구성원 자격을 `true`(으)로 설정하거나 제외하려면 `false`(으)로 설정하십시오.
+
+차단 목록에 추가하다에서 계정을 제외하려면 _[!UICONTROL 계정 목록의 계정 구성원]_ 필터를 추가하고 구성원 자격을 `false`(으)로 설정한 다음 목록을 선택하십시오.
+
+1. 여정 맵으로 이동합니다.
+
+1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 경로 분할]**&#x200B;을 선택합니다.
+
+1. 오른쪽의 노드 속성에서 분할을 위해 **[!UICONTROL 계정]**&#x200B;을(를) 선택합니다.
+
+1. _[!UICONTROL 경로 1]_&#x200B;에 대한 조건을 정의하려면 **[!UICONTROL 조건 적용]**&#x200B;을 클릭하십시오.
+
+1. 계정 목록 필터를 정의합니다.
+
+   * 조건 편집기에서 _[!UICONTROL 특수 필터]_ 폴더를 확장하고 **[!UICONTROL 계정 목록의 계정 구성원]** 필터를 조건 작업 공간으로 끌어서 놓습니다.
+
+   * 목록에 계정을 포함하려면 구성원 자격을 `true`(으)로 설정하거나 제외하려면 `false`(으)로 설정하십시오.
+
+   * 계정 목록을 하나 이상 선택합니다.
+
+   ![계정 목록 필터의 계정 구성원이 있는 경로 조건 편집기 분할](./assets/account-lists-journeys-split-path-account-filter.png){width="700" zoomable="yes"}
+
+   계정 목록 멤버십 필터를 다른 계정 필터와 결합하고 모든 조건 또는 모든 조건을 일치시키도록 선택할 수 있습니다. 맨 위에 있는 **[!UICONTROL 필터 논리]**&#x200B;를 적용하여 조건을 구체화합니다.
+
+1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+
+[계정 노드별 분할 경로 추가](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node)에 설명된 대로 분할 경로 노드를 계속 구성합니다.
+
+## 분할 경로 노드 - 계정 목록의 개인 멤버 {#split-paths-member-of-account-list}
+
+**_개인 여정 전용_**
+
+개인 여정의 [_경로 분할_ 노드](../journeys/split-merge-paths-nodes.md)에서 계정 목록 구성원 필터를 사용하여 해당 계정이 계정 목록의 구성원인지 여부에 따라 사용자를 라우팅합니다. 두 가지 필터를 사용할 수 있습니다.
+
+| 필터 | 설명 |
+| ------ | ----------- |
+| [!UICONTROL 계정의 사용자 동적 목록] | 사용자의 계정이 하나 이상의 동적 계정 목록의 구성원이거나 구성원이 아닙니다. |
+| [!UICONTROL 계정 정적 목록의 사용자 구성원] | 사용자의 계정이 하나 이상의 정적 계정 목록의 구성원이거나 구성원이 아닙니다. |
+
+차단 목록에 추가된 계정의 사용자를 육성 경로에서 제외하려면 _[!UICONTROL 계정의 사용자 구성원]_ 필터를 추가하고 연산자를 `is not`(으)로 설정한 다음 목록을 선택하십시오.
+
+1. 여정 맵으로 이동합니다.
+
+1. 경로에서 더하기(**+**) 아이콘을 클릭하고 **[!UICONTROL 경로 분할]**&#x200B;을 선택합니다.
+
+1. _[!UICONTROL 경로 1]_&#x200B;에 대한 조건을 정의하려면 **[!UICONTROL 조건 적용]**&#x200B;을 클릭하십시오.
+
+1. 계정 목록 필터 정의
+
+   * 조건 편집기에서 _[!UICONTROL 특수 필터]_ 폴더를 확장하고 **[!UICONTROL 계정의 사용자 동적 목록]** 또는 **[!UICONTROL 계정의 사용자 정적 목록]** 필터를 조건 작업 공간으로 끌어서 놓습니다.
+
+   * 목록에 계정이 있는 사용자를 포함하려면 연산자를 `is`(으)로 설정하거나 제외하도록 `is not`(으)로 설정하십시오.
+
+   * 계정 목록을 하나 이상 선택합니다.
+
+     ![개인 계정 구성원이 포함된 경로 조건 편집기 &#x200B;](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
+
+   계정 목록 멤버십 필터를 다른 사람 필터와 결합하고 모든 조건 또는 모든 조건을 일치시키도록 선택할 수 있습니다. 맨 위에 있는 **[!UICONTROL 필터 논리]**&#x200B;를 적용하여 조건을 구체화합니다.
+
+1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+
+[사람 노드별 분할 경로 추가](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node)에 설명된 대로 분할 경로 노드를 계속 구성합니다.

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
+source-git-commit: 734966636b6d2addf014905431fa755f6fe92ee6
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 76%
+source-wordcount: '2420'
+ht-degree: 75%
 ---
 # 사용자 액세스 및 권한
 
@@ -193,6 +193,7 @@ Journey Optimizer B2B Edition 기능에 대한 액세스를 제어하는 권한�
 | B2B 채널 구성 | B2B 채널 구성에 대한 권한을 구성, 관리 및 봅니다. 이러한 권한에는 통신 제한, API 자격 증명 및 보안 설정에 대한 설정이 포함됩니다. | <li>B2B 채널 구성 관리 <li>B2B 이메일 설정 보기 <li>B2B 이메일 설정 관리 <li>B2B WhatsApp 사전 설정 관리 <li>B2B 랜딩 페이지 설정 관리 <li>B2B Forms 사전 설정 보기 <li>B2B Forms 사전 설정 관리 <li>B2B Forms 사전 설정 게시 <li>작성자 B2B 웹 경험 <li>B2B WhatsApp 설정 관리 |
 | B2B 대시보드 | B2B 대시보드에 대한 권한을 구성하고 볼 수 있습니다. 이러한 권한에는 계정 참여, 구매 그룹 단계, 급증 계정 및 연락처 적용 범위가 포함됩니다. | <li>B2B 참여 대시보드 보기 |
 | B2B 여정 | B2B 여정에 대한 권한을 구성, 관리, 보기 및 게시합니다. 이러한 권한에는 계정 및 사용자 작업, 이벤트 리스너 및 분할 경로가 포함됩니다. | <li>B2B 계정 여정 관리 <li>B2B 개인 여정 관리 <li>B2B 개인 여정 보기 <li>B2B 개인 여정 게시 |
+| B2B 개인 목록 | B2B 사용자 목록에 대한 권한을 관리하고 봅니다. 이러한 권한에는 정적 및 동적 사람 목록 만들기, 편집 및 삭제와 정적 목록에서 사람 추가 및 제거가 포함됩니다. | <li>B2B 개인 목록 관리 <li>B2B 개인 목록 보기 |
 | Journey Optimizer 규칙 | 빈도 규칙(통신 제한)에 액세스하고 구성합니다. 이러한 권한은 제품 관리자로 제한되어야 합니다. | <li>빈도 규칙 보기 <li>빈도 규칙 관리 |
 
 >[!NOTE]
