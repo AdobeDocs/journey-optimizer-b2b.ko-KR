@@ -349,4 +349,4 @@ _[!UICONTROL 사람 정적 목록]_ 및 _[!UICONTROL 사람 동적 목록]_ 필�
 
 ## 개요 비디오 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443263/?captions=kor&learn=on)
