@@ -31,14 +31,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 7%
 ---
 # 랜딩 페이지 템플릿 디자인
 
-[랜딩 페이지 템플릿을 만들기](./landing-page-templates.md#create-a-landing-page-template)한 후에는 시각적 디자인 공간을 사용하여 페이지 템플릿의 구조 및 콘텐츠 구성 요소를 작성합니다.
+[랜딩 페이지 템플릿을 만든](./landing-page-templates.md#create-a-landing-page-template) 후 시각적 디자인 공간을 사용하여 페이지 템플릿의 레이아웃과 콘텐츠를 정의합니다.
+
+## 모듈 추가
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 구조 및 콘텐츠 추가 {#structure-content-landing-page}
 
