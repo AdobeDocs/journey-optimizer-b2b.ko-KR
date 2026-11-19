@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 설명서
 user-guide-description: Adobe Journey Optimizer B2B Edition에 대해 알아보고, 기본 제공 생성형 AI와 업계 최고 수준의 자동화를 활용하여 계정 및 구매 그룹 여정을 조율하는 방법을 알아봅니다.
-source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '471'
 ht-degree: 78%
 ---
 
@@ -150,6 +150,7 @@ ht-degree: 78%
     + [랜딩 페이지 디자인](./content/landing-page-design.md)
     + [랜딩 페이지 콘텐츠 생성](./content/generate-content-landing-pages.md)
   + 콘텐츠 디자인 도구 {#content-design}
+    + [콘텐츠 모듈](./content/content-modules.md)
     + [구조 구성 요소](./content/structure-components.md)
     + [콘텐츠 구성 요소](./content/content-components.md)
     + [사용자 정의 CSS](./content/design-custom-css.md)
