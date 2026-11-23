@@ -80,7 +80,7 @@ ht-degree: 6%
 
 +++엔티티 관계 다이어그램
 
-[!DNL Adobe Experience Platform]](./assets/ajo-b2b-data-model.svg)(으)로 내보낸 데이터 세트에 대한 ![엔터티 관계 다이어그램
+[!DNL Adobe Experience Platform]![&#128279;](./assets/ajo-b2b-data-model.svg)(으)로 내보낸 데이터 세트에 대한 엔터티 관계 다이어그램
 
 +++
 
