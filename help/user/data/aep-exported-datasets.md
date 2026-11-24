@@ -23,9 +23,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 autotag-review: '2026-09-29T00:00:00.000Z'
-source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
+source-git-commit: ddeb4c1a777efa3449470a32784065a14eb6e7d1
 workflow-type: tm+mt
-source-wordcount: '4845'
+source-wordcount: '4862'
 ht-degree: 6%
 ---
 
@@ -388,6 +388,12 @@ ht-degree: 6%
 
 ### 이메일 구독 취소(`directMarketing.emailUnsubscribed`)
 
+이메일 구독 취소 이벤트는 [!DNL Adobe Marketo Engage]에서 생성되어 [!DNL Journey Optimizer B2B Edition]&#x200B;(으)로 가져옵니다.
+
+>[!NOTE]
+>
+>이 이벤트의 경우 `_experience.journeyOrchestration.stepEvents.journeyID` 및 `_experience.journeyOrchestration.stepEvents.nodeID`은(는) 항상 비어 있습니다.
+
 | 필드 이름 | 관계 | 설명 내용 |
 |------------|-------------|-------------|
 | `_id` | 레코드 ID | 활동 식별자. |
@@ -404,8 +410,8 @@ ht-degree: 6%
 | `directMarketing.mailingKey.sourceKey` |  | 전체 이메일 콘텐츠 식별자. |
 | `directMarketing.mailingName` |  | 메일 이름. |
 | `directMarketing.email` |  | 이메일 주소. |
-| `_experience.journeyOrchestration.stepEvents.journeyID` | `AJOB2B-1_5_4-person_journey`(`_id`)과(와) 일치 | 여정 id(속하는 경우). |
-| `_experience.journeyOrchestration.stepEvents.nodeID` | `AJOB2B-1_5_4-person_journey_node`(`_id`)과(와) 일치 | 여정 노드 id(속하는 경우). |
+| `_experience.journeyOrchestration.stepEvents.journeyID` |  | 이메일 구독 취소 이벤트의 경우 항상 비어 있음. |
+| `_experience.journeyOrchestration.stepEvents.nodeID` |  | 이메일 구독 취소 이벤트의 경우 항상 비어 있음. |
 
 ### 전자 메일 열림(`directMarketing.emailOpened`)
 
