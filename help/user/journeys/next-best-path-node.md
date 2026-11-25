@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 0%
@@ -331,4 +331,4 @@ _회계 분기의 마지막 30일 동안 평가 단계 활동이 급증한 계�
 * 각 경로 지정에 대한 신뢰도 점수
 * 개별 프로필에 대한 세부 사항을 확장 가능한 경로 수준 및 프로필 수준 추론
 
-여정 콘솔과 [!DNL Coworker] 채팅의 [여정 가시성 기술](../agents/journey-agent.md#journey-observability-skills)을 통해 실시간 결과도 사용할 수 있습니다.
+여정 콘솔과 [!DNL Coworker] 채팅의 [여정 가시성 기술](../agents/journey-skills.md#journey-observability-skills)을 통해 실시간 결과도 사용할 수 있습니다.

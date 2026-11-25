@@ -18,7 +18,7 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -33,7 +33,7 @@ B2B 시장에서는 보통 여러 개인이 매수 결정을 내린다. 그 개�
 
 ## 대상자 스킬
 
-B2B 계정 및 사용자에 대한 [대상 기술](../agents/audience-agent-b2b.md)을 사용하여 자사 의도 감지 및 사용자 매핑에서 구매 그룹 역할 템플릿을 생성합니다. 안내가 있는 흐름에서 제품에 연결된 담당자를 식별하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 템플릿을 게시하기 전에 자연어로 세분화할 수 있습니다.
+B2B 계정 및 사용자에 대한 [대상 기술](../agents/audience-skills-b2b.md)을 사용하여 자사 의도 감지 및 사용자 매핑에서 구매 그룹 역할 템플릿을 생성합니다. 안내가 있는 흐름에서 제품에 연결된 담당자를 식별하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 템플릿을 게시하기 전에 자연어로 세분화할 수 있습니다.
 
 **시도하라는 메시지 표시:**
 
