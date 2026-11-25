@@ -50,7 +50,7 @@ ht-degree: 0%
 * [여정 만들기 지침](#journey-creation-skills): 만들기 전에 간단한 설명을 준비하고 초안을 검토하십시오.
 * [여정 가시성 지침](#journey-observability-skills): 계정과 사용자가 활성 여정을 이동하는 방법에 대해 질문합니다.
 
-앱을 열고 대화를 시작하는 방법에 대한 지침은 [Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}를 사용하십시오.
+앱을 열고 대화를 시작하는 방법에 대한 지침은 [Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}를 사용하십시오.
 
 ## 여정 제작 기술 {#journey-creation-skills}
 

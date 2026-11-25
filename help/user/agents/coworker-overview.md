@@ -43,7 +43,7 @@ ht-degree: 1%
 
 [!DNL Coworker]은(는) 조직의 기존 [제품 권한](../admin/user-management.md#b2b-product-permissions)을 준수합니다. 이미 허용된 작업만 수행할 수 있습니다. 관리자는 사용자가 쓰기 액세스 권한을 가지는 시점을 제어합니다. 액세스 요구 사항은 [AI 액세스 활성화](../ai-coworker/enable-ai-access.md)를 참조하십시오.
 
-[!DNL Coworker]은(는) [!DNL Journey Optimizer B2B Edition]뿐만 아니라 Adobe 에코시스템에서 작동합니다. 더 광범위한 기능을 보려면 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}를 참조하세요. 앱을 열고 대화를 시작하는 방법에 대한 지침은 [Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}를 사용하십시오.
+[!DNL Coworker]은(는) [!DNL Journey Optimizer B2B Edition]뿐만 아니라 Adobe 에코시스템에서 작동합니다. 더 광범위한 기능을 보려면 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview){target="_blank"}를 참조하세요. 앱을 열고 대화를 시작하는 방법에 대한 지침은 [Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}를 사용하십시오.
 
 ## 여정 스킬 {#skills}
 

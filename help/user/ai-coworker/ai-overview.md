@@ -58,7 +58,7 @@ ht-degree: 7%
 
 지원되는 여정 작업, 승인 요구 사항 및 예제 워크플로에 대해서는 [Adobe Journey Optimizer B2B Edition의 Coworker](../agents/coworker-overview.md)를 참조하십시오.
 
-앱 열기, 대화 시작 및 채팅 기능 사용에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.
+앱 열기, 대화 시작 및 채팅 기능 사용에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.
 
 [!DNL Coworker] 채팅 쿼리를 제출하기 전에 필요한 조회 유형을 고려하십시오.
 
@@ -117,4 +117,4 @@ _Operational insights_&#x200B;는 [!DNL Coworker]이(가) 메타데이터 개체
 
 * [AI 기능 액세스 활성화](./enable-ai-access.md)
 * [질문 지침](./question-guidance.md)
-* [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}
