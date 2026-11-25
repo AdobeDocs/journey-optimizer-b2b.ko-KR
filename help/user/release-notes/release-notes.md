@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '5901'
 ht-degree: 58%
@@ -112,7 +112,7 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 | 기능 | 경험 이벤트 내역 필터링 | 이 기능을 사용하면 B2B 여정 오케스트레이션이 참여 기록을 사용하여 대상 구성원의 행동 기반 결정을 유도할 수 있습니다. [자세히 알아보기](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 기능 | 다음 최적 경로 여정 노드 | 여정 활성화 전 또는 런타임 시 대상을 여정 간에 라우팅하는 방법을 세분화하여 개인 경로에 대한 분할 경로 결정을 최적화할 수 있습니다. [자세히 알아보기](../journeys/next-best-path-node.md) |
 | 기능 | 이메일 성능 대시보드 | 이메일 성능 대시보드는 마케터에게 Adobe Journey Optimizer B2B Edition의 모든 여정에 대한 이메일 활동을 통합적으로 볼 수 있도록 합니다. [자세히 알아보기](../dashboards/email-performance-dashboard.md) |
-| 개선 사항 | Audience Agent B2B 스킬 | AI 기반 구매 그룹 템플릿 생성을 포함하여 Audience Agent B2B 기술이 업데이트됩니다. 자사 의도 및 사용자 매핑을 사용하여 구매 그룹 템플릿을 생성하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 게시하기 전에 자연어로 템플릿을 다듬으십시오. [자세히 알아보기](../agents/audience-agent-b2b.md) |
+| 개선 사항 | Audience Agent B2B 스킬 | AI 기반 구매 그룹 템플릿 생성을 포함하여 Audience Agent B2B 기술이 업데이트됩니다. 자사 의도 및 사용자 매핑을 사용하여 구매 그룹 템플릿을 생성하고, AI가 권장하는 역할-사용자 매핑을 검토하고, 게시하기 전에 자연어로 템플릿을 다듬으십시오. [자세히 알아보기](../agents/audience-skills-b2b.md) |
 | 개선 사항 | 여정 개요 대시보드 - 개인 여정 | 이제 개인 여정(Beta)에 여정 완료율 분포, 참여 유형별 여정, 드릴스루 및 내보내기 작업을 포함하여 계정 여정과 동일한 분석을 사용하는 _[!UICONTROL 개요]_ 탭이 포함됩니다. [자세히 알아보기](../dashboards/journeys-dashboard.md) |
 | 개선 사항 | AEP 관계형 데이터 세트 지원 | 이제 새 관계형 데이터 세트가 기존 데이터 세트와 함께 AEP 샌드박스에 표시됩니다. |
 
@@ -177,8 +177,8 @@ Journey Optimizer B2B Edition은 기본적으로 [!DNL Adobe Experience Platform
 
 | 에이전트 | 업데이트 | 설명 |
 | ----- | ------ | ----------- |
-| 여정 빌드 에이전트 | 신규 및 업데이트됨 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-agent.md) |
-| Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-agent-b2b.md) |
+| 여정 빌드 에이전트 | 신규 및 업데이트됨 | 여정 빌드 에이전트는 실시간으로 여정을 분석, 식별 및 공동 생성하여 마케터가 더 빠르게 실행하고 참여도를 개선하며 전환율을 높일 수 있도록 지원합니다. [자세히 알아보기](../agents/journey-skills.md) |
+| Audience 에이전트 | 신규 용어 | Audience 에이전트는 구조화된 데이터와 구조화되지 않은 데이터를 사용하여 구매 그룹을 자동으로 식별하고 빌드합니다. 마케터들이 적합한 사람들을 더 빠르고 정확하게 타기팅할 수 있도록 도와줍니다. [자세히 알아보기](../agents/audience-skills-b2b.md) |
 | [!DNL Marketo Qualifier] | 신규 용어 | [!DNL Adobe Marketo Qualifier]은(는) [!DNL Journey Optimizer B2B Edition]과(와) 통합되는 AI 기반 애플리케이션입니다. Account Qualification Agent을 구현하고 BDR(비즈니스 개발 담당자)을 위한 워크플로를 간소화하도록 설계되었습니다. 채널 전반에 걸친 잠재 고객 검증, 지원 및 구매자 참여 워크플로를 자동화합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 릴리스 정보 {#rel-2025-10}

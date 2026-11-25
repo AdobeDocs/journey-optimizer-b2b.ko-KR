@@ -28,7 +28,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -90,4 +90,4 @@ STO에 대해 **_향후 개선 사항_**&#x200B;이 많이 예정되어 있습�
 
 ## STO 인사이트
 
-STO 인사이트는 [_여정 가시성 기술_](../agents/journey-agent.md#journey-observability-skills)&#x200B;을 사용하여 _[!DNL Coworker]채팅_&#x200B;을 통해 전달됩니다. 사용량, 참여 지표, 테스트/제어 결과, 노드 성능 및 전반적인 여정 영향을 쿼리할 수 있습니다.
+STO 인사이트는 [_여정 가시성 기술_](../agents/journey-skills.md#journey-observability-skills)&#x200B;을 사용하여 _[!DNL Coworker]채팅_&#x200B;을 통해 전달됩니다. 사용량, 참여 지표, 테스트/제어 결과, 노드 성능 및 전반적인 여정 영향을 쿼리할 수 있습니다.

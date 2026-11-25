@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '895'
 ht-degree: 7%
 ---
 # Journey Optimizer B2B Edition의 AI 기능
@@ -54,9 +54,11 @@ ht-degree: 7%
 
 ## [!DNL Coworker] 앱 사용 {#coworker-app}
 
-콘텐츠 생성이 아닌 모든 채팅 워크플로에 [!DNL CX Enterprise Coworker] 앱 인터페이스를 사용하십시오. 제품 관련 질문과 운영 통찰력을 살펴보고 B2B 계정 및 사용자에 대한 [여정 기술](../agents/journey-agent.md) 및 [대상 기술](../agents/audience-agent-b2b.md)을 사용하세요. 콘텐츠 생성은 [!DNL Journey Optimizer B2B Edition] 내에서 계속 사용할 수 있습니다.
+콘텐츠 생성이 아닌 모든 채팅 워크플로에 [!DNL CX Enterprise Coworker] 앱 인터페이스를 사용하십시오. 제품 관련 질문과 운영 통찰력을 살펴보고 B2B 계정 및 사용자에 대한 [여정 기술](../agents/journey-skills.md) 및 [대상 기술](../agents/audience-skills-b2b.md)을 사용하세요. 콘텐츠 생성은 [!DNL Journey Optimizer B2B Edition] 내에서 계속 사용할 수 있습니다.
 
-앱 열기, 대화 시작 및 채팅 기능 사용에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.
+지원되는 여정 작업, 승인 요구 사항 및 예제 워크플로에 대해서는 [Adobe Journey Optimizer B2B Edition의 Coworker](../agents/coworker-overview.md)를 참조하십시오.
+
+앱 열기, 대화 시작 및 채팅 기능 사용에 대한 지침은 [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}를 참조하세요.
 
 [!DNL Coworker] 채팅 쿼리를 제출하기 전에 필요한 조회 유형을 고려하십시오.
 
@@ -78,7 +80,7 @@ _Operational insights_&#x200B;는 [!DNL Coworker]이(가) 메타데이터 개체
 * 여정에서 한 번도 사용한 적이 없는 계정 대상은 몇 명입니까?
 * 솔루션 관심사 _x_&#x200B;을(를) 사용하는 활성 여정은 무엇입니까?
 
-다음 도메인에서 작업 인사이트에 대해 [!DNL Coworker]에게 질문할 수 있습니다.
+다음 표에서는 일부 [!DNL Coworker] 기능이 아닌 Operational Insights 질문에 대해 설명합니다. 여정 생성 및 수정은 별도의 [여정 스킬 워크플로](../agents/coworker-overview.md#skills)입니다. 이러한 워크플로우는 저장된 초안에 변경 사항이 적용된 계정 및 개인 여정을 지원합니다.
 
 | 도메인 | 지원되는 메타데이터 | 지원되지 않는 메타데이터 |
 | --- | --- | --- |
@@ -115,4 +117,4 @@ _Operational insights_&#x200B;는 [!DNL Coworker]이(가) 메타데이터 개체
 
 * [AI 기능 액세스 활성화](./enable-ai-access.md)
 * [질문 지침](./question-guidance.md)
-* [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker 인터페이스 안내서](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
